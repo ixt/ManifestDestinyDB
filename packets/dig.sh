@@ -33,5 +33,6 @@ cat <<EOF> $TEMP
 }
 EOF
 cp $TEMP handshakes/$PACKAGE.$IP.json
+echo $PACKAGE,$IP,$PTRDOMAIN
 done < handshakes.csv
 rm $TEMP
