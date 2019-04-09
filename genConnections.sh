@@ -16,4 +16,4 @@ title: "${name}"
 content
 EOF
 
-done < <(jq -r ".network_connections[] | [.ptr_domain, .ip_address] | @csv" manifests/* 2>/dev/null | sort -u)
+done < <(jq -r ".network_connections[] | [.ptr_domain, .ip_address] | @csv" manifests/* 2>/dev/null | sed -e "s/\*\.//g" | sort -u)

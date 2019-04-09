@@ -23,7 +23,7 @@ fi
 
 IFS=$'\n' read -d '' -r -a connections < <( jq -r ".network_connections[] | [.ptr_domain, .ip_address, .loc_lat, .loc_long, .loc_city, \
             .loc_country, .loc_continent ] | @csv" $1 2>/dev/null \
-            | sed -e "s/\",\"/%\/%/" -e "s/\"//g" -e "s/ /%/g")
+            | sed -e "s/\",\"/%\/%/" -e "s/\"//g" -e "s/ /%/g" -e "s/\*\.//g")
 jq -r ".network_connections[]" $1 2>/dev/null >/dev/null
 if [[ "$?" -eq "5" ]]; then
     no_connections=1
@@ -70,16 +70,17 @@ EOF
 for connection in ${connections[*]}; do
     connectionname=$(echo "${connection}" | cut -d"," -f1 | sed "s/%//g" )
     if egrep -q "^N/A" <<< "$connectionname"; then
-        echo "  - $(printf "$connectionname" | cut -d"/" -f3)" >> output/manifests/$package.md
+        echo "  - $(printf "$connectionname" | cut -d"/" -f3 )" >> output/manifests/$package.md
     else
         echo "  - $connectionname" | cut -d"/" -f1 | sed "s/\.$//g" >> output/manifests/$package.md
     fi
 done
 else
-    printf "connections: "none found" \n" >> output/manifests/$package.md
+    printf "connections: \"none found\" \n" >> output/manifests/$package.md
 fi
 
 cat <<EOF >> output/manifests/$package.md
+
 ---
 
 ![$package icon]({{< param icon >}})  
