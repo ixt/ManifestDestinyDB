@@ -1,24 +1,1483 @@
 {
-    "appName": "Citymapper",
-    "packageName": "com.citymapper.app.release",
-    "category": "MAPS_AND_NAVIGATION",
-    "icon": "iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAABHNCSVQICAgIfAhkiAAAAF96VFh0UmF3IHByb2ZpbGUgdHlwZSBBUFAxAAAImeNKT81LLcpMVigoyk/LzEnlUgADYxMuE0sTS6NEAwMDCwMIMDQwMDYEkkZAtjlUKNEABZgamFmaGZsZmgMxiM8FAEi2FMk61EMyAAAgAElEQVR4nO2deZwcVbn3v+dUVXdPz549JIQkLIHs7GENl4jK6oqvsqggKOpVRLyAvPh63cUNFWQRRVFAVLhe2UQQEdk1LCEkZCEkISQkk8lk1l5qOef9o6p6ajo9+0ymJ6lvPpXuqaquOnXq108/5znPOQUxMTExMTExMTExMTExey1ipAsw2vkqmsZHLzlJJe39DMscI5DVBtRqIdNaUSEtIcyEBYBrOyjX00KQ1ZqMRrVoaPMct8nMmRtOeOfPn/hQfEsGRVx7/eAWNMuevugKEAdr1DwzZdRZMiGlkinQSYFhSSUsBAmBNIQhEEIgpQRAKYUOFoX2tMZGasdDOUBeCy/naFe5ObtZeMZyLfSqm0+47Xvxbeo7cU2V4F33n3zYpOqxR9fUjdnPdM2DlOvN1VIcmEpZSGUitC9OT3k4nounXDzt4SgXT7t4noenPbRWKDQaDYAUEqEFCDCEgWVYGMLwF+kvlmEhhMQwJFpoPFzytqPx1OvSNF/1TGdN487WjY1t25577D3/fGmEq6rsiAUdcO29V0xdP3H71amq1HzpyokoJiUrklVCSVzXIZPPkndz5LwctmfjKBs7WBzloLQvYqU9lNaE/xCgtS9ogQgqXCAJrLcwMKSJFBILC8uwMKWFJSySRpKUWUHKTJFKJLFMCyUV2WyuXRribSW9hnxr7pX9l0/+5pWf+96Wkay/cmGvFfSESydMPOGDhx8zrWL/U207f3oimRhnaMOSQkrXc8k4HTTnmsl5WXJujrzK4ygbV7koFBAIVIQyFQihQfvvoefKDe22CHbSWvvCF8E2DYYQGNIiISwSMknCSFJhVFCTqiFtpTGkgdJKeVI5dj7fmLCsB97s2Pjwc79f9sy2m7c1DGf9lSt7naDPfeT976upqTs/bVbu7yl3fipVgbIVHfk22uwO2pwWmu1mbJUPXAnluwoIpJDBUaLVFjoUA6/Mrp8vPrYv9PCfFBJDmFjSotqsoiZRS6VVRWUyjbAkdj6PMOQrWTuzrq2t5fbfv/v+Pw+wWKOSvUbQFzx53gVVVvqqhJWYILSoM4RB1s6xLbONVruZrJshr2w85SCFgRAytLuB4HTPJxh2/N+B8OujtEIL7fviIkGFWUG1VcPY1FhSiaTvuwvdbDv5hpxjf+v2xb/7zciWf/ewRwv6g4+c/uF9xk1bIj0+kEgl6lVekbNztORb2Jp9mzanFa0VGr+RJiJerh5xAfeE8F0VXbDhaK1A+C5QhZFmQmoCNclaklYSmRQ4OW+nMrx7dzRt/9sf3/XA70f6CoaLPVTQn7Q+84z7t4pEerZhGOO0q30Rd2yl2d6JrfJoFAKD0A77lLOIe8L/HdEC0J1fxYRMUJuoY1zFeNKJNMIAjd6eyWZf++WJFy0W/MdIFnpY2KMEffajZ54/qWbyxYZhnWAgsV2Hllwzb7ZvJOt1IPB94EIjjnK3xCUILHOXv7v8Kfxr0uHV+TtXGBWMqxhPdbKGpJlEaQ/HU//c3vb2rfef+ugdu6v4w80eIegzf/2BOVMPrr0pKVJHWAmrIpvL0php5O3MFjJeOxKJELJgjUediGFAdyr8iNIAChAkjCTjkuOoTdaSSlXgOm7G0fmlTRu2ffK+8x5fPXQFHhlGtaCXPHD8zAPqD/hGOpU+Q2qjxnZtGjq2sTXzNlkviyEMgFHiFwdELfAg7o6IfHHD60d3uiUJI0ldsp6xqbFYpoWWqiWTz92/rm3TNc+e/uzGwVzCSDJqBX3B0+d8v9qqPjeVSk3OZvJs72hgS2Yz7U4bCZlAiDAINsos8gDviOjHB8N4t9KKpJFkTHIs9akxJCos7Ly9Jedl7/zdiX+6YmAlGVlGpaA/9cwFr6UTlQcKMFoyzWxuf4vG/HZMYSGRhasqWyEPUa33R8TdodEo5VGTrGNscizpZCUIPNvJrblj8T2zh6CYu5VRJeiLnv74nelk6mwLy2rPtrGhbQPbc1uxZBIDA432LbIoUyEPgPB3pnBtwetQo1Ao7VGbqGdsahwViRRaaifv5H7/u8V/On/ITzhMjApBn3bPaUfPnD7lRovkYdpVvNW2iYZcAzk3iynMQnfxaKarz9v5/+5Go7GkRY1Vw5j0WKQhcYX7wpsbt138z4+UfzJU2Qv6oqfOvy5ppT6VlImKlmwrm9repCnfiCl992I0W+Ow/TccFncwhJ01VWYVdcl6UskKlPKytmvffM+S+7840uXrifKqyQgLvjNr+nGnHP/ThEicqRzNtratbOzYgNYaQ/rRi9FglQXRsEXXLeWORiGFQV2inppUDYZl4OL9+bXHl3922TVrN490+UpRlrWqv7o+dck7v76hIlExMZfP81bbRhpyDUghCwlCo0fMewZpq5K6ZB2WZeF53tu//4//3accr6/sSvTJf3/8asMxvpIwk6mmjkY2tL1BzstjSX8YU/kJuRxv69AihEBphSlN6hP1VCTTeMrLeZb67z+d8OC1I12+KGV1Lz7+5IdvqE7XfsJwjdSm1o28ndmC0irwlUe6dD5lUozdThg9kkJSZdZQk6pGGORydv6WP7/jr18Y6fKFlM39+dgTH/lHbWXNYjfvsbFtA9uyW7CE30Gyu21ycaXoEuv2RkJRaxSVZjVVVjVWyiSfsx+/75S/njzS5YMyuU8XPPGRZZWpqvmeq9jUtpHtuYYg/2L4xVwWFVDuiOhbUfiGp4wKqhKVGKaF4zgv3//ORw4dsTIWyjeCLF26NP2zzHX/rkqlZ3fkMqxveYOM14GBQVhvQ0Vxgmgs5F7opYLCloMlLSqtKhKJBI7trLj/24/OFU+MXO2O6H29+JmPrktZqZnN7c2sb3sDR9lDLuZYuH1gEPkjGo0pTNJWJalkCs/z1t3/jkcPGNoC9qdMI8RFz56/MmWmDmnraGNty2o8rTCEHJCQY9EOgCHOJ5FCUmlWkUglQKmV9y3525yhOUP/kL3vMrRs2bI0fdEz561LysQhO1p3sLZlNbofYhYllpheGMZKi45x7HDbyWazIMTs0x9d8vrjIxBi3e16+PgTH15Rmaqc3ZppY13r2s6wXDf7R33fWLwBZVgRAn8CHSkkFbKCZCqJ43grHn7343N3bzl2I+f/40PLKlOV81s7WtnQ9gaKvol5r2cUVESYkyIAISVJmSSZTOE67suPnPrEbot+7LaqOvfxsx+vTFaelM1nWN+6Dke7fu5yzKgQbF+JWuqUTGFZCTzPfeyRU//5jt1x/t2iqA///X03VFZUnmTbeTa2bdi7xSwir3tgI8AfoOuPismrPI7jYCbMJUsePv7Hu+P8xnCf4PxnPvTlikT6Mjfvmm+1b6IjjDPvTRSLdw8TcXcU5gzxIJG0Fu738anO+tvffHo4zzmsZvIh1iaFI/+fcEVqa8cW2p02DG34Dlc5L4OhVDRhpK9nBBatNShQ2sNVDq7jpoy88bXBVW7vDJupnPn5ydNarn19hWVYddvat9KQa8AQ5nCdbmjYA12AEUcHllpppCnNA86d/qlWO3NnZmWmfThON2wW+tgPn3C9ZVqTWjLN7Mg3+kOlyok4oL1bCCeb9LSH6zhoISYf+qlDbhqu8w2LoM9+9KzrTG2elcvn2Zp9G631yDUCSzXCYvHudjQaV7m4jg1KvHfx/Yt+OBznGXKX4x2/PO6IuvH1P8PD2pbZRtbNRKah3Q0UCzi6LmZkEb5vLRCYhrmgarZ537a/7xzSeayHXGkTDp58syGMiqZsE61OC1IMY0SjO7chFnDZEboeCoXnuWhUetKifX811OcZUkG//9Ez7jA8eXhHvp0ducZgLrkhQhS9j0U76ghj1K72cB0X7agjFj+waEjnrR5SQVekkh9SnmJHril4bMOA8xI7X4stbyzkUY2vC42HwnU9ksnE/xnK4w+ZoD/w9zNXCiWtHdkddLjtA/ebY7dhj8d/nowK49OJkx86dsVQHXtIBH36I6d8PyGsgzL5DO1Omx/RiHNBY7qh8NwYrXE9DyHEQcfdd+T3huLYgxb0offO2K/SrDhHa23szDfharf0wP5YvDERCt3iSqGUMpOWdc6Bf5g6ZbDHHYygBcCU9Kxvmglrn0w+Q4fTgVDdKLUMumPjpbwWrTRKKzzHQ5pyyj6JKd/BZ8DmbjCC1kdfs/DAdDpxZi6To8Vu7jKVbUxMbxRGu6Bwsg5Wyjxr9udnT4NgwwAYlMsxafHEXyiX2g6ng7zK7QVzCMUMNUr7D4/2HzWtasefUj2oMN6ABX3Cn488V2Ic4boOHU47IrbOMQNF+9ZaeQpDyCMW3Dnr3IEeaiCCFgD1ibqLpSnS7XY7jnJi6xwzYFT4TykwRWV9Tf1FwaZ+i6q/ghbgPwlPmsZiO2eT87LBuMABuz0xMb6V1hrX9hCGOEnzeLC2f6Lur6A1wGkPnfwPjSDrZvG0189DxMTsShjGU8oDDYvvu+ofhU39oD+CFgCL7lrwITNhzXZdh6yXi2yJiRkcWvui9jyFYYrZC38z6+xgU58V1m8fun7imCXA+LyXQ8XWOWYICZ97q5UHQoyvGV+zpL/H6I+gNYBwxAeVq8g62f6eKyamd7RGoVGuQnpGaKH77Hb0VdACYPGfjj3PSBpjbMdGaTXiPU3xsucuylUYSWPMkX9cEIbw+uR29FXQGiCVMK5xcx62l4/DdDHDQiFxCYWbc0knk9cUNvWBvgwnEQBH3r7gjHRN+nzPdVN5N4dGRTb36VwxMb3ga0l0vkUmpFl1SvrVhv9tWksfrHSffejqsekLtNJ1rufQNeYcizlmqNDB/7oQ8dCerqutr76wr0foy9wCumZRzRgpzf211uQ9JzhZHK2LGR5CbSmlkVojpbn/1EU1Y956rrWpt8/2ZqEFwLQvTToRxQLXcdFaFWxyGbQd4mUPXABClSlXIzQL0l+qPzHY1KMd7ZOgx1nj3iksgaOcXnaPKYVAkFHtNHpv06Fa8W9b/PvWF5RWCFMwwZhwSrBqUIIOjqrO9ByvkOoX0zc0ms3uKp7teIkFdYfxsSmf5qi643kut4xV9ktxXfaC1n79eI4HWp/Zl8/0aiaWstS68qHPt7m2l3SU48efY3pFo3jDe4X/N/0nnDfvfGpTdYVtGaeDe177A19f/V/UyYkkRHIES1reSCERCGTCyE8/Y9bY3/Lbjp727ylsJwCW/3Hpj6UpF3meErGY+87zuWX88dD7OXf++aTMimB2e/9fwkiwcOKhzEkfyl+23IdEDu+EPKMYIfwBqEIgG96/uWbzHxv+Qg+GuCeXQwAkaoxDBUJ2xp1jemOru57vzvg27zro3T3u944Z7+TGRb9iaX4FjrZ3U+lGF77boQFkoioZPtqi34IWgJp5/dR5wpETlFJopWOfrw8oFDXGOE6dcVqfpg8+fuoJPH78Y7i42LGod6GgOQ3CFRNmXj9hHnQ/i1GPjcLqMRXHKFdNVkqhRSzmvuBqh9mpQ5lUO7nPnzlp2sn88PAbeDG/Eg93GEs3etFKo101uXJM9TE97deThaaitnKmTBrVylMEMzjFSy+L1oq0TFNhpXqq911YMv0Unj7xSXY4W7BVbsSvo5wWrYIJ05NGdUV11cygyvploQWA4ZgHKC/2nfuDxKDNbaUj32NjvCTHTj2enx91Nw3ehthSl0B5CsM1Dgz+7LOgC/MaSc1c7VHoV4/pHVNYPJO9j3WN6wb0+SUzTuF3xz3Cv/OvYuv8EJdudFLI7VAaoTkkWF1y/q2eO1YMcZD2fP85ThftGwJBDVO5a80d2Gpgjbzjp57AI8c8TE5ncHXcOwt++E57GmFyYE/7dWehXQCZEEJr7fsxsYXuM7XGGH654xZueP4nAz7GKTPexfVH/YKl+RWxqPG9BDRIywhDRy4lLHSpaL4A9NF3zb1cWuY7Yx96YEw2JnHbjt9S1Z7m6KmLBjS98Iy6mZxYcxx/3vwHDEyMvbjzRSAQQiCkYNzp9S1v/8/25yiRjF9cywW/xJPy4EIrM7bOA2JRYiFXbbyS7z3znd537oaTp5/CdYf/nBfslXjsvYOSQz8aDdI05gSre/WhdbiTacn5YWdK7D8PnCOthVy98St8/9lrB5wH866Zp/KP4x9no7N8r20ohhrUSmOYLCisLhJ1cVdWYaOVNOqVXb7+s0bj4uBoB6VdDGFiCgsT059nr4xYlFzIFRuuwhImX1h0+YCOsXjaSfzGeYiL//0BJpkHDMnjpcM69LSLpz0MYfj1iFV2Riw0rFppzJRZ191+pQTt+gcQUpdhMpJAsMPbCkJzsHUo45LjSSfTZOwMTbkmVjvLsHWO8cag584eOjQsshZy2RtfQiC5dNFlAzrMu/Y/ld+YD/AfTy7hiOQcTGENuEjN3nZscsxNHEWdVU9FooKsnaPJ3sEa92XQMNaYXH7GTAMUGiQuvpdRKGTJZIMDbtxvkfZ0qtyuBeDZ3Ev836lf5syZZzJ/6gIqZLqwzdE2L295mUfeeJhrNn2VRYmFAzqHRpNVGdpVE0OZlDVDjuELa76I7dlcdszlmLL/T9c9ab+TedC5n8tf+DRVsnZAol5mv8znJ13O6TPP4oh9j6DC6KzDDred5VuW85f1D/L1Td9iUWpgdThsaA0eqf1v2O+Ydf+58dnizdEaLfzGVFRb+yulk34TsjxUrdE8n1vGL2bfwnkLPkbS2DWH2BIJjpxyFAsnH8rMlftzzovncXR6QZ9/PhWKze4qNrs2Z489iwV1hzH0I0s0jW4DT7z5OEumn9L77iU47YAzEEJy2rOnc2RqLkafhob6PJd9mZ8ech0XL7yElLlr93ylWcWiacdw6JTDmLl8fz7+6oUcnep7HQ4n4UhWrUima+VMIBR0Idphdtk/7CFUuh6lrfKQss/b7jr+sOBuzp7X+1PALGnxkbnnYkmLy1+5gMnmgb3eEEc75HUHX5/1M85beH7ZJ92fuv9pPCof5pLnz6XOmITVB0u92V3FL+fdyoULL+p136SR5GMLL6DaquYLr3yUKdasoSj20KC0JZWsj6wpSLVU2A4tjGo05kgnpYRLXuWYlTqM98x5X7+u+6xZ7+Gsuo+R8dp7Tn7Rmh3eW3xrwXVceOhFZS/mkHfMeBc/XHgrDe7aQkiruyWrOjit5jzOmdu/ucTPPOQsZlcsIl9eCVOmFkZ1UMQulioq6M4NQtaDToRjukYSgeCl3Cq+dvh3SMhEvz6bMJKcM/dcltvrerTQDe6bfHa/qzlr1nsHW9zdznsOfh+fm/Y1trubut1HIFiWX8tH5p5Dyqzo1/EtmeCrh3+Tl3KrysPt8BP+E75GCxQKVtJCY+i01v1wzIYRhQIT5o6fN6DPH77PEdBDz7FAsD63k/PmfXSAJRx5zl/wMd7INfUsOAeOntJjKnG3zB0/D8zwKbAjj9aYGDpsyXZroSOfEJVIIUb+lwVsbXNa9RIG+mDahExC2n++dKnju9qDNEyonDCwE5QBEyonQkX31+gF15gy+pejHSKk4KzaU8mr/IjrQQNIIdCislRZS8rEsOSQPnd+MHjao8asG1RnyWQLugu/KTxmJ6ZQDu7VQNFo5iSnorrpGldoagfxeysQ1Mrabo+/2xGBRktQWtAmiOBpKiP9fbSEyev5lYOaPuHtLMGo6hKtC2Gysn3zqE78kRisaH8rGMO46zUaQtIyiOm8tVa8aa/H7Ob4u3XRGiF8jZaui67sapdH2HBZIsHSltdoy7cN6PNbOraAA9395IR+55ObnhhwGUeaZ956EujlGl3Y3N59w7En2u0Onmh+fuSjP6W12LsP7bmacun11mgmWPA/a+8Z0Ocfe/1vjEn6x+nu+PMS+/PrFbfR4fZ/2NRIk3Ez/PrVXzEvMbPHaxybhMdef2xA5/jLGw9SY3Zfh7sbrXyNlqKkhfZsrVB6xH9dwmWaOZdb1v6YDc3r+3Xh63e+wV3rbmeGMbvH46dFFY/t/F9+8uyP2Jnb2a9zjCRZN8vN//oZD+/8HWlR3eM1Tjdm89t1t/F609p+nWNbx1ZuWPkjDrLmjLgOCovSvkZ9uljoqOMogr+98e+tO8WS1lFdtowgEklGt7Jl+3aOmXosFVbvsdR2p43vPf1dnmh9gFpjXK/7V8l67m66m9e3rGYfa18cbeNomw67nQ5naJd2p43WfCvVyZoB14mrHW587nouX3cFhyTm9Lq/FAabnDU0N3Vw7L7Hlez2LibrZvnWk9/g5cxzVMnaAZd1yNFgu/mnG/7U9BC+Zgv+RGnXWusM4CCwyuRXhjo5nr80382Wv2zi+lNuYt/qad3uu7l9M9c+9W3u3HEjB1oLut2vmMMSC3mtfTnvfvZ4jkkups4cM+RtCA+PLfZb3HLiL9mnemAZgXmV5/alv+KL6/+Lo1N9v76J5n78oelG7Mdsrj7uGqbV7tftvi35Zj77yCX8s/3P7GOUUbe3n7XhBBrdhWJBawDPVc06qW3BIPITh4GJxnQ2OK8z7X/24xsH/DfvnfF+KlOVWIaF4znkbZuHNt7P5auv4ODE1H6JGXwfMS2rmCMX0OQ20uhuG9Lye9phu3qDh096ifmT+le2EBeXHzx1Ldds+Gq/xBwy3VzAk62Pst+ff8EPDrqWM2a8h2QySdJIYHsO7bl2nnzrH3x65X8yNzG9vMQcoNG256rmwp8RRNF7E3Bm3zr9c1U1Nd8QiNrC7mUSlwZfeNvcjWxULRxXcRjjzInscBt4KvcCU0gwxTq4LLppo3jaZWn7Cl5491IOm3L4wI6Bx+0v/JpPrLiIRamFg2qkhVP9btY2S9LHM86cSJPbyKOZJxgHzLDmIctpoEREhxrd0t7a+pWVF2+4HrDw86I1dONyuKidgFMu7kYxAsEkczqTgLybZ5O7AYnk6H5a5N2Fp106dBvLTnuZ+ZMHVsa8l+enz/6YK9ZfNWgxg1+HU81DmAo02ztpshvLug4LaEDguEqVbL2Xdjl2uG+IWpH3O1ZEWVnnYgxhDsFgpOHD0x5L21fwyunLmDdp/oCO4eLy6xdu44o3ruLo1IIhD5/5HSZlkbrTPYWMZ40QIp9rccOQV5fKKPWbItddteUZBHkdKrlMLXW542ibTd4Knn/ncwMWc97Lcevzt/Cfaz8zIJ95j0GHLwItyL95xZanKaHfUl/LJJBVUivhiYKRjukfSnu86LzGiye/wKH7HDagY3h43PT8TVy29oscVbEgtiuBFrUsxKCTFOVSlnQ5ALwOtdNMGGgdT2MwEJZmX+Wpk54csJhd7XLHi7/lsnVf5KjUgvhXUuNrUQi8TBf/uVeXw/ejbWe5iHU8IN5wlnHLnJs4dvpxA/q8p12ue/qHXPDqhRyV2IvdjBIIAV7eWR78ucvXvHhMYQHlqVUIP7up4JDHAu8VhcdUaxbH7HvsgH7ZFIo7XryDK9YNTwNwVBJWgdYgBJ6rV3SzR8mZkzTA8k+t/b4onXIa0wP+DP4LmFy3T78/a6s8P3v2Bj6+8gKOSs2PxVwCIQWvXrLmR3Sa2S6VVKpRqIFqoM2zPY1GaKWDpxHF9IbWGktY/Z5zQ6G4femv+fyqSzmqYn7sM0cJ/Gc0uHkvHGVQBewyL1qPJtiz1VohRVy5/UBi0OTsoC3X9/xtRzn8+t+/4pOrLvHFHLMr2rfOylWvd67ZlVIuR/g0FRB6hZDl3bFSblgiwWPZh1mzbXWf9tdobnruZ3zi1Ys4KhGLuVuEL2iheS1Y01WrAd1ZaAXgmN6acOYwHR4ipldmyhncvPIG8m7PM4VqNL976S4uXXNZbJm7I6o9CY7pruncsivdNQoVQG5H+3ovq9oojC+M6QtpWc3zrX/j3Ic+SHO2ueQ+rfkWfvTUDzj35fM4KhWLuUeCSJubU+3tO9vDLu9drDOUnsFfBouXOiSpqvepOk0KOQaCx9TG7kefqDbGsC67glfeWoFnK9LJNI62acg0sPTNf3PLyzfxjU3f3ru7s/uBQIDQG3e+1vLjtmczW+lM7Fdd99sViR/9sICOI+6c85TEOE5rTexP95+s6mCbWsd4MR1LJHG0zQ69nnq5LzVyTBya6w0NYZRN4T299NwVxwOV+F3eLkWC7ranMHzNNOeXKU+prmtj+kqFrGS6OZ8KowpTmlQYlUwz51Mt62Mx90ZEc0oplWvLL9t1S1dK2dtwbKEFZCcxab997xy/Go8kkk4rHd+LmOEk0JhW2rfBBvmGC1sP2ZjfuB6owLfQHn2McoSNw9qtbN3o5txGBF0fjxwTM5xEwxMC3JzbGIi5lh5U2J3LER5KAXiuflCYsnNrTMzuINCaMCTa4aFgbbQhuIsae+opLHywyWv6i8qr4Ag6FnXM8KMptDGUo2hUO4oF3WcLTWRnBVhNP21/Xmu1PPadY3YrQYan8tSrO37S9i/8dl231hl696E1kMqsyrxtu+7rBNmkhdniY2KGg0Bj4Vyhjueuza7ObgFSdNXmLvTkcnTxo1s3ttyh0c2i20PFxAwhGj8dH93curHljmBtj+4G9N5NYtHZydK68BeHrLYS5kEQhO/idOmY4UAF4TrAtd01L1302iyghs7OlG6fydCbJLt0LWZ3tnxXWAKt4sZhzDARNAa1AmEJMjtbvhvZuktXdzG9WehoN7gE2g6/bU6TMGS9ECAM0bejxMT0hXCqAs/3n7Wnd75w4atj8AecKLrp7o7S27CKqB9tArjKvTdhJi5CgRbxSJaYISQMOCj/4ceOcu4Ntkg6hdyjX9CbyxEVtAJo29r8d+2pRqCXAEpMTD+IBooB7anG5i07H4+s7bVBCH1zFiSduR0JoHn+zQc9kUglTwR/S5xWGjNoQuscjBjMZ+ynln9m9QlAHWDTmbvRow/dlzhFtCvcA8hcUnemVqprPDq20jEDJaIhrTVaKbZ/puX9wdpQxH0KGPdV0KG594Bxr/OvVjfvPSkNgfaCEEs03B0v8dLPRSuN9r9lIBIAAA2ESURBVEAaAtfxntzK1u3AODoF3au7AX2PJOvIQR2Axp1Ntzo5L0vgxBf2ionpD6FmFKA1Ts7LNu5oujVY69APMUP/ukaiVrpu89UNv1VaLQV/QscwEB4T01+0Crq5ESitlm6+uuG3+L5zl4BEX+iPhYZOQWuALTc2XqpRrQRJ2KP5aawxI0MYpkNpNKp1y42Nl4ab6BpzHnILHXo8BV+6cVnjS3a7/aC0RGcDMdZ0TF8J/WetkZbAbncebFzW+BJdfed+qaq/k9+LyCIBkU07L9ZOr/6glKIaIUAEUxTGYbyYntAEmZv+e9dWb69/bPPH7NfsLL62omG6Pgu6v+lFUQvtAum2e9vW2rnMXdrTHp4GFZw/ttQx3aGD/5QCT6M97dm5zF1t97atBdL42uq3mKH/djS0zgZ+V3gy+Hvn/BtnrbJS5iwQCDPubInpgcDN0K7/h5NzV7/ymdUHA/X+VvJ0irpfLsdAJBeK2sTvOUwAOSBz+C/n2mhtCUPEPYgxpQnEjIefhCRwXvzEigS+ZU7h9wradD6qrV8WeiAZzdGIhxssVQC59uwfNRSGnsdRj5hiwqiGVv6IwXxH7p5gUxWdehpwz8ZA7WfUSkddj6aFPz/kRSnloWF6aWEej9hS79106RH0485KqZde/uRrhwFj6OpqDMg6Q/+jHKWIijubr8wvr51Wfa4UwgxFHKeYxhTEHPx6K0/lNj7+1odzr9qb8N2NMNe5335zlMEOoiqOekzaeXfbM7lM5lYE6KBo8aDavZyIBrQHCMhlMrfuvLvtGWASg4hqFDNY01nseqSC14YFNx10v2GYZwghEKaIR7fsrQTy1J5GuxqtNZ7nPrDs02vOBCbgiznHIF2NkKF6qrAoWvTOlW3Pjz269kPSklVof23B9YhFvXcQijnwmxHg5b1tr31/wzles9eBb/xCIZeFhQ6PEfYcJui01A3Avgt/dshaacmkMCKNxKE6c0z5UiRm7YFyVP7lz752ILAJ3zqHltlmiGZOHIqJCKKZreG3zcH3jTbl7Oy30Dqvw7hjGMqLfeo9l/AW604xo3U+Z2e/hS/mSXQ2AqNuxqBVMVQuB+xqcwVQ0/jX5odqF1fvY1VYR/ozSYrY/diT6SLmzkZgpiV366rL118JTKTT6EUHvg6JiRtKOUVdj2gvYgLYMudHB/4jWWktptBIjEW9x1EsZtfPPspnnCdWXLb2JGAfOnsCw97AshV0eLxo1MPC73TRwPZ5Pz5wmZX2n10mTIE0Il3jsahHN7rzVQURDQAnY7+y/AtrFwDj8e9yntLuxpAw1JN5hYUL49IO/jdRAGOXf2HtAqfdWYUA7Sr/wmOfevQTscy+mBUIcNqdVYGYx+JrIBy9PegOlO4YSh86iijxPgkYzhPqDzUnV7xXmrLeH0MuQA7kMe8xZUM4tsMN3AwBXs5bv+kL25fkyAk6k46iuRrDMhxkuHQUHjdMM4361DuB/ILrD37NSMiD0QJhCUT4/JbhLFXM0BINzSnQjgah8Wy1atnnVh2Cb8Tq6eozh9Y5coShYzilU9xIDCeqSQJNQG7BT2e9YSSMGX5DMYhTxw3F0UFxaM4FtMbLe+uXXbp6Jr5VHoPvM0ddjWF9Us9wTogbHYMYfjNt/AusB1Jvfr7hJKfdXoXu/LkqjB6PferyJWqZ3VDM4LTbq968tGExvpjr6RTzsLsaIbvDDkYjH+GUYqG1zgLNc390wDIrlZgvBIH7Eed+lC3R3Ayl0Y6fCurk7Vdevez1BfjTD1TQaZXDsYFDHtEoxe6Ysjwa+QgvLIyApIHxr37x9QX5bP6fCN8P067u7FWMLXX5oKMuhg58Zshn8/8MxDyerqmgob88LBGNUgxXlKM7SnVxmkDV9kd23lBzbOVEK2nO12CGCU0Qd8CMOF0af76L4ec163ymOXvrqivXn43fnR2O1h728Fx37G5BFxNepAnU73is+Xc1i6uEiXGsMISJKu53iRW929GA9qMYhJZZgbJVPpPNfWvNlzdcCewb7Bm6GMXZc7vtd3YkFBJGPsLoRxjSs/C/YJuB6fOvO+g5wzImIiP51BKkEH7txNoeXnxvAhWOAQx7/7TGs71tr1y2ZhGwAZiCL97QMkcbgINOB+0vI2mhQ6ei+LUeeHPn4/b99SdXzpCmPEgHQyYFvphjF2SYibgY/nCpIJ8ZsG3vwTU/efsjXrO9DphK10SjcHLF3epmRBlplwNKX3Sd59nNDX/dcVvVsamxpmktEIhOv7qg51jYQ0oktuwPlwr8ZU+jXJXraG2/afUV68/3mm2F350dijjaCBzRJ8KXg6Cha2MxrIgUUNf099bf26b3RPXM9KFCM1kH064CcRrqUFKckB/Glz2Np9RLbz3acM6Wm7fdgu8vm3TNmtstnSZ9oRxkEO1RLO4qD99vAbyDr51xVzKd+qCQwhKCLr51LOwBErXKEV85mCLZyWdy96y6cv05+PdnKp3iLe7KHnExQ/nc/rAcoajDDpiwy9zCr6jNAHN+eMAqwzIPkIY0ughb+DkhXY4YU5qCRcaPYkSErDzleY73+orL1x4c7D0Fv0aj7kXYYRJ97smI9xqUi8sBnQ1DSryCL/Z6ILX9kaZrq09I1xrSnC4TshpHo6O7ioh/HR45pkttdpnByNW+PA2Bl3O3ZjPZX6y+cv1Z+OP+xtL55IZS/nLZiBnKS9BRin3q6E+ZBdQ0PdZyT0bnHqyYmBgnLWOa0CT9Z710zVwtzHGzt4s6apELfrKfl44CpXRrriX3pzcf2Xbh1lu334nvXhh07Sgpm8Zfd5TrbY761eESuh5mZLGBrTWza47a94IJP5SGebiZlBVaa98NkYELsjdn8UV9ZC9I8wysshACN6+ySrkvbLqt4fLWla3/wu/xS9Ap3Ggko/h5gWUlZij/2xsVddhgDP3r6GsL0Dz+6rEfnVA75pNG0jhOGv7AAaT/ZCUhI43HPd1qRxy2qGuhPF14/IPyNF7ee7qhpenn27+94zf4SUW1dHaSRF+jDb+ycjGKGQ23tJS1NkssAn/wQHuK1LTp39nnjkQqMVuaYmxhpLkRDCIwRPCwAbFnTSQZ2Eytg4fwhBlxhW4OjXL1Djtnr9zw5S3n5ci9iT/rZzgvs1tiKXurHKVcfehSFFdktIIVviwrgDEubnvjYztv1HPcLVY62YwnZhgJmdJe58yXgsB6FXfSwOgReHEjL+gMQYFyg8ae8gdOuDmv2Xadu7Zvbrl54zffuszFNfGnFEjg118YhoumfI4KqxxltNw66OooCPwvYzTMZxa9SqAZaAWY9qUJF1dPqP0vIyknCCFqhZSA9sczhhZb4s8bIgOBl5trEnUl0IVn+2nl9zX5Yva7U4Mn/bZ4edXQ1tDy/Td/0BA++6+GzkemRd2JaKpnqe7rshczlM+t6i/duSFh4zEq8jAyvRFg4sX1H6o7sO7DlrQOlIacKxMyEAFBLBtf5NHXQo+khu6mBi5e3dvt7+v+OhBoaIE1fpQieC1YZfzyKluhPPWq4zprm9c1373t1p1/CI60X/AajiAKxetE1o0q96IUo1XQ0NV+FgvbKFrMyPZGoD2ZTO5fe1Vq3lg59gyRNN5tpoxxaCwhhSxYajRCykDc/joh/MhgIWjSU/Sku9otJZNoNAJfuCIUcNiw06BV4F0FfrL2tELguDmvUTvewzvcHQ+0fDe3PJ/Pr8P3j8fRKdKokKMDLoqF3F0py57RLOiQ7oRdLOroIvFvZBZ/wC51VM4f+5Wxn07VJ+dJJSeh9SSjwqxE+102Iry9hUiJAKF910SGp/ctuAhzL7sUL0QXXnQgzMJnVeBK6FCwuuC96tADEgIv63YgxFZPqm35lvwrO76246ZmOl4JTjAGvy1h0uk6dLfsMUIO2RMEHRLtPi8O9xWL2aCr+CXQgT9jKvXvqT62YlZqYdX49HTDtWZJLebIpNzfSBgUBB6cTAdnlpHMv6gihNCdKwToSMePKBwAlK/wLsctCNj2UHm1Tgm9wjOd1e3bMxuy63Iv77y37Zlg9wlAJV0FGoq5lKijIh41Db6+sCcJOkqxjx3+HboexQ3KqLDBb/G3Ae3FB57x5X2vtix5kExZc8yUrJNaGBqRROgkCkuDKdAJEKYM80uCWg7dB+Vp8Ls2bAEuEgct8gKdV0J7bk41q5yzwnHUmvXf2fTtEtdXBVTjRyhgVxFHhRy6GtGI0Kj1kXtjTxV0SDRVKYyMRDP7urPWxVY+rKc8QYJUlDHn1L4jNSUx1TKMeilkJQlRK5GV0hIVwhBSmH4xtKvQnlbK0VmF6sDWLUqrDsfzduY222813dXytxLXMAV/LhPYVZDFFrnYKof7FUcs+vww+NHGni7okGJ3RLCraIv97+J9RIkFfLHYQCZYwlmB+oqBP1I6jW9xw76BUrksqui12A8uFnv0c+Ex92j2FkFHKRZlbyKP/g2lxU2J1+L3UXSJ99HXYhFD95a5lHhLJXXtFeyNgo5SyuqGAobSYi/+m6L30Pd6LRa2KnpfyjoXi7yUJd+rRBxlbxd0lFLWttgH726h6LU/gu7NQpcSarELsVeLOEos6O7pSag9uRpD4XKEr929Lz5GTMD/B7WlvNWTdf8XAAAAAElFTkSuQmCCiVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAZiS0dEAP8A/wD/oL2nkwAAAUpJREFUKJGdkbFKA0EQhr+Z3btLY5VnsNHCVpAIGsTGRuxtfAML67TJqwRRJI0BCShCWgt9BUFIIVaX3O5YXC56MYU6MLDz8/8z/8zCP0Oqx9blw3EzSy5A4mqq6SSf9Z5OWlcAvoKbWdJN0nTdYqWrelpZqdKELlAXiohYCFiMIIIZHyXOGmZghogsHOpCaGVrcQ6XZhQx3hUx3rk0Q5yrcWoTK9E0n94W+ez55fGlA7Cxs9HxKptplh4SvtavCS1EvMphbmE06Z19AISbx7eG+nML9ZtprcJQ72moa1dIQ11bvV8caeVEADMIxuvBYPwOMDWuvS2zvglNUBAsFGSJP2X+LZnqqYUCUTfnLFnNQ+yLU8Q5LATMrMwQEOcQp+Qh9heHXLawNxjfJz5piZRrGTArZg+jo+3dn4ZXxP5gPNwfjIe/Iv8lPgGlE4Jnx+jdPgAAAABJRU5ErkJggg==",
-    "permissions": [
-          "android.permission.WRITE_EXTERNAL_STORAGE", 
-          "android.permission.READ_EXTERNAL_STORAGE", 
-          "com.google.android.providers.gsf.permission.READ_GSERVICES", 
-          "android.permission.USE_CREDENTIALS", 
-          "android.permission.GET_ACCOUNTS", 
-          "android.permission.RECEIVE_BOOT_COMPLETED", 
-          "com.google.android.gms.permission.ACTIVITY_RECOGNITION", 
-          "android.permission.ACCESS_FINE_LOCATION", 
-          "android.permission.ACCESS_COARSE_LOCATION", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.INTERNET", 
-          "android.permission.WAKE_LOCK", 
-          "android.permission.VIBRATE", 
-          "com.google.android.c2dm.permission.RECEIVE", 
-          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" 
-    ],
-    "version": "8.0"
+  "appName": "Citymapper",
+  "packageName": "com.citymapper.app.release",
+  "category": "MAPS_AND_NAVIGATION",
+  "icon": "",
+  "permissions": [
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "android.permission.VIBRATE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "8.1",
+  "trackers": [
+    "MixPanel",
+    "Facebook Login",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "Flurry"
+  ],
+  "network_connections": [
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-20-151-187.compute-1.amazonaws.com.",
+      "ip_address": "107.20.151.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-20-181-51.compute-1.amazonaws.com.",
+      "ip_address": "107.20.181.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-20-233-56.compute-1.amazonaws.com.",
+      "ip_address": "107.20.233.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-21-208-140.compute-1.amazonaws.com.",
+      "ip_address": "107.21.208.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-21-239-97.compute-1.amazonaws.com.",
+      "ip_address": "107.21.239.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-21-240-115.compute-1.amazonaws.com.",
+      "ip_address": "107.21.240.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-22-161-209.compute-1.amazonaws.com.",
+      "ip_address": "107.22.161.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com.",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-22-230-131.compute-1.amazonaws.com.",
+      "ip_address": "107.22.230.131",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-107-22-241-65.compute-1.amazonaws.com.",
+      "ip_address": "107.22.241.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com.",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "87.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.135",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "88.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.136",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "8e.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "8f.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.143",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "94.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "97.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.151",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "9d.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "9e.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.158",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "a1.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "a9.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.169",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "aa.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ab.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.171",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "b4.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.180",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "b6.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.182",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "b7.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.183",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "c1.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.193",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "c4.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.196",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ce.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "d0.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.208",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "d1.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.209",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "1a.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.26",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "8b.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.139",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "a4.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.164",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "b5.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.181",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "bd.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.189",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "c2.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "cc.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.204",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "lga34s15-in-f14.1e100.net.",
+      "ip_address": "172.217.10.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ams15s30-in-f131.1e100.net.",
+      "ip_address": "172.217.17.131",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ams16s29-in-f3.1e100.net.",
+      "ip_address": "172.217.17.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ams16s30-in-f67.1e100.net.",
+      "ip_address": "172.217.17.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "lhr35s01-in-f14.1e100.net.",
+      "ip_address": "172.217.23.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "fra15s22-in-f3.1e100.net.",
+      "ip_address": "172.217.23.163",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-174-129-0-175.compute-1.amazonaws.com.",
+      "ip_address": "174.129.0.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-174-129-222-182.compute-1.amazonaws.com.",
+      "ip_address": "174.129.222.182",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-174-129-29-44.compute-1.amazonaws.com.",
+      "ip_address": "174.129.29.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-174-129-40-191.compute-1.amazonaws.com.",
+      "ip_address": "174.129.40.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-174-129-9-155.compute-1.amazonaws.com.",
+      "ip_address": "174.129.9.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-184-72-246-24.compute-1.amazonaws.com.",
+      "ip_address": "184.72.246.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-184-73-184-4.compute-1.amazonaws.com.",
+      "ip_address": "184.73.184.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-184-73-208-112.compute-1.amazonaws.com.",
+      "ip_address": "184.73.208.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "lhr35s03-in-f14.1e100.net.",
+      "ip_address": "216.58.201.14",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "lhr35s04-in-f33.1e100.net.",
+      "ip_address": "216.58.201.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "lhr35s04-in-f46.1e100.net.",
+      "ip_address": "216.58.201.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "par21s05-in-f131.1e100.net.",
+      "ip_address": "216.58.204.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "lhr35s07-in-f14.1e100.net.",
+      "ip_address": "216.58.204.14",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "lhr25s15-in-f14.1e100.net.",
+      "ip_address": "216.58.206.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "lhr35s11-in-f14.1e100.net.",
+      "ip_address": "216.58.206.78",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ams16s22-in-f3.1e100.net.",
+      "ip_address": "216.58.212.227",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-21-171-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.171.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-21-203-99.compute-1.amazonaws.com.",
+      "ip_address": "23.21.203.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-21-41-124.compute-1.amazonaws.com.",
+      "ip_address": "23.21.41.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-21-47-29.compute-1.amazonaws.com.",
+      "ip_address": "23.21.47.29",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-21-64-174.compute-1.amazonaws.com.",
+      "ip_address": "23.21.64.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com.",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-23-156-165.compute-1.amazonaws.com.",
+      "ip_address": "23.23.156.165",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-23-164-24.compute-1.amazonaws.com.",
+      "ip_address": "23.23.164.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-23-175-28.compute-1.amazonaws.com.",
+      "ip_address": "23.23.175.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-23-184-36.compute-1.amazonaws.com.",
+      "ip_address": "23.23.184.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-23-192-27.compute-1.amazonaws.com.",
+      "ip_address": "23.23.192.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-23-234-198.compute-1.amazonaws.com.",
+      "ip_address": "23.23.234.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-23-96-77.compute-1.amazonaws.com.",
+      "ip_address": "23.23.96.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-23-23-99-56.compute-1.amazonaws.com.",
+      "ip_address": "23.23.99.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "edge-star6-shv-01-lga3.facebook.com.",
+      "ip_address": "2a03:2880:f012:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "edge-star6-shv-01-frx5.facebook.com.",
+      "ip_address": "2a03:2880:f02d:e:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com.",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com.",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com.",
+      "ip_address": "31.13.86.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com.",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-34-192-121-133.compute-1.amazonaws.com.",
+      "ip_address": "34.192.121.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-34-249-58-66.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.58.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-34-253-50-141.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.253.50.141",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-46-137-167-97.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.137.167.97",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-46-137-184-170.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.137.184.170",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-16-191-218.compute-1.amazonaws.com.",
+      "ip_address": "50.16.191.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-16-193-231.compute-1.amazonaws.com.",
+      "ip_address": "50.16.193.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-17-188-214.compute-1.amazonaws.com.",
+      "ip_address": "50.17.188.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-17-219-135.compute-1.amazonaws.com.",
+      "ip_address": "50.17.219.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-17-228-124.compute-1.amazonaws.com.",
+      "ip_address": "50.17.228.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-19-104-138.compute-1.amazonaws.com.",
+      "ip_address": "50.19.104.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-19-124-91.compute-1.amazonaws.com.",
+      "ip_address": "50.19.124.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-19-211-198.compute-1.amazonaws.com.",
+      "ip_address": "50.19.211.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-19-220-208.compute-1.amazonaws.com.",
+      "ip_address": "50.19.220.208",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-19-238-176.compute-1.amazonaws.com.",
+      "ip_address": "50.19.238.176",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-19-83-84.compute-1.amazonaws.com.",
+      "ip_address": "50.19.83.84",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-50-19-93-130.compute-1.amazonaws.com.",
+      "ip_address": "50.19.93.130",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-16-54-34.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.16.54.34",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-17-217-146.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.217.146",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-17-237-223.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.237.223",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-18-122-81.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.122.81",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-18-125-160.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.125.160",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-208-107-227.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.107.227",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-209-239-16.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.239.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-30-105-159.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.105.159",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-30-141-14.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.141.14",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-30-191-64.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.191.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-31-225-188.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.225.188",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-31-31-108.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.31.108",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-48-114-182.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.114.182",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-48-116-182.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.116.182",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-49-151-47.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.151.47",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-52-49-190-137.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.190.137",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-163-254-184.compute-1.amazonaws.com.",
+      "ip_address": "54.163.254.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-171-47-182.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.47.182",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-171-82-86.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.82.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-194-102-99.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.194.102.99",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-197-246-125.compute-1.amazonaws.com.",
+      "ip_address": "54.197.246.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-217-212-23.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.217.212.23",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-217-225-64.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.217.225.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-217-241-99.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.217.241.99",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-225-136-132.compute-1.amazonaws.com.",
+      "ip_address": "54.225.136.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-225-212-15.compute-1.amazonaws.com.",
+      "ip_address": "54.225.212.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com.",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-228-248-194.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.228.248.194",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-235-104-210.compute-1.amazonaws.com.",
+      "ip_address": "54.235.104.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-235-197-195.compute-1.amazonaws.com.",
+      "ip_address": "54.235.197.195",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-235-221-79.compute-1.amazonaws.com.",
+      "ip_address": "54.235.221.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-235-95-147.compute-1.amazonaws.com.",
+      "ip_address": "54.235.95.147",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-243-103-215.compute-1.amazonaws.com.",
+      "ip_address": "54.243.103.215",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-243-112-174.compute-1.amazonaws.com.",
+      "ip_address": "54.243.112.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-243-126-239.compute-1.amazonaws.com.",
+      "ip_address": "54.243.126.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com.",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-243-180-96.compute-1.amazonaws.com.",
+      "ip_address": "54.243.180.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-243-186-144.compute-1.amazonaws.com.",
+      "ip_address": "54.243.186.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-243-252-170.compute-1.amazonaws.com.",
+      "ip_address": "54.243.252.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-243-73-224.compute-1.amazonaws.com.",
+      "ip_address": "54.243.73.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-243-78-111.compute-1.amazonaws.com.",
+      "ip_address": "54.243.78.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-246-111-97.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.246.111.97",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com.",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com.",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com.",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citymapper.app.release",
+      "ptr_domain": "ec2-75-101-164-173.compute-1.amazonaws.com.",
+      "ip_address": "75.101.164.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
 }

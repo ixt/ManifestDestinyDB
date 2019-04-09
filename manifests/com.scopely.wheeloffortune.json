@@ -1,0 +1,567 @@
+{
+  "appName": "Wheel",
+  "packageName": "com.scopely.wheeloffortune",
+  "category": "GAME_WORD",
+  "icon": "",
+  "permissions": [
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.NETWORK",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.VIBRATE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WAKE_LOCK",
+    "com.scopely.wheeloffortune.permission.C2D_MESSAGE",
+    "com.scopely.wheeloffortune.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "3.38.1",
+  "trackers": [
+    "ironSource",
+    "Google DoubleClick",
+    "AdColony",
+    "Google CrashLytics",
+    "LeanPlum",
+    "Unity3d Ads",
+    "Inmobi",
+    "Facebook Places",
+    "Moat",
+    "Millennial Media",
+    "Adjust",
+    "Google Firebase Analytics",
+    "AppLovin",
+    "Facebook Login",
+    "Facebook Share",
+    "Twitter MoPub",
+    "Facebook Ads",
+    "Google Ads",
+    "Facebook Analytics",
+    "HelpShift",
+    "ChartBoost"
+  ],
+  "network_connections": [
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "a104-85-208-205.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.85.208.205",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "a104-85-228-177.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.85.228.177",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-107-22-242-137.compute-1.amazonaws.com.",
+      "ip_address": "107.22.242.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-13-56-43-41.us-west-1.compute.amazonaws.com.",
+      "ip_address": "13.56.43.41",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "157.240.0.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.61",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-184-169-141-161.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.141.161",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-184-169-172-7.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.172.7",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-184-72-32-80.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.72.32.80",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-23-21-171-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.171.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com.",
+      "ip_address": "23.23.112.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-23-23-248-196.compute-1.amazonaws.com.",
+      "ip_address": "23.23.248.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "a23-55-40-177.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.55.40.177",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "a23-55-41-20.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.55.41.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::1717:9cf5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::3213:fc75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::6b16:fa96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::b849:d738",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:202d:9000:16:c560:d6c0:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "sfo07s13-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4005:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "sfo07s13-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1::b",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-50-16-229-115.compute-1.amazonaws.com.",
+      "ip_address": "50.16.229.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-50-19-254-57.compute-1.amazonaws.com.",
+      "ip_address": "50.19.254.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-52-201-108-252.compute-1.amazonaws.com.",
+      "ip_address": "52.201.108.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-52-207-66-188.compute-1.amazonaws.com.",
+      "ip_address": "52.207.66.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-52-52-244-101.us-west-1.compute.amazonaws.com.",
+      "ip_address": "52.52.244.101",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-52-6-6-185.compute-1.amazonaws.com.",
+      "ip_address": "52.6.6.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-52-84-243-137.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.137",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-52-84-243-219.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.219",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-52-84-243-225.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.225",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-52-84-243-246.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.246",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-52-84-243-54.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.54",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-52-84-243-73.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.73",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-52-84-245-42.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.245.42",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-54-146-38-96.compute-1.amazonaws.com.",
+      "ip_address": "54.146.38.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-54-153-67-50.us-west-1.compute.amazonaws.com.",
+      "ip_address": "54.153.67.50",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-135.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.135",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-148.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.148",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-149.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.149",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-243.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.243",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-36.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.36",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-4.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.4",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-59.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.59",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-73.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.73",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-75.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.75",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "server-54-192-119-84.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.84",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-54-225-157-1.compute-1.amazonaws.com.",
+      "ip_address": "54.225.157.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.scopely.wheeloffortune",
+      "ptr_domain": "ec2-54-243-47-194.compute-1.amazonaws.com.",
+      "ip_address": "54.243.47.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

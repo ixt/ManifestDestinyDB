@@ -1,0 +1,1941 @@
+{
+  "appName": "Business Calendar",
+  "packageName": "com.appgenix.bizcal",
+  "category": "PRODUCTIVITY",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_SYNC_STATS",
+    "android.permission.READ_SYNC_SETTINGS",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_NOTIFICATION_POLICY",
+    "android.permission.READ_CALENDAR",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.READ_CONTACTS",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.appgenix.bizcal.permission.C2D_MESSAGE",
+    "com.appgenix.bizcal.data.permission.ACCESS_PROVIDER",
+    "com.appgenix.biztasks.data.permission.ACCESS_PROVIDER",
+    "com.appgenix.bizcal.permission.C2D_MESSAGE",
+    "com.appgenix.bizcal.data.permission.ACCESS_PROVIDER",
+    "org.onepf.openiab.permission.BILLING",
+    "com.sec.android.iap.permission.BILLING",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.VIBRATE",
+    "com.appgenix.bizcal.ui.permission.PermissionActivity",
+    "com.appgenix.bizcal.ui.permission.PermissionWhiteActivity"
+  ],
+  "version": "2.33.2",
+  "trackers": [
+    "Google Analytics",
+    "Inmobi",
+    "Moat",
+    "AppLovin",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google DoubleClick",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-20-135-85.compute-1.amazonaws.com.",
+      "ip_address": "107.20.135.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-20-139-157.compute-1.amazonaws.com.",
+      "ip_address": "107.20.139.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-20-183-135.compute-1.amazonaws.com.",
+      "ip_address": "107.20.183.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-20-216-11.compute-1.amazonaws.com.",
+      "ip_address": "107.20.216.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-20-220-57.compute-1.amazonaws.com.",
+      "ip_address": "107.20.220.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com.",
+      "ip_address": "107.20.235.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-21-115-231.compute-1.amazonaws.com.",
+      "ip_address": "107.21.115.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-21-116-9.compute-1.amazonaws.com.",
+      "ip_address": "107.21.116.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-21-118-233.compute-1.amazonaws.com.",
+      "ip_address": "107.21.118.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-21-202-10.compute-1.amazonaws.com.",
+      "ip_address": "107.21.202.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-21-240-115.compute-1.amazonaws.com.",
+      "ip_address": "107.21.240.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-21-248-175.compute-1.amazonaws.com.",
+      "ip_address": "107.21.248.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-160-142.compute-1.amazonaws.com.",
+      "ip_address": "107.22.160.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-160-16.compute-1.amazonaws.com.",
+      "ip_address": "107.22.160.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-162-79.compute-1.amazonaws.com.",
+      "ip_address": "107.22.162.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-168-21.compute-1.amazonaws.com.",
+      "ip_address": "107.22.168.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-169-178.compute-1.amazonaws.com.",
+      "ip_address": "107.22.169.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com.",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-184-200.compute-1.amazonaws.com.",
+      "ip_address": "107.22.184.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com.",
+      "ip_address": "107.22.187.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-189-83.compute-1.amazonaws.com.",
+      "ip_address": "107.22.189.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-199-247.compute-1.amazonaws.com.",
+      "ip_address": "107.22.199.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-216-237.compute-1.amazonaws.com.",
+      "ip_address": "107.22.216.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-221-125.compute-1.amazonaws.com.",
+      "ip_address": "107.22.221.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-242-137.compute-1.amazonaws.com.",
+      "ip_address": "107.22.242.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-107-22-243-211.compute-1.amazonaws.com.",
+      "ip_address": "107.22.243.211",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "atl14s77-in-f2.1e100.net.",
+      "ip_address": "172.217.0.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "lga25s59-in-f2.1e100.net.",
+      "ip_address": "172.217.10.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "lga25s59-in-f8.1e100.net.",
+      "ip_address": "172.217.10.232",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "lga25s61-in-f2.1e100.net.",
+      "ip_address": "172.217.11.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ams15s29-in-f98.1e100.net.",
+      "ip_address": "172.217.17.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "fra15s29-in-f10.1e100.net.",
+      "ip_address": "172.217.18.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "atl14s78-in-f2.1e100.net.",
+      "ip_address": "172.217.2.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ord36s04-in-f106.1e100.net.",
+      "ip_address": "172.217.4.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "dfw25s17-in-f170.1e100.net.",
+      "ip_address": "172.217.6.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "iad23s58-in-f2.1e100.net.",
+      "ip_address": "172.217.7.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ord37s09-in-f2.1e100.net.",
+      "ip_address": "172.217.8.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "dfw25s26-in-f20.1e100.net.",
+      "ip_address": "172.217.9.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "lga34s11-in-f8.1e100.net.",
+      "ip_address": "172.217.9.232",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com.",
+      "ip_address": "174.129.19.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-174-129-32-125.compute-1.amazonaws.com.",
+      "ip_address": "174.129.32.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-174-129-40-213.compute-1.amazonaws.com.",
+      "ip_address": "174.129.40.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-174-129-9-155.compute-1.amazonaws.com.",
+      "ip_address": "174.129.9.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-184-72-239-47.compute-1.amazonaws.com.",
+      "ip_address": "184.72.239.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-184-73-161-9.compute-1.amazonaws.com.",
+      "ip_address": "184.73.161.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-184-73-187-250.compute-1.amazonaws.com.",
+      "ip_address": "184.73.187.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-184-73-208-78.compute-1.amazonaws.com.",
+      "ip_address": "184.73.208.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-184-73-211-229.compute-1.amazonaws.com.",
+      "ip_address": "184.73.211.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-184-73-219-223.compute-1.amazonaws.com.",
+      "ip_address": "184.73.219.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-184-73-220-110.compute-1.amazonaws.com.",
+      "ip_address": "184.73.220.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-184-73-232-97.compute-1.amazonaws.com.",
+      "ip_address": "184.73.232.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-184-73-235-122.compute-1.amazonaws.com.",
+      "ip_address": "184.73.235.122",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ca-lpcdn.lpsnmedia.net.",
+      "ip_address": "199.187.116.90",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-204-236-236-214.compute-1.amazonaws.com.",
+      "ip_address": "204.236.236.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "dfw25s12-in-f42.1e100.net.",
+      "ip_address": "216.58.194.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "syd09s15-in-f10.1e100.net.",
+      "ip_address": "216.58.203.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "fra16s24-in-f10.1e100.net.",
+      "ip_address": "216.58.207.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ord31s22-in-f10.1e100.net.",
+      "ip_address": "216.58.216.234",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "dfw25s07-in-f106.1e100.net.",
+      "ip_address": "216.58.218.106",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "dfw25s08-in-f138.1e100.net.",
+      "ip_address": "216.58.218.138",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "dfw06s46-in-f170.1e100.net.",
+      "ip_address": "216.58.218.170",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "dfw06s47-in-f202.1e100.net.",
+      "ip_address": "216.58.218.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-109-80.compute-1.amazonaws.com.",
+      "ip_address": "23.21.109.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-171-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.171.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-192-242.compute-1.amazonaws.com.",
+      "ip_address": "23.21.192.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-219-171.compute-1.amazonaws.com.",
+      "ip_address": "23.21.219.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-225-144.compute-1.amazonaws.com.",
+      "ip_address": "23.21.225.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-230-199.compute-1.amazonaws.com.",
+      "ip_address": "23.21.230.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-47-236.compute-1.amazonaws.com.",
+      "ip_address": "23.21.47.236",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-51-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.51.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-64-174.compute-1.amazonaws.com.",
+      "ip_address": "23.21.64.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-73-229.compute-1.amazonaws.com.",
+      "ip_address": "23.21.73.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-21-92-173.compute-1.amazonaws.com.",
+      "ip_address": "23.21.92.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-114-90.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-126-54.compute-1.amazonaws.com.",
+      "ip_address": "23.23.126.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-143-15.compute-1.amazonaws.com.",
+      "ip_address": "23.23.143.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-156-210.compute-1.amazonaws.com.",
+      "ip_address": "23.23.156.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-162-140.compute-1.amazonaws.com.",
+      "ip_address": "23.23.162.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-165-121.compute-1.amazonaws.com.",
+      "ip_address": "23.23.165.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-169-210.compute-1.amazonaws.com.",
+      "ip_address": "23.23.169.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-172-159.compute-1.amazonaws.com.",
+      "ip_address": "23.23.172.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-184-36.compute-1.amazonaws.com.",
+      "ip_address": "23.23.184.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-186-247.compute-1.amazonaws.com.",
+      "ip_address": "23.23.186.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-227-23.compute-1.amazonaws.com.",
+      "ip_address": "23.23.227.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-248-196.compute-1.amazonaws.com.",
+      "ip_address": "23.23.248.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-23-23-74-36.compute-1.amazonaws.com.",
+      "ip_address": "23.23.74.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "iad30s09-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4004:800::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "iad30s07-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4004:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "lga34s12-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4006:802::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "lga25s40-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4006:80e::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "lga25s59-in-x14.1e100.net.",
+      "ip_address": "2607:f8b0:4006:813::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ord30s31-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4009:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ord37s03-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4009:812::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-185-40.compute-1.amazonaws.com.",
+      "ip_address": "50.16.185.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-193-81.compute-1.amazonaws.com.",
+      "ip_address": "50.16.193.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-213-202.compute-1.amazonaws.com.",
+      "ip_address": "50.16.213.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-218-218.compute-1.amazonaws.com.",
+      "ip_address": "50.16.218.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-222-66.compute-1.amazonaws.com.",
+      "ip_address": "50.16.222.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-230-218.compute-1.amazonaws.com.",
+      "ip_address": "50.16.230.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-231-117.compute-1.amazonaws.com.",
+      "ip_address": "50.16.231.117",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-247-225.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-247-246.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.246",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-16-249-200.compute-1.amazonaws.com.",
+      "ip_address": "50.16.249.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-17-184-64.compute-1.amazonaws.com.",
+      "ip_address": "50.17.184.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-17-197-168.compute-1.amazonaws.com.",
+      "ip_address": "50.17.197.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-17-200-4.compute-1.amazonaws.com.",
+      "ip_address": "50.17.200.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-17-202-98.compute-1.amazonaws.com.",
+      "ip_address": "50.17.202.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-17-204-79.compute-1.amazonaws.com.",
+      "ip_address": "50.17.204.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-17-205-178.compute-1.amazonaws.com.",
+      "ip_address": "50.17.205.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-17-219-135.compute-1.amazonaws.com.",
+      "ip_address": "50.17.219.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-17-228-124.compute-1.amazonaws.com.",
+      "ip_address": "50.17.228.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-17-238-228.compute-1.amazonaws.com.",
+      "ip_address": "50.17.238.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-104-138.compute-1.amazonaws.com.",
+      "ip_address": "50.19.104.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-106-31.compute-1.amazonaws.com.",
+      "ip_address": "50.19.106.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-214-87.compute-1.amazonaws.com.",
+      "ip_address": "50.19.214.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-220-0.compute-1.amazonaws.com.",
+      "ip_address": "50.19.220.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-227-71.compute-1.amazonaws.com.",
+      "ip_address": "50.19.227.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-235-132.compute-1.amazonaws.com.",
+      "ip_address": "50.19.235.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-252-149.compute-1.amazonaws.com.",
+      "ip_address": "50.19.252.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com.",
+      "ip_address": "50.19.81.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-85-47.compute-1.amazonaws.com.",
+      "ip_address": "50.19.85.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-50-19-95-95.compute-1.amazonaws.com.",
+      "ip_address": "50.19.95.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-163-254-184.compute-1.amazonaws.com.",
+      "ip_address": "54.163.254.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-197-237-178.compute-1.amazonaws.com.",
+      "ip_address": "54.197.237.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-197-239-228.compute-1.amazonaws.com.",
+      "ip_address": "54.197.239.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-197-255-113.compute-1.amazonaws.com.",
+      "ip_address": "54.197.255.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-197-255-53.compute-1.amazonaws.com.",
+      "ip_address": "54.197.255.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-221-199-46.compute-1.amazonaws.com.",
+      "ip_address": "54.221.199.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-221-219-50.compute-1.amazonaws.com.",
+      "ip_address": "54.221.219.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-221-220-45.compute-1.amazonaws.com.",
+      "ip_address": "54.221.220.45",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-221-244-3.compute-1.amazonaws.com.",
+      "ip_address": "54.221.244.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-121-196.compute-1.amazonaws.com.",
+      "ip_address": "54.225.121.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com.",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-130-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.130.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-151-168.compute-1.amazonaws.com.",
+      "ip_address": "54.225.151.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-158-189.compute-1.amazonaws.com.",
+      "ip_address": "54.225.158.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-167-80.compute-1.amazonaws.com.",
+      "ip_address": "54.225.167.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-170-144.compute-1.amazonaws.com.",
+      "ip_address": "54.225.170.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-170-49.compute-1.amazonaws.com.",
+      "ip_address": "54.225.170.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-185-191.compute-1.amazonaws.com.",
+      "ip_address": "54.225.185.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-186-46.compute-1.amazonaws.com.",
+      "ip_address": "54.225.186.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-192-183.compute-1.amazonaws.com.",
+      "ip_address": "54.225.192.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-204-178.compute-1.amazonaws.com.",
+      "ip_address": "54.225.204.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-207-59.compute-1.amazonaws.com.",
+      "ip_address": "54.225.207.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-209-156.compute-1.amazonaws.com.",
+      "ip_address": "54.225.209.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-212-15.compute-1.amazonaws.com.",
+      "ip_address": "54.225.212.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-217-126.compute-1.amazonaws.com.",
+      "ip_address": "54.225.217.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-93-51.compute-1.amazonaws.com.",
+      "ip_address": "54.225.93.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-227-237-88.compute-1.amazonaws.com.",
+      "ip_address": "54.227.237.88",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com.",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-235-101-104.compute-1.amazonaws.com.",
+      "ip_address": "54.235.101.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-235-139-218.compute-1.amazonaws.com.",
+      "ip_address": "54.235.139.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-235-169-95.compute-1.amazonaws.com.",
+      "ip_address": "54.235.169.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-235-202-23.compute-1.amazonaws.com.",
+      "ip_address": "54.235.202.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-235-247-104.compute-1.amazonaws.com.",
+      "ip_address": "54.235.247.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-235-247-114.compute-1.amazonaws.com.",
+      "ip_address": "54.235.247.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-235-67-75.compute-1.amazonaws.com.",
+      "ip_address": "54.235.67.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-235-69-83.compute-1.amazonaws.com.",
+      "ip_address": "54.235.69.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-105-3.compute-1.amazonaws.com.",
+      "ip_address": "54.243.105.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-109-101.compute-1.amazonaws.com.",
+      "ip_address": "54.243.109.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-110-22.compute-1.amazonaws.com.",
+      "ip_address": "54.243.110.22",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-111-217.compute-1.amazonaws.com.",
+      "ip_address": "54.243.111.217",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-112-174.compute-1.amazonaws.com.",
+      "ip_address": "54.243.112.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-116-171.compute-1.amazonaws.com.",
+      "ip_address": "54.243.116.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-120-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.120.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-148-175.compute-1.amazonaws.com.",
+      "ip_address": "54.243.148.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-160-133.compute-1.amazonaws.com.",
+      "ip_address": "54.243.160.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-180-96.compute-1.amazonaws.com.",
+      "ip_address": "54.243.180.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-187-20.compute-1.amazonaws.com.",
+      "ip_address": "54.243.187.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-187-254.compute-1.amazonaws.com.",
+      "ip_address": "54.243.187.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-211-20.compute-1.amazonaws.com.",
+      "ip_address": "54.243.211.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com.",
+      "ip_address": "54.243.212.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-212-62.compute-1.amazonaws.com.",
+      "ip_address": "54.243.212.62",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-252-170.compute-1.amazonaws.com.",
+      "ip_address": "54.243.252.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-71-210.compute-1.amazonaws.com.",
+      "ip_address": "54.243.71.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-73-224.compute-1.amazonaws.com.",
+      "ip_address": "54.243.73.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-78-111.compute-1.amazonaws.com.",
+      "ip_address": "54.243.78.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-81-55.compute-1.amazonaws.com.",
+      "ip_address": "54.243.81.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-85-46.compute-1.amazonaws.com.",
+      "ip_address": "54.243.85.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-87-206.compute-1.amazonaws.com.",
+      "ip_address": "54.243.87.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com.",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-98-151.compute-1.amazonaws.com.",
+      "ip_address": "54.243.98.151",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-99-83.compute-1.amazonaws.com.",
+      "ip_address": "54.243.99.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "ec2-54-243-99-96.compute-1.amazonaws.com.",
+      "ip_address": "54.243.99.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "yv-in-f153.1e100.net.",
+      "ip_address": "74.125.21.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.appgenix.bizcal",
+      "ptr_domain": "yv-in-f154.1e100.net.",
+      "ip_address": "74.125.21.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

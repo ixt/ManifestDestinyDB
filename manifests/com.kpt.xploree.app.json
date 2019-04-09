@@ -1,0 +1,539 @@
+{
+  "appName": "Xploree Keyboard",
+  "packageName": "com.kpt.xploree.app",
+  "category": "PRODUCTIVITY",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.READ_CONTACTS",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "V3.0.2",
+  "trackers": [
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "226.130.154.104.bc.googleusercontent.com.",
+      "ip_address": "104.154.130.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "13.250.197.104.bc.googleusercontent.com.",
+      "ip_address": "104.197.250.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "maa03s23-in-f14.1e100.net.",
+      "ip_address": "172.217.26.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-34-250-57-123.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.250.57.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-34-252-216-237.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.252.216.237",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-52-19-90-70.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.90.70",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-52-208-152-16.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.152.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-52-211-218-67.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.218.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.0",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.32.100",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.32.112",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.32.132",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.16",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.20",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.24",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.48",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.56",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.88",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.8",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.36.128",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.12",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.16",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.20",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.24",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.36",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.40",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.44",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.4",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.80",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.84",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.88",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.92",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.36.96",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.0",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.40.124",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.12",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.16",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.32",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.36",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.40",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.44",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.48",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.64",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.68",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.92",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-52-220-246-169.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.220.246.169",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-52-30-79-195.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.79.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-52-48-221-73.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.221.73",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-52-77-147-76.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.77.147.76",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "server-54-230-156-184.sin3.r.cloudfront.net.",
+      "ip_address": "54.230.156.184",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.kpt.xploree.app",
+      "ptr_domain": "ec2-54-243-245-38.compute-1.amazonaws.com.",
+      "ip_address": "54.243.245.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

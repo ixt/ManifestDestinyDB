@@ -1,0 +1,587 @@
+{
+  "appName": "FreePlay",
+  "packageName": "com.ea.games.simsfreeplay_na",
+  "category": "GAME_SIMULATION",
+  "icon": "",
+  "permissions": [
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.VIBRATE",
+    "com.ea.games.simsfreeplay_na.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.ea.games.simsfreeplay_na.permission.C2D_MESSAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "5.44.2",
+  "trackers": [
+    "Moat",
+    "Millennial Media",
+    "AppLovin",
+    "Facebook Login",
+    "Google DoubleClick",
+    "Facebook Share",
+    "Google CrashLytics",
+    "Facebook Analytics",
+    "ironSource",
+    "AdColony",
+    "Unity3d Ads",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-107-23-28-252.compute-1.amazonaws.com.",
+      "ip_address": "107.23.28.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "4a.6d.2ca9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.44.109.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "4c.6d.2ca9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.44.109.76",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "4d.6d.2ca9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.44.109.77",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "50.6d.2ca9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.44.109.80",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ord38s09-in-f4.1e100.net.",
+      "ip_address": "172.217.9.68",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.211.63",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "a198-189-255-217.deploy.akamaitechnologies.com.",
+      "ip_address": "198.189.255.217",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "36-124-232-198.static.unitasglobal.net.",
+      "ip_address": "198.232.124.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "113-125-232-198.static.unitasglobal.net.",
+      "ip_address": "198.232.125.113",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "N/A",
+      "ip_address": "199.36.253.158",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "a23-203-229-5.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.203.229.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-192-150-145.compute-1.amazonaws.com.",
+      "ip_address": "34.192.150.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-192-6-239.compute-1.amazonaws.com.",
+      "ip_address": "34.192.6.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-194-170-6.compute-1.amazonaws.com.",
+      "ip_address": "34.194.170.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-198-139-205.compute-1.amazonaws.com.",
+      "ip_address": "34.198.139.205",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-198-187-55.compute-1.amazonaws.com.",
+      "ip_address": "34.198.187.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-198-84-90.compute-1.amazonaws.com.",
+      "ip_address": "34.198.84.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-199-151-199.compute-1.amazonaws.com.",
+      "ip_address": "34.199.151.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-199-171-53.compute-1.amazonaws.com.",
+      "ip_address": "34.199.171.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-199-185-224.compute-1.amazonaws.com.",
+      "ip_address": "34.199.185.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-200-211-156.compute-1.amazonaws.com.",
+      "ip_address": "34.200.211.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-34-206-169-252.compute-1.amazonaws.com.",
+      "ip_address": "34.206.169.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-50-16-168-57.compute-1.amazonaws.com.",
+      "ip_address": "50.16.168.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-0-10-61.compute-1.amazonaws.com.",
+      "ip_address": "52.0.10.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-0-21-131.compute-1.amazonaws.com.",
+      "ip_address": "52.0.21.131",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-1-131-111.compute-1.amazonaws.com.",
+      "ip_address": "52.1.131.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-1-174-178.compute-1.amazonaws.com.",
+      "ip_address": "52.1.174.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-205-74-62.compute-1.amazonaws.com.",
+      "ip_address": "52.205.74.62",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-205-85-172.compute-1.amazonaws.com.",
+      "ip_address": "52.205.85.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-2-102-156.compute-1.amazonaws.com.",
+      "ip_address": "52.2.102.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-213-118-102.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.213.118.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-2-157-167.compute-1.amazonaws.com.",
+      "ip_address": "52.2.157.167",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-2-217-205.compute-1.amazonaws.com.",
+      "ip_address": "52.2.217.205",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-5-164-195.compute-1.amazonaws.com.",
+      "ip_address": "52.5.164.195",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-55-155-135.compute-1.amazonaws.com.",
+      "ip_address": "52.55.155.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-55-27-240.compute-1.amazonaws.com.",
+      "ip_address": "52.55.27.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-6-103-173.compute-1.amazonaws.com.",
+      "ip_address": "52.6.103.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-6-133-186.compute-1.amazonaws.com.",
+      "ip_address": "52.6.133.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-6-86-8.compute-1.amazonaws.com.",
+      "ip_address": "52.6.86.8",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-6-89-154.compute-1.amazonaws.com.",
+      "ip_address": "52.6.89.154",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-70-38-6.compute-1.amazonaws.com.",
+      "ip_address": "52.70.38.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-71-169-241.compute-1.amazonaws.com.",
+      "ip_address": "52.71.169.241",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-71-181-134.compute-1.amazonaws.com.",
+      "ip_address": "52.71.181.134",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-52-86-135-1.compute-1.amazonaws.com.",
+      "ip_address": "52.86.135.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-152-167-168.compute-1.amazonaws.com.",
+      "ip_address": "54.152.167.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-152-230-95.compute-1.amazonaws.com.",
+      "ip_address": "54.152.230.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-164-120-57.compute-1.amazonaws.com.",
+      "ip_address": "54.164.120.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-174-231-73.compute-1.amazonaws.com.",
+      "ip_address": "54.174.231.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-175-212-12.compute-1.amazonaws.com.",
+      "ip_address": "54.175.212.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-175-36-220.compute-1.amazonaws.com.",
+      "ip_address": "54.175.36.220",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-175-50-220.compute-1.amazonaws.com.",
+      "ip_address": "54.175.50.220",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-85-181-199.compute-1.amazonaws.com.",
+      "ip_address": "54.85.181.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-87-181-120.compute-1.amazonaws.com.",
+      "ip_address": "54.87.181.120",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.games.simsfreeplay_na",
+      "ptr_domain": "ec2-54-88-47-125.compute-1.amazonaws.com.",
+      "ip_address": "54.88.47.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

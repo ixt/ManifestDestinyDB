@@ -1,0 +1,634 @@
+{
+  "appName": "The Globe",
+  "packageName": "com.theglobeandmail.headliner",
+  "category": "NEWS_AND_MAGAZINES",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_SYNC_SETTINGS",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "5.1.7",
+  "trackers": [
+    "Facebook Places",
+    "Braze",
+    "Google DoubleClick",
+    "Moat",
+    "Google Ads",
+    "Facebook Login",
+    "Snowplow",
+    "Google CrashLytics",
+    "Facebook Share",
+    "Facebook Analytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.31.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "N/A",
+      "ip_address": "104.25.56.32",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "52.210.129.12.in-addr.arpa. CNAME 52.0/25.210.129.12.in-addr.arpa.",
+      "ip_address": "12.129.210.52",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.388700",
+      "loc_lat": "33.956000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "53.210.129.12.in-addr.arpa. CNAME 53.0/25.210.129.12.in-addr.arpa.",
+      "ip_address": "12.129.210.53",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.388700",
+      "loc_lat": "33.956000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "server-13-32-205-126.sea19.r.cloudfront.net.",
+      "ip_address": "13.32.205.126",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.52.175",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-184-73-199-125.compute-1.amazonaws.com.",
+      "ip_address": "184.73.199.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "113-125-232-198.static.unitasglobal.net.",
+      "ip_address": "198.232.125.113",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "N/A",
+      "ip_address": "199.198.138.135",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "sec.theglobeandmail.com.",
+      "ip_address": "199.198.138.62",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "sea15s01-in-f130.1e100.net.",
+      "ip_address": "216.58.216.130",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "sea15s01-in-f134.1e100.net.",
+      "ip_address": "216.58.216.134",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "sea15s01-in-f142.1e100.net.",
+      "ip_address": "216.58.216.142",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "a23-198-161-196.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.198.161.196",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "a23-200-208-38.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.200.208.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-23-21-60-12.compute-1.amazonaws.com.",
+      "ip_address": "23.21.60.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-23-22-77-147.compute-1.amazonaws.com.",
+      "ip_address": "23.22.77.147",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-23-23-126-54.compute-1.amazonaws.com.",
+      "ip_address": "23.23.126.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "a23-49-138-223.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.49.138.223",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "N/A",
+      "ip_address": "24.244.17.241",
+      "loc_city": "Vancouver",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-123.092300",
+      "loc_lat": "49.262000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.107",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.68",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-34-204-245-67.compute-1.amazonaws.com.",
+      "ip_address": "34.204.245.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-34-206-221-231.compute-1.amazonaws.com.",
+      "ip_address": "34.206.221.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-50-112-117-189.us-west-2.compute.amazonaws.com.",
+      "ip_address": "50.112.117.189",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-50-112-120-140.us-west-2.compute.amazonaws.com.",
+      "ip_address": "50.112.120.140",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-50-112-251-111.us-west-2.compute.amazonaws.com.",
+      "ip_address": "50.112.251.111",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-50-18-253-140.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.253.140",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-50-19-107-76.compute-1.amazonaws.com.",
+      "ip_address": "50.19.107.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-52-0-15-56.compute-1.amazonaws.com.",
+      "ip_address": "52.0.15.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "s3-1-w.amazonaws.com.",
+      "ip_address": "52.216.80.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-52-27-216-97.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.27.216.97",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-52-40-101-149.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.40.101.149",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-52-71-149-29.compute-1.amazonaws.com.",
+      "ip_address": "52.71.149.29",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-52-72-197-166.compute-1.amazonaws.com.",
+      "ip_address": "52.72.197.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-52-89-237-152.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.89.237.152",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-52-9-212-24.us-west-1.compute.amazonaws.com.",
+      "ip_address": "52.9.212.24",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-148-203-149.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.148.203.149",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-164-199-139.compute-1.amazonaws.com.",
+      "ip_address": "54.164.199.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-187-23-211.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.187.23.211",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-191-91-41.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.191.91.41",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-200-228-87.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.200.228.87",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-214-212-204.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.214.212.204",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-225-137-58.compute-1.amazonaws.com.",
+      "ip_address": "54.225.137.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-225-210-192.compute-1.amazonaws.com.",
+      "ip_address": "54.225.210.192",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-68-226-81.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.68.226.81",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-71-1-254.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.71.1.254",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "ec2-54-86-113-30.compute-1.amazonaws.com.",
+      "ip_address": "54.86.113.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.248.136",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "4532.bm-impbus.prod.nym2.adnexus.net.",
+      "ip_address": "68.67.178.111",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "168.bm-nginx-loadbalancer.mgmt.nym2.adnexus.net.",
+      "ip_address": "68.67.178.252",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "hwcdn.net.",
+      "ip_address": "69.16.175.10",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "hwcdn.net.",
+      "ip_address": "69.16.175.42",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "a69-192-81-114.deploy.static.akamaitechnologies.com.",
+      "ip_address": "69.192.81.114",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "a69-192-84-62.deploy.static.akamaitechnologies.com.",
+      "ip_address": "69.192.84.62",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "a69-192-85-77.deploy.static.akamaitechnologies.com.",
+      "ip_address": "69.192.85.77",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "a69-192-94-216.deploy.static.akamaitechnologies.com.",
+      "ip_address": "69.192.94.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "pc-in-f155.1e100.net.",
+      "ip_address": "74.125.28.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "pc-in-f156.1e100.net.",
+      "ip_address": "74.125.28.156",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.theglobeandmail.headliner",
+      "ptr_domain": "pc-in-f157.1e100.net.",
+      "ip_address": "74.125.28.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

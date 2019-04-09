@@ -1,0 +1,1462 @@
+{
+  "appName": "Color Switch",
+  "packageName": "com.fortafygames.colorswitch",
+  "category": "",
+  "icon": "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",
+  "permissions": [
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION"
+  ],
+  "version": "10.6.0",
+  "trackers": [
+    "Unity3d Ads",
+    "Google DoubleClick",
+    "Facebook Ads",
+    "Nexage",
+    "Fyber",
+    "ChartBoost",
+    "Google Ads",
+    "Flurry",
+    "AppLovin",
+    "AdColony",
+    "Twitter MoPub",
+    "Heyzap (bought by Fyber)",
+    "Vungle",
+    "Inmobi",
+    "Moat"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "103.251.109.106",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "188.13.155.104.bc.googleusercontent.com.",
+      "ip_address": "104.155.13.188",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a104-98-140-75.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.98.140.75",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-107-20-188-39.compute-1.amazonaws.com.",
+      "ip_address": "107.20.188.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-107-21-207-125.compute-1.amazonaws.com.",
+      "ip_address": "107.21.207.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-107-21-220-231.compute-1.amazonaws.com.",
+      "ip_address": "107.21.220.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-107-21-234-243.compute-1.amazonaws.com.",
+      "ip_address": "107.21.234.243",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-107-21-98-26.compute-1.amazonaws.com.",
+      "ip_address": "107.21.98.26",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-107-22-197-90.compute-1.amazonaws.com.",
+      "ip_address": "107.22.197.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-107-22-232-109.compute-1.amazonaws.com.",
+      "ip_address": "107.22.232.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "141.101.121.201",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "141.101.121.202",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ams15s30-in-f2.1e100.net.",
+      "ip_address": "172.217.17.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ams15s29-in-f2.1e100.net.",
+      "ip_address": "172.217.17.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ams15s33-in-f10.1e100.net.",
+      "ip_address": "172.217.20.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ams15s33-in-f14.1e100.net.",
+      "ip_address": "172.217.20.78",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "mil04s23-in-f98.1e100.net.",
+      "ip_address": "172.217.23.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "sfo03s08-in-f2.1e100.net.",
+      "ip_address": "172.217.6.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.25.50",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "173.245.116.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "173.245.116.58",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-174-129-62-126.compute-1.amazonaws.com.",
+      "ip_address": "174.129.62.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.182",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.60",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "dis.eu.criteo.com.",
+      "ip_address": "178.250.0.77",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "cas.nl.eu.criteo.com.",
+      "ip_address": "178.250.2.102",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-184-72-240-188.compute-1.amazonaws.com.",
+      "ip_address": "184.72.240.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-184-73-137-123.compute-1.amazonaws.com.",
+      "ip_address": "184.73.137.123",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-184-73-244-108.compute-1.amazonaws.com.",
+      "ip_address": "184.73.244.108",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-184-73-246-76.compute-1.amazonaws.com.",
+      "ip_address": "184.73.246.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.211.63",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.221.51",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-204-236-226-186.compute-1.amazonaws.com.",
+      "ip_address": "204.236.226.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "sfo03s01-in-f14.1e100.net.",
+      "ip_address": "216.58.194.206",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "sfo07s16-in-f65.1e100.net.",
+      "ip_address": "216.58.195.65",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "sfo07s16-in-f10.1e100.net.",
+      "ip_address": "216.58.195.74",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "mil04s29-in-f194.1e100.net.",
+      "ip_address": "216.58.205.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "mil04s24-in-f33.1e100.net.",
+      "ip_address": "216.58.205.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "mil04s24-in-f42.1e100.net.",
+      "ip_address": "216.58.205.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "mil04s25-in-f70.1e100.net.",
+      "ip_address": "216.58.205.70",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "mil04s25-in-f14.1e100.net.",
+      "ip_address": "216.58.205.78",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ams15s32-in-f2.1e100.net.",
+      "ip_address": "216.58.211.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ams15s22-in-f162.1e100.net.",
+      "ip_address": "216.58.212.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ams16s21-in-f194.1e100.net.",
+      "ip_address": "216.58.212.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a2-20-233-136.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.20.233.136",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a2-23-20-57.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.23.20.57",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a2-23-9-189.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.23.9.189",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a23-203-229-5.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.203.229.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a23-204-109-43.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.204.109.43",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-21-112-247.compute-1.amazonaws.com.",
+      "ip_address": "23.21.112.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-21-168-245.compute-1.amazonaws.com.",
+      "ip_address": "23.21.168.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-21-211-206.compute-1.amazonaws.com.",
+      "ip_address": "23.21.211.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-21-213-58.compute-1.amazonaws.com.",
+      "ip_address": "23.21.213.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-21-54-193.compute-1.amazonaws.com.",
+      "ip_address": "23.21.54.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-21-67-72.compute-1.amazonaws.com.",
+      "ip_address": "23.21.67.72",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-23-150-99.compute-1.amazonaws.com.",
+      "ip_address": "23.23.150.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-23-167-148.compute-1.amazonaws.com.",
+      "ip_address": "23.23.167.148",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-23-169-244.compute-1.amazonaws.com.",
+      "ip_address": "23.23.169.244",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-23-188-190.compute-1.amazonaws.com.",
+      "ip_address": "23.23.188.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-23-249-173.compute-1.amazonaws.com.",
+      "ip_address": "23.23.249.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-23-23-255-72.compute-1.amazonaws.com.",
+      "ip_address": "23.23.255.72",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a23-32-8-90.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.32.8.90",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a23-36-53-48.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.36.53.48",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a23-40-248-172.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.40.248.172",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a23-44-160-35.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.44.160.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a23-44-163-126.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.44.163.126",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a23-53-113-2.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.53.113.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a23-55-40-177.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.55.40.177",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6814:838",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6814:938",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::8d65:79c9",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::8d65:79ca",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::1717:f842",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::3211:d39b",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::3213:7611",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::36c5:efbb",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::36f3:be1d",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::36f3:d4a3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::ae81:a8a",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "sfo07s13-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4005:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "sfo07s13-in-x03.1e100.net.",
+      "ip_address": "2607:f8b0:4005:804::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "sfo07s13-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "sfo07s13-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4005:804::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "sfo03s08-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4005:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4005:c::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "nuq04s19-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4010:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "edge-atlas6-shv-01-sea1.facebook.com.",
+      "ip_address": "2a03:2880:f001:2:face:b00c:0:8c",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "edge-star6-shv-01-sea1.facebook.com.",
+      "ip_address": "2a03:2880:f001:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "edge-atlas6-shv-01-iad3.facebook.com.",
+      "ip_address": "2a03:2880:f003:c03:face:b00c:0:8c",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f00b:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:104:face:b00c:0:8c",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "edge-star-shv-01-lax3.facebook.com.",
+      "ip_address": "31.13.70.1",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com.",
+      "ip_address": "31.13.86.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com.",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-34-192-143-187.compute-1.amazonaws.com.",
+      "ip_address": "34.192.143.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-34-195-56-61.compute-1.amazonaws.com.",
+      "ip_address": "34.195.56.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "75.207.186.35.bc.googleusercontent.com.",
+      "ip_address": "35.186.207.75",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "25.55.3a25.ip4.static.sl-reverse.com.",
+      "ip_address": "37.58.85.37",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-50-16-217-107.compute-1.amazonaws.com.",
+      "ip_address": "50.16.217.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-50-16-244-231.compute-1.amazonaws.com.",
+      "ip_address": "50.16.244.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-50-17-231-156.compute-1.amazonaws.com.",
+      "ip_address": "50.17.231.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-50-19-108-56.compute-1.amazonaws.com.",
+      "ip_address": "50.19.108.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-50-19-118-17.compute-1.amazonaws.com.",
+      "ip_address": "50.19.118.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-50-19-232-28.compute-1.amazonaws.com.",
+      "ip_address": "50.19.232.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "6c.0e.9905.ip4.static.sl-reverse.com.",
+      "ip_address": "5.153.14.108",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-209-195-132.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.195.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-212-150-136.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.212.150.136",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "s3-1.amazonaws.com.",
+      "ip_address": "52.216.82.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-4-69-65.compute-1.amazonaws.com.",
+      "ip_address": "52.4.69.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-55-225-163.compute-1.amazonaws.com.",
+      "ip_address": "52.55.225.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-72-152-86.compute-1.amazonaws.com.",
+      "ip_address": "52.72.152.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-72-199-23.compute-1.amazonaws.com.",
+      "ip_address": "52.72.199.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-73-225-48.compute-1.amazonaws.com.",
+      "ip_address": "52.73.225.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-73-237-116.compute-1.amazonaws.com.",
+      "ip_address": "52.73.237.116",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-86-177-118.compute-1.amazonaws.com.",
+      "ip_address": "52.86.177.118",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-87-45-201.compute-1.amazonaws.com.",
+      "ip_address": "52.87.45.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-91-117-194.compute-1.amazonaws.com.",
+      "ip_address": "52.91.117.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-52-91-181-39.compute-1.amazonaws.com.",
+      "ip_address": "52.91.181.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-146-38-96.compute-1.amazonaws.com.",
+      "ip_address": "54.146.38.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-160-20-15.compute-1.amazonaws.com.",
+      "ip_address": "54.160.20.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-161-203-183.compute-1.amazonaws.com.",
+      "ip_address": "54.161.203.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-163-239-44.compute-1.amazonaws.com.",
+      "ip_address": "54.163.239.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-164-218-206.compute-1.amazonaws.com.",
+      "ip_address": "54.164.218.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "server-54-192-119-223.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.223",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-197-239-187.compute-1.amazonaws.com.",
+      "ip_address": "54.197.239.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-209-115-6.compute-1.amazonaws.com.",
+      "ip_address": "54.209.115.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "server-54-230-143-30.sfo5.r.cloudfront.net.",
+      "ip_address": "54.230.143.30",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-235-182-32.compute-1.amazonaws.com.",
+      "ip_address": "54.235.182.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-243-200-83.compute-1.amazonaws.com.",
+      "ip_address": "54.243.200.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-243-205-185.compute-1.amazonaws.com.",
+      "ip_address": "54.243.205.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-243-212-163.compute-1.amazonaws.com.",
+      "ip_address": "54.243.212.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-243-66-68.compute-1.amazonaws.com.",
+      "ip_address": "54.243.66.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-243-99-56.compute-1.amazonaws.com.",
+      "ip_address": "54.243.99.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-69-142-45.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.69.142.45",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-84-217-165.compute-1.amazonaws.com.",
+      "ip_address": "54.84.217.165",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-84-41-207.compute-1.amazonaws.com.",
+      "ip_address": "54.84.41.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-86-134-87.compute-1.amazonaws.com.",
+      "ip_address": "54.86.134.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "ec2-54-88-124-197.compute-1.amazonaws.com.",
+      "ip_address": "54.88.124.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "cache.google.com.",
+      "ip_address": "64.15.120.89",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "82.199.68.72",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "N/A",
+      "ip_address": "93.184.216.204",
+      "loc_city": "Lombard",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-88.000200",
+      "loc_lat": "41.873200"
+    },
+    {
+      "package": "com.fortafygames.colorswitch",
+      "ptr_domain": "a95-100-87-87.deploy.static.akamaitechnologies.com.",
+      "ip_address": "95.100.87.87",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
+  ]
+}

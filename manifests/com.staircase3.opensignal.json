@@ -1,0 +1,1758 @@
+{
+  "appName": "OpenSignal",
+  "packageName": "com.staircase3.opensignal",
+  "category": "TOOLS",
+  "icon": "",
+  "permissions": [
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "5.56.3",
+  "trackers": [
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.135",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.167",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-107-20-188-203.compute-1.amazonaws.com.",
+      "ip_address": "107.20.188.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-107-20-246-158.compute-1.amazonaws.com.",
+      "ip_address": "107.20.246.158",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-107-21-237-18.compute-1.amazonaws.com.",
+      "ip_address": "107.21.237.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-107-21-248-175.compute-1.amazonaws.com.",
+      "ip_address": "107.21.248.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-13-32-240-127.dfw54.r.cloudfront.net.",
+      "ip_address": "13.32.240.127",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.53.111",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.53.68",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.54.62",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "edge-star-mini-shv-01-sin6.facebook.com.",
+      "ip_address": "157.240.7.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "160-3-24-13.cpe.cableone.net.",
+      "ip_address": "160.3.24.13",
+      "loc_city": "Boise",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-116.295400",
+      "loc_lat": "43.578000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "fra15s17-in-f8.1e100.net.",
+      "ip_address": "172.217.22.72",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "fra15s17-in-f78.1e100.net.",
+      "ip_address": "172.217.22.78",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "sea15s11-in-f10.1e100.net.",
+      "ip_address": "172.217.3.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "sea15s12-in-f10.1e100.net.",
+      "ip_address": "172.217.3.202",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "iad23s57-in-f14.1e100.net.",
+      "ip_address": "172.217.3.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "lax28s01-in-f168.1e100.net.",
+      "ip_address": "172.217.4.168",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "lga25s54-in-f206.1e100.net.",
+      "ip_address": "172.217.6.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ord37s03-in-f2.1e100.net.",
+      "ip_address": "172.217.6.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "lga25s56-in-f14.1e100.net.",
+      "ip_address": "172.217.7.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "lga25s56-in-f8.1e100.net.",
+      "ip_address": "172.217.7.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-174-129-0-175.compute-1.amazonaws.com.",
+      "ip_address": "174.129.0.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-174-129-209-245.compute-1.amazonaws.com.",
+      "ip_address": "174.129.209.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-174-129-222-182.compute-1.amazonaws.com.",
+      "ip_address": "174.129.222.182",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-174-129-34-228.compute-1.amazonaws.com.",
+      "ip_address": "174.129.34.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-174-129-8-168.compute-1.amazonaws.com.",
+      "ip_address": "174.129.8.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-184-73-157-139.compute-1.amazonaws.com.",
+      "ip_address": "184.73.157.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.35",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "192.0.72.3",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "haystack.ICSI.Berkeley.EDU.",
+      "ip_address": "192.150.187.44",
+      "loc_city": "Berkeley",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.254900",
+      "loc_lat": "37.873800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "192.33.31.162",
+      "loc_city": "Santa Clara",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.975300",
+      "loc_lat": "37.341700"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "r-199-59-148-12.twttr.com.",
+      "ip_address": "199.59.148.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-204-236-226-254.compute-1.amazonaws.com.",
+      "ip_address": "204.236.226.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com.",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "sea15s07-in-f72.1e100.net.",
+      "ip_address": "216.58.193.72",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "sea15s07-in-f77.1e100.net.",
+      "ip_address": "216.58.193.77",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "sea15s07-in-f78.1e100.net.",
+      "ip_address": "216.58.193.78",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "dfw25s12-in-f40.1e100.net.",
+      "ip_address": "216.58.194.40",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "bom07s01-in-f14.1e100.net.",
+      "ip_address": "216.58.199.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "bom05s08-in-f8.1e100.net.",
+      "ip_address": "216.58.199.168",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "bom05s08-in-f174.1e100.net.",
+      "ip_address": "216.58.199.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "gru06s26-in-f3.1e100.net.",
+      "ip_address": "216.58.202.3",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "lhr25s02-in-f8.1e100.net.",
+      "ip_address": "216.58.213.104",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "lax02s22-in-f35.1e100.net.",
+      "ip_address": "216.58.216.35",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "dfw25s07-in-f104.1e100.net.",
+      "ip_address": "216.58.218.104",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "dfw25s07-in-f110.1e100.net.",
+      "ip_address": "216.58.218.110",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "a23-194-100-157.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.194.100.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-21-138-252.compute-1.amazonaws.com.",
+      "ip_address": "23.21.138.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-21-212-14.compute-1.amazonaws.com.",
+      "ip_address": "23.21.212.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-21-51-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.51.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-21-56-196.compute-1.amazonaws.com.",
+      "ip_address": "23.21.56.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-21-57-140.compute-1.amazonaws.com.",
+      "ip_address": "23.21.57.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-21-73-229.compute-1.amazonaws.com.",
+      "ip_address": "23.21.73.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-21-97-193.compute-1.amazonaws.com.",
+      "ip_address": "23.21.97.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-23-102-58.compute-1.amazonaws.com.",
+      "ip_address": "23.23.102.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-23-103-209.compute-1.amazonaws.com.",
+      "ip_address": "23.23.103.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-23-23-106-209.compute-1.amazonaws.com.",
+      "ip_address": "23.23.106.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "a23-63-56-173.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.63.56.173",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "bom07s11-in-x08.1e100.net.",
+      "ip_address": "2404:6800:4009:803::2008",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "bom05s09-in-x0e.1e100.net.",
+      "ip_address": "2404:6800:4009:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::1715:61c1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::ccec:e2fe",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "lga25s56-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4006:800::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "lga34s18-in-x08.1e100.net.",
+      "ip_address": "2607:f8b0:4006:818::2008",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "lga34s18-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4006:818::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "mia07s26-in-x03.1e100.net.",
+      "ip_address": "2607:f8b0:4008:808::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400f:802::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400f:803::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "edge-star-mini6-shv-02-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f10c:283:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "edge-z-m-mini6-shv-02-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f10c:284:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "edge-star-mini6-shv-01-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f10c:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "edge-star-mini6-shv-01-lga3.facebook.com.",
+      "ip_address": "2a03:2880:f112:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "edge-z-m-mini6-shv-01-lga3.facebook.com.",
+      "ip_address": "2a03:2880:f112:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f126:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f126:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.228",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "edge-star-mini-shv-01-lga3.facebook.com.",
+      "ip_address": "31.13.71.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "edge-z-m-mini-shv-01-lga3.facebook.com.",
+      "ip_address": "31.13.71.37",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.35",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.79.220",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "edge-star-mini-shv-01-frt3.facebook.com.",
+      "ip_address": "31.13.92.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-34-194-133-108.compute-1.amazonaws.com.",
+      "ip_address": "34.194.133.108",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-34-196-146-160.compute-1.amazonaws.com.",
+      "ip_address": "34.196.146.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-34-197-178-240.compute-1.amazonaws.com.",
+      "ip_address": "34.197.178.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-34-197-199-13.compute-1.amazonaws.com.",
+      "ip_address": "34.197.199.13",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-34-202-134-96.compute-1.amazonaws.com.",
+      "ip_address": "34.202.134.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-34-202-181-35.compute-1.amazonaws.com.",
+      "ip_address": "34.202.181.35",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-34-225-209-73.compute-1.amazonaws.com.",
+      "ip_address": "34.225.209.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-34-225-74-245.compute-1.amazonaws.com.",
+      "ip_address": "34.225.74.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-34-225-96-197.compute-1.amazonaws.com.",
+      "ip_address": "34.225.96.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-35-161-252-150.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.161.252.150",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "brennancenter.org.",
+      "ip_address": "45.33.23.25",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-50-16-185-40.compute-1.amazonaws.com.",
+      "ip_address": "50.16.185.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-50-16-217-34.compute-1.amazonaws.com.",
+      "ip_address": "50.16.217.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-50-17-244-57.compute-1.amazonaws.com.",
+      "ip_address": "50.17.244.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-50-19-237-211.compute-1.amazonaws.com.",
+      "ip_address": "50.19.237.211",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-50-19-238-1.compute-1.amazonaws.com.",
+      "ip_address": "50.19.238.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-50-19-241-12.compute-1.amazonaws.com.",
+      "ip_address": "50.19.241.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-0-82-240.compute-1.amazonaws.com.",
+      "ip_address": "52.0.82.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-201-141-213.compute-1.amazonaws.com.",
+      "ip_address": "52.201.141.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-20-215-76.compute-1.amazonaws.com.",
+      "ip_address": "52.20.215.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-203-57-201.compute-1.amazonaws.com.",
+      "ip_address": "52.203.57.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-204-148-49.compute-1.amazonaws.com.",
+      "ip_address": "52.204.148.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-204-87-184.compute-1.amazonaws.com.",
+      "ip_address": "52.204.87.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-204-88-58.compute-1.amazonaws.com.",
+      "ip_address": "52.204.88.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-205-85-106.compute-1.amazonaws.com.",
+      "ip_address": "52.205.85.106",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-21-95-191.compute-1.amazonaws.com.",
+      "ip_address": "52.21.95.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-35-247-76.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.35.247.76",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-42-223-219.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.42.223.219",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-44-169-238.compute-1.amazonaws.com.",
+      "ip_address": "52.44.169.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-44-189-16.compute-1.amazonaws.com.",
+      "ip_address": "52.44.189.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-54-236-87.compute-1.amazonaws.com.",
+      "ip_address": "52.54.236.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-71-214-31.compute-1.amazonaws.com.",
+      "ip_address": "52.71.214.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-72-137-249.compute-1.amazonaws.com.",
+      "ip_address": "52.72.137.249",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-72-249-133.compute-1.amazonaws.com.",
+      "ip_address": "52.72.249.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-73-133-60.compute-1.amazonaws.com.",
+      "ip_address": "52.73.133.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-73-140-156.compute-1.amazonaws.com.",
+      "ip_address": "52.73.140.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-73-235-170.compute-1.amazonaws.com.",
+      "ip_address": "52.73.235.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-73-239-131.compute-1.amazonaws.com.",
+      "ip_address": "52.73.239.131",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-8-174-43.us-west-1.compute.amazonaws.com.",
+      "ip_address": "52.8.174.43",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-52-84-21-15.sea32.r.cloudfront.net.",
+      "ip_address": "52.84.21.15",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-52-84-21-202.sea32.r.cloudfront.net.",
+      "ip_address": "52.84.21.202",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-52-84-21-84.sea32.r.cloudfront.net.",
+      "ip_address": "52.84.21.84",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-52-84-24-61.sea32.r.cloudfront.net.",
+      "ip_address": "52.84.24.61",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-52-84-50-147.sea32.r.cloudfront.net.",
+      "ip_address": "52.84.50.147",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-52-84-50-194.sea32.r.cloudfront.net.",
+      "ip_address": "52.84.50.194",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-52-84-50-30.sea32.r.cloudfront.net.",
+      "ip_address": "52.84.50.30",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-52-84-50-53.sea32.r.cloudfront.net.",
+      "ip_address": "52.84.50.53",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-52-85-209-254.dfw3.r.cloudfront.net.",
+      "ip_address": "52.85.209.254",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-86-235-217.compute-1.amazonaws.com.",
+      "ip_address": "52.86.235.217",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-86-85-23.compute-1.amazonaws.com.",
+      "ip_address": "52.86.85.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-87-132-51.compute-1.amazonaws.com.",
+      "ip_address": "52.87.132.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-87-138-74.compute-1.amazonaws.com.",
+      "ip_address": "52.87.138.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-9-15-76.us-west-1.compute.amazonaws.com.",
+      "ip_address": "52.9.15.76",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-52-9-70-24.us-west-1.compute.amazonaws.com.",
+      "ip_address": "52.9.70.24",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-152-23-248.compute-1.amazonaws.com.",
+      "ip_address": "54.152.23.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-54-192-93-117.fra2.r.cloudfront.net.",
+      "ip_address": "54.192.93.117",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-201-156-49.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.201.156.49",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-209-11-55.compute-1.amazonaws.com.",
+      "ip_address": "54.209.11.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-218-113-153.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.218.113.153",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-221-14-254.compute-1.amazonaws.com.",
+      "ip_address": "54.221.14.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-221-198-134.compute-1.amazonaws.com.",
+      "ip_address": "54.221.198.134",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-225-125-57.compute-1.amazonaws.com.",
+      "ip_address": "54.225.125.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-225-173-240.compute-1.amazonaws.com.",
+      "ip_address": "54.225.173.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-225-181-88.compute-1.amazonaws.com.",
+      "ip_address": "54.225.181.88",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-225-221-202.compute-1.amazonaws.com.",
+      "ip_address": "54.225.221.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-225-64-111.compute-1.amazonaws.com.",
+      "ip_address": "54.225.64.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-225-74-80.compute-1.amazonaws.com.",
+      "ip_address": "54.225.74.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "server-54-230-197-38.lhr50.r.cloudfront.net.",
+      "ip_address": "54.230.197.38",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-235-130-155.compute-1.amazonaws.com.",
+      "ip_address": "54.235.130.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-235-131-19.compute-1.amazonaws.com.",
+      "ip_address": "54.235.131.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-235-136-137.compute-1.amazonaws.com.",
+      "ip_address": "54.235.136.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-235-148-27.compute-1.amazonaws.com.",
+      "ip_address": "54.235.148.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-235-190-204.compute-1.amazonaws.com.",
+      "ip_address": "54.235.190.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-236-64-197.compute-1.amazonaws.com.",
+      "ip_address": "54.236.64.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-243-156-240.compute-1.amazonaws.com.",
+      "ip_address": "54.243.156.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-243-180-96.compute-1.amazonaws.com.",
+      "ip_address": "54.243.180.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-243-245-38.compute-1.amazonaws.com.",
+      "ip_address": "54.243.245.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-82-244-59.compute-1.amazonaws.com.",
+      "ip_address": "54.82.244.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com.",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-84-171-97.compute-1.amazonaws.com.",
+      "ip_address": "54.84.171.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-85-139-60.compute-1.amazonaws.com.",
+      "ip_address": "54.85.139.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-85-75-70.compute-1.amazonaws.com.",
+      "ip_address": "54.85.75.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "ec2-54-86-1-178.compute-1.amazonaws.com.",
+      "ip_address": "54.86.1.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "yx-in-f97.1e100.net.",
+      "ip_address": "64.233.177.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "on-in-f101.1e100.net.",
+      "ip_address": "64.233.180.101",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.91.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "N/A",
+      "ip_address": "74.116.106.135",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.staircase3.opensignal",
+      "ptr_domain": "li68-227.members.linode.com.",
+      "ip_address": "74.207.226.227",
+      "loc_city": "Atlanta",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.387100",
+      "loc_lat": "33.748500"
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "appName": "Blocket",
+  "packageName": "se.appcorn.Blocket",
+  "category": "SHOPPING",
+  "icon": "",
+  "permissions": [
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.CALL_PHONE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.NFC",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "6.32.1",
+  "trackers": [
+    "Braze",
+    "Google CrashLytics",
+    "Tealium",
+    "Google Firebase Analytics",
+    "Google Ads",
+    "AppsFlyer",
+    "AppNexus",
+    "Schibsted"
+  ],
+  "network_connections": [
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-107-20-220-57.compute-1.amazonaws.com.",
+      "ip_address": "107.20.220.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-107-21-222-48.compute-1.amazonaws.com.",
+      "ip_address": "107.21.222.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.1.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.65.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.85.130",
+      "loc_city": "Stockholm",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.050000",
+      "loc_lat": "59.333300"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "cb.d4.089f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.8.212.203",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "api.blocket.se.",
+      "ip_address": "185.49.132.2",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "www.blocket.se.",
+      "ip_address": "185.49.132.3",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "cdn.blocket.com.",
+      "ip_address": "185.49.132.7",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "api.blocket.se.",
+      "ip_address": "185.49.134.2",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "www.blocket.se.",
+      "ip_address": "185.49.134.3",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "cdn.blocket.com.",
+      "ip_address": "185.49.134.7",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.233.249",
+      "loc_city": "Anaheim",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-117.969200",
+      "loc_lat": "33.816000"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "195.93.42.2",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "vip127.ssl.hwcdn.net.",
+      "ip_address": "205.185.208.127",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "dub08s03-in-f14.1e100.net.",
+      "ip_address": "216.58.209.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "arn09s05-in-f138.1e100.net.",
+      "ip_address": "216.58.209.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-23-21-213-97.compute-1.amazonaws.com.",
+      "ip_address": "23.21.213.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-23-23-255-145.compute-1.amazonaws.com.",
+      "ip_address": "23.23.255.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-23-23-96-14.compute-1.amazonaws.com.",
+      "ip_address": "23.23.96.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "a23-32-25-64.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.32.25.64",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "a23-53-45-219.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.53.45.219",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-16-218-102.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.16.218.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-18-227-144.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.227.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-18-229-127.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.229.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-210-128-122.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.210.128.122",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-214-228-144.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.214.228.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-214-3-201.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.214.3.201",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-215-39-123.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.215.39.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.16.188",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.16.228",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.20.108",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.20.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.20.4",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.20.60",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.48.172",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.48.188",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.48.228",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.48.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.49.92",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.64.12",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.64.92",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.65.36",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.65.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.65.60",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-30-196-20.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.196.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-30-76-66.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.76.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-52-51-125-14.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.125.14",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-154-130-115.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.130.115",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-171-250-141.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.250.141",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-194-129-160.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.194.129.160",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-225-167-80.compute-1.amazonaws.com.",
+      "ip_address": "54.225.167.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-225-175-247.compute-1.amazonaws.com.",
+      "ip_address": "54.225.175.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-225-186-46.compute-1.amazonaws.com.",
+      "ip_address": "54.225.186.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-225-192-196.compute-1.amazonaws.com.",
+      "ip_address": "54.225.192.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-225-221-202.compute-1.amazonaws.com.",
+      "ip_address": "54.225.221.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-229-31-186.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.31.186",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "54.231.130.244",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "54.231.131.43",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "54.231.133.148",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "54.231.133.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "54.231.134.3",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-235-101-104.compute-1.amazonaws.com.",
+      "ip_address": "54.235.101.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-235-168-254.compute-1.amazonaws.com.",
+      "ip_address": "54.235.168.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-243-251-231.compute-1.amazonaws.com.",
+      "ip_address": "54.243.251.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-243-75-227.compute-1.amazonaws.com.",
+      "ip_address": "54.243.75.227",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-243-91-163.compute-1.amazonaws.com.",
+      "ip_address": "54.243.91.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "ec2-54-77-26-179.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.26.179",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "logs1229.xiti.com.",
+      "ip_address": "62.161.94.230",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "62.51.0.35",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "N/A",
+      "ip_address": "68.232.35.180",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "se.appcorn.Blocket",
+      "ptr_domain": "a92-122-64-146.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.64.146",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
+  ]
+}

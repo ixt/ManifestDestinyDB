@@ -1,0 +1,982 @@
+{
+  "appName": "Sophos Mobile Security",
+  "packageName": "com.sophos.smsec",
+  "category": "TOOLS",
+  "icon": "",
+  "permissions": [
+    "baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.sophos.smsec",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.INTERNET",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.GET_TASKS",
+    "android.permission.PACKAGE_USAGE_STATS",
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+    "android.permission.REQUEST_DELETE_PACKAGES",
+    "baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.sophos.smsec",
+    "com.sophos.mobilecontrol.client.android.permission.SENDMESSAGE",
+    "android.permission.GET_ACCOUNTS",
+    "com.sophos.mobilecontrol.client.android.permission.SEND_COMMAND",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.sophos.mobilecontrol.client.android.permission.SEND_COMMAND",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.NFC",
+    "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
+    "com.android.browser.permission.WRITE_HISTORY_BOOKMARKS",
+    "android.permission.KILL_BACKGROUND_PROCESSES",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.WAKE_LOCK",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.CAMERA",
+    "com.sophos.smsdkex.permission.SYNC",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "9.0.2992",
+  "trackers": [
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-117-121-250-34.sin.llnw.net.",
+      "ip_address": "117.121.250.34",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "143.210400",
+      "loc_lat": "-33.494000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-14-113.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.113",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-14-233.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.233",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-14-89.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.89",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-205-117.sea19.r.cloudfront.net.",
+      "ip_address": "13.32.205.117",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-205-213.sea19.r.cloudfront.net.",
+      "ip_address": "13.32.205.213",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-205-62.sea19.r.cloudfront.net.",
+      "ip_address": "13.32.205.62",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-205-75.sea19.r.cloudfront.net.",
+      "ip_address": "13.32.205.75",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-241-132.dfw54.r.cloudfront.net.",
+      "ip_address": "13.32.241.132",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-241-203.dfw54.r.cloudfront.net.",
+      "ip_address": "13.32.241.203",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-241-233.dfw54.r.cloudfront.net.",
+      "ip_address": "13.32.241.233",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-241-39.dfw54.r.cloudfront.net.",
+      "ip_address": "13.32.241.39",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-241-85.dfw54.r.cloudfront.net.",
+      "ip_address": "13.32.241.85",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-241-87.dfw54.r.cloudfront.net.",
+      "ip_address": "13.32.241.87",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-13-32-244-142.phl50.r.cloudfront.net.",
+      "ip_address": "13.32.244.142",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-178-79-227-186.vie.llnw.net.",
+      "ip_address": "178.79.227.186",
+      "loc_city": "N/A",
+      "loc_country": "Italy",
+      "loc_continent": "Europe",
+      "loc_long": "12.109700",
+      "loc_lat": "43.147900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-178-79-242-217.fra.llnw.net.",
+      "ip_address": "178.79.242.217",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-178-79-251-10.lcy.llnw.net.",
+      "ip_address": "178.79.251.10",
+      "loc_city": "N/A",
+      "loc_country": "Italy",
+      "loc_continent": "Europe",
+      "loc_long": "12.109700",
+      "loc_lat": "43.147900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-203-77-190-59.hkg.llnw.net.",
+      "ip_address": "203.77.190.59",
+      "loc_city": "N/A",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.690000",
+      "loc_lat": "35.690000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-205-251-215-244.sfo5.r.cloudfront.net.",
+      "ip_address": "205.251.215.244",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-205-251-215-252.sfo5.r.cloudfront.net.",
+      "ip_address": "205.251.215.252",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-205-251-215-53.sfo5.r.cloudfront.net.",
+      "ip_address": "205.251.215.53",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-208-111-155-130.sjc.llnw.net.",
+      "ip_address": "208.111.155.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-208-111-158-173.dal.llnw.net.",
+      "ip_address": "208.111.158.173",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-208-111-171-148.ord.llnw.net.",
+      "ip_address": "208.111.171.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-208-111-179-2.sea.llnw.net.",
+      "ip_address": "208.111.179.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-208-111-183-38.yyz.llnw.net.",
+      "ip_address": "208.111.183.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "a23-206-209-51.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.206.209.51",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "N/A",
+      "ip_address": "2620:11b:4006:102::100:135",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "ec2-52-205-223-214.compute-1.amazonaws.com.",
+      "ip_address": "52.205.223.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-222-162-23.fra54.r.cloudfront.net.",
+      "ip_address": "52.222.162.23",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-222-162-70.fra54.r.cloudfront.net.",
+      "ip_address": "52.222.162.70",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-222-226-120.lhr52.r.cloudfront.net.",
+      "ip_address": "52.222.226.120",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-243-204.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.204",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-10.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.10",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-126.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.126",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-160.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.160",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-168.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.168",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-188.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.188",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-194.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.194",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-196.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.196",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-219.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.219",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-30.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.30",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-45.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.45",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-65.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.65",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-70.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.70",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-71.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.71",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-80.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.80",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-84-27-84.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.27.84",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-111.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.111",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-146.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.146",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-156.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.156",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-177.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.177",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-179.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.179",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-17.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.17",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-193.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.193",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-31.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.31",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-50.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.50",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-52.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.52",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-62.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.62",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-101-99.jfk1.r.cloudfront.net.",
+      "ip_address": "52.85.101.99",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-90-106.jfk6.r.cloudfront.net.",
+      "ip_address": "52.85.90.106",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-90-222.jfk6.r.cloudfront.net.",
+      "ip_address": "52.85.90.222",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-52-85-90-66.jfk6.r.cloudfront.net.",
+      "ip_address": "52.85.90.66",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-136-101.lax1.r.cloudfront.net.",
+      "ip_address": "54.192.136.101",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-136-180.lax1.r.cloudfront.net.",
+      "ip_address": "54.192.136.180",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-136-240.lax1.r.cloudfront.net.",
+      "ip_address": "54.192.136.240",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-136-248.lax1.r.cloudfront.net.",
+      "ip_address": "54.192.136.248",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-136-26.lax1.r.cloudfront.net.",
+      "ip_address": "54.192.136.26",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-136-91.lax1.r.cloudfront.net.",
+      "ip_address": "54.192.136.91",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-192-149.iad53.r.cloudfront.net.",
+      "ip_address": "54.192.192.149",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-37-245.jfk1.r.cloudfront.net.",
+      "ip_address": "54.192.37.245",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-37-26.jfk1.r.cloudfront.net.",
+      "ip_address": "54.192.37.26",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-48-160.jfk5.r.cloudfront.net.",
+      "ip_address": "54.192.48.160",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-48-226.jfk5.r.cloudfront.net.",
+      "ip_address": "54.192.48.226",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-48-230.jfk5.r.cloudfront.net.",
+      "ip_address": "54.192.48.230",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-48-28.jfk5.r.cloudfront.net.",
+      "ip_address": "54.192.48.28",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-48-56.jfk5.r.cloudfront.net.",
+      "ip_address": "54.192.48.56",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-48-7.jfk5.r.cloudfront.net.",
+      "ip_address": "54.192.48.7",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-93-233.fra2.r.cloudfront.net.",
+      "ip_address": "54.192.93.233",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-93-31.fra2.r.cloudfront.net.",
+      "ip_address": "54.192.93.31",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-192-93-53.fra2.r.cloudfront.net.",
+      "ip_address": "54.192.93.53",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-230-86-104.lax3.r.cloudfront.net.",
+      "ip_address": "54.230.86.104",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-230-86-197.lax3.r.cloudfront.net.",
+      "ip_address": "54.230.86.197",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-230-86-219.lax3.r.cloudfront.net.",
+      "ip_address": "54.230.86.219",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-230-86-233.lax3.r.cloudfront.net.",
+      "ip_address": "54.230.86.233",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "server-54-230-86-99.lax3.r.cloudfront.net.",
+      "ip_address": "54.230.86.99",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-68-142-102-148.fll.llnw.net.",
+      "ip_address": "68.142.102.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-68-142-107-25.lax.llnw.net.",
+      "ip_address": "68.142.107.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-69-28-157-155.iad.llnw.net.",
+      "ip_address": "69.28.157.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-69-28-184-47.lga.llnw.net.",
+      "ip_address": "69.28.184.47",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-87-248-202-23.ams.llnw.net.",
+      "ip_address": "87.248.202.23",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.sophos.smsec",
+      "ptr_domain": "https-87-248-214-67.lon.llnw.net.",
+      "ip_address": "87.248.214.67",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
+  ]
+}

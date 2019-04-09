@@ -1,0 +1,898 @@
+{
+  "appName": "Voice",
+  "packageName": "com.google.android.apps.googlevoice",
+  "category": "COMMUNICATION",
+  "icon": "",
+  "permissions": [
+    "com.google.android.apps.voice.backends.cloudmessaging.permission.C2D_MESSAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.CALL_PHONE",
+    "android.permission.CAMERA",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.GET_PACKAGE_SIZE",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.MANAGE_OWN_CALLS",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.PROCESS_OUTGOING_CALLS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.apps.voice.backends.cloudmessaging.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
+  ],
+  "version": "2019.11.240776012",
+  "trackers": [
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "atl14s77-in-f10.1e100.net.",
+      "ip_address": "172.217.0.138",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "yyz10s03-in-f10.1e100.net.",
+      "ip_address": "172.217.0.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo07s26-in-f10.1e100.net.",
+      "ip_address": "172.217.0.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lga25s60-in-f10.1e100.net.",
+      "ip_address": "172.217.11.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "yyz10s06-in-f10.1e100.net.",
+      "ip_address": "172.217.2.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo03s07-in-f106.1e100.net.",
+      "ip_address": "172.217.5.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "dfw25s17-in-f170.1e100.net.",
+      "ip_address": "172.217.6.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lga25s55-in-f234.1e100.net.",
+      "ip_address": "172.217.6.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo03s08-in-f10.1e100.net.",
+      "ip_address": "172.217.6.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "iad30s08-in-f10.1e100.net.",
+      "ip_address": "172.217.7.138",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "iad30s09-in-f170.1e100.net.",
+      "ip_address": "172.217.7.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "iad30s10-in-f202.1e100.net.",
+      "ip_address": "172.217.7.202",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord37s08-in-f10.1e100.net.",
+      "ip_address": "172.217.8.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord37s09-in-f10.1e100.net.",
+      "ip_address": "172.217.8.202",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord38s08-in-f10.1e100.net.",
+      "ip_address": "172.217.9.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "qs-in-f95.1e100.net.",
+      "ip_address": "173.194.175.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "qk-in-f95.1e100.net.",
+      "ip_address": "173.194.207.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ya-in-f95.1e100.net.",
+      "ip_address": "173.194.219.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "qr-in-f95.1e100.net.",
+      "ip_address": "173.194.68.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "mia07s46-in-f10.1e100.net.",
+      "ip_address": "216.58.192.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax02s23-in-f202.1e100.net.",
+      "ip_address": "216.58.193.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sea15s07-in-f74.1e100.net.",
+      "ip_address": "216.58.193.74",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "dfw06s48-in-f10.1e100.net.",
+      "ip_address": "216.58.194.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo07s13-in-f170.1e100.net.",
+      "ip_address": "216.58.194.170",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo03s01-in-f10.1e100.net.",
+      "ip_address": "216.58.194.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "dfw25s13-in-f74.1e100.net.",
+      "ip_address": "216.58.194.74",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo03s06-in-f234.1e100.net.",
+      "ip_address": "216.58.195.234",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "N/A",
+      "ip_address": "216.58.195.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo07s16-in-f10.1e100.net.",
+      "ip_address": "216.58.195.74",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "nrt12s02-in-f10.1e100.net.",
+      "ip_address": "216.58.197.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord30s22-in-f10.1e100.net.",
+      "ip_address": "216.58.216.106",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sea15s01-in-f138.1e100.net.",
+      "ip_address": "216.58.216.138",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "qro02s15-in-f10.1e100.net.",
+      "ip_address": "216.58.217.10",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "iad23s43-in-f138.1e100.net.",
+      "ip_address": "216.58.217.138",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "dfw06s46-in-f170.1e100.net.",
+      "ip_address": "216.58.218.170",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "dfw06s47-in-f202.1e100.net.",
+      "ip_address": "216.58.218.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lga25s41-in-f10.1e100.net.",
+      "ip_address": "216.58.219.234",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax17s04-in-f10.1e100.net.",
+      "ip_address": "216.58.219.42",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "dfw25s16-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4000:80f::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "dfw25s26-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4000:813::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "atl14s39-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4002:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "atl14s77-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4002:807::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "atl26s15-in-x0b.1e100.net.",
+      "ip_address": "2607:f8b0:4002:812::200b",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "yv-in-x5f.1e100.net.",
+      "ip_address": "2607:f8b0:4002:c06::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "yi-in-x5f.1e100.net.",
+      "ip_address": "2607:f8b0:4002:c0c::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "nuq04s29-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:801::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo07s13-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo03s01-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:805::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo03s06-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo07s16-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:807::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo03s07-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:808::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo03s08-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:809::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sfo07s17-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:80a::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lga25s40-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4006:80e::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lga34s14-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4006:810::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax17s14-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:800::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax28s01-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:801::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax17s03-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax17s04-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:807::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax17s05-in-x03.1e100.net.",
+      "ip_address": "2607:f8b0:4007:808::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax17s05-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:808::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax02s21-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:809::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax02s22-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80a::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax02s23-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80b::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax17s15-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80c::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "lax28s10-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80d::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4008:80b::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord36s04-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4009:800::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord37s07-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4009:802::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord37s19-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4009:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord30s22-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4009:80b::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord38s04-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4009:813::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ord38s09-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4009:816::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sea15s07-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:400a:800::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sea30s01-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:400a:801::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400a:807::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "sea15s11-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:400a:808::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "qm-in-x5f.1e100.net.",
+      "ip_address": "2607:f8b0:400d:c02::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "qb-in-x5f.1e100.net.",
+      "ip_address": "2607:f8b0:400d:c07::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "xx-fbcdn6-shv-01-lax3.fbcdn.net.",
+      "ip_address": "2a03:2880:f00d:8:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ec2-52-0-169-255.compute-1.amazonaws.com.",
+      "ip_address": "52.0.169.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "ec2-52-32-67-238.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.32.67.238",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "pl-in-f95.1e100.net.",
+      "ip_address": "74.125.135.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "yi-in-f95.1e100.net.",
+      "ip_address": "74.125.138.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "qn-in-f95.1e100.net.",
+      "ip_address": "74.125.192.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.googlevoice",
+      "ptr_domain": "qh-in-f95.1e100.net.",
+      "ip_address": "74.125.22.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

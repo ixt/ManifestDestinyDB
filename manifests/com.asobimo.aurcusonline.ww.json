@@ -1,0 +1,48 @@
+{
+  "appName": "Aurcus Online",
+  "packageName": "com.asobimo.aurcusonline.ww",
+  "category": "GAME_ACTION",
+  "icon": "",
+  "permissions": [
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.asobimo.aurcusonline.ww.permission.RECEIVE",
+    "com.asobimo.aurcusonline.ww.permission.C2D_MESSAGE",
+    "com.asobimo.aurcusonline.ww.permission.C2D_MESSAGE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "3.0.9",
+  "trackers": [
+    "Google Firebase Analytics",
+    "Apteligent by VMWare"
+  ],
+  "network_connections": [
+    {
+      "package": "com.asobimo.aurcusonline.ww",
+      "ptr_domain": "server-52-84-243-84.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.84",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.asobimo.aurcusonline.ww",
+      "ptr_domain": "ec2-54-92-82-152.ap-northeast-1.compute.amazonaws.com.",
+      "ip_address": "54.92.82.152",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    }
+  ]
+}

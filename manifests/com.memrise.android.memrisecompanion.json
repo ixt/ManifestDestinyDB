@@ -1,0 +1,1442 @@
+{
+  "appName": "Memrise",
+  "packageName": "com.memrise.android.memrisecompanion",
+  "category": "EDUCATION",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "2.94_10042_memrise",
+  "trackers": [
+    "Google CrashLytics",
+    "Segment",
+    "Google Firebase Analytics",
+    "HelpShift",
+    "Braze",
+    "Facebook Login",
+    "Adjust",
+    "Google Analytics",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-20-135-85.compute-1.amazonaws.com.",
+      "ip_address": "107.20.135.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-21-109-56.compute-1.amazonaws.com.",
+      "ip_address": "107.21.109.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-21-115-231.compute-1.amazonaws.com.",
+      "ip_address": "107.21.115.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-21-222-48.compute-1.amazonaws.com.",
+      "ip_address": "107.21.222.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-21-237-18.compute-1.amazonaws.com.",
+      "ip_address": "107.21.237.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-21-240-115.compute-1.amazonaws.com.",
+      "ip_address": "107.21.240.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-21-98-91.compute-1.amazonaws.com.",
+      "ip_address": "107.21.98.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-22-169-192.compute-1.amazonaws.com.",
+      "ip_address": "107.22.169.192",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-22-184-200.compute-1.amazonaws.com.",
+      "ip_address": "107.22.184.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com.",
+      "ip_address": "107.22.187.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-22-199-247.compute-1.amazonaws.com.",
+      "ip_address": "107.22.199.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-22-230-131.compute-1.amazonaws.com.",
+      "ip_address": "107.22.230.131",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-22-230-165.compute-1.amazonaws.com.",
+      "ip_address": "107.22.230.165",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-22-238-71.compute-1.amazonaws.com.",
+      "ip_address": "107.22.238.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-22-241-65.compute-1.amazonaws.com.",
+      "ip_address": "107.22.241.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-107-22-253-209.compute-1.amazonaws.com.",
+      "ip_address": "107.22.253.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-02-gru2.facebook.com.",
+      "ip_address": "157.240.12.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-bom1.facebook.com.",
+      "ip_address": "157.240.16.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com.",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com.",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com.",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "waw02s08-in-f194.1e100.net.",
+      "ip_address": "172.217.20.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "fra16s13-in-f2.1e100.net.",
+      "ip_address": "172.217.21.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "maa03s23-in-f2.1e100.net.",
+      "ip_address": "172.217.26.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-174-129-209-245.compute-1.amazonaws.com.",
+      "ip_address": "174.129.209.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.177",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.61",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-bru2.facebook.com.",
+      "ip_address": "179.60.195.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-184-73-222-234.compute-1.amazonaws.com.",
+      "ip_address": "184.73.222.234",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-21-103-189.compute-1.amazonaws.com.",
+      "ip_address": "23.21.103.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-21-106-109.compute-1.amazonaws.com.",
+      "ip_address": "23.21.106.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-21-212-189.compute-1.amazonaws.com.",
+      "ip_address": "23.21.212.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-21-51-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.51.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-21-59-163.compute-1.amazonaws.com.",
+      "ip_address": "23.21.59.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com.",
+      "ip_address": "23.23.112.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-23-114-96.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-23-115-15.compute-1.amazonaws.com.",
+      "ip_address": "23.23.115.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-23-122-193.compute-1.amazonaws.com.",
+      "ip_address": "23.23.122.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-23-156-102.compute-1.amazonaws.com.",
+      "ip_address": "23.23.156.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-23-184-36.compute-1.amazonaws.com.",
+      "ip_address": "23.23.184.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-23-215-5.compute-1.amazonaws.com.",
+      "ip_address": "23.23.215.5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-23-23-234-198.compute-1.amazonaws.com.",
+      "ip_address": "23.23.234.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "bom07s11-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:803::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star6-shv-01-iad3.facebook.com.",
+      "ip_address": "2a03:2880:f003:c07:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star6-shv-01-amt2.facebook.com.",
+      "ip_address": "2a03:2880:f006:15:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star6-shv-01-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star6-shv-02-lax3.facebook.com.",
+      "ip_address": "2a03:2880:f00d:110:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com.",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-lax3.facebook.com.",
+      "ip_address": "31.13.70.1",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-arn2.facebook.com.",
+      "ip_address": "31.13.72.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-waw1.facebook.com.",
+      "ip_address": "31.13.81.9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com.",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-vie1.facebook.com.",
+      "ip_address": "31.13.84.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com.",
+      "ip_address": "31.13.86.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.88.4",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com.",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com.",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com.",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-eze1.facebook.com.",
+      "ip_address": "31.13.94.19",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "edge-star-shv-01-hkg3.facebook.com.",
+      "ip_address": "31.13.95.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-35-162-26-52.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.162.26.52",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-35-163-135-126.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.163.135.126",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-35-163-223-46.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.163.223.46",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-35-163-28-163.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.163.28.163",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-35-165-210-165.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.165.210.165",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-35-167-179-96.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.167.179.96",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-35-167-220-255.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.167.220.255",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-16-193-81.compute-1.amazonaws.com.",
+      "ip_address": "50.16.193.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-17-237-255.compute-1.amazonaws.com.",
+      "ip_address": "50.17.237.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-17-249-91.compute-1.amazonaws.com.",
+      "ip_address": "50.17.249.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-19-215-224.compute-1.amazonaws.com.",
+      "ip_address": "50.19.215.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-19-227-71.compute-1.amazonaws.com.",
+      "ip_address": "50.19.227.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-19-228-192.compute-1.amazonaws.com.",
+      "ip_address": "50.19.228.192",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-19-235-238.compute-1.amazonaws.com.",
+      "ip_address": "50.19.235.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com.",
+      "ip_address": "50.19.81.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-19-85-47.compute-1.amazonaws.com.",
+      "ip_address": "50.19.85.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-50-19-95-95.compute-1.amazonaws.com.",
+      "ip_address": "50.19.95.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-0-42-126.compute-1.amazonaws.com.",
+      "ip_address": "52.0.42.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-205-1-77.compute-1.amazonaws.com.",
+      "ip_address": "52.205.1.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-24-196-36.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.24.196.36",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-26-110-130.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.26.110.130",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-27-215-54.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.27.215.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-34-104-233.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.34.104.233",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-35-153-59.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.35.153.59",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-35-80-8.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.35.80.8",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-42-96-107.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.42.96.107",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-71-210-97.compute-1.amazonaws.com.",
+      "ip_address": "52.71.210.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "server-52-84-132-25.atl52.r.cloudfront.net.",
+      "ip_address": "52.84.132.25",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-86-219-5.compute-1.amazonaws.com.",
+      "ip_address": "52.86.219.5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-88-79-183.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.88.79.183",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-52-89-86-249.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.89.86.249",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-163-244-157.compute-1.amazonaws.com.",
+      "ip_address": "54.163.244.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-186-207-204.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.186.207.204",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-197-237-178.compute-1.amazonaws.com.",
+      "ip_address": "54.197.237.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-221-220-45.compute-1.amazonaws.com.",
+      "ip_address": "54.221.220.45",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-221-222-20.compute-1.amazonaws.com.",
+      "ip_address": "54.221.222.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-221-230-67.compute-1.amazonaws.com.",
+      "ip_address": "54.221.230.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com.",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-143-212.compute-1.amazonaws.com.",
+      "ip_address": "54.225.143.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-162-48.compute-1.amazonaws.com.",
+      "ip_address": "54.225.162.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-165-247.compute-1.amazonaws.com.",
+      "ip_address": "54.225.165.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-165-43.compute-1.amazonaws.com.",
+      "ip_address": "54.225.165.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-183-252.compute-1.amazonaws.com.",
+      "ip_address": "54.225.183.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-196-50.compute-1.amazonaws.com.",
+      "ip_address": "54.225.196.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-209-156.compute-1.amazonaws.com.",
+      "ip_address": "54.225.209.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-221-53.compute-1.amazonaws.com.",
+      "ip_address": "54.225.221.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com.",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-235-101-104.compute-1.amazonaws.com.",
+      "ip_address": "54.235.101.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-235-129-139.compute-1.amazonaws.com.",
+      "ip_address": "54.235.129.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-235-189-52.compute-1.amazonaws.com.",
+      "ip_address": "54.235.189.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-235-205-203.compute-1.amazonaws.com.",
+      "ip_address": "54.235.205.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-235-75-243.compute-1.amazonaws.com.",
+      "ip_address": "54.235.75.243",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "server-54-239-192-133.waw50.r.cloudfront.net.",
+      "ip_address": "54.239.192.133",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "server-54-239-192-18.waw50.r.cloudfront.net.",
+      "ip_address": "54.239.192.18",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "server-54-239-192-209.waw50.r.cloudfront.net.",
+      "ip_address": "54.239.192.209",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "server-54-239-192-211.waw50.r.cloudfront.net.",
+      "ip_address": "54.239.192.211",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "server-54-239-192-49.waw50.r.cloudfront.net.",
+      "ip_address": "54.239.192.49",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-104-248.compute-1.amazonaws.com.",
+      "ip_address": "54.243.104.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-105-3.compute-1.amazonaws.com.",
+      "ip_address": "54.243.105.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-116-34.compute-1.amazonaws.com.",
+      "ip_address": "54.243.116.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-127-94.compute-1.amazonaws.com.",
+      "ip_address": "54.243.127.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-139-39.compute-1.amazonaws.com.",
+      "ip_address": "54.243.139.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-180-96.compute-1.amazonaws.com.",
+      "ip_address": "54.243.180.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-212-62.compute-1.amazonaws.com.",
+      "ip_address": "54.243.212.62",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-245-38.compute-1.amazonaws.com.",
+      "ip_address": "54.243.245.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-71-140.compute-1.amazonaws.com.",
+      "ip_address": "54.243.71.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-77-238.compute-1.amazonaws.com.",
+      "ip_address": "54.243.77.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-243-80-191.compute-1.amazonaws.com.",
+      "ip_address": "54.243.80.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-68-144-184.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.68.144.184",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.memrise.android.memrisecompanion",
+      "ptr_domain": "ec2-54-83-47-63.compute-1.amazonaws.com.",
+      "ip_address": "54.83.47.63",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

@@ -1,21 +1,84 @@
 {
-    "appName": "Ocado",
-    "packageName": "com.ocado.mobile.android",
-    "category": "SHOPPING",
-    "icon": "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",
-    "permissions": [
-          "android.permission.INTERNET", 
-          "android.permission.ACCESS_WIFI_STATE", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.WAKE_LOCK", 
-          "android.permission.WIFI_LOCK", 
-          "android.permission.READ_CALENDAR", 
-          "android.permission.WRITE_CALENDAR", 
-          "android.permission.USE_FINGERPRINT", 
-          "com.google.android.c2dm.permission.RECEIVE", 
-          "com.google.android.providers.gsf.permission.READ_GSERVICES", 
-          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE", 
-          "android.permission.CAMERA" 
-    ],
-    "version": "1.59.6"
+  "appName": "Ocado",
+  "packageName": "com.ocado.mobile.android",
+  "category": "SHOPPING",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WIFI_LOCK",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_CALENDAR",
+    "android.permission.WRITE_CALENDAR",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.ocado.mobile.android.permission.C2D_MESSAGE",
+    "com.ocado.mobile.android.permission.C2D_MESSAGE",
+    "android.permission.CAMERA"
+  ],
+  "version": "1.48.7.565107",
+  "trackers": [
+    "Facebook Analytics",
+    "Facebook Share",
+    "AppSee",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ocado.mobile.android",
+      "ptr_domain": "lhr25s11-in-f2.1e100.net.",
+      "ip_address": "216.58.210.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.ocado.mobile.android",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com.",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.ocado.mobile.android",
+      "ptr_domain": "ec2-50-19-94-109.compute-1.amazonaws.com.",
+      "ip_address": "50.19.94.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ocado.mobile.android",
+      "ptr_domain": "ec2-54-243-47-251.compute-1.amazonaws.com.",
+      "ip_address": "54.243.47.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ocado.mobile.android",
+      "ptr_domain": "N/A",
+      "ip_address": "91.206.0.222",
+      "loc_city": "Woolwich",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "0.083300",
+      "loc_lat": "51.483300"
+    }
+  ]
 }

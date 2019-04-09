@@ -1,0 +1,712 @@
+{
+  "appName": "Transit",
+  "packageName": "com.thetransitapp.droid",
+  "category": "MAPS_AND_NAVIGATION",
+  "icon": "",
+  "permissions": [
+    "com.thetransitapp.droid.permission.MAPS_RECEIVE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.USE_BIOMETRIC",
+    "com.thetransitapp.droid.permission.MAPS_RECEIVE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.BLUETOOTH",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.VIBRATE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.thetransitapp.droid.permission.C2D_MESSAGE",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_CALENDAR",
+    "android.permission.WAKE_LOCK",
+    "android.permission.USE_CREDENTIALS",
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "android.permission.FOREGROUND_SERVICE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.thetransitapp.droid.permission.C2D_MESSAGE"
+  ],
+  "version": "5.2.13",
+  "trackers": [
+    "Amplitude",
+    "Google Firebase Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "104.36.192.133",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.406000",
+      "loc_lat": "37.777100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "104.36.192.183",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.406000",
+      "loc_lat": "37.777100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com.",
+      "ip_address": "107.20.235.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-107-21-109-56.compute-1.amazonaws.com.",
+      "ip_address": "107.21.109.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-107-21-221-240.compute-1.amazonaws.com.",
+      "ip_address": "107.21.221.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-107-21-248-175.compute-1.amazonaws.com.",
+      "ip_address": "107.21.248.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com.",
+      "ip_address": "107.22.187.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-107-22-199-247.compute-1.amazonaws.com.",
+      "ip_address": "107.22.199.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com.",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com.",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "den02s02-in-f8.1e100.net.",
+      "ip_address": "172.217.12.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ord37s19-in-f14.1e100.net.",
+      "ip_address": "172.217.4.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "lga25s54-in-f14.1e100.net.",
+      "ip_address": "172.217.6.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "iad30s09-in-f163.1e100.net.",
+      "ip_address": "172.217.7.163",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-174-129-9-155.compute-1.amazonaws.com.",
+      "ip_address": "174.129.9.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-184-73-157-139.compute-1.amazonaws.com.",
+      "ip_address": "184.73.157.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "mail.activosvirtuales.mx.",
+      "ip_address": "192.99.45.203",
+      "loc_city": "Montreal",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-73.579400",
+      "loc_lat": "45.506300"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "stats.transitapp.com.",
+      "ip_address": "192.99.8.177",
+      "loc_city": "Montreal",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-73.579400",
+      "loc_lat": "45.506300"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "dfw25s13-in-f78.1e100.net.",
+      "ip_address": "216.58.194.78",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ams15s21-in-f3.1e100.net.",
+      "ip_address": "216.58.212.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ams15s22-in-f3.1e100.net.",
+      "ip_address": "216.58.212.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "sea15s02-in-f174.1e100.net.",
+      "ip_address": "216.58.216.174",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "dfw06s46-in-f174.1e100.net.",
+      "ip_address": "216.58.218.174",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-23-21-171-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.171.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-23-21-47-236.compute-1.amazonaws.com.",
+      "ip_address": "23.21.47.236",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-23-21-53-251.compute-1.amazonaws.com.",
+      "ip_address": "23.21.53.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com.",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-23-23-147-10.compute-1.amazonaws.com.",
+      "ip_address": "23.23.147.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-23-23-186-247.compute-1.amazonaws.com.",
+      "ip_address": "23.23.186.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400f:802::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400f:803::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ams15s21-in-x03.1e100.net.",
+      "ip_address": "2a00:1450:400e:800::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "edge-star6-shv-01-sea1.facebook.com.",
+      "ip_address": "2a03:2880:f001:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f00b:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com.",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com.",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com.",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com.",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-50-112-102-94.us-west-2.compute.amazonaws.com.",
+      "ip_address": "50.112.102.94",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-50-112-244-156.us-west-2.compute.amazonaws.com.",
+      "ip_address": "50.112.244.156",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-50-112-247-148.us-west-2.compute.amazonaws.com.",
+      "ip_address": "50.112.247.148",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-50-112-254-220.us-west-2.compute.amazonaws.com.",
+      "ip_address": "50.112.254.220",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-50-112-98-217.us-west-2.compute.amazonaws.com.",
+      "ip_address": "50.112.98.217",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-50-19-235-238.compute-1.amazonaws.com.",
+      "ip_address": "50.19.235.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-50-19-85-47.compute-1.amazonaws.com.",
+      "ip_address": "50.19.85.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-212-251-198.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.212.251.198",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-212-252-211.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.212.252.211",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-214-16-12.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.214.16.12",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-214-24-254.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.214.24.254",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-214-41-98.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.214.41.98",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-225-128-109.compute-1.amazonaws.com.",
+      "ip_address": "54.225.128.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com.",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-225-217-126.compute-1.amazonaws.com.",
+      "ip_address": "54.225.217.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-225-246-179.compute-1.amazonaws.com.",
+      "ip_address": "54.225.246.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-235-151-110.compute-1.amazonaws.com.",
+      "ip_address": "54.235.151.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-235-186-187.compute-1.amazonaws.com.",
+      "ip_address": "54.235.186.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-243-58-93.compute-1.amazonaws.com.",
+      "ip_address": "54.243.58.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-245-233-65.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.245.233.65",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-245-80-25.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.245.80.25",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "ec2-54-83-3-178.compute-1.amazonaws.com.",
+      "ip_address": "54.83.3.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "64.85.72.29",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "67.215.6.162",
+      "loc_city": "Saint-Quentin",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-67.392900",
+      "loc_lat": "47.513300"
+    },
+    {
+      "package": "com.thetransitapp.droid",
+      "ptr_domain": "N/A",
+      "ip_address": "68.168.120.186",
+      "loc_city": "Saint-Quentin",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-67.392900",
+      "loc_lat": "47.513300"
+    }
+  ]
+}

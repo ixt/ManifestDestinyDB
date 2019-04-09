@@ -1,0 +1,1689 @@
+{
+  "appName": "Stitcher",
+  "packageName": "com.stitcher.app",
+  "category": "MUSIC_AND_AUDIO",
+  "icon": "",
+  "permissions": [
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.stitcher.app.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "4.3.2",
+  "trackers": [
+    "Flurry",
+    "Adjust",
+    "Localytics",
+    "Google Ads",
+    "Google DoubleClick",
+    "HelpShift",
+    "Google Firebase Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-107-20-135-85.compute-1.amazonaws.com.",
+      "ip_address": "107.20.135.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-107-20-172-125.compute-1.amazonaws.com.",
+      "ip_address": "107.20.172.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-107-20-188-203.compute-1.amazonaws.com.",
+      "ip_address": "107.20.188.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-107-20-220-24.compute-1.amazonaws.com.",
+      "ip_address": "107.20.220.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-107-21-109-56.compute-1.amazonaws.com.",
+      "ip_address": "107.21.109.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-107-22-184-200.compute-1.amazonaws.com.",
+      "ip_address": "107.22.184.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-13-32-14-143.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.143",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-13-32-14-146.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.146",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-13-32-14-232.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.232",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-13-32-188-159.atl51.r.cloudfront.net.",
+      "ip_address": "13.32.188.159",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-13-32-188-160.atl51.r.cloudfront.net.",
+      "ip_address": "13.32.188.160",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "13.84.148.56",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.493500",
+      "loc_lat": "29.424700"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga25s59-in-f2.1e100.net.",
+      "ip_address": "172.217.10.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga34s13-in-f2.1e100.net.",
+      "ip_address": "172.217.10.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga34s14-in-f2.1e100.net.",
+      "ip_address": "172.217.10.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga25s60-in-f2.1e100.net.",
+      "ip_address": "172.217.11.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga34s19-in-f2.1e100.net.",
+      "ip_address": "172.217.12.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga25s62-in-f2.1e100.net.",
+      "ip_address": "172.217.12.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "dfw28s05-in-f10.1e100.net.",
+      "ip_address": "172.217.12.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ord37s07-in-f2.1e100.net.",
+      "ip_address": "172.217.1.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ams15s30-in-f2.1e100.net.",
+      "ip_address": "172.217.17.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "muc11s13-in-f2.1e100.net.",
+      "ip_address": "172.217.21.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "dfw28s01-in-f2.1e100.net.",
+      "ip_address": "172.217.2.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "dfw25s16-in-f2.1e100.net.",
+      "ip_address": "172.217.6.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga25s55-in-f2.1e100.net.",
+      "ip_address": "172.217.6.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga34s11-in-f2.1e100.net.",
+      "ip_address": "172.217.9.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-174-129-209-245.compute-1.amazonaws.com.",
+      "ip_address": "174.129.209.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.178",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.179",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.180",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.58",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.61",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-184-169-131-224.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.131.224",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-184-169-163-201.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.163.201",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-184-169-174-92.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.174.92",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-184-169-181-94.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.181.94",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-184-169-183-216.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.183.216",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-184-72-59-71.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.72.59.71",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-184-73-157-139.compute-1.amazonaws.com.",
+      "ip_address": "184.73.157.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "192.173.28.56",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "192.173.28.58",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "192.203.201.25",
+      "loc_city": "Minneapolis",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.336600",
+      "loc_lat": "44.950900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "198.101.128.32",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "anycast.sc.iasds01.com.",
+      "ip_address": "199.166.0.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "208.92.52.235",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "208.92.52.72",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ash-qlick.streamtheworld.net.",
+      "ip_address": "208.92.55.10",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "208.92.55.17",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "dfw25s12-in-f2.1e100.net.",
+      "ip_address": "216.58.194.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "dfw25s13-in-f66.1e100.net.",
+      "ip_address": "216.58.194.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ord31s22-in-f2.1e100.net.",
+      "ip_address": "216.58.216.226",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "dfw25s07-in-f98.1e100.net.",
+      "ip_address": "216.58.218.98",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "a23-194-121-7.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.194.121.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-23-20-153-53.compute-1.amazonaws.com.",
+      "ip_address": "23.20.153.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "a23-206-225-15.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.206.225.15",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-23-21-171-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.171.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-23-21-51-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.51.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-23-23-110-16.compute-1.amazonaws.com.",
+      "ip_address": "23.23.110.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-23-23-111-85.compute-1.amazonaws.com.",
+      "ip_address": "23.23.111.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com.",
+      "ip_address": "23.23.112.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-23-23-147-10.compute-1.amazonaws.com.",
+      "ip_address": "23.23.147.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-23-23-96-77.compute-1.amazonaws.com.",
+      "ip_address": "23.23.96.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "sfo03s07-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4005:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga34s11-in-x03.1e100.net.",
+      "ip_address": "2607:f8b0:4006:801::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga34s15-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4006:811::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga25s59-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4006:813::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga25s59-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4006:813::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga25s61-in-x06.1e100.net.",
+      "ip_address": "2607:f8b0:4006:815::2006",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga25s61-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4006:815::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga34s19-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4006:819::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga34s19-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4006:819::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lga25s63-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4006:81b::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "lax02s22-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80a::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ord30s31-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4009:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ord37s07-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4009:802::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ord30s26-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4009:80f::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ord38s01-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4009:811::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "edge-atlas6-shv-01-iad3.facebook.com.",
+      "ip_address": "2a03:2880:f003:c03:face:b00c:0:8c",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-34-197-31-64.compute-1.amazonaws.com.",
+      "ip_address": "34.197.31.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-34-199-6-77.compute-1.amazonaws.com.",
+      "ip_address": "34.199.6.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-34-206-203-21.compute-1.amazonaws.com.",
+      "ip_address": "34.206.203.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-35-162-248-130.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.162.248.130",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "40.114.120.20",
+      "loc_city": "Washington",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.153900",
+      "loc_lat": "38.709500"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-16-226-96.compute-1.amazonaws.com.",
+      "ip_address": "50.16.226.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-17-244-57.compute-1.amazonaws.com.",
+      "ip_address": "50.17.244.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-18-122-20.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.122.20",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-18-151-133.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.151.133",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-18-174-39.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.174.39",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-18-177-248.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.177.248",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-18-59-61.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.59.61",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-19-104-138.compute-1.amazonaws.com.",
+      "ip_address": "50.19.104.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-19-106-31.compute-1.amazonaws.com.",
+      "ip_address": "50.19.106.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-19-227-71.compute-1.amazonaws.com.",
+      "ip_address": "50.19.227.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-19-228-192.compute-1.amazonaws.com.",
+      "ip_address": "50.19.228.192",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-50-19-95-95.compute-1.amazonaws.com.",
+      "ip_address": "50.19.95.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-52-38-13-152.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.38.13.152",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-84-40-167.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.167",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-84-40-195.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.195",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-84-40-20.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.20",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-84-40-25.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.25",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-85-133-17.iad53.r.cloudfront.net.",
+      "ip_address": "52.85.133.17",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-85-133-31.iad53.r.cloudfront.net.",
+      "ip_address": "52.85.133.31",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-85-133-60.iad53.r.cloudfront.net.",
+      "ip_address": "52.85.133.60",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-85-142-17.iad12.r.cloudfront.net.",
+      "ip_address": "52.85.142.17",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-85-90-22.jfk6.r.cloudfront.net.",
+      "ip_address": "52.85.90.22",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-52-85-90-64.jfk6.r.cloudfront.net.",
+      "ip_address": "52.85.90.64",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-192-122-12.dfw50.r.cloudfront.net.",
+      "ip_address": "54.192.122.12",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-192-122-15.dfw50.r.cloudfront.net.",
+      "ip_address": "54.192.122.15",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-192-192-113.iad53.r.cloudfront.net.",
+      "ip_address": "54.192.192.113",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-192-192-228.iad53.r.cloudfront.net.",
+      "ip_address": "54.192.192.228",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-192-36-210.jfk1.r.cloudfront.net.",
+      "ip_address": "54.192.36.210",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-192-37-217.jfk1.r.cloudfront.net.",
+      "ip_address": "54.192.37.217",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-192-48-57.jfk5.r.cloudfront.net.",
+      "ip_address": "54.192.48.57",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-192-48-82.jfk5.r.cloudfront.net.",
+      "ip_address": "54.192.48.82",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-197-237-178.compute-1.amazonaws.com.",
+      "ip_address": "54.197.237.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-208-19-110.compute-1.amazonaws.com.",
+      "ip_address": "54.208.19.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-221-230-67.compute-1.amazonaws.com.",
+      "ip_address": "54.221.230.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-162-48.compute-1.amazonaws.com.",
+      "ip_address": "54.225.162.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-170-144.compute-1.amazonaws.com.",
+      "ip_address": "54.225.170.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-180-160.compute-1.amazonaws.com.",
+      "ip_address": "54.225.180.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-183-252.compute-1.amazonaws.com.",
+      "ip_address": "54.225.183.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-212-15.compute-1.amazonaws.com.",
+      "ip_address": "54.225.212.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-214-241.compute-1.amazonaws.com.",
+      "ip_address": "54.225.214.241",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-215-77.compute-1.amazonaws.com.",
+      "ip_address": "54.225.215.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-216-231.compute-1.amazonaws.com.",
+      "ip_address": "54.225.216.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-217-126.compute-1.amazonaws.com.",
+      "ip_address": "54.225.217.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-221-53.compute-1.amazonaws.com.",
+      "ip_address": "54.225.221.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com.",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com.",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-128-213.ams50.r.cloudfront.net.",
+      "ip_address": "54.230.128.213",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-19-176.iad12.r.cloudfront.net.",
+      "ip_address": "54.230.19.176",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-19-220.iad12.r.cloudfront.net.",
+      "ip_address": "54.230.19.220",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-19-22.iad12.r.cloudfront.net.",
+      "ip_address": "54.230.19.22",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-19-246.iad12.r.cloudfront.net.",
+      "ip_address": "54.230.19.246",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-19-61.iad12.r.cloudfront.net.",
+      "ip_address": "54.230.19.61",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-19-74.iad12.r.cloudfront.net.",
+      "ip_address": "54.230.19.74",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-19-83.iad12.r.cloudfront.net.",
+      "ip_address": "54.230.19.83",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-19-88.iad12.r.cloudfront.net.",
+      "ip_address": "54.230.19.88",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-204-111.atl50.r.cloudfront.net.",
+      "ip_address": "54.230.204.111",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "server-54-230-90-191.ind6.r.cloudfront.net.",
+      "ip_address": "54.230.90.191",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-235-139-218.compute-1.amazonaws.com.",
+      "ip_address": "54.235.139.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-235-69-83.compute-1.amazonaws.com.",
+      "ip_address": "54.235.69.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-235-86-237.compute-1.amazonaws.com.",
+      "ip_address": "54.235.86.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.17.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.17.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-101-102.compute-1.amazonaws.com.",
+      "ip_address": "54.243.101.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-109-101.compute-1.amazonaws.com.",
+      "ip_address": "54.243.109.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-111-144.compute-1.amazonaws.com.",
+      "ip_address": "54.243.111.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com.",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-160-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.160.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-177-201.compute-1.amazonaws.com.",
+      "ip_address": "54.243.177.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-215-229.compute-1.amazonaws.com.",
+      "ip_address": "54.243.215.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-227-109.compute-1.amazonaws.com.",
+      "ip_address": "54.243.227.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-251-231.compute-1.amazonaws.com.",
+      "ip_address": "54.243.251.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-243-255-60.compute-1.amazonaws.com.",
+      "ip_address": "54.243.255.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "ec2-54-83-50-23.compute-1.amazonaws.com.",
+      "ip_address": "54.83.50.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "104.108.241.63.in-addr.arpa. CNAME 104.64/26.108.241.63.in-addr.arpa.",
+      "ip_address": "63.241.108.104",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "66.150.118.20",
+      "loc_city": "Ferndale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.595300",
+      "loc_lat": "48.862500"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.111",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.56",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com.",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.stitcher.app",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
+      "ip_address": "74.6.34.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

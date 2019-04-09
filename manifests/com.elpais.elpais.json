@@ -1,0 +1,4272 @@
+{
+  "appName": "EL PAÍS",
+  "packageName": "com.elpais.elpais",
+  "category": "NEWS_AND_MAGAZINES",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.elpais.elpais.permission.C2D_MESSAGE",
+    "com.elpais.elpais.permission.C2D_MESSAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE"
+  ],
+  "version": "2.8.10",
+  "trackers": [
+    "Google DoubleClick",
+    "ComScore",
+    "Google Firebase Analytics",
+    "Google Ads",
+    "Omniture",
+    "Google CrashLytics",
+    "OutBrain"
+  ],
+  "network_connections": [
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-109-64-82.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.109.64.82",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-121-11-177.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.121.11.177",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-126-39-138.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.126.39.138",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-126-83-147.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.126.83.147",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-126-86-74.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.126.86.74",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "19.1.155.104.bc.googleusercontent.com.",
+      "ip_address": "104.155.1.19",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "101.94.155.104.bc.googleusercontent.com.",
+      "ip_address": "104.155.94.101",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "81.101.199.104.bc.googleusercontent.com.",
+      "ip_address": "104.199.101.81",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "159.39.199.104.bc.googleusercontent.com.",
+      "ip_address": "104.199.39.159",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "178.66.199.104.bc.googleusercontent.com.",
+      "ip_address": "104.199.66.178",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.24.246.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.136",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.135",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.71",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "143.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "327.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "147.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "142.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "144.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "145.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.58",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "146.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.59",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "328.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.69",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "326.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "177.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.77",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "176.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.79",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "325.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-83-12-212.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.83.12.212",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-83-54-35.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.83.54.35",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-83-76-67.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.83.76.67",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-89-41-106.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.89.41.106",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-89-7-233.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.89.7.233",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-91-156-71.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.91.156.71",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a104-92-204-183.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.92.204.183",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-20-150-245.compute-1.amazonaws.com.",
+      "ip_address": "107.20.150.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-20-160-144.compute-1.amazonaws.com.",
+      "ip_address": "107.20.160.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-20-179-19.compute-1.amazonaws.com.",
+      "ip_address": "107.20.179.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-20-211-189.compute-1.amazonaws.com.",
+      "ip_address": "107.20.211.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-20-241-21.compute-1.amazonaws.com.",
+      "ip_address": "107.20.241.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-20-243-207.compute-1.amazonaws.com.",
+      "ip_address": "107.20.243.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-21-116-9.compute-1.amazonaws.com.",
+      "ip_address": "107.21.116.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-21-210-141.compute-1.amazonaws.com.",
+      "ip_address": "107.21.210.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-21-94-141.compute-1.amazonaws.com.",
+      "ip_address": "107.21.94.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-22-162-79.compute-1.amazonaws.com.",
+      "ip_address": "107.22.162.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-22-186-145.compute-1.amazonaws.com.",
+      "ip_address": "107.22.186.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-22-226-38.compute-1.amazonaws.com.",
+      "ip_address": "107.22.226.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-107-22-238-216.compute-1.amazonaws.com.",
+      "ip_address": "107.22.238.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ml.eulerian.net.",
+      "ip_address": "109.232.197.110",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "138.108.96.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "unassigned.aql.com.",
+      "ip_address": "141.170.25.54",
+      "loc_city": "Leeds",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-1.547800",
+      "loc_lat": "53.796500"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.0.166",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.132.166",
+      "loc_city": "Madrid",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.683900",
+      "loc_lat": "40.417100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.132.175",
+      "loc_city": "Madrid",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.683900",
+      "loc_lat": "40.417100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.24.166",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.57.108",
+      "loc_city": "Atlanta",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.387100",
+      "loc_lat": "33.748500"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "system-100.liquiddigital.com.",
+      "ip_address": "165.254.144.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "system-85.liquiddigital.com.",
+      "ip_address": "165.254.144.85",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "40.1e.2fa9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.47.30.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.539000",
+      "loc_lat": "39.018000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "dfw06s38-in-f1.1e100.net.",
+      "ip_address": "172.217.0.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "yyz10s03-in-f2.1e100.net.",
+      "ip_address": "172.217.0.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "lax17s34-in-f2.1e100.net.",
+      "ip_address": "172.217.11.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ord37s07-in-f42.1e100.net.",
+      "ip_address": "172.217.1.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "muc11s14-in-f2.1e100.net.",
+      "ip_address": "172.217.17.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ams16s31-in-f2.1e100.net.",
+      "ip_address": "172.217.19.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par21s11-in-f1.1e100.net.",
+      "ip_address": "172.217.19.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par21s11-in-f2.1e100.net.",
+      "ip_address": "172.217.19.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ams17s01-in-f2.1e100.net.",
+      "ip_address": "172.217.20.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "fra07s30-in-f34.1e100.net.",
+      "ip_address": "172.217.21.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "yyz10s06-in-f2.1e100.net.",
+      "ip_address": "172.217.2.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "muc11s12-in-f1.1e100.net.",
+      "ip_address": "172.217.21.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "fra07s32-in-f98.1e100.net.",
+      "ip_address": "172.217.21.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par21s12-in-f2.1e100.net.",
+      "ip_address": "172.217.22.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "muc11s01-in-f10.1e100.net.",
+      "ip_address": "172.217.22.202",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "lax28s01-in-f3.1e100.net.",
+      "ip_address": "172.217.4.163",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "qro01s14-in-f162.1e100.net.",
+      "ip_address": "172.217.5.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "lax28s10-in-f2.1e100.net.",
+      "ip_address": "172.217.5.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "lax17s15-in-f72.1e100.net.",
+      "ip_address": "172.217.5.72",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "dfw25s17-in-f164.1e100.net.",
+      "ip_address": "172.217.6.164",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "qro02s12-in-f2.1e100.net.",
+      "ip_address": "172.217.7.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "qro02s12-in-f14.1e100.net.",
+      "ip_address": "172.217.7.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ord37s08-in-f2.1e100.net.",
+      "ip_address": "172.217.8.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ord38s08-in-f1.1e100.net.",
+      "ip_address": "172.217.9.33",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ord38s09-in-f2.1e100.net.",
+      "ip_address": "172.217.9.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.13.114",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ox-173-241-244-143.lc.dc.openx.org.",
+      "ip_address": "173.241.244.143",
+      "loc_city": "Oak Brook",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.963800",
+      "loc_lat": "41.837100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ox-173-241-244-212.lc.dc.openx.org.",
+      "ip_address": "173.241.244.212",
+      "loc_city": "Oak Brook",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.963800",
+      "loc_lat": "41.837100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-174-129-209-245.compute-1.amazonaws.com.",
+      "ip_address": "174.129.209.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-174-129-251-139.compute-1.amazonaws.com.",
+      "ip_address": "174.129.251.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-176-34-121-191.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "176.34.121.191",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-176-34-187-189.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "176.34.187.189",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "176.58.88.166",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "176.58.88.85",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "tps3.ams.hv.prod.",
+      "ip_address": "176.58.93.46",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "rtax.criteo.com.",
+      "ip_address": "178.250.0.100",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "rtax.criteo.com.",
+      "ip_address": "178.250.2.100",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "181.49.255.58",
+      "loc_city": "Bogotá",
+      "loc_country": "Colombia",
+      "loc_continent": "South America",
+      "loc_long": "-74.061700",
+      "loc_lat": "4.649300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a184-51-0-206.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.51.0.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-184-72-239-47.compute-1.amazonaws.com.",
+      "ip_address": "184.72.239.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-184-73-243-250.compute-1.amazonaws.com.",
+      "ip_address": "184.73.243.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.133.199",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.133.208",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.133.223",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.133.224",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.133.33",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.133.34",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.133.52",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.134.87",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.134.89",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.29.135.42",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.198",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.200",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.202",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.203",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.204",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.206",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.208",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.209",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.210",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.215",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.216",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.218",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.220",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.221",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.80",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "185.33.223.83",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "haystack.ICSI.Berkeley.EDU.",
+      "ip_address": "192.150.187.44",
+      "loc_city": "Berkeley",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.254900",
+      "loc_lat": "37.873800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "193-45-15-74.customer.telia.com.",
+      "ip_address": "193.45.15.74",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "195.54.48.228",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "195.54.48.9",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "134-127-232-198.static.unitasglobal.net.",
+      "ip_address": "198.232.127.134",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "199.16.156.120",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "199.16.156.241",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "www4.twitter.jp.",
+      "ip_address": "199.59.149.233",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "bs-ec.doubleverify.com.",
+      "ip_address": "204.154.110.79",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-204-236-231-152.compute-1.amazonaws.com.",
+      "ip_address": "204.236.231.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "208.146.36.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "213.19.162.80",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "lax02s23-in-f2.1e100.net.",
+      "ip_address": "216.58.193.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "qro01s13-in-f34.1e100.net.",
+      "ip_address": "216.58.193.34",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s27-in-f194.1e100.net.",
+      "ip_address": "216.58.198.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s25-in-f1.1e100.net.",
+      "ip_address": "216.58.201.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s25-in-f2.1e100.net.",
+      "ip_address": "216.58.201.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s25-in-f3.1e100.net.",
+      "ip_address": "216.58.201.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s25-in-f134.1e100.net.",
+      "ip_address": "216.58.201.134",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s25-in-f142.1e100.net.",
+      "ip_address": "216.58.201.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par21s05-in-f2.1e100.net.",
+      "ip_address": "216.58.204.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s28-in-f97.1e100.net.",
+      "ip_address": "216.58.204.97",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s28-in-f98.1e100.net.",
+      "ip_address": "216.58.204.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mil04s24-in-f2.1e100.net.",
+      "ip_address": "216.58.205.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mil04s26-in-f98.1e100.net.",
+      "ip_address": "216.58.205.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s34-in-f2.1e100.net.",
+      "ip_address": "216.58.206.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "muc11s03-in-f1.1e100.net.",
+      "ip_address": "216.58.207.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "muc11s03-in-f2.1e100.net.",
+      "ip_address": "216.58.207.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "muc11s03-in-f10.1e100.net.",
+      "ip_address": "216.58.207.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "muc11s04-in-f1.1e100.net.",
+      "ip_address": "216.58.207.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "muc11s04-in-f2.1e100.net.",
+      "ip_address": "216.58.207.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s21-in-f2.1e100.net.",
+      "ip_address": "216.58.208.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s22-in-f226.1e100.net.",
+      "ip_address": "216.58.208.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s29-in-f225.1e100.net.",
+      "ip_address": "216.58.209.225",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s29-in-f2.1e100.net.",
+      "ip_address": "216.58.209.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s29-in-f227.1e100.net.",
+      "ip_address": "216.58.209.227",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s29-in-f8.1e100.net.",
+      "ip_address": "216.58.209.232",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s29-in-f14.1e100.net.",
+      "ip_address": "216.58.209.238",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s09-in-f1.1e100.net.",
+      "ip_address": "216.58.210.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s09-in-f130.1e100.net.",
+      "ip_address": "216.58.210.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s09-in-f131.1e100.net.",
+      "ip_address": "216.58.210.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s09-in-f134.1e100.net.",
+      "ip_address": "216.58.210.134",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s09-in-f8.1e100.net.",
+      "ip_address": "216.58.210.136",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s09-in-f10.1e100.net.",
+      "ip_address": "216.58.210.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s10-in-f1.1e100.net.",
+      "ip_address": "216.58.210.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s10-in-f162.1e100.net.",
+      "ip_address": "216.58.210.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s10-in-f166.1e100.net.",
+      "ip_address": "216.58.210.166",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s10-in-f170.1e100.net.",
+      "ip_address": "216.58.210.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad06s10-in-f14.1e100.net.",
+      "ip_address": "216.58.210.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mrs04s09-in-f193.1e100.net.",
+      "ip_address": "216.58.210.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mrs04s09-in-f194.1e100.net.",
+      "ip_address": "216.58.210.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s25-in-f1.1e100.net.",
+      "ip_address": "216.58.211.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s25-in-f194.1e100.net.",
+      "ip_address": "216.58.211.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s25-in-f8.1e100.net.",
+      "ip_address": "216.58.211.200",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s24-in-f225.1e100.net.",
+      "ip_address": "216.58.211.225",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s24-in-f2.1e100.net.",
+      "ip_address": "216.58.211.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s24-in-f6.1e100.net.",
+      "ip_address": "216.58.211.230",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ams15s21-in-f3.1e100.net.",
+      "ip_address": "216.58.212.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ams15s22-in-f163.1e100.net.",
+      "ip_address": "216.58.212.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par21s03-in-f130.1e100.net.",
+      "ip_address": "216.58.213.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s26-in-f161.1e100.net.",
+      "ip_address": "216.58.214.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s26-in-f162.1e100.net.",
+      "ip_address": "216.58.214.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s26-in-f163.1e100.net.",
+      "ip_address": "216.58.214.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s26-in-f6.1e100.net.",
+      "ip_address": "216.58.214.166",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s26-in-f8.1e100.net.",
+      "ip_address": "216.58.214.168",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s26-in-f10.1e100.net.",
+      "ip_address": "216.58.214.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mad01s26-in-f14.1e100.net.",
+      "ip_address": "216.58.214.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "lax02s21-in-f2.1e100.net.",
+      "ip_address": "216.58.216.2",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "lax17s05-in-f194.1e100.net.",
+      "ip_address": "216.58.217.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "bog02s05-in-f1.1e100.net.",
+      "ip_address": "216.58.222.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "bog02s05-in-f194.1e100.net.",
+      "ip_address": "216.58.222.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "bog02s05-in-f200.1e100.net.",
+      "ip_address": "216.58.222.200",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "bog02s06-in-f2.1e100.net.",
+      "ip_address": "216.58.222.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a2-16-72-69.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.16.72.69",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a2-17-153-171.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.17.153.171",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a2-17-211-9.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.17.211.9",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a2-17-47-87.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.17.47.87",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a2-19-33-174.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.19.33.174",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a2-22-126-248.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.22.126.248",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-15-132-67.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.15.132.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-194-180-200.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.194.180.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-196-219-73.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.196.219.73",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-203-72-97.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.203.72.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-209-176-118.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.209.176.118",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-210-99-249.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.210.99.249",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-213-54-50.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.213.54.50",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-213-67-66.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.213.67.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-213-98-54.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.213.98.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-214-210-227.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.214.210.227",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-214-72-67.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.214.72.67",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-21-50-138.compute-1.amazonaws.com.",
+      "ip_address": "23.21.50.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-21-56-15.compute-1.amazonaws.com.",
+      "ip_address": "23.21.56.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-216-105-100.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.216.105.100",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-216-107-138.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.216.107.138",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-216-107-151.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.216.107.151",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-216-127-222.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.216.127.222",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-21-68-38.compute-1.amazonaws.com.",
+      "ip_address": "23.21.68.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-216-98-136.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.216.98.136",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-217-249-123.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.217.249.123",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com.",
+      "ip_address": "23.21.78.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-218-41-59.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.218.41.59",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-23-102-13.compute-1.amazonaws.com.",
+      "ip_address": "23.23.102.13",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-23-107-83.compute-1.amazonaws.com.",
+      "ip_address": "23.23.107.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-23-161-48.compute-1.amazonaws.com.",
+      "ip_address": "23.23.161.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-23-174-134.compute-1.amazonaws.com.",
+      "ip_address": "23.23.174.134",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-23-175-199.compute-1.amazonaws.com.",
+      "ip_address": "23.23.175.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-23-250-209.compute-1.amazonaws.com.",
+      "ip_address": "23.23.250.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-23-23-96-77.compute-1.amazonaws.com.",
+      "ip_address": "23.23.96.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-36-32-191.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.36.32.191",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-39-90-63.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.39.90.63",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-40-12-67.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.40.12.67",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-42-16-147.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.42.16.147",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-45-198-71.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.45.198.71",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-60-208-129.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.60.208.129",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-60-210-87.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.60.210.87",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a23-75-218-67.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.75.218.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "mrs04s10-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:4006:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "2a00:1450:4007:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s28-in-x01.1e100.net.",
+      "ip_address": "2a00:1450:4007:80a::2001",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s28-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:4007:80a::2002",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s28-in-x03.1e100.net.",
+      "ip_address": "2a00:1450:4007:80a::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s28-in-x0a.1e100.net.",
+      "ip_address": "2a00:1450:4007:80a::200a",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par10s29-in-x08.1e100.net.",
+      "ip_address": "2a00:1450:4007:80f::2008",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par21s03-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:4007:810::2002",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par21s04-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:4007:811::2002",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par21s05-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:4007:812::2002",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "par21s06-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:4007:813::2002",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "edge-z-p3-shv-01-iad3.facebook.com.",
+      "ip_address": "31.13.66.49",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com.",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "edge-star-mini-shv-01-frt3.facebook.com.",
+      "ip_address": "31.13.92.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-34-197-126-44.compute-1.amazonaws.com.",
+      "ip_address": "34.197.126.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-34-199-6-77.compute-1.amazonaws.com.",
+      "ip_address": "34.199.6.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-34-249-101-158.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.101.158",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-35-156-84-42.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "35.156.84.42",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "37.157.2.26",
+      "loc_city": "N/A",
+      "loc_country": "Denmark",
+      "loc_continent": "Europe",
+      "loc_long": "12.056400",
+      "loc_lat": "55.712300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "37.157.2.43",
+      "loc_city": "N/A",
+      "loc_country": "Denmark",
+      "loc_continent": "Europe",
+      "loc_long": "12.056400",
+      "loc_lat": "55.712300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "37.157.5.71",
+      "loc_city": "N/A",
+      "loc_country": "Denmark",
+      "loc_continent": "Europe",
+      "loc_long": "12.056400",
+      "loc_lat": "55.712300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "244.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.12",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "153.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.27",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "246.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.39",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "155.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.40",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "247.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.42",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "156.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.53",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "154.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.70",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-46-137-101-93.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.137.101.93",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-46-137-107-67.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.137.107.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-46-137-118-117.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.137.118.117",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-46-137-175-205.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.137.175.205",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-46-137-74-128.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.137.74.128",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-16-191-218.compute-1.amazonaws.com.",
+      "ip_address": "50.16.191.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-16-226-96.compute-1.amazonaws.com.",
+      "ip_address": "50.16.226.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-16-231-117.compute-1.amazonaws.com.",
+      "ip_address": "50.16.231.117",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-16-247-225.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-17-200-4.compute-1.amazonaws.com.",
+      "ip_address": "50.17.200.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-17-238-193.compute-1.amazonaws.com.",
+      "ip_address": "50.17.238.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-17-238-228.compute-1.amazonaws.com.",
+      "ip_address": "50.17.238.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-19-101-78.compute-1.amazonaws.com.",
+      "ip_address": "50.19.101.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-19-106-188.compute-1.amazonaws.com.",
+      "ip_address": "50.19.106.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-19-107-92.compute-1.amazonaws.com.",
+      "ip_address": "50.19.107.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-19-110-240.compute-1.amazonaws.com.",
+      "ip_address": "50.19.110.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-19-117-251.compute-1.amazonaws.com.",
+      "ip_address": "50.19.117.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-19-210-58.compute-1.amazonaws.com.",
+      "ip_address": "50.19.210.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-19-235-132.compute-1.amazonaws.com.",
+      "ip_address": "50.19.235.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-50-19-235-238.compute-1.amazonaws.com.",
+      "ip_address": "50.19.235.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-52-202-203-61.compute-1.amazonaws.com.",
+      "ip_address": "52.202.203.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "server-52-222-157-176.fra53.r.cloudfront.net.",
+      "ip_address": "52.222.157.176",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "server-52-222-157-37.fra53.r.cloudfront.net.",
+      "ip_address": "52.222.157.37",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "server-52-222-171-59.fra54.r.cloudfront.net.",
+      "ip_address": "52.222.171.59",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-52-3-16-15.compute-1.amazonaws.com.",
+      "ip_address": "52.3.16.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-52-4-30-155.compute-1.amazonaws.com.",
+      "ip_address": "52.4.30.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-52-49-52-78.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.52.78",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-52-57-216-44.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.57.216.44",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-52-72-206-113.compute-1.amazonaws.com.",
+      "ip_address": "52.72.206.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "server-52-85-47-142.mad50.r.cloudfront.net.",
+      "ip_address": "52.85.47.142",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "server-52-85-47-175.mad50.r.cloudfront.net.",
+      "ip_address": "52.85.47.175",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.208.70",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.208.73",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.210.45",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.216.48",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.218.7",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.220.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-163-244-157.compute-1.amazonaws.com.",
+      "ip_address": "54.163.244.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-197-224-108.compute-1.amazonaws.com.",
+      "ip_address": "54.197.224.108",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-197-234-180.compute-1.amazonaws.com.",
+      "ip_address": "54.197.234.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-197-248-166.compute-1.amazonaws.com.",
+      "ip_address": "54.197.248.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-197-255-113.compute-1.amazonaws.com.",
+      "ip_address": "54.197.255.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-197-255-53.compute-1.amazonaws.com.",
+      "ip_address": "54.197.255.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-217-228-150.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.217.228.150",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-221-198-70.compute-1.amazonaws.com.",
+      "ip_address": "54.221.198.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-221-199-46.compute-1.amazonaws.com.",
+      "ip_address": "54.221.199.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-221-254-2.compute-1.amazonaws.com.",
+      "ip_address": "54.221.254.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-225-121-196.compute-1.amazonaws.com.",
+      "ip_address": "54.225.121.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-225-155-181.compute-1.amazonaws.com.",
+      "ip_address": "54.225.155.181",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-225-161-73.compute-1.amazonaws.com.",
+      "ip_address": "54.225.161.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-225-165-43.compute-1.amazonaws.com.",
+      "ip_address": "54.225.165.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-225-192-200.compute-1.amazonaws.com.",
+      "ip_address": "54.225.192.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-225-197-56.compute-1.amazonaws.com.",
+      "ip_address": "54.225.197.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-225-244-77.compute-1.amazonaws.com.",
+      "ip_address": "54.225.244.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-225-247-81.compute-1.amazonaws.com.",
+      "ip_address": "54.225.247.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-225-84-52.compute-1.amazonaws.com.",
+      "ip_address": "54.225.84.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-228-235-156.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.228.235.156",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "server-54-230-60-151.mad50.r.cloudfront.net.",
+      "ip_address": "54.230.60.151",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "server-54-230-60-183.mad50.r.cloudfront.net.",
+      "ip_address": "54.230.60.183",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "server-54-230-62-77.mad50.r.cloudfront.net.",
+      "ip_address": "54.230.62.77",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-235-149-19.compute-1.amazonaws.com.",
+      "ip_address": "54.235.149.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-235-214-170.compute-1.amazonaws.com.",
+      "ip_address": "54.235.214.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-235-247-104.compute-1.amazonaws.com.",
+      "ip_address": "54.235.247.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-235-98-38.compute-1.amazonaws.com.",
+      "ip_address": "54.235.98.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "server-54-239-158-223.cdg3.r.cloudfront.net.",
+      "ip_address": "54.239.158.223",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-104-248.compute-1.amazonaws.com.",
+      "ip_address": "54.243.104.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-107-247.compute-1.amazonaws.com.",
+      "ip_address": "54.243.107.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-126-239.compute-1.amazonaws.com.",
+      "ip_address": "54.243.126.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-148-175.compute-1.amazonaws.com.",
+      "ip_address": "54.243.148.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-160-133.compute-1.amazonaws.com.",
+      "ip_address": "54.243.160.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-183-98.compute-1.amazonaws.com.",
+      "ip_address": "54.243.183.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com.",
+      "ip_address": "54.243.212.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-228-133.compute-1.amazonaws.com.",
+      "ip_address": "54.243.228.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-33-139.compute-1.amazonaws.com.",
+      "ip_address": "54.243.33.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-71-210.compute-1.amazonaws.com.",
+      "ip_address": "54.243.71.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-243-78-97.compute-1.amazonaws.com.",
+      "ip_address": "54.243.78.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-247-165-35.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.247.165.35",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-247-166-89.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.247.166.89",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-247-182-202.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.247.182.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-247-72-23.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.247.72.23",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-247-91-116.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.247.91.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-83-19-188.compute-1.amazonaws.com.",
+      "ip_address": "54.83.19.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-54-83-5-41.compute-1.amazonaws.com.",
+      "ip_address": "54.83.5.41",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "62.67.193.41",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "62.67.193.43",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "62.67.193.85",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "66.150.118.20",
+      "loc_city": "Ferndale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.595300",
+      "loc_lat": "48.862500"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "66.150.118.35",
+      "loc_city": "Ferndale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.595300",
+      "loc_lat": "48.862500"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "66.150.118.46",
+      "loc_city": "Ferndale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.595300",
+      "loc_lat": "48.862500"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "66.150.118.57",
+      "loc_city": "Ferndale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.595300",
+      "loc_lat": "48.862500"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "66.150.118.58",
+      "loc_city": "Ferndale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.595300",
+      "loc_lat": "48.862500"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "68.232.34.163",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "4526.bm-impbus.prod.nym2.adnexus.net.",
+      "ip_address": "68.67.178.137",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.111",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.55",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "70.42.104.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "70.42.104.53",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a72-247-16-134.deploy.static.akamaitechnologies.com.",
+      "ip_address": "72.247.16.134",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a72-247-20-204.deploy.static.akamaitechnologies.com.",
+      "ip_address": "72.247.20.204",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a72-247-210-113.deploy.static.akamaitechnologies.com.",
+      "ip_address": "72.247.210.113",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "rtax.criteo.com.",
+      "ip_address": "74.119.117.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "74.119.118.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-75-101-130-107.compute-1.amazonaws.com.",
+      "ip_address": "75.101.130.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "ec2-75-101-153-242.compute-1.amazonaws.com.",
+      "ip_address": "75.101.153.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "80.252.91.52",
+      "loc_city": "Haarlem",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.646400",
+      "loc_lat": "52.361300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "80.252.91.53",
+      "loc_city": "Haarlem",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.646400",
+      "loc_lat": "52.361300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "82.199.68.72",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "82.199.68.73",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "83-231-36-60.undef.static.orange.es.",
+      "ip_address": "83.231.36.60",
+      "loc_city": "N/A",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.684000",
+      "loc_lat": "40.417200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "8.39.37.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "8.39.37.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "8.41.222.241",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "8.43.72.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "8.43.72.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "8.43.72.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "8.43.72.62",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a88-221-40-234.deploy.static.akamaitechnologies.com.",
+      "ip_address": "88.221.40.234",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a88-221-53-160.deploy.static.akamaitechnologies.com.",
+      "ip_address": "88.221.53.160",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a88-221-90-210.deploy.static.akamaitechnologies.com.",
+      "ip_address": "88.221.90.210",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a88-221-90-216.deploy.static.akamaitechnologies.com.",
+      "ip_address": "88.221.90.216",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "89.255.252.30",
+      "loc_city": "N/A",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.684000",
+      "loc_lat": "40.417200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "91.216.195.218",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "siaple.edicioneselpais.net.",
+      "ip_address": "91.216.63.244",
+      "loc_city": "N/A",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.684000",
+      "loc_lat": "40.417200"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-122-145-182.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.145.182",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-122-148-89.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.148.89",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-122-149-144.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.149.144",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-122-180-154.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.180.154",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-122-47-22.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.47.22",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-122-73-19.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.73.19",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-122-74-80.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.74.80",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-122-88-169.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.88.169",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-123-216-130.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.123.216.130",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a92-123-218-216.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.123.218.216",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a95-101-149-114.deploy.static.akamaitechnologies.com.",
+      "ip_address": "95.101.149.114",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "a95-101-196-163.deploy.static.akamaitechnologies.com.",
+      "ip_address": "95.101.196.163",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "host95-154-251-137.swtch.io.",
+      "ip_address": "95.154.251.137",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "host95-154-251-144.swtch.io.",
+      "ip_address": "95.154.251.144",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "host95-154-251-152.swtch.io.",
+      "ip_address": "95.154.251.152",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.11",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.18",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.26",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.33",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.37",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.45",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.52",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.55",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.56",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.63",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.elpais.elpais",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.65",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    }
+  ]
+}

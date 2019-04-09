@@ -1,29 +1,2486 @@
 {
-    "appName": "Shazam",
-    "packageName": "com.shazam.android",
-    "category": "MUSIC_AND_AUDIO",
-    "icon": "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",
-    "permissions": [
-          "com.shazam.android.permission.C2D_MESSAGE", 
-          "com.shazam.android.permission.C2D_MESSAGE", 
-          "com.google.android.c2dm.permission.RECEIVE", 
-          "android.permission.RECORD_AUDIO", 
-          "android.permission.WRITE_EXTERNAL_STORAGE", 
-          "android.permission.READ_EXTERNAL_STORAGE", 
-          "android.permission.ACCESS_COARSE_LOCATION", 
-          "android.permission.ACCESS_FINE_LOCATION", 
-          "android.permission.GET_ACCOUNTS", 
-          "android.permission.CAMERA", 
-          "android.permission.INTERNET", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.FOREGROUND_SERVICE", 
-          "android.permission.VIBRATE", 
-          "android.permission.WAKE_LOCK", 
-          "android.permission.SYSTEM_ALERT_WINDOW", 
-          "com.google.android.gms.permission.ACTIVITY_RECOGNITION", 
-          "android.permission.RECEIVE_BOOT_COMPLETED", 
-          "android.permission.MODIFY_AUDIO_SETTINGS", 
-          "com.google.android.providers.gsf.permission.READ_GSERVICES" 
-    ],
-    "version": "9.21.0-190221"
+  "appName": "Shazam",
+  "packageName": "com.shazam.android",
+  "category": "MUSIC_AND_AUDIO",
+  "icon": "",
+  "permissions": [
+    "com.shazam.android.permission.C2D_MESSAGE",
+    "com.shazam.android.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
+  ],
+  "version": "9.23.0-190311",
+  "trackers": [
+    "Facebook Login",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.43.163",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.199",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "326.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
+      "ip_address": "104.254.150.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "server-13-32-170-207.dfw54.r.cloudfront.net.",
+      "ip_address": "13.32.170.207",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.0.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.112.162",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.12.162",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.124.162",
+      "loc_city": "Toronto",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.419500",
+      "loc_lat": "43.664400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.128.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.132.162",
+      "loc_city": "Madrid",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.683900",
+      "loc_lat": "40.417100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.16.162",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.192.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.24.162",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.32.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.36.162",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.40.162",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.44.162",
+      "loc_city": "Chicago",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.651700",
+      "loc_lat": "41.848300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.48.162",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.52.162",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.60.162",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.64.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-02-lax3.facebook.com.",
+      "ip_address": "157.240.11.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "xx-fbcdn-shv-02-lax3.fbcdn.net.",
+      "ip_address": "157.240.11.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com.",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com.",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "157.240.17.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "157.240.17.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-02-ort2.facebook.com.",
+      "ip_address": "157.240.18.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com.",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "xx-fbcdn-shv-01-ort2.fbcdn.net.",
+      "ip_address": "157.240.2.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-mini-shv-01-ort2.facebook.com.",
+      "ip_address": "157.240.2.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com.",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com.",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-syd2.facebook.com.",
+      "ip_address": "157.240.8.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "lax28s15-in-f2.1e100.net.",
+      "ip_address": "172.217.11.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "den02s01-in-f2.1e100.net.",
+      "ip_address": "172.217.11.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "lax17s34-in-f2.1e100.net.",
+      "ip_address": "172.217.11.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "lga25s63-in-f2.1e100.net.",
+      "ip_address": "172.217.12.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "den02s02-in-f1.1e100.net.",
+      "ip_address": "172.217.12.1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "den02s02-in-f2.1e100.net.",
+      "ip_address": "172.217.12.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "dfw28s05-in-f2.1e100.net.",
+      "ip_address": "172.217.12.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "fra16s08-in-f14.1e100.net.",
+      "ip_address": "172.217.16.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "waw02s07-in-f2.1e100.net.",
+      "ip_address": "172.217.20.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "yyz10s05-in-f6.1e100.net.",
+      "ip_address": "172.217.2.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "fra16s12-in-f194.1e100.net.",
+      "ip_address": "172.217.21.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "fra16s14-in-f2.1e100.net.",
+      "ip_address": "172.217.22.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mil04s23-in-f2.1e100.net.",
+      "ip_address": "172.217.23.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "yyz10s05-in-f2.1e100.net.",
+      "ip_address": "172.217.2.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mia09s19-in-f6.1e100.net.",
+      "ip_address": "172.217.3.134",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sea15s11-in-f2.1e100.net.",
+      "ip_address": "172.217.3.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "lax28s01-in-f162.1e100.net.",
+      "ip_address": "172.217.4.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s07-in-f102.1e100.net.",
+      "ip_address": "172.217.5.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "lax28s10-in-f194.1e100.net.",
+      "ip_address": "172.217.5.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "lax17s15-in-f2.1e100.net.",
+      "ip_address": "172.217.5.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s07-in-f2.1e100.net.",
+      "ip_address": "172.217.5.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "dfw25s16-in-f1.1e100.net.",
+      "ip_address": "172.217.6.129",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s08-in-f34.1e100.net.",
+      "ip_address": "172.217.6.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo07s17-in-f66.1e100.net.",
+      "ip_address": "172.217.6.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "dfw28s02-in-f2.1e100.net.",
+      "ip_address": "172.217.9.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ord38s08-in-f1.1e100.net.",
+      "ip_address": "172.217.9.33",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ord38s08-in-f2.1e100.net.",
+      "ip_address": "172.217.9.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ord38s08-in-f15.1e100.net.",
+      "ip_address": "172.217.9.47",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "qj-in-f105.1e100.net.",
+      "ip_address": "173.194.206.105",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.5.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ox-173-241-250-143.ca.dc.openx.org.",
+      "ip_address": "173.241.250.143",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "host-176-74-189-11.pubip.peer1.net.",
+      "ip_address": "176.74.189.11",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "host-176-74-189-12.pubip.peer1.net.",
+      "ip_address": "176.74.189.12",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.179",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-bru2.facebook.com.",
+      "ip_address": "179.60.195.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.218.19",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "presence.truecaller.com.",
+      "ip_address": "192.121.90.188",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.40.33.155",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.40.33.47",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.40.37.136",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.40.37.239",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "194.132.197.198",
+      "loc_city": "N/A",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.690000",
+      "loc_lat": "35.690000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "194.132.198.98",
+      "loc_city": "N/A",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.690000",
+      "loc_lat": "35.690000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "198.8.70.210",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "199.38.164.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "r-199-59-148-153.twttr.com.",
+      "ip_address": "199.59.148.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "bs-ec.doubleverify.com.",
+      "ip_address": "204.154.110.79",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "nycp-hlb14.doubleverify.com.",
+      "ip_address": "204.154.111.117",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "209.15.194.107",
+      "loc_city": "Toronto",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.540200",
+      "loc_lat": "43.602100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "209.15.194.129",
+      "loc_city": "Toronto",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.540200",
+      "loc_lat": "43.602100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": ".",
+      "ip_address": "209.15.194.217",
+      "loc_city": "Toronto",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.540200",
+      "loc_lat": "43.602100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "209.15.3.99",
+      "loc_city": "Jacksonville",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-81.573900",
+      "loc_lat": "30.145900"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sea15s07-in-f2.1e100.net.",
+      "ip_address": "216.58.193.66",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s01-in-f2.1e100.net.",
+      "ip_address": "216.58.194.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s01-in-f198.1e100.net.",
+      "ip_address": "216.58.194.198",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "dfw25s13-in-f66.1e100.net.",
+      "ip_address": "216.58.194.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "dfw06s48-in-f2.1e100.net.",
+      "ip_address": "216.58.194.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s06-in-f230.1e100.net.",
+      "ip_address": "216.58.195.230",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mil04s03-in-f14.1e100.net.",
+      "ip_address": "216.58.198.14",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "syd09s14-in-f3.1e100.net.",
+      "ip_address": "216.58.200.99",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad06s25-in-f1.1e100.net.",
+      "ip_address": "216.58.201.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad06s25-in-f2.1e100.net.",
+      "ip_address": "216.58.201.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad06s25-in-f142.1e100.net.",
+      "ip_address": "216.58.201.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mil04s29-in-f193.1e100.net.",
+      "ip_address": "216.58.205.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "fra15s24-in-f227.1e100.net.",
+      "ip_address": "216.58.205.227",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mil04s24-in-f2.1e100.net.",
+      "ip_address": "216.58.205.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mil04s24-in-f42.1e100.net.",
+      "ip_address": "216.58.205.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mil04s25-in-f66.1e100.net.",
+      "ip_address": "216.58.205.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mil04s25-in-f78.1e100.net.",
+      "ip_address": "216.58.205.78",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mil04s26-in-f98.1e100.net.",
+      "ip_address": "216.58.205.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "fra16s24-in-f3.1e100.net.",
+      "ip_address": "216.58.207.35",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "fra16s24-in-f6.1e100.net.",
+      "ip_address": "216.58.207.38",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "fra16s25-in-f14.1e100.net.",
+      "ip_address": "216.58.207.78",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "arn06s07-in-f98.1e100.net.",
+      "ip_address": "216.58.209.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad06s09-in-f1.1e100.net.",
+      "ip_address": "216.58.210.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad06s09-in-f2.1e100.net.",
+      "ip_address": "216.58.210.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad06s10-in-f2.1e100.net.",
+      "ip_address": "216.58.210.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad01s25-in-f2.1e100.net.",
+      "ip_address": "216.58.211.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad01s24-in-f1.1e100.net.",
+      "ip_address": "216.58.211.225",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad01s24-in-f2.1e100.net.",
+      "ip_address": "216.58.211.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad01s24-in-f238.1e100.net.",
+      "ip_address": "216.58.211.238",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ams15s32-in-f3.1e100.net.",
+      "ip_address": "216.58.211.99",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ams16s22-in-f227.1e100.net.",
+      "ip_address": "216.58.212.227",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "mad01s26-in-f162.1e100.net.",
+      "ip_address": "216.58.214.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sea15s01-in-f129.1e100.net.",
+      "ip_address": "216.58.216.129",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sea15s01-in-f130.1e100.net.",
+      "ip_address": "216.58.216.130",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sea15s02-in-f162.1e100.net.",
+      "ip_address": "216.58.216.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ord31s22-in-f226.1e100.net.",
+      "ip_address": "216.58.216.226",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ord30s21-in-f2.1e100.net.",
+      "ip_address": "216.58.216.66",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "den03s09-in-f10.1e100.net.",
+      "ip_address": "216.58.217.10",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "lax17s05-in-f194.1e100.net.",
+      "ip_address": "216.58.217.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "qro02s15-in-f1.1e100.net.",
+      "ip_address": "216.58.217.1",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "qro02s15-in-f2.1e100.net.",
+      "ip_address": "216.58.217.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "den03s10-in-f34.1e100.net.",
+      "ip_address": "216.58.217.34",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "a23-222-161-128.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.222.161.128",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "a23-222-164-197.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.222.164.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "a23-32-70-75.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.32.70.75",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "a23-44-160-11.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.44.160.11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "a23-44-161-148.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.44.161.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::c629:d644",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2606:2800:220:1410:489:141e:20bb:12f6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4005::7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo07s13-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4005:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s01-in-x03.1e100.net.",
+      "ip_address": "2607:f8b0:4005:805::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s06-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4005:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s06-in-x0f.1e100.net.",
+      "ip_address": "2607:f8b0:4005:806::200f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s07-in-x03.1e100.net.",
+      "ip_address": "2607:f8b0:4005:808::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s07-in-x0d.1e100.net.",
+      "ip_address": "2607:f8b0:4005:808::200d",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s07-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4005:808::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "sfo03s08-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4005:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "lax17s34-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4007:802::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "lax28s15-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4007:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400b:807::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400b:80a::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400b:80b::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400b:80b::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "yyz10s05-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:400b:80c::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4017:6::11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1e::9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "bud02s24-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:400d:803::2002",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ams15s22-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:400e:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ams16s30-in-x03.1e100.net.",
+      "ip_address": "2a00:1450:400e:805::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ams16s30-in-x0e.1e100.net.",
+      "ip_address": "2a00:1450:400e:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f000:110:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f000:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-sea1.facebook.com.",
+      "ip_address": "2a03:2880:f001:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-iad3.facebook.com.",
+      "ip_address": "2a03:2880:f003:c07:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-02-gru2.facebook.com.",
+      "ip_address": "2a03:2880:f005:20c:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-amt2.facebook.com.",
+      "ip_address": "2a03:2880:f006:15:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-vie1.facebook.com.",
+      "ip_address": "2a03:2880:f007:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-mxp1.facebook.com.",
+      "ip_address": "2a03:2880:f008:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-02-lax3.facebook.com.",
+      "ip_address": "2a03:2880:f00d:110:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com.",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-yyz1.facebook.com.",
+      "ip_address": "2a03:2880:f00e:a:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-atl3.facebook.com.",
+      "ip_address": "2a03:2880:f011:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-lga3.facebook.com.",
+      "ip_address": "2a03:2880:f012:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:10d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:312:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-ams3.facebook.com.",
+      "ip_address": "2a03:2880:f01b:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-frt3.facebook.com.",
+      "ip_address": "2a03:2880:f01c:20e:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "xx-fbcdn6-shv-01-frt3.fbcdn.net.",
+      "ip_address": "2a03:2880:f01c:216:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-otp1.facebook.com.",
+      "ip_address": "2a03:2880:f023:12:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com.",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-02-ort2.facebook.com.",
+      "ip_address": "2a03:2880:f027:20e:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-frx5.facebook.com.",
+      "ip_address": "2a03:2880:f02d:e:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star6-shv-01-bom1.facebook.com.",
+      "ip_address": "2a03:2880:f02f:f:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-mini6-shv-01-iad3.facebook.com.",
+      "ip_address": "2a03:2880:f103:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-amt2.facebook.com.",
+      "ip_address": "31.13.64.16",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-services-shv-01-amt2.facebook.com.",
+      "ip_address": "31.13.64.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com.",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-z-m-mini-shv-01-iad3.facebook.com.",
+      "ip_address": "31.13.66.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-lax3.facebook.com.",
+      "ip_address": "31.13.70.1",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com.",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-arn2.facebook.com.",
+      "ip_address": "31.13.72.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "livestream-edgetee-upload-shv-01-dub4.facebook.com.",
+      "ip_address": "31.13.73.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-mrs1.facebook.com.",
+      "ip_address": "31.13.75.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.36",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-waw1.facebook.com.",
+      "ip_address": "31.13.81.9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com.",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-vie1.facebook.com.",
+      "ip_address": "31.13.84.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-gru2.facebook.com.",
+      "ip_address": "31.13.85.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com.",
+      "ip_address": "31.13.86.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com.",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com.",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com.",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "edge-star-shv-01-hkg3.facebook.com.",
+      "ip_address": "31.13.95.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ec2-34-248-204-18.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.248.204.18",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "40.116.120.24",
+      "loc_city": "Chicago",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.651700",
+      "loc_lat": "41.848300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "public103505.xdsl.centertel.pl.",
+      "ip_address": "46.134.212.81",
+      "loc_city": "N/A",
+      "loc_country": "Poland",
+      "loc_continent": "Europe",
+      "loc_long": "21.036200",
+      "loc_lat": "52.239400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ec2-50-16-217-34.compute-1.amazonaws.com.",
+      "ip_address": "50.16.217.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "52.169.216.211",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ec2-52-19-141-195.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.141.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "s3-3-w.amazonaws.com.",
+      "ip_address": "52.218.20.57",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.64.233",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "s3-3-w.amazonaws.com.",
+      "ip_address": "52.218.65.137",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "s3-3-w.amazonaws.com.",
+      "ip_address": "52.218.65.41",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "s3-3-w.amazonaws.com.",
+      "ip_address": "52.218.65.97",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "server-52-222-174-59.fra54.r.cloudfront.net.",
+      "ip_address": "52.222.174.59",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ec2-52-25-186-13.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.25.186.13",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ec2-52-35-150-202.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.35.150.202",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "server-52-84-243-129.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.129",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "server-52-84-243-170.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.170",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "server-52-84-243-225.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.225",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "server-52-84-243-246.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.246",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "server-52-84-243-247.sfo20.r.cloudfront.net.",
+      "ip_address": "52.84.243.247",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "server-52-84-89-117.yul62.r.cloudfront.net.",
+      "ip_address": "52.84.89.117",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "server-52-85-206-40.dfw50.r.cloudfront.net.",
+      "ip_address": "52.85.206.40",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "ec2-54-171-73-192.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.73.192",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.17.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "stats.zappar.com.",
+      "ip_address": "54.247.113.176",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "host-5-44-16-200.pubip.peer1.net.",
+      "ip_address": "5.44.16.200",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "host-5-44-16-214.pubip.peer1.net.",
+      "ip_address": "5.44.16.214",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "host-5-44-16-223.pubip.peer1.net.",
+      "ip_address": "5.44.16.223",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.55",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "206-141.amazon.com.",
+      "ip_address": "72.21.206.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.91.187",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.91.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "de4.ioam.de.",
+      "ip_address": "91.215.100.40",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "config1.ioam.de.",
+      "ip_address": "91.215.100.47",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.shazam.android",
+      "ptr_domain": "config3.ioam.de.",
+      "ip_address": "91.215.103.66",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
+  ]
 }

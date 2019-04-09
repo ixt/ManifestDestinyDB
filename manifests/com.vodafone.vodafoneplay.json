@@ -1,0 +1,783 @@
+{
+  "appName": "Vodafone Play",
+  "packageName": "com.vodafone.vodafoneplay",
+  "category": "ENTERTAINMENT",
+  "icon": "",
+  "permissions": [
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "com.vodafone.vodafoneplay.permission.C2D_MESSAGE",
+    "com.vodafone.vodafoneplay.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+  ],
+  "version": "1.0.65",
+  "trackers": [
+    "CleverTap",
+    "Google CrashLytics",
+    "Google DoubleClick",
+    "Inmobi",
+    "AppsFlyer",
+    "Google Analytics",
+    "Branch",
+    "Facebook Ads",
+    "Moat",
+    "Flurry",
+    "MixPanel",
+    "Google Ads",
+    "Millennial Media",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-107-21-220-89.compute-1.amazonaws.com.",
+      "ip_address": "107.21.220.89",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-107-21-240-115.compute-1.amazonaws.com.",
+      "ip_address": "107.21.240.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "d.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "e.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "10.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "12.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "13.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "15.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "18.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "19.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "1c.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.28",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "1e.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "1f.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.31",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "20.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.32",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "22.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "23.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "27.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "28.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "2a.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "2b.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.43",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "4.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "6.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "8.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-23-23-235-188.compute-1.amazonaws.com.",
+      "ip_address": "23.23.235.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-34-249-104-16.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.104.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-34-249-56-85.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.56.85",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-34-251-212-81.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.251.212.81",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-34-251-99-44.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.251.99.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-34-253-37-212.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.253.37.212",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-17-153-101.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.153.101",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-17-58-168.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.58.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-18-160-21.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.160.21",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-18-227-144.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.227.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-209-222-169.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.222.169",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-210-16-62.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.210.16.62",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-211-14-23.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.14.23",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-211-203-116.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.203.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-211-88-83.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.88.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-212-83-1.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.212.83.1",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-213-123-151.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.213.123.151",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-213-131-59.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.213.131.59",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-214-120-178.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.214.120.178",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-214-43-168.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.214.43.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.32.108",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.36",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.40",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.36.108",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.20",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.36.36",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-30-196-20.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.196.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-30-76-66.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.76.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-30-94-36.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.94.36",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-31-79-235.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.79.235",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-49-204-95.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.204.95",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-52-51-111-148.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.111.148",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-154-107-15.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.107.15",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-171-42-50.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.42.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-194-33-163.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.194.33.163",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-225-136-132.compute-1.amazonaws.com.",
+      "ip_address": "54.225.136.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-229-143-59.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.143.59",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-229-235-132.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.235.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-229-42-121.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.42.121",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-229-91-86.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.91.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-235-145-74.compute-1.amazonaws.com.",
+      "ip_address": "54.235.145.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-235-151-110.compute-1.amazonaws.com.",
+      "ip_address": "54.235.151.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-235-185-132.compute-1.amazonaws.com.",
+      "ip_address": "54.235.185.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-235-247-114.compute-1.amazonaws.com.",
+      "ip_address": "54.235.247.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-246-139-143.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.246.139.143",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-72-11-202.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.11.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-72-30-63.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.30.63",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-76-211-198.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.211.198",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-77-129-38.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.129.38",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.vodafone.vodafoneplay",
+      "ptr_domain": "ec2-54-77-34-202.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.34.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
+  ]
+}

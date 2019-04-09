@@ -1,0 +1,1843 @@
+{
+  "appName": "Myntra",
+  "packageName": "com.myntra.android",
+  "category": "SHOPPING",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.USE_CREDENTIALS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.READ_SMS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.RECEIVE_SMS",
+    "com.myntra.android.permission.C2D_MESSAGE",
+    "android.permission.CAMERA",
+    "com.myntra.android.permission.C2D_MESSAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.READ_EXTERNAL_STORAGE"
+  ],
+  "version": "3.34.1",
+  "trackers": [
+    "Facebook Analytics",
+    "Branch",
+    "HelpShift",
+    "Facebook Share",
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Brightcove",
+    "Google CrashLytics",
+    "Facebook Login",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "a104-108-210-228.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.108.210.228",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "a104-120-161-126.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.120.161.126",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "a104-122-69-9.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.122.69.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-20-151-64.compute-1.amazonaws.com.",
+      "ip_address": "107.20.151.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-20-160-105.compute-1.amazonaws.com.",
+      "ip_address": "107.20.160.105",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-20-200-251.compute-1.amazonaws.com.",
+      "ip_address": "107.20.200.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-20-211-189.compute-1.amazonaws.com.",
+      "ip_address": "107.20.211.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-20-241-21.compute-1.amazonaws.com.",
+      "ip_address": "107.20.241.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-20-243-255.compute-1.amazonaws.com.",
+      "ip_address": "107.20.243.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-21-202-10.compute-1.amazonaws.com.",
+      "ip_address": "107.21.202.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-21-214-197.compute-1.amazonaws.com.",
+      "ip_address": "107.21.214.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-21-247-57.compute-1.amazonaws.com.",
+      "ip_address": "107.21.247.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-21-251-92.compute-1.amazonaws.com.",
+      "ip_address": "107.21.251.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-21-98-91.compute-1.amazonaws.com.",
+      "ip_address": "107.21.98.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com.",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-22-241-19.compute-1.amazonaws.com.",
+      "ip_address": "107.22.241.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-107-22-242-137.compute-1.amazonaws.com.",
+      "ip_address": "107.22.242.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "116.74.255.9",
+      "loc_city": "Jubilee Hills",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "78.411100",
+      "loc_lat": "17.433400"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-13-113-83-176.ap-northeast-1.compute.amazonaws.com.",
+      "ip_address": "13.113.83.176",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com.",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "xx-fbcdn-shv-02-sin6.fbcdn.net.",
+      "ip_address": "157.240.13.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "edge-star-shv-01-bom1.facebook.com.",
+      "ip_address": "157.240.16.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com.",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "maa03s22-in-f161.1e100.net.",
+      "ip_address": "172.217.26.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "a173-223-49-89.deploy.static.akamaitechnologies.com.",
+      "ip_address": "173.223.49.89",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-174-129-29-44.compute-1.amazonaws.com.",
+      "ip_address": "174.129.29.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "178.236.7.18",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-131-224.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.131.224",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-141-161.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.141.161",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-143-6.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.143.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-151-81.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.151.81",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-152-134.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.152.134",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-156-171.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.156.171",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-157-166.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.157.166",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-163-201.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.163.201",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-174-205.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.174.205",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-174-97.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.174.97",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-181-94.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.181.94",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-169-183-216.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.183.216",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "a184-50-119-249.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.50.119.249",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-72-254-32.compute-1.amazonaws.com.",
+      "ip_address": "184.72.254.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-72-32-80.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.72.32.80",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-72-37-61.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.72.37.61",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-72-59-71.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.72.59.71",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-184-73-243-250.compute-1.amazonaws.com.",
+      "ip_address": "184.73.243.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "web016.apsalar.com.",
+      "ip_address": "198.134.7.231",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:2030:0:27::c12d:fb1",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "15.000000",
+      "loc_lat": "62.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-204-236-134-117.us-west-1.compute.amazonaws.com.",
+      "ip_address": "204.236.134.117",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "bom05s08-in-f174.1e100.net.",
+      "ip_address": "216.58.199.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "bom07s12-in-f2.1e100.net.",
+      "ip_address": "216.58.203.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-21-171-54.compute-1.amazonaws.com.",
+      "ip_address": "23.21.171.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-21-225-144.compute-1.amazonaws.com.",
+      "ip_address": "23.21.225.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-21-44-86.compute-1.amazonaws.com.",
+      "ip_address": "23.21.44.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-21-54-53.compute-1.amazonaws.com.",
+      "ip_address": "23.21.54.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-21-57-50.compute-1.amazonaws.com.",
+      "ip_address": "23.21.57.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-21-64-174.compute-1.amazonaws.com.",
+      "ip_address": "23.21.64.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-21-64-252.compute-1.amazonaws.com.",
+      "ip_address": "23.21.64.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com.",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-115-103.compute-1.amazonaws.com.",
+      "ip_address": "23.23.115.103",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-115-15.compute-1.amazonaws.com.",
+      "ip_address": "23.23.115.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-119-161.compute-1.amazonaws.com.",
+      "ip_address": "23.23.119.161",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-119-253.compute-1.amazonaws.com.",
+      "ip_address": "23.23.119.253",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-139-224.compute-1.amazonaws.com.",
+      "ip_address": "23.23.139.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-153-37.compute-1.amazonaws.com.",
+      "ip_address": "23.23.153.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-164-24.compute-1.amazonaws.com.",
+      "ip_address": "23.23.164.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-165-121.compute-1.amazonaws.com.",
+      "ip_address": "23.23.165.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-175-199.compute-1.amazonaws.com.",
+      "ip_address": "23.23.175.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-175-28.compute-1.amazonaws.com.",
+      "ip_address": "23.23.175.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-184-36.compute-1.amazonaws.com.",
+      "ip_address": "23.23.184.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-230-196.compute-1.amazonaws.com.",
+      "ip_address": "23.23.230.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-255-197.compute-1.amazonaws.com.",
+      "ip_address": "23.23.255.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-82-49.compute-1.amazonaws.com.",
+      "ip_address": "23.23.82.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-23-23-96-77.compute-1.amazonaws.com.",
+      "ip_address": "23.23.96.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "a23-9-205-51.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.9.205.51",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6813:c466",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "bom05s10-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:802::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "bom07s01-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "edge-star6-shv-01-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "edge-star6-shv-01-bom1.facebook.com.",
+      "ip_address": "2a03:2880:f02f:f:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "edge-star-shv-01-mrs1.facebook.com.",
+      "ip_address": "31.13.75.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-34-199-31-222.compute-1.amazonaws.com.",
+      "ip_address": "34.199.31.222",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "6.205.186.35.bc.googleusercontent.com.",
+      "ip_address": "35.186.205.6",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.100.181",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.100.76",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.63.225",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.98.147",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-16-191-237.compute-1.amazonaws.com.",
+      "ip_address": "50.16.191.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-16-205-27.compute-1.amazonaws.com.",
+      "ip_address": "50.16.205.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-16-226-200.compute-1.amazonaws.com.",
+      "ip_address": "50.16.226.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-16-234-41.compute-1.amazonaws.com.",
+      "ip_address": "50.16.234.41",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-17-181-2.compute-1.amazonaws.com.",
+      "ip_address": "50.17.181.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-17-197-168.compute-1.amazonaws.com.",
+      "ip_address": "50.17.197.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-17-218-175.compute-1.amazonaws.com.",
+      "ip_address": "50.17.218.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-17-228-124.compute-1.amazonaws.com.",
+      "ip_address": "50.17.228.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-106-237.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.106.237",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-108-126.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.108.126",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-114-34.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.114.34",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-158-187.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.158.187",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-169-36.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.169.36",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-174-238.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.174.238",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-177-248.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.177.248",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-183-6.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.183.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-190-203.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.190.203",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-248-217.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.248.217",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-47-33.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.47.33",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-54-160.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.54.160",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-59-61.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.59.61",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-18-60-207.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.60.207",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-19-104-138.compute-1.amazonaws.com.",
+      "ip_address": "50.19.104.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-19-117-251.compute-1.amazonaws.com.",
+      "ip_address": "50.19.117.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com.",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-19-215-64.compute-1.amazonaws.com.",
+      "ip_address": "50.19.215.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-19-246-191.compute-1.amazonaws.com.",
+      "ip_address": "50.19.246.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-19-248-32.compute-1.amazonaws.com.",
+      "ip_address": "50.19.248.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com.",
+      "ip_address": "50.19.81.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-52-0-167-131.compute-1.amazonaws.com.",
+      "ip_address": "52.0.167.131",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-52-20-204-71.compute-1.amazonaws.com.",
+      "ip_address": "52.20.204.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-52-203-233-46.compute-1.amazonaws.com.",
+      "ip_address": "52.203.233.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-52-204-164-235.compute-1.amazonaws.com.",
+      "ip_address": "52.204.164.235",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-52-206-240-8.compute-1.amazonaws.com.",
+      "ip_address": "52.206.240.8",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-52-66-89-241.ap-south-1.compute.amazonaws.com.",
+      "ip_address": "52.66.89.241",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.217.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-163-254-184.compute-1.amazonaws.com.",
+      "ip_address": "54.163.254.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-215-2-35.us-west-1.compute.amazonaws.com.",
+      "ip_address": "54.215.2.35",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-221-244-3.compute-1.amazonaws.com.",
+      "ip_address": "54.221.244.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-221-254-2.compute-1.amazonaws.com.",
+      "ip_address": "54.221.254.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-225-125-57.compute-1.amazonaws.com.",
+      "ip_address": "54.225.125.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com.",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-225-136-132.compute-1.amazonaws.com.",
+      "ip_address": "54.225.136.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-225-140-101.compute-1.amazonaws.com.",
+      "ip_address": "54.225.140.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-225-207-63.compute-1.amazonaws.com.",
+      "ip_address": "54.225.207.63",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-225-208-196.compute-1.amazonaws.com.",
+      "ip_address": "54.225.208.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-225-214-148.compute-1.amazonaws.com.",
+      "ip_address": "54.225.214.148",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-225-217-126.compute-1.amazonaws.com.",
+      "ip_address": "54.225.217.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-225-221-53.compute-1.amazonaws.com.",
+      "ip_address": "54.225.221.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com.",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-131-96.compute-1.amazonaws.com.",
+      "ip_address": "54.235.131.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-137-55.compute-1.amazonaws.com.",
+      "ip_address": "54.235.137.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-139-218.compute-1.amazonaws.com.",
+      "ip_address": "54.235.139.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-165-25.compute-1.amazonaws.com.",
+      "ip_address": "54.235.165.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-169-199.compute-1.amazonaws.com.",
+      "ip_address": "54.235.169.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-205-203.compute-1.amazonaws.com.",
+      "ip_address": "54.235.205.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-244-117.compute-1.amazonaws.com.",
+      "ip_address": "54.235.244.117",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-69-83.compute-1.amazonaws.com.",
+      "ip_address": "54.235.69.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-86-237.compute-1.amazonaws.com.",
+      "ip_address": "54.235.86.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-88-249.compute-1.amazonaws.com.",
+      "ip_address": "54.235.88.249",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-235-98-38.compute-1.amazonaws.com.",
+      "ip_address": "54.235.98.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-103-165.compute-1.amazonaws.com.",
+      "ip_address": "54.243.103.165",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-109-101.compute-1.amazonaws.com.",
+      "ip_address": "54.243.109.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-112-235.compute-1.amazonaws.com.",
+      "ip_address": "54.243.112.235",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-116-34.compute-1.amazonaws.com.",
+      "ip_address": "54.243.116.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-127-94.compute-1.amazonaws.com.",
+      "ip_address": "54.243.127.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-133-174.compute-1.amazonaws.com.",
+      "ip_address": "54.243.133.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-139-39.compute-1.amazonaws.com.",
+      "ip_address": "54.243.139.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-149-238.compute-1.amazonaws.com.",
+      "ip_address": "54.243.149.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-170-209.compute-1.amazonaws.com.",
+      "ip_address": "54.243.170.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-182-104.compute-1.amazonaws.com.",
+      "ip_address": "54.243.182.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-183-10.compute-1.amazonaws.com.",
+      "ip_address": "54.243.183.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com.",
+      "ip_address": "54.243.212.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-214-67.compute-1.amazonaws.com.",
+      "ip_address": "54.243.214.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-217-210.compute-1.amazonaws.com.",
+      "ip_address": "54.243.217.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-217-68.compute-1.amazonaws.com.",
+      "ip_address": "54.243.217.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-255-60.compute-1.amazonaws.com.",
+      "ip_address": "54.243.255.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-33-139.compute-1.amazonaws.com.",
+      "ip_address": "54.243.33.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com.",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-98-151.compute-1.amazonaws.com.",
+      "ip_address": "54.243.98.151",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-243-99-83.compute-1.amazonaws.com.",
+      "ip_address": "54.243.99.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-65-215-22.ap-northeast-1.compute.amazonaws.com.",
+      "ip_address": "54.65.215.22",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-83-200-94.compute-1.amazonaws.com.",
+      "ip_address": "54.83.200.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-54-88-173-80.compute-1.amazonaws.com.",
+      "ip_address": "54.88.173.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::36c7:e912",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::36e1:5518",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::36e1:806d",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::6841:9a0f",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::b848:3b47",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.myntra.android",
+      "ptr_domain": "ec2-75-101-164-173.compute-1.amazonaws.com.",
+      "ip_address": "75.101.164.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

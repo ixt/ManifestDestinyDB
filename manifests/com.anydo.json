@@ -1,0 +1,1791 @@
+{
+  "appName": "Any.do",
+  "packageName": "com.anydo",
+  "category": "PRODUCTIVITY",
+  "icon": "",
+  "permissions": [
+    "com.anydo.permissions.TASKS",
+    "com.anydo.provider.permission.READ_ANYDO_TASKS",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+    "android.permission.READ_CONTACTS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_CALENDAR",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.NFC",
+    "android.permission.EXPAND_STATUS_BAR",
+    "android.permission.RECORD_AUDIO",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.anydo.calendar.onboarding.permissions_prompt.CalendarPermissionsPromptActivity"
+  ],
+  "version": "4.15.0.10",
+  "trackers": [
+    "Facebook Analytics",
+    "MixPanel",
+    "Facebook Places",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Facebook Share",
+    "Facebook Login",
+    "AppSee"
+  ],
+  "network_connections": [
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-20-151-23.compute-1.amazonaws.com.",
+      "ip_address": "107.20.151.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-20-172-125.compute-1.amazonaws.com.",
+      "ip_address": "107.20.172.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-20-234-107.compute-1.amazonaws.com.",
+      "ip_address": "107.20.234.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-20-241-21.compute-1.amazonaws.com.",
+      "ip_address": "107.20.241.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-21-115-231.compute-1.amazonaws.com.",
+      "ip_address": "107.21.115.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-21-118-233.compute-1.amazonaws.com.",
+      "ip_address": "107.21.118.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-21-210-141.compute-1.amazonaws.com.",
+      "ip_address": "107.21.210.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-21-94-141.compute-1.amazonaws.com.",
+      "ip_address": "107.21.94.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-22-161-159.compute-1.amazonaws.com.",
+      "ip_address": "107.22.161.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-22-199-165.compute-1.amazonaws.com.",
+      "ip_address": "107.22.199.165",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-22-213-25.compute-1.amazonaws.com.",
+      "ip_address": "107.22.213.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-22-230-235.compute-1.amazonaws.com.",
+      "ip_address": "107.22.230.235",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-22-238-216.compute-1.amazonaws.com.",
+      "ip_address": "107.22.238.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-107-22-243-227.compute-1.amazonaws.com.",
+      "ip_address": "107.22.243.227",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "160.49.148.146.bc.googleusercontent.com.",
+      "ip_address": "146.148.49.160",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "96.90.148.146.bc.googleusercontent.com.",
+      "ip_address": "146.148.90.96",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-174-129-230-48.compute-1.amazonaws.com.",
+      "ip_address": "174.129.230.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-174-129-32-125.compute-1.amazonaws.com.",
+      "ip_address": "174.129.32.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-174-129-6-130.compute-1.amazonaws.com.",
+      "ip_address": "174.129.6.130",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.177",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-184-73-229-225.compute-1.amazonaws.com.",
+      "ip_address": "184.73.229.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-184-73-232-199.compute-1.amazonaws.com.",
+      "ip_address": "184.73.232.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com.",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "N/A",
+      "ip_address": "223.196.3.97",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-21-142-10.compute-1.amazonaws.com.",
+      "ip_address": "23.21.142.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-21-168-237.compute-1.amazonaws.com.",
+      "ip_address": "23.21.168.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-21-176-29.compute-1.amazonaws.com.",
+      "ip_address": "23.21.176.29",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-21-185-158.compute-1.amazonaws.com.",
+      "ip_address": "23.21.185.158",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-21-192-116.compute-1.amazonaws.com.",
+      "ip_address": "23.21.192.116",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-21-212-189.compute-1.amazonaws.com.",
+      "ip_address": "23.21.212.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-21-230-199.compute-1.amazonaws.com.",
+      "ip_address": "23.21.230.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-21-45-51.compute-1.amazonaws.com.",
+      "ip_address": "23.21.45.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-21-59-163.compute-1.amazonaws.com.",
+      "ip_address": "23.21.59.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-100-24.compute-1.amazonaws.com.",
+      "ip_address": "23.23.100.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-101-152.compute-1.amazonaws.com.",
+      "ip_address": "23.23.101.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-109-78.compute-1.amazonaws.com.",
+      "ip_address": "23.23.109.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-117-76.compute-1.amazonaws.com.",
+      "ip_address": "23.23.117.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-177-159.compute-1.amazonaws.com.",
+      "ip_address": "23.23.177.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-196-129.compute-1.amazonaws.com.",
+      "ip_address": "23.23.196.129",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-221-88.compute-1.amazonaws.com.",
+      "ip_address": "23.23.221.88",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-227-23.compute-1.amazonaws.com.",
+      "ip_address": "23.23.227.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-251-76.compute-1.amazonaws.com.",
+      "ip_address": "23.23.251.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-23-23-84-12.compute-1.amazonaws.com.",
+      "ip_address": "23.23.84.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-34-198-56-232.compute-1.amazonaws.com.",
+      "ip_address": "34.198.56.232",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-34-248-128-242.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.248.128.242",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-34-249-56-85.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.56.85",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-34-251-174-73.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.251.174.73",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-34-252-212-22.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.252.212.22",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-34-252-48-208.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.252.48.208",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-34-253-63-180.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.253.63.180",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-34-253-87-109.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.253.87.109",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-16-203-48.compute-1.amazonaws.com.",
+      "ip_address": "50.16.203.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-16-209-110.compute-1.amazonaws.com.",
+      "ip_address": "50.16.209.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-16-222-66.compute-1.amazonaws.com.",
+      "ip_address": "50.16.222.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-16-227-194.compute-1.amazonaws.com.",
+      "ip_address": "50.16.227.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-16-231-217.compute-1.amazonaws.com.",
+      "ip_address": "50.16.231.217",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-17-205-178.compute-1.amazonaws.com.",
+      "ip_address": "50.17.205.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-17-211-253.compute-1.amazonaws.com.",
+      "ip_address": "50.17.211.253",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-17-220-247.compute-1.amazonaws.com.",
+      "ip_address": "50.17.220.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-17-228-124.compute-1.amazonaws.com.",
+      "ip_address": "50.17.228.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-17-244-57.compute-1.amazonaws.com.",
+      "ip_address": "50.17.244.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-19-213-177.compute-1.amazonaws.com.",
+      "ip_address": "50.19.213.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-19-241-12.compute-1.amazonaws.com.",
+      "ip_address": "50.19.241.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-50-19-252-204.compute-1.amazonaws.com.",
+      "ip_address": "50.19.252.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-16-218-102.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.16.218.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-16-222-153.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.16.222.153",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-17-152-210.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.152.210",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-19-221-253.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.221.253",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-205-64-138.compute-1.amazonaws.com.",
+      "ip_address": "52.205.64.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-206-142-85.compute-1.amazonaws.com.",
+      "ip_address": "52.206.142.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-208-225-246.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.225.246",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-209-0-166.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.0.166",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-211-14-23.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.14.23",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-211-218-67.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.218.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-213-16-110.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.213.16.110",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-214-43-168.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.214.43.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-30-76-66.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.76.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-31-6-40.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.6.40",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-31-93-211.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.93.211",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-48-119-103.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.119.103",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-48-165-120.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.165.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-51-246-224.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.246.224",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-54-254-179.compute-1.amazonaws.com.",
+      "ip_address": "52.54.254.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-52-72-52-224.compute-1.amazonaws.com.",
+      "ip_address": "52.72.52.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-154-111-221.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.111.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-171-21-157.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.21.157",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-171-26-243.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.26.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-171-42-50.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.42.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-194-33-163.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.194.33.163",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-194-49-47.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.194.49.47",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-197-235-216.compute-1.amazonaws.com.",
+      "ip_address": "54.197.235.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-204-36-212.compute-1.amazonaws.com.",
+      "ip_address": "54.204.36.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-221-211-25.compute-1.amazonaws.com.",
+      "ip_address": "54.221.211.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-221-247-175.compute-1.amazonaws.com.",
+      "ip_address": "54.221.247.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-225-136-26.compute-1.amazonaws.com.",
+      "ip_address": "54.225.136.26",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-225-145-56.compute-1.amazonaws.com.",
+      "ip_address": "54.225.145.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-225-148-67.compute-1.amazonaws.com.",
+      "ip_address": "54.225.148.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-225-170-49.compute-1.amazonaws.com.",
+      "ip_address": "54.225.170.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-225-173-240.compute-1.amazonaws.com.",
+      "ip_address": "54.225.173.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-225-208-125.compute-1.amazonaws.com.",
+      "ip_address": "54.225.208.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-225-208-26.compute-1.amazonaws.com.",
+      "ip_address": "54.225.208.26",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-227-243-103.compute-1.amazonaws.com.",
+      "ip_address": "54.227.243.103",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-229-235-132.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.235.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-235-102-46.compute-1.amazonaws.com.",
+      "ip_address": "54.235.102.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-235-130-118.compute-1.amazonaws.com.",
+      "ip_address": "54.235.130.118",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-235-132-180.compute-1.amazonaws.com.",
+      "ip_address": "54.235.132.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-235-183-213.compute-1.amazonaws.com.",
+      "ip_address": "54.235.183.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-235-190-204.compute-1.amazonaws.com.",
+      "ip_address": "54.235.190.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-235-218-133.compute-1.amazonaws.com.",
+      "ip_address": "54.235.218.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-119-184.compute-1.amazonaws.com.",
+      "ip_address": "54.243.119.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-119-53.compute-1.amazonaws.com.",
+      "ip_address": "54.243.119.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-158-73.compute-1.amazonaws.com.",
+      "ip_address": "54.243.158.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-160-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.160.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-165-181.compute-1.amazonaws.com.",
+      "ip_address": "54.243.165.181",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-177-201.compute-1.amazonaws.com.",
+      "ip_address": "54.243.177.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-179-23.compute-1.amazonaws.com.",
+      "ip_address": "54.243.179.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-185-131.compute-1.amazonaws.com.",
+      "ip_address": "54.243.185.131",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-187-20.compute-1.amazonaws.com.",
+      "ip_address": "54.243.187.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-198-221.compute-1.amazonaws.com.",
+      "ip_address": "54.243.198.221",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-203-20.compute-1.amazonaws.com.",
+      "ip_address": "54.243.203.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-206-53.compute-1.amazonaws.com.",
+      "ip_address": "54.243.206.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com.",
+      "ip_address": "54.243.212.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-255-60.compute-1.amazonaws.com.",
+      "ip_address": "54.243.255.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-34-18.compute-1.amazonaws.com.",
+      "ip_address": "54.243.34.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-44-43.compute-1.amazonaws.com.",
+      "ip_address": "54.243.44.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-71-210.compute-1.amazonaws.com.",
+      "ip_address": "54.243.71.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-78-124.compute-1.amazonaws.com.",
+      "ip_address": "54.243.78.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-87-56.compute-1.amazonaws.com.",
+      "ip_address": "54.243.87.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com.",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-243-91-79.compute-1.amazonaws.com.",
+      "ip_address": "54.243.91.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-76-74-130.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.74.130",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-76-81-175.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.81.175",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com.",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "ec2-75-101-133-248.compute-1.amazonaws.com.",
+      "ip_address": "75.101.133.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo",
+      "ptr_domain": "mc.yandex.ru.",
+      "ip_address": "87.250.251.119",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-107-22-230-235.compute-1.amazonaws.com.",
+      "ip_address": "107.22.230.235",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-107-22-241-65.compute-1.amazonaws.com.",
+      "ip_address": "107.22.241.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "160.49.148.146.bc.googleusercontent.com.",
+      "ip_address": "146.148.49.160",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com.",
+      "ip_address": "174.129.19.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-174-129-208-167.compute-1.amazonaws.com.",
+      "ip_address": "174.129.208.167",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com.",
+      "ip_address": "23.21.143.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-23-21-213-97.compute-1.amazonaws.com.",
+      "ip_address": "23.21.213.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-23-23-109-78.compute-1.amazonaws.com.",
+      "ip_address": "23.23.109.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-23-23-114-129.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.129",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-23-23-114-1.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-23-23-231-146.compute-1.amazonaws.com.",
+      "ip_address": "23.23.231.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-23-23-250-209.compute-1.amazonaws.com.",
+      "ip_address": "23.23.250.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-23-23-77-117.compute-1.amazonaws.com.",
+      "ip_address": "23.23.77.117",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-34-198-56-232.compute-1.amazonaws.com.",
+      "ip_address": "34.198.56.232",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-16-206-126.compute-1.amazonaws.com.",
+      "ip_address": "50.16.206.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-16-218-193.compute-1.amazonaws.com.",
+      "ip_address": "50.16.218.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-16-218-218.compute-1.amazonaws.com.",
+      "ip_address": "50.16.218.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-16-225-220.compute-1.amazonaws.com.",
+      "ip_address": "50.16.225.220",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-16-227-194.compute-1.amazonaws.com.",
+      "ip_address": "50.16.227.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-16-231-217.compute-1.amazonaws.com.",
+      "ip_address": "50.16.231.217",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-17-235-124.compute-1.amazonaws.com.",
+      "ip_address": "50.17.235.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-17-244-57.compute-1.amazonaws.com.",
+      "ip_address": "50.17.244.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-17-253-207.compute-1.amazonaws.com.",
+      "ip_address": "50.17.253.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-17-255-21.compute-1.amazonaws.com.",
+      "ip_address": "50.17.255.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-50-19-252-204.compute-1.amazonaws.com.",
+      "ip_address": "50.19.252.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-52-205-64-138.compute-1.amazonaws.com.",
+      "ip_address": "52.205.64.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-52-206-142-85.compute-1.amazonaws.com.",
+      "ip_address": "52.206.142.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-52-54-254-179.compute-1.amazonaws.com.",
+      "ip_address": "52.54.254.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-52-72-52-224.compute-1.amazonaws.com.",
+      "ip_address": "52.72.52.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-54-197-233-136.compute-1.amazonaws.com.",
+      "ip_address": "54.197.233.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-54-225-133-127.compute-1.amazonaws.com.",
+      "ip_address": "54.225.133.127",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-54-225-136-132.compute-1.amazonaws.com.",
+      "ip_address": "54.225.136.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-54-235-183-213.compute-1.amazonaws.com.",
+      "ip_address": "54.235.183.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-54-243-110-17.compute-1.amazonaws.com.",
+      "ip_address": "54.243.110.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-54-243-119-53.compute-1.amazonaws.com.",
+      "ip_address": "54.243.119.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-54-243-120-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.120.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com.",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.anydo.cal",
+      "ptr_domain": "ec2-75-101-133-248.compute-1.amazonaws.com.",
+      "ip_address": "75.101.133.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

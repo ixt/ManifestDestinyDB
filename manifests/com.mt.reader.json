@@ -1,0 +1,5353 @@
+{
+  "appName": "MT",
+  "packageName": "com.mt.reader",
+  "category": "NEWS_AND_MAGAZINES",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.VIBRATE",
+    "com.toicr.permission.C2D_MESSAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.mt.reader.permission.C2D_MESSAGE",
+    "com.mt.reader.permission.C2D_MESSAGE",
+    "com.amazon.device.messaging.permission.RECEIVE",
+    "com.mt.reader.permission.RECEIVE_ADM_MESSAGE",
+    "com.mt.reader.permission.RECEIVE_ADM_MESSAGE"
+  ],
+  "version": "3.8.1",
+  "trackers": [
+    "ComScore",
+    "Facebook Analytics",
+    "Facebook Places",
+    "Facebook Share",
+    "Urbanairship",
+    "Google Firebase Analytics",
+    "Google Ads",
+    "Facebook Login",
+    "Google CrashLytics",
+    "Facebook Ads",
+    "Google Analytics",
+    "AppsFlyer",
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "undefined.hostname.localhost.",
+      "ip_address": "103.214.129.18",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "103.51.152.201",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-108-155-5.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.108.155.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-113-220-31.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.113.220.31",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-113-232-176.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.113.232.176",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-114-106-147.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.114.106.147",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-114-108-102.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.114.108.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-120-222-109.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.120.222.109",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-121-254-222.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.121.254.222",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-122-122-218.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.122.122.218",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-122-60-219.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.122.60.219",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-122-62-180.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.122.62.180",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-122-93-40.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.122.93.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-124-232-135.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.124.232.135",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-124-236-34.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.124.236.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "226.130.154.104.bc.googleusercontent.com.",
+      "ip_address": "104.154.130.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.19.196.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "13.250.197.104.bc.googleusercontent.com.",
+      "ip_address": "104.197.250.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.136",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.193",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.72",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.103",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.135",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.167",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.199",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.231",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.71",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-65-128-209.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.65.128.209",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-65-128-224.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.65.128.224",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-65-73-149.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.65.73.149",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-65-83-32.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.65.83.32",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-68-102-132.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.68.102.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a104-85-105-169.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.85.105.169",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-20-151-64.compute-1.amazonaws.com.",
+      "ip_address": "107.20.151.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-20-200-251.compute-1.amazonaws.com.",
+      "ip_address": "107.20.200.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-20-243-255.compute-1.amazonaws.com.",
+      "ip_address": "107.20.243.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-21-115-231.compute-1.amazonaws.com.",
+      "ip_address": "107.21.115.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-21-202-10.compute-1.amazonaws.com.",
+      "ip_address": "107.21.202.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-21-204-104.compute-1.amazonaws.com.",
+      "ip_address": "107.21.204.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-21-237-18.compute-1.amazonaws.com.",
+      "ip_address": "107.21.237.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-21-247-23.compute-1.amazonaws.com.",
+      "ip_address": "107.21.247.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-22-160-142.compute-1.amazonaws.com.",
+      "ip_address": "107.22.160.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-22-161-209.compute-1.amazonaws.com.",
+      "ip_address": "107.22.161.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com.",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com.",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-22-184-200.compute-1.amazonaws.com.",
+      "ip_address": "107.22.184.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-107-22-241-19.compute-1.amazonaws.com.",
+      "ip_address": "107.22.241.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "117.18.232.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "117.18.237.172",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "117.18.237.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "static.ill.117.239.141.27/24.bsnl.in.",
+      "ip_address": "117.239.141.27",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a118-215-158-216.deploy.static.akamaitechnologies.com.",
+      "ip_address": "118.215.158.216",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "53.210.129.12.in-addr.arpa. CNAME 53.0/25.210.129.12.in-addr.arpa.",
+      "ip_address": "12.129.210.53",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.388700",
+      "loc_lat": "33.956000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "nb-139-162-92-7.shinagawa1.nodebalancer.linode.com.",
+      "ip_address": "139.162.92.7",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com.",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com.",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star-mini-shv-02-sin6.facebook.com.",
+      "ip_address": "157.240.13.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star-shv-01-bom1.facebook.com.",
+      "ip_address": "157.240.16.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star-shv-02-frt3.facebook.com.",
+      "ip_address": "157.240.20.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com.",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "d3.22.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.34.211",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "maa03s22-in-f2.1e100.net.",
+      "ip_address": "172.217.26.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "maa03s22-in-f170.1e100.net.",
+      "ip_address": "172.217.26.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "maa03s23-in-f194.1e100.net.",
+      "ip_address": "172.217.26.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-f1.1e100.net.",
+      "ip_address": "172.217.26.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-f2.1e100.net.",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-f3.1e100.net.",
+      "ip_address": "172.217.26.227",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-f4.1e100.net.",
+      "ip_address": "172.217.26.228",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-f10.1e100.net.",
+      "ip_address": "172.217.26.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-f14.1e100.net.",
+      "ip_address": "172.217.26.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "tsa03s02-in-f130.1e100.net.",
+      "ip_address": "172.217.27.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-174-129-13-10.compute-1.amazonaws.com.",
+      "ip_address": "174.129.13.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-174-129-230-48.compute-1.amazonaws.com.",
+      "ip_address": "174.129.230.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-174-129-32-125.compute-1.amazonaws.com.",
+      "ip_address": "174.129.32.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-174-129-35-151.compute-1.amazonaws.com.",
+      "ip_address": "174.129.35.151",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-174-129-40-191.compute-1.amazonaws.com.",
+      "ip_address": "174.129.40.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-175-41-130-110.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "175.41.130.110",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "155-86-87-183.mysipl.com.",
+      "ip_address": "183.87.86.155",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "73.015800",
+      "loc_lat": "19.036800"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a184-50-119-153.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.50.119.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a184-51-27-94.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.51.27.94",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-184-73-180-205.compute-1.amazonaws.com.",
+      "ip_address": "184.73.180.205",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-184-73-184-4.compute-1.amazonaws.com.",
+      "ip_address": "184.73.184.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-184-73-220-110.compute-1.amazonaws.com.",
+      "ip_address": "184.73.220.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-184-73-243-250.compute-1.amazonaws.com.",
+      "ip_address": "184.73.243.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "185.84.60.23",
+      "loc_city": "N/A",
+      "loc_country": "Denmark",
+      "loc_continent": "Europe",
+      "loc_long": "12.056400",
+      "loc_lat": "55.712300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.237.96",
+      "loc_city": "Anaheim",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-117.969200",
+      "loc_lat": "33.816000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "web016.apsalar.com.",
+      "ip_address": "198.134.7.231",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "web017.apsalar.com.",
+      "ip_address": "198.134.7.232",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "web013.apsalar.com.",
+      "ip_address": "198.134.7.53",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "web014.apsalar.com.",
+      "ip_address": "198.134.7.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "web015.apsalar.com.",
+      "ip_address": "198.134.7.55",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "196-124-232-198.static.unitasglobal.net.",
+      "ip_address": "198.232.124.196",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "anycast.sc.iasds01.com.",
+      "ip_address": "199.166.0.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "199.96.57.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com.",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-204-236-235-213.compute-1.amazonaws.com.",
+      "ip_address": "204.236.235.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "unknown.telstraglobal.net.",
+      "ip_address": "210.176.156.45",
+      "loc_city": "N/A",
+      "loc_country": "Hong Kong",
+      "loc_continent": "Asia",
+      "loc_long": "114.166700",
+      "loc_lat": "22.250000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "maa03s19-in-f98.1e100.net.",
+      "ip_address": "216.58.196.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "maa03s21-in-f2.1e100.net.",
+      "ip_address": "216.58.197.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "maa03s21-in-f67.1e100.net.",
+      "ip_address": "216.58.197.67",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-f129.1e100.net.",
+      "ip_address": "216.58.199.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-f2.1e100.net.",
+      "ip_address": "216.58.199.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-f131.1e100.net.",
+      "ip_address": "216.58.199.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-f10.1e100.net.",
+      "ip_address": "216.58.199.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-f13.1e100.net.",
+      "ip_address": "216.58.199.141",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-f142.1e100.net.",
+      "ip_address": "216.58.199.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s08-in-f1.1e100.net.",
+      "ip_address": "216.58.199.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s08-in-f162.1e100.net.",
+      "ip_address": "216.58.199.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s08-in-f170.1e100.net.",
+      "ip_address": "216.58.199.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s08-in-f174.1e100.net.",
+      "ip_address": "216.58.199.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "tsa03s01-in-f2.1e100.net.",
+      "ip_address": "216.58.200.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "tsa03s01-in-f230.1e100.net.",
+      "ip_address": "216.58.200.230",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-f129.1e100.net.",
+      "ip_address": "216.58.203.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-f130.1e100.net.",
+      "ip_address": "216.58.203.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-f131.1e100.net.",
+      "ip_address": "216.58.203.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-f134.1e100.net.",
+      "ip_address": "216.58.203.134",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-f10.1e100.net.",
+      "ip_address": "216.58.203.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-f14.1e100.net.",
+      "ip_address": "216.58.203.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s11-in-f1.1e100.net.",
+      "ip_address": "216.58.203.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s11-in-f2.1e100.net.",
+      "ip_address": "216.58.203.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s11-in-f3.1e100.net.",
+      "ip_address": "216.58.203.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s11-in-f6.1e100.net.",
+      "ip_address": "216.58.203.166",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s11-in-f10.1e100.net.",
+      "ip_address": "216.58.203.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s11-in-f14.1e100.net.",
+      "ip_address": "216.58.203.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s12-in-f1.1e100.net.",
+      "ip_address": "216.58.203.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s12-in-f2.1e100.net.",
+      "ip_address": "216.58.203.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s12-in-f6.1e100.net.",
+      "ip_address": "216.58.203.198",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s12-in-f10.1e100.net.",
+      "ip_address": "216.58.203.202",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s12-in-f14.1e100.net.",
+      "ip_address": "216.58.203.206",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "lhr25s12-in-f2.1e100.net.",
+      "ip_address": "216.58.204.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "lhr35s10-in-f2.1e100.net.",
+      "ip_address": "216.58.206.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "lhr35s05-in-f2.1e100.net.",
+      "ip_address": "216.58.212.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s10-in-f1.1e100.net.",
+      "ip_address": "216.58.220.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s10-in-f162.1e100.net.",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s10-in-f3.1e100.net.",
+      "ip_address": "216.58.220.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s10-in-f166.1e100.net.",
+      "ip_address": "216.58.220.166",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s10-in-f174.1e100.net.",
+      "ip_address": "216.58.220.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "hkg12s16-in-f1.1e100.net.",
+      "ip_address": "216.58.220.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "hkg12s16-in-f2.1e100.net.",
+      "ip_address": "216.58.220.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s05-in-f2.1e100.net.",
+      "ip_address": "216.58.220.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a2-19-62-216.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.19.62.216",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "223.165.27.110",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-0-172-67.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.0.172.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-15-145-247.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.15.145.247",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-201-48-12.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.201.48.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-109-80.compute-1.amazonaws.com.",
+      "ip_address": "23.21.109.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-110-206.compute-1.amazonaws.com.",
+      "ip_address": "23.21.110.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-113-253.compute-1.amazonaws.com.",
+      "ip_address": "23.21.113.253",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-211-194-108.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.211.194.108",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-211-208-153.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.211.208.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-169-179.compute-1.amazonaws.com.",
+      "ip_address": "23.21.169.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-192-242.compute-1.amazonaws.com.",
+      "ip_address": "23.21.192.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-203-99.compute-1.amazonaws.com.",
+      "ip_address": "23.21.203.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-205-90.compute-1.amazonaws.com.",
+      "ip_address": "23.21.205.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-209-66.compute-1.amazonaws.com.",
+      "ip_address": "23.21.209.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-254-156.compute-1.amazonaws.com.",
+      "ip_address": "23.21.254.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-47-236.compute-1.amazonaws.com.",
+      "ip_address": "23.21.47.236",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-86-206.compute-1.amazonaws.com.",
+      "ip_address": "23.21.86.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-91-160.compute-1.amazonaws.com.",
+      "ip_address": "23.21.91.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com.",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-96-207.compute-1.amazonaws.com.",
+      "ip_address": "23.21.96.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-21-97-197.compute-1.amazonaws.com.",
+      "ip_address": "23.21.97.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-102-13.compute-1.amazonaws.com.",
+      "ip_address": "23.23.102.13",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-107-83.compute-1.amazonaws.com.",
+      "ip_address": "23.23.107.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-114-1.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-114-96.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-115-103.compute-1.amazonaws.com.",
+      "ip_address": "23.23.115.103",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-119-243.compute-1.amazonaws.com.",
+      "ip_address": "23.23.119.243",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-127-115.compute-1.amazonaws.com.",
+      "ip_address": "23.23.127.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-139-224.compute-1.amazonaws.com.",
+      "ip_address": "23.23.139.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-162-140.compute-1.amazonaws.com.",
+      "ip_address": "23.23.162.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-175-28.compute-1.amazonaws.com.",
+      "ip_address": "23.23.175.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-190-7.compute-1.amazonaws.com.",
+      "ip_address": "23.23.190.7",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-227-163.compute-1.amazonaws.com.",
+      "ip_address": "23.23.227.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-248-196.compute-1.amazonaws.com.",
+      "ip_address": "23.23.248.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-74-36.compute-1.amazonaws.com.",
+      "ip_address": "23.23.74.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-23-23-96-77.compute-1.amazonaws.com.",
+      "ip_address": "23.23.96.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-35-68-15.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.35.68.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-47-235-55.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.47.235.55",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-54-25-21.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.54.25.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-57-215-134.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.57.215.134",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-57-218-201.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.57.218.201",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-61-88-74.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.61.88.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a23-61-89-70.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.61.89.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6813:c466",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sin11s01-in-x03.1e100.net.",
+      "ip_address": "2404:6800:4003:802::2003",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sin11s01-in-x04.1e100.net.",
+      "ip_address": "2404:6800:4003:802::2004",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sin10s07-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4003:808::200a",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sa-in-x9d.1e100.net.",
+      "ip_address": "2404:6800:4003:c00::9d",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sb-in-x9b.1e100.net.",
+      "ip_address": "2404:6800:4003:c01::9b",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sc-in-x9a.1e100.net.",
+      "ip_address": "2404:6800:4003:c02::9a",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sc-in-x9c.1e100.net.",
+      "ip_address": "2404:6800:4003:c02::9c",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sc-in-x9d.1e100.net.",
+      "ip_address": "2404:6800:4003:c02::9d",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2404:6800:4003:c03::9b",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s10-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:801::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s10-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s10-in-x03.1e100.net.",
+      "ip_address": "2404:6800:4009:801::2003",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s10-in-x0e.1e100.net.",
+      "ip_address": "2404:6800:4009:801::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:802::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:802::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-x03.1e100.net.",
+      "ip_address": "2404:6800:4009:802::2003",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s10-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:802::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s11-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:803::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s11-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:803::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s11-in-x03.1e100.net.",
+      "ip_address": "2404:6800:4009:803::2003",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s05-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s05-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s05-in-x06.1e100.net.",
+      "ip_address": "2404:6800:4009:804::2006",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s05-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-x03.1e100.net.",
+      "ip_address": "2404:6800:4009:805::2003",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-x06.1e100.net.",
+      "ip_address": "2404:6800:4009:805::2006",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:805::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s09-in-x0e.1e100.net.",
+      "ip_address": "2404:6800:4009:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-x03.1e100.net.",
+      "ip_address": "2404:6800:4009:806::2003",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s01-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s08-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:807::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s08-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:807::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s08-in-x03.1e100.net.",
+      "ip_address": "2404:6800:4009:807::2003",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s08-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:807::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom05s08-in-x0e.1e100.net.",
+      "ip_address": "2404:6800:4009:807::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s12-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:808::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s12-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s12-in-x06.1e100.net.",
+      "ip_address": "2404:6800:4009:808::2006",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "bom07s12-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:808::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:185::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:189::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:18b::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:285::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:288::27dc",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:289::27dc",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:28d::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:28e::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:28f::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:290::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:293::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:295::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:296::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:29a::27dc",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:29b::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:29c::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:29e::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2a1::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2a2::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2a3::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2a4::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2a5::27dc",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2a7::27dc",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2a9::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2aa::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2ab::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2ac::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2ac::27dc",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b1::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b2::27dc",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b3::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b6::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b7::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b9::27dc",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2be::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2bf::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2bf::27dc",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:81::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:82::25eb",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:83::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:85::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:86::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:88::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:8b::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:8e::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:8f::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:92::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:93::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:95::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:97::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:98::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:9a::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:9b::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:9f::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:a1::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "g2600-140f-0004-0180-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:4:180::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "g2600-140f-0004-0184-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:4:184::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "g2600-140f-0004-018a-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:4:18a::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "g2600-140f-0004-018b-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:4:18b::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "g2600-140f-0004-018f-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:4:18f::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "g2600-140f-0004-0191-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:4:191::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "g2600-140f-0004-0193-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:4:193::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "g2600-1417-005e-0389-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:1417:5e:389::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "g2600-1417-005e-038d-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:1417:5e:38d::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2606:2800:248:1347:709:24f:182c:618",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2606:2800:248:1707:10d3:19d0:1ba2:1a23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2606:2800:248:2f:1d8a:787:dc7:17df",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2606:2800:248:7fc:e77:102d:736:888",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ams15s21-in-x03.1e100.net.",
+      "ip_address": "2a00:1450:400e:800::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star6-shv-01-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:19:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f126:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f226:c6:face:b00c:0:167",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star-shv-01-mrs1.facebook.com.",
+      "ip_address": "31.13.75.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.32",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com.",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.100.177",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.100.221",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.101.16",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.104.111",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.115.16",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.115.9",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.96.147",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.98.9",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-16-187-219.compute-1.amazonaws.com.",
+      "ip_address": "50.16.187.219",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-16-193-231.compute-1.amazonaws.com.",
+      "ip_address": "50.16.193.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-16-222-66.compute-1.amazonaws.com.",
+      "ip_address": "50.16.222.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-17-197-168.compute-1.amazonaws.com.",
+      "ip_address": "50.17.197.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-17-200-4.compute-1.amazonaws.com.",
+      "ip_address": "50.17.200.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-17-249-168.compute-1.amazonaws.com.",
+      "ip_address": "50.17.249.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-17-249-91.compute-1.amazonaws.com.",
+      "ip_address": "50.17.249.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-17-250-152.compute-1.amazonaws.com.",
+      "ip_address": "50.17.250.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-102-118.compute-1.amazonaws.com.",
+      "ip_address": "50.19.102.118",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-107-92.compute-1.amazonaws.com.",
+      "ip_address": "50.19.107.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-119-48.compute-1.amazonaws.com.",
+      "ip_address": "50.19.119.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-127-35.compute-1.amazonaws.com.",
+      "ip_address": "50.19.127.35",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-209-145.compute-1.amazonaws.com.",
+      "ip_address": "50.19.209.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-210-58.compute-1.amazonaws.com.",
+      "ip_address": "50.19.210.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-211-198.compute-1.amazonaws.com.",
+      "ip_address": "50.19.211.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-215-64.compute-1.amazonaws.com.",
+      "ip_address": "50.19.215.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-220-0.compute-1.amazonaws.com.",
+      "ip_address": "50.19.220.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-224-163.compute-1.amazonaws.com.",
+      "ip_address": "50.19.224.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-235-132.compute-1.amazonaws.com.",
+      "ip_address": "50.19.235.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-238-176.compute-1.amazonaws.com.",
+      "ip_address": "50.19.238.176",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-244-139.compute-1.amazonaws.com.",
+      "ip_address": "50.19.244.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-248-32.compute-1.amazonaws.com.",
+      "ip_address": "50.19.248.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-252-149.compute-1.amazonaws.com.",
+      "ip_address": "50.19.252.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com.",
+      "ip_address": "50.19.81.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-83-84.compute-1.amazonaws.com.",
+      "ip_address": "50.19.83.84",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-50-19-94-109.compute-1.amazonaws.com.",
+      "ip_address": "50.19.94.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-52-214-43-168.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.214.43.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.32.117",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.13",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.17",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.1",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.21",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.25",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.29",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.33",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.37",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.41",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.45",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.49",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.5",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.61",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.65",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.69",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.81",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.85",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.89",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.93",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.32.97",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.9",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.36.101",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.36.109",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.36.125",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.13",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.17",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.1",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.21",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.25",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.29",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.33",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.37",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.41",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.45",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.49",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.53",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.57",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.5",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.61",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.65",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.69",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.73",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.77",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.85",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.89",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.93",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.9",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.13",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.17",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.1",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.21",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.25",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.29",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.33",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.37",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.41",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.45",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.49",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.57",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.5",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.61",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.65",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.73",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.77",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.81",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.85",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.89",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.93",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.9",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "server-52-222-135-165.bom51.r.cloudfront.net.",
+      "ip_address": "52.222.135.165",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "server-52-222-183-190.bom52.r.cloudfront.net.",
+      "ip_address": "52.222.183.190",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-163-254-184.compute-1.amazonaws.com.",
+      "ip_address": "54.163.254.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-179-181-136.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "54.179.181.136",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "server-54-192-37-253.jfk1.r.cloudfront.net.",
+      "ip_address": "54.192.37.253",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-197-224-108.compute-1.amazonaws.com.",
+      "ip_address": "54.197.224.108",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-197-254-10.compute-1.amazonaws.com.",
+      "ip_address": "54.197.254.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-221-215-110.compute-1.amazonaws.com.",
+      "ip_address": "54.221.215.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-221-219-50.compute-1.amazonaws.com.",
+      "ip_address": "54.221.219.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-221-254-2.compute-1.amazonaws.com.",
+      "ip_address": "54.221.254.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-130-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.130.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-144-48.compute-1.amazonaws.com.",
+      "ip_address": "54.225.144.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-155-160.compute-1.amazonaws.com.",
+      "ip_address": "54.225.155.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-165-247.compute-1.amazonaws.com.",
+      "ip_address": "54.225.165.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-168-139.compute-1.amazonaws.com.",
+      "ip_address": "54.225.168.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-169-184.compute-1.amazonaws.com.",
+      "ip_address": "54.225.169.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-175-247.compute-1.amazonaws.com.",
+      "ip_address": "54.225.175.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-178-4.compute-1.amazonaws.com.",
+      "ip_address": "54.225.178.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-179-254.compute-1.amazonaws.com.",
+      "ip_address": "54.225.179.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-180-160.compute-1.amazonaws.com.",
+      "ip_address": "54.225.180.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-182-18.compute-1.amazonaws.com.",
+      "ip_address": "54.225.182.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-183-252.compute-1.amazonaws.com.",
+      "ip_address": "54.225.183.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-186-46.compute-1.amazonaws.com.",
+      "ip_address": "54.225.186.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-192-196.compute-1.amazonaws.com.",
+      "ip_address": "54.225.192.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-192-200.compute-1.amazonaws.com.",
+      "ip_address": "54.225.192.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-204-178.compute-1.amazonaws.com.",
+      "ip_address": "54.225.204.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-208-80.compute-1.amazonaws.com.",
+      "ip_address": "54.225.208.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-213-13.compute-1.amazonaws.com.",
+      "ip_address": "54.225.213.13",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-214-241.compute-1.amazonaws.com.",
+      "ip_address": "54.225.214.241",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-215-149.compute-1.amazonaws.com.",
+      "ip_address": "54.225.215.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-221-202.compute-1.amazonaws.com.",
+      "ip_address": "54.225.221.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-246-179.compute-1.amazonaws.com.",
+      "ip_address": "54.225.246.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-74-80.compute-1.amazonaws.com.",
+      "ip_address": "54.225.74.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-80-179.compute-1.amazonaws.com.",
+      "ip_address": "54.225.80.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-84-52.compute-1.amazonaws.com.",
+      "ip_address": "54.225.84.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com.",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "server-54-230-128-160.ams50.r.cloudfront.net.",
+      "ip_address": "54.230.128.160",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-104-210.compute-1.amazonaws.com.",
+      "ip_address": "54.235.104.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-121-103.compute-1.amazonaws.com.",
+      "ip_address": "54.235.121.103",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-131-96.compute-1.amazonaws.com.",
+      "ip_address": "54.235.131.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-132-180.compute-1.amazonaws.com.",
+      "ip_address": "54.235.132.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-149-19.compute-1.amazonaws.com.",
+      "ip_address": "54.235.149.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-151-110.compute-1.amazonaws.com.",
+      "ip_address": "54.235.151.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-165-25.compute-1.amazonaws.com.",
+      "ip_address": "54.235.165.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-169-199.compute-1.amazonaws.com.",
+      "ip_address": "54.235.169.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-173-224.compute-1.amazonaws.com.",
+      "ip_address": "54.235.173.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-182-15.compute-1.amazonaws.com.",
+      "ip_address": "54.235.182.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-190-204.compute-1.amazonaws.com.",
+      "ip_address": "54.235.190.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-205-203.compute-1.amazonaws.com.",
+      "ip_address": "54.235.205.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-221-79.compute-1.amazonaws.com.",
+      "ip_address": "54.235.221.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-243-207.compute-1.amazonaws.com.",
+      "ip_address": "54.235.243.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-244-117.compute-1.amazonaws.com.",
+      "ip_address": "54.235.244.117",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-235-247-114.compute-1.amazonaws.com.",
+      "ip_address": "54.235.247.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-111-144.compute-1.amazonaws.com.",
+      "ip_address": "54.243.111.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-111-217.compute-1.amazonaws.com.",
+      "ip_address": "54.243.111.217",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-112-174.compute-1.amazonaws.com.",
+      "ip_address": "54.243.112.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-116-171.compute-1.amazonaws.com.",
+      "ip_address": "54.243.116.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-116-34.compute-1.amazonaws.com.",
+      "ip_address": "54.243.116.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-120-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.120.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-126-239.compute-1.amazonaws.com.",
+      "ip_address": "54.243.126.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-129-40.compute-1.amazonaws.com.",
+      "ip_address": "54.243.129.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-141-16.compute-1.amazonaws.com.",
+      "ip_address": "54.243.141.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-147-93.compute-1.amazonaws.com.",
+      "ip_address": "54.243.147.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-149-238.compute-1.amazonaws.com.",
+      "ip_address": "54.243.149.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com.",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-164-21.compute-1.amazonaws.com.",
+      "ip_address": "54.243.164.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-165-59.compute-1.amazonaws.com.",
+      "ip_address": "54.243.165.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-170-209.compute-1.amazonaws.com.",
+      "ip_address": "54.243.170.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-170-6.compute-1.amazonaws.com.",
+      "ip_address": "54.243.170.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-177-201.compute-1.amazonaws.com.",
+      "ip_address": "54.243.177.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-181-49.compute-1.amazonaws.com.",
+      "ip_address": "54.243.181.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-182-104.compute-1.amazonaws.com.",
+      "ip_address": "54.243.182.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-203-99.compute-1.amazonaws.com.",
+      "ip_address": "54.243.203.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-212-62.compute-1.amazonaws.com.",
+      "ip_address": "54.243.212.62",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-215-229.compute-1.amazonaws.com.",
+      "ip_address": "54.243.215.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-217-210.compute-1.amazonaws.com.",
+      "ip_address": "54.243.217.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-217-68.compute-1.amazonaws.com.",
+      "ip_address": "54.243.217.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-223-85.compute-1.amazonaws.com.",
+      "ip_address": "54.243.223.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-226-115.compute-1.amazonaws.com.",
+      "ip_address": "54.243.226.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-226-203.compute-1.amazonaws.com.",
+      "ip_address": "54.243.226.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-227-109.compute-1.amazonaws.com.",
+      "ip_address": "54.243.227.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-245-38.compute-1.amazonaws.com.",
+      "ip_address": "54.243.245.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-251-63.compute-1.amazonaws.com.",
+      "ip_address": "54.243.251.63",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-33-139.compute-1.amazonaws.com.",
+      "ip_address": "54.243.33.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-80-191.compute-1.amazonaws.com.",
+      "ip_address": "54.243.80.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-81-55.compute-1.amazonaws.com.",
+      "ip_address": "54.243.81.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com.",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com.",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com.",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-54-83-47-63.compute-1.amazonaws.com.",
+      "ip_address": "54.83.47.63",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "pc-b.bitgravity.com.",
+      "ip_address": "64.185.181.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::1715:40ae",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::1717:77a1",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::36e1:ba2e",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::687a:5d28",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::c686:736",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::c686:7e8",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::dfa5:1b6e",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.111",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.56",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sa-in-f154.1e100.net.",
+      "ip_address": "74.125.200.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sa-in-f95.1e100.net.",
+      "ip_address": "74.125.200.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sc-in-f155.1e100.net.",
+      "ip_address": "74.125.68.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "sc-in-f94.1e100.net.",
+      "ip_address": "74.125.68.94",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "ec2-75-101-139-105.compute-1.amazonaws.com.",
+      "ip_address": "75.101.139.105",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "static.88-198-212-147.clients.your-server.de.",
+      "ip_address": "88.198.212.147",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.mt.reader",
+      "ptr_domain": "a96-17-1-253.deploy.static.akamaitechnologies.com.",
+      "ip_address": "96.17.1.253",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

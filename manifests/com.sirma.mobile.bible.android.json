@@ -1,0 +1,1779 @@
+{
+  "appName": "Bible",
+  "packageName": "com.sirma.mobile.bible.android",
+  "category": "BOOKS_AND_REFERENCE",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.CAMERA",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.READ_PROFILE",
+    "android.permission.READ_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.sirma.mobile.bible.android.permission.RECEIVE_ADM_MESSAGE",
+    "com.sirma.mobile.bible.android.permission.RECEIVE_ADM_MESSAGE",
+    "com.amazon.device.messaging.permission.RECEIVE",
+    "com.sirma.mobile.bible.android.permission.C2D_MESSAGE",
+    "com.sirma.mobile.bible.android.permission.C2D_MESSAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "8.8.2",
+  "trackers": [
+    "Twitter MoPub",
+    "Branch",
+    "Flurry",
+    "Google Analytics",
+    "Google CrashLytics",
+    "Facebook Login",
+    "AppsFlyer",
+    "Google Firebase Analytics",
+    "Braze",
+    "Facebook Share",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.22.41",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.23.41",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.75.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-107-20-139-157.compute-1.amazonaws.com.",
+      "ip_address": "107.20.139.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-107-21-115-231.compute-1.amazonaws.com.",
+      "ip_address": "107.21.115.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-107-21-220-89.compute-1.amazonaws.com.",
+      "ip_address": "107.21.220.89",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-107-21-94-141.compute-1.amazonaws.com.",
+      "ip_address": "107.21.94.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-107-22-161-159.compute-1.amazonaws.com.",
+      "ip_address": "107.22.161.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com.",
+      "ip_address": "107.22.187.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-107-22-216-237.compute-1.amazonaws.com.",
+      "ip_address": "107.22.216.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "13.107.3.128",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-13-32-203-147.sea19.r.cloudfront.net.",
+      "ip_address": "13.32.203.147",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.1.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.129.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.13.130",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.2.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.25.130",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.40.233",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.41.130",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.42.2",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.46.2",
+      "loc_city": "Chicago",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.651700",
+      "loc_lat": "41.848300"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.53.130",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.58.2",
+      "loc_city": "Atlanta",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.387100",
+      "loc_lat": "33.748500"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.61.130",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.62.2",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.66.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.9.130",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "lga25s62-in-f20.1e100.net.",
+      "ip_address": "172.217.12.180",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "atl26s14-in-f2.1e100.net.",
+      "ip_address": "172.217.12.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "fra15s18-in-f14.1e100.net.",
+      "ip_address": "172.217.22.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "fra15s16-in-f14.1e100.net.",
+      "ip_address": "172.217.22.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "sea09s17-in-f20.1e100.net.",
+      "ip_address": "172.217.3.116",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "lga25s56-in-f20.1e100.net.",
+      "ip_address": "172.217.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-174-129-9-155.compute-1.amazonaws.com.",
+      "ip_address": "174.129.9.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "62.7e.24ae.ip4.static.sl-reverse.com.",
+      "ip_address": "174.36.126.98",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "63.7e.24ae.ip4.static.sl-reverse.com.",
+      "ip_address": "174.36.126.99",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.60",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.44.68.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.44.68.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.44.68.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.44.68.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "anycast.sc.iasds01.com.",
+      "ip_address": "199.166.0.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "any-in-2015.1e100.net.",
+      "ip_address": "216.239.32.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "any-in-2215.1e100.net.",
+      "ip_address": "216.239.34.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "any-in-2415.1e100.net.",
+      "ip_address": "216.239.36.21",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "any-in-2615.1e100.net.",
+      "ip_address": "216.239.38.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "iad23s44-in-f162.1e100.net.",
+      "ip_address": "216.58.217.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com.",
+      "ip_address": "23.21.143.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-23-21-53-226.compute-1.amazonaws.com.",
+      "ip_address": "23.21.53.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-23-21-56-15.compute-1.amazonaws.com.",
+      "ip_address": "23.21.56.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-23-23-184-36.compute-1.amazonaws.com.",
+      "ip_address": "23.23.184.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "lax28s10-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80d::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "edge-z-m-mini6-shv-01-iad3.facebook.com.",
+      "ip_address": "2a03:2880:f103:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f113:184:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-34-248-138-14.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.248.138.14",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-34-249-104-16.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.104.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-34-249-168-100.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.168.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-34-250-57-123.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.250.57.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-34-251-212-81.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.251.212.81",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-34-252-31-39.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.252.31.39",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-46-51-197-24.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.51.197.24",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-50-16-226-96.compute-1.amazonaws.com.",
+      "ip_address": "50.16.226.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-50-19-93-130.compute-1.amazonaws.com.",
+      "ip_address": "50.19.93.130",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-50-19-97-211.compute-1.amazonaws.com.",
+      "ip_address": "50.19.97.211",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ba.0c.9905.ip4.static.sl-reverse.com.",
+      "ip_address": "5.153.12.186",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-0-234-78.compute-1.amazonaws.com.",
+      "ip_address": "52.0.234.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-16-218-102.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.16.218.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-17-58-168.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.58.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-18-134-239.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.134.239",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-18-160-21.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.160.21",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-18-227-144.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.227.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-18-229-127.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.229.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-19-144-252.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.144.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-19-172-146.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.172.146",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-19-221-253.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.221.253",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-19-42-226.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.42.226",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-19-67-20.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.67.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-19-90-70.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.90.70",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-208-135-112.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.135.112",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-208-152-16.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.152.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-209-186-0.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.186.0",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-209-222-169.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.222.169",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-209-75-55.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.75.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-210-101-240.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.210.101.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-210-128-122.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.210.128.122",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-210-16-62.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.210.16.62",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-210-57-64.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.210.57.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-211-47-180.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.47.180",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-211-67-152.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.67.152",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-212-83-1.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.212.83.1",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-213-16-110.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.213.16.110",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-214-3-201.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.214.3.201",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-214-43-168.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.214.43.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-215-23-51.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.215.23.51",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-215-39-123.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.215.39.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-52-222-167-111.fra54.r.cloudfront.net.",
+      "ip_address": "52.222.167.111",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-52-222-174-150.fra54.r.cloudfront.net.",
+      "ip_address": "52.222.174.150",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-52-222-174-215.fra54.r.cloudfront.net.",
+      "ip_address": "52.222.174.215",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-52-222-174-80.fra54.r.cloudfront.net.",
+      "ip_address": "52.222.174.80",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-30-196-20.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.196.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-30-5-141.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.5.141",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-30-76-66.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.76.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-30-94-36.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.94.36",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-31-208-246.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.208.246",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-31-93-211.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.93.211",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-48-119-103.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.119.103",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-48-165-120.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.165.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-48-186-102.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.186.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-48-240-221.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.240.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-48-53-213.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.53.213",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-49-8-11.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.8.11",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-50-30-64.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.50.30.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-51-196-221.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.196.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-52-51-246-224.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.246.224",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-154-111-221.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.111.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-154-130-115.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.130.115",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-154-194-72.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.194.72",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-154-228-144.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.228.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-171-33-187.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.33.187",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-192-151-108.sin2.r.cloudfront.net.",
+      "ip_address": "54.192.151.108",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-192-151-120.sin2.r.cloudfront.net.",
+      "ip_address": "54.192.151.120",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-192-151-242.sin2.r.cloudfront.net.",
+      "ip_address": "54.192.151.242",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-192-151-52.sin2.r.cloudfront.net.",
+      "ip_address": "54.192.151.52",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-192-151-57.sin2.r.cloudfront.net.",
+      "ip_address": "54.192.151.57",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-192-198-80.lhr50.r.cloudfront.net.",
+      "ip_address": "54.192.198.80",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-192-208-47.mnl50.r.cloudfront.net.",
+      "ip_address": "54.192.208.47",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-192-54-183.jfk6.r.cloudfront.net.",
+      "ip_address": "54.192.54.183",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-192-85-35.lax3.r.cloudfront.net.",
+      "ip_address": "54.192.85.35",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-221-215-110.compute-1.amazonaws.com.",
+      "ip_address": "54.221.215.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-221-246-132.compute-1.amazonaws.com.",
+      "ip_address": "54.221.246.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-225-125-57.compute-1.amazonaws.com.",
+      "ip_address": "54.225.125.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-225-152-202.compute-1.amazonaws.com.",
+      "ip_address": "54.225.152.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-225-173-240.compute-1.amazonaws.com.",
+      "ip_address": "54.225.173.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-225-244-34.compute-1.amazonaws.com.",
+      "ip_address": "54.225.244.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-229-234-224.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.234.224",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-229-91-86.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.91.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-119-165.sfo9.r.cloudfront.net.",
+      "ip_address": "54.230.119.165",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-144-221.sfo20.r.cloudfront.net.",
+      "ip_address": "54.230.144.221",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-147-141.sfo20.r.cloudfront.net.",
+      "ip_address": "54.230.147.141",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-150-12.sin2.r.cloudfront.net.",
+      "ip_address": "54.230.150.12",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-45-158.fra6.r.cloudfront.net.",
+      "ip_address": "54.230.45.158",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-7-158.dfw3.r.cloudfront.net.",
+      "ip_address": "54.230.7.158",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-7-222.dfw3.r.cloudfront.net.",
+      "ip_address": "54.230.7.222",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-7-77.dfw3.r.cloudfront.net.",
+      "ip_address": "54.230.7.77",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-7-92.dfw3.r.cloudfront.net.",
+      "ip_address": "54.230.7.92",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-84-20.lax3.r.cloudfront.net.",
+      "ip_address": "54.230.84.20",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-84-249.lax3.r.cloudfront.net.",
+      "ip_address": "54.230.84.249",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-230-84-58.lax3.r.cloudfront.net.",
+      "ip_address": "54.230.84.58",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-235-105-56.compute-1.amazonaws.com.",
+      "ip_address": "54.235.105.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-235-132-180.compute-1.amazonaws.com.",
+      "ip_address": "54.235.132.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "server-54-239-174-62.mnl50.r.cloudfront.net.",
+      "ip_address": "54.239.174.62",
+      "loc_city": "Atlanta",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.448000",
+      "loc_lat": "33.693400"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-243-133-174.compute-1.amazonaws.com.",
+      "ip_address": "54.243.133.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-243-231-36.compute-1.amazonaws.com.",
+      "ip_address": "54.243.231.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-243-251-231.compute-1.amazonaws.com.",
+      "ip_address": "54.243.251.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-246-139-143.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.246.139.143",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-72-193-194.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.193.194",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-72-226-65.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.226.65",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-72-55-161.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.55.161",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-76-174-52.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.174.52",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-77-129-38.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.129.38",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-77-153-133.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.153.133",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-77-34-202.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.34.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-77-92-106.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.92.106",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com.",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "ghs-vip-any-c251.ghs-ssl.googlehosted.com.",
+      "ip_address": "74.125.34.251",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com.",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
+      "ip_address": "74.6.34.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
+      "ip_address": "74.6.34.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sirma.mobile.bible.android",
+      "ptr_domain": "8e.db.7e4b.ip4.static.sl-reverse.com.",
+      "ip_address": "75.126.219.142",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    }
+  ]
+}

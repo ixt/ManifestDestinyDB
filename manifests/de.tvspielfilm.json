@@ -1,0 +1,555 @@
+{
+  "appName": "TV-Programm",
+  "packageName": "de.tvspielfilm",
+  "category": "ENTERTAINMENT",
+  "icon": "",
+  "permissions": [
+    "de.tvspielfilm.permission.C2D_MESSAGE",
+    "de.tvspielfilm.permission.C2D_MESSAGE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.FOREGROUND_SERVICE"
+  ],
+  "version": "6.8.1",
+  "trackers": [
+    "Facebook Share",
+    "Adjust",
+    "Facebook Analytics",
+    "Google Analytics",
+    "Facebook Places",
+    "Google CrashLytics",
+    "Amazon Advertisement",
+    "Google Ads",
+    "MixPanel",
+    "Google DoubleClick",
+    "AppNexus",
+    "Facebook Login",
+    "OutBrain"
+  ],
+  "network_connections": [
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "a104-125-8-152.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.125.8.152",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-107-20-160-144.compute-1.amazonaws.com.",
+      "ip_address": "107.20.160.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "server-13-32-14-169.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.169",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "server-13-32-14-181.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.181",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "server-13-32-14-202.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.202",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "server-13-32-14-29.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.29",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "server-13-32-14-47.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.47",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "server-13-32-176-12.zrh50.r.cloudfront.net.",
+      "ip_address": "13.32.176.12",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "edge-star-shv-02-frt3.facebook.com.",
+      "ip_address": "157.240.20.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "96.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.150",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "9b.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "a1.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "a2.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "a4.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.164",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "b8.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "b9.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.185",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ber01s08-in-f225.1e100.net.",
+      "ip_address": "172.217.17.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ber01s08-in-f226.1e100.net.",
+      "ip_address": "172.217.17.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "fra15s29-in-f2.1e100.net.",
+      "ip_address": "172.217.18.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "muc11s15-in-f1.1e100.net.",
+      "ip_address": "172.217.21.33",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "fra07s30-in-f34.1e100.net.",
+      "ip_address": "172.217.21.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "fra07s30-in-f38.1e100.net.",
+      "ip_address": "172.217.21.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "fra07s32-in-f98.1e100.net.",
+      "ip_address": "172.217.21.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "fra15s17-in-f65.1e100.net.",
+      "ip_address": "172.217.22.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "fra15s17-in-f2.1e100.net.",
+      "ip_address": "172.217.22.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "fra15s17-in-f70.1e100.net.",
+      "ip_address": "172.217.22.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.177",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.178",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.61",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "muc11s04-in-f2.1e100.net.",
+      "ip_address": "216.58.207.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "a2-19-240-56.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.19.240.56",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-23-21-53-226.compute-1.amazonaws.com.",
+      "ip_address": "23.21.53.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-23-23-234-198.compute-1.amazonaws.com.",
+      "ip_address": "23.23.234.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com.",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com.",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-50-17-234-37.compute-1.amazonaws.com.",
+      "ip_address": "50.17.234.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-50-19-214-17.compute-1.amazonaws.com.",
+      "ip_address": "50.19.214.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-50-19-252-149.compute-1.amazonaws.com.",
+      "ip_address": "50.19.252.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-52-28-197-107.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.28.197.107",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-52-58-245-181.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.58.245.181",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-52-58-8-67.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.58.8.67",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "server-54-192-93-113.fra2.r.cloudfront.net.",
+      "ip_address": "54.192.93.113",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "server-54-192-93-236.fra2.r.cloudfront.net.",
+      "ip_address": "54.192.93.236",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-54-235-190-60.compute-1.amazonaws.com.",
+      "ip_address": "54.235.190.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-54-243-160-133.compute-1.amazonaws.com.",
+      "ip_address": "54.243.160.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "ec2-54-243-252-170.compute-1.amazonaws.com.",
+      "ip_address": "54.243.252.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "N/A",
+      "ip_address": "80.252.91.52",
+      "loc_city": "Haarlem",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.646400",
+      "loc_lat": "52.361300"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "N/A",
+      "ip_address": "85.215.5.33",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "de4.ioam.de.",
+      "ip_address": "91.215.100.40",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.tvspielfilm",
+      "ptr_domain": "de3.ioam.de.",
+      "ip_address": "91.215.103.65",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
+  ]
+}

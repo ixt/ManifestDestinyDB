@@ -1,0 +1,686 @@
+{
+  "appName": "WSJ日本版",
+  "packageName": "wsj.reader_sp",
+  "category": "NEWS_AND_MAGAZINES",
+  "icon": "",
+  "permissions": [
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.VIBRATE",
+    "android.permission.CAMERA",
+    "android.permission.FOREGROUND_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.READ_PHONE_STATE"
+  ],
+  "version": "4.7.2.6",
+  "trackers": [
+    "ComScore",
+    "Google DoubleClick",
+    "Google CrashLytics",
+    "Urbanairship",
+    "Google Ads",
+    "AppsFlyer",
+    "Google Firebase Analytics",
+    "New Relic",
+    "Demdex"
+  ],
+  "network_connections": [
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "a104-67-192-63.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.67.192.63",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "a104-91-33-58.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.91.33.58",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-107-20-224-161.compute-1.amazonaws.com.",
+      "ip_address": "107.20.224.161",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com.",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-107-22-238-216.compute-1.amazonaws.com.",
+      "ip_address": "107.22.238.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-107-22-238-71.compute-1.amazonaws.com.",
+      "ip_address": "107.22.238.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "a184-30-195-42.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.30.195.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "a23-204-100-67.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.204.100.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "a23-204-72-153.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.204.72.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "a23-207-204-225.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.207.204.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "a23-207-49-149.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.207.49.149",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-23-21-118-60.compute-1.amazonaws.com.",
+      "ip_address": "23.21.118.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-23-21-219-171.compute-1.amazonaws.com.",
+      "ip_address": "23.21.219.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "a23-221-52-59.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.221.52.59",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-34-211-204-221.us-west-2.compute.amazonaws.com.",
+      "ip_address": "34.211.204.221",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-34-249-56-85.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.56.85",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-34-250-213-120.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.250.213.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-34-253-72-240.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.253.72.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-35-163-135-126.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.163.135.126",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-35-165-154-56.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.165.154.56",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-35-165-210-165.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.165.210.165",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "N/A",
+      "ip_address": "40.77.29.26",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-50-19-104-138.compute-1.amazonaws.com.",
+      "ip_address": "50.19.104.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-18-134-239.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.134.239",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-19-172-146.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.172.146",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-19-67-20.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.67.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-210-237-132.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.210.237.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-215-23-51.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.215.23.51",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-26-231-211.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.26.231.211",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-31-79-235.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.79.235",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-34-100-157.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.34.100.157",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-34-59-80.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.34.59.80",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-35-158-138.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.35.158.138",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-49-8-11.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.8.11",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-50-30-64.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.50.30.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "server-52-84-76-164.atl52.r.cloudfront.net.",
+      "ip_address": "52.84.76.164",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "server-52-85-69-15.lhr5.r.cloudfront.net.",
+      "ip_address": "52.85.69.15",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-89-198-55.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.89.198.55",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-52-89-249-6.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.89.249.6",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-148-117-235.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.148.117.235",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-148-146-31.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.148.146.31",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-171-26-243.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.26.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-171-33-187.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.33.187",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-171-42-50.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.42.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-186-200-142.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.186.200.142",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-186-207-204.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.186.207.204",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-187-85-42.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.187.85.42",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-191-140-137.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.191.140.137",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-191-212-67.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.191.212.67",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "server-54-192-122-126.dfw50.r.cloudfront.net.",
+      "ip_address": "54.192.122.126",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "server-54-192-122-140.dfw50.r.cloudfront.net.",
+      "ip_address": "54.192.122.140",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "server-54-192-122-44.dfw50.r.cloudfront.net.",
+      "ip_address": "54.192.122.44",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-200-38-205.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.200.38.205",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-201-75-133.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.201.75.133",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-204-8-199.compute-1.amazonaws.com.",
+      "ip_address": "54.204.8.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-225-209-156.compute-1.amazonaws.com.",
+      "ip_address": "54.225.209.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-225-244-34.compute-1.amazonaws.com.",
+      "ip_address": "54.225.244.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-229-42-121.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.42.121",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-235-67-75.compute-1.amazonaws.com.",
+      "ip_address": "54.235.67.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-243-120-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.120.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-68-106-54.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.68.106.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-72-30-63.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.30.63",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-77-129-38.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.129.38",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "ec2-54-77-82-212.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.82.212",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "wsj.reader_sp",
+      "ptr_domain": "a96-17-51-223.deploy.static.akamaitechnologies.com.",
+      "ip_address": "96.17.51.223",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

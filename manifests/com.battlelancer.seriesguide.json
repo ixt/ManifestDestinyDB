@@ -1,0 +1,859 @@
+{
+  "appName": "SeriesGuide",
+  "packageName": "com.battlelancer.seriesguide",
+  "category": "ENTERTAINMENT",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.READ_SYNC_STATS",
+    "android.permission.READ_SYNC_SETTINGS",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "android.permission.NFC",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "android.permission.WAKE_LOCK"
+  ],
+  "version": "46.1",
+  "trackers": [
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.228.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.229.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.230.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.231.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.57.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.60.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.81.229",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.82.229",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-20-224-161.compute-1.amazonaws.com.",
+      "ip_address": "107.20.224.161",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com.",
+      "ip_address": "107.20.235.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-20-241-21.compute-1.amazonaws.com.",
+      "ip_address": "107.20.241.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-20-243-255.compute-1.amazonaws.com.",
+      "ip_address": "107.20.243.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-21-232-174.compute-1.amazonaws.com.",
+      "ip_address": "107.21.232.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-21-254-25.compute-1.amazonaws.com.",
+      "ip_address": "107.21.254.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-22-160-142.compute-1.amazonaws.com.",
+      "ip_address": "107.22.160.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-22-186-145.compute-1.amazonaws.com.",
+      "ip_address": "107.22.186.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-22-216-237.compute-1.amazonaws.com.",
+      "ip_address": "107.22.216.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-107-22-216-92.compute-1.amazonaws.com.",
+      "ip_address": "107.22.216.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ob-in-f141.1e100.net.",
+      "ip_address": "173.194.77.141",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com.",
+      "ip_address": "174.129.19.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-174-129-209-245.compute-1.amazonaws.com.",
+      "ip_address": "174.129.209.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-184-73-208-78.compute-1.amazonaws.com.",
+      "ip_address": "184.73.208.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "v22018096923573629.happysrv.de.",
+      "ip_address": "188.68.36.33",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "192.0.73.2",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "mad06s25-in-f136.1e100.net.",
+      "ip_address": "216.58.201.136",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "mad06s09-in-f8.1e100.net.",
+      "ip_address": "216.58.210.136",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "mad06s10-in-f8.1e100.net.",
+      "ip_address": "216.58.210.168",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "mad01s24-in-f232.1e100.net.",
+      "ip_address": "216.58.211.232",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "mad01s26-in-f8.1e100.net.",
+      "ip_address": "216.58.214.168",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ord30s21-in-f66.1e100.net.",
+      "ip_address": "216.58.216.66",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-21-115-9.compute-1.amazonaws.com.",
+      "ip_address": "23.21.115.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com.",
+      "ip_address": "23.21.143.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-21-212-189.compute-1.amazonaws.com.",
+      "ip_address": "23.21.212.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-21-43-191.compute-1.amazonaws.com.",
+      "ip_address": "23.21.43.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-21-44-86.compute-1.amazonaws.com.",
+      "ip_address": "23.21.44.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com.",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-21-98-69.compute-1.amazonaws.com.",
+      "ip_address": "23.21.98.69",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-23-101-152.compute-1.amazonaws.com.",
+      "ip_address": "23.23.101.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-23-102-7.compute-1.amazonaws.com.",
+      "ip_address": "23.23.102.7",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-23-114-160.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-23-23-114-1.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6810:3c9b",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6810:e40e",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6810:e70e",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6814:51e5",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6814:52e5",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-16-230-218.compute-1.amazonaws.com.",
+      "ip_address": "50.16.230.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-16-247-225.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-16-249-143.compute-1.amazonaws.com.",
+      "ip_address": "50.16.249.143",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-17-244-57.compute-1.amazonaws.com.",
+      "ip_address": "50.17.244.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-19-106-31.compute-1.amazonaws.com.",
+      "ip_address": "50.19.106.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com.",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-19-210-58.compute-1.amazonaws.com.",
+      "ip_address": "50.19.210.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-19-220-208.compute-1.amazonaws.com.",
+      "ip_address": "50.19.220.208",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-19-248-32.compute-1.amazonaws.com.",
+      "ip_address": "50.19.248.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-50-19-94-109.compute-1.amazonaws.com.",
+      "ip_address": "50.19.94.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-52-86-230-172.compute-1.amazonaws.com.",
+      "ip_address": "52.86.230.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-197-251-56.compute-1.amazonaws.com.",
+      "ip_address": "54.197.251.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-221-215-110.compute-1.amazonaws.com.",
+      "ip_address": "54.221.215.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-225-182-18.compute-1.amazonaws.com.",
+      "ip_address": "54.225.182.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-225-197-56.compute-1.amazonaws.com.",
+      "ip_address": "54.225.197.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-225-221-53.compute-1.amazonaws.com.",
+      "ip_address": "54.225.221.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-225-233-150.compute-1.amazonaws.com.",
+      "ip_address": "54.225.233.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-225-246-179.compute-1.amazonaws.com.",
+      "ip_address": "54.225.246.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com.",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com.",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-235-101-104.compute-1.amazonaws.com.",
+      "ip_address": "54.235.101.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-235-121-103.compute-1.amazonaws.com.",
+      "ip_address": "54.235.121.103",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-235-221-79.compute-1.amazonaws.com.",
+      "ip_address": "54.235.221.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-126-239.compute-1.amazonaws.com.",
+      "ip_address": "54.243.126.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-147-233.compute-1.amazonaws.com.",
+      "ip_address": "54.243.147.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-160-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.160.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-203-20.compute-1.amazonaws.com.",
+      "ip_address": "54.243.203.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com.",
+      "ip_address": "54.243.212.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-213-176.compute-1.amazonaws.com.",
+      "ip_address": "54.243.213.176",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-231-36.compute-1.amazonaws.com.",
+      "ip_address": "54.243.231.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-33-139.compute-1.amazonaws.com.",
+      "ip_address": "54.243.33.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-67-237.compute-1.amazonaws.com.",
+      "ip_address": "54.243.67.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-76-44.compute-1.amazonaws.com.",
+      "ip_address": "54.243.76.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-54-243-80-191.compute-1.amazonaws.com.",
+      "ip_address": "54.243.80.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "yv-in-f141.1e100.net.",
+      "ip_address": "74.125.21.141",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.battlelancer.seriesguide",
+      "ptr_domain": "ec2-75-101-155-237.compute-1.amazonaws.com.",
+      "ip_address": "75.101.155.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

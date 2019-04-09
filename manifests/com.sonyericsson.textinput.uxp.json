@@ -1,0 +1,432 @@
+{
+  "appName": "Xperia™ keyboard",
+  "packageName": "com.sonyericsson.textinput.uxp",
+  "category": "",
+  "icon": "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",
+  "permissions": [
+    "android.permission.VIBRATE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_SMS",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.sonymobile.permission.WRITE_PERSISTENT_STORAGE",
+    "com.sonymobile.permission.READ_GMAIL",
+    "com.sonymobile.permission.SYSTEM_UI_VISIBILITY_EXTENSIONS",
+    "com.sonymobile.internalmarket.permission.SEND_FEEDBACK",
+    "com.sonymobile.runtimeskinning.permission.MANAGE_SKINS",
+    "com.sonymobile.runtimeskinning.permission.RECEIVE_SKIN_CHANGED",
+    "android.permission.WAKE_LOCK",
+    "com.sonyericsson.textinput.uxp.controller.settings.permission.PermissionDialogActivity"
+  ],
+  "version": "8.1.A.0.12",
+  "trackers": [
+    "Google Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-107-21-237-18.compute-1.amazonaws.com.",
+      "ip_address": "107.21.237.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "waw02s13-in-f8.1e100.net.",
+      "ip_address": "172.217.16.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "zrh04s05-in-f104.1e100.net.",
+      "ip_address": "172.217.18.104",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "lhr35s02-in-f8.1e100.net.",
+      "ip_address": "172.217.23.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "mia07s48-in-f2.1e100.net.",
+      "ip_address": "172.217.8.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.116.62",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "maa03s21-in-f8.1e100.net.",
+      "ip_address": "216.58.197.72",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "mil04s04-in-f45.1e100.net.",
+      "ip_address": "216.58.198.45",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "lhr25s15-in-f8.1e100.net.",
+      "ip_address": "216.58.206.136",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "mrs04s10-in-f226.1e100.net.",
+      "ip_address": "216.58.210.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-23-23-114-160.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "lhr25s01-in-x08.1e100.net.",
+      "ip_address": "2a00:1450:4009:80e::2008",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "lhr35s11-in-x08.1e100.net.",
+      "ip_address": "2a00:1450:4009:815::2008",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-35-160-250-231.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.160.250.231",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-35-165-61-200.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.165.61.200",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-52-42-189-101.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.42.189.101",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-52-43-62-36.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.43.62.36",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-52-84-127-189.iad16.r.cloudfront.net.",
+      "ip_address": "52.84.127.189",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-52-84-127-26.iad16.r.cloudfront.net.",
+      "ip_address": "52.84.127.26",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-52-84-127-32.iad16.r.cloudfront.net.",
+      "ip_address": "52.84.127.32",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-52-84-127-38.iad16.r.cloudfront.net.",
+      "ip_address": "52.84.127.38",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-52-84-127-52.iad16.r.cloudfront.net.",
+      "ip_address": "52.84.127.52",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-52-84-127-75.iad16.r.cloudfront.net.",
+      "ip_address": "52.84.127.75",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-52-84-241-41.sfo5.r.cloudfront.net.",
+      "ip_address": "52.84.241.41",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-52-85-218-37.cdg3.r.cloudfront.net.",
+      "ip_address": "52.85.218.37",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-52-85-218-54.cdg3.r.cloudfront.net.",
+      "ip_address": "52.85.218.54",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-52-89-48-149.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.89.48.149",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-54-149-2-219.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.149.2.219",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-54-173-103-30.compute-1.amazonaws.com.",
+      "ip_address": "54.173.103.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-54-192-46-67.fra6.r.cloudfront.net.",
+      "ip_address": "54.192.46.67",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-54-192-81-81.mia50.r.cloudfront.net.",
+      "ip_address": "54.192.81.81",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-54-230-204-39.atl50.r.cloudfront.net.",
+      "ip_address": "54.230.204.39",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-54-230-208-220.mnl50.r.cloudfront.net.",
+      "ip_address": "54.230.208.220",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-54-230-79-225.cdg50.r.cloudfront.net.",
+      "ip_address": "54.230.79.225",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-54-239-158-175.cdg3.r.cloudfront.net.",
+      "ip_address": "54.239.158.175",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "server-54-239-158-238.cdg3.r.cloudfront.net.",
+      "ip_address": "54.239.158.238",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-54-243-78-111.compute-1.amazonaws.com.",
+      "ip_address": "54.243.78.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-54-68-10-183.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.68.10.183",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "ec2-54-69-248-117.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.69.248.117",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.sonyericsson.textinput.uxp",
+      "ptr_domain": "N/A",
+      "ip_address": "82.77.159.236",
+      "loc_city": "Timișoara",
+      "loc_country": "Romania",
+      "loc_continent": "Europe",
+      "loc_long": "21.225700",
+      "loc_lat": "45.753700"
+    }
+  ]
+}

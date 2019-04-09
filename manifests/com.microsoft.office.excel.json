@@ -1,31 +1,638 @@
 {
-    "appName": "Excel",
-    "packageName": "com.microsoft.office.excel",
-    "category": "PRODUCTIVITY",
-    "icon": "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",
-    "permissions": [
-          "com.microsoft.office.excel.permission.CONTENT_WRITE", 
-          "android.permission.RECEIVE_BOOT_COMPLETED", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.INTERNET", 
-          "android.permission.READ_EXTERNAL_STORAGE", 
-          "android.permission.WRITE_EXTERNAL_STORAGE", 
-          "android.permission.GET_ACCOUNTS", 
-          "android.permission.MANAGE_ACCOUNTS", 
-          "android.permission.AUTHENTICATE_ACCOUNTS", 
-          "android.permission.USE_CREDENTIALS", 
-          "android.permission.ACCESS_WIFI_STATE", 
-          "android.permission.WAKE_LOCK", 
-          "com.android.launcher.permission.INSTALL_SHORTCUT", 
-          "com.google.android.c2dm.permission.RECEIVE", 
-          "com.microsoft.office.excel.permission.C2D_MESSAGE", 
-          "com.microsoft.office.excel.permission.C2D_MESSAGE", 
-          "android.permission.READ_CONTACTS", 
-          "android.permission.SYSTEM_ALERT_WINDOW", 
-          "android.permission.CAMERA", 
-          "android.permission.GET_PACKAGE_SIZE", 
-          "android.permission.VIBRATE", 
-          "android.permission.READ_PHONE_STATE" 
-    ],
-    "version": "16.0.11328.20080"
+  "appName": "Excel",
+  "packageName": "com.microsoft.office.excel",
+  "category": "PRODUCTIVITY",
+  "icon": "",
+  "permissions": [
+    "com.microsoft.office.excel.permission.CONTENT_WRITE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WAKE_LOCK",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.microsoft.office.excel.permission.C2D_MESSAGE",
+    "com.microsoft.office.excel.permission.C2D_MESSAGE",
+    "android.permission.READ_CONTACTS",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.CAMERA",
+    "android.permission.GET_PACKAGE_SIZE",
+    "android.permission.VIBRATE",
+    "android.permission.READ_PHONE_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "16.0.11425.20132",
+  "trackers": [
+    "HockeyApp",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "104.208.31.113",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "104.209.212.110",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "104.214.147.4",
+      "loc_city": "Osaka",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "135.521100",
+      "loc_lat": "34.686900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.43.227",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.231",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "104.45.136.42",
+      "loc_city": "Washington",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.153900",
+      "loc_lat": "38.709500"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "13.107.3.128",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "13.107.5.88",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "bn2b-cor001.api.p001.1drv.com.",
+      "ip_address": "131.253.14.231",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "131.253.61.64",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "131.253.61.68",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "131.253.61.84",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "131.253.61.96",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "13.67.53.38",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "137.116.74.190",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "13.75.42.223",
+      "loc_city": "Central",
+      "loc_country": "Hong Kong",
+      "loc_continent": "Asia",
+      "loc_long": "114.150000",
+      "loc_lat": "22.290900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "13.76.219.191",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "13.78.93.8",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "13.82.54.245",
+      "loc_city": "Washington",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.153900",
+      "loc_lat": "38.709500"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "168.61.148.205",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "168.61.149.17",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "168.63.242.221",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.60",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "199.16.156.120",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "199.16.156.58",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "a-0001.a-msedge.net.",
+      "ip_address": "204.79.197.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "a-0011.a-msedge.net.",
+      "ip_address": "204.79.197.213",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "207.46.134.255",
+      "loc_city": "Central",
+      "loc_country": "Hong Kong",
+      "loc_continent": "Asia",
+      "loc_long": "114.150000",
+      "loc_lat": "22.290900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "207.46.153.155",
+      "loc_city": "Central",
+      "loc_country": "Hong Kong",
+      "loc_continent": "Asia",
+      "loc_long": "114.150000",
+      "loc_lat": "22.290900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "207.46.237.84",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "23.101.30.126",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "23.102.4.253",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "a23-194-121-168.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.194.121.168",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "a23-202-111-55.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.202.111.55",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "a23-209-179-230.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.209.179.230",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "a23-213-180-29.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.213.180.29",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "a23-53-114-188.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.53.114.188",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "23.96.208.185",
+      "loc_city": "Chicago",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.651700",
+      "loc_lat": "41.848300"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "23.96.219.115",
+      "loc_city": "Chicago",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.651700",
+      "loc_lat": "41.848300"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "23.99.109.64",
+      "loc_city": "Central",
+      "loc_country": "Hong Kong",
+      "loc_continent": "Asia",
+      "loc_long": "114.150000",
+      "loc_lat": "22.290900"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "23.99.56.164",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "g2600-1406-0028-029a-0000-0000-0000-0747.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:1406:28:29a::747",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "g2600-1406-0028-029e-0000-0000-0000-0747.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:1406:28:29e::747",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "g2600-1406-0028-0387-0000-0000-0000-0747.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:1406:28:387::747",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "g2600-1406-0028-038a-0000-0000-0000-2957.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:1406:28:38a::2957",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "g2600-1406-0028-038a-0000-0000-0000-2c1a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:1406:28:38a::2c1a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "g2600-1406-0028-038f-0000-0000-0000-0747.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:1406:28:38f::747",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "2606:2800:11f:17a5:191a:18d5:537:22f9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "2606:2800:220:5c1:24:c42:35:1942",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "nuq04s29-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4005:801::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "edge-z-m-mini6-shv-01-ort2.facebook.com.",
+      "ip_address": "2a03:2880:f127:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "40.113.14.159",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "40.113.8.255",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "40.84.189.107",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.493500",
+      "loc_lat": "29.424700"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "52.167.221.184",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "52.169.64.244",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "65.52.210.135",
+      "loc_city": "Chicago",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.651700",
+      "loc_lat": "41.848300"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "N/A",
+      "ip_address": "65.52.237.156",
+      "loc_city": "Chicago",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.651700",
+      "loc_lat": "41.848300"
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "ptr_domain": "www1.nugg.ad.",
+      "ip_address": "94.198.61.73",
+      "loc_city": "Muehlenbeck",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "13.376900",
+      "loc_lat": "52.664700"
+    }
+  ]
 }

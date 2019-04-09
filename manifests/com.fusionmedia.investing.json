@@ -1,0 +1,687 @@
+{
+  "appName": "Investing",
+  "packageName": "com.fusionmedia.investing",
+  "category": "FINANCE",
+  "icon": "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+3DRhRdywgknNNj2iCOOoH///vTq1Qu3u+E4lWma9OnTp96y4cOH88STT7JNr161y77//nvef/8D5s79tMlW/qijjmLHHXdAVVVWr14NtE3RwVWrVrFw4SJKSgLstttuGEbuL+uAAf1r//+Xv5zW6PE+++wzZs6cSSqVZuutt+LEE0+kW7dubXCljbPZBb1q1Sp61XmpANOnP86pp56Sc/uttt6aqffcw6mnnppT+Oee91fuu3cqDqfd6hx40EE5j/PZZ59x++13EAgEGqxbtmwZxxwzmtWrV+HzlyCE4NO5cxk7dizbbNObIUPqt0i9e/dm9OhjG71HVVU5+eSTefLJJwFQVIMPPviAp558kgMPPIgXXpjBHXfcUW8f0USL++mnc/n007mZvwr/yEopue66SUyePKne8mQymfPHnv3inXX2eEpKcnskZs+ezeGHH15v2YUXXsiaNWvaVdSbNQY6kUgwdepUwPbFBkrKcDjdnHbaqaRSuaNqykrLmDdvHr/88kvO9ceOHg1AqLqSQYMG0zWHbZhKpTjjjDM44og/5DzGvHnzWL16FbrhIhyqrud2fOedd3Lus+eeexAKhRq91/vuu4+PPvqIG2+8EctMAnDllVcydOh+tWL2B0oJlLTs8+/1BTLbF+DiyvD+++8zefIkPN5A7XsAePnlnLVcakW+/9ChOc2HcDjM88/PAOx7qntfjzzyaMHX2xSbVdArVqzgpptuQjOcSCmRUqJp9sNatWpVzn00zTYlZs+endM2z5odAKeeejL+HB29H374gYqKLlRUNIyaNU2TE088EQALi7Fjx9aaHsFgkCuvvCLndfXr14+ZM19g7dq1Odd7vV6GDh3KpZdeimVZRCIR5s+fz4wZM7jgggs48MCDCAWrMJuwndsDS0q++uorAFRVqX0PAD/99GOT++6ww/Y5vyQ1NTU8+ugjeH2//tiyx/zss3lUVTU/2JQvm9XkSCbtlsrtcjVYV7cjUZeshK+66iomTpyI0+mst97n83H++edzzz330GennXJ+MmfNmsXJJ5+MK8d5pZScffZ4/vjHUWy99dZsu+12lJQ0NEs2paKigi+/nM+zzz7L3//+9ya3FULg8XgYNGgQgwYNYsyYMaxcuZLZs2dz5plnNnuutiQei7GxMvfoYHMxJHVHWOsSiUTs/VWlwWhqLBYjFotT2k4RxVt02tXXX3/dYJnP52OfTK+77047NVgfi8WYM2cODoeRs3XRNI277rqTUaNGsdtuuzUpZsuySCQSLF78Pc888yxg24nXX389lZWVrYpz6dWrF3/5y1+YMWNGi/dpM9o4Hqcp+99e36anq8cWLegnnngy5/Le22zDEUccwXbbbddg3cKFC5kzZw7QuDtx01a/LqFQiMWLF/PBBx8wZcoUnE4n/fr15YILzidQUobPX8LVV19NeXk5N950E5988gmLFy9u0r7OoigKRx19NKeffjpmI1+ozkQ4HMm5PGvmxWMN42FKS8tydsTbis3u5SiElStXUFVVRekm368ddtiBIUOG5OywLFr0HQA/LV9OIpHE42k+PSmVSvHZ55/z2Wef8d2iRcx44QXWr1tXu97l8WHoOlJKhBA4nB4S8RquuPxyALp168axxx5Lz5492XbbbRmy335sn+PHBmDoOscffzzvvfdeM1e1+auoLF++vPae6+Lz+bj88sv517/+hctl949SKfsHutdee+Z0bbYVW6ygfYFSZs2axbx58zjssMPqrevRowd/Of30BvsEg8HaT/pzzz7LDVOmUFbW0Jirqalhw4YNfPTRf7nn3qnM/aR+wXhF+zUg6T8vv8wxRx+N5XSTiEdrl5999tn0798fy7K46KKLuO+++xqcp7KyssGPEWD77bdn9uw5zTwBySZTp3c4L7wwg1NOObmBv9rpdDJ+/HhW/fwzTz7xRO3y8eMncNFFF7XrNW2xglYyrcKPP/6IaZoNOihbb7VVg33WrFnDrFkv4w+UEgpWsXDhwpxmyYoVK+jf/9fBg6zLKR5PkIjXYKUTgO3u2n///bnyyquYMuV6Lr30MkaMOIQePXuyVc+elJSUsHz5cu69936WLVtSG6IJEKyu5JVXXuGUUxr62y3LIp1ONTpaOGzYMD788MOWPKZ25a233mLNmjVss802Ddb17t2b2269lXMmnEMymaC0tJSdcvRp2pot2oZG0ZgwYQLV1Y2Hh9bljTfsmcFsUamMGjUq53Y777wz//d/H3LwwfagTLC6kmB1JYl4Dccccww33ngjkUiE4cOHo6oqf/yjfZxx405kxIgRDOjfv3bAoXfv3tx2262AHUabPdawYcNqh5A3ZeXKVcTi8dpYlE2ZNWsWr7zyCg8/8kjGh/zPRr1C7c2UKTc0uq5Lly4MGbIvw4cPZ+DAgU32TdqKLbaFBgj4/QSrK/npp58oL2868cayLC688EJARUqJP+AnFKzihRdmMmZMw1G+YcP2Z8aMF1i0aFGtG6q0tJSdd965Ngk4y/bbb8/RRx/N66+/wcCBAxsc6+ijj+KLL77kxx9/oKamhrKyMgYOHESvXg1HOqWUvPzyf1i7Zi3RaBSf19tgm5KSkno/xhdemEnv3g1byXZH0XnooQc57vjjGHFIg9rjOamqqkJRlHbrGG7RLXTWS3H//Q80u+3ChQsBcNXpkAhF57jjxvDll/Nz7lNWVsbQoUM5/PDDOfzww9l7770biBnslmi33Xbj8ssvY9GiRTmPNXjwbowePZqTTjqJkSNH5hQz2KOUU6dOZdasl9m4YWOz91VdXc3ixYtbnnfYhjgddl/ijDPO5J1GAsbqEovFuPnmm4nFG88GKpQtWtAAQjF49NFHiEajTW6XjdCrmxHi83kBhd13H8xHH/230eH2pvj555+59dbbmDTJjoPo378/ixcvbvx6m3DCzp07l3322Yfsa5k0aXKz97Vs2TLmzJnd6HFb4wvPB3+glBXLVzDikEO45pprmT9/PlVVVSQSdj/DNE2CwSAffvghhx56OPPmfYamNjQM0uk0pll4DYaCTY6mam9kR+kac405HA3Tl7LkGsWDhj5it9tFTSTJp59+yoEHHphzn5qamkZbTn8gQCwWY9iw/bniiis48cQTm4x0y7J06VI+/PBD/v3vf/PWW2/h9QVQVJVQdSX9+vXj4YcfYeTII+nRo/nY3++//543Xn+Dv1/4d0DBn/kcP//8c+y0046MGTOGQYMG5dx3XcZ9aDTyLJtzS7pcrkafdUtDe70+H5FwkH/+czL//Odkxhx3HP369qOsrJR4PM6qVatqvTynnHIKfn/Dr1woFGrUr90ahNvj/VTTjb3yGS1Kp02iNU0PGLjcPmLRhkmTWZxuH8YmeXTxRIJkvPGWyeMNoKq/flySyRTxWPMPIxs5l4tNj3Hrrbey8879KS8vw+PxEA6HWb9+PV9+OZ/rrru23r6b5jHWzSncqW9fJk6cyDa9ehEIlOByOYnF42zcsIElS5bUc2PlytfbNB9zzJjj6NqtG2vW/MKLM2cC4HR5iMca5hRmcbq8xGMxmqpCs+mzkZnaII2i6AT8vto8xVGjRjFgwIBMLZG+7LHHHvU2z+Y03nTTTVxyySUNDvfFF1+wxx57YDjcOHPkaTaLEKRTyXkFCRpsUadSSRo6+iVOpzM7uQvpVIpNM7VVTcNopBVIJlOYZrrBPrphoOWIITBNi2QykfM6FEXFMPRmh2TB7jxGwsFmtlLw+HyozditadMkGml+hNDrCzRpA1uWRSqVJhFvKFq314+mqpimmYmN2eQZqxqGYT/jWI6ROyEEhmHkLFpjD+0nc16Ty+UkFKxi+vTH2WWXAbVVs7LP+Jlnn+XPObKR1q9fnzMobNq0aZx++un5l41rK0EX+X2SLXnwySefNJqx8uWXX/LIo4+ybu1ahgzZjz//eVzOWOiVK1dy8MGHsHTpkqKgi2w+QsEq9hu6P7PferNFIQSN8dfzz+feqVMLK+qZEfQW7+Uosvnw+gJ8/N+PuO+++2u9Gq0hHo/zwAMPFC7mOhRb6CIFke1zHHzIITzy8MN069at2eCjUCjE8uXLOfa441iyeHHbiLlochRpK+qWELv8isvZud/O9OnTh65du9VGPKbTKVavXs2iRd+xYMGC2mpY/pKytonHLgq6SFuTrRfeElpT9qxFZAS9RcdyFOlcuN0uwB6kSZsmpmnVK86oqWq98YP2oCjoIu2Cpqo5xwva/bwdfsYim51kMllvZNHl9jY5zJ1KpYhFfx1FNRyunKGgUkpMy6oVct1RTpfHh14ng2jTkVmvr6TpGQlaiKobxlmKqjaMhi/ymyMUDJJIxEinU5xzzjlMmDABnz/AF59/RiIRRyhavUSJUDhMIh4lnUoybtw4zjvvPHpt05u5//uYRCJOIhHH4bRNjKy3I5VM1K4DuPuee9h77314e85sEok4KdMiHqshnU5y2WWXcfLJJ1NZXc2ypd/XO16rEQLLMlcXO4W/E0LBKrp0qWDatMcZOfJIYrEY0WiU0tJSFEXhwQcfZMKECTidHgyHQSgcoXevnkyePJlTTjmFVCpFKBTC4/HgdDqZNesVbrrpJj7++L/4/CWEQ9W8/c477DZoEPvssy+zZs2iT58dCYXC+HxeDMPgvvvu57zzzmX69OmceOI4YjE7XicQCLBu3TomTJjASy+9lJ8br9gp/B2Ria9455132XXXXXnppZd49dVX+W7xYvYfOpSxY8cyfvx4TNPkvPPOw+F0gJXioYce5rDDDuXNN9/kjTff5PPPPmfQoF3Za6+9Oe200+jZswd77bUXNTW2MA3dYN26dcya9TKpVJJ//OMfzJs3j0GDduPSSy9h/PizicdjHHroodx777289dabGIbB6NGjGTt2LDfddBMvvfRSYbdabKF/+4SCVTzwwAOMHz+eJ598Mmce48+rV+PzejnppJOZNetlxo37M08//RSzZr3C0Ucf1WD7u+++h/PP/ytTp07l/PPPB+Cdd9/l4IMO4ptvvmlQhfXKK6/kuuuuI51O869//YvJkyfXW//22+9wwAHDOOOMM3jyySdb30oXh75/H0QiNRiGg1GjRrFq1SpOOeUUVM1RW3POn0kAfuD+B9hYWYkl7RDTyy+/jMrKSm64wc4ZrN0+UAqoXHvdJJYsWVJbNg2oLWt15VVX1dsH7JIHwWCQcDjM5MmT8fpK6q3/esHXSCkZPHhwQfdbFPRvHMtMMmHCeMrKyvj8888B8HjrBBJJicvt45FH7ISEV195lf33H0aPHj1ZunQpc+f+r0Fr6Q/4qarcwDfffIPX62PsiWMBEBkvxayXX0ZR68d1Z5N4V65cCdCoP9qyCrMUioL+HdCzZ09cLhevv25nvW9qXuq6RnUozHffLQXsBGGfz8t3333X5HF//PFHhIAh+w4B7MGTbAZ+rrp3QojahONNZdtWZXOKgv4dkE11y7aOuVAVpXa77OheU7MI5FovEJt93sqioH8HVFVVY1kWBx6Yuw6IZVnoulabKheOhEmn0wSy06s1kumTzYDPtrqdgaKgf6OEglW1I3XLli0jFAoxfLg9B82mqWiRcJCRRx7B0mXLOOaYY7h36r2Ew2F23rkfAHLTljiz/4472tNsTGqi2ExHUxT0b5BQsIojjxzJISNGUFbehaeffopVq1bRv/8ADj/8DwSrK21R1hH22LFj2X677WozTz799FN23HFHLrnk0l+TZYWoDRUdM+Y49txzDxYvXkwy2niCbkdTFPRvjGwR+cemPcaDDzzA8AP2B+CKK67C5/PVxiEHqysJVVcSClZx4YUXMnLkSD755BOefvppwJ6YKJ02+dvfL2Dw4D3sFj9Txgxg8uRJ+P3+WrdeZ6E4UvgbI9sp61JRgcvprK258corL/Pggw8yfvx41q9fzzvvvMuyH5Yx/IAD2GfffVm/YQPnnfdX4NeSA7fccjMXX3wxb789h7lz5/L111+x00592Xvvvdhqq5489tg0nnvuudpSFYqqNFrVX1HsdUoj64VQUBSl4ApQRUH/xsgKav78+YRCIdatWw/YIp0wYQJz5rzNNddczbBh+3P44YcTDof44IMPamvT+UvKMrX/Srnmmmt46pnnmP7YI+yyyy4MGbIv0WiUyspKJkw4h1dffQWP118rwiXfL0Fm/Mib1uZet349CxYs4LtswZ9NvCE/Lf+Rr776iuXLf8rrvrPGU3Ho+zdIOpUiWifcs3ZgRAhCGZNhp779GLzbbvz7388BoBlOOxdwEx1kO5aa6uRPo//I1wu+YfF3tijrpk/VLUyTKxulbihpIPOjaWx9a4e9JRAOCiBVTMH6vRIKhgATTXe0qKJ+TU0NZjqJXarMT2eYQQDAAiJBwRVj0vz18Egx2u73ii3KlmN7P/KvvdEeJC2IhwX/GpfigmMiuFVZtKGLbJlE05CugafPTzBmWA2GAaSLncIiWyChOJAQzLkqyog94nYNyszYT1HQRbYoQkEAwfuTowzfNSPmOt2/4sBKkS2GUFBwcH/J0geCDB8UhzQNwvaKgi7S+RG2mE8dZvHo3yLs0N2E3FV+iyZHkc5NWkI0CFccnebacSEMHWhi5pCioIt0WmImpCKC209Jcv6oCJpKU5MQAEVBF+mkhKJASvDUhXH+vH/UtpWbzjcAioIu0gkJ1cCArnD7WVEO2zMOrZgFrijoIp2KrFtu5uVh+m6VapWYoejlKNKJCAUFI3ez2DCtmr69Us3ay7kottBFNjspCbGQ4JQDTe48PUyp12rSk9EURUEX2axkA4wmn5DikjERHIrMq2XOUhR0kc1G1i33n0viHLlXFF3QIk9GThTALAq6yGbCdsvBG1dE+cOecVvI+YbkqxCJKcz8UC8KukjHEwqCYcC82yIM3CGVt70MgA6rNqqcf7+P/3xmFgVdpGMJBQUel8Xcm2sY0KtwMS9fq3Hug15e/0LB7UkXBd0ZCYUBC4QLfEazm28xhIKCf/zR5JLjwnTx5e/JQAAqfLrQYJ8rvIAkUAKpVNEP3amQ2C99vx0kr10dR8ayAw1bNtn7um5MmmvGhujitezQz3zIiPmjb5zsc4UHHBJ/4FfzuyjoTkI2c3nsUJMXrwxz5J4xvrkrzF7bbtmijqQgHIT7z0pw5fEhfM4C3HIKWAo89KaHYVe7wQX+TeYuKk4a1AnIivmcw9PcenrE/hynoWu5xcg9UlQGdeZ+L3A0nHiqUxOKgYwLnvhbgjP+EEUpxJOhQE1ScPssLxdOc2D4JJ66BnNm0qCiDb2ZyYr5zINNrj85Qpnb+rUFS0LPcpN7x4cwHD4emqOheSXujp/+r9VkYzLmTKphxK4JaP3c9r+iQjwO5z/iZ9q7Kt6AbNS0KAp6MxMOCu44NcX4IyP8SpYhAAAbp0lEQVS4tByfYxPcDsmD54XYbQcP5z7gIOaVuDqpqIWAYDX8YaDkjrPC9OudLljMqzeobHW2DxBNihmKNvRmw5LZjlKKc0aGbTE3NkomgTScPaKG9ydHSUUEoc5T8LMWC1vMQ/tIHj0/TL+tCxSzE75ZrnPqXbaYAyXNC7Yo6M2AKSESEjzx1wRXnhDGodD8kK8EVcLwgXG+vSPMLt1kp+ospqVdwejk4RbvX19Nz3KzYE/GnM8d7Hqhj7e/FbYnowX2d1HQHUzKgpqQ4LFzEpx8cA2aoHUdpRT03zbFm5PCHDxAEgoKzM1cxS1mQjQkuOXUJA+dE0LTyN+TIQANpr/n4bDrPOC03XItpejl6EBSFsTC8OzfEvz5wChCkl+v3wK/RzJqnyTS1Hj/axXVAW0wVXarCcXBigkeOSfOeSNr7ACjAjwZpgV3v+LlnIccKG7Z8oGlopejY0lbEAsLXr4kxlH7xXLWlGgVJpS7LaacHGLwdh7G3eXA5ZXoHdhZDMWAJHx0fQ1DByTyNzEANKiOKNwy08sN/9Ga7fw1cZgi7U3cgmQYZkyMc9S+bSDmLBboAk48oAZDsxhzm4uYIfHnOf97a8i65ebfGmbQDvlll9Siw/qQwqSnfNw7W8UfyP/hFG3odiaUgGRY8PENUcYcEG1QuqpgMtnQxw6P8dWdYbb1tv/IYigo+NM+kp8fDjJox1RhP1AdPv/BoO/ZAe6drRQkZktaRUG3J6EaIC5469ooQ3ZJNFrtp01IwMDtUrw2KcKf9rQ7i22NhS3mPw42eeDcED0rzIKj5b5cYrDnRV6q4rSq81cfCdLC5S0tdgrbi1AQKrzw/vU1HNA/UdiLbykmdAlY/HHvOLGozgffKCgGqG2gbVPa3pk7T0tx/alhylwFxGQIQIFX57o48Fo3OMDvze9QUkqEEPjLu+NwelYXBd0OhILQMwCzrqlh777JjhFzFgm6BocMTFDq0XjtU420DkYB3+JYGuIR29U4/ogIDpWCUqWSEmb+183oW13oXvDmGSIrpYWiavjLuqIbTtKmubpocrQxoSDsvT28NinC3jsk8xspy7RgeWOBpsLfj47w73/EMCPCjrHOg1AUUjWCFy+OcdohNbarsQAx16QFt7zo44Q7nLj8+Q/hS2mh6gb+8u5ouoGUVvYURdqKUBAOHSB57tIwu22Xys+NpUA8DQt+MrAKeTsShAnHHxDjfzdG2Ku3fX2NzHKck1AQPBI++leEPw2L5e83B1ChskZh7M1+rnpWx+2Xts86D6RloTvdBCq6o6hqvQmIioJuI7Jivv+vEbbrms6vA6hAwoQH3/QxcKKXZz+0Y34Lmp8nAfvslOQ/l4cAQbBaNNvACuz76dMV/u/mCEN3zvNLk0WHXzYqnHyHj1c/t91yWp73ZJkpnF4/vpIK+8e1yXh40YZuA0JBwdh9Jc9cXE230jyzMVTYGFW49DE/17+ogVvy4oc6ZlJjv74pezg539ZRgs8rueToOOG4zkcLVHRn47+TUFBw7F6SN66rpne3AlKlAFT4fqXGducGWLJGFODJsM0Mj78Cj7+0wbRwQggsSxY7hYUghN2SjT/Y4tbTw5R48+z5a1AZVZj8zK8DCw4VHE6Y86VKMKwztH8Sp5P87VcJugHDBiTp4lN5Za6GpYNe5xudzgRN/e3INHecEcbvkYWN/hkwZ76TY2/0EJL5ezJAIi0LX1lXnG5vrb1cl84n6M4x7V2rCAXhvEMtbj8ziN/dRPhnU6jwc7XKRQ/7eORdFV9A1nsUDid8uFBh/lIH++2cptRvFSRqQ4O9+ybZc1t4+j2NBODQIJSyi75MGZdkyrgwTiPP+4HaaLnH3nZz3C0uQiZ5j17abjkIVPREczgbDbnLCnqzT7wpgGBmGBVVFvAr7jiyQewTR5pMOSmEw0HeLfOaaoU/XOvnqxVKAzHXJRSEXqXw6IUxDt0tXphNm4lom/edwd6X2VnTIHjywjgnFTqaqUAyBXe95uOSJ3X0ApIRpGWhGg58JeUomt5k/KgQglTanLdZO4USW8ynHiCZe2OEA3fq/AmhloRgteDCrJgN8hbzqg0qZ021xexvQsxgj6KtDMNh17h57RMnqOT/VZNACvbqm+Sru8KUeOD9yTX8eViBYlYhbcLfHvZzyZO2JyN/MZuohgN/WVcUtWkx12WztdDZKW0v+EOa288IoTrszsj5D/p54iOFQEmL76HDyI6WXTsmxXUnhevNj9cqNPhpjcZ259izubYmfiFb3PCOU5KMP7IGl1FYcUM0MNOgahRmL+vw4xqNy6Z5eX5uYZ0/yzRx+QK4fSUt3ifbQm8WGzqUgmREcOspSa48LoyeeZgOB4wYmKQ6ovPRQhXRRsO2bUEyE/5588lJLh0dQcnXJ6vDsp81/niDl/Vh0epgHFWA4YRZn2o4VJ2BOyRxOcjf3rUycdT57g/ggO9Wapx1p4/Xv1YIFCLmdAp3oAy3v+Vihs3YKQxFwK/C9AvinD0qilY3tV2Cw4CR+ybQFJU5n2uktMKGbduCmrTdYbr7zAQXHluTfzq+Bl8t1el/oY/1kfxbMYHdWXzzc5VXP3Vw2OA0ZYECOov5kun8vfOVk30u8bJ8YwEBRpnPsbe8K06Pr9Wf583SKczax5/eVMNeOyUb/8QJe9XLc12MucVlp+E42v3ychJJg1UjmHZBnFMPjCLy/bxrsGCZwcB/eMDIv9e/KXZUncXXt9Ww6/Z5jk7mQ6Zj+Z//uvjTLU47wCjPuiFS2v0HX1lXdIezgY+5RZfT0Z1CW8ySFQ+EmhazvRkacOx+Mf7vnzUQ3zydxVDcFvNzE2OcdnAUkW8LqMMn3zpsMettJ2bI2N+KYOBEL6/NddkPrr3NNMU2wZ6Y4+FPtzjRPIWI2ULVNPxdeuQt5k0urX3J1jWbcJjJ+mkhenVrYTZwJnV/2C4JFt0ZwettnxjfxgilQEnDK1dGOeGAmD1als+zVuF/Cx3sd5UH3OB3t/WVgt8HigdG3ejiobc8xEzRfm9WhVBSMOU5P6fe68DtB3eeeU/SMtF0hx1gpOkFixnaWdAJyy6kcvYhaW47I0xFII9h4TT0651i0W0RoGNEHYoBUYX3JkUZtUc8/8B8HeZ86WTIFR6ER+LX2/Iq6+PVwOOXjH/AwSVP+Eib2K69tkSDDRGFq5/0MflFrbCYDMvEcHnwlXVFKEqbiBna0W0XT0EyKnjp4jhH75exPQs5hQZVEYXrn/dy+ysa/hLZtqlMGUJh2KUHTLughj3zDcoRYAp44SM3Y+9wongk3g7K3rRdi9DVLfnizjBbVZiFufWyqHYt5m3PsYu+FJIqJS0LpzeAx1/SdkJuT7ddKAJmUvDWVVFG7hMrXMwAFrgckqEDkpgJnXfbIXXfrsssePefNey2ff6B+VKDZz5w8+c7nTh8+dais0fvWosiwOmCyrBgwQ8GO/e26NmjgKIvADp8+6PO0Ku9RBMF5v2ZJp6Scty+QJuJGX71crS5yREKwj7bS76+I8xhe8TbLsMZwASvLplySohn/x4nGrJjhwslG2S0Yzn8cG+IAb2T+bVqAkwVbpjh5eS7nKheaVdFai1Soqh6ziCcFu6OPwBzvhXsdbGXWR/nObIoQKow5wsnu1zky8tvXveipJT4K7rj8vjbVMx1adMWOhQUHLW75MHzI+y8Tbp9Uo/sTj27bJdit20Ez7yvk5DgyNc+FRCqhl4lkveuj7Bdz3R+rZmw+wx3v+rlsicNXH6Js9VitqPKPCXleAJlSEuSSkQRSn7tjsMJCRWee9eg3K2yT9+kLeqWaElAWsBzH7r5000ucBdQHkFKhKLgK++KYRTuychFmw6sWBLCIcHlx6S58bQwW5cV+IlrCRL6bZPm4F0k09/XScTIq35y1h24+J4QW3fN095UABUueszP9TN0XD5ZLyyzZUikBG9pBU63HaFlOF2gKCTjUYQQ5GOCOFRQDZg1V8Opauy2QwrDoGlRZ+7nH9N9XPK4A9Uj8eXZYMiMmEu69ERV9WZOnD9tJuikBdGw4IaxKa77cxi3XkDYYWuR0HurNGP2SfPFYgc/rGmFqIX9RTl6T4v/mxyiW4WVt5ijCcHFj/u5+3W74k+re/6ZFstX2gWHy1OvBTMcTjTdQTIeRUoywm7lJWbs6tc+U1n2s4Pd+zQxsqhCVVjhgod93PemHWDkLCBaznB58Jd1zeu6W0ObCDoUg3RMMO2vcc47oqawnLN8MaFrmcWBu6b5foXBwhUCZzOfxmyRcZDMuylkv9x8xKyCtOCvjwS47y0NX57lqyxpB68bTlfOz7Gq6+iGi0TUznTNVxwOJ3yxTOHLpTpD+6YpL9vkvnWoDgv+cleAZz9WWlS+tjGsdAqHx4+3pLzdxQwFDn1nY5gHbgV3nVPDgbslIVbI1WB3WgoxU1SwLPjrAwHuf1vBF8j9gc6KefxhJrf/JYQ730B2FYIRwZCrAixaIRo9X1Nkh3wDFT1Q62Qu58J+YRaR6g0k41EUJX8ncygCmILXLo9y5N5xW9QqfPmDzu4TfWRnlcrX1JWWhSdQhtPja7fO36bk7bazR/5g0Nbw70si7NknVVhFIAUSacGb85306ZnOf9RWglDg4IEJDFXnrS9UMKj3+bcyKUYnHWByxxlhewKbPMVcHVY4534/739rt2StvtyMbekv64pmGC168UJRcDhdWKZJOhnPv7NogKLD4+8aDO4t6LdtitnznYy7xUOokApGUmKaafzl3THcng6N/83L5LBjmGHfPpJ3/xks3GmvQiwhOPYWP5OfdxCJaxy0SxJVJT/TJVNkZfjAJD1KFV7++NcUo6yYLz46za1nhPEV0DJXhQUD/1bCx0sFgUDrL1VKiaIolJR3z7TMrTmCwHB5UBSVVDyWKUvQ+mZAVUAY8NR7Oh8sdHD9vw1CVmEVjBRFwV/RHb2JVKn2otWCTlp2Ueurj0vz4IQwPneBgeW6HeR+1lQfr36h4A3AB18rrKs22G/nFC5XAZ1LC/bsm2Lw9vBcxq2XjApuPjnFxaMjePLtuGqwfJ3KGff4+Xy5PUVCPmJWNR1/eTdUTcv7k6w7nKiaTjJu23r52KmqANUBS34WOL3gzreCkZUJMMoUfdkcmRmtsqFDSSBmB+T/7eiIXYO3EE+GAV//oHPSrV4W/Az+EmqVEQrCyEGSaReG6JJP7EeWTPWh+T/qDJ7o5/qxSf5xbAunf8iFBj+vVznyn36+XpnfZ1lKC1XV8ZV3Q1HVgl+8EIJUMkm4cm1tjbeORloWmsOJt6QCdZOiLx1J1oZuVtDZotbvT4oxfGC8sI5bRmQvfepi9I2uRpNiQ0Ho2w2mT6xh377Jwmx0HdZXCnwecKp5xn9o8NWPOkdf72V5Zf5i1nQn/rKuth+tDWMYLMsiXLmOdDKRt12dD9I0cXj9ePyl9nDrZsyZa1E8dCgIJAWf31TD8F3jhZkYCqDDo3M8tphdjWd4+wOweC0MucTDh98aUEhwfwq6BGT+YnbCF8t0Trm9ADFbFpruwFdWkRmpa7sXn+1c+sq6YLg8WGbHRPhbZhqnL2CL2b6QDjlvczQq6FBQcNwQyYqHQuy+U7LgbODqqMK1j/s5834HTp/E34y95g8ATjjgCi/PvO1G5jdQZlNAytS78x3s8Q8fX/+Sv5h1h4tARQ+EaKfWU0qEUPCXdcHlK807BqSFJ6st+uLxl7XjefKjQVBj1k975kEmU04L09VfgB0LoMO6oMI1T/h48J2GhVSawu+AlC75891OogmFMw6L2L36jhiJdMGsT5yM/pcL8pzmQVomDrcPT6C9RWZjWRYefwmabhCuWpvxVbehXZ3N+yvtgsPl7pB7ai31vBwJ0x7Gnnp6ksuOj1BaqCdDg4WrdMZP9fH8/9Rma0/kvEABugNmfqzh1DQGbJfG5WifWOhaNHhtnpOjpriReeb/ScvC8PjwlZS3/fU1g6obGE4PyVgk7+HyTcmaNoGMW25zdf4ao4HbLpQAMyp4/Lw4Zx1RY2daF1IKKlOZZ/BEL8vWFlanQQjQnfDGZyrfLTc4eHASTyFuvUZPBOh2LPOYm10onlZMK1YHaZk4vSV4A2Wb7cUrqobD6SGdSmCmUwWZO9Ky0AxHwa7G9qSeoCNhdSvSgteuijJmv1j+NifUejLmfOHkgGvddoZzG5T3yqbuf/2jwpKfDYb2TRPwtWHqfuZH+NwHbsbd6UTNM8vESqdx+0vtuhKb+cULVcVwuUmnkpjpZF6itiwTw+HGV9alTVyN7UWtHxp880YM0Pa8/ewwu26fhngBR1Xs6Qvuf83LxCcMNG++2RpNk80r/OrWMAN3aIPUfWGPJN77hpcLHjNw+/PLlZOWhdtfissb6FT2pRCCWCRENFiJUFv+QuxUKR8e/+b70rQU222X/kw5/1Az9egFYXbdpkAxq3YY5ZQZPiY+YeANtI+YIZO6r0sG/cPLJwsdUEjyaaZlvvtVW8zePMVsppJ4SsszATmdR8xg279Orx9PSXnGrde8ONOpBJ5AOe4ctZg7K1JiCjmTt9A4rKDBCxU2BhUq/hIABF6/7JBpekMJIC6Yfl6Ckw6usZOcW6MlxU7mvfNlL5c/a7TKA1MXKS28JRU4XLlrF3cW7JHFBJGq9ViWlbuzKCUI8JZ0aTSctTMihCCVSs1WgLUFeQx0+HaFzhGTfi082FFzTvsd4PBJTrvXwdTXvcRNWh7Aq9hmxr9m+AsSs2WZ+Eq7ZgLzO6+YwW6pdcOBvyzTubOsBusR4C/rhr4FibkOaxQUfsnrTWY8Am/PtxMo5/1U6HQD+T08hwIun+Tvjxqcfk8AsyWiViCSENz4gp/JM7W83In2AINJoLz7FvXypZQouh0cpTtdSMvMLLenSAtU9EQ1HJ2289coQpBKWWsU0pitbqGF/WV/7B03h17ntgceChSz4XQ3aDFaiq6ANyB59kOVP95QwpoqtfEiK5nZmK58ws+Vz2kESvJ4cdIuMeCv6NFkVflOi5QIoeIv64rTG8BKp36dVUrTtrz7AZAgpWkqpFhLmliLm6hMAuW1z/o54x4nureQQooSM5XAV9oFb2k5npJyzFR+xrwCBEokb8wXnHS7n5Xr7QD/emhQFRVc/5yPu9+0B3pa/e6kxMoEsWtbYktWi11WwO0rwV/RA1+g3HbrbaH3Y0krmkql1yjEWYZCVYsEnZlC4S93BLh+pp0Qmv/EiRKhqJR238bObpbgdHsJdO1Zu771x7TjLd5ZCNuMD/DhN8avg/s6/LBe44QbA9zxuppXfQkpJULVKO3eC1VveVX5zo7ucGUmMNxy70cgq5PRyDJFnM6rqGxoVtAG/LBO5dz7/Ez/P5VASX4JoZCZbkBVCZR3q5exIaVEd7jwl3cDaeVtl/oDgC454EoPMz5xgRdWbVQ55x4vc77Jr/KPlBYCYU+R0Mx8H1seW/a9CCGwpNgQDW94zW6/kixGYWDurQEFPl7o4MRb3azYSH6f6gx2arsXT0k5ghwxtFKi6gYl3bYmUrUh7xhfv9t26x1/s4srl2l8t0pl9oL8Kv/YWSYGvrKudsDPb0rMWz5SSqx0ajFkQrHkIxxDOS+Q3qQrlcnGfv1TJyP/Zdce9nvyP7FlpnD7y3B5W9CDFAJpmUSqN5KMRe1h1zxIS4jak6ji97d+f2mZaIYLX2mFPcpWFHPnQwizcu3Po8PVG2fVGhpyJmuAbrUDE5mi1jM/9DDubgPVDZ68R+Qk0pK4A+WZqkAtFYUAaVETriZRE0Lkm7qfp3mYnVbMnyn5WhRz50RK1q5YsqA71PXYWvyndghZhWBCcNl0P+PuduDy5y9mKe1QT39FN1ye1ogZe1sh8ATKcPvKsKw8Y1nz0GG2frG/vFtRzJ0YRVFIpFIv1f5duybOm6SoQYfKsMIl0/zc8Zo96KDnOfKXTdz0lXdHL6RIn5R2kEygHMtsi2LHTWOZaQyHy676k8vOL9JpsCyrpqaq8q3s3/Wkas7ixeWrtD9tf27r58/blGw2cLauWVuMpGVjEUIb19b+3dZYlonLG8DjK9nC+/6/fYQQJNPpl1YvWzg6u6ye+0Cp5JHtz/XWoMvCilpbJg63B19pF7tz10YtnB2L4MRf3g2lDacxyGKZKVwee8LHopg7P1ISqV7/y8N1lzVs4jTPjIDXMSY/sdgJlC5/GS6vv90+1XYwt0lo49qCszGySMvC5Suxr7tIp0dRFOKJxPO//PjdCXWX5/xm+/wl64SidGmtIKWUdpE+dwfEBAuBtCwiwY2kYjX5e0CwW2ZPSZe8Jnws0vFkapGsX7Hkm66brsvZtCUT8aeRsuW9r0x8Q6CiO053B8UEZzucJRU4PL68O4vSNPGUVOB0F8W8pSClNBPx+JO51uVs1kwz/ZYQ6u6arvVr9uAZX22gSw/UzTQk7HB6EIqSKV7Y8o6iZZn4yrq20jdeZHMiFIVUMj1rzfLFp+dc39TO3kDJ96pQ+jRmT1tmGt3ptkfRRL4lQ9sGgSCZiBJcvxpVbz78z7JMvCUVmS9KUcxbAkJRsExryYolC3ZqbJsmDU8znVqqafoBQlEajFVLy8LtC+AtqdgsRQJzoekGhstDMlbTePFCKZGZrAy7WEpRzFsCGbt5xYa1a89JJaLLGtuuSUFLKZdKaVVpmn6wUJRMsycx02m8pV1weQJ0tk+1omkYDjepRAxpmvVFLSUSaU//4Nhyskx+79jRdDJUtbHy0prqtTOb2rZZ14BlWfOlZa5XNeMAIXAiBb7ybjicHjqbmLMoqorD5SGdjGOl07UDO4qi4CvrhtEJK/8UyY397qzqYGX1xNDGn6c1t32LfF2WZX2ZTpk/Gw59YKBrzzLdcNBZxZxFKAqGy4O0JMlYDYpqF+TWDUdRzFsIiqJgWXJJdeW6S0Mbf3m8Jfu02HkrpfW1aabnBcq77S2E6LYluLgEAsPpQigKLl8JegvnMimy+cl0AL9ev+bn02uqN7zR4v3yOVn3bfo86nA6TxBCeLYIgWTt6C3hWn/nZMzDmlgy/ty6n5ac2dr98xpeiwQrZ6lOb1RTtW0VVa0oCqVIWyAUhbRlLaqJRG/ZsGrZFXkdo9CL6NJrh8kup2uCEKJcCKFsES12kU5DpkW2pJQbY/HYA+tXLrumoOO1yVVJ6L5tn0d0wzFMUZSd7FkXisIu0jhCCCRgWdb3qWTi/9Ys//6stpBjm46I6B7Pri5X6S4+v2+8pmmDEXhBKLUZUEWR/z4Rok4WnLSQRNLp9JfhUPjBWKzqm1RNzYI2O1VbHSgX/vJeE7w+92GqpvcSghKBKEVgSIlTCKGLjiqCV6RDkZZESpkSgjiQkJJqKWW1aaZWRmqis0PrVj7QXufuMEUZXm8/XfPtYRiaF00PKBK/0IWmoBSb7d8QFpaQKZm2BCHSqWDSTIdTieQXycjG7zri/P8PaH2wR2PhykIAAAAASUVORK5CYII=",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.amazon.device.messaging.permission.RECEIVE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.fusionmedia.investing.permission.C2D_MESSAGE",
+    "com.fusionmedia.investing.permission.RECEIVE_ADM_MESSAGE",
+    "com.fusionmedia.investing.permission.C2D_MESSAGE",
+    "com.fusionmedia.investing.permission.RECEIVE_ADM_MESSAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "4.8",
+  "trackers": [
+    "Facebook Login",
+    "Google CrashLytics",
+    "OutBrain",
+    "Google Ads",
+    "AppsFlyer",
+    "Google DoubleClick",
+    "Google Analytics",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-107-22-174-54.compute-1.amazonaws.com.",
+      "ip_address": "107.22.174.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "142-54-20-42.fusionmedialtd.com.",
+      "ip_address": "142.54.20.42",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.833600",
+      "loc_lat": "32.790800"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star-shv-02-frt3.facebook.com.",
+      "ip_address": "157.240.20.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com.",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "fra16s12-in-f194.1e100.net.",
+      "ip_address": "172.217.21.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "fra15s17-in-f66.1e100.net.",
+      "ip_address": "172.217.22.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "fra15s18-in-f2.1e100.net.",
+      "ip_address": "172.217.22.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "eg-in-f155.1e100.net.",
+      "ip_address": "173.194.79.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star-shv-01-cdg2.facebook.com.",
+      "ip_address": "179.60.192.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "185-168-112-125.fusionmedialtd.com.",
+      "ip_address": "185.168.112.125",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "185-168-112-126.fusionmedialtd.com.",
+      "ip_address": "185.168.112.126",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "185-168-112-127.fusionmedialtd.com.",
+      "ip_address": "185.168.112.127",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "185-168-112-128.fusionmedialtd.com.",
+      "ip_address": "185.168.112.128",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "185-168-113-189.fusionmedialtd.com.",
+      "ip_address": "185.168.113.189",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "185-168-113-191.fusionmedialtd.com.",
+      "ip_address": "185.168.113.191",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "185-94-85-210.fusionmedialtd.com.",
+      "ip_address": "185.94.85.210",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.956200",
+      "loc_lat": "52.297700"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "200-215-187-203.static.youbroadband.in.",
+      "ip_address": "203.187.215.200",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "sfo07s13-in-f2.1e100.net.",
+      "ip_address": "216.58.194.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "maa03s20-in-f2.1e100.net.",
+      "ip_address": "216.58.197.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "fra15s10-in-f2.1e100.net.",
+      "ip_address": "216.58.214.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-23-21-150-201.compute-1.amazonaws.com.",
+      "ip_address": "23.21.150.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-23-21-50-138.compute-1.amazonaws.com.",
+      "ip_address": "23.21.50.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-23-23-140-207.compute-1.amazonaws.com.",
+      "ip_address": "23.23.140.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-23-23-242-24.compute-1.amazonaws.com.",
+      "ip_address": "23.23.242.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-23-23-99-56.compute-1.amazonaws.com.",
+      "ip_address": "23.23.99.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "maa03s22-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4007:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "bom05s10-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:802::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "bom07s12-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "sql89s01-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4005:800::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "nuq04s29-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4005:801::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "nuq04s29-in-x03.1e100.net.",
+      "ip_address": "2607:f8b0:4005:801::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "nuq04s29-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4005:801::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "sfo03s01-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4005:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "pa-in-x5f.1e100.net.",
+      "ip_address": "2607:f8b0:400e:c03::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4010:800::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "fra15s28-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:4001:80b::2002",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "N/A",
+      "ip_address": "2a00:1450:4001:810::2002",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "fra16s08-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:4001:817::2002",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "fra16s13-in-x02.1e100.net.",
+      "ip_address": "2a00:1450:4001:819::2002",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star6-shv-01-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star6-shv-01-atl3.facebook.com.",
+      "ip_address": "2a03:2880:f011:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star6-shv-01-lhr3.facebook.com.",
+      "ip_address": "2a03:2880:f01a:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star6-shv-02-frt3.facebook.com.",
+      "ip_address": "2a03:2880:f01c:800e:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star6-shv-01-cdg2.facebook.com.",
+      "ip_address": "2a03:2880:f01f:2:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com.",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star-shv-01-arn2.facebook.com.",
+      "ip_address": "31.13.72.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star-shv-01-gru2.facebook.com.",
+      "ip_address": "31.13.85.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com.",
+      "ip_address": "31.13.86.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com.",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com.",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.118.24",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-50-16-224-16.compute-1.amazonaws.com.",
+      "ip_address": "50.16.224.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-50-16-226-200.compute-1.amazonaws.com.",
+      "ip_address": "50.16.226.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-50-17-223-8.compute-1.amazonaws.com.",
+      "ip_address": "50.17.223.8",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-50-17-225-23.compute-1.amazonaws.com.",
+      "ip_address": "50.17.225.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-52-91-19-72.compute-1.amazonaws.com.",
+      "ip_address": "52.91.19.72",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-54-175-74-157.compute-1.amazonaws.com.",
+      "ip_address": "54.175.74.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "server-54-230-141-195.sfo5.r.cloudfront.net.",
+      "ip_address": "54.230.141.195",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "server-54-230-141-212.sfo5.r.cloudfront.net.",
+      "ip_address": "54.230.141.212",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "server-54-230-7-241.dfw3.r.cloudfront.net.",
+      "ip_address": "54.230.7.241",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.fusionmedia.investing",
+      "ptr_domain": "ec2-54-243-77-238.compute-1.amazonaws.com.",
+      "ip_address": "54.243.77.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

@@ -1,25 +1,249 @@
 {
-    "appName": "Hotspot Shield",
-    "packageName": "hotspotshield.android.vpn",
-    "category": "TOOLS",
-    "icon": "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",
-    "permissions": [
-          "android.permission.ACCESS_WIFI_STATE", 
-          "android.permission.RECEIVE_BOOT_COMPLETED", 
-          "android.permission.INTERNET", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.KILL_BACKGROUND_PROCESSES", 
-          "android.permission.GET_TASKS", 
-          "android.permission.REAL_GET_TASKS", 
-          "android.permission.PACKAGE_USAGE_STATS", 
-          "android.permission.WAKE_LOCK", 
-          "android.permission.READ_PHONE_STATE", 
-          "android.permission.WRITE_EXTERNAL_STORAGE", 
-          "android.permission.READ_EXTERNAL_STORAGE", 
-          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE", 
-          "hotspotshield.android.vpn.permission.C2D_MESSAGE", 
-          "hotspotshield.android.vpn.permission.C2D_MESSAGE", 
-          "com.google.android.c2dm.permission.RECEIVE" 
-    ],
-    "version": "6.9.0"
+  "appName": "Hotspot Shield",
+  "packageName": "hotspotshield.android.vpn",
+  "category": "TOOLS",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.KILL_BACKGROUND_PROCESSES",
+    "android.permission.GET_TASKS",
+    "android.permission.REAL_GET_TASKS",
+    "android.permission.PACKAGE_USAGE_STATS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.FOREGROUND_SERVICE",
+    "hotspotshield.android.vpn.permission.C2D_MESSAGE",
+    "hotspotshield.android.vpn.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "6.9.1",
+  "trackers": [
+    "Google Analytics",
+    "Google DoubleClick",
+    "Google Ads",
+    "Google Firebase Analytics",
+    "MixPanel",
+    "Adjust",
+    "Kochava",
+    "Google CrashLytics",
+    "LeanPlum"
+  ],
+  "network_connections": [
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "ec2-107-21-210-141.compute-1.amazonaws.com.",
+      "ip_address": "107.21.210.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com.",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "fra16s13-in-f226.1e100.net.",
+      "ip_address": "172.217.21.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "fra15s17-in-f1.1e100.net.",
+      "ip_address": "172.217.22.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "fra15s22-in-f2.1e100.net.",
+      "ip_address": "172.217.23.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.180",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "web013.apsalar.com.",
+      "ip_address": "198.134.7.53",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "web014.apsalar.com.",
+      "ip_address": "198.134.7.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "pixel.quantserve.com.",
+      "ip_address": "203.190.124.25",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "fra16s20-in-f14.1e100.net.",
+      "ip_address": "216.58.206.14",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com.",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com.",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com.",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "edge-star-shv-01-hkg3.facebook.com.",
+      "ip_address": "31.13.95.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "ec2-34-199-222-208.compute-1.amazonaws.com.",
+      "ip_address": "34.199.222.208",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "ec2-50-17-225-23.compute-1.amazonaws.com.",
+      "ip_address": "50.17.225.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "ec2-50-19-124-76.compute-1.amazonaws.com.",
+      "ip_address": "50.19.124.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "ec2-54-172-194-77.compute-1.amazonaws.com.",
+      "ip_address": "54.172.194.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "server-54-230-44-19.fra6.r.cloudfront.net.",
+      "ip_address": "54.230.44.19",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "ec2-54-83-47-63.compute-1.amazonaws.com.",
+      "ip_address": "54.83.47.63",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "hotspotshield.android.vpn",
+      "ptr_domain": "N/A",
+      "ip_address": "95.172.94.29",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    }
+  ]
 }

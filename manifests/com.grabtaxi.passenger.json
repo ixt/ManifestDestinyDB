@@ -1,0 +1,730 @@
+{
+  "appName": "Grab",
+  "packageName": "com.grabtaxi.passenger",
+  "category": "MAPS_AND_NAVIGATION",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_PROFILE",
+    "android.permission.READ_USER_DICTIONARY",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.Manifest.permission.RECORD_AUDIO",
+    "android.permission.CAMERA",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "android.permission.BLUETOOTH",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.FOREGROUND_SERVICE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.grabtaxi.passenger.permission.C2D_MESSAGE",
+    "com.grabtaxi.passenger.permission.C2D_MESSAGE",
+    "com.sightcall.universal.permission.PermissionActivity",
+    "com.grab.rtc.voip.ui.permission.CallPermissionActivity"
+  ],
+  "version": "5.39.1",
+  "trackers": [
+    "Facebook Share",
+    "Google Analytics",
+    "Facebook Analytics",
+    "Google Firebase Analytics",
+    "LeanPlum",
+    "Google CrashLytics",
+    "Facebook Login",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "N/A",
+      "ip_address": "120.28.12.187",
+      "loc_city": "N/A",
+      "loc_country": "Philippines",
+      "loc_continent": "Asia",
+      "loc_long": "120.972100",
+      "loc_lat": "14.595500"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "sin10s07-in-f115.1e100.net.",
+      "ip_address": "172.217.24.115",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "hkg07s24-in-f19.1e100.net.",
+      "ip_address": "172.217.25.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "sin11s04-in-f14.1e100.net.",
+      "ip_address": "172.217.27.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "sin11s04-in-f19.1e100.net.",
+      "ip_address": "172.217.27.115",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "sin11s04-in-f97.1e100.net.",
+      "ip_address": "172.217.27.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "oq-in-f120.1e100.net.",
+      "ip_address": "173.194.200.120",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "oq-in-f94.1e100.net.",
+      "ip_address": "173.194.200.94",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.145.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "hkg12s01-in-f14.1e100.net.",
+      "ip_address": "216.58.197.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ams15s21-in-f3.1e100.net.",
+      "ip_address": "216.58.212.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-23-21-109-81.compute-1.amazonaws.com.",
+      "ip_address": "23.21.109.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-23-21-78-92.compute-1.amazonaws.com.",
+      "ip_address": "23.21.78.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com.",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-23-23-80-6.compute-1.amazonaws.com.",
+      "ip_address": "23.23.80.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.79.246",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "edge-star-shv-01-hkg3.facebook.com.",
+      "ip_address": "31.13.95.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-34-248-126-136.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.248.126.136",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-34-248-128-242.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.248.128.242",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-34-249-12-169.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.12.169",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-34-251-212-81.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.251.212.81",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-50-16-226-96.compute-1.amazonaws.com.",
+      "ip_address": "50.16.226.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-50-19-94-109.compute-1.amazonaws.com.",
+      "ip_address": "50.19.94.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-19-57-74.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.57.74",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-209-186-0.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.186.0",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-210-237-132.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.210.237.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-211-14-23.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.14.23",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-215-11-249.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.215.11.249",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.32.68",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.25",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.16",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.36",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "s3-ap-southeast-1-w.amazonaws.com.",
+      "ip_address": "52.219.40.92",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-220-171-238.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.220.171.238",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-220-85-49.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.220.85.49",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-30-94-36.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.94.36",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-34-92-151.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.34.92.151",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-49-8-11.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.8.11",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-51-196-221.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.196.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-72-71-223.compute-1.amazonaws.com.",
+      "ip_address": "52.72.71.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-76-191-163.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.76.191.163",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-76-45-35.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.76.45.35",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-52-77-10-87.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.77.10.87",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-169-23-128.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "54.169.23.128",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-169-46-178.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "54.169.46.178",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-171-26-243.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.26.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-171-42-50.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.42.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-179-159-144.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "54.179.159.144",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-215-222-245.us-west-1.compute.amazonaws.com.",
+      "ip_address": "54.215.222.245",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-225-161-73.compute-1.amazonaws.com.",
+      "ip_address": "54.225.161.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-225-183-252.compute-1.amazonaws.com.",
+      "ip_address": "54.225.183.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-225-242-25.compute-1.amazonaws.com.",
+      "ip_address": "54.225.242.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-235-183-115.compute-1.amazonaws.com.",
+      "ip_address": "54.235.183.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-243-75-227.compute-1.amazonaws.com.",
+      "ip_address": "54.243.75.227",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-251-135-44.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "54.251.135.44",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-251-141-131.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "54.251.141.131",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-72-55-161.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.55.161",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-76-152-97.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.152.97",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-77-26-179.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.26.179",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-77-40-156.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.40.156",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "ec2-54-77-82-212.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.82.212",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "sb-in-f121.1e100.net.",
+      "ip_address": "74.125.130.121",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "sb-in-f139.1e100.net.",
+      "ip_address": "74.125.130.139",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "sa-in-f102.1e100.net.",
+      "ip_address": "74.125.200.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "sa-in-f121.1e100.net.",
+      "ip_address": "74.125.200.121",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "sc-in-f132.1e100.net.",
+      "ip_address": "74.125.68.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grabtaxi.passenger",
+      "ptr_domain": "94.31.29.248.IPYX-077437-ZYO.above.net.",
+      "ip_address": "94.31.29.248",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    }
+  ]
+}

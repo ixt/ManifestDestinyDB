@@ -1,0 +1,45 @@
+{
+  "appName": "Chat",
+  "packageName": "com.synology.dschat",
+  "category": "SOCIAL",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.CALL_PHONE",
+    "android.permission.VIBRATE",
+    "android.permission.USE_FINGERPRINT",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "2.4.1",
+  "trackers": [
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.synology.dschat",
+      "ptr_domain": "ec2-52-59-69-110.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.59.69.110",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.synology.dschat",
+      "ptr_domain": "der1.synology.com.",
+      "ip_address": "62.67.209.108",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    }
+  ]
+}

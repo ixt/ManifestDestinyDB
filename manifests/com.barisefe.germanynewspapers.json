@@ -1,0 +1,836 @@
+{
+  "appName": "Deutsche Zeitungen",
+  "packageName": "com.barisefe.germanynewspapers",
+  "category": "NEWS_AND_MAGAZINES",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "2.2.3.1",
+  "trackers": [
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Facebook Ads",
+    "Flurry",
+    "Inmobi",
+    "Google Ads",
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.53.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com.",
+      "ip_address": "107.22.187.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "storck.shop.",
+      "ip_address": "109.75.189.240",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "static.111.254.243.136.clients.your-server.de.",
+      "ip_address": "136.243.254.111",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "138.108.96.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "tags2.adsafety.net.",
+      "ip_address": "139.162.147.24",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "li1419-253.members.linode.com.",
+      "ip_address": "139.162.152.253",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "h367.meetrics.de.",
+      "ip_address": "148.251.87.168",
+      "loc_city": "Ergolding",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "12.171000",
+      "loc_lat": "48.576500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "xx-fbcdn-shv-02-frt3.fbcdn.net.",
+      "ip_address": "157.240.20.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "edge-star-mini-shv-02-frt3.facebook.com.",
+      "ip_address": "157.240.20.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra15s11-in-f161.1e100.net.",
+      "ip_address": "172.217.16.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra15s11-in-f2.1e100.net.",
+      "ip_address": "172.217.16.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra16s13-in-f1.1e100.net.",
+      "ip_address": "172.217.21.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra16s13-in-f226.1e100.net.",
+      "ip_address": "172.217.21.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra16s13-in-f227.1e100.net.",
+      "ip_address": "172.217.21.227",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra16s13-in-f228.1e100.net.",
+      "ip_address": "172.217.21.228",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra16s13-in-f230.1e100.net.",
+      "ip_address": "172.217.21.230",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra16s13-in-f14.1e100.net.",
+      "ip_address": "172.217.21.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra15s18-in-f10.1e100.net.",
+      "ip_address": "172.217.22.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra16s14-in-f2.1e100.net.",
+      "ip_address": "172.217.22.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra15s17-in-f2.1e100.net.",
+      "ip_address": "172.217.22.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra15s17-in-f3.1e100.net.",
+      "ip_address": "172.217.22.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra15s18-in-f2.1e100.net.",
+      "ip_address": "172.217.22.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra15s18-in-f99.1e100.net.",
+      "ip_address": "172.217.22.99",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "a172-227-103-157.deploy.static.akamaitechnologies.com.",
+      "ip_address": "172.227.103.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "li463-190.members.linode.com.",
+      "ip_address": "176.58.105.190",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-184-169-153-255.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.153.255",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-184-169-160-79.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.169.160.79",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-184-72-61-238.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.72.61.238",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "185.54.150.28",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "212.77.188.193",
+      "loc_city": "Regensburg",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "12.120200",
+      "loc_lat": "48.996500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "212.77.188.194",
+      "loc_city": "Regensburg",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "12.120200",
+      "loc_lat": "48.996500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra15s24-in-f2.1e100.net.",
+      "ip_address": "216.58.205.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "fra15s12-in-f34.1e100.net.",
+      "ip_address": "216.58.208.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "a2-17-182-194.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.17.182.194",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "a2-17-191-87.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.17.191.87",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "a23-32-242-8.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.32.242.8",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "a23-36-236-175.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.36.236.175",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "a23-45-104-225.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.45.104.225",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "a23-45-99-67.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.45.99.67",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "edge-z-m-mini-shv-02-dfw5.facebook.com.",
+      "ip_address": "31.13.93.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-34-194-88-11.compute-1.amazonaws.com.",
+      "ip_address": "34.194.88.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-34-227-179-239.compute-1.amazonaws.com.",
+      "ip_address": "34.227.179.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-35-156-199-43.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "35.156.199.43",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-35-157-81-84.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "35.157.81.84",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-35-158-69-146.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "35.158.69.146",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "37.157.4.14",
+      "loc_city": "N/A",
+      "loc_country": "Denmark",
+      "loc_continent": "Europe",
+      "loc_long": "12.056400",
+      "loc_lat": "55.712300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "46.20.32.80",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-46-51-206-69.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.51.206.69",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-50-16-225-126.compute-1.amazonaws.com.",
+      "ip_address": "50.16.225.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-50-16-98-206.compute-1.amazonaws.com.",
+      "ip_address": "50.16.98.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-50-18-251-157.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.251.157",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-52-200-112-148.compute-1.amazonaws.com.",
+      "ip_address": "52.200.112.148",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-52-20-103-20.compute-1.amazonaws.com.",
+      "ip_address": "52.20.103.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-52-208-31-192.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.31.192",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-52-212-97-234.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.212.97.234",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-52-28-52-131.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.28.52.131",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-52-29-187-55.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.29.187.55",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-52-57-142-138.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.57.142.138",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-52-57-66-130.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.57.66.130",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "server-52-85-172-125.fra6.r.cloudfront.net.",
+      "ip_address": "52.85.172.125",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-52-91-124-178.compute-1.amazonaws.com.",
+      "ip_address": "52.91.124.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-54-172-119-198.compute-1.amazonaws.com.",
+      "ip_address": "54.172.119.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "server-54-192-44-157.fra6.r.cloudfront.net.",
+      "ip_address": "54.192.44.157",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "server-54-192-44-200.fra6.r.cloudfront.net.",
+      "ip_address": "54.192.44.200",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-54-208-48-111.compute-1.amazonaws.com.",
+      "ip_address": "54.208.48.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "ec2-54-72-187-119.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.187.119",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "wk-in-f155.1e100.net.",
+      "ip_address": "74.125.206.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "static.186.67.46.78.clients.your-server.de.",
+      "ip_address": "78.46.67.186",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "h549.meetrics.de.",
+      "ip_address": "78.47.15.207",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "80.252.91.52",
+      "loc_city": "Haarlem",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.646400",
+      "loc_lat": "52.361300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "80.252.91.53",
+      "loc_city": "Haarlem",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.646400",
+      "loc_lat": "52.361300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "static.85-10-192-237.clients.your-server.de.",
+      "ip_address": "85.10.192.237",
+      "loc_city": "Roesrath",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "7.175900",
+      "loc_lat": "50.898000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "dsp.adfarm1.adition.com.",
+      "ip_address": "85.114.159.93",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "li1428-92.members.linode.com.",
+      "ip_address": "85.90.245.92",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "a88-221-62-40.deploy.static.akamaitechnologies.com.",
+      "ip_address": "88.221.62.40",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "89.163.159.110",
+      "loc_city": "Oelde",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.147200",
+      "loc_lat": "51.828900"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "script4.ioam.de.",
+      "ip_address": "91.215.100.39",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "script3.ioam.de.",
+      "ip_address": "91.215.103.64",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "93.190.67.198",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.barisefe.germanynewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "93.190.69.32",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
+  ]
+}

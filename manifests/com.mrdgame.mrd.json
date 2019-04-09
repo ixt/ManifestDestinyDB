@@ -1,0 +1,975 @@
+{
+  "appName": "Crazy Taxi",
+  "packageName": "com.mrdgame.mrd",
+  "category": "GAME_STRATEGY",
+  "icon": "",
+  "permissions": [
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.htc.launcher.permission.READ_SETTINGS",
+    "com.htc.launcher.permission.UPDATE_SHORTCUT",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
+    "com.majeur.launcher.permission.UPDATE_BADGE",
+    "com.sec.android.iap.permission.BILLING",
+    "android.permission.READ_EXTERNAL_STORAGE"
+  ],
+  "version": "1.4.1.1",
+  "trackers": [
+    "ironSource",
+    "AppsFlyer",
+    "Moat",
+    "Google DoubleClick",
+    "Google CrashLytics",
+    "Inmobi",
+    "AppLovin",
+    "AdColony",
+    "Facebook Login",
+    "Facebook Share",
+    "Google Ads",
+    "Facebook Analytics",
+    "Twitter MoPub",
+    "Facebook Ads",
+    "Unity3d Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-107-21-121-27.compute-1.amazonaws.com.",
+      "ip_address": "107.21.121.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "gru10s01-in-f10.1e100.net.",
+      "ip_address": "172.217.29.138",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-184-73-164-26.compute-1.amazonaws.com.",
+      "ip_address": "184.73.164.26",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "gru06s26-in-f10.1e100.net.",
+      "ip_address": "216.58.202.10",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "gru06s29-in-f130.1e100.net.",
+      "ip_address": "216.58.202.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "a23-198-178-205.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.198.178.205",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "edge-star-shv-01-eze1.facebook.com.",
+      "ip_address": "31.13.94.19",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-192-125-237.compute-1.amazonaws.com.",
+      "ip_address": "34.192.125.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-193-186-16.compute-1.amazonaws.com.",
+      "ip_address": "34.193.186.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-194-130-142.compute-1.amazonaws.com.",
+      "ip_address": "34.194.130.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-196-239-237.compute-1.amazonaws.com.",
+      "ip_address": "34.196.239.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-196-240-9.compute-1.amazonaws.com.",
+      "ip_address": "34.196.240.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-196-95-8.compute-1.amazonaws.com.",
+      "ip_address": "34.196.95.8",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-197-169-167.compute-1.amazonaws.com.",
+      "ip_address": "34.197.169.167",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-197-181-204.compute-1.amazonaws.com.",
+      "ip_address": "34.197.181.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-198-231-27.compute-1.amazonaws.com.",
+      "ip_address": "34.198.231.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-198-84-21.compute-1.amazonaws.com.",
+      "ip_address": "34.198.84.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-199-149-0.compute-1.amazonaws.com.",
+      "ip_address": "34.199.149.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-199-29-188.compute-1.amazonaws.com.",
+      "ip_address": "34.199.29.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-199-69-239.compute-1.amazonaws.com.",
+      "ip_address": "34.199.69.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-199-91-240.compute-1.amazonaws.com.",
+      "ip_address": "34.199.91.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-200-194-47.compute-1.amazonaws.com.",
+      "ip_address": "34.200.194.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-200-208-63.compute-1.amazonaws.com.",
+      "ip_address": "34.200.208.63",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-202-103-177.compute-1.amazonaws.com.",
+      "ip_address": "34.202.103.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-205-7-151.compute-1.amazonaws.com.",
+      "ip_address": "34.205.7.151",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-249-168-100.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.249.168.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-250-213-120.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.250.213.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-251-99-44.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.251.99.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-34-253-72-240.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.253.72.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-50-19-107-233.compute-1.amazonaws.com.",
+      "ip_address": "50.19.107.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-0-146-0.compute-1.amazonaws.com.",
+      "ip_address": "52.0.146.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-16-231-255.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.16.231.255",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-18-229-127.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.229.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-19-114-44.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.114.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-19-42-226.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.42.226",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-203-214-250.compute-1.amazonaws.com.",
+      "ip_address": "52.203.214.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-204-139-169.compute-1.amazonaws.com.",
+      "ip_address": "52.204.139.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-207-31-34.compute-1.amazonaws.com.",
+      "ip_address": "52.207.31.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-208-135-112.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.135.112",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-208-152-16.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.152.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-209-0-166.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.0.166",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-209-184-70.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.184.70",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-209-222-169.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.222.169",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-211-218-67.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.218.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-212-231-48.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.212.231.48",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-21-45-247.compute-1.amazonaws.com.",
+      "ip_address": "52.21.45.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-22-205-102.compute-1.amazonaws.com.",
+      "ip_address": "52.22.205.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-22-229-251.compute-1.amazonaws.com.",
+      "ip_address": "52.22.229.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-23-109-250.compute-1.amazonaws.com.",
+      "ip_address": "52.23.109.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-23-36-20.compute-1.amazonaws.com.",
+      "ip_address": "52.23.36.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-31-79-235.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.79.235",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-48-186-102.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.186.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-49-204-95.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.204.95",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-50-131-217.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.50.131.217",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-5-107-242.compute-1.amazonaws.com.",
+      "ip_address": "52.5.107.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-51-111-148.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.111.148",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-52-6-76-242.compute-1.amazonaws.com.",
+      "ip_address": "52.6.76.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "server-52-84-127-161.iad16.r.cloudfront.net.",
+      "ip_address": "52.84.127.161",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "server-52-84-127-232.iad16.r.cloudfront.net.",
+      "ip_address": "52.84.127.232",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-154-107-15.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.107.15",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-154-73-253.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.73.253",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-159-202-197.compute-1.amazonaws.com.",
+      "ip_address": "54.159.202.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-160-20-15.compute-1.amazonaws.com.",
+      "ip_address": "54.160.20.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-164-64-22.compute-1.amazonaws.com.",
+      "ip_address": "54.164.64.22",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-171-26-243.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.26.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-171-33-187.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.33.187",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-171-42-50.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.42.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-174-97-247.compute-1.amazonaws.com.",
+      "ip_address": "54.174.97.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-175-251-224.compute-1.amazonaws.com.",
+      "ip_address": "54.175.251.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "server-54-192-59-157.gru1.r.cloudfront.net.",
+      "ip_address": "54.192.59.157",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "server-54-192-59-195.gru1.r.cloudfront.net.",
+      "ip_address": "54.192.59.195",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "server-54-192-59-199.gru1.r.cloudfront.net.",
+      "ip_address": "54.192.59.199",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "server-54-192-59-237.gru1.r.cloudfront.net.",
+      "ip_address": "54.192.59.237",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "server-54-192-59-25.gru1.r.cloudfront.net.",
+      "ip_address": "54.192.59.25",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "server-54-192-59-30.gru1.r.cloudfront.net.",
+      "ip_address": "54.192.59.30",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-194-49-47.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.194.49.47",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com.",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-225-171-89.compute-1.amazonaws.com.",
+      "ip_address": "54.225.171.89",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-225-247-232.compute-1.amazonaws.com.",
+      "ip_address": "54.225.247.232",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-229-143-59.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.143.59",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-229-91-86.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.91.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-235-132-180.compute-1.amazonaws.com.",
+      "ip_address": "54.235.132.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-236-157-132.compute-1.amazonaws.com.",
+      "ip_address": "54.236.157.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-242-169-225.compute-1.amazonaws.com.",
+      "ip_address": "54.242.169.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-243-105-175.compute-1.amazonaws.com.",
+      "ip_address": "54.243.105.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-243-67-153.compute-1.amazonaws.com.",
+      "ip_address": "54.243.67.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-72-11-202.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.11.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-72-30-63.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.30.63",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-72-4-255.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.4.255",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-77-153-133.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.153.133",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-77-92-106.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.92.106",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "ec2-54-85-19-120.compute-1.amazonaws.com.",
+      "ip_address": "54.85.19.120",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mrdgame.mrd",
+      "ptr_domain": "a72-246-212-139.deploy.static.akamaitechnologies.com.",
+      "ip_address": "72.246.212.139",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

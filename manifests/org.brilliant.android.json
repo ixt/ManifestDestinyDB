@@ -1,0 +1,590 @@
+{
+  "appName": "Brilliant",
+  "packageName": "org.brilliant.android",
+  "category": "EDUCATION",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.VIBRATE",
+    "org.brilliant.android.permission.C2D_MESSAGE",
+    "org.brilliant.android.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "4.2.2",
+  "trackers": [
+    "Facebook Analytics",
+    "Branch",
+    "Facebook Login",
+    "Amplitude",
+    "Facebook Places",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-107-21-109-56.compute-1.amazonaws.com.",
+      "ip_address": "107.21.109.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-107-21-239-97.compute-1.amazonaws.com.",
+      "ip_address": "107.21.239.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-107-21-251-92.compute-1.amazonaws.com.",
+      "ip_address": "107.21.251.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-107-22-162-79.compute-1.amazonaws.com.",
+      "ip_address": "107.22.162.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com.",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-107-22-238-216.compute-1.amazonaws.com.",
+      "ip_address": "107.22.238.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com.",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "16.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "b6.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.182",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord38s04-in-f2.1e100.net.",
+      "ip_address": "172.217.0.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord37s07-in-f34.1e100.net.",
+      "ip_address": "172.217.1.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "den16s03-in-f2.1e100.net.",
+      "ip_address": "172.217.2.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord38s01-in-f2.1e100.net.",
+      "ip_address": "172.217.6.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord37s03-in-f98.1e100.net.",
+      "ip_address": "172.217.6.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord37s08-in-f2.1e100.net.",
+      "ip_address": "172.217.8.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord37s09-in-f2.1e100.net.",
+      "ip_address": "172.217.8.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "lga34s11-in-f2.1e100.net.",
+      "ip_address": "172.217.9.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord38s08-in-f2.1e100.net.",
+      "ip_address": "172.217.9.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord38s09-in-f2.1e100.net.",
+      "ip_address": "172.217.9.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.32.186",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-184-73-219-223.compute-1.amazonaws.com.",
+      "ip_address": "184.73.219.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-184-73-246-238.compute-1.amazonaws.com.",
+      "ip_address": "184.73.246.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord30s25-in-f2.1e100.net.",
+      "ip_address": "216.58.192.194",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord30s26-in-f226.1e100.net.",
+      "ip_address": "216.58.192.226",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord31s21-in-f2.1e100.net.",
+      "ip_address": "216.58.216.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord31s22-in-f226.1e100.net.",
+      "ip_address": "216.58.216.226",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ord30s21-in-f66.1e100.net.",
+      "ip_address": "216.58.216.66",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-23-21-109-80.compute-1.amazonaws.com.",
+      "ip_address": "23.21.109.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-23-21-118-60.compute-1.amazonaws.com.",
+      "ip_address": "23.21.118.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f00b:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "edge-star-shv-01-vie1.facebook.com.",
+      "ip_address": "31.13.84.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-35-163-135-126.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.163.135.126",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-35-165-210-165.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.165.210.165",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-35-167-179-96.us-west-2.compute.amazonaws.com.",
+      "ip_address": "35.167.179.96",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-50-16-218-218.compute-1.amazonaws.com.",
+      "ip_address": "50.16.218.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-50-16-247-225.compute-1.amazonaws.com.",
+      "ip_address": "50.16.247.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-50-17-219-135.compute-1.amazonaws.com.",
+      "ip_address": "50.17.219.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-50-17-244-57.compute-1.amazonaws.com.",
+      "ip_address": "50.17.244.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-50-19-220-208.compute-1.amazonaws.com.",
+      "ip_address": "50.19.220.208",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-52-24-196-36.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.24.196.36",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-52-24-233-48.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.24.233.48",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "server-52-84-56-47.ord51.r.cloudfront.net.",
+      "ip_address": "52.84.56.47",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-52-88-79-183.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.88.79.183",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-204-4-24.compute-1.amazonaws.com.",
+      "ip_address": "54.204.4.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-213-229-196.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.213.229.196",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-221-230-67.compute-1.amazonaws.com.",
+      "ip_address": "54.221.230.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-225-162-48.compute-1.amazonaws.com.",
+      "ip_address": "54.225.162.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-225-170-49.compute-1.amazonaws.com.",
+      "ip_address": "54.225.170.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-225-204-178.compute-1.amazonaws.com.",
+      "ip_address": "54.225.204.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com.",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "server-54-230-50-144.jfk5.r.cloudfront.net.",
+      "ip_address": "54.230.50.144",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-243-112-174.compute-1.amazonaws.com.",
+      "ip_address": "54.243.112.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-243-133-174.compute-1.amazonaws.com.",
+      "ip_address": "54.243.133.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-243-148-175.compute-1.amazonaws.com.",
+      "ip_address": "54.243.148.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.brilliant.android",
+      "ptr_domain": "ec2-54-243-231-36.compute-1.amazonaws.com.",
+      "ip_address": "54.243.231.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

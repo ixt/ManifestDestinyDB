@@ -1,0 +1,2741 @@
+{
+  "appName": "Boxer",
+  "packageName": "com.boxer.email",
+  "category": "BUSINESS",
+  "icon": "",
+  "permissions": [
+    "android.permission.CALL_PHONE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.READ_SYNC_SETTINGS",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.READ_CALENDAR",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.READ_PROFILE",
+    "android.permission.NFC",
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.READ_SYNC_STATS",
+    "com.airwatch.enrollment.permission.NOTIFYCOMPLETE",
+    "android.permission.WRITE_PROFILE",
+    "android.permission.CAMERA",
+    "com.boxer.email.permission.SIGNATURE",
+    "com.boxer.email.permission.SIGNATURE",
+    "com.boxer.email.permission.SIGNATURE_OR_SYSTEM",
+    "com.boxer.email.permission.SIGNATURE_OR_SYSTEM",
+    "android.permission.USE_FINGERPRINT",
+    "com.airwatch.email.permission.ACCESS_PROVIDER",
+    "com.android.alarm.permission.SET_ALARM",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.infraware.office.permissions.NotifyPermissionsActivity"
+  ],
+  "version": "5.5.0.3",
+  "trackers": [
+    "MixPanel",
+    "Apteligent by VMWare"
+  ],
+  "network_connections": [
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "104.130.195.114",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "104.130.195.72",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "104.130.219.112",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.92.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.93.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.94.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.95.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.96.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "104.193.83.57",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "a104-90-38-80.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.90.38.80",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "65.254.178.107.bc.googleusercontent.com.",
+      "ip_address": "107.178.254.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-107-20-220-24.compute-1.amazonaws.com.",
+      "ip_address": "107.20.220.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-107-21-109-56.compute-1.amazonaws.com.",
+      "ip_address": "107.21.109.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-107-21-115-231.compute-1.amazonaws.com.",
+      "ip_address": "107.21.115.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-107-22-189-83.compute-1.amazonaws.com.",
+      "ip_address": "107.22.189.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-107-23-134-227.compute-1.amazonaws.com.",
+      "ip_address": "107.23.134.227",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "a118-215-158-216.deploy.static.akamaitechnologies.com.",
+      "ip_address": "118.215.158.216",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "128.146.43.192",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.126000",
+      "loc_lat": "39.964800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "128.146.43.193",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.126000",
+      "loc_lat": "39.964800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "129.146.12.99",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "129.146.13.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "129.146.14.96",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "mailproxy.in.tum.de.",
+      "ip_address": "131.159.0.78",
+      "loc_city": "Munich",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "11.585000",
+      "loc_lat": "48.149700"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "132.245.72.114",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.493500",
+      "loc_lat": "29.424700"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-13-32-188-138.atl51.r.cloudfront.net.",
+      "ip_address": "13.32.188.138",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-13-32-188-167.atl51.r.cloudfront.net.",
+      "ip_address": "13.32.188.167",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-13-32-188-248.atl51.r.cloudfront.net.",
+      "ip_address": "13.32.188.248",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-13-32-188-39.atl51.r.cloudfront.net.",
+      "ip_address": "13.32.188.39",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-13-32-188-49.atl51.r.cloudfront.net.",
+      "ip_address": "13.32.188.49",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-13-32-205-72.sea19.r.cloudfront.net.",
+      "ip_address": "13.32.205.72",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "139.61.74.125",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "140.254.49.71",
+      "loc_city": "Galloway",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.183800",
+      "loc_lat": "39.936600"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "156.154.200.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "d1.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.209",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "14.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "40.1e.2fa9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.47.30.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.539000",
+      "loc_lat": "39.018000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "b.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "d.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "10.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "11.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "17.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "1a.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.26",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "1d.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.29",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "1e.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "24.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "8.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "9.81.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.129.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "82.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "84.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "8b.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.139",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "af.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.175",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "b8.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ba.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.186",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "c0.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.192",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "c4.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.196",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "cb.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.203",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "lga25s62-in-f2.1e100.net.",
+      "ip_address": "172.217.12.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "maa03s23-in-f3.1e100.net.",
+      "ip_address": "172.217.26.195",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ord37s09-in-f6.1e100.net.",
+      "ip_address": "172.217.8.198",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-174-129-230-48.compute-1.amazonaws.com.",
+      "ip_address": "174.129.230.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-184-72-251-121.compute-1.amazonaws.com.",
+      "ip_address": "184.72.251.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-184-73-183-50.compute-1.amazonaws.com.",
+      "ip_address": "184.73.183.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-184-73-219-223.compute-1.amazonaws.com.",
+      "ip_address": "184.73.219.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "192.30.68.52",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "192.30.71.115",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "192.30.71.44",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "193.127.193.138",
+      "loc_city": "Madrid",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.701600",
+      "loc_lat": "40.414300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "193.127.193.146",
+      "loc_city": "Madrid",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.701600",
+      "loc_lat": "40.414300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "198.51.152.183",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "198.8.70.211",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "segmdm.mydrreddys.com.",
+      "ip_address": "202.3.66.206",
+      "loc_city": "Yakutpura",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "78.489600",
+      "loc_lat": "17.361300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "dsmdm.mydrreddys.com.",
+      "ip_address": "202.3.66.210",
+      "loc_city": "Yakutpura",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "78.489600",
+      "loc_lat": "17.361300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com.",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "origin-media.geico.com.",
+      "ip_address": "205.143.207.28",
+      "loc_city": "Rockville",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.119500",
+      "loc_lat": "39.046200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "sjc02-login.dotomi.com.",
+      "ip_address": "205.180.87.140",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "sjc04-login.dotomi.com.",
+      "ip_address": "205.180.87.172",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "sjc06-usadmm.dotomi.com.",
+      "ip_address": "205.180.87.201",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "207.46.11.151",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "vip0x013.map2.ssl.hwcdn.net.",
+      "ip_address": "209.197.3.19",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "216.200.233.104",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "qro02s11-in-f14.1e100.net.",
+      "ip_address": "216.58.193.14",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "bom05s08-in-f163.1e100.net.",
+      "ip_address": "216.58.199.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "mil04s28-in-f161.1e100.net.",
+      "ip_address": "216.58.205.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "del01s08-in-f202.1e100.net.",
+      "ip_address": "216.58.220.202",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "hkg12s16-in-f14.1e100.net.",
+      "ip_address": "216.58.220.206",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "a2-17-200-23.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.17.200.23",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "220.226.177.183",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "a23-203-252-95.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.203.252.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-23-21-219-171.compute-1.amazonaws.com.",
+      "ip_address": "23.21.219.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-23-21-73-229.compute-1.amazonaws.com.",
+      "ip_address": "23.21.73.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-23-21-79-77.compute-1.amazonaws.com.",
+      "ip_address": "23.21.79.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com.",
+      "ip_address": "23.23.112.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-23-23-140-207.compute-1.amazonaws.com.",
+      "ip_address": "23.23.140.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-23-23-168-96.compute-1.amazonaws.com.",
+      "ip_address": "23.23.168.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-23-23-254-42.compute-1.amazonaws.com.",
+      "ip_address": "23.23.254.42",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "a23-72-53-116.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.72.53.116",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6810:5c41",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6810:5e41",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6810:5f41",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "24.75.59.28",
+      "loc_city": "Buffalo",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.749200",
+      "loc_lat": "42.968500"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "lga34s13-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4006:803::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ord37s08-in-x05.1e100.net.",
+      "ip_address": "2607:f8b0:4009:803::2005",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "edge-atlas6-shv-01-ort2.facebook.com.",
+      "ip_address": "2a03:2880:f027:6:face:b00c:0:8c",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-34-192-121-38.compute-1.amazonaws.com.",
+      "ip_address": "34.192.121.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-34-192-187-63.compute-1.amazonaws.com.",
+      "ip_address": "34.192.187.63",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-34-202-3-68.compute-1.amazonaws.com.",
+      "ip_address": "34.202.3.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-34-205-105-163.compute-1.amazonaws.com.",
+      "ip_address": "34.205.105.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-34-205-227-217.compute-1.amazonaws.com.",
+      "ip_address": "34.205.227.217",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-34-206-209-18.compute-1.amazonaws.com.",
+      "ip_address": "34.206.209.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.100.136.18",
+      "loc_city": "Chennai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "80.280500",
+      "loc_lat": "13.084300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.100.136.2",
+      "loc_city": "Chennai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "80.280500",
+      "loc_lat": "13.084300"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.100.138.18",
+      "loc_city": "Pune",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "73.862600",
+      "loc_lat": "18.533200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.100.138.2",
+      "loc_city": "Pune",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "73.862600",
+      "loc_lat": "18.533200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.100.140.114",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.100.140.130",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.100.140.18",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.100.140.2",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.96.0.114",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.104.2",
+      "loc_city": "Cheyenne",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-104.819300",
+      "loc_lat": "41.139900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.115.50",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.116.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.116.82",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.125.114",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.126.178",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.126.50",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.128.210",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.128.226",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.132.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.133.146",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.134.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.142.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.144.74",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.148.226",
+      "loc_city": "Cheyenne",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-104.819300",
+      "loc_lat": "41.139900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.155.210",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.162.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.164.146",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.166.34",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.169.10",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.170.162",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.170.178",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "40.97.80.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-17-195-39.compute-1.amazonaws.com.",
+      "ip_address": "50.17.195.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-17-205-178.compute-1.amazonaws.com.",
+      "ip_address": "50.17.205.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-17-211-253.compute-1.amazonaws.com.",
+      "ip_address": "50.17.211.253",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-17-219-135.compute-1.amazonaws.com.",
+      "ip_address": "50.17.219.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-17-237-255.compute-1.amazonaws.com.",
+      "ip_address": "50.17.237.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-18-173-48.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.173.48",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-18-173-83.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.173.83",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-18-61-144.us-west-1.compute.amazonaws.com.",
+      "ip_address": "50.18.61.144",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-19-122-55.compute-1.amazonaws.com.",
+      "ip_address": "50.19.122.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-19-227-71.compute-1.amazonaws.com.",
+      "ip_address": "50.19.227.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-19-245-144.compute-1.amazonaws.com.",
+      "ip_address": "50.19.245.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-50-19-246-191.compute-1.amazonaws.com.",
+      "ip_address": "50.19.246.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-16-153-197.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.16.153.197",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-201-117-78.compute-1.amazonaws.com.",
+      "ip_address": "52.201.117.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-202-130-59.compute-1.amazonaws.com.",
+      "ip_address": "52.202.130.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-205-164-116.compute-1.amazonaws.com.",
+      "ip_address": "52.205.164.116",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-206-65-84.compute-1.amazonaws.com.",
+      "ip_address": "52.206.65.84",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-213-135-55.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.213.135.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-222-135-179.bom51.r.cloudfront.net.",
+      "ip_address": "52.222.135.179",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-222-135-202.bom51.r.cloudfront.net.",
+      "ip_address": "52.222.135.202",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-222-135-240.bom51.r.cloudfront.net.",
+      "ip_address": "52.222.135.240",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-222-135-248.bom51.r.cloudfront.net.",
+      "ip_address": "52.222.135.248",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-222-135-36.bom51.r.cloudfront.net.",
+      "ip_address": "52.222.135.36",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-222-135-8.bom51.r.cloudfront.net.",
+      "ip_address": "52.222.135.8",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-222-183-198.bom52.r.cloudfront.net.",
+      "ip_address": "52.222.183.198",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-34-25-25.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.34.25.25",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-35-142-235.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.35.142.235",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-42-159-231.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.42.159.231",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-45-72-237.compute-1.amazonaws.com.",
+      "ip_address": "52.45.72.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-4-75-22.compute-1.amazonaws.com.",
+      "ip_address": "52.4.75.22",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-5-250-84.compute-1.amazonaws.com.",
+      "ip_address": "52.5.250.84",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-6-185-139.compute-1.amazonaws.com.",
+      "ip_address": "52.6.185.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-7-103-183.compute-1.amazonaws.com.",
+      "ip_address": "52.7.103.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-133.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.133",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-146.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.146",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-166.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.166",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-172.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.172",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-196.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.196",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-206.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.206",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-209.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.209",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-248.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.248",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-39.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.39",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-59.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.59",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-65.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.65",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-105-68.del51.r.cloudfront.net.",
+      "ip_address": "52.84.105.68",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-137.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.137",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-140.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.140",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-156.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.156",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-176.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.176",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-194.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.194",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-196.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.196",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-230.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.230",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-243.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.243",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-30.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.30",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-40-73.ewr50.r.cloudfront.net.",
+      "ip_address": "52.84.40.73",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-56-198.ord51.r.cloudfront.net.",
+      "ip_address": "52.84.56.198",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-56-230.ord51.r.cloudfront.net.",
+      "ip_address": "52.84.56.230",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-56-254.ord51.r.cloudfront.net.",
+      "ip_address": "52.84.56.254",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-56-40.ord51.r.cloudfront.net.",
+      "ip_address": "52.84.56.40",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-56-59.ord51.r.cloudfront.net.",
+      "ip_address": "52.84.56.59",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-56-63.ord51.r.cloudfront.net.",
+      "ip_address": "52.84.56.63",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-56-64.ord51.r.cloudfront.net.",
+      "ip_address": "52.84.56.64",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-76-175.atl52.r.cloudfront.net.",
+      "ip_address": "52.84.76.175",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-76-237.atl52.r.cloudfront.net.",
+      "ip_address": "52.84.76.237",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-84-76-69.atl52.r.cloudfront.net.",
+      "ip_address": "52.84.76.69",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-52-85-69-89.lhr5.r.cloudfront.net.",
+      "ip_address": "52.85.69.89",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-52-88-179-73.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.88.179.73",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-192-119-223.sfo9.r.cloudfront.net.",
+      "ip_address": "54.192.119.223",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-192-27-147.mxp4.r.cloudfront.net.",
+      "ip_address": "54.192.27.147",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-192-27-216.mxp4.r.cloudfront.net.",
+      "ip_address": "54.192.27.216",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-192-27-88.mxp4.r.cloudfront.net.",
+      "ip_address": "54.192.27.88",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-192-44-211.fra6.r.cloudfront.net.",
+      "ip_address": "54.192.44.211",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-192-98-147.arn1.r.cloudfront.net.",
+      "ip_address": "54.192.98.147",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-192-98-163.arn1.r.cloudfront.net.",
+      "ip_address": "54.192.98.163",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-192-98-68.arn1.r.cloudfront.net.",
+      "ip_address": "54.192.98.68",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-197-237-178.compute-1.amazonaws.com.",
+      "ip_address": "54.197.237.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-197-254-190.compute-1.amazonaws.com.",
+      "ip_address": "54.197.254.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-225-174-11.compute-1.amazonaws.com.",
+      "ip_address": "54.225.174.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-225-185-191.compute-1.amazonaws.com.",
+      "ip_address": "54.225.185.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-225-215-149.compute-1.amazonaws.com.",
+      "ip_address": "54.225.215.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-225-235-202.compute-1.amazonaws.com.",
+      "ip_address": "54.225.235.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-227-237-88.compute-1.amazonaws.com.",
+      "ip_address": "54.227.237.88",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-143-179.sfo5.r.cloudfront.net.",
+      "ip_address": "54.230.143.179",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-159-177.sin3.r.cloudfront.net.",
+      "ip_address": "54.230.159.177",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-159-193.sin3.r.cloudfront.net.",
+      "ip_address": "54.230.159.193",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-159-208.sin3.r.cloudfront.net.",
+      "ip_address": "54.230.159.208",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-159-233.sin3.r.cloudfront.net.",
+      "ip_address": "54.230.159.233",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-159-246.sin3.r.cloudfront.net.",
+      "ip_address": "54.230.159.246",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-159-70.sin3.r.cloudfront.net.",
+      "ip_address": "54.230.159.70",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-159-85.sin3.r.cloudfront.net.",
+      "ip_address": "54.230.159.85",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-159-98.sin3.r.cloudfront.net.",
+      "ip_address": "54.230.159.98",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-79-124.cdg50.r.cloudfront.net.",
+      "ip_address": "54.230.79.124",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-79-141.cdg50.r.cloudfront.net.",
+      "ip_address": "54.230.79.141",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-79-154.cdg50.r.cloudfront.net.",
+      "ip_address": "54.230.79.154",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-79-163.cdg50.r.cloudfront.net.",
+      "ip_address": "54.230.79.163",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-79-203.cdg50.r.cloudfront.net.",
+      "ip_address": "54.230.79.203",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-79-223.cdg50.r.cloudfront.net.",
+      "ip_address": "54.230.79.223",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-79-54.cdg50.r.cloudfront.net.",
+      "ip_address": "54.230.79.54",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-230-79-67.cdg50.r.cloudfront.net.",
+      "ip_address": "54.230.79.67",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-235-142-235.compute-1.amazonaws.com.",
+      "ip_address": "54.235.142.235",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-235-168-75.compute-1.amazonaws.com.",
+      "ip_address": "54.235.168.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-235-191-172.compute-1.amazonaws.com.",
+      "ip_address": "54.235.191.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-240-184-147.ams50.r.cloudfront.net.",
+      "ip_address": "54.240.184.147",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-240-184-241.ams50.r.cloudfront.net.",
+      "ip_address": "54.240.184.241",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "server-54-240-184-75.ams50.r.cloudfront.net.",
+      "ip_address": "54.240.184.75",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-243-104-248.compute-1.amazonaws.com.",
+      "ip_address": "54.243.104.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-243-116-171.compute-1.amazonaws.com.",
+      "ip_address": "54.243.116.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-243-160-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.160.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-243-177-201.compute-1.amazonaws.com.",
+      "ip_address": "54.243.177.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-243-182-104.compute-1.amazonaws.com.",
+      "ip_address": "54.243.182.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-243-214-67.compute-1.amazonaws.com.",
+      "ip_address": "54.243.214.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-243-245-38.compute-1.amazonaws.com.",
+      "ip_address": "54.243.245.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com.",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-83-202-53.compute-1.amazonaws.com.",
+      "ip_address": "54.83.202.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "ec2-54-87-92-21.compute-1.amazonaws.com.",
+      "ip_address": "54.87.92.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "mobile.toyota-kirloskar.co.in.",
+      "ip_address": "59.160.139.110",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.88.56",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "dmppixel-shared-mtc-c.evip.aol.com.",
+      "ip_address": "64.12.245.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "65.55.68.104",
+      "loc_city": "Redmond",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.125700",
+      "loc_lat": "47.672200"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "65.55.68.119",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.493500",
+      "loc_lat": "29.424700"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "65.55.68.120",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.493500",
+      "loc_lat": "29.424700"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "69.169.86.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "69.169.86.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "COX-70-184-31-8-static.coxinet.net.",
+      "ip_address": "70.184.31.8",
+      "loc_city": "Oklahoma City",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.446000",
+      "loc_lat": "35.444900"
+    },
+    {
+      "package": "com.boxer.email",
+      "ptr_domain": "N/A",
+      "ip_address": "74.119.118.82",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

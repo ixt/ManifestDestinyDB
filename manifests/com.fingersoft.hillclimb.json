@@ -1,0 +1,634 @@
+{
+  "appName": "Hill Climb Racing",
+  "packageName": "com.fingersoft.hillclimb",
+  "category": "GAME_RACING",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_PHONE_STATE",
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "1.41.0",
+  "trackers": [
+    "ChartBoost",
+    "Google Ads",
+    "Google DoubleClick",
+    "AdColony",
+    "Google CrashLytics",
+    "Facebook Ads",
+    "Moat",
+    "Inmobi",
+    "AppLovin",
+    "ironSource",
+    "AppsFlyer",
+    "Unity3d Ads",
+    "Facebook Analytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "N/A",
+      "ip_address": "103.251.109.106",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "a104-68-112-184.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.68.112.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "a104-68-113-21.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.68.113.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-107-22-230-44.compute-1.amazonaws.com.",
+      "ip_address": "107.22.230.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "N/A",
+      "ip_address": "138.108.6.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "N/A",
+      "ip_address": "138.108.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "N/A",
+      "ip_address": "155.94.118.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "iad30s10-in-f193.1e100.net.",
+      "ip_address": "172.217.7.193",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "iad30s10-in-f2.1e100.net.",
+      "ip_address": "172.217.7.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "iad23s58-in-f2.1e100.net.",
+      "ip_address": "172.217.7.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "N/A",
+      "ip_address": "173.245.116.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "N/A",
+      "ip_address": "174.76.226.11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "N/A",
+      "ip_address": "174.76.226.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "a198-189-255-206.deploy.akamaitechnologies.com.",
+      "ip_address": "198.189.255.206",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "36-124-232-198.static.unitasglobal.net.",
+      "ip_address": "198.232.124.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "113-125-232-198.static.unitasglobal.net.",
+      "ip_address": "198.232.125.113",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "vip0x055.map2.ssl.hwcdn.net.",
+      "ip_address": "209.197.3.85",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "a23-206-228-10.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.206.228.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "a23-67-250-106.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.67.250.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "sfo03s01-in-x02.1e100.net.",
+      "ip_address": "2607:f8b0:4005:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "sfo03s06-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4005:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-34-197-169-167.compute-1.amazonaws.com.",
+      "ip_address": "34.197.169.167",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-34-199-1-10.compute-1.amazonaws.com.",
+      "ip_address": "34.199.1.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-34-199-173-79.compute-1.amazonaws.com.",
+      "ip_address": "34.199.173.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-34-200-180-212.compute-1.amazonaws.com.",
+      "ip_address": "34.200.180.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-34-207-39-0.compute-1.amazonaws.com.",
+      "ip_address": "34.207.39.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-34-210-189-72.us-west-2.compute.amazonaws.com.",
+      "ip_address": "34.210.189.72",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "d-atl1.turn.com.",
+      "ip_address": "50.116.194.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-0-240-95.compute-1.amazonaws.com.",
+      "ip_address": "52.0.240.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-1-181-148.compute-1.amazonaws.com.",
+      "ip_address": "52.1.181.148",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-16-218-102.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.16.218.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-19-168-67.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.168.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-19-57-74.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.57.74",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-20-174-111.compute-1.amazonaws.com.",
+      "ip_address": "52.20.174.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-203-214-250.compute-1.amazonaws.com.",
+      "ip_address": "52.203.214.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-204-244-173.compute-1.amazonaws.com.",
+      "ip_address": "52.204.244.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-205-57-86.compute-1.amazonaws.com.",
+      "ip_address": "52.205.57.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-21-149-149.compute-1.amazonaws.com.",
+      "ip_address": "52.21.149.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-212-120-179.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.212.120.179",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-213-118-102.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.213.118.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-22-90-231.compute-1.amazonaws.com.",
+      "ip_address": "52.22.90.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-32-242-198.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.32.242.198",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-4-19-28.compute-1.amazonaws.com.",
+      "ip_address": "52.4.19.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-45-118-61.compute-1.amazonaws.com.",
+      "ip_address": "52.45.118.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-48-202-137.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.202.137",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-51-196-221.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.196.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-52-5-245-241.compute-1.amazonaws.com.",
+      "ip_address": "52.5.245.241",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-54-146-38-96.compute-1.amazonaws.com.",
+      "ip_address": "54.146.38.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-54-183-159-220.us-west-1.compute.amazonaws.com.",
+      "ip_address": "54.183.159.220",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-54-209-9-29.compute-1.amazonaws.com.",
+      "ip_address": "54.209.9.29",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-54-229-143-59.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.143.59",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-54-229-235-132.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.235.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "server-54-230-6-178.dfw3.r.cloudfront.net.",
+      "ip_address": "54.230.6.178",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-54-246-201-54.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.246.201.54",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-54-75-228-16.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.75.228.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-54-80-199-215.compute-1.amazonaws.com.",
+      "ip_address": "54.80.199.215",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-54-89-6-89.compute-1.amazonaws.com.",
+      "ip_address": "54.89.6.89",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
+      "ip_address": "74.6.34.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fingersoft.hillclimb",
+      "ptr_domain": "ec2-79-125-104-24.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "79.125.104.24",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
+  ]
+}

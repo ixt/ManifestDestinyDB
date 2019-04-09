@@ -1,0 +1,536 @@
+{
+  "appName": "Australia Newspapers",
+  "packageName": "com.barisefe.australianewspapers",
+  "category": "NEWS_AND_MAGAZINES",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "2.2.3.1",
+  "trackers": [
+    "Google DoubleClick",
+    "Inmobi",
+    "Facebook Ads",
+    "Google CrashLytics",
+    "Flurry",
+    "Google Ads",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "175.bm-nginx-loadbalancer.mgmt.sin1.adnexus.net.",
+      "ip_address": "103.243.220.231",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "151.bm-nginx-loadbalancer.mgmt.sin1.adnexus.net.",
+      "ip_address": "103.243.221.87",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "a104-116-136-181.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.116.136.181",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "a104-116-146-209.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.116.146.209",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "a104-116-76-98.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.116.76.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "a104-124-249-171.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.124.249.171",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.136",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "tm-in-f154.1e100.net.",
+      "ip_address": "108.177.97.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "UNKNOWN-124-108-101-X.yahoo.com.",
+      "ip_address": "124.108.101.11",
+      "loc_city": "N/A",
+      "loc_country": "Hong Kong",
+      "loc_continent": "Asia",
+      "loc_long": "114.166700",
+      "loc_lat": "22.250000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "a125-56-176-119.deploy.static.akamaitechnologies.com.",
+      "ip_address": "125.56.176.119",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-13-54-122-151.ap-southeast-2.compute.amazonaws.com.",
+      "ip_address": "13.54.122.151",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "138.108.140.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "138.108.50.100",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.399400",
+      "loc_lat": "37.797600"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "192.0.73.2",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "i1.wp.com.",
+      "ip_address": "192.0.77.2",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "wordpress.com.",
+      "ip_address": "192.0.77.32",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "202.167.242.166",
+      "loc_city": "N/A",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.690000",
+      "loc_lat": "35.690000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "202.177.203.125",
+      "loc_city": "N/A",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.690000",
+      "loc_lat": "35.690000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "a-0001.a-msedge.net.",
+      "ip_address": "204.79.197.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd15s04-in-f2.1e100.net.",
+      "ip_address": "216.58.196.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd09s14-in-f2.1e100.net.",
+      "ip_address": "216.58.200.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd09s15-in-f6.1e100.net.",
+      "ip_address": "216.58.203.102",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd09s15-in-f2.1e100.net.",
+      "ip_address": "216.58.203.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "a23-15-102-23.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.15.102.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-23-23-175-171.compute-1.amazonaws.com.",
+      "ip_address": "23.23.175.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "a23-53-147-166.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.53.147.166",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd15s02-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4006:802::2002",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd09s06-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4006:802::200a",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd09s12-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4006:803::2001",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd09s12-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4006:803::200a",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd15s01-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4006:806::2002",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd09s14-in-x04.1e100.net.",
+      "ip_address": "2404:6800:4006:808::2004",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "syd09s15-in-x06.1e100.net.",
+      "ip_address": "2404:6800:4006:809::2006",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "xx-fbcdn6-shv-01-hkg3.fbcdn.net.",
+      "ip_address": "2a03:2880:f002:110:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "edge-star-mini6-shv-02-hkg3.facebook.com.",
+      "ip_address": "2a03:2880:f102:183:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "edge-star-mini6-shv-01-hkg3.facebook.com.",
+      "ip_address": "2a03:2880:f102:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-52-196-181-176.ap-northeast-1.compute.amazonaws.com.",
+      "ip_address": "52.196.181.176",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-52-198-226-225.ap-northeast-1.compute.amazonaws.com.",
+      "ip_address": "52.198.226.225",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-52-220-165-122.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.220.165.122",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-52-63-195-65.ap-southeast-2.compute.amazonaws.com.",
+      "ip_address": "52.63.195.65",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-52-63-65-211.ap-southeast-2.compute.amazonaws.com.",
+      "ip_address": "52.63.65.211",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-52-64-112-142.ap-southeast-2.compute.amazonaws.com.",
+      "ip_address": "52.64.112.142",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-52-74-241-22.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.74.241.22",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "server-54-192-75-123.hkg50.r.cloudfront.net.",
+      "ip_address": "54.192.75.123",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "server-54-230-240-15.mel50.r.cloudfront.net.",
+      "ip_address": "54.230.240.15",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-54-238-188-10.ap-northeast-1.compute.amazonaws.com.",
+      "ip_address": "54.238.188.10",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com.",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-54-65-190-153.ap-northeast-1.compute.amazonaws.com.",
+      "ip_address": "54.65.190.153",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "ec2-54-66-177-59.ap-southeast-2.compute.amazonaws.com.",
+      "ip_address": "54.66.177.59",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "secure.brightcove.com.",
+      "ip_address": "64.74.101.79",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.barisefe.australianewspapers",
+      "ptr_domain": "N/A",
+      "ip_address": "66.150.102.76",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

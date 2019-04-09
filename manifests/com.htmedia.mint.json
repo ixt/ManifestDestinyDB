@@ -1,0 +1,463 @@
+{
+  "appName": "Mint",
+  "packageName": "com.htmedia.mint",
+  "category": "NEWS_AND_MAGAZINES",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "version": "3.0.2",
+  "trackers": [
+    "Brightcove",
+    "Facebook Share",
+    "Facebook Login",
+    "Google Analytics",
+    "Facebook Analytics",
+    "Google CrashLytics",
+    "Google DoubleClick",
+    "Snowplow",
+    "ComScore",
+    "Google Firebase Analytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "a104-120-164-131.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.120.164.131",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "57.247.178.107.bc.googleusercontent.com.",
+      "ip_address": "107.178.247.57",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "maa03s22-in-f162.1e100.net.",
+      "ip_address": "172.217.26.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "maa03s23-in-f1.1e100.net.",
+      "ip_address": "172.217.26.193",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "maa03s23-in-f2.1e100.net.",
+      "ip_address": "172.217.26.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "bom05s09-in-f10.1e100.net.",
+      "ip_address": "172.217.26.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "sin11s04-in-f98.1e100.net.",
+      "ip_address": "172.217.27.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "maa03s20-in-f34.1e100.net.",
+      "ip_address": "216.58.197.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "maa03s21-in-f1.1e100.net.",
+      "ip_address": "216.58.197.65",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "maa03s21-in-f66.1e100.net.",
+      "ip_address": "216.58.197.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "bom07s01-in-f130.1e100.net.",
+      "ip_address": "216.58.199.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "bom07s01-in-f142.1e100.net.",
+      "ip_address": "216.58.199.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "bom05s08-in-f2.1e100.net.",
+      "ip_address": "216.58.199.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "bom05s10-in-f130.1e100.net.",
+      "ip_address": "216.58.203.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "bom05s10-in-f10.1e100.net.",
+      "ip_address": "216.58.203.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "bom07s11-in-f2.1e100.net.",
+      "ip_address": "216.58.203.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "bom07s10-in-f162.1e100.net.",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "bom05s05-in-f2.1e100.net.",
+      "ip_address": "216.58.220.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-34-248-126-136.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.248.126.136",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "217.213.186.35.bc.googleusercontent.com.",
+      "ip_address": "35.186.213.217",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-18-227-144.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.18.227.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-19-114-44.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.114.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-208-220-116.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.220.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-209-186-0.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.186.0",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-211-203-116.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.203.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-211-47-180.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.47.180",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-211-88-83.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.88.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-214-124-7.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.214.124.7",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-30-245-252.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.245.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-48-16-48.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.16.48",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-50-131-217.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.50.131.217",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-52-51-111-148.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.111.148",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-154-194-72.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.194.72",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-154-216-172.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.216.172",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-154-228-144.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.228.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-154-57-161.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.57.161",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-171-21-157.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.21.157",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-171-33-187.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.33.187",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-171-42-50.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.42.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-194-49-47.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.194.49.47",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-229-235-132.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.235.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-246-139-143.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.246.139.143",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.htmedia.mint",
+      "ptr_domain": "ec2-54-76-152-97.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.152.97",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
+  ]
+}

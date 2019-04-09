@@ -1,27 +1,257 @@
 {
-    "appName": "Geek",
-    "packageName": "com.contextlogic.geek",
-    "category": "SHOPPING",
-    "icon": "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",
-    "permissions": [
-          "android.permission.INTERNET", 
-          "android.permission.WAKE_LOCK", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.VIBRATE", 
-          "android.permission.WRITE_EXTERNAL_STORAGE", 
-          "com.google.android.c2dm.permission.RECEIVE", 
-          "android.permission.CAMERA", 
-          "android.permission.GET_ACCOUNTS", 
-          "android.permission.READ_CONTACTS", 
-          "android.permission.NFC", 
-          "android.permission.ACCESS_FINE_LOCATION", 
-          "com.google.android.providers.gsf.permission.READ_GSERVICES", 
-          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE", 
-          "com.contextlogic.geek.permission.C2D_MESSAGE", 
-          "com.contextlogic.geek.permission.C2D_MESSAGE", 
-          "android.permission.READ_EXTERNAL_STORAGE", 
-          "android.permission.RECEIVE_BOOT_COMPLETED", 
-          "android.permission.ACCESS_WIFI_STATE" 
-    ],
-    "version": "2.4.0"
+  "appName": "Geek",
+  "packageName": "com.contextlogic.geek",
+  "category": "SHOPPING",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.CAMERA",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.NFC",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.contextlogic.geek.permission.C2D_MESSAGE",
+    "com.contextlogic.geek.permission.C2D_MESSAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "version": "2.4.0",
+  "trackers": [
+    "Facebook Analytics",
+    "Google Analytics",
+    "Facebook Share",
+    "Facebook Login",
+    "Google Firebase Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-23-21-54-53.compute-1.amazonaws.com.",
+      "ip_address": "23.21.54.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com.",
+      "ip_address": "23.23.112.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-23-23-255-145.compute-1.amazonaws.com.",
+      "ip_address": "23.23.255.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::1715:6cf7",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::36cc:216b",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::36e1:4825",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::36e1:c9f0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::36eb:bad4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::b849:db5e",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::b849:f234",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::ccec:e98e",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "xx-fbcdn6-shv-02-lax3.fbcdn.net.",
+      "ip_address": "2a03:2880:f00d:115:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-52-52-67-146.us-west-1.compute.amazonaws.com.",
+      "ip_address": "52.52.67.146",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-52-8-43-199.us-west-1.compute.amazonaws.com.",
+      "ip_address": "52.8.43.199",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-52-8-48-170.us-west-1.compute.amazonaws.com.",
+      "ip_address": "52.8.48.170",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-52-9-194-254.us-west-1.compute.amazonaws.com.",
+      "ip_address": "52.9.194.254",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-54-183-109-192.us-west-1.compute.amazonaws.com.",
+      "ip_address": "54.183.109.192",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-54-183-250-80.us-west-1.compute.amazonaws.com.",
+      "ip_address": "54.183.250.80",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-54-225-183-207.compute-1.amazonaws.com.",
+      "ip_address": "54.225.183.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-54-225-80-179.compute-1.amazonaws.com.",
+      "ip_address": "54.225.80.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "server-54-230-242-241.mel50.r.cloudfront.net.",
+      "ip_address": "54.230.242.241",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.contextlogic.geek",
+      "ptr_domain": "ec2-54-235-185-132.compute-1.amazonaws.com.",
+      "ip_address": "54.235.185.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
 }

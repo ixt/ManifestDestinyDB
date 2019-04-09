@@ -1,0 +1,456 @@
+{
+  "appName": "Bubble Shooter",
+  "packageName": "bubbleshooter.android",
+  "category": "GAME_PUZZLE",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.VIBRATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "8.72",
+  "trackers": [
+    "Google CrashLytics",
+    "Google DoubleClick",
+    "Moat",
+    "Unity3d Ads",
+    "Facebook Login",
+    "Millennial Media",
+    "Facebook Share",
+    "Inmobi",
+    "Facebook Ads",
+    "Facebook Places",
+    "Google Ads",
+    "Google Firebase Analytics",
+    "Facebook Analytics",
+    "ironSource",
+    "Google Analytics",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-107-21-215-93.compute-1.amazonaws.com.",
+      "ip_address": "107.21.215.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "sea15s11-in-f162.1e100.net.",
+      "ip_address": "172.217.3.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "sea15s12-in-f2.1e100.net.",
+      "ip_address": "172.217.3.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-184-73-214-44.compute-1.amazonaws.com.",
+      "ip_address": "184.73.214.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "sea15s07-in-f65.1e100.net.",
+      "ip_address": "216.58.193.65",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "sea15s07-in-f66.1e100.net.",
+      "ip_address": "216.58.193.66",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "sea15s07-in-f6.1e100.net.",
+      "ip_address": "216.58.193.70",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "sea15s07-in-f14.1e100.net.",
+      "ip_address": "216.58.193.78",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "sea15s01-in-f130.1e100.net.",
+      "ip_address": "216.58.216.130",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "sea15s02-in-f162.1e100.net.",
+      "ip_address": "216.58.216.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "a23-199-225-74.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.199.225.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "a23-209-179-38.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.209.179.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "a23-33-255-25.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.33.255.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "a23-44-163-126.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.44.163.126",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "a23-60-73-23.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.60.73.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-194-65-147.compute-1.amazonaws.com.",
+      "ip_address": "34.194.65.147",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-194-90-39.compute-1.amazonaws.com.",
+      "ip_address": "34.194.90.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-195-32-113.compute-1.amazonaws.com.",
+      "ip_address": "34.195.32.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-195-56-61.compute-1.amazonaws.com.",
+      "ip_address": "34.195.56.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-195-65-102.compute-1.amazonaws.com.",
+      "ip_address": "34.195.65.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-198-18-34.compute-1.amazonaws.com.",
+      "ip_address": "34.198.18.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-198-80-171.compute-1.amazonaws.com.",
+      "ip_address": "34.198.80.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-200-186-74.compute-1.amazonaws.com.",
+      "ip_address": "34.200.186.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-205-66-101.compute-1.amazonaws.com.",
+      "ip_address": "34.205.66.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-34-250-213-120.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.250.213.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "N/A",
+      "ip_address": "38.111.30.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-52-19-42-226.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.42.226",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-52-200-44-20.compute-1.amazonaws.com.",
+      "ip_address": "52.200.44.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-52-206-196-95.compute-1.amazonaws.com.",
+      "ip_address": "52.206.196.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-52-208-140-171.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.140.171",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-52-26-248-54.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.26.248.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-52-70-84-227.compute-1.amazonaws.com.",
+      "ip_address": "52.70.84.227",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-52-7-152-35.compute-1.amazonaws.com.",
+      "ip_address": "52.7.152.35",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-52-73-58-155.compute-1.amazonaws.com.",
+      "ip_address": "52.73.58.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-54-243-144-34.compute-1.amazonaws.com.",
+      "ip_address": "54.243.144.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-54-243-60-222.compute-1.amazonaws.com.",
+      "ip_address": "54.243.60.222",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-54-68-195-105.us-west-2.compute.amazonaws.com.",
+      "ip_address": "54.68.195.105",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-54-76-152-97.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.152.97",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "ec2-54-80-183-150.compute-1.amazonaws.com.",
+      "ip_address": "54.80.183.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.109.81",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "N/A",
+      "ip_address": "69.174.248.151",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bubbleshooter.android",
+      "ptr_domain": "N/A",
+      "ip_address": "74.125.5.208",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

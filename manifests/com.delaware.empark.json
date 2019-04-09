@@ -1,0 +1,488 @@
+{
+  "appName": "Telpark",
+  "packageName": "com.delaware.empark",
+  "category": "MAPS_AND_NAVIGATION",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.MANAGE_DOCUMENTS",
+    "android.permission.UPDATE_DEVICE_STATS",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.delaware.empark.permission.C2D_MESSAGE",
+    "com.delaware.empark.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.VIBRATE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.samsung.accessory.permission.ACCESSORY_FRAMEWORK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "3.12.00",
+  "trackers": [
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-107-20-220-24.compute-1.amazonaws.com.",
+      "ip_address": "107.20.220.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-107-21-122-150.compute-1.amazonaws.com.",
+      "ip_address": "107.21.122.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-107-22-189-83.compute-1.amazonaws.com.",
+      "ip_address": "107.22.189.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "fra02s28-in-f4.1e100.net.",
+      "ip_address": "172.217.20.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-174-129-32-125.compute-1.amazonaws.com.",
+      "ip_address": "174.129.32.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "mad06s10-in-f14.1e100.net.",
+      "ip_address": "216.58.210.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-23-21-64-252.compute-1.amazonaws.com.",
+      "ip_address": "23.21.64.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-23-21-68-38.compute-1.amazonaws.com.",
+      "ip_address": "23.21.68.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-34-194-71-39.compute-1.amazonaws.com.",
+      "ip_address": "34.194.71.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-34-194-72-159.compute-1.amazonaws.com.",
+      "ip_address": "34.194.72.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-34-196-30-17.compute-1.amazonaws.com.",
+      "ip_address": "34.196.30.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-34-198-72-122.compute-1.amazonaws.com.",
+      "ip_address": "34.198.72.122",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-34-224-235-17.compute-1.amazonaws.com.",
+      "ip_address": "34.224.235.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-34-225-4-185.compute-1.amazonaws.com.",
+      "ip_address": "34.225.4.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-50-19-219-120.compute-1.amazonaws.com.",
+      "ip_address": "50.19.219.120",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-50-19-238-176.compute-1.amazonaws.com.",
+      "ip_address": "50.19.238.176",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ads19.stickyadstv.com.",
+      "ip_address": "5.135.141.96",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-0-58-84.compute-1.amazonaws.com.",
+      "ip_address": "52.0.58.84",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-200-0-248.compute-1.amazonaws.com.",
+      "ip_address": "52.200.0.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-20-1-60.compute-1.amazonaws.com.",
+      "ip_address": "52.20.1.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-202-201-151.compute-1.amazonaws.com.",
+      "ip_address": "52.202.201.151",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-204-245-89.compute-1.amazonaws.com.",
+      "ip_address": "52.204.245.89",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-206-52-127.compute-1.amazonaws.com.",
+      "ip_address": "52.206.52.127",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-206-93-197.compute-1.amazonaws.com.",
+      "ip_address": "52.206.93.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-211-146-1.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.211.146.1",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-212-90-172.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.212.90.172",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-2-163-138.compute-1.amazonaws.com.",
+      "ip_address": "52.2.163.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.16.148",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
+      "ip_address": "52.218.20.4",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.64.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.64.28",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-22-179-85.compute-1.amazonaws.com.",
+      "ip_address": "52.22.179.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-3-34-229.compute-1.amazonaws.com.",
+      "ip_address": "52.3.34.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-4-223-188.compute-1.amazonaws.com.",
+      "ip_address": "52.4.223.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-48-209-205.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.209.205",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-54-141-1.compute-1.amazonaws.com.",
+      "ip_address": "52.54.141.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-73-164-50.compute-1.amazonaws.com.",
+      "ip_address": "52.73.164.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-52-73-234-2.compute-1.amazonaws.com.",
+      "ip_address": "52.73.234.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-54-152-184-206.compute-1.amazonaws.com.",
+      "ip_address": "54.152.184.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-54-154-122-209.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.122.209",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-54-164-5-207.compute-1.amazonaws.com.",
+      "ip_address": "54.164.5.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-54-165-147-101.compute-1.amazonaws.com.",
+      "ip_address": "54.165.147.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "ec2-54-85-236-232.compute-1.amazonaws.com.",
+      "ip_address": "54.85.236.232",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "static.230.147.9.5.clients.your-server.de.",
+      "ip_address": "5.9.147.230",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.delaware.empark",
+      "ptr_domain": "static.233.147.9.5.clients.your-server.de.",
+      "ip_address": "5.9.147.233",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
+  ]
+}

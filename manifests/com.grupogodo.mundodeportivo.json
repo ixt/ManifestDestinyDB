@@ -1,0 +1,723 @@
+{
+  "appName": "Mundo Deportivo",
+  "packageName": "com.grupogodo.mundodeportivo",
+  "category": "SPORTS",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.grupogodo.mundodeportivo.permission.C2D_MESSAGE",
+    "com.grupogodo.mundodeportivo.permission.C2D_MESSAGE",
+    "com.grupogodo.mundodeportivo.permission.A4S_SEND",
+    "com.grupogodo.mundodeportivo.permission.A4S_SEND",
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.htc.launcher.permission.READ_SETTINGS",
+    "com.htc.launcher.permission.UPDATE_SHORTCUT",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
+    "com.majeur.launcher.permission.UPDATE_BADGE",
+    "com.huawei.android.launcher.permission.CHANGE_BADGE",
+    "com.huawei.android.launcher.permission.READ_SETTINGS",
+    "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+    "android.permission.READ_APP_BADGE",
+    "com.oppo.launcher.permission.READ_SETTINGS",
+    "com.oppo.launcher.permission.WRITE_SETTINGS"
+  ],
+  "version": "3.2.4",
+  "trackers": [
+    "Unity3d Ads",
+    "Google CrashLytics",
+    "Facebook Ads",
+    "AppLovin",
+    "AdColony",
+    "Twitter MoPub",
+    "MAdvertise",
+    "Smart",
+    "Millennial Media",
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Ad4Screen",
+    "Inmobi",
+    "ComScore",
+    "Google DoubleClick",
+    "Google Ads",
+    "Ogury Presage"
+  ],
+  "network_connections": [
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.193",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.43.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.43.231",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.43.81",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "a104-75-99-250.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.75.99.250",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-107-20-203-190.compute-1.amazonaws.com.",
+      "ip_address": "107.20.203.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-107-21-219-14.compute-1.amazonaws.com.",
+      "ip_address": "107.21.219.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-107-21-94-168.compute-1.amazonaws.com.",
+      "ip_address": "107.21.94.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-107-22-161-209.compute-1.amazonaws.com.",
+      "ip_address": "107.22.161.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com.",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "et8.eulerian.net.",
+      "ip_address": "109.232.196.122",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "212.33.211.130.bc.googleusercontent.com.",
+      "ip_address": "130.211.33.212",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "171.42.211.130.bc.googleusercontent.com.",
+      "ip_address": "130.211.42.171",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "112.45.211.130.bc.googleusercontent.com.",
+      "ip_address": "130.211.45.112",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.16.175",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-184-72-216-238.compute-1.amazonaws.com.",
+      "ip_address": "184.72.216.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "N/A",
+      "ip_address": "198.41.214.68",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "N/A",
+      "ip_address": "199.16.156.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "map2.hwcdn.net.",
+      "ip_address": "205.185.216.10",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "map2.hwcdn.net.",
+      "ip_address": "205.185.216.42",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "any-in-2039.1e100.net.",
+      "ip_address": "216.239.32.57",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s25-in-f1.1e100.net.",
+      "ip_address": "216.58.201.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s25-in-f2.1e100.net.",
+      "ip_address": "216.58.201.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s25-in-f3.1e100.net.",
+      "ip_address": "216.58.201.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s25-in-f138.1e100.net.",
+      "ip_address": "216.58.201.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s25-in-f142.1e100.net.",
+      "ip_address": "216.58.201.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "par10s28-in-f98.1e100.net.",
+      "ip_address": "216.58.204.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "par10s34-in-f1.1e100.net.",
+      "ip_address": "216.58.206.225",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s09-in-f2.1e100.net.",
+      "ip_address": "216.58.210.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s10-in-f2.1e100.net.",
+      "ip_address": "216.58.210.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s10-in-f163.1e100.net.",
+      "ip_address": "216.58.210.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s10-in-f164.1e100.net.",
+      "ip_address": "216.58.210.164",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad06s10-in-f166.1e100.net.",
+      "ip_address": "216.58.210.166",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mrs04s09-in-f194.1e100.net.",
+      "ip_address": "216.58.210.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad01s25-in-f2.1e100.net.",
+      "ip_address": "216.58.211.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad01s24-in-f225.1e100.net.",
+      "ip_address": "216.58.211.225",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad01s24-in-f4.1e100.net.",
+      "ip_address": "216.58.211.228",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "mad01s26-in-f162.1e100.net.",
+      "ip_address": "216.58.214.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-23-21-205-126.compute-1.amazonaws.com.",
+      "ip_address": "23.21.205.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-23-21-68-70.compute-1.amazonaws.com.",
+      "ip_address": "23.21.68.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "a23-220-10-176.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.220.10.176",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-23-23-153-32.compute-1.amazonaws.com.",
+      "ip_address": "23.23.153.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-23-23-161-173.compute-1.amazonaws.com.",
+      "ip_address": "23.23.161.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "a23-39-109-179.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.39.109.179",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "a23-39-86-188.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.39.86.188",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "instagram-p3-shv-01-mad1.fbcdn.net.",
+      "ip_address": "31.13.83.52",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "instagram-p3-shv-01-frt3.fbcdn.net.",
+      "ip_address": "31.13.92.51",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-50-16-238-111.compute-1.amazonaws.com.",
+      "ip_address": "50.16.238.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-52-17-38-184.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.38.184",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-52-209-29-185.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.29.185",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-52-28-73-23.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.28.73.23",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-52-30-134-186.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.134.186",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-52-58-42-31.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.58.42.31",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-52-59-135-95.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "52.59.135.95",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-54-225-135-154.compute-1.amazonaws.com.",
+      "ip_address": "54.225.135.154",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-54-225-183-207.compute-1.amazonaws.com.",
+      "ip_address": "54.225.183.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "server-54-230-196-212.lhr50.r.cloudfront.net.",
+      "ip_address": "54.230.196.212",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "server-54-230-219-137.mrs50.r.cloudfront.net.",
+      "ip_address": "54.230.219.137",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "server-54-230-63-180.mad50.r.cloudfront.net.",
+      "ip_address": "54.230.63.180",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-54-235-104-210.compute-1.amazonaws.com.",
+      "ip_address": "54.235.104.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-54-243-155-16.compute-1.amazonaws.com.",
+      "ip_address": "54.243.155.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-54-243-34-44.compute-1.amazonaws.com.",
+      "ip_address": "54.243.34.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "ec2-54-85-160-194.compute-1.amazonaws.com.",
+      "ip_address": "54.85.160.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "wk-in-f154.1e100.net.",
+      "ip_address": "74.125.206.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "N/A",
+      "ip_address": "80.252.91.52",
+      "loc_city": "Haarlem",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.646400",
+      "loc_lat": "52.361300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "N/A",
+      "ip_address": "80.252.91.53",
+      "loc_city": "Haarlem",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.646400",
+      "loc_lat": "52.361300"
+    },
+    {
+      "package": "com.grupogodo.mundodeportivo",
+      "ptr_domain": "a92-123-73-41.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.123.73.41",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
+  ]
+}

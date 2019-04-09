@@ -1,28 +1,456 @@
 {
-    "appName": "Costco",
-    "packageName": "com.costco.app.android",
-    "category": "SHOPPING",
-    "icon": "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",
-    "permissions": [
-          "android.permission.INTERNET", 
-          "android.permission.CAMERA", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.RECEIVE_BOOT_COMPLETED", 
-          "android.permission.USE_FINGERPRINT", 
-          "android.permission.WRITE_EXTERNAL_STORAGE", 
-          "com.google.android.providers.gsf.permission.READ_GSERVICES", 
-          "android.permission.ACCESS_COARSE_LOCATION", 
-          "android.permission.ACCESS_FINE_LOCATION", 
-          "android.permission.CHANGE_NETWORK_STATE", 
-          "android.permission.CHANGE_WIFI_STATE", 
-          "android.permission.WAKE_LOCK", 
-          "com.android.alarm.permission.SET_ALARM", 
-          "android.permission.READ_PHONE_STATE", 
-          "android.permission.READ_EXTERNAL_STORAGE", 
-          "android.permission.VIBRATE", 
-          "com.google.android.c2dm.permission.RECEIVE", 
-          "com.costco.app.android.permission.C2D_MESSAGE", 
-          "com.costco.app.android.permission.C2D_MESSAGE" 
-    ],
-    "version": "3.16.1"
+  "appName": "Costco",
+  "packageName": "com.costco.app.android",
+  "category": "SHOPPING",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.CAMERA",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.WAKE_LOCK",
+    "com.android.alarm.permission.SET_ALARM",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.costco.app.android.permission.C2D_MESSAGE",
+    "com.costco.app.android.permission.C2D_MESSAGE"
+  ],
+  "version": "3.17.1",
+  "trackers": [
+    "HockeyApp",
+    "Demdex",
+    "Google Firebase Analytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-107-21-202-10.compute-1.amazonaws.com.",
+      "ip_address": "107.21.202.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-107-22-216-92.compute-1.amazonaws.com.",
+      "ip_address": "107.22.216.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com.",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com.",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ord37s09-in-f2.1e100.net.",
+      "ip_address": "172.217.8.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-184-72-246-24.compute-1.amazonaws.com.",
+      "ip_address": "184.72.246.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com.",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "a23-10-116-97.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.10.116.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "a23-193-192-123.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.193.192.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "a23-207-248-21.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.207.248.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-23-21-109-80.compute-1.amazonaws.com.",
+      "ip_address": "23.21.109.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com.",
+      "ip_address": "23.21.143.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-23-21-56-15.compute-1.amazonaws.com.",
+      "ip_address": "23.21.56.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-23-23-144-49.compute-1.amazonaws.com.",
+      "ip_address": "23.23.144.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-23-23-165-121.compute-1.amazonaws.com.",
+      "ip_address": "23.23.165.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-23-23-96-14.compute-1.amazonaws.com.",
+      "ip_address": "23.23.96.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "a23-4-15-61.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.4.15.61",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "a23-50-68-119.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.50.68.119",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "edge-star6-shv-02-lax3.facebook.com.",
+      "ip_address": "2a03:2880:f00d:110:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "edge-star6-shv-01-lga3.facebook.com.",
+      "ip_address": "2a03:2880:f012:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com.",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "edge-star-shv-01-atl3.facebook.com.",
+      "ip_address": "31.13.65.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com.",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com.",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "livestream-edgetee-upload-shv-01-dub4.facebook.com.",
+      "ip_address": "31.13.73.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "edge-star-shv-01-yyz1.facebook.com.",
+      "ip_address": "31.13.80.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-50-17-219-135.compute-1.amazonaws.com.",
+      "ip_address": "50.17.219.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-50-17-244-57.compute-1.amazonaws.com.",
+      "ip_address": "50.17.244.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-50-19-244-139.compute-1.amazonaws.com.",
+      "ip_address": "50.19.244.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-54-197-254-10.compute-1.amazonaws.com.",
+      "ip_address": "54.197.254.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-54-204-4-24.compute-1.amazonaws.com.",
+      "ip_address": "54.204.4.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-54-225-162-48.compute-1.amazonaws.com.",
+      "ip_address": "54.225.162.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-54-225-209-156.compute-1.amazonaws.com.",
+      "ip_address": "54.225.209.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-54-225-215-149.compute-1.amazonaws.com.",
+      "ip_address": "54.225.215.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-54-225-93-51.compute-1.amazonaws.com.",
+      "ip_address": "54.225.93.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-54-235-75-243.compute-1.amazonaws.com.",
+      "ip_address": "54.235.75.243",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-54-243-160-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.160.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com.",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.costco.app.android",
+      "ptr_domain": "a69-192-92-130.deploy.static.akamaitechnologies.com.",
+      "ip_address": "69.192.92.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
 }

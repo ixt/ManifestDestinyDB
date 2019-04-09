@@ -1,0 +1,605 @@
+{
+  "appName": "Skyscanner",
+  "packageName": "net.skyscanner.android.main",
+  "category": "TRAVEL_AND_LOCAL",
+  "icon": "",
+  "permissions": [
+    "net.skyscanner.android.main.permission.C2D_MESSAGE",
+    "net.skyscanner.android.main.permission.C2D_MESSAGE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "5.63.1",
+  "trackers": [
+    "Google Firebase Analytics",
+    "AppsFlyer",
+    "Facebook Share",
+    "Braze",
+    "Facebook Analytics",
+    "Google Ads",
+    "Facebook Login",
+    "Google DoubleClick",
+    "Google CrashLytics",
+    "Google Analytics",
+    "Branch",
+    "MixPanel",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "a104-127-39-98.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.127.39.98",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-107-20-160-144.compute-1.amazonaws.com.",
+      "ip_address": "107.20.160.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-107-20-184-187.compute-1.amazonaws.com.",
+      "ip_address": "107.20.184.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-107-22-221-125.compute-1.amazonaws.com.",
+      "ip_address": "107.22.221.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com.",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "edge-star-shv-01-syd2.facebook.com.",
+      "ip_address": "157.240.8.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "82.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "89.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.137",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "92.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.146",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "9f.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.159",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "b6.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.182",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "c6.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.198",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "cf.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "1e.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "1f.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.31",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "29.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.41",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "a2.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "b2.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.178",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "lga25s56-in-f20.1e100.net.",
+      "ip_address": "172.217.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "N/A",
+      "ip_address": "207.82.19.43",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "lhr35s07-in-f20.1e100.net.",
+      "ip_address": "216.58.204.20",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "lhr35s11-in-f2.1e100.net.",
+      "ip_address": "216.58.206.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "mad06s10-in-f180.1e100.net.",
+      "ip_address": "216.58.210.180",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "a23-205-34-156.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.205.34.156",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "a23-208-105-250.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.208.105.250",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-23-23-184-36.compute-1.amazonaws.com.",
+      "ip_address": "23.23.184.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "a23-65-235-143.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.65.235.143",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "a23-77-153-215.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.77.153.215",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com.",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com.",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com.",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-46-51-197-24.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "46.51.197.24",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-50-19-106-31.compute-1.amazonaws.com.",
+      "ip_address": "50.19.106.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-50-19-214-87.compute-1.amazonaws.com.",
+      "ip_address": "50.19.214.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-16-22-137.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.16.22.137",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-19-48-233.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.48.233",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-208-129-196.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.208.129.196",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-210-175-246.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.210.175.246",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-220-66-15.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.220.66.15",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-30-70-65.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.70.65",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-30-76-66.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.76.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-31-79-235.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.31.79.235",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-48-240-221.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.48.240.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-52-49-8-11.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.8.11",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-154-130-115.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.154.130.115",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-171-250-141.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.171.250.141",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-225-143-212.compute-1.amazonaws.com.",
+      "ip_address": "54.225.143.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-225-221-53.compute-1.amazonaws.com.",
+      "ip_address": "54.225.221.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-229-143-59.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.143.59",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-229-31-186.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.31.186",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-229-91-86.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.229.91.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-246-205-125.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.246.205.125",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-72-11-202.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.11.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-76-156-240.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.156.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "ec2-54-77-26-179.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.77.26.179",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "N/A",
+      "ip_address": "85.232.57.148",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "net.skyscanner.android.main",
+      "ptr_domain": "a88-221-105-94.deploy.static.akamaitechnologies.com.",
+      "ip_address": "88.221.105.94",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
+  ]
+}

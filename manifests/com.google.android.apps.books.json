@@ -1,28 +1,1594 @@
 {
-    "appName": "Google Play Books",
-    "packageName": "com.google.android.apps.books",
-    "category": "BOOKS_AND_REFERENCE",
-    "icon": "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",
-    "permissions": [
-          "android.permission.INTERNET", 
-          "android.permission.WRITE_EXTERNAL_STORAGE", 
-          "android.permission.READ_EXTERNAL_STORAGE", 
-          "android.permission.GET_ACCOUNTS", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.USE_CREDENTIALS", 
-          "android.permission.MANAGE_ACCOUNTS", 
-          "android.permission.READ_SYNC_SETTINGS", 
-          "android.permission.WRITE_SYNC_SETTINGS", 
-          "android.permission.SUBSCRIBED_FEEDS_READ", 
-          "android.permission.SUBSCRIBED_FEEDS_WRITE", 
-          "android.permission.WAKE_LOCK", 
-          "android.permission.GET_PACKAGE_SIZE", 
-          "com.google.android.providers.gsf.permission.READ_GSERVICES", 
-          "com.google.android.c2dm.permission.RECEIVE", 
-          "com.google.android.apps.books.permission.C2D_MESSAGE", 
-          "com.google.android.apps.books.permission.C2D_MESSAGE", 
-          "android.permission.RECEIVE_BOOT_COMPLETED", 
-          "android.permission.FOREGROUND_SERVICE" 
-    ],
-    "version": "5.0.5_RC11.234813858"
+  "appName": "Google Play Books",
+  "packageName": "com.google.android.apps.books",
+  "category": "BOOKS_AND_REFERENCE",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.READ_SYNC_SETTINGS",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "android.permission.SUBSCRIBED_FEEDS_READ",
+    "android.permission.SUBSCRIBED_FEEDS_WRITE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.GET_PACKAGE_SIZE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.apps.books.permission.C2D_MESSAGE",
+    "com.google.android.apps.books.permission.C2D_MESSAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.FOREGROUND_SERVICE"
+  ],
+  "version": "5.0.5_RC11.234813858",
+  "trackers": [
+    "Google Analytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ord38s04-in-f14.1e100.net.",
+      "ip_address": "172.217.0.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "atl26s16-in-f14.1e100.net.",
+      "ip_address": "172.217.0.78",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lga25s61-in-f14.1e100.net.",
+      "ip_address": "172.217.11.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ord37s07-in-f42.1e100.net.",
+      "ip_address": "172.217.1.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "zrh04s06-in-f142.1e100.net.",
+      "ip_address": "172.217.16.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra15s11-in-f10.1e100.net.",
+      "ip_address": "172.217.16.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ams15s29-in-f110.1e100.net.",
+      "ip_address": "172.217.17.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "muc11s14-in-f10.1e100.net.",
+      "ip_address": "172.217.17.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ams16s29-in-f10.1e100.net.",
+      "ip_address": "172.217.17.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "zrh04s08-in-f14.1e100.net.",
+      "ip_address": "172.217.19.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra02s28-in-f10.1e100.net.",
+      "ip_address": "172.217.20.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "muc11s11-in-f10.1e100.net.",
+      "ip_address": "172.217.20.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ams15s33-in-f1.1e100.net.",
+      "ip_address": "172.217.20.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ams15s33-in-f6.1e100.net.",
+      "ip_address": "172.217.20.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ams15s33-in-f14.1e100.net.",
+      "ip_address": "172.217.20.78",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "muc11s13-in-f10.1e100.net.",
+      "ip_address": "172.217.21.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra16s12-in-f202.1e100.net.",
+      "ip_address": "172.217.21.202",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra16s13-in-f10.1e100.net.",
+      "ip_address": "172.217.21.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lga15s45-in-f14.1e100.net.",
+      "ip_address": "172.217.2.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "yyz10s06-in-f10.1e100.net.",
+      "ip_address": "172.217.2.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra15s18-in-f106.1e100.net.",
+      "ip_address": "172.217.22.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra15s16-in-f10.1e100.net.",
+      "ip_address": "172.217.22.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra15s17-in-f10.1e100.net.",
+      "ip_address": "172.217.22.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mil04s22-in-f10.1e100.net.",
+      "ip_address": "172.217.23.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "atl14s78-in-f10.1e100.net.",
+      "ip_address": "172.217.2.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "atl14s78-in-f14.1e100.net.",
+      "ip_address": "172.217.2.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "syd15s03-in-f10.1e100.net.",
+      "ip_address": "172.217.25.138",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sin01s16-in-f10.1e100.net.",
+      "ip_address": "172.217.25.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s22-in-f162.1e100.net.",
+      "ip_address": "172.217.26.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s22-in-f170.1e100.net.",
+      "ip_address": "172.217.26.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s22-in-f174.1e100.net.",
+      "ip_address": "172.217.26.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s23-in-f202.1e100.net.",
+      "ip_address": "172.217.26.202",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s23-in-f206.1e100.net.",
+      "ip_address": "172.217.26.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom05s09-in-f14.1e100.net.",
+      "ip_address": "172.217.26.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sea15s11-in-f170.1e100.net.",
+      "ip_address": "172.217.3.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "iad23s57-in-f42.1e100.net.",
+      "ip_address": "172.217.3.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ord36s04-in-f10.1e100.net.",
+      "ip_address": "172.217.4.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lax17s14-in-f142.1e100.net.",
+      "ip_address": "172.217.4.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo03s07-in-f10.1e100.net.",
+      "ip_address": "172.217.5.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo03s07-in-f14.1e100.net.",
+      "ip_address": "172.217.5.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ord37s03-in-f10.1e100.net.",
+      "ip_address": "172.217.6.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ord38s01-in-f10.1e100.net.",
+      "ip_address": "172.217.6.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ord37s08-in-f10.1e100.net.",
+      "ip_address": "172.217.8.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ord37s09-in-f14.1e100.net.",
+      "ip_address": "172.217.8.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ya-in-f95.1e100.net.",
+      "ip_address": "173.194.219.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "qv-in-f95.1e100.net.",
+      "ip_address": "209.85.144.95",
+      "loc_city": "Council Bluffs",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-95.860800",
+      "loc_lat": "41.261900"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "dg-in-f95.1e100.net.",
+      "ip_address": "209.85.202.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "qt-in-f95.1e100.net.",
+      "ip_address": "209.85.232.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "nuq04s29-in-f14.1e100.net.",
+      "ip_address": "216.58.192.14",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ord30s26-in-f238.1e100.net.",
+      "ip_address": "216.58.192.238",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mia07s46-in-f1.1e100.net.",
+      "ip_address": "216.58.192.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mia07s46-in-f14.1e100.net.",
+      "ip_address": "216.58.192.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "oma95s02-in-f10.1e100.net.",
+      "ip_address": "216.58.193.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "atl26s15-in-f14.1e100.net.",
+      "ip_address": "216.58.193.174",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lax02s23-in-f202.1e100.net.",
+      "ip_address": "216.58.193.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sea15s07-in-f74.1e100.net.",
+      "ip_address": "216.58.193.74",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "dfw06s49-in-f142.1e100.net.",
+      "ip_address": "216.58.194.142",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo07s13-in-f10.1e100.net.",
+      "ip_address": "216.58.194.170",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo07s13-in-f14.1e100.net.",
+      "ip_address": "216.58.194.174",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo03s01-in-f206.1e100.net.",
+      "ip_address": "216.58.194.206",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo03s06-in-f234.1e100.net.",
+      "ip_address": "216.58.195.234",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s19-in-f106.1e100.net.",
+      "ip_address": "216.58.196.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "syd15s04-in-f6.1e100.net.",
+      "ip_address": "216.58.196.134",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "syd15s04-in-f10.1e100.net.",
+      "ip_address": "216.58.196.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "kul01s09-in-f74.1e100.net.",
+      "ip_address": "216.58.196.74",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "hkg12s01-in-f106.1e100.net.",
+      "ip_address": "216.58.197.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s20-in-f14.1e100.net.",
+      "ip_address": "216.58.197.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s21-in-f1.1e100.net.",
+      "ip_address": "216.58.197.65",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s21-in-f10.1e100.net.",
+      "ip_address": "216.58.197.74",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s21-in-f78.1e100.net.",
+      "ip_address": "216.58.197.78",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mil04s03-in-f10.1e100.net.",
+      "ip_address": "216.58.198.10",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mil04s04-in-f46.1e100.net.",
+      "ip_address": "216.58.198.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom05s08-in-f10.1e100.net.",
+      "ip_address": "216.58.199.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "syd09s12-in-f46.1e100.net.",
+      "ip_address": "216.58.199.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "syd15s01-in-f1.1e100.net.",
+      "ip_address": "216.58.199.65",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "syd09s14-in-f10.1e100.net.",
+      "ip_address": "216.58.200.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mad06s25-in-f142.1e100.net.",
+      "ip_address": "216.58.201.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "syd09s15-in-f10.1e100.net.",
+      "ip_address": "216.58.203.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "syd09s15-in-f14.1e100.net.",
+      "ip_address": "216.58.203.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom07s11-in-f14.1e100.net.",
+      "ip_address": "216.58.203.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "par21s05-in-f138.1e100.net.",
+      "ip_address": "216.58.204.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "par21s06-in-f10.1e100.net.",
+      "ip_address": "216.58.204.234",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lhr25s12-in-f42.1e100.net.",
+      "ip_address": "216.58.204.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra15s24-in-f234.1e100.net.",
+      "ip_address": "216.58.205.234",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra15s24-in-f238.1e100.net.",
+      "ip_address": "216.58.205.238",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mil04s24-in-f42.1e100.net.",
+      "ip_address": "216.58.205.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra16s20-in-f10.1e100.net.",
+      "ip_address": "216.58.206.10",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra16s24-in-f10.1e100.net.",
+      "ip_address": "216.58.207.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra16s25-in-f10.1e100.net.",
+      "ip_address": "216.58.207.74",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "arn09s05-in-f10.1e100.net.",
+      "ip_address": "216.58.209.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mad06s09-in-f142.1e100.net.",
+      "ip_address": "216.58.210.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra16s07-in-f14.1e100.net.",
+      "ip_address": "216.58.210.14",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mad06s10-in-f170.1e100.net.",
+      "ip_address": "216.58.210.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mrs04s10-in-f10.1e100.net.",
+      "ip_address": "216.58.210.234",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "dub08s01-in-f10.1e100.net.",
+      "ip_address": "216.58.211.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mad01s24-in-f10.1e100.net.",
+      "ip_address": "216.58.211.234",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "par21s04-in-f170.1e100.net.",
+      "ip_address": "216.58.213.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fra16s05-in-f110.1e100.net.",
+      "ip_address": "216.58.214.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lhr26s05-in-f14.1e100.net.",
+      "ip_address": "216.58.214.14",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mad01s26-in-f10.1e100.net.",
+      "ip_address": "216.58.214.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sea15s01-in-f138.1e100.net.",
+      "ip_address": "216.58.216.138",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lax02s21-in-f14.1e100.net.",
+      "ip_address": "216.58.216.14",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sea15s02-in-f170.1e100.net.",
+      "ip_address": "216.58.216.170",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ord31s21-in-f202.1e100.net.",
+      "ip_address": "216.58.216.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "qro02s15-in-f10.1e100.net.",
+      "ip_address": "216.58.217.10",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "iad23s43-in-f138.1e100.net.",
+      "ip_address": "216.58.217.138",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "iad23s41-in-f78.1e100.net.",
+      "ip_address": "216.58.217.78",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "dfw25s07-in-f106.1e100.net.",
+      "ip_address": "216.58.218.106",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lga25s40-in-f10.1e100.net.",
+      "ip_address": "216.58.219.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lga25s40-in-f206.1e100.net.",
+      "ip_address": "216.58.219.206",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lga25s41-in-f10.1e100.net.",
+      "ip_address": "216.58.219.234",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "lga25s41-in-f14.1e100.net.",
+      "ip_address": "216.58.219.238",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "syd09s01-in-f129.1e100.net.",
+      "ip_address": "216.58.220.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s18-in-f42.1e100.net.",
+      "ip_address": "216.58.220.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "fuse-cdn-google-luk1-216-68-248-57.fuse.net.",
+      "ip_address": "216.68.248.57",
+      "loc_city": "Cincinnati",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.452200",
+      "loc_lat": "39.164200"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "maa03s20-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4007:807::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom07s10-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:801::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom05s10-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:802::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom07s11-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:803::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom07s11-in-x0e.1e100.net.",
+      "ip_address": "2404:6800:4009:803::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom05s05-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom05s09-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:805::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom07s01-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "bom05s08-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:807::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "yv-in-x5f.1e100.net.",
+      "ip_address": "2607:f8b0:4002:c06::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "iad30s08-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4004:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "iad23s44-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4004:80e::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "nuq04s29-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4005:801::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "nuq04s29-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:801::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "nuq04s29-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4005:801::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo07s13-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo03s01-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:805::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo03s06-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "sfo07s17-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4005:80a::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400a:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ph-in-x5f.1e100.net.",
+      "ip_address": "2607:f8b0:400e:c02::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "pc-in-x5f.1e100.net.",
+      "ip_address": "2607:f8b0:400e:c04::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "pg-in-x5f.1e100.net.",
+      "ip_address": "2607:f8b0:400e:c05::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4010:800::1005",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4010:800::1008",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "mil04s04-in-x0a.1e100.net.",
+      "ip_address": "2a00:1450:4002:802::200a",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "par10s21-in-x0a.1e100.net.",
+      "ip_address": "2a00:1450:4007:80d::200a",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "wk-in-x5f.1e100.net.",
+      "ip_address": "2a00:1450:400c:c04::5f",
+      "loc_city": "Brussels",
+      "loc_country": "Belgium",
+      "loc_continent": "Europe",
+      "loc_long": "4.342800",
+      "loc_lat": "50.847600"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "yx-in-f95.1e100.net.",
+      "ip_address": "64.233.177.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "cb-in-f101.1e100.net.",
+      "ip_address": "64.233.186.101",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "cb-in-f138.1e100.net.",
+      "ip_address": "64.233.186.138",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "cb-in-f95.1e100.net.",
+      "ip_address": "64.233.186.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "gsademo19.google.com.",
+      "ip_address": "64.233.190.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ce-in-f148.1e100.net.",
+      "ip_address": "64.233.190.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "ce-in-f95.1e100.net.",
+      "ip_address": "64.233.190.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "jm-in-f95.1e100.net.",
+      "ip_address": "74.125.129.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "qh-in-f95.1e100.net.",
+      "ip_address": "74.125.22.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "pa-in-f95.1e100.net.",
+      "ip_address": "74.125.25.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "pc-in-f95.1e100.net.",
+      "ip_address": "74.125.28.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "qg-in-f95.1e100.net.",
+      "ip_address": "74.125.29.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com.",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
 }

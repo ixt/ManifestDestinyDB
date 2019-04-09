@@ -1,31 +1,709 @@
 {
-    "appName": "Stocard",
-    "packageName": "de.stocard.stocard",
-    "category": "SHOPPING",
-    "icon": "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",
-    "permissions": [
-          "android.permission.CAMERA", 
-          "android.permission.ACCESS_FINE_LOCATION", 
-          "android.permission.ACCESS_COARSE_LOCATION", 
-          "com.google.android.gms.permission.ACTIVITY_RECOGNITION", 
-          "android.permission.RECEIVE_BOOT_COMPLETED", 
-          "com.google.android.providers.gsf.permission.READ_GSERVICES", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.VIBRATE", 
-          "android.permission.FLASHLIGHT", 
-          "android.permission.WRITE_EXTERNAL_STORAGE", 
-          "android.permission.READ_EXTERNAL_STORAGE", 
-          "com.android.launcher.permission.INSTALL_SHORTCUT", 
-          "android.permission.USE_CREDENTIALS", 
-          "com.google.android.c2dm.permission.RECEIVE", 
-          "android.permission.INTERNET", 
-          "android.permission.WAKE_LOCK", 
-          "android.permission.BLUETOOTH", 
-          "android.permission.BLUETOOTH_ADMIN", 
-          "android.permission.ACCESS_WIFI_STATE", 
-          "android.permission.CHANGE_WIFI_STATE", 
-          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE", 
-          "android.permission.ACCESS_COARSE_LOCATION" 
-    ],
-    "version": "7.8.3"
+  "appName": "Stocard",
+  "packageName": "de.stocard.stocard",
+  "category": "SHOPPING",
+  "icon": "",
+  "permissions": [
+    "android.permission.CAMERA",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.FLASHLIGHT",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "android.permission.USE_CREDENTIALS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "7.9.1",
+  "trackers": [
+    "MixPanel",
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Facebook Login",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-107-20-179-70.compute-1.amazonaws.com.",
+      "ip_address": "107.20.179.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-107-20-196-218.compute-1.amazonaws.com.",
+      "ip_address": "107.20.196.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-107-21-94-141.compute-1.amazonaws.com.",
+      "ip_address": "107.21.94.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com.",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-syd2.facebook.com.",
+      "ip_address": "157.240.8.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "90.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.144",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "9f.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.159",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "af.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.175",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "c8.13.7a9f.ip4.static.sl-reverse.com.",
+      "ip_address": "159.122.19.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "15.01.caa1.ip4.static.sl-reverse.com.",
+      "ip_address": "161.202.1.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "84.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "a0.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.160",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "b8.21.36a9.ip4.static.sl-reverse.com.",
+      "ip_address": "169.54.33.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-174-129-222-182.compute-1.amazonaws.com.",
+      "ip_address": "174.129.222.182",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-174-129-42-30.compute-1.amazonaws.com.",
+      "ip_address": "174.129.42.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "p.wcon.io.",
+      "ip_address": "178.33.172.50",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-184-73-219-223.compute-1.amazonaws.com.",
+      "ip_address": "184.73.219.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-184-73-246-238.compute-1.amazonaws.com.",
+      "ip_address": "184.73.246.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com.",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-21-92-173.compute-1.amazonaws.com.",
+      "ip_address": "23.21.92.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com.",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-107-83.compute-1.amazonaws.com.",
+      "ip_address": "23.23.107.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com.",
+      "ip_address": "23.23.112.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-114-96.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-126-54.compute-1.amazonaws.com.",
+      "ip_address": "23.23.126.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-144-49.compute-1.amazonaws.com.",
+      "ip_address": "23.23.144.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-248-130.compute-1.amazonaws.com.",
+      "ip_address": "23.23.248.130",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star6-shv-01-ams3.facebook.com.",
+      "ip_address": "2a03:2880:f01b:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-amt2.facebook.com.",
+      "ip_address": "31.13.64.16",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com.",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-yyz1.facebook.com.",
+      "ip_address": "31.13.80.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-waw1.facebook.com.",
+      "ip_address": "31.13.81.9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com.",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com.",
+      "ip_address": "31.13.86.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com.",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com.",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-hkg3.facebook.com.",
+      "ip_address": "31.13.95.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-206-103-68.compute-1.amazonaws.com.",
+      "ip_address": "34.206.103.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-251-80-202.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.251.80.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-252-114-54.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.252.114.54",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-252-141-125.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.252.141.125",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-252-151-243.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.252.151.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-17-218-175.compute-1.amazonaws.com.",
+      "ip_address": "50.17.218.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-19-100-110.compute-1.amazonaws.com.",
+      "ip_address": "50.19.100.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com.",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-19-235-238.compute-1.amazonaws.com.",
+      "ip_address": "50.19.235.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-17-144-123.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.144.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-19-222-185.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.19.222.185",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-30-180-28.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.30.180.28",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-49-77-55.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.49.77.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-51-180-135.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.51.180.135",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-197-235-216.compute-1.amazonaws.com.",
+      "ip_address": "54.197.235.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-197-239-228.compute-1.amazonaws.com.",
+      "ip_address": "54.197.239.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-204-4-24.compute-1.amazonaws.com.",
+      "ip_address": "54.204.4.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-221-215-110.compute-1.amazonaws.com.",
+      "ip_address": "54.221.215.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-221-222-20.compute-1.amazonaws.com.",
+      "ip_address": "54.221.222.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-221-247-247.compute-1.amazonaws.com.",
+      "ip_address": "54.221.247.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-225-167-80.compute-1.amazonaws.com.",
+      "ip_address": "54.225.167.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-235-165-25.compute-1.amazonaws.com.",
+      "ip_address": "54.235.165.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-235-86-237.compute-1.amazonaws.com.",
+      "ip_address": "54.235.86.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com.",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com.",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-76-143-181.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.143.181",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
+  ]
 }

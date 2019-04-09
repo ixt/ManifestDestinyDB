@@ -1,0 +1,2985 @@
+{
+  "appName": "Weather&Radar",
+  "packageName": "de.wetteronline.wetterapp",
+  "category": "WEATHER",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.VIBRATE",
+    "android.permission.CAMERA",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "2019.1.1",
+  "trackers": [
+    "Google DoubleClick",
+    "Google Ads",
+    "Google CrashLytics",
+    "Facebook Login",
+    "Facebook Analytics",
+    "Amazon Advertisement",
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-101-253-242.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.101.253.242",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-103-85-126.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.103.85.126",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-106-234-149.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.106.234.149",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-106-83-96.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.106.83.96",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-111-238-108.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.111.238.108",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-114-80-40.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.114.80.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-122-100-109.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.122.100.109",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-125-37-7.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.125.37.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "146.106.199.104.bc.googleusercontent.com.",
+      "ip_address": "104.199.106.146",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-70-125-155.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.70.125.155",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-74-88-26.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.74.88.26",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-80-56-104.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.80.56.104",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-87-167-219.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.87.167.219",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a104-94-180-224.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.94.180.224",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "85.242.178.107.bc.googleusercontent.com.",
+      "ip_address": "107.178.242.85",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "205.245.178.107.bc.googleusercontent.com.",
+      "ip_address": "107.178.245.205",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-20-220-57.compute-1.amazonaws.com.",
+      "ip_address": "107.20.220.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-21-122-150.compute-1.amazonaws.com.",
+      "ip_address": "107.21.122.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-21-209-177.compute-1.amazonaws.com.",
+      "ip_address": "107.21.209.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-21-239-97.compute-1.amazonaws.com.",
+      "ip_address": "107.21.239.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-21-247-57.compute-1.amazonaws.com.",
+      "ip_address": "107.21.247.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-21-251-92.compute-1.amazonaws.com.",
+      "ip_address": "107.21.251.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-22-161-209.compute-1.amazonaws.com.",
+      "ip_address": "107.22.161.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-22-189-83.compute-1.amazonaws.com.",
+      "ip_address": "107.22.189.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-22-216-92.compute-1.amazonaws.com.",
+      "ip_address": "107.22.216.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-107-22-234-157.compute-1.amazonaws.com.",
+      "ip_address": "107.22.234.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "178.5.211.130.bc.googleusercontent.com.",
+      "ip_address": "130.211.5.178",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "server-13-32-14-240.muc51.r.cloudfront.net.",
+      "ip_address": "13.32.14.240",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.36.134",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.80.71.201",
+      "loc_city": "Roubaix",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "3.178000",
+      "loc_lat": "50.697400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-02-lax3.facebook.com.",
+      "ip_address": "157.240.11.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com.",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com.",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-01-bom1.facebook.com.",
+      "ip_address": "157.240.16.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-02-frt3.facebook.com.",
+      "ip_address": "157.240.20.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com.",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bud02s25-in-f10.1e100.net.",
+      "ip_address": "172.217.16.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "prg02s12-in-f2.1e100.net.",
+      "ip_address": "172.217.16.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ams16s29-in-f2.1e100.net.",
+      "ip_address": "172.217.17.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bud02s26-in-f1.1e100.net.",
+      "ip_address": "172.217.18.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bud02s26-in-f6.1e100.net.",
+      "ip_address": "172.217.18.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ams16s31-in-f1.1e100.net.",
+      "ip_address": "172.217.19.193",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ams16s31-in-f2.1e100.net.",
+      "ip_address": "172.217.19.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ams16s31-in-f10.1e100.net.",
+      "ip_address": "172.217.19.202",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ham02s13-in-f1.1e100.net.",
+      "ip_address": "172.217.20.1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra16s12-in-f194.1e100.net.",
+      "ip_address": "172.217.21.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra16s13-in-f2.1e100.net.",
+      "ip_address": "172.217.21.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra07s29-in-f2.1e100.net.",
+      "ip_address": "172.217.21.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s18-in-f6.1e100.net.",
+      "ip_address": "172.217.22.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s18-in-f106.1e100.net.",
+      "ip_address": "172.217.22.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s18-in-f110.1e100.net.",
+      "ip_address": "172.217.22.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "muc11s02-in-f2.1e100.net.",
+      "ip_address": "172.217.22.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra16s14-in-f2.1e100.net.",
+      "ip_address": "172.217.22.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s16-in-f34.1e100.net.",
+      "ip_address": "172.217.22.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s17-in-f2.1e100.net.",
+      "ip_address": "172.217.22.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s17-in-f14.1e100.net.",
+      "ip_address": "172.217.22.78",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s18-in-f1.1e100.net.",
+      "ip_address": "172.217.22.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s18-in-f98.1e100.net.",
+      "ip_address": "172.217.22.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "mil04s22-in-f66.1e100.net.",
+      "ip_address": "172.217.23.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "maa03s23-in-f2.1e100.net.",
+      "ip_address": "172.217.26.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom05s09-in-f1.1e100.net.",
+      "ip_address": "172.217.26.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom05s09-in-f2.1e100.net.",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com.",
+      "ip_address": "174.129.19.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "178.208.99.78",
+      "loc_city": "Bielefeld",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.532600",
+      "loc_lat": "52.024500"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "cas.fr.eu.criteo.com.",
+      "ip_address": "178.250.0.101",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "178.250.0.66",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "par.service.criteo.net.",
+      "ip_address": "178.250.0.79",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-01-cdg2.facebook.com.",
+      "ip_address": "179.60.192.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a184-25-245-98.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.25.245.98",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a184-29-9-7.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.29.9.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a184-51-94-96.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.51.94.96",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-184-72-35-80.us-west-1.compute.amazonaws.com.",
+      "ip_address": "184.72.35.80",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-184-73-187-250.compute-1.amazonaws.com.",
+      "ip_address": "184.73.187.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-184-73-203-162.compute-1.amazonaws.com.",
+      "ip_address": "184.73.203.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-184-73-219-223.compute-1.amazonaws.com.",
+      "ip_address": "184.73.219.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-184-73-246-238.compute-1.amazonaws.com.",
+      "ip_address": "184.73.246.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "opera.com.",
+      "ip_address": "185.26.182.104",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.218.19",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "server-216-137-63-234.lhr3.r.cloudfront.net.",
+      "ip_address": "216.137.63.234",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "server-216-137-63-46.lhr3.r.cloudfront.net.",
+      "ip_address": "216.137.63.46",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "maa03s20-in-f33.1e100.net.",
+      "ip_address": "216.58.197.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "maa03s20-in-f2.1e100.net.",
+      "ip_address": "216.58.197.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "maa03s21-in-f10.1e100.net.",
+      "ip_address": "216.58.197.74",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "mil04s04-in-f2.1e100.net.",
+      "ip_address": "216.58.198.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s01-in-f130.1e100.net.",
+      "ip_address": "216.58.199.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom05s10-in-f130.1e100.net.",
+      "ip_address": "216.58.203.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom05s10-in-f14.1e100.net.",
+      "ip_address": "216.58.203.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s11-in-f2.1e100.net.",
+      "ip_address": "216.58.203.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s12-in-f1.1e100.net.",
+      "ip_address": "216.58.203.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s12-in-f2.1e100.net.",
+      "ip_address": "216.58.203.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s12-in-f14.1e100.net.",
+      "ip_address": "216.58.203.206",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s24-in-f2.1e100.net.",
+      "ip_address": "216.58.205.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra16s20-in-f1.1e100.net.",
+      "ip_address": "216.58.206.1",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra16s20-in-f2.1e100.net.",
+      "ip_address": "216.58.206.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "muc11s04-in-f2.1e100.net.",
+      "ip_address": "216.58.207.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra16s24-in-f2.1e100.net.",
+      "ip_address": "216.58.207.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s12-in-f1.1e100.net.",
+      "ip_address": "216.58.208.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s12-in-f2.1e100.net.",
+      "ip_address": "216.58.208.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s12-in-f35.1e100.net.",
+      "ip_address": "216.58.208.35",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra15s12-in-f14.1e100.net.",
+      "ip_address": "216.58.208.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bud02s21-in-f162.1e100.net.",
+      "ip_address": "216.58.209.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bud02s22-in-f1.1e100.net.",
+      "ip_address": "216.58.209.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "fra16s07-in-f2.1e100.net.",
+      "ip_address": "216.58.210.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ams15s22-in-f161.1e100.net.",
+      "ip_address": "216.58.212.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ham02s15-in-f194.1e100.net.",
+      "ip_address": "216.58.213.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ham04s01-in-f2.1e100.net.",
+      "ip_address": "216.58.213.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ham04s01-in-f234.1e100.net.",
+      "ip_address": "216.58.213.234",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bud02s23-in-f195.1e100.net.",
+      "ip_address": "216.58.214.195",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bud02s23-in-f206.1e100.net.",
+      "ip_address": "216.58.214.206",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bud02s24-in-f2.1e100.net.",
+      "ip_address": "216.58.214.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bud02s24-in-f6.1e100.net.",
+      "ip_address": "216.58.214.230",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s10-in-f2.1e100.net.",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "del01s08-in-f193.1e100.net.",
+      "ip_address": "216.58.220.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "hkg12s16-in-f2.1e100.net.",
+      "ip_address": "216.58.220.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom05s05-in-f2.1e100.net.",
+      "ip_address": "216.58.220.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "maa03s18-in-f34.1e100.net.",
+      "ip_address": "216.58.220.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a2-17-117-231.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.17.117.231",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "mpr2.ngd.vip.ir2.yahoo.com.",
+      "ip_address": "217.12.15.54",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a2-17-44-202.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2.17.44.202",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-201-165-155.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.201.165.155",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-21-169-179.compute-1.amazonaws.com.",
+      "ip_address": "23.21.169.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-21-213-97.compute-1.amazonaws.com.",
+      "ip_address": "23.21.213.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-21-225-144.compute-1.amazonaws.com.",
+      "ip_address": "23.21.225.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-21-247-215.compute-1.amazonaws.com.",
+      "ip_address": "23.21.247.215",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-21-47-236.compute-1.amazonaws.com.",
+      "ip_address": "23.21.47.236",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-216-101-122.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.216.101.122",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com.",
+      "ip_address": "23.21.78.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com.",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-21-97-174.compute-1.amazonaws.com.",
+      "ip_address": "23.21.97.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-23-114-160.compute-1.amazonaws.com.",
+      "ip_address": "23.23.114.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-23-148-99.compute-1.amazonaws.com.",
+      "ip_address": "23.23.148.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-23-156-102.compute-1.amazonaws.com.",
+      "ip_address": "23.23.156.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-23-161-48.compute-1.amazonaws.com.",
+      "ip_address": "23.23.161.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-23-162-140.compute-1.amazonaws.com.",
+      "ip_address": "23.23.162.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-23-254-42.compute-1.amazonaws.com.",
+      "ip_address": "23.23.254.42",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-23-23-72-114.compute-1.amazonaws.com.",
+      "ip_address": "23.23.72.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-36-235-247.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.36.235.247",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-42-166-194.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.42.166.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-42-26-92.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.42.26.92",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-47-236-67.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.47.236.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-49-76-202.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.49.76.202",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-52-50-136.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.52.50.136",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-53-164-107.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.53.164.107",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-53-164-120.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.53.164.120",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-54-104-142.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.54.104.142",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-54-24-157.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.54.24.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-57-202-75.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.57.202.75",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-57-234-107.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.57.234.107",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-6-210-235.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.6.210.235",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a23-67-149-230.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.67.149.230",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s10-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom05s10-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:802::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s11-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:803::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s11-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:803::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom05s05-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom05s09-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s01-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s01-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s12-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:808::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s12-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s12-in-x06.1e100.net.",
+      "ip_address": "2404:6800:4009:808::2006",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s12-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:808::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "bom07s12-in-x0e.1e100.net.",
+      "ip_address": "2404:6800:4009:808::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:18b::88f",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:19d::88f",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b0::88f",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b3::88f",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:86::88f",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:9b::88f",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star6-shv-01-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com.",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star6-shv-01-bom1.facebook.com.",
+      "ip_address": "2a03:2880:f02f:f:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-01-amt2.facebook.com.",
+      "ip_address": "31.13.64.16",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-01-waw1.facebook.com.",
+      "ip_address": "31.13.81.9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-01-vie1.facebook.com.",
+      "ip_address": "31.13.84.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com.",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com.",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-35-156-183-81.eu-central-1.compute.amazonaws.com.",
+      "ip_address": "35.156.183.81",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "s1.adform.net.",
+      "ip_address": "37.157.6.253",
+      "loc_city": "N/A",
+      "loc_country": "Denmark",
+      "loc_continent": "Europe",
+      "loc_long": "12.056400",
+      "loc_lat": "55.712300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "155.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.40",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "156.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.53",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "154.bm-nginx-loadbalancer.mgmt.fra1.adnexus.net.",
+      "ip_address": "37.252.172.70",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "46.105.199.2",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.105.134",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-16-213-250.compute-1.amazonaws.com.",
+      "ip_address": "50.16.213.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-16-226-96.compute-1.amazonaws.com.",
+      "ip_address": "50.16.226.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-17-188-98.compute-1.amazonaws.com.",
+      "ip_address": "50.17.188.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-17-200-4.compute-1.amazonaws.com.",
+      "ip_address": "50.17.200.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-17-205-178.compute-1.amazonaws.com.",
+      "ip_address": "50.17.205.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-17-211-253.compute-1.amazonaws.com.",
+      "ip_address": "50.17.211.253",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-17-228-124.compute-1.amazonaws.com.",
+      "ip_address": "50.17.228.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-17-244-57.compute-1.amazonaws.com.",
+      "ip_address": "50.17.244.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-19-124-76.compute-1.amazonaws.com.",
+      "ip_address": "50.19.124.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com.",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-19-211-198.compute-1.amazonaws.com.",
+      "ip_address": "50.19.211.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-19-244-139.compute-1.amazonaws.com.",
+      "ip_address": "50.19.244.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-19-94-109.compute-1.amazonaws.com.",
+      "ip_address": "50.19.94.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-50-19-97-211.compute-1.amazonaws.com.",
+      "ip_address": "50.19.97.211",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-52-209-43-8.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.209.43.8",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "server-52-222-175-142.fra54.r.cloudfront.net.",
+      "ip_address": "52.222.175.142",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "server-52-85-225-15.cdg50.r.cloudfront.net.",
+      "ip_address": "52.85.225.15",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.220.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-163-254-184.compute-1.amazonaws.com.",
+      "ip_address": "54.163.254.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-197-239-228.compute-1.amazonaws.com.",
+      "ip_address": "54.197.239.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-197-255-113.compute-1.amazonaws.com.",
+      "ip_address": "54.197.255.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-221-198-70.compute-1.amazonaws.com.",
+      "ip_address": "54.221.198.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-221-220-45.compute-1.amazonaws.com.",
+      "ip_address": "54.221.220.45",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-221-246-132.compute-1.amazonaws.com.",
+      "ip_address": "54.221.246.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-158-189.compute-1.amazonaws.com.",
+      "ip_address": "54.225.158.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-165-247.compute-1.amazonaws.com.",
+      "ip_address": "54.225.165.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-173-240.compute-1.amazonaws.com.",
+      "ip_address": "54.225.173.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-186-46.compute-1.amazonaws.com.",
+      "ip_address": "54.225.186.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-197-56.compute-1.amazonaws.com.",
+      "ip_address": "54.225.197.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-207-59.compute-1.amazonaws.com.",
+      "ip_address": "54.225.207.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-213-13.compute-1.amazonaws.com.",
+      "ip_address": "54.225.213.13",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-228-102.compute-1.amazonaws.com.",
+      "ip_address": "54.225.228.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-244-77.compute-1.amazonaws.com.",
+      "ip_address": "54.225.244.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-84-52.compute-1.amazonaws.com.",
+      "ip_address": "54.225.84.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com.",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-101-190.compute-1.amazonaws.com.",
+      "ip_address": "54.235.101.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-107-248.compute-1.amazonaws.com.",
+      "ip_address": "54.235.107.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-130-118.compute-1.amazonaws.com.",
+      "ip_address": "54.235.130.118",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-169-95.compute-1.amazonaws.com.",
+      "ip_address": "54.235.169.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-182-15.compute-1.amazonaws.com.",
+      "ip_address": "54.235.182.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-190-60.compute-1.amazonaws.com.",
+      "ip_address": "54.235.190.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-244-117.compute-1.amazonaws.com.",
+      "ip_address": "54.235.244.117",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-67-75.compute-1.amazonaws.com.",
+      "ip_address": "54.235.67.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-75-243.compute-1.amazonaws.com.",
+      "ip_address": "54.235.75.243",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-235-86-237.compute-1.amazonaws.com.",
+      "ip_address": "54.235.86.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-243-112-235.compute-1.amazonaws.com.",
+      "ip_address": "54.243.112.235",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-243-133-174.compute-1.amazonaws.com.",
+      "ip_address": "54.243.133.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-243-139-39.compute-1.amazonaws.com.",
+      "ip_address": "54.243.139.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-243-148-175.compute-1.amazonaws.com.",
+      "ip_address": "54.243.148.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-243-187-254.compute-1.amazonaws.com.",
+      "ip_address": "54.243.187.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-243-215-229.compute-1.amazonaws.com.",
+      "ip_address": "54.243.215.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-243-251-231.compute-1.amazonaws.com.",
+      "ip_address": "54.243.251.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-243-78-124.compute-1.amazonaws.com.",
+      "ip_address": "54.243.78.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-54-72-107-118.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.72.107.118",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "sa-in-f95.1e100.net.",
+      "ip_address": "74.125.200.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "ec2-75-101-139-105.compute-1.amazonaws.com.",
+      "ip_address": "75.101.139.105",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "customer.telemaxx.net.",
+      "ip_address": "81.26.166.11",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "dsp.adfarm1.adition.com.",
+      "ip_address": "85.114.159.93",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "85.215.5.31",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "N/A",
+      "ip_address": "85.215.5.40",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "de4.ioam.de.",
+      "ip_address": "91.215.100.40",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "config1.ioam.de.",
+      "ip_address": "91.215.100.47",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "de3.ioam.de.",
+      "ip_address": "91.215.103.65",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "config3.ioam.de.",
+      "ip_address": "91.215.103.66",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a92-122-145-35.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.145.35",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapp",
+      "ptr_domain": "a92-123-92-131.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.123.92.131",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.112.134",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "xx-fbcdn-shv-02-frt3.fbcdn.net.",
+      "ip_address": "157.240.20.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "edge-star-mini-shv-02-frt3.facebook.com.",
+      "ip_address": "157.240.20.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "edge-z-m-mini-shv-02-frt3.facebook.com.",
+      "ip_address": "157.240.20.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "a172-227-170-149.deploy.static.akamaitechnologies.com.",
+      "ip_address": "172.227.170.149",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "ec2-184-73-232-97.compute-1.amazonaws.com.",
+      "ip_address": "184.73.232.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.19",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "ec2-23-21-230-199.compute-1.amazonaws.com.",
+      "ip_address": "23.21.230.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "a23-53-164-107.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.53.164.107",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com.",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "ec2-50-16-193-81.compute-1.amazonaws.com.",
+      "ip_address": "50.16.193.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "ec2-50-17-205-178.compute-1.amazonaws.com.",
+      "ip_address": "50.17.205.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "ec2-54-235-175-9.compute-1.amazonaws.com.",
+      "ip_address": "54.235.175.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "ec2-54-243-217-210.compute-1.amazonaws.com.",
+      "ip_address": "54.243.217.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterappamzn",
+      "ptr_domain": "a92-122-149-10.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.149.10",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "a104-101-253-242.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.101.253.242",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "a104-125-37-7.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.125.37.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ec2-107-21-247-249.compute-1.amazonaws.com.",
+      "ip_address": "107.21.247.249",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ec2-107-22-161-209.compute-1.amazonaws.com.",
+      "ip_address": "107.22.161.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com.",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "edge-star-shv-02-frt3.facebook.com.",
+      "ip_address": "157.240.20.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "a184-25-245-98.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.25.245.98",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "a184-85-245-16.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.85.245.16",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ham04s01-in-f226.1e100.net.",
+      "ip_address": "216.58.213.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "a23-211-166-93.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.211.166.93",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ec2-23-21-213-97.compute-1.amazonaws.com.",
+      "ip_address": "23.21.213.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ec2-23-23-195-103.compute-1.amazonaws.com.",
+      "ip_address": "23.23.195.103",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "g2a02-26f0-002c-0285-0000-0000-0000-088f.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2a02:26f0:2c:285::88f",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "g2a02-26f0-002c-0288-0000-0000-0000-088f.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2a02:26f0:2c:288::88f",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f01c:2:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "edge-star-shv-01-vie1.facebook.com.",
+      "ip_address": "31.13.84.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ec2-50-19-122-61.compute-1.amazonaws.com.",
+      "ip_address": "50.19.122.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ec2-50-19-124-76.compute-1.amazonaws.com.",
+      "ip_address": "50.19.124.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ec2-54-221-222-20.compute-1.amazonaws.com.",
+      "ip_address": "54.221.222.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ec2-54-235-145-74.compute-1.amazonaws.com.",
+      "ip_address": "54.235.145.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "ec2-54-243-147-93.compute-1.amazonaws.com.",
+      "ip_address": "54.243.147.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.wetteronline.wetterapppro",
+      "ptr_domain": "a92-122-145-35.deploy.static.akamaitechnologies.com.",
+      "ip_address": "92.122.145.35",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
+  ]
+}

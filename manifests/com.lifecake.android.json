@@ -1,25 +1,85 @@
 {
-    "appName": "Lifecake",
-    "packageName": "com.lifecake.android",
-    "category": "PARENTING",
-    "icon": "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",
-    "permissions": [
-          "android.permission.INTERNET", 
-          "android.permission.ACCESS_NETWORK_STATE", 
-          "android.permission.WRITE_EXTERNAL_STORAGE", 
-          "android.permission.READ_EXTERNAL_STORAGE", 
-          "android.permission.READ_CONTACTS", 
-          "android.permission.USE_CREDENTIALS", 
-          "android.permission.VIBRATE", 
-          "android.permission.WAKE_LOCK", 
-          "com.google.android.c2dm.permission.RECEIVE", 
-          "com.lifecake.android.permission.C2D_MESSAGE", 
-          "com.lifecake.android.permission.C2D_MESSAGE", 
-          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE", 
-          "android.permission.RECEIVE_BOOT_COMPLETED", 
-          "com.lifecake.android.feature.permission.storage.initial.StoragePermissionInitialActivity", 
-          "com.lifecake.android.feature.permission.storage.confirm.StoragePermissionSecondaryActivity", 
-          "com.lifecake.android.feature.permission.contacts.ContactsPermissionRationaleActivity" 
-    ],
-    "version": "3.22.0.0"
+  "appName": "Lifecake",
+  "packageName": "com.lifecake.android",
+  "category": "PARENTING",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_CONTACTS",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.lifecake.android.permission.C2D_MESSAGE",
+    "com.lifecake.android.permission.C2D_MESSAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.lifecake.android.feature.permission.storage.initial.StoragePermissionInitialActivity",
+    "com.lifecake.android.feature.permission.storage.confirm.StoragePermissionSecondaryActivity",
+    "com.lifecake.android.feature.permission.contacts.ContactsPermissionRationaleActivity"
+  ],
+  "version": "3.23.1.0",
+  "trackers": [
+    "Adjust",
+    "Facebook Login",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Facebook Analytics",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "server-13-32-253-185.sea19.r.cloudfront.net.",
+      "ip_address": "13.32.253.185",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com.",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "ec2-52-86-23-144.compute-1.amazonaws.com.",
+      "ip_address": "52.86.23.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "ec2-52-89-254-136.us-west-2.compute.amazonaws.com.",
+      "ip_address": "52.89.254.136",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "ec2-54-89-16-202.compute-1.amazonaws.com.",
+      "ip_address": "54.89.16.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
 }

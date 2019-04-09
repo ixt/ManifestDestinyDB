@@ -1,0 +1,869 @@
+{
+  "appName": "No Limits",
+  "packageName": "com.ea.game.nfs14_row",
+  "category": "GAME_RACING",
+  "icon": "",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.USE_CREDENTIALS",
+    "com.ea.game.nfs14_row.permission.C2D_MESSAGE",
+    "com.ea.game.nfs14_row.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "3.4.5",
+  "trackers": [
+    "Google CrashLytics",
+    "Moat",
+    "Facebook Share",
+    "Unity3d Ads",
+    "Facebook Places",
+    "Facebook Login",
+    "AppLovin",
+    "Facebook Analytics",
+    "Google Ads",
+    "ironSource",
+    "Google DoubleClick",
+    "AdColony",
+    "Millennial Media"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "a104-121-228-42.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.121.228.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-107-20-211-189.compute-1.amazonaws.com.",
+      "ip_address": "107.20.211.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-107-22-241-19.compute-1.amazonaws.com.",
+      "ip_address": "107.22.241.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-107-23-164-86.compute-1.amazonaws.com.",
+      "ip_address": "107.23.164.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "N/A",
+      "ip_address": "124.40.245.168",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-13-228-44-32.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "13.228.44.32",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "N/A",
+      "ip_address": "138.108.140.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "N/A",
+      "ip_address": "151.139.107.14",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.802100",
+      "loc_lat": "32.788900"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "72.70.559e.ip4.static.sl-reverse.com.",
+      "ip_address": "158.85.112.114",
+      "loc_city": "Markham",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.268600",
+      "loc_lat": "43.876900"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "73.70.559e.ip4.static.sl-reverse.com.",
+      "ip_address": "158.85.112.115",
+      "loc_city": "Markham",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.268600",
+      "loc_lat": "43.876900"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "74.70.559e.ip4.static.sl-reverse.com.",
+      "ip_address": "158.85.112.116",
+      "loc_city": "Markham",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.268600",
+      "loc_lat": "43.876900"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "75.70.559e.ip4.static.sl-reverse.com.",
+      "ip_address": "158.85.112.117",
+      "loc_city": "Markham",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.268600",
+      "loc_lat": "43.876900"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "bom05s09-in-f1.1e100.net.",
+      "ip_address": "172.217.26.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "bom05s09-in-f14.1e100.net.",
+      "ip_address": "172.217.26.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "71.77.c0ad.ip4.static.sl-reverse.com.",
+      "ip_address": "173.192.119.113",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "N/A",
+      "ip_address": "199.36.253.158",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "N/A",
+      "ip_address": "216.157.12.18",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "bom07s01-in-f138.1e100.net.",
+      "ip_address": "216.58.199.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "a23-35-81-8.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.35.81.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "a23-35-83-87.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.35.83.87",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-192-150-145.compute-1.amazonaws.com.",
+      "ip_address": "34.192.150.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-192-6-239.compute-1.amazonaws.com.",
+      "ip_address": "34.192.6.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-194-148-240.compute-1.amazonaws.com.",
+      "ip_address": "34.194.148.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-194-170-6.compute-1.amazonaws.com.",
+      "ip_address": "34.194.170.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-197-47-153.compute-1.amazonaws.com.",
+      "ip_address": "34.197.47.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-198-139-205.compute-1.amazonaws.com.",
+      "ip_address": "34.198.139.205",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-198-84-90.compute-1.amazonaws.com.",
+      "ip_address": "34.198.84.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-199-151-199.compute-1.amazonaws.com.",
+      "ip_address": "34.199.151.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-199-171-53.compute-1.amazonaws.com.",
+      "ip_address": "34.199.171.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-200-211-156.compute-1.amazonaws.com.",
+      "ip_address": "34.200.211.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-202-20-193.compute-1.amazonaws.com.",
+      "ip_address": "34.202.20.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-202-70-249.compute-1.amazonaws.com.",
+      "ip_address": "34.202.70.249",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-204-154-219.compute-1.amazonaws.com.",
+      "ip_address": "34.204.154.219",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-204-161-190.compute-1.amazonaws.com.",
+      "ip_address": "34.204.161.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-204-227-78.compute-1.amazonaws.com.",
+      "ip_address": "34.204.227.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-205-200-88.compute-1.amazonaws.com.",
+      "ip_address": "34.205.200.88",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-206-169-252.compute-1.amazonaws.com.",
+      "ip_address": "34.206.169.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-207-18-92.compute-1.amazonaws.com.",
+      "ip_address": "34.207.18.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-34-248-182-34.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "34.248.182.34",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-50-16-168-57.compute-1.amazonaws.com.",
+      "ip_address": "50.16.168.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-50-19-228-192.compute-1.amazonaws.com.",
+      "ip_address": "50.19.228.192",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-1-131-111.compute-1.amazonaws.com.",
+      "ip_address": "52.1.131.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-17-33-203.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.33.203",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-17-95-182.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.17.95.182",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-20-186-231.compute-1.amazonaws.com.",
+      "ip_address": "52.20.186.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-203-17-14.compute-1.amazonaws.com.",
+      "ip_address": "52.203.17.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-204-202-47.compute-1.amazonaws.com.",
+      "ip_address": "52.204.202.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-205-157-86.compute-1.amazonaws.com.",
+      "ip_address": "52.205.157.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-205-85-172.compute-1.amazonaws.com.",
+      "ip_address": "52.205.85.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-205-92-12.compute-1.amazonaws.com.",
+      "ip_address": "52.205.92.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-207-77-113.compute-1.amazonaws.com.",
+      "ip_address": "52.207.77.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-2-102-156.compute-1.amazonaws.com.",
+      "ip_address": "52.2.102.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-2-129-39.compute-1.amazonaws.com.",
+      "ip_address": "52.2.129.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-213-136-252.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.213.136.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-213-145-82.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "52.213.145.82",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-221-5-9.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.221.5.9",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-2-217-205.compute-1.amazonaws.com.",
+      "ip_address": "52.2.217.205",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-2-49-58.compute-1.amazonaws.com.",
+      "ip_address": "52.2.49.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-3-157-55.compute-1.amazonaws.com.",
+      "ip_address": "52.3.157.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-44-31-59.compute-1.amazonaws.com.",
+      "ip_address": "52.44.31.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-6-133-186.compute-1.amazonaws.com.",
+      "ip_address": "52.6.133.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-6-89-154.compute-1.amazonaws.com.",
+      "ip_address": "52.6.89.154",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-71-204-191.compute-1.amazonaws.com.",
+      "ip_address": "52.71.204.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-76-225-195.ap-southeast-1.compute.amazonaws.com.",
+      "ip_address": "52.76.225.195",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-86-205-100.compute-1.amazonaws.com.",
+      "ip_address": "52.86.205.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-86-206-90.compute-1.amazonaws.com.",
+      "ip_address": "52.86.206.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-87-167-98.compute-1.amazonaws.com.",
+      "ip_address": "52.87.167.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-52-87-19-166.compute-1.amazonaws.com.",
+      "ip_address": "52.87.19.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-152-230-95.compute-1.amazonaws.com.",
+      "ip_address": "54.152.230.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-164-120-57.compute-1.amazonaws.com.",
+      "ip_address": "54.164.120.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-164-213-81.compute-1.amazonaws.com.",
+      "ip_address": "54.164.213.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-164-220-86.compute-1.amazonaws.com.",
+      "ip_address": "54.164.220.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-164-244-223.compute-1.amazonaws.com.",
+      "ip_address": "54.164.244.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-175-36-220.compute-1.amazonaws.com.",
+      "ip_address": "54.175.36.220",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-175-50-220.compute-1.amazonaws.com.",
+      "ip_address": "54.175.50.220",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-208-27-119.compute-1.amazonaws.com.",
+      "ip_address": "54.208.27.119",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-221-254-2.compute-1.amazonaws.com.",
+      "ip_address": "54.221.254.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-225-155-181.compute-1.amazonaws.com.",
+      "ip_address": "54.225.155.181",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-236-154-21.compute-1.amazonaws.com.",
+      "ip_address": "54.236.154.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-243-160-177.compute-1.amazonaws.com.",
+      "ip_address": "54.243.160.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-76-241-89.eu-west-1.compute.amazonaws.com.",
+      "ip_address": "54.76.241.89",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-85-181-199.compute-1.amazonaws.com.",
+      "ip_address": "54.85.181.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ea.game.nfs14_row",
+      "ptr_domain": "ec2-54-88-47-125.compute-1.amazonaws.com.",
+      "ip_address": "54.88.47.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

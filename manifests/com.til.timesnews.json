@@ -1,0 +1,911 @@
+{
+  "appName": "NewsPoint",
+  "packageName": "com.til.timesnews",
+  "category": "NEWS_AND_MAGAZINES",
+  "icon": "",
+  "permissions": [
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.VIBRATE",
+    "com.til.timesnews.permission.MIPUSH_RECEIVE",
+    "com.til.timesnews.permission.MIPUSH_RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.til.timesnews.permission.C2D_MESSAGE",
+    "com.til.timesnews.permission.C2D_MESSAGE"
+  ],
+  "version": "4.4.8.8",
+  "trackers": [
+    "Facebook Share",
+    "Urbanairship",
+    "Google Firebase Analytics",
+    "Facebook Analytics",
+    "Facebook Login",
+    "Facebook Ads",
+    "Facebook Places",
+    "Google Analytics",
+    "AppsFlyer",
+    "ComScore",
+    "Google Ads",
+    "Google DoubleClick",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a104-108-155-5.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.108.155.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a104-108-207-143.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.108.207.143",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a104-108-232-244.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.108.232.244",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a104-108-251-138.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.108.251.138",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a104-109-3-24.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.109.3.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a104-122-62-180.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.122.62.180",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "104.24.22.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a104-65-128-209.deploy.static.akamaitechnologies.com.",
+      "ip_address": "104.65.128.209",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com.",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "maa03s23-in-f194.1e100.net.",
+      "ip_address": "172.217.26.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "rio01s23-in-f3.1e100.net.",
+      "ip_address": "172.217.30.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a184-84-111-123.deploy.static.akamaitechnologies.com.",
+      "ip_address": "184.84.111.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "i1.wp.com.",
+      "ip_address": "192.0.77.2",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "haystack.ICSI.Berkeley.EDU.",
+      "ip_address": "192.150.187.44",
+      "loc_city": "Berkeley",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.254900",
+      "loc_lat": "37.873800"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "web016.apsalar.com.",
+      "ip_address": "198.134.7.231",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "web017.apsalar.com.",
+      "ip_address": "198.134.7.232",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "web013.apsalar.com.",
+      "ip_address": "198.134.7.53",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "web014.apsalar.com.",
+      "ip_address": "198.134.7.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "web015.apsalar.com.",
+      "ip_address": "198.134.7.55",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "bom05s10-in-f1.1e100.net.",
+      "ip_address": "216.58.203.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "hkg12s16-in-f1.1e100.net.",
+      "ip_address": "216.58.220.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "del01s08-in-f194.1e100.net.",
+      "ip_address": "216.58.220.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "223.165.27.110",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a23-207-140-251.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.207.140.251",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-23-21-53-226.compute-1.amazonaws.com.",
+      "ip_address": "23.21.53.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a23-54-25-21.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.54.25.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a23-57-254-216.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.57.254.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a23-57-255-103.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.57.255.103",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "a23-58-2-23.deploy.static.akamaitechnologies.com.",
+      "ip_address": "23.58.2.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "bom05s09-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "bom05s08-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:807::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "bom07s12-in-x02.1e100.net.",
+      "ip_address": "2404:6800:4009:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:160d:2885:face:b00c:3333:a3f",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:18b::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:18d::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:282::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:28e::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:28f::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:290::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:294::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:29a::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:29b::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:29e::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2a3::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2aa::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2ab::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b3::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:2b6::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1630:86::143a",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "g2600-140f-0005-0183-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:5:183::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "g2600-140f-0005-0186-0000-0000-0000-216f.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:5:186::216f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "g2600-140f-0005-018d-0000-0000-0000-143a.deploy.static.akamaitechnologies.com.",
+      "ip_address": "2600:140f:5:18d::143a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.118.169",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-50-17-189-214.compute-1.amazonaws.com.",
+      "ip_address": "50.17.189.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-50-19-124-76.compute-1.amazonaws.com.",
+      "ip_address": "50.19.124.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "52.172.159.73",
+      "loc_city": "Pune",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "73.862600",
+      "loc_lat": "18.533200"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.32.125",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.25",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.32.33",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.36.129",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.36.5",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.40.109",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.1",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.25",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.33",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.45",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com.",
+      "ip_address": "52.219.40.85",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-54-225-173-240.compute-1.amazonaws.com.",
+      "ip_address": "54.225.173.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-54-225-174-11.compute-1.amazonaws.com.",
+      "ip_address": "54.225.174.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-54-225-182-18.compute-1.amazonaws.com.",
+      "ip_address": "54.225.182.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-54-225-197-56.compute-1.amazonaws.com.",
+      "ip_address": "54.225.197.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-54-243-111-144.compute-1.amazonaws.com.",
+      "ip_address": "54.243.111.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-54-243-91-163.compute-1.amazonaws.com.",
+      "ip_address": "54.243.91.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "ec2-54-83-50-23.compute-1.amazonaws.com.",
+      "ip_address": "54.83.50.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::36e1:50b3",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::36e1:d6f1",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::6841:80e0",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::ae81:14b9",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::c686:735",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::c686:7e7",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::d83a:c7a2",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::d83a:cb82",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::d83a:cba2",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::d83a:dca2",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.til.timesnews",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::dfa5:1b6e",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "appName": "OGYouTube",
+  "packageName": "com.google.android.ogyoutube",
+  "category": "",
+  "icon": "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",
+  "permissions": [
+    "android.permission.KILL_BACKGROUND_PROCESSES",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.MANAGE_DOCUMENTS",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.USE_CREDENTIALS",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.NFC",
+    "android.permission.CAMERA",
+    "android.permission.VIBRATE",
+    "com.mgoogle.android.gms.permission.AD_ID_NOTIFICATION",
+    "com.google.android.ogyoutube.permission.C2D_MESSAGE",
+    "android.permission.GET_PACKAGE_SIZE",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.READ_CONTACTS",
+    "com.google.android.ogyoutube.permission.C2D_MESSAGE"
+  ],
+  "version": "12.43.52",
+  "trackers": [],
+  "network_connections": [
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "N/A",
+      "ip_address": "151.5.13.15",
+      "loc_city": "N/A",
+      "loc_country": "Italy",
+      "loc_continent": "Europe",
+      "loc_long": "12.109700",
+      "loc_lat": "43.147900"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "waw02s08-in-f206.1e100.net.",
+      "ip_address": "172.217.20.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "fra15s18-in-f14.1e100.net.",
+      "ip_address": "172.217.22.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "eze03s15-in-f2.1e100.net.",
+      "ip_address": "172.217.28.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "gru14s06-in-f2.1e100.net.",
+      "ip_address": "172.217.29.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "cache.google.com.",
+      "ip_address": "212.142.160.207",
+      "loc_city": "N/A",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.684000",
+      "loc_lat": "40.417200"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "N/A",
+      "ip_address": "212.191.236.76",
+      "loc_city": "Lodz",
+      "loc_country": "Poland",
+      "loc_continent": "Europe",
+      "loc_long": "16.633600",
+      "loc_lat": "52.214000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "mil04s03-in-f10.1e100.net.",
+      "ip_address": "216.58.198.10",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "mil04s04-in-f34.1e100.net.",
+      "ip_address": "216.58.198.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom07s01-in-f2.1e100.net.",
+      "ip_address": "216.58.199.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom05s08-in-f2.1e100.net.",
+      "ip_address": "216.58.199.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom05s10-in-f2.1e100.net.",
+      "ip_address": "216.58.203.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "mil04s26-in-f14.1e100.net.",
+      "ip_address": "216.58.205.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "mil04s27-in-f14.1e100.net.",
+      "ip_address": "216.58.205.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "mil04s29-in-f10.1e100.net.",
+      "ip_address": "216.58.205.202",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "mil04s25-in-f10.1e100.net.",
+      "ip_address": "216.58.205.74",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "waw02s06-in-f2.1e100.net.",
+      "ip_address": "216.58.209.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "fra16s07-in-f10.1e100.net.",
+      "ip_address": "216.58.210.10",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bud02s23-in-f10.1e100.net.",
+      "ip_address": "216.58.214.202",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom05s05-in-f2.1e100.net.",
+      "ip_address": "216.58.220.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "scl03s11-in-f129.1e100.net.",
+      "ip_address": "216.58.222.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom07s01-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom05s08-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:807::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom05s08-in-x0e.1e100.net.",
+      "ip_address": "2404:6800:4009:807::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom07s12-in-x01.1e100.net.",
+      "ip_address": "2404:6800:4009:808::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom07s12-in-x0a.1e100.net.",
+      "ip_address": "2404:6800:4009:808::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "bom07s12-in-x0e.1e100.net.",
+      "ip_address": "2404:6800:4009:808::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:6:400:1::10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:6:400:1::13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:6:400:1::c",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:6:400:1::d",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax28s01-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4007:801::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax17s34-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4007:802::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax17s03-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax17s05-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4007:808::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax02s23-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80b::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax02s23-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80b::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax02s23-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80b::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax17s15-in-x01.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80c::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax17s15-in-x0e.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80c::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lax28s10-in-x0a.1e100.net.",
+      "ip_address": "2607:f8b0:4007:80d::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401c:2::7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "public104483.xdsl.centertel.pl.",
+      "ip_address": "46.134.216.35",
+      "loc_city": "N/A",
+      "loc_country": "Poland",
+      "loc_continent": "Europe",
+      "loc_long": "21.036200",
+      "loc_lat": "52.239400"
+    },
+    {
+      "package": "com.google.android.ogyoutube",
+      "ptr_domain": "lj-in-f101.1e100.net.",
+      "ip_address": "64.233.163.101",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}
