@@ -57,7 +57,7 @@ done
 
 printf "generating $package md\n"
 
-cat <<EOF > output/manifests/$package.md
+cat <<EOF > output/apps/$package.md
 ---
 layout: none
 title: "${name:-$package}"
@@ -76,79 +76,79 @@ preinstalledCount: "$ppreinstalled"
 EOF
 
 if [[ "${no_trackers}" -ne "1" ]]; then
-cat <<EOF >> output/manifests/$package.md
+cat <<EOF >> output/apps/$package.md
 trackers:
 EOF
 for tracker in ${trackers[*]}; do
-    printf "  - $tracker \n" >> output/manifests/$package.md
+    printf "  - $tracker \n" >> output/apps/$package.md
 done 
 else
-    printf "trackers: \"none-found\" \n" >> output/manifests/$package.md
+    printf "trackers: \"none-found\" \n" >> output/apps/$package.md
 fi
 
-printf "trackerCount: ${#trackers[@]} \n" >> output/manifests/$package.md
+printf "trackerCount: ${#trackers[@]} \n" >> output/apps/$package.md
 
 if [[ "${no_permissions}" -ne "1" ]]; then
-cat <<EOF >> output/manifests/$package.md
+cat <<EOF >> output/apps/$package.md
 permissions:
 EOF
 for permission in ${permissions[*]}; do
-    printf "  - $permission \n" >> output/manifests/$package.md
+    printf "  - $permission \n" >> output/apps/$package.md
 done
 else
-    printf "permissions: \"none-found\" \n" >> output/manifests/$package.md
+    printf "permissions: \"none-found\" \n" >> output/apps/$package.md
 fi
 
-printf "permissionCount: ${#permissions[@]} \n" >> output/manifests/$package.md
+printf "permissionCount: ${#permissions[@]} \n" >> output/apps/$package.md
 
 if [[ "${no_connections}" -ne "1" ]]; then
-cat <<EOF >> output/manifests/$package.md
+cat <<EOF >> output/apps/$package.md
 connections:
 EOF
 for connection in ${connections[*]}; do
     connectionname=$(echo "${connection}" | cut -d"," -f1 | sed "s/%//g" )
     if egrep -q "^N/A" <<< "$connectionname"; then
-        echo "  - $(printf "$connectionname" | cut -d"/" -f3 )" >> output/manifests/$package.md
+        echo "  - $(printf "$connectionname" | cut -d"/" -f3 )" >> output/apps/$package.md
     else
-        echo "  - $connectionname" | cut -d"/" -f1 | sed "s/\.$//g" >> output/manifests/$package.md
+        echo "  - $connectionname" | cut -d"/" -f1 | sed "s/\.$//g" >> output/apps/$package.md
     fi
 done
 else
-    printf "connections: \"none found\" \n" >> output/manifests/$package.md
+    printf "connections: \"none found\" \n" >> output/apps/$package.md
 fi
 
-printf "connectionCount: ${#connections[@]} \n" >> output/manifests/$package.md
+printf "connectionCount: ${#connections[@]} \n" >> output/apps/$package.md
 
-cat <<EOF >> output/manifests/$package.md
+cat <<EOF >> output/apps/$package.md
 
 ---
 
 ![$package icon]({{< param icon >}})  
 EOF
 
-printf "## Permissions \n" >> output/manifests/$package.md
+printf "## Permissions \n" >> output/apps/$package.md
 
 if [[ "${no_permissions}" -ne "1" ]]; then
 for permission in ${permissions[*]}; do
-    printf "{{< permission \"$permission\" >}}\n" >> output/manifests/$package.md
+    printf "{{< permission \"$permission\" >}}\n" >> output/apps/$package.md
 done
 fi
 
 
-printf "## Trackers \n" >> output/manifests/$package.md
+printf "## Trackers \n" >> output/apps/$package.md
 if [[ "${no_trackers}" -ne "1" ]]; then
 for tracker in ${trackers[*]}; do
-    printf "{{< tracker \"$tracker\" >}}\n" >> output/manifests/$package.md
+    printf "{{< tracker \"$tracker\" >}}\n" >> output/apps/$package.md
 done 
 fi
 
-printf "## Map of past connections \n" >> output/manifests/$package.md
+printf "## Map of past connections \n" >> output/apps/$package.md
 if [[ "${no_connections}" -ne "1" ]]; then
-printf "{{< map \n" >> output/manifests/$package.md
+printf "{{< map \n" >> output/apps/$package.md
 for connection in ${connections[*]}; do
-    printf "\"${connection//%/ }\"\n" >> output/manifests/$package.md
+    printf "\"${connection//%/ }\"\n" >> output/apps/$package.md
 done
-printf ">}} \n" >> output/manifests/$package.md
+printf ">}} \n" >> output/apps/$package.md
 fi
 
 rm $TEMP $CONNECTION

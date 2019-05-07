@@ -35,5 +35,6 @@ description: "$description"
 ---
 
 EOF
+sed -i -e "s/\"\"/\"/g" "output/permissions/$lessername/_index.md"
     fi
 done < <(jq -r ".permissions[]" manifests/*.json | sort -u | sed -e "/com.sec.spp.permission.TOKEN/d")
