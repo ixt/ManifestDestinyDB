@@ -4,42 +4,20 @@
   "category": "ENTERTAINMENT",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
-    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
     "android.permission.RECORD_AUDIO",
-    "android.permission.ACCESS_COARSE_LOCATION"
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "version": "5.6",
   "trackers": [
-    "Facebook Share",
     "Facebook Login",
+    "Facebook Share",
     "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.logitech.harmonyhub",
-      "ptr_domain": "ec2-54-236-68-122.compute-1.amazonaws.com.",
-      "ip_address": "54.236.68.122",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.logitech.harmonyhub",
-      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
-      "ip_address": "74.6.34.30",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
   ]
 }

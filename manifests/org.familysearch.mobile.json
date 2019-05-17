@@ -4,40 +4,28 @@
   "category": "BOOKS_AND_REFERENCE",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.NFC",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_SYNC_SETTINGS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
     "android.permission.REORDER_TASKS",
     "android.permission.WAKE_LOCK",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.CAMERA",
-    "android.permission.NFC",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.READ_SYNC_SETTINGS",
     "android.permission.WRITE_SYNC_SETTINGS",
-    "android.permission.AUTHENTICATE_ACCOUNTS",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "2.8.1",
   "trackers": [
-    "Google Firebase Analytics",
     "Localytics",
+    "Google Firebase Analytics",
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "org.familysearch.mobile",
-      "ptr_domain": "a104-67-67-132.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.67.67.132",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
   ]
 }

@@ -4,41 +4,19 @@
   "category": "NEWS_AND_MAGAZINES",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_SETTINGS",
+    "android.permission.INTERNET",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WRITE_SETTINGS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "5.4",
   "trackers": [
     "Google CrashLytics",
-    "Google Firebase Analytics",
-    "Google Analytics",
     "Google DoubleClick",
-    "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "com.ap.postdispatch",
-      "ptr_domain": "ec2-52-5-201-250.compute-1.amazonaws.com.",
-      "ip_address": "52.5.201.250",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ap.postdispatch",
-      "ptr_domain": "ec2-54-82-228-207.compute-1.amazonaws.com.",
-      "ip_address": "54.82.228.207",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Ads",
+    "Google Analytics",
+    "Google Firebase Analytics"
   ]
 }

@@ -4,38 +4,24 @@
   "category": "HEALTH_AND_FITNESS",
   "icon": "",
   "permissions": [
-    "se.fmtk.permission.C2D_MESSAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.INTERNET",
     "android.permission.READ_PHONE_STATE",
-    "se.fmtk.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.VIBRATE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "se.fmtk.permission.C2D_MESSAGE"
   ],
   "version": "1.1.5",
   "trackers": [
-    "Facebook Analytics",
     "Facebook Share",
+    "Google Analytics",
+    "Facebook Analytics",
     "Google Firebase Analytics",
     "Facebook Login",
-    "Facebook Places",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "se.fmtk",
-      "ptr_domain": "N/A",
-      "ip_address": "159.72.137.30",
-      "loc_city": "N/A",
-      "loc_country": "Sweden",
-      "loc_continent": "Europe",
-      "loc_long": "18.056000",
-      "loc_lat": "59.324700"
-    }
+    "Facebook Places"
   ]
 }

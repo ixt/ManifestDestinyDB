@@ -4,55 +4,32 @@
   "category": "GAME_CARD",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.GET_ACCOUNTS",
     "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.WhatWapp.Scopa.permission.C2D_MESSAGE",
-    "com.WhatWapp.Scopa.permission.C2D_MESSAGE",
-    "android.permission.VIBRATE",
-    "android.permission.ACCESS_NETWORK_STATE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.GET_ACCOUNTS"
+    "com.WhatWapp.Scopa.permission.C2D_MESSAGE"
   ],
   "version": "6.30",
   "trackers": [
-    "Facebook Login",
-    "Facebook Share",
-    "Ogury Presage",
-    "AppsFlyer",
-    "Google Ads",
-    "Facebook Analytics",
-    "Inmobi",
-    "Flurry",
-    "Google Firebase Analytics",
     "Google CrashLytics",
-    "Facebook Ads",
+    "Ogury Presage",
+    "Flurry",
     "Google DoubleClick",
     "Unity3d Ads",
+    "Google Ads",
+    "Inmobi",
+    "Facebook Share",
+    "Facebook Login",
+    "Google Firebase Analytics",
+    "AppsFlyer",
+    "Facebook Ads",
+    "Facebook Analytics",
     "Facebook Places",
     "Moat"
-  ],
-  "network_connections": [
-    {
-      "package": "com.WhatWapp.Scopa",
-      "ptr_domain": "ec2-50-19-246-191.compute-1.amazonaws.com.",
-      "ip_address": "50.19.246.191",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.WhatWapp.Scopa",
-      "ptr_domain": "ec2-54-243-104-248.compute-1.amazonaws.com.",
-      "ip_address": "54.243.104.248",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

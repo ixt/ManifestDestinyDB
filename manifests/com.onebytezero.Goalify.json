@@ -4,53 +4,21 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
     "android.permission.INTERNET",
     "android.permission.VIBRATE",
-    "android.permission.CAMERA",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "3.3.2",
   "trackers": [
-    "Facebook Places",
-    "Facebook Login",
-    "Facebook Share",
     "Facebook Analytics",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.onebytezero.Goalify",
-      "ptr_domain": "edge-star-shv-02-lax3.facebook.com.",
-      "ip_address": "157.240.11.17",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.onebytezero.Goalify",
-      "ptr_domain": "at.goalifyapp.com.",
-      "ip_address": "5.35.248.205",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "7.012200",
-      "loc_lat": "51.447600"
-    },
-    {
-      "package": "com.onebytezero.Goalify",
-      "ptr_domain": "ds92-51-181-250.dedicated.hosteurope.de.",
-      "ip_address": "92.51.181.250",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "7.012200",
-      "loc_lat": "51.447600"
-    }
+    "Facebook Places",
+    "Google Firebase Analytics",
+    "Facebook Login",
+    "Facebook Share"
   ]
 }

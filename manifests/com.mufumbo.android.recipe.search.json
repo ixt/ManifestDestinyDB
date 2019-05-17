@@ -4,187 +4,24 @@
   "category": "FOOD_AND_DRINK",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "com.mufumbo.android.recipe.search.permission.C2D_MESSAGE",
-    "com.mufumbo.android.recipe.search.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.mufumbo.android.recipe.search.permission.C2D_MESSAGE"
   ],
   "version": "2.106.4.0-android",
   "trackers": [
-    "Google Analytics",
-    "MixPanel",
-    "Google Firebase Analytics",
-    "Google CrashLytics",
-    "Facebook Share",
     "Facebook Places",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-107-22-162-79.compute-1.amazonaws.com.",
-      "ip_address": "107.22.162.79",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "8d.13.7a9f.ip4.static.sl-reverse.com.",
-      "ip_address": "159.122.19.141",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "9c.13.7a9f.ip4.static.sl-reverse.com.",
-      "ip_address": "159.122.19.156",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "aa.13.7a9f.ip4.static.sl-reverse.com.",
-      "ip_address": "159.122.19.170",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ab.13.7a9f.ip4.static.sl-reverse.com.",
-      "ip_address": "159.122.19.171",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "cf.13.7a9f.ip4.static.sl-reverse.com.",
-      "ip_address": "159.122.19.207",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-174-129-41-20.compute-1.amazonaws.com.",
-      "ip_address": "174.129.41.20",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-23-21-219-171.compute-1.amazonaws.com.",
-      "ip_address": "23.21.219.171",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-23-21-225-144.compute-1.amazonaws.com.",
-      "ip_address": "23.21.225.144",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-23-23-165-121.compute-1.amazonaws.com.",
-      "ip_address": "23.23.165.121",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-50-19-109-104.compute-1.amazonaws.com.",
-      "ip_address": "50.19.109.104",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-50-19-112-130.compute-1.amazonaws.com.",
-      "ip_address": "50.19.112.130",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-52-3-91-169.compute-1.amazonaws.com.",
-      "ip_address": "52.3.91.169",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-54-197-255-113.compute-1.amazonaws.com.",
-      "ip_address": "54.197.255.113",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-54-235-220-232.compute-1.amazonaws.com.",
-      "ip_address": "54.235.220.232",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.mufumbo.android.recipe.search",
-      "ptr_domain": "ec2-54-83-196-16.compute-1.amazonaws.com.",
-      "ip_address": "54.83.196.16",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "MixPanel",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Facebook Login",
+    "Facebook Share"
   ]
 }

@@ -4,57 +4,36 @@
   "category": "ENTERTAINMENT",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.ACCESS_NETWORK_STATE",
-    "com.google.android.c2dm.permission.RECEIVE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.TRANSMIT_IR",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.READ_PHONE_STATE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "5.0.0",
   "trackers": [
-    "Facebook Analytics",
-    "Branch",
-    "Facebook Share",
-    "Facebook Places",
-    "Google DoubleClick",
-    "ComScore",
-    "Braze",
     "Facebook Login",
-    "Google CrashLytics",
-    "Demdex",
+    "Facebook Share",
+    "Conviva",
+    "Branch",
+    "HelpShift",
     "Google Firebase Analytics",
+    "Facebook Analytics",
+    "Facebook Places",
     "MParticle",
     "Google Ads",
-    "HelpShift"
-  ],
-  "network_connections": [
-    {
-      "package": "com.turner.tnt.android.networkapp",
-      "ptr_domain": "148.254.178.107.bc.googleusercontent.com.",
-      "ip_address": "107.178.254.148",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.248100",
-      "loc_lat": "38.658300"
-    },
-    {
-      "package": "com.turner.tnt.android.networkapp",
-      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com.",
-      "ip_address": "54.83.37.39",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google CrashLytics",
+    "Demdex",
+    "Braze (formerly Appboy)",
+    "Google DoubleClick",
+    "ComScore"
   ]
 }

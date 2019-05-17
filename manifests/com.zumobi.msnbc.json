@@ -4,145 +4,31 @@
   "category": "NEWS_AND_MAGAZINES",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.amazon.device.messaging.permission.RECEIVE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.zumobi.msnbc.permission.C2D_MESSAGE",
-    "com.zumobi.msnbc.permission.C2D_MESSAGE",
-    "com.amazon.device.messaging.permission.RECEIVE",
-    "com.zumobi.msnbc.permission.RECEIVE_ADM_MESSAGE",
-    "com.zumobi.msnbc.permission.RECEIVE_ADM_MESSAGE",
-    "android.permission.REQUEST_INSTALL_PACKAGES"
+    "com.zumobi.msnbc.permission.RECEIVE_ADM_MESSAGE"
   ],
   "version": "6.0.5",
   "trackers": [
-    "Moat",
+    "Urbanairship",
+    "Google Ads",
+    "ComScore",
     "Google DoubleClick",
     "HockeyApp",
     "Google CrashLytics",
-    "ComScore",
+    "Moat",
+    "Google Analytics",
+    "Taboola",
     "Google Firebase Analytics",
     "Demdex",
-    "Google Analytics",
-    "Urbanairship",
-    "Google Ads",
-    "Taboola",
     "Apptentive"
-  ],
-  "network_connections": [
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "a104-107-5-195.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.107.5.195",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "ec2-107-22-169-178.compute-1.amazonaws.com.",
-      "ip_address": "107.22.169.178",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com.",
-      "ip_address": "107.22.179.196",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "a23-205-210-224.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.205.210.224",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "a23-206-225-139.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.206.225.139",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "ec2-23-23-126-54.compute-1.amazonaws.com.",
-      "ip_address": "23.23.126.54",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "a23-36-33-227.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.36.33.227",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "a23-46-56-222.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.46.56.222",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "a23-50-228-199.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.50.228.199",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "a23-5-104-101.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.5.104.101",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "com.zumobi.msnbc",
-      "ptr_domain": "a72-247-95-79.deploy.static.akamaitechnologies.com.",
-      "ip_address": "72.247.95.79",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    }
   ]
 }

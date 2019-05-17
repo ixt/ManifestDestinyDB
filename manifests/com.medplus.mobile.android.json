@@ -4,50 +4,38 @@
   "category": "MEDICAL",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.BLUETOOTH",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.CAMERA",
     "android.permission.FLASHLIGHT",
-    "com.sec.android.provider.badge.permission.READ",
-    "com.sec.android.provider.badge.permission.WRITE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "com.htc.launcher.permission.READ_SETTINGS",
     "com.htc.launcher.permission.UPDATE_SHORTCUT",
-    "com.sonyericsson.home.permission.BROADCAST_BADGE",
-    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
-    "com.anddoes.launcher.permission.UPDATE_COUNT",
-    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.huawei.android.launcher.permission.CHANGE_BADGE",
     "com.huawei.android.launcher.permission.READ_SETTINGS",
     "com.huawei.android.launcher.permission.WRITE_SETTINGS",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.majeur.launcher.permission.UPDATE_BADGE",
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
   ],
   "version": "4.9.2",
   "trackers": [
+    "AppsFlyer",
     "Google Analytics",
-    "Facebook Analytics",
-    "Facebook Share",
     "Google Firebase Analytics",
     "Facebook Login",
-    "AppsFlyer"
-  ],
-  "network_connections": [
-    {
-      "package": "com.medplus.mobile.android",
-      "ptr_domain": "N/A",
-      "ip_address": "23.101.203.117",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    }
+    "Facebook Analytics",
+    "Facebook Share"
   ]
 }

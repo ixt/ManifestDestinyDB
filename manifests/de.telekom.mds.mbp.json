@@ -4,23 +4,27 @@
   "category": "COMMUNICATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_CONTACTS",
+    "android.permission.BLUETOOTH",
+    "android.permission.BROADCAST_STICKY",
     "android.permission.CALL_PHONE",
     "android.permission.EXPAND_STATUS_BAR",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.VIBRATE",
-    "android.permission.BROADCAST_STICKY",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.RECEIVE_SMS",
-    "android.permission.SEND_SMS",
-    "android.permission.READ_SMS",
-    "de.telekom.ssocompatservice.permission.TELEKOM_SSO",
-    "de.telekom.ssocompatservice.permission.TELEKOM_SSO",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.READ_SMS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECEIVE_SMS",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.SEND_SMS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.htc.launcher.permission.READ_SETTINGS",
     "com.htc.launcher.permission.UPDATE_SHORTCUT",
     "com.huawei.android.launcher.permission.CHANGE_BADGE",
@@ -30,88 +34,11 @@
     "com.sec.android.provider.badge.permission.WRITE",
     "com.sonyericsson.home.permission.BROADCAST_BADGE",
     "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
-    "android.permission.BLUETOOTH",
-    "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "de.telekom.ssocompatservice.permission.TELEKOM_SSO"
   ],
   "version": "4.2.0_17",
   "trackers": [
     "Google Firebase Analytics",
-    "Apteligent by VMWare"
-  ],
-  "network_connections": [
-    {
-      "package": "de.telekom.mds.mbp",
-      "ptr_domain": "N/A",
-      "ip_address": "109.237.176.47",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "9.491000",
-      "loc_lat": "51.299300"
-    },
-    {
-      "package": "de.telekom.mds.mbp",
-      "ptr_domain": "ec2-52-16-107-177.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.16.107.177",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "de.telekom.mds.mbp",
-      "ptr_domain": "ec2-52-16-231-94.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.16.231.94",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "de.telekom.mds.mbp",
-      "ptr_domain": "ec2-52-17-218-149.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.17.218.149",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "de.telekom.mds.mbp",
-      "ptr_domain": "ec2-54-215-17-250.us-west-1.compute.amazonaws.com.",
-      "ip_address": "54.215.17.250",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "de.telekom.mds.mbp",
-      "ptr_domain": "ec2-54-241-32-10.us-west-1.compute.amazonaws.com.",
-      "ip_address": "54.241.32.10",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "de.telekom.mds.mbp",
-      "ptr_domain": "ec2-54-241-32-9.us-west-1.compute.amazonaws.com.",
-      "ip_address": "54.241.32.9",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    }
+    "Apteligent by VMWare (formerly Crittercism)"
   ]
 }

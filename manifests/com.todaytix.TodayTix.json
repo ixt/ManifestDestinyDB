@@ -4,91 +4,29 @@
   "category": "EVENTS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.WAKE_LOCK",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.READ_CALENDAR",
-    "android.permission.WRITE_CALENDAR",
-    "android.permission.VIBRATE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.CAMERA",
-    "com.todaytix.TodayTix.permission.C2D_MESSAGE",
+    "android.permission.INTERNET",
+    "android.permission.READ_CALENDAR",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_CALENDAR",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.todaytix.TodayTix.c2dm.permission.RECEIVE",
-    "com.todaytix.TodayTix.permission.C2D_MESSAGE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.todaytix.TodayTix.permission.C2D_MESSAGE"
   ],
   "version": "2.4.5",
   "trackers": [
-    "Flurry",
     "Facebook Login",
     "Tune",
     "Amplitude",
+    "Facebook Share",
     "Segment",
+    "Flurry",
     "Facebook Analytics",
-    "Google CrashLytics",
-    "Facebook Share"
-  ],
-  "network_connections": [
-    {
-      "package": "com.todaytix.TodayTix",
-      "ptr_domain": "ec2-184-73-232-97.compute-1.amazonaws.com.",
-      "ip_address": "184.73.232.97",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.todaytix.TodayTix",
-      "ptr_domain": "edge-star-shv-01-lax3.facebook.com.",
-      "ip_address": "31.13.70.1",
-      "loc_city": "Los Angeles",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-118.244000",
-      "loc_lat": "34.054400"
-    },
-    {
-      "package": "com.todaytix.TodayTix",
-      "ptr_domain": "ec2-52-5-193-240.compute-1.amazonaws.com.",
-      "ip_address": "52.5.193.240",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.todaytix.TodayTix",
-      "ptr_domain": "ec2-54-225-192-183.compute-1.amazonaws.com.",
-      "ip_address": "54.225.192.183",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.todaytix.TodayTix",
-      "ptr_domain": "ec2-54-84-152-201.compute-1.amazonaws.com.",
-      "ip_address": "54.84.152.201",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.todaytix.TodayTix",
-      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com.",
-      "ip_address": "74.6.105.9",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Swrve",
+    "Google CrashLytics"
   ]
 }

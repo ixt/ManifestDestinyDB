@@ -4,44 +4,22 @@
   "category": "GAME_CARD",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "com.android.alarm.permission.SET_ALARM",
-    "android.permission.WAKE_LOCK"
+    "com.android.alarm.permission.SET_ALARM"
   ],
   "version": "5.5.2",
   "trackers": [
-    "Ogury Presage",
-    "Facebook Ads",
     "Twitter MoPub",
-    "Google Ads",
     "Flurry",
     "Google DoubleClick",
-    "Moat",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.solebon.solitaire",
-      "ptr_domain": "ec2-23-21-68-38.compute-1.amazonaws.com.",
-      "ip_address": "23.21.68.38",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.solebon.solitaire",
-      "ptr_domain": "N/A",
-      "ip_address": "2607:7700:0:25::1717:77f3",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Ogury Presage",
+    "Google CrashLytics",
+    "Facebook Ads",
+    "Google Ads",
+    "Moat"
   ]
 }

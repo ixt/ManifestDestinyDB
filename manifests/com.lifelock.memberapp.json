@@ -4,99 +4,26 @@
   "category": "FINANCE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.VIBRATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CAMERA",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.c2dm.permission.REGISTER",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.lifelock.memberapp.permission.C2D_MESSAGE",
-    "com.lifelock.memberapp.permission.C2D_MESSAGE",
-    "android.permission.USE_FINGERPRINT",
-    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
   ],
   "version": "3.6.1",
   "trackers": [
     "Branch",
-    "Google CrashLytics",
     "HelpShift",
+    "Google CrashLytics",
     "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.lifelock.memberapp",
-      "ptr_domain": "api.consumer.equifax.com.",
-      "ip_address": "216.46.110.132",
-      "loc_city": "Madrid",
-      "loc_country": "Spain",
-      "loc_continent": "Europe",
-      "loc_long": "-3.701600",
-      "loc_lat": "40.414300"
-    },
-    {
-      "package": "com.lifelock.memberapp",
-      "ptr_domain": "ec2-50-16-237-20.compute-1.amazonaws.com.",
-      "ip_address": "50.16.237.20",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.lifelock.memberapp",
-      "ptr_domain": "ec2-50-18-158-187.us-west-1.compute.amazonaws.com.",
-      "ip_address": "50.18.158.187",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.lifelock.memberapp",
-      "ptr_domain": "ec2-54-225-215-149.compute-1.amazonaws.com.",
-      "ip_address": "54.225.215.149",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.lifelock.memberapp",
-      "ptr_domain": "ec2-54-235-186-187.compute-1.amazonaws.com.",
-      "ip_address": "54.235.186.187",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.lifelock.memberapp",
-      "ptr_domain": "ec2-54-243-77-213.compute-1.amazonaws.com.",
-      "ip_address": "54.243.77.213",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.lifelock.memberapp",
-      "ptr_domain": "N/A",
-      "ip_address": "74.114.56.54",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
   ]
 }

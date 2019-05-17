@@ -4,55 +4,23 @@
   "category": "TOOLS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.CAMERA",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.VIBRATE",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.NFC",
-    "android.permission.READ_CONTACTS",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
-    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.BLUETOOTH_PRIVILEGED",
+    "android.permission.CAMERA",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.NFC",
+    "android.permission.READ_CONTACTS",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.BLUETOOTH_PRIVILEGED"
+    "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "version": "5.2.4",
   "trackers": [
     "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.brother.ptouch.iprintandlabel",
-      "ptr_domain": "ec2-54-214-238-150.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.214.238.150",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.brother.ptouch.iprintandlabel",
-      "ptr_domain": "ec2-54-214-29-206.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.214.29.206",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.brother.ptouch.iprintandlabel",
-      "ptr_domain": "143.14.117.63.piscataway.google-ggc.verizon.com.",
-      "ip_address": "63.117.14.143",
-      "loc_city": "Montclair",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-74.213400",
-      "loc_lat": "40.812500"
-    }
   ]
 }

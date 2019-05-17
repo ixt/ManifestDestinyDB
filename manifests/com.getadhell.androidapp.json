@@ -4,44 +4,22 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
-    "android.permission.sec.MDM_FIREWALL",
-    "android.permission.sec.MDM_APP_MGMT",
-    "android.permission.sec.MDM_APP_PERMISSION_MGMT",
-    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.sec.MDM_APP_MGMT",
+    "android.permission.sec.MDM_APP_PERMISSION_MGMT",
+    "android.permission.sec.MDM_FIREWALL",
     "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
   ],
   "version": "2.0.2",
   "trackers": [
     "Google Firebase Analytics",
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.getadhell.androidapp",
-      "ptr_domain": "ec2-50-19-97-211.compute-1.amazonaws.com.",
-      "ip_address": "50.19.97.211",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getadhell.androidapp",
-      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com.",
-      "ip_address": "54.243.149.90",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

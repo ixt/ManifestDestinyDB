@@ -6,295 +6,31 @@
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.INTERNET",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
     "android.permission.GET_ACCOUNTS",
-    "android.permission.READ_PHONE_STATE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.INTERNET",
     "android.permission.READ_CALENDAR",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_CALENDAR",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.getsomeheadspace.android.permission.C2D_MESSAGE",
-    "com.getsomeheadspace.android.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "3.20.1",
   "trackers": [
-    "Braze",
-    "Google Firebase Analytics",
-    "Adjust",
-    "Score Card Research",
-    "Google Analytics",
     "Optimizely",
-    "Google CrashLytics",
-    "Facebook Login",
     "Facebook Places",
-    "Facebook Share",
     "MParticle",
-    "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "148.254.178.107.bc.googleusercontent.com.",
-      "ip_address": "107.178.254.148",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.248100",
-      "loc_lat": "38.658300"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "edge-star6-shv-02-lax3.facebook.com.",
-      "ip_address": "2a03:2880:f00d:110:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com.",
-      "ip_address": "31.13.66.1",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "edge-star-shv-01-lax3.facebook.com.",
-      "ip_address": "31.13.70.1",
-      "loc_city": "Los Angeles",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-118.244000",
-      "loc_lat": "34.054400"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "N/A",
-      "ip_address": "31.13.77.6",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-50-18-204-46.us-west-1.compute.amazonaws.com.",
-      "ip_address": "50.18.204.46",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-50-19-227-71.compute-1.amazonaws.com.",
-      "ip_address": "50.19.227.71",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-52-205-40-87.compute-1.amazonaws.com.",
-      "ip_address": "52.205.40.87",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-52-22-76-207.compute-1.amazonaws.com.",
-      "ip_address": "52.22.76.207",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-52-36-147-165.us-west-2.compute.amazonaws.com.",
-      "ip_address": "52.36.147.165",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-52-54-146-212.compute-1.amazonaws.com.",
-      "ip_address": "52.54.146.212",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "server-52-84-24-30.sea32.r.cloudfront.net.",
-      "ip_address": "52.84.24.30",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-52-87-28-16.compute-1.amazonaws.com.",
-      "ip_address": "52.87.28.16",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-52-9-68-81.us-west-1.compute.amazonaws.com.",
-      "ip_address": "52.9.68.81",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-52-9-70-103.us-west-1.compute.amazonaws.com.",
-      "ip_address": "52.9.70.103",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-54-149-78-124.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.149.78.124",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-54-191-100-132.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.191.100.132",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-54-204-36-229.compute-1.amazonaws.com.",
-      "ip_address": "54.204.36.229",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-54-209-42-92.compute-1.amazonaws.com.",
-      "ip_address": "54.209.42.92",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-54-225-221-229.compute-1.amazonaws.com.",
-      "ip_address": "54.225.221.229",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-54-225-245-143.compute-1.amazonaws.com.",
-      "ip_address": "54.225.245.143",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com.",
-      "ip_address": "54.227.238.44",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-54-235-101-190.compute-1.amazonaws.com.",
-      "ip_address": "54.235.101.190",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "ec2-54-243-182-104.compute-1.amazonaws.com.",
-      "ip_address": "54.243.182.104",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "N/A",
-      "ip_address": "72.21.91.8",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.getsomeheadspace.android",
-      "ptr_domain": "storage101.lon3.clouddrive.com.",
-      "ip_address": "94.236.56.96",
-      "loc_city": "N/A",
-      "loc_country": "United Kingdom",
-      "loc_continent": "Europe",
-      "loc_long": "-0.122400",
-      "loc_lat": "51.496400"
-    }
+    "Google Ads",
+    "Google CrashLytics",
+    "Braze (formerly Appboy)",
+    "Facebook Share",
+    "Google Analytics",
+    "Facebook Login",
+    "Adjust",
+    "Google Firebase Analytics"
   ]
 }

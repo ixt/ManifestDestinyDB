@@ -4,194 +4,23 @@
   "category": "GAME_SIMULATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.READ_PHONE_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "1.16.3",
   "trackers": [
-    "Google DoubleClick",
-    "Google Ads",
-    "Twitter MoPub",
-    "AdColony",
     "Moat",
+    "Twitter MoPub",
+    "Google DoubleClick",
+    "Google Analytics",
+    "Google Ads",
+    "Tapjoy",
     "Millennial Media",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "UNKNOWN-106-10-164-X.yahoo.com.",
-      "ip_address": "106.10.164.125",
-      "loc_city": "N/A",
-      "loc_country": "Singapore",
-      "loc_continent": "Asia",
-      "loc_long": "103.800000",
-      "loc_lat": "1.366700"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "UNKNOWN-203-84-220-X.yahoo.com.",
-      "ip_address": "203.84.220.80",
-      "loc_city": "N/A",
-      "loc_country": "Hong Kong",
-      "loc_continent": "Asia",
-      "loc_long": "114.166700",
-      "loc_lat": "22.250000"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "stg-dspelastic.pbp.vip.ne1.yahoo.com.",
-      "ip_address": "216.155.194.12",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "ec2-34-198-80-171.compute-1.amazonaws.com.",
-      "ip_address": "34.198.80.171",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "ec2-34-200-69-233.compute-1.amazonaws.com.",
-      "ip_address": "34.200.69.233",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "ec2-34-205-7-151.compute-1.amazonaws.com.",
-      "ip_address": "34.205.7.151",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "ec2-52-0-75-9.compute-1.amazonaws.com.",
-      "ip_address": "52.0.75.9",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "ec2-52-201-144-88.compute-1.amazonaws.com.",
-      "ip_address": "52.201.144.88",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "ec2-52-202-96-48.compute-1.amazonaws.com.",
-      "ip_address": "52.202.96.48",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "e1.ycpi.vip.sja.yahoo.com.",
-      "ip_address": "69.147.88.7",
-      "loc_city": "Costa Mesa",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-117.908900",
-      "loc_lat": "33.674800"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "e2.ycpi.vip.sja.yahoo.com.",
-      "ip_address": "69.147.88.8",
-      "loc_city": "Costa Mesa",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-117.908900",
-      "loc_lat": "33.674800"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "sjadlv01.atlas.cdn.sja.yimg.com.",
-      "ip_address": "69.147.89.136",
-      "loc_city": "Costa Mesa",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-117.908900",
-      "loc_lat": "33.674800"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "sjadlv16.atlas.cdn.sja.yimg.com.",
-      "ip_address": "69.147.89.215",
-      "loc_city": "Costa Mesa",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-117.908900",
-      "loc_lat": "33.674800"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "sjadlv07.atlas.cdn.sja.yimg.com.",
-      "ip_address": "69.147.90.142",
-      "loc_city": "Malibu",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-118.735100",
-      "loc_lat": "34.040200"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "sjadlv12.atlas.cdn.sja.yimg.com.",
-      "ip_address": "69.147.90.19",
-      "loc_city": "Malibu",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-118.735100",
-      "loc_lat": "34.040200"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
-      "ip_address": "74.6.34.123",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.miniclip.plagueinc",
-      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
-      "ip_address": "74.6.34.29",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "AdColony"
   ]
 }

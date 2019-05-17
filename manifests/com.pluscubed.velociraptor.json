@@ -5,49 +5,17 @@
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.SYSTEM_ALERT_WINDOW",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.WAKE_LOCK",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "1.6.18",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.pluscubed.velociraptor",
-      "ptr_domain": "ec2-107-22-176-47.compute-1.amazonaws.com.",
-      "ip_address": "107.22.176.47",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.pluscubed.velociraptor",
-      "ptr_domain": "ec2-184-73-226-68.compute-1.amazonaws.com.",
-      "ip_address": "184.73.226.68",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.pluscubed.velociraptor",
-      "ptr_domain": "ec2-50-16-244-140.compute-1.amazonaws.com.",
-      "ip_address": "50.16.244.140",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google CrashLytics",
+    "Google Firebase Analytics"
   ]
 }

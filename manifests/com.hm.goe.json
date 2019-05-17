@@ -4,61 +4,29 @@
   "category": "LIFESTYLE",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.CAMERA",
     "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.READ_PHONE_STATE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.VIBRATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.WAKE_LOCK",
-    "android.permission.READ_PHONE_STATE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "10.10.2",
   "trackers": [
-    "Facebook Share",
     "Facebook Analytics",
-    "Tealium",
-    "Facebook Login",
-    "Facebook Places",
     "Google CrashLytics",
-    "Dynatrace",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.hm.goe",
-      "ptr_domain": "4.42.35a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.53.66.4",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.hm.goe",
-      "ptr_domain": "5.42.35a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.53.66.5",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.hm.goe",
-      "ptr_domain": "6.42.35a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.53.66.6",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Google Firebase Analytics",
+    "Facebook Login",
+    "Facebook Share",
+    "Facebook Places",
+    "Tealium",
+    "Dynatrace"
   ]
 }

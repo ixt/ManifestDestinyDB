@@ -4,36 +4,23 @@
   "category": "FOOD_AND_DRINK",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "pl.pizzaportalnew.permission.C2D_MESSAGE",
-    "pl.pizzaportalnew.permission.C2D_MESSAGE",
-    "com.arshad.map.permission.MAPS_RECEIVE",
     "android.permission.CALL_PHONE",
     "android.permission.CAMERA",
+    "android.permission.INTERNET",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.arshad.map.permission.MAPS_RECEIVE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "pl.pizzaportalnew.permission.C2D_MESSAGE"
   ],
   "version": "5.5.0",
   "trackers": [
+    "Braze (formerly Appboy)",
+    "Google Analytics",
     "Google CrashLytics",
-    "Google Firebase Analytics",
-    "Braze",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "pl.pizzaportalnew",
-      "ptr_domain": "N/A",
-      "ip_address": "151.101.37.130",
-      "loc_city": "Amsterdam",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.908700",
-      "loc_lat": "52.353400"
-    }
+    "Google Firebase Analytics"
   ]
 }

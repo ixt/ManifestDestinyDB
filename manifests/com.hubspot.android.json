@@ -4,64 +4,32 @@
   "category": "BUSINESS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BLUETOOTH",
     "android.permission.CALL_PHONE",
     "android.permission.CAMERA",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.RECORD_AUDIO",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CALL_LOG",
     "android.permission.READ_CONTACTS",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.FOREGROUND_SERVICE",
-    "android.permission.READ_CALL_LOG",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
-    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.RECORD_AUDIO",
     "android.permission.WAKE_LOCK",
-    "android.permission.BLUETOOTH",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "2.0.657",
   "trackers": [
-    "Google CrashLytics",
     "Facebook Places",
+    "Google CrashLytics",
     "Facebook Login",
-    "Facebook Analytics",
     "Google Firebase Analytics",
+    "Facebook Share",
     "New Relic",
-    "Facebook Share"
-  ],
-  "network_connections": [
-    {
-      "package": "com.hubspot.android",
-      "ptr_domain": "ec2-174-129-35-151.compute-1.amazonaws.com.",
-      "ip_address": "174.129.35.151",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.hubspot.android",
-      "ptr_domain": "ec2-54-225-233-150.compute-1.amazonaws.com.",
-      "ip_address": "54.225.233.150",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.hubspot.android",
-      "ptr_domain": "ec2-54-243-114-139.compute-1.amazonaws.com.",
-      "ip_address": "54.243.114.139",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Facebook Analytics"
   ]
 }

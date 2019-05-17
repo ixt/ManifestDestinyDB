@@ -4,72 +4,29 @@
   "category": "MUSIC_AND_AUDIO",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.CAMERA",
     "android.permission.FOREGROUND_SERVICE",
-    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.RECORD_AUDIO",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.bandlab.bandlab.permission.LAYER_PUSH",
-    "com.bandlab.bandlab.permission.LAYER_PUSH",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.WRITE_EXTERNAL_STORAGE"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "8.3.3",
   "trackers": [
-    "Facebook Analytics",
-    "Facebook Share",
     "Google CrashLytics",
-    "Facebook Login",
-    "AppsFlyer",
     "Google Analytics",
+    "Facebook Analytics",
     "Google Firebase Analytics",
+    "AppsFlyer",
+    "Facebook Share",
+    "Facebook Login",
     "Facebook Places"
-  ],
-  "network_connections": [
-    {
-      "package": "com.bandlab.bandlab",
-      "ptr_domain": "82.21.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.33.130",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.bandlab.bandlab",
-      "ptr_domain": "90.21.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.33.144",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.bandlab.bandlab",
-      "ptr_domain": "95.21.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.33.149",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.bandlab.bandlab",
-      "ptr_domain": "c3.21.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.33.195",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
   ]
 }

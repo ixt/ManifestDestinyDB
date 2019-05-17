@@ -4,113 +4,31 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.BROADCAST_STICKY",
+    "android.permission.CAMERA",
     "android.permission.GET_ACCOUNTS",
     "android.permission.INTERNET",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.WAKE_LOCK",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "android.permission.CAMERA",
-    "android.permission.VIBRATE"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "2.55.0",
   "trackers": [
-    "Braze",
     "Facebook Login",
-    "Google CrashLytics",
-    "Facebook Share",
     "Facebook Analytics",
-    "Google DoubleClick",
-    "AppsFlyer",
+    "Braze (formerly Appboy)",
+    "Facebook Share",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Google Ads",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.tophatter",
-      "ptr_domain": "a23-56-126-216.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.56.126.216",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.tophatter",
-      "ptr_domain": "N/A",
-      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.tophatter",
-      "ptr_domain": "N/A",
-      "ip_address": "2a03:2880:f022:b:face:b00c:0:3",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.tophatter",
-      "ptr_domain": "edge-z-m-mini6-shv-01-lax3.facebook.com.",
-      "ip_address": "2a03:2880:f10d:84:face:b00c:0:14c9",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.tophatter",
-      "ptr_domain": "ec2-50-19-91-193.compute-1.amazonaws.com.",
-      "ip_address": "50.19.91.193",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.tophatter",
-      "ptr_domain": "ec2-52-19-144-252.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.19.144.252",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.tophatter",
-      "ptr_domain": "ec2-52-30-204-210.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.30.204.210",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.tophatter",
-      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com.",
-      "ip_address": "54.243.212.128",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google DoubleClick",
+    "AppsFlyer"
   ]
 }

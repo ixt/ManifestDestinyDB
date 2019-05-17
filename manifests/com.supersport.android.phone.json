@@ -4,101 +4,29 @@
   "category": "SPORTS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.INTERACT_ACROSS_USERS_FULL",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERACT_ACROSS_USERS_FULL",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.SYSTEM_ALERT_WINDOW",
-    "android.permission.READ_PHONE_STATE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.REQUEST_INSTALL_PACKAGES"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "4.5.8",
   "trackers": [
-    "Flurry",
-    "Google Analytics",
-    "Demdex",
-    "Google CrashLytics",
-    "Google DoubleClick",
-    "Google Ads",
     "Google Firebase Analytics",
-    "HockeyApp"
-  ],
-  "network_connections": [
-    {
-      "package": "com.supersport.android.phone",
-      "ptr_domain": "163-172-22-189.rev.poneytelecom.eu.",
-      "ip_address": "163.172.22.189",
-      "loc_city": "N/A",
-      "loc_country": "France",
-      "loc_continent": "Europe",
-      "loc_long": "2.338700",
-      "loc_lat": "48.858200"
-    },
-    {
-      "package": "com.supersport.android.phone",
-      "ptr_domain": "197-80-203-130.jhb.mweb.co.za.",
-      "ip_address": "197.80.203.130",
-      "loc_city": "N/A",
-      "loc_country": "South Africa",
-      "loc_continent": "Africa",
-      "loc_long": "24.000000",
-      "loc_lat": "-29.000000"
-    },
-    {
-      "package": "com.supersport.android.phone",
-      "ptr_domain": "197-80-203-150.jhb.mweb.co.za.",
-      "ip_address": "197.80.203.150",
-      "loc_city": "N/A",
-      "loc_country": "South Africa",
-      "loc_continent": "Africa",
-      "loc_long": "24.000000",
-      "loc_lat": "-29.000000"
-    },
-    {
-      "package": "com.supersport.android.phone",
-      "ptr_domain": "197-80-252-130.jhb.mweb.co.za.",
-      "ip_address": "197.80.252.130",
-      "loc_city": "N/A",
-      "loc_country": "South Africa",
-      "loc_continent": "Africa",
-      "loc_long": "24.000000",
-      "loc_lat": "-29.000000"
-    },
-    {
-      "package": "com.supersport.android.phone",
-      "ptr_domain": "jnb01s08-in-f34.1e100.net.",
-      "ip_address": "216.58.223.34",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.supersport.android.phone",
-      "ptr_domain": "a23-57-198-10.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.57.198.10",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.supersport.android.phone",
-      "ptr_domain": "ec2-50-17-188-98.compute-1.amazonaws.com.",
-      "ip_address": "50.17.188.98",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "HockeyApp",
+    "Demdex",
+    "Flurry",
+    "Google Ads",
+    "Google CrashLytics",
+    "Google Analytics",
+    "Google DoubleClick"
   ]
 }

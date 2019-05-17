@@ -4,174 +4,21 @@
   "category": "TRAVEL_AND_LOCAL",
   "icon": "",
   "permissions": [
-    "us.mobilepassport.permission.RECEIVER",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
     "android.permission.INTERNET",
     "android.permission.USE_FINGERPRINT",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.CAMERA",
-    "us.mobilepassport.permission.RECEIVER",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "us.mobilepassport.permission.RECEIVER"
   ],
   "version": "2.16.1.0",
   "trackers": [
-    "Google Firebase Analytics",
+    "Google Analytics",
     "Google CrashLytics",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "N/A",
-      "ip_address": "151.139.244.6",
-      "loc_city": "Dallas",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-96.802100",
-      "loc_lat": "32.788900"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "N/A",
-      "ip_address": "167.68.22.157",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "sea15s11-in-f163.1e100.net.",
-      "ip_address": "172.217.3.163",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "sea15s11-in-f174.1e100.net.",
-      "ip_address": "172.217.3.174",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "a173-222-116-73.deploy.static.akamaitechnologies.com.",
-      "ip_address": "173.222.116.73",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "ec2-174-129-40-191.compute-1.amazonaws.com.",
-      "ip_address": "174.129.40.191",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "ec2-184-72-246-24.compute-1.amazonaws.com.",
-      "ip_address": "184.72.246.24",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "123-125-232-198.static.unitasglobal.net.",
-      "ip_address": "198.232.125.123",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "sea15s07-in-f3.1e100.net.",
-      "ip_address": "216.58.193.67",
-      "loc_city": "Draper",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.883800",
-      "loc_lat": "40.508400"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "sea15s02-in-f174.1e100.net.",
-      "ip_address": "216.58.216.174",
-      "loc_city": "Bluffdale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.943900",
-      "loc_lat": "40.495300"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "ec2-54-225-204-178.compute-1.amazonaws.com.",
-      "ip_address": "54.225.204.178",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "164-40-143-63.static.reverse.lstn.net.",
-      "ip_address": "63.143.40.164",
-      "loc_city": "Dallas",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-96.805000",
-      "loc_lat": "32.776700"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "universalenroll.dhs.gov.",
-      "ip_address": "67.216.165.41",
-      "loc_city": "Mount Juliet",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-86.506700",
-      "loc_lat": "36.186800"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "ph-in-f99.1e100.net.",
-      "ip_address": "74.125.199.99",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "us.mobilepassport",
-      "ptr_domain": "pc-in-f155.1e100.net.",
-      "ip_address": "74.125.28.155",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Google Firebase Analytics"
   ]
 }

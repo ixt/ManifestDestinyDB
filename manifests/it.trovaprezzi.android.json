@@ -4,36 +4,24 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_FINE_LOCATION",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.GET_ACCOUNTS",
-    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "12.0.0",
   "trackers": [
+    "Facebook Analytics",
     "Google Firebase Analytics",
-    "Facebook Login",
     "Google CrashLytics",
-    "Google Analytics",
-    "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "it.trovaprezzi.android",
-      "ptr_domain": "2-228-21-209.ip189.fastwebnet.it.",
-      "ip_address": "2.228.21.209",
-      "loc_city": "Rome",
-      "loc_country": "Italy",
-      "loc_continent": "Europe",
-      "loc_long": "12.512400",
-      "loc_lat": "41.890400"
-    }
+    "Facebook Login",
+    "Google Analytics"
   ]
 }

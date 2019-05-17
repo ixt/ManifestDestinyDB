@@ -4,49 +4,27 @@
   "category": "EDUCATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.RECORD_AUDIO",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.FOREGROUND_SERVICE",
-    "android.permission.WAKE_LOCK",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "20.17.1",
   "trackers": [
-    "Facebook Share",
-    "Google Firebase Analytics",
-    "Google Analytics",
-    "Google CrashLytics",
     "Adjust",
+    "Google Analytics",
+    "Facebook Share",
+    "Facebook Places",
+    "Google CrashLytics",
     "Facebook Login",
-    "Facebook Places"
-  ],
-  "network_connections": [
-    {
-      "package": "com.babbel.mobile.android.it",
-      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com.",
-      "ip_address": "23.21.78.229",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.babbel.mobile.android.it",
-      "ptr_domain": "N/A",
-      "ip_address": "31.13.69.197",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.248100",
-      "loc_lat": "38.658300"
-    }
+    "Google Firebase Analytics"
   ]
 }

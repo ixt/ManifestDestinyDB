@@ -4,42 +4,20 @@
   "category": "MEDICAL",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.android.launcher.permission.INSTALL_SHORTCUT",
     "com.android.launcher.permission.UNINSTALL_SHORTCUT",
-    "android.permission.WAKE_LOCK",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "3.12.1",
   "trackers": [
+    "AppsFlyer",
     "Google Analytics",
-    "Google Tag Manager",
     "Google CrashLytics",
-    "AppsFlyer"
-  ],
-  "network_connections": [
-    {
-      "package": "com.uptodate.android",
-      "ptr_domain": "46.132.130.12.in-addr.arpa. CNAME 46.32/27.132.130.12.in-addr.arpa.",
-      "ip_address": "12.130.132.46",
-      "loc_city": "Oakland",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.220900",
-      "loc_lat": "37.848700"
-    },
-    {
-      "package": "com.uptodate.android",
-      "ptr_domain": "N/A",
-      "ip_address": "203.163.124.46",
-      "loc_city": "N/A",
-      "loc_country": "Japan",
-      "loc_continent": "Asia",
-      "loc_long": "139.690000",
-      "loc_lat": "35.690000"
-    }
+    "Google Tag Manager"
   ]
 }

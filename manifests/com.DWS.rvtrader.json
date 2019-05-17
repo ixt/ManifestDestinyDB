@@ -4,192 +4,30 @@
   "category": "LIFESTYLE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.CALL_PHONE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "3.0.1.5",
   "trackers": [
-    "Google CrashLytics",
-    "Demdex",
-    "Google Analytics",
-    "Google Ads",
     "AppSee",
-    "Apptentive",
+    "Google Analytics",
     "Google DoubleClick",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "a104-73-241-136.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.73.241.136",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "N/A",
-      "ip_address": "159.180.64.66",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ord38s04-in-f2.1e100.net.",
-      "ip_address": "172.217.0.2",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ord30s31-in-f226.1e100.net.",
-      "ip_address": "172.217.4.226",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ord37s09-in-f2.1e100.net.",
-      "ip_address": "172.217.8.194",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ord38s08-in-f1.1e100.net.",
-      "ip_address": "172.217.9.33",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ord38s08-in-f2.1e100.net.",
-      "ip_address": "172.217.9.34",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ec2-184-73-235-122.compute-1.amazonaws.com.",
-      "ip_address": "184.73.235.122",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ec2-23-21-73-229.compute-1.amazonaws.com.",
-      "ip_address": "23.21.73.229",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com.",
-      "ip_address": "50.19.81.254",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ec2-52-20-249-133.compute-1.amazonaws.com.",
-      "ip_address": "52.20.249.133",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ec2-52-207-71-179.compute-1.amazonaws.com.",
-      "ip_address": "52.207.71.179",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ec2-52-44-19-204.compute-1.amazonaws.com.",
-      "ip_address": "52.44.19.204",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ec2-52-44-89-5.compute-1.amazonaws.com.",
-      "ip_address": "52.44.89.5",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ec2-52-71-246-130.compute-1.amazonaws.com.",
-      "ip_address": "52.71.246.130",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.DWS.rvtrader",
-      "ptr_domain": "ec2-54-221-220-45.compute-1.amazonaws.com.",
-      "ip_address": "54.221.220.45",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Firebase Analytics",
+    "Demdex",
+    "Google CrashLytics",
+    "Apptentive",
+    "Google Ads"
   ]
 }

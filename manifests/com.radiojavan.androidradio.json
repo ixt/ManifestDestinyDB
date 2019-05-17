@@ -5,33 +5,21 @@
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.INTERNET",
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.FOREGROUND_SERVICE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "7.12.2",
   "trackers": [
-    "Google Analytics",
     "Google Firebase Analytics",
-    "Google CrashLytics",
     "Google DoubleClick",
+    "Google CrashLytics",
+    "Google Analytics",
     "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "com.radiojavan.androidradio",
-      "ptr_domain": "N/A",
-      "ip_address": "198.98.182.153",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.539000",
-      "loc_lat": "39.018000"
-    }
   ]
 }

@@ -4,45 +4,32 @@
   "category": "NEWS_AND_MAGAZINES",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.READ_SYNC_SETTINGS",
-    "android.permission.WRITE_SYNC_SETTINGS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_SYNC_SETTINGS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "com.bskyb.skynews.android.permission.UA_DATA",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.bskyb.skynews.android.permission.UA_DATA",
-    "com.bskyb.skynews.android.permission.UA_DATA",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "4.13.1",
   "trackers": [
-    "Google Ads",
-    "Google Firebase Analytics",
-    "OutBrain",
-    "Inmobi",
-    "Google CrashLytics",
     "Urbanairship",
+    "OutBrain",
     "ComScore",
-    "Google DoubleClick"
-  ],
-  "network_connections": [
-    {
-      "package": "com.bskyb.skynews.android",
-      "ptr_domain": "a104-66-83-105.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.66.83.105",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    }
+    "Google Firebase Analytics",
+    "Google DoubleClick",
+    "Google CrashLytics",
+    "Google Ads",
+    "Inmobi"
   ]
 }

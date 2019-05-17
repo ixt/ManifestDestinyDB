@@ -4,115 +4,32 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.WAKE_LOCK",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.koovs.fashion.permission.C2D_MESSAGE",
-    "android.permission.GET_ACCOUNTS",
-    "com.koovs.fashion.permission.C2D_MESSAGE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.koovs.fashion.permission.C2D_MESSAGE"
   ],
   "version": "3.15.0",
   "trackers": [
-    "Google Ads",
-    "Facebook Places",
+    "New Relic",
     "AppsFlyer",
-    "Facebook Share",
+    "Facebook Analytics",
     "Google Firebase Analytics",
     "Google Analytics",
-    "Facebook Analytics",
+    "Facebook Share",
     "Facebook Login",
-    "New Relic",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.koovs.fashion",
-      "ptr_domain": "ec2-107-20-228-83.compute-1.amazonaws.com.",
-      "ip_address": "107.20.228.83",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.koovs.fashion",
-      "ptr_domain": "N/A",
-      "ip_address": "151.101.192.207",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.koovs.fashion",
-      "ptr_domain": "bom07s11-in-x08.1e100.net.",
-      "ip_address": "2404:6800:4009:803::2008",
-      "loc_city": "N/A",
-      "loc_country": "Australia",
-      "loc_continent": "Oceania",
-      "loc_long": "133.000000",
-      "loc_lat": "-27.000000"
-    },
-    {
-      "package": "com.koovs.fashion",
-      "ptr_domain": "edge-star6-shv-01-sin6.facebook.com.",
-      "ip_address": "2a03:2880:f00c:13:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.koovs.fashion",
-      "ptr_domain": "edge-star6-shv-01-bom1.facebook.com.",
-      "ip_address": "2a03:2880:f02f:f:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.koovs.fashion",
-      "ptr_domain": "ec2-34-253-63-180.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "34.253.63.180",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.koovs.fashion",
-      "ptr_domain": "ec2-52-17-239-74.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.17.239.74",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.koovs.fashion",
-      "ptr_domain": "ec2-52-208-140-171.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.208.140.171",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    }
+    "Facebook Places",
+    "Google CrashLytics",
+    "Google Ads"
   ]
 }

@@ -4,55 +4,31 @@
   "category": "TOOLS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.READ_CONTACTS",
-    "android.permission.WRITE_CONTACTS",
     "android.permission.CAMERA",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_DOCUMENTS",
+    "android.permission.READ_CALENDAR",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SET_MEDIA_KEY_LISTENER",
     "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.WAKE_LOCK",
-    "android.permission.MANAGE_DOCUMENTS",
-    "android.permission.SET_MEDIA_KEY_LISTENER",
     "android.permission.WRITE_CALENDAR",
-    "android.permission.READ_CALENDAR",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.FOREGROUND_SERVICE",
-    "com.t_systems.android.webdav.permission.C2D_MESSAGE",
-    "com.t_systems.android.webdav.permission.C2D_MESSAGE",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.GET_ACCOUNTS",
-    "com.telekom.mediencenter.android.permission.SETUP_WIZARD"
+    "com.telekom.mediencenter.android.permission.SETUP_WIZARD",
+    "com.t_systems.android.webdav.permission.C2D_MESSAGE"
   ],
   "version": "5.7.1",
   "trackers": [
     "Tealium",
-    "Adjust",
-    "HockeyApp"
-  ],
-  "network_connections": [
-    {
-      "package": "com.t_systems.android.webdav",
-      "ptr_domain": "N/A",
-      "ip_address": "2003:2:2:140:62:157:140:200",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "9.000000",
-      "loc_lat": "51.000000"
-    },
-    {
-      "package": "com.t_systems.android.webdav",
-      "ptr_domain": "api.magentacloud.de.",
-      "ip_address": "85.214.4.98",
-      "loc_city": "Berlin",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "13.400000",
-      "loc_lat": "52.516700"
-    }
+    "HockeyApp",
+    "Adjust"
   ]
 }

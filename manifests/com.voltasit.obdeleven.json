@@ -4,43 +4,30 @@
   "category": "AUTO_AND_VEHICLES",
   "icon": "",
   "permissions": [
-    "com.voltasit.obdeleven.permission.C2D_MESSAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
     "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.voltasit.obdeleven.permission.C2D_MESSAGE",
-    "android.permission.REQUEST_INSTALL_PACKAGES",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.voltasit.obdeleven.permission.C2D_MESSAGE"
   ],
   "version": "0.12.1",
   "trackers": [
-    "Google CrashLytics",
-    "Google Firebase Analytics",
-    "Facebook Places",
-    "HelpShift",
     "Google Ads",
-    "Facebook Analytics",
+    "Google Firebase Analytics",
+    "Facebook Share",
+    "Google CrashLytics",
+    "HelpShift",
+    "Facebook Places",
     "Facebook Login",
-    "Facebook Share"
-  ],
-  "network_connections": [
-    {
-      "package": "com.voltasit.obdeleven",
-      "ptr_domain": "sea30s01-in-x04.1e100.net.",
-      "ip_address": "2607:f8b0:400a:801::2004",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Facebook Analytics"
   ]
 }

@@ -4,77 +4,25 @@
   "category": "FOOD_AND_DRINK",
   "icon": "",
   "permissions": [
-    "android.permission.CAMERA",
     "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
     "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.REQUEST_INSTALL_PACKAGES"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "9.7.1",
   "trackers": [
-    "MixPanel",
     "AppsFlyer",
-    "Scandit",
-    "Google Firebase Analytics",
     "Google Ads",
+    "MixPanel",
+    "Scandit",
     "Google DoubleClick",
-    "HockeyApp"
-  ],
-  "network_connections": [
-    {
-      "package": "de.barcoo.android",
-      "ptr_domain": "server-52-222-171-121.fra54.r.cloudfront.net.",
-      "ip_address": "52.222.171.121",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "de.barcoo.android",
-      "ptr_domain": "server-52-222-171-67.fra54.r.cloudfront.net.",
-      "ip_address": "52.222.171.67",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "de.barcoo.android",
-      "ptr_domain": "server-54-192-93-196.fra2.r.cloudfront.net.",
-      "ip_address": "54.192.93.196",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "de.barcoo.android",
-      "ptr_domain": "server-54-192-93-198.fra2.r.cloudfront.net.",
-      "ip_address": "54.192.93.198",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "de.barcoo.android",
-      "ptr_domain": "server-54-192-93-235.fra2.r.cloudfront.net.",
-      "ip_address": "54.192.93.235",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    }
+    "HockeyApp",
+    "Google Firebase Analytics"
   ]
 }

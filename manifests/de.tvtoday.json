@@ -4,120 +4,28 @@
   "category": "ENTERTAINMENT",
   "icon": "",
   "permissions": [
-    "de.tvtoday.permission.C2D_MESSAGE",
-    "de.tvtoday.permission.C2D_MESSAGE",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.WAKE_LOCK",
-    "android.permission.RECEIVE_BOOT_COMPLETED"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "de.tvtoday.permission.C2D_MESSAGE"
   ],
   "version": "4.1.0",
   "trackers": [
-    "Google DoubleClick",
     "OutBrain",
-    "Adjust",
     "MixPanel",
-    "Facebook Places",
-    "Facebook Login",
-    "Facebook Share",
-    "Amazon Advertisement",
-    "Facebook Analytics",
     "Google Analytics",
+    "Facebook Share",
+    "Adjust",
+    "Google CrashLytics",
     "Google Ads",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "de.tvtoday",
-      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com.",
-      "ip_address": "107.22.169.1",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "de.tvtoday",
-      "ptr_domain": "ec2-184-73-213-37.compute-1.amazonaws.com.",
-      "ip_address": "184.73.213.37",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "de.tvtoday",
-      "ptr_domain": "edge-star-shv-01-amt2.facebook.com.",
-      "ip_address": "31.13.64.16",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "de.tvtoday",
-      "ptr_domain": "N/A",
-      "ip_address": "31.13.69.197",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.248100",
-      "loc_lat": "38.658300"
-    },
-    {
-      "package": "de.tvtoday",
-      "ptr_domain": "server-54-192-81-111.mia50.r.cloudfront.net.",
-      "ip_address": "54.192.81.111",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "de.tvtoday",
-      "ptr_domain": "server-54-192-81-28.mia50.r.cloudfront.net.",
-      "ip_address": "54.192.81.28",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "de.tvtoday",
-      "ptr_domain": "server-54-192-81-7.mia50.r.cloudfront.net.",
-      "ip_address": "54.192.81.7",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "de.tvtoday",
-      "ptr_domain": "ec2-54-225-228-102.compute-1.amazonaws.com.",
-      "ip_address": "54.225.228.102",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "de.tvtoday",
-      "ptr_domain": "ec2-54-243-105-3.compute-1.amazonaws.com.",
-      "ip_address": "54.243.105.3",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google DoubleClick",
+    "Facebook Analytics",
+    "INFOnline",
+    "Amazon Advertisement",
+    "Facebook Login",
+    "Facebook Places"
   ]
 }

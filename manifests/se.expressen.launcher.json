@@ -4,55 +4,30 @@
   "category": "NEWS_AND_MAGAZINES",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BROADCAST_STICKY",
+    "android.permission.INTERNET",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.BROADCAST_STICKY",
-    "se.expressen.launcher.permission.UA_DATA",
-    "se.expressen.launcher.permission.UA_DATA",
-    "se.expressen.launcher.permission.C2D_MESSAGE",
-    "se.expressen.launcher.permission.C2D_MESSAGE",
     "com.amazon.device.messaging.permission.RECEIVE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "se.expressen.launcher.permission.C2D_MESSAGE",
     "se.expressen.launcher.permission.RECEIVE_ADM_MESSAGE",
-    "se.expressen.launcher.permission.RECEIVE_ADM_MESSAGE",
-    "android.permission.ACCESS_WIFI_STATE"
+    "se.expressen.launcher.permission.UA_DATA"
   ],
   "version": "7.15.0",
   "trackers": [
-    "Google DoubleClick",
-    "Google Firebase Analytics",
-    "Google Ads",
-    "Google CrashLytics",
-    "Facebook Login",
     "Google Analytics",
-    "ComScore",
+    "Google Firebase Analytics",
+    "Google DoubleClick",
     "Facebook Analytics",
-    "Urbanairship"
-  ],
-  "network_connections": [
-    {
-      "package": "se.expressen.launcher",
-      "ptr_domain": "edge-star-shv-01-mad1.facebook.com.",
-      "ip_address": "31.13.83.8",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "se.expressen.launcher",
-      "ptr_domain": "ec2-50-16-247-246.compute-1.amazonaws.com.",
-      "ip_address": "50.16.247.246",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Urbanairship",
+    "Google CrashLytics",
+    "Google Ads",
+    "ComScore",
+    "Facebook Login"
   ]
 }

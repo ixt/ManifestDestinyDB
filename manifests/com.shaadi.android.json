@@ -4,151 +4,29 @@
   "category": "SOCIAL",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.VIBRATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.READ_PHONE_STATE",
     "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.RECEIVE_BOOT_COMPLETED"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "5.11.1",
   "trackers": [
-    "New Relic",
-    "Google Firebase Analytics",
-    "Google CrashLytics",
-    "Google Analytics",
-    "Facebook Places",
-    "Facebook Login",
+    "AppsFlyer",
     "Facebook Share",
-    "AppsFlyer"
-  ],
-  "network_connections": [
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "edge-star-shv-02-sin6.facebook.com.",
-      "ip_address": "157.240.13.14",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "a23-211-200-34.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.211.200.34",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com.",
-      "ip_address": "23.23.112.166",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "ec2-23-23-161-173.compute-1.amazonaws.com.",
-      "ip_address": "23.23.161.173",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "N/A",
-      "ip_address": "49.44.100.166",
-      "loc_city": "N/A",
-      "loc_country": "India",
-      "loc_continent": "Asia",
-      "loc_long": "77.000000",
-      "loc_lat": "20.000000"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "ec2-50-19-224-163.compute-1.amazonaws.com.",
-      "ip_address": "50.19.224.163",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "ec2-54-225-161-73.compute-1.amazonaws.com.",
-      "ip_address": "54.225.161.73",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "ec2-54-225-197-56.compute-1.amazonaws.com.",
-      "ip_address": "54.225.197.56",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "ec2-54-225-212-15.compute-1.amazonaws.com.",
-      "ip_address": "54.225.212.15",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "ec2-54-235-173-224.compute-1.amazonaws.com.",
-      "ip_address": "54.235.173.224",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "ec2-54-235-182-15.compute-1.amazonaws.com.",
-      "ip_address": "54.235.182.15",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.shaadi.android",
-      "ptr_domain": "ec2-54-243-99-83.compute-1.amazonaws.com.",
-      "ip_address": "54.243.99.83",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Facebook Login",
+    "Facebook Places",
+    "New Relic"
   ]
 }

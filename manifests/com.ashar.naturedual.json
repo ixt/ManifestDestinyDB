@@ -4,188 +4,35 @@
   "category": "PHOTOGRAPHY",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
     "android.permission.GET_TASKS",
-    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.CAMERA",
     "android.permission.VIBRATE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "1.1.6",
   "trackers": [
-    "Unity3d Ads",
-    "AdColony",
-    "Millennial Media",
-    "Flurry",
-    "ChartBoost",
-    "ironSource",
-    "Twitter MoPub",
-    "Google DoubleClick",
-    "Google Ads",
     "Inmobi",
-    "AppLovin",
+    "AdColony",
+    "Unity3d Ads",
+    "Flurry",
     "Moat",
+    "Google Ads",
+    "ironSource",
+    "AppLovin",
+    "Google DoubleClick",
+    "Google CrashLytics",
+    "Twitter MoPub",
     "Google Firebase Analytics",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "147.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net.",
-      "ip_address": "104.254.150.21",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "a104-68-101-223.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.68.101.223",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "sfo03s07-in-f6.1e100.net.",
-      "ip_address": "172.217.5.102",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "sfo03s08-in-f2.1e100.net.",
-      "ip_address": "172.217.6.34",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "mpr2-v6.ngd.vip.ne1.yahoo.com.",
-      "ip_address": "2001:4998:44:6000::1000",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "N/A",
-      "ip_address": "2001:4998:c:292f::3001",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "atl26s14-in-x03.1e100.net.",
-      "ip_address": "2607:f8b0:4002:811::2003",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "sfo03s01-in-x02.1e100.net.",
-      "ip_address": "2607:f8b0:4005:805::2002",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "sfo07s16-in-x02.1e100.net.",
-      "ip_address": "2607:f8b0:4005:807::2002",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "sfo03s07-in-x01.1e100.net.",
-      "ip_address": "2607:f8b0:4005:808::2001",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "sfo03s07-in-x03.1e100.net.",
-      "ip_address": "2607:f8b0:4005:808::2003",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "sfo03s07-in-x06.1e100.net.",
-      "ip_address": "2607:f8b0:4005:808::2006",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "N/A",
-      "ip_address": "2607:f8b0:4005::c",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "N/A",
-      "ip_address": "2607:f8b0:401d:1e::c",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.ashar.naturedual",
-      "ptr_domain": "ams15s21-in-x03.1e100.net.",
-      "ip_address": "2a00:1450:400e:800::2003",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    }
+    "ChartBoost",
+    "Millennial Media"
   ]
 }

@@ -4,34 +4,22 @@
   "category": "BOOKS_AND_REFERENCE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.CALL_PHONE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.CAMERA"
+    "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "version": "4.1",
   "trackers": [
-    "Google Analytics",
     "Google DoubleClick",
-    "Google Tag Manager",
+    "Google Analytics",
     "Google Ads",
+    "Google Tag Manager",
     "Flurry"
-  ],
-  "network_connections": [
-    {
-      "package": "com.bibliocommons.sandiego",
-      "ptr_domain": "N/A",
-      "ip_address": "104.16.45.14",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
   ]
 }

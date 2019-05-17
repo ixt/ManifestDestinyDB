@@ -4,63 +4,31 @@
   "category": "EDUCATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.RECORD_AUDIO",
     "android.permission.FOREGROUND_SERVICE",
-    "android.permission.VIBRATE",
-    "android.permission.USE_CREDENTIALS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "16.3.0.472",
   "trackers": [
-    "Facebook Share",
     "Facebook Login",
+    "Google Firebase Analytics",
     "Snowplow",
-    "Google CrashLytics",
-    "Braze",
-    "Facebook Analytics",
     "AppSee",
+    "Braze (formerly Appboy)",
     "Apptimize",
+    "Facebook Analytics",
+    "Facebook Share",
     "Adjust",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.busuu.android.de",
-      "ptr_domain": "ec2-52-6-42-17.compute-1.amazonaws.com.",
-      "ip_address": "52.6.42.17",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.busuu.android.de",
-      "ptr_domain": "ec2-52-72-45-37.compute-1.amazonaws.com.",
-      "ip_address": "52.72.45.37",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.busuu.android.de",
-      "ptr_domain": "ec2-54-84-0-82.compute-1.amazonaws.com.",
-      "ip_address": "54.84.0.82",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google CrashLytics"
   ]
 }

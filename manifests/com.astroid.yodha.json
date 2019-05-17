@@ -4,29 +4,29 @@
   "category": "LIFESTYLE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_INTERNAL_STORAGE",
+    "android.permission.INTERNET",
+    "android.permission.READ_APP_BADGE",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_INTERNAL_STORAGE",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.sec.android.provider.badge.permission.READ",
-    "com.sec.android.provider.badge.permission.WRITE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.htc.launcher.permission.READ_SETTINGS",
     "com.htc.launcher.permission.UPDATE_SHORTCUT",
-    "com.sonyericsson.home.permission.BROADCAST_BADGE",
-    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
-    "com.anddoes.launcher.permission.UPDATE_COUNT",
-    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.huawei.android.launcher.permission.CHANGE_BADGE",
     "com.huawei.android.launcher.permission.READ_SETTINGS",
     "com.huawei.android.launcher.permission.WRITE_SETTINGS",
-    "android.permission.READ_APP_BADGE",
+    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.oppo.launcher.permission.READ_SETTINGS",
     "com.oppo.launcher.permission.WRITE_SETTINGS",
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
     "me.everything.badger.permission.BADGE_COUNT_READ",
     "me.everything.badger.permission.BADGE_COUNT_WRITE"
   ],
@@ -34,17 +34,5 @@
   "trackers": [
     "Google Firebase Analytics",
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.astroid.yodha",
-      "ptr_domain": "static.216.52.251.148.clients.your-server.de.",
-      "ip_address": "148.251.52.216",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "9.491000",
-      "loc_lat": "51.299300"
-    }
   ]
 }

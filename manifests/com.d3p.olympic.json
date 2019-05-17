@@ -4,61 +4,28 @@
   "category": "GAME_ROLE_PLAYING",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.INTERACT_ACROSS_USERS_FULL",
-    "android.permission.INTERACT_ACROSS_USERS",
-    "android.permission.USE_CREDENTIALS",
     "android.permission.BLUETOOTH",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.INTERACT_ACROSS_USERS",
+    "android.permission.INTERACT_ACROSS_USERS_FULL",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.USE_CREDENTIALS",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.d3p.olympic.permission.C2D_MESSAGE",
-    "com.d3p.olympic.permission.C2D_MESSAGE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "3.3.1",
   "trackers": [
-    "Facebook Places",
-    "Facebook Analytics",
-    "HelpShift",
     "AppsFlyer",
-    "MixPanel",
+    "HelpShift",
+    "Facebook Analytics",
     "Google CrashLytics",
     "Facebook Share",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.d3p.olympic",
-      "ptr_domain": "ec2-34-199-106-10.compute-1.amazonaws.com.",
-      "ip_address": "34.199.106.10",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.d3p.olympic",
-      "ptr_domain": "server-52-84-21-36.sea32.r.cloudfront.net.",
-      "ip_address": "52.84.21.36",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.d3p.olympic",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.50.12",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "MixPanel",
+    "Facebook Login",
+    "Facebook Places"
   ]
 }

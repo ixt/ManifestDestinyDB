@@ -4,76 +4,23 @@
   "category": "GAME_ACTION",
   "icon": "",
   "permissions": [
-    "com.kabam.bigrobot.permission.C2D_MESSAGE",
-    "com.kabam.bigrobot.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.INTERNET",
-    "android.permission.VIBRATE",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.kabam.bigrobot.permission.C2D_MESSAGE"
   ],
   "version": "8.0.0",
   "trackers": [
+    "Unity3d Ads",
     "Google Firebase Analytics",
+    "Facebook Analytics",
     "Facebook Login",
     "AppsFlyer",
-    "Facebook Share",
-    "Facebook Analytics",
-    "Unity3d Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "com.kabam.bigrobot",
-      "ptr_domain": "N/A",
-      "ip_address": "178.162.216.179",
-      "loc_city": "Braunschweig",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "10.523300",
-      "loc_lat": "52.264700"
-    },
-    {
-      "package": "com.kabam.bigrobot",
-      "ptr_domain": "N/A",
-      "ip_address": "178.162.219.61",
-      "loc_city": "Braunschweig",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "10.523300",
-      "loc_lat": "52.264700"
-    },
-    {
-      "package": "com.kabam.bigrobot",
-      "ptr_domain": "223.202.186.35.bc.googleusercontent.com.",
-      "ip_address": "35.186.202.223",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.kabam.bigrobot",
-      "ptr_domain": "ec2-52-9-109-21.us-west-1.compute.amazonaws.com.",
-      "ip_address": "52.9.109.21",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.kabam.bigrobot",
-      "ptr_domain": "ec2-54-153-67-50.us-west-1.compute.amazonaws.com.",
-      "ip_address": "54.153.67.50",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    }
+    "Facebook Share"
   ]
 }

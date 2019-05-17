@@ -4,234 +4,32 @@
   "category": "GAME_ROLE_PLAYING",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_DEVICE_STATS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.GET_ACCOUNTS",
     "android.permission.GET_TASKS",
     "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.ACCESS_DEVICE_STATS",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.WRITE_SETTINGS",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "com.stac.empire.main.permission.C2D_MESSAGE",
-    "com.stac.empire.main.permission.C2D_MESSAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.WAKE_LOCK"
+    "com.stac.empire.main.permission.C2D_MESSAGE"
   ],
   "version": "2.5.58",
   "trackers": [
+    "Tapjoy",
+    "Facebook Share",
     "Google DoubleClick",
-    "Google Ads",
-    "AppsFlyer",
-    "ChartBoost",
     "Google Analytics",
-    "Facebook Login",
-    "Facebook Analytics",
-    "Umeng Analytics",
     "Google CrashLytics",
-    "Facebook Share"
-  ],
-  "network_connections": [
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-107-20-175-47.compute-1.amazonaws.com.",
-      "ip_address": "107.20.175.47",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-107-20-181-51.compute-1.amazonaws.com.",
-      "ip_address": "107.20.181.51",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-107-23-150-89.compute-1.amazonaws.com.",
-      "ip_address": "107.23.150.89",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "edge-star-shv-01-cdg2.facebook.com.",
-      "ip_address": "179.60.192.3",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "a-sac.h.online-metrix.net.",
-      "ip_address": "192.225.158.1",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-52-0-23-34.compute-1.amazonaws.com.",
-      "ip_address": "52.0.23.34",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-52-48-26-112.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.48.26.112",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-52-6-37-29.compute-1.amazonaws.com.",
-      "ip_address": "52.6.37.29",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-52-6-39-205.compute-1.amazonaws.com.",
-      "ip_address": "52.6.39.205",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-54-164-248-58.compute-1.amazonaws.com.",
-      "ip_address": "54.164.248.58",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-54-204-19-222.compute-1.amazonaws.com.",
-      "ip_address": "54.204.19.222",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.49.220",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.81.19",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.82.132",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.98.75",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-54-243-242-217.compute-1.amazonaws.com.",
-      "ip_address": "54.243.242.217",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "ec2-54-76-218-22.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.76.218.22",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "a72-247-210-16.deploy.static.akamaitechnologies.com.",
-      "ip_address": "72.247.210.16",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "api.nanigans.com.",
-      "ip_address": "75.126.18.77",
-      "loc_city": "Dallas",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-96.821700",
-      "loc_lat": "32.778700"
-    },
-    {
-      "package": "com.stac.empire.main",
-      "ptr_domain": "h.online-metrix.net.",
-      "ip_address": "91.235.132.130",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    }
+    "Umeng Analytics",
+    "AppsFlyer",
+    "Facebook Analytics",
+    "ChartBoost",
+    "Facebook Login",
+    "Google Ads"
   ]
 }

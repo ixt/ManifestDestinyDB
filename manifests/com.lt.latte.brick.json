@@ -4,95 +4,22 @@
   "category": "GAME_ARCADE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.lt.latte.brick.permission.C2D_MESSAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.lt.latte.brick.permission.C2D_MESSAGE"
   ],
   "version": "2.0",
   "trackers": [
     "Google Firebase Analytics",
-    "Google Ads",
-    "Adjust",
-    "Google Analytics",
+    "Google DoubleClick",
     "Moat",
-    "Vungle",
     "AppLovin",
-    "Google DoubleClick"
-  ],
-  "network_connections": [
-    {
-      "package": "com.lt.latte.brick",
-      "ptr_domain": "a104-65-92-13.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.65.92.13",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.lt.latte.brick",
-      "ptr_domain": "bom05s08-in-f162.1e100.net.",
-      "ip_address": "216.58.199.162",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.lt.latte.brick",
-      "ptr_domain": "bom07s11-in-x02.1e100.net.",
-      "ip_address": "2404:6800:4009:803::2002",
-      "loc_city": "N/A",
-      "loc_country": "Australia",
-      "loc_continent": "Oceania",
-      "loc_long": "133.000000",
-      "loc_lat": "-27.000000"
-    },
-    {
-      "package": "com.lt.latte.brick",
-      "ptr_domain": "bom05s09-in-x02.1e100.net.",
-      "ip_address": "2404:6800:4009:805::2002",
-      "loc_city": "N/A",
-      "loc_country": "Australia",
-      "loc_continent": "Oceania",
-      "loc_long": "133.000000",
-      "loc_lat": "-27.000000"
-    },
-    {
-      "package": "com.lt.latte.brick",
-      "ptr_domain": "N/A",
-      "ip_address": "2405:200:160d:2885:face:b00c:0:a7",
-      "loc_city": "N/A",
-      "loc_country": "India",
-      "loc_continent": "Asia",
-      "loc_long": "77.000000",
-      "loc_lat": "20.000000"
-    },
-    {
-      "package": "com.lt.latte.brick",
-      "ptr_domain": "N/A",
-      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.lt.latte.brick",
-      "ptr_domain": "ec2-52-22-90-231.compute-1.amazonaws.com.",
-      "ip_address": "52.22.90.231",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Adjust",
+    "Google Ads",
+    "Vungle",
+    "Google Analytics"
   ]
 }

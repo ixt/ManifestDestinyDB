@@ -4,44 +4,23 @@
   "category": "GAME_PUZZLE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.READ_PHONE_STATE",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_PHONE_STATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "2.5",
   "trackers": [
-    "Google DoubleClick",
     "Google Firebase Analytics",
-    "Millennial Media",
     "Google Ads",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "kenkenclassic.com",
-      "ptr_domain": "N/A",
-      "ip_address": "216.157.12.18",
-      "loc_city": "N/A",
-      "loc_country": "Canada",
-      "loc_continent": "North America",
-      "loc_long": "-79.371600",
-      "loc_lat": "43.631900"
-    },
-    {
-      "package": "kenkenclassic.com",
-      "ptr_domain": "ec2-23-21-138-252.compute-1.amazonaws.com.",
-      "ip_address": "23.21.138.252",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Analytics",
+    "Millennial Media",
+    "Google DoubleClick",
+    "Tapjoy"
   ]
 }

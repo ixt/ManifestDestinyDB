@@ -4,33 +4,20 @@
   "category": "BUSINESS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.INTERNET",
-    "android.permission.VIBRATE",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "3.51",
   "trackers": [
     "Google CrashLytics",
+    "Google Ads",
     "Google DoubleClick",
-    "Google Firebase Analytics",
-    "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "co.epxx.touch12if",
-      "ptr_domain": "ams16s21-in-f1.1e100.net.",
-      "ip_address": "216.58.212.193",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    }
+    "Google Firebase Analytics"
   ]
 }

@@ -4,35 +4,23 @@
   "category": "LIFESTYLE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.GET_ACCOUNTS",
-    "com.google.android.c2dm.permission.RECEIVE",
     "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "1.1.9",
   "trackers": [
     "Google Firebase Analytics",
-    "Facebook Login",
     "Facebook Share",
     "Google CrashLytics",
-    "PushWoosh",
+    "Pushwoosh",
+    "Facebook Login",
     "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.sikhnet.hukamnama",
-      "ptr_domain": "ec2-54-163-254-184.compute-1.amazonaws.com.",
-      "ip_address": "54.163.254.184",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

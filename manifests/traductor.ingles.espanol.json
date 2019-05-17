@@ -4,209 +4,26 @@
   "category": "TOOLS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_COARSE_LOCATION",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "traductor.ingles.espanol.permission.C2D_MESSAGE",
-    "traductor.ingles.espanol.permission.C2D_MESSAGE",
-    "android.permission.WAKE_LOCK"
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "traductor.ingles.espanol.permission.C2D_MESSAGE"
   ],
   "version": "12",
   "trackers": [
-    "Facebook Places",
-    "Flurry",
-    "Facebook Analytics",
-    "Facebook Ads",
     "Facebook Share",
+    "Inmobi",
+    "Flurry",
+    "Google DoubleClick",
+    "Facebook Places",
     "Google Analytics",
     "Google CrashLytics",
-    "Google Ads",
-    "Inmobi",
     "Facebook Login",
-    "Google DoubleClick"
-  ],
-  "network_connections": [
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "edge-star-shv-01-ort2.facebook.com.",
-      "ip_address": "157.240.2.20",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "ord38s04-in-f2.1e100.net.",
-      "ip_address": "172.217.0.2",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "ord30s31-in-f1.1e100.net.",
-      "ip_address": "172.217.4.225",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "ord30s31-in-f234.1e100.net.",
-      "ip_address": "172.217.4.234",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "ord37s03-in-f102.1e100.net.",
-      "ip_address": "172.217.6.102",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "ord38s08-in-f2.1e100.net.",
-      "ip_address": "172.217.9.34",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "N/A",
-      "ip_address": "204.2.226.108",
-      "loc_city": "Campbellsville",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-85.350800",
-      "loc_lat": "37.346600"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "N/A",
-      "ip_address": "204.2.226.10",
-      "loc_city": "Campbellsville",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-85.350800",
-      "loc_lat": "37.346600"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "ord31s21-in-f1.1e100.net.",
-      "ip_address": "216.58.216.193",
-      "loc_city": "Bluffdale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.943900",
-      "loc_lat": "40.495300"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "ord31s21-in-f2.1e100.net.",
-      "ip_address": "216.58.216.194",
-      "loc_city": "Bluffdale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.943900",
-      "loc_lat": "40.495300"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "ord31s21-in-f198.1e100.net.",
-      "ip_address": "216.58.216.198",
-      "loc_city": "Bluffdale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.943900",
-      "loc_lat": "40.495300"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "ec2-34-199-6-77.compute-1.amazonaws.com.",
-      "ip_address": "34.199.6.77",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "server-52-222-219-192.msp50.r.cloudfront.net.",
-      "ip_address": "52.222.219.192",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "server-52-222-220-235.msp50.r.cloudfront.net.",
-      "ip_address": "52.222.220.235",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "N/A",
-      "ip_address": "54.239.17.112",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "N/A",
-      "ip_address": "54.239.17.113",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "N/A",
-      "ip_address": "69.172.216.111",
-      "loc_city": "N/A",
-      "loc_country": "Canada",
-      "loc_continent": "North America",
-      "loc_long": "-79.371600",
-      "loc_lat": "43.631900"
-    },
-    {
-      "package": "traductor.ingles.espanol",
-      "ptr_domain": "N/A",
-      "ip_address": "69.172.216.55",
-      "loc_city": "N/A",
-      "loc_country": "Canada",
-      "loc_continent": "North America",
-      "loc_long": "-79.371600",
-      "loc_lat": "43.631900"
-    }
+    "Facebook Analytics",
+    "Google Ads",
+    "Facebook Ads"
   ]
 }

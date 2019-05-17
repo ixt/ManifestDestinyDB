@@ -4,31 +4,19 @@
   "category": "BOOKS_AND_REFERENCE",
   "icon": "",
   "permissions": [
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.ACCESS_WIFI_STATE"
+    "android.permission.RECEIVE_BOOT_COMPLETED"
   ],
   "version": "2.2.11",
   "trackers": [
+    "AppMonet",
+    "MixPanel",
+    "Facebook Login",
     "Amazon Advertisement",
     "Google Ads",
-    "MixPanel",
-    "AppMonet",
-    "Google CrashLytics",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.spanishdict.spanishdict",
-      "ptr_domain": "mia07s49-in-f2.1e100.net.",
-      "ip_address": "172.217.8.130",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Google CrashLytics"
   ]
 }

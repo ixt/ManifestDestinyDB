@@ -4,161 +4,40 @@
   "category": "WEATHER",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.SET_WALLPAPER",
     "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.SET_WALLPAPER",
     "android.permission.SYSTEM_ALERT_WINDOW",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WAKE_LOCK",
+    "arch.talent.permissions.PermissionHolderActivity",
     "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.yanzhenjie.permission.FileProvider",
+    "com.yanzhenjie.permission.PermissionActivity",
     "mobi.infolife.ezweather.widget.common.permission.ui.OverlayGuideActivity",
-    "mobi.infolife.ezweather.widget.common.permission.ui.StoragePermissionRequestActivity",
     "mobi.infolife.ezweather.widget.common.permission.ui.OverlayPermissionActivity",
     "mobi.infolife.ezweather.widget.common.permission.ui.RuntimePermissionActivity",
     "mobi.infolife.ezweather.widget.common.permission.ui.SetPermissionActivity",
-    "com.yanzhenjie.permission.PermissionActivity",
-    "com.yanzhenjie.permission.FileProvider",
-    "arch.talent.permissions.PermissionHolderActivity"
+    "mobi.infolife.ezweather.widget.common.permission.ui.StoragePermissionRequestActivity"
   ],
   "version": "15.1.0.45733_45820",
   "trackers": [
-    "Umeng Analytics",
-    "Facebook Share",
-    "Twitter MoPub",
-    "Google DoubleClick",
-    "Facebook Analytics",
     "Google Ads",
     "Facebook Ads",
+    "Facebook Login",
+    "Twitter MoPub",
+    "Facebook Analytics",
+    "Google DoubleClick",
+    "Bugly",
     "Google Firebase Analytics",
     "Facebook Places",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "mil04s29-in-f2.1e100.net.",
-      "ip_address": "216.58.205.194",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "mil04s03-in-x01.1e100.net.",
-      "ip_address": "2a00:1450:4002:801::2001",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "mil04s03-in-x0a.1e100.net.",
-      "ip_address": "2a00:1450:4002:801::200a",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "mil04s04-in-x03.1e100.net.",
-      "ip_address": "2a00:1450:4002:802::2003",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "mil04s27-in-x02.1e100.net.",
-      "ip_address": "2a00:1450:4002:809::2002",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "mil04s28-in-x02.1e100.net.",
-      "ip_address": "2a00:1450:4002:80a::2002",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "edge-star6-shv-01-mxp1.facebook.com.",
-      "ip_address": "2a03:2880:f008:1:face:b00c:0:1",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "xx-fbcdn6-shv-01-mxp1.fbcdn.net.",
-      "ip_address": "2a03:2880:f008:8:face:b00c:0:1",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "edge-star-mini6-shv-01-mxp1.facebook.com.",
-      "ip_address": "2a03:2880:f108:83:face:b00c:0:25de",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "edge-z-m-mini6-shv-01-mxp1.facebook.com.",
-      "ip_address": "2a03:2880:f108:84:face:b00c:0:14c9",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "ec2-52-49-9-118.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.49.9.118",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "mobi.infolife.ezweather.widget.storm",
-      "ptr_domain": "server-54-230-26-218.mxp4.r.cloudfront.net.",
-      "ip_address": "54.230.26.218",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.303200",
-      "loc_lat": "47.540000"
-    }
+    "Umeng Analytics",
+    "Facebook Share"
   ]
 }

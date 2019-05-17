@@ -4,82 +4,30 @@
   "category": "WEATHER",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.INTERNET",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CAMERA",
     "android.permission.FLASHLIGHT",
+    "android.permission.INTERNET",
     "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.VIBRATE",
-    "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "3.1.0",
   "trackers": [
-    "Facebook Share",
+    "Facebook Login",
     "Google Analytics",
     "Facebook Analytics",
-    "Google CrashLytics",
-    "Facebook Login",
+    "Facebook Places",
     "Google Firebase Analytics",
-    "Facebook Places"
-  ],
-  "network_connections": [
-    {
-      "package": "com.cube.gdpc.nzl.hzd",
-      "ptr_domain": "syd15s03-in-f14.1e100.net.",
-      "ip_address": "172.217.25.142",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.cube.gdpc.nzl.hzd",
-      "ptr_domain": "arn09s05-in-f3.1e100.net.",
-      "ip_address": "216.58.209.131",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.cube.gdpc.nzl.hzd",
-      "ptr_domain": "ams15s21-in-f3.1e100.net.",
-      "ip_address": "216.58.212.131",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.cube.gdpc.nzl.hzd",
-      "ptr_domain": "ec2-52-52-95-250.us-west-1.compute.amazonaws.com.",
-      "ip_address": "52.52.95.250",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.cube.gdpc.nzl.hzd",
-      "ptr_domain": "ec2-54-193-120-30.us-west-1.compute.amazonaws.com.",
-      "ip_address": "54.193.120.30",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    }
+    "Facebook Share",
+    "Google CrashLytics"
   ]
 }

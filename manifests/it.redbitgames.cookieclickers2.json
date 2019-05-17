@@ -4,170 +4,28 @@
   "category": "GAME_CASUAL",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "1.14.10",
   "trackers": [
-    "Unity3d Ads",
-    "Google CrashLytics",
     "Facebook Analytics",
-    "Facebook Ads",
-    "Google Ads",
-    "Kochava",
-    "Google DoubleClick",
-    "AppLovin",
-    "Google Analytics",
-    "Facebook Login",
-    "Facebook Share",
     "Google Firebase Analytics",
+    "Facebook Share",
+    "Google CrashLytics",
+    "Unity3d Ads",
+    "Google Analytics",
+    "Vungle",
+    "Google Ads",
     "ChartBoost",
-    "Vungle"
-  ],
-  "network_connections": [
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "sfo03s07-in-f1.1e100.net.",
-      "ip_address": "172.217.5.97",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "sfo03s07-in-x01.1e100.net.",
-      "ip_address": "2607:f8b0:4005:808::2001",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "sfo03s07-in-x0e.1e100.net.",
-      "ip_address": "2607:f8b0:4005:808::200e",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "sfo07s17-in-x02.1e100.net.",
-      "ip_address": "2607:f8b0:4005:80a::2002",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "N/A",
-      "ip_address": "2607:f8b0:401d:9::16",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "N/A",
-      "ip_address": "2a03:2880:f013:111:face:b00c:0:3",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "N/A",
-      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "edge-z-m-mini6-shv-01-atl3.facebook.com.",
-      "ip_address": "2a03:2880:f111:84:face:b00c:0:14c9",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "ec2-35-161-59-6.us-west-2.compute.amazonaws.com.",
-      "ip_address": "35.161.59.6",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "ec2-35-167-250-241.us-west-2.compute.amazonaws.com.",
-      "ip_address": "35.167.250.241",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "ec2-54-191-147-84.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.191.147.84",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "ec2-54-225-149-1.compute-1.amazonaws.com.",
-      "ip_address": "54.225.149.1",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "ec2-54-243-46-38.compute-1.amazonaws.com.",
-      "ip_address": "54.243.46.38",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "it.redbitgames.cookieclickers2",
-      "ptr_domain": "ec2-54-243-99-96.compute-1.amazonaws.com.",
-      "ip_address": "54.243.99.96",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google DoubleClick",
+    "Kochava",
+    "Facebook Login",
+    "Facebook Ads",
+    "AppLovin"
   ]
 }

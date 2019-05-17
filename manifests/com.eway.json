@@ -4,43 +4,20 @@
   "category": "MAPS_AND_NAVIGATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.eway.permission.C2D_MESSAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.eway.permission.C2D_MESSAGE",
-    "com.eway.permission.C2D_MESSAGE",
-    "android.permission.WAKE_LOCK"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "3.4.2",
   "trackers": [
     "Google Ads",
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.eway",
-      "ptr_domain": "ec2-54-197-255-53.compute-1.amazonaws.com.",
-      "ip_address": "54.197.255.53",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.eway",
-      "ptr_domain": "ec2-54-204-8-199.compute-1.amazonaws.com.",
-      "ip_address": "54.204.8.199",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

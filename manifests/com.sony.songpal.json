@@ -4,45 +4,32 @@
   "category": "MUSIC_AND_AUDIO",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.CHANGE_WIFI_STATE",
     "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.NFC",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.INTERNET",
     "android.permission.MODIFY_AUDIO_SETTINGS",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.sony.songpal.permission.C2D_MESSAGE",
-    "com.sony.songpal.permission.C2D_MESSAGE",
+    "android.permission.NFC",
+    "android.permission.READ_CONTACTS",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
     "android.permission.READ_SMS",
     "android.permission.RECEIVE_SMS",
-    "android.permission.SEND_SMS",
-    "android.permission.READ_CONTACTS",
-    "android.permission.READ_PHONE_STATE",
     "android.permission.RECORD_AUDIO",
-    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.SEND_SMS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.sonyericsson.home.permission.BROADCAST_BADGE",
-    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+    "com.sony.songpal.permission.C2D_MESSAGE"
   ],
   "version": "5.12.0",
   "trackers": [
     "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.sony.songpal",
-      "ptr_domain": "ec2-54-200-45-22.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.200.45.22",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    }
   ]
 }

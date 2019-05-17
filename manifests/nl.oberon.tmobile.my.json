@@ -4,94 +4,31 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.READ_CONTACTS",
-    "nl.oberon.tmobile.my.permission.C2D_MESSAGE",
-    "nl.oberon.tmobile.my.permission.C2D_MESSAGE",
-    "android.permission.VIBRATE",
-    "android.permission.USE_FINGERPRINT",
-    "android.permission.USE_BIOMETRIC",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.CHANGE_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_NETWORK_STATE",
     "android.permission.CHANGE_WIFI_STATE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "nl.oberon.tmobile.my.permission.C2D_MESSAGE"
   ],
   "version": "5.3.4",
   "trackers": [
+    "Google Firebase Analytics",
     "Google CrashLytics",
     "Google Analytics",
-    "BlueConic",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "nl.oberon.tmobile.my",
-      "ptr_domain": "ams15s29-in-f8.1e100.net.",
-      "ip_address": "172.217.17.104",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "nl.oberon.tmobile.my",
-      "ptr_domain": "basalt.oberon.nl.",
-      "ip_address": "213.206.118.81",
-      "loc_city": "Amsterdam",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.834400",
-      "loc_lat": "52.404900"
-    },
-    {
-      "package": "nl.oberon.tmobile.my",
-      "ptr_domain": "ec2-54-225-165-43.compute-1.amazonaws.com.",
-      "ip_address": "54.225.165.43",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "nl.oberon.tmobile.my",
-      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com.",
-      "ip_address": "54.243.212.128",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "nl.oberon.tmobile.my",
-      "ptr_domain": "ec2-54-243-81-55.compute-1.amazonaws.com.",
-      "ip_address": "54.243.81.55",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "nl.oberon.tmobile.my",
-      "ptr_domain": "N/A",
-      "ip_address": "80.79.204.14",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    }
+    "BlueConic"
   ]
 }

@@ -4,75 +4,33 @@
   "category": "ENTERTAINMENT",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-    "com.google.android.c2dm.permission.RECEIVE",
     "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "iflix.play.permission.C2D_MESSAGE",
-    "iflix.play.permission.C2D_MESSAGE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "iflix.play.permission.C2D_MESSAGE"
   ],
   "version": "3.19.0-15549",
   "trackers": [
+    "Facebook Login",
     "Google CrashLytics",
-    "AppsFlyer",
-    "New Relic",
-    "Facebook Places",
+    "Google Firebase Analytics",
     "Google DoubleClick",
     "Google Ads",
-    "Facebook Login",
-    "Facebook Analytics",
-    "LeanPlum",
+    "Swrve",
     "Facebook Share",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "iflix.play",
-      "ptr_domain": "ec2-23-21-92-173.compute-1.amazonaws.com.",
-      "ip_address": "23.21.92.173",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "iflix.play",
-      "ptr_domain": "ec2-54-169-2-98.ap-southeast-1.compute.amazonaws.com.",
-      "ip_address": "54.169.2.98",
-      "loc_city": "Singapore",
-      "loc_country": "Singapore",
-      "loc_continent": "Asia",
-      "loc_long": "103.854700",
-      "loc_lat": "1.292900"
-    },
-    {
-      "package": "iflix.play",
-      "ptr_domain": "server-54-192-209-17.mnl50.r.cloudfront.net.",
-      "ip_address": "54.192.209.17",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "iflix.play",
-      "ptr_domain": "server-54-230-208-204.mnl50.r.cloudfront.net.",
-      "ip_address": "54.230.208.204",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.303200",
-      "loc_lat": "47.540000"
-    }
+    "Facebook Analytics",
+    "AppsFlyer",
+    "Facebook Places",
+    "LeanPlum",
+    "New Relic"
   ]
 }

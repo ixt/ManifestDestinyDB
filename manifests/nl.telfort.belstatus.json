@@ -4,25 +4,13 @@
   "category": "TOOLS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.RECEIVE_BOOT_COMPLETED"
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "version": "4.8.1",
   "trackers": [
     "Demdex"
-  ],
-  "network_connections": [
-    {
-      "package": "nl.telfort.belstatus",
-      "ptr_domain": "ec2-54-225-167-80.compute-1.amazonaws.com.",
-      "ip_address": "54.225.167.80",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

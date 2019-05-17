@@ -4,66 +4,33 @@
   "category": "LIFESTYLE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
+    "android.permission.INTERNET",
+    "android.permission.READ_APP_BADGE",
     "android.permission.VIBRATE",
-    "com.sec.android.provider.badge.permission.READ",
-    "com.sec.android.provider.badge.permission.WRITE",
+    "android.permission.WAKE_LOCK",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
+    "com.astrolis.Horoscope.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.htc.launcher.permission.READ_SETTINGS",
     "com.htc.launcher.permission.UPDATE_SHORTCUT",
-    "com.sonyericsson.home.permission.BROADCAST_BADGE",
-    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
-    "com.anddoes.launcher.permission.UPDATE_COUNT",
-    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.huawei.android.launcher.permission.CHANGE_BADGE",
     "com.huawei.android.launcher.permission.READ_SETTINGS",
     "com.huawei.android.launcher.permission.WRITE_SETTINGS",
-    "android.permission.READ_APP_BADGE",
+    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.oppo.launcher.permission.READ_SETTINGS",
     "com.oppo.launcher.permission.WRITE_SETTINGS",
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
     "me.everything.badger.permission.BADGE_COUNT_READ",
-    "me.everything.badger.permission.BADGE_COUNT_WRITE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.astrolis.Horoscope.permission.C2D_MESSAGE",
-    "com.astrolis.Horoscope.permission.C2D_MESSAGE"
+    "me.everything.badger.permission.BADGE_COUNT_WRITE"
   ],
   "version": "3.6.2",
   "trackers": [
     "Google Ads",
-    "Google DoubleClick",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.astrolis.Horoscope",
-      "ptr_domain": "ec2-52-4-91-140.compute-1.amazonaws.com.",
-      "ip_address": "52.4.91.140",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.astrolis.Horoscope",
-      "ptr_domain": "server-52-84-243-218.sfo20.r.cloudfront.net.",
-      "ip_address": "52.84.243.218",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.astrolis.Horoscope",
-      "ptr_domain": "ec2-54-235-110-50.compute-1.amazonaws.com.",
-      "ip_address": "54.235.110.50",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Firebase Analytics",
+    "Google DoubleClick"
   ]
 }

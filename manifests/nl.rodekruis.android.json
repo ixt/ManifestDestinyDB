@@ -4,147 +4,25 @@
   "category": "HEALTH_AND_FITNESS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.SYSTEM_ALERT_WINDOW",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_COARSE_LOCATION",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "6.1.1",
   "trackers": [
-    "Google CrashLytics",
     "Facebook Analytics",
-    "Google Firebase Analytics",
     "Facebook Login",
-    "Facebook Places",
-    "Facebook Share"
-  ],
-  "network_connections": [
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ec2-107-21-251-92.compute-1.amazonaws.com.",
-      "ip_address": "107.21.251.92",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ams15s29-in-f106.1e100.net.",
-      "ip_address": "172.217.17.106",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ams15s33-in-f14.1e100.net.",
-      "ip_address": "172.217.20.78",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ams15s21-in-f3.1e100.net.",
-      "ip_address": "216.58.212.131",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com.",
-      "ip_address": "23.21.143.113",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ec2-34-250-254-222.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "34.250.254.222",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ec2-50-17-249-91.compute-1.amazonaws.com.",
-      "ip_address": "50.17.249.91",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ec2-50-19-93-128.compute-1.amazonaws.com.",
-      "ip_address": "50.19.93.128",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ec2-52-210-189-60.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.210.189.60",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ec2-52-213-242-59.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.213.242.59",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "s3-3-w.amazonaws.com.",
-      "ip_address": "54.231.141.169",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "nl.rodekruis.android",
-      "ptr_domain": "ec2-54-77-176-211.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.77.176.211",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    }
+    "Google CrashLytics",
+    "Facebook Share",
+    "Google Firebase Analytics",
+    "Facebook Places"
   ]
 }

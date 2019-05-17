@@ -4,119 +4,36 @@
   "category": "SPORTS",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.USE_CREDENTIALS",
-    "android.permission.GET_ACCOUNTS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "com.uefa.uel.permission.C2D_MESSAGE",
-    "com.uefa.uel.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "com.uefa.uel.permission.C2D_MESSAGE"
   ],
   "version": "2.40.6",
   "trackers": [
+    "Google DoubleClick",
+    "Google CrashLytics",
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "HockeyApp",
     "Gigya",
+    "Adjust",
+    "Pushwoosh",
     "Facebook Analytics",
     "Facebook Share",
-    "Google Analytics",
-    "Adjust",
-    "Google CrashLytics",
-    "Google Ads",
-    "Google Firebase Analytics",
-    "Facebook Login",
-    "HockeyApp",
-    "Google DoubleClick",
     "Facebook Places",
-    "PushWoosh"
-  ],
-  "network_connections": [
-    {
-      "package": "com.uefa.uel",
-      "ptr_domain": "ec2-176-34-243-83.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "176.34.243.83",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.uefa.uel",
-      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com.",
-      "ip_address": "204.236.231.153",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.uefa.uel",
-      "ptr_domain": "ec2-50-16-240-171.compute-1.amazonaws.com.",
-      "ip_address": "50.16.240.171",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.uefa.uel",
-      "ptr_domain": "ec2-52-20-172-191.compute-1.amazonaws.com.",
-      "ip_address": "52.20.172.191",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.uefa.uel",
-      "ptr_domain": "ec2-54-228-249-66.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.228.249.66",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.uefa.uel",
-      "ptr_domain": "ec2-54-243-114-109.compute-1.amazonaws.com.",
-      "ip_address": "54.243.114.109",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.uefa.uel",
-      "ptr_domain": "yb-in-f156.1e100.net.",
-      "ip_address": "64.233.185.156",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.uefa.uel",
-      "ptr_domain": "N/A",
-      "ip_address": "93.184.216.180",
-      "loc_city": "Lombard",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-88.000200",
-      "loc_lat": "41.873200"
-    }
+    "Facebook Login",
+    "Google Ads"
   ]
 }

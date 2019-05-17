@@ -4,52 +4,29 @@
   "category": "VIDEO_PLAYERS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.CAMERA",
-    "android.permission.READ_PHONE_STATE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECORD_AUDIO",
     "android.permission.WAKE_LOCK",
-    "pl.tvn.player.permission.C2D_MESSAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "pl.tvn.player.permission.C2D_MESSAGE"
   ],
   "version": "5.0.37",
   "trackers": [
     "New Relic",
-    "Facebook Share",
+    "Google CrashLytics",
+    "Facebook Analytics",
     "Google Ads",
     "Google DoubleClick",
-    "Google CrashLytics",
-    "Google Firebase Analytics",
     "Facebook Login",
-    "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "pl.tvn.player",
-      "ptr_domain": "35.145.229.46.in-addr.arpa. CNAME 35.rev46-229-145.online.tvwisla.com.pl.",
-      "ip_address": "46.229.145.35",
-      "loc_city": "Iwiczna",
-      "loc_country": "Poland",
-      "loc_continent": "Europe",
-      "loc_long": "20.991700",
-      "loc_lat": "52.081900"
-    },
-    {
-      "package": "pl.tvn.player",
-      "ptr_domain": "server-52-84-194-25.waw50.r.cloudfront.net.",
-      "ip_address": "52.84.194.25",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    }
+    "Facebook Share",
+    "Google Firebase Analytics"
   ]
 }

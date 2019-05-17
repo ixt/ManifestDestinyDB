@@ -4,217 +4,24 @@
   "category": "HEALTH_AND_FITNESS",
   "icon": "",
   "permissions": [
-    "android.permission.VIBRATE",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.READ_CALENDAR",
-    "android.permission.WRITE_CALENDAR",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_CALENDAR",
     "com.fitnessmobileapps.orangetheoryfitness.permission.C2D_MESSAGE",
-    "com.fitnessmobileapps.orangetheoryfitness.permission.C2D_MESSAGE"
+    "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "4.2.5",
   "trackers": [
-    "Flurry",
-    "Facebook Share",
     "Facebook Login",
-    "Amplitude",
+    "Facebook Share",
     "New Relic",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "a104-109-131-39.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.109.131.39",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "N/A",
-      "ip_address": "151.101.128.207",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "N/A",
-      "ip_address": "151.101.192.207",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "N/A",
-      "ip_address": "151.101.64.207",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "edge-star-shv-02-lax3.facebook.com.",
-      "ip_address": "157.240.11.17",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com.",
-      "ip_address": "174.129.19.57",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "N/A",
-      "ip_address": "192.173.28.58",
-      "loc_city": "N/A",
-      "loc_country": "Canada",
-      "loc_continent": "North America",
-      "loc_long": "-79.371600",
-      "loc_lat": "43.631900"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "N/A",
-      "ip_address": "192.35.140.252",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "a23-199-225-66.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.199.225.66",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com.",
-      "ip_address": "23.21.143.113",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "a23-48-156-163.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.48.156.163",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "edge-star-shv-01-lax3.facebook.com.",
-      "ip_address": "31.13.70.1",
-      "loc_city": "Los Angeles",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-118.244000",
-      "loc_lat": "34.054400"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "N/A",
-      "ip_address": "31.13.76.102",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.331400",
-      "loc_lat": "47.609200"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "ec2-50-112-109-9.us-west-2.compute.amazonaws.com.",
-      "ip_address": "50.112.109.9",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "ec2-54-214-247-214.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.214.247.214",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "ec2-54-214-41-98.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.214.41.98",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "ec2-54-245-104-174.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.245.104.174",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "ec2-54-245-224-96.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.245.224.96",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.fitnessmobileapps.orangetheoryfitness",
-      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
-      "ip_address": "74.6.34.123",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Flurry",
+    "Google Analytics",
+    "Amplitude"
   ]
 }

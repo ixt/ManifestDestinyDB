@@ -4,49 +4,36 @@
   "category": "LIFESTYLE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.CHANGE_NETWORK_STATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.CHANGE_NETWORK_STATE",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
     "android.permission.MANAGE_ACCOUNTS",
-    "android.permission.READ_SYNC_STATS",
-    "android.permission.READ_SYNC_SETTINGS",
-    "android.permission.WRITE_SYNC_SETTINGS",
-    "android.permission.READ_CONTACTS",
-    "android.permission.WRITE_CONTACTS",
     "android.permission.READ_CALENDAR",
-    "android.permission.WRITE_CALENDAR",
-    "android.permission.VIBRATE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_SYNC_SETTINGS",
+    "android.permission.READ_SYNC_STATS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SYNC_SETTINGS",
     "com.familywall.permission.C2D_MESSAGE",
-    "com.familywall.permission.C2D_MESSAGE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "7.5.1",
   "trackers": [
-    "Google Analytics",
+    "Google CrashLytics",
     "Google Firebase Analytics",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.familywall",
-      "ptr_domain": "N/A",
-      "ip_address": "78.136.57.29",
-      "loc_city": "N/A",
-      "loc_country": "United Kingdom",
-      "loc_continent": "Europe",
-      "loc_long": "-0.122400",
-      "loc_lat": "51.496400"
-    }
+    "Google Analytics"
   ]
 }

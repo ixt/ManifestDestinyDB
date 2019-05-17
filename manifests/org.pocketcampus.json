@@ -4,126 +4,30 @@
   "category": "EDUCATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "org.pocketcampus.permission.AUTHENTICATE",
-    "org.pocketcampus.permission.AUTHENTICATE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.USE_FINGERPRINT",
-    "org.pocketcampus.permissions.AUTHENTICATE_WITH_TEQUILA",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.VIBRATE",
-    "org.pocketcampus.permission.C2D_MESSAGE",
-    "org.pocketcampus.permission.C2D_MESSAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.REORDER_TASKS",
-    "org.pocketcampus.permission.GET_CONFIG",
-    "org.pocketcampus.permission.GET_CONFIG",
-    "org.pocketcampus.permission.SECURE_BROADCAST",
-    "org.pocketcampus.permission.SECURE_BROADCAST",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.RECEIVE_BOOT_COMPLETED"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "org.pocketcampus.permission.AUTHENTICATE",
+    "org.pocketcampus.permission.C2D_MESSAGE",
+    "org.pocketcampus.permission.GET_CONFIG",
+    "org.pocketcampus.permissions.AUTHENTICATE_WITH_TEQUILA",
+    "org.pocketcampus.permission.SECURE_BROADCAST"
   ],
   "version": "5.6",
   "trackers": [
-    "Google CrashLytics",
     "Google Analytics",
+    "Google CrashLytics",
     "Google Tag Manager"
-  ],
-  "network_connections": [
-    {
-      "package": "org.pocketcampus",
-      "ptr_domain": "test-pocketcampus.epfl.ch.",
-      "ip_address": "128.178.222.37",
-      "loc_city": "N/A",
-      "loc_country": "Switzerland",
-      "loc_continent": "Europe",
-      "loc_long": "8.155100",
-      "loc_lat": "47.144900"
-    },
-    {
-      "package": "org.pocketcampus",
-      "ptr_domain": "pocketcampus.epfl.ch.",
-      "ip_address": "128.178.222.38",
-      "loc_city": "N/A",
-      "loc_country": "Switzerland",
-      "loc_continent": "Europe",
-      "loc_long": "8.155100",
-      "loc_lat": "47.144900"
-    },
-    {
-      "package": "org.pocketcampus",
-      "ptr_domain": "tequila.epfl.ch.",
-      "ip_address": "128.178.222.94",
-      "loc_city": "N/A",
-      "loc_country": "Switzerland",
-      "loc_continent": "Europe",
-      "loc_long": "8.155100",
-      "loc_lat": "47.144900"
-    },
-    {
-      "package": "org.pocketcampus",
-      "ptr_domain": "fra15s46-in-f1.1e100.net.",
-      "ip_address": "172.217.16.129",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "org.pocketcampus",
-      "ptr_domain": "zrh04s08-in-f14.1e100.net.",
-      "ip_address": "172.217.19.14",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "org.pocketcampus",
-      "ptr_domain": "zrh04s07-in-f1.1e100.net.",
-      "ip_address": "172.217.19.161",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "org.pocketcampus",
-      "ptr_domain": "ec2-23-21-199-253.compute-1.amazonaws.com.",
-      "ip_address": "23.21.199.253",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "org.pocketcampus",
-      "ptr_domain": "ec2-50-19-89-237.compute-1.amazonaws.com.",
-      "ip_address": "50.19.89.237",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "org.pocketcampus",
-      "ptr_domain": "ec2-54-204-4-24.compute-1.amazonaws.com.",
-      "ip_address": "54.204.4.24",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

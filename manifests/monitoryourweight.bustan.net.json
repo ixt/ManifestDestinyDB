@@ -4,51 +4,26 @@
   "category": "HEALTH_AND_FITNESS",
   "icon": "",
   "permissions": [
-    "com.sec.android.iap.permission.BILLING",
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "monitoryourweight.bustan.net.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "monitoryourweight.bustan.net.permission.C2D_MESSAGE",
-    "monitoryourweight.bustan.net.permission.RECEIVE_ADM_MESSAGE",
-    "com.amazon.device.messaging.permission.RECEIVE",
-    "monitoryourweight.bustan.net.permission.RECEIVE_ADM_MESSAGE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.REQUEST_INSTALL_PACKAGES"
+    "com.amazon.device.messaging.permission.RECEIVE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.sec.android.iap.permission.BILLING",
+    "monitoryourweight.bustan.net.permission.C2D_MESSAGE",
+    "monitoryourweight.bustan.net.permission.RECEIVE_ADM_MESSAGE"
   ],
   "version": "4.9.9.2",
   "trackers": [
     "Google DoubleClick",
-    "Google Firebase Analytics",
     "Google Ads",
-    "HockeyApp"
-  ],
-  "network_connections": [
-    {
-      "package": "monitoryourweight.bustan.net",
-      "ptr_domain": "cas.nl.eu.criteo.com.",
-      "ip_address": "178.250.2.102",
-      "loc_city": "N/A",
-      "loc_country": "France",
-      "loc_continent": "Europe",
-      "loc_long": "2.338700",
-      "loc_lat": "48.858200"
-    },
-    {
-      "package": "monitoryourweight.bustan.net",
-      "ptr_domain": "mad01s25-in-f2.1e100.net.",
-      "ip_address": "216.58.211.194",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    }
+    "HockeyApp",
+    "Google Firebase Analytics"
   ]
 }

@@ -4,77 +4,25 @@
   "category": "VIDEO_PLAYERS",
   "icon": "",
   "permissions": [
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.INTERNET",
     "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.RECORD_AUDIO",
     "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "2.4",
   "trackers": [
+    "AdFit (Daum)",
     "Inmobi",
     "Google DoubleClick",
-    "AdFit (Daum)",
-    "ShallWeAD",
     "Google Firebase Analytics",
-    "Google Ads",
-    "Facebook Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "com.asquaremobileapps.videocutter.audiovideomixer",
-      "ptr_domain": "sfo03s01-in-x01.1e100.net.",
-      "ip_address": "2607:f8b0:4005:805::2001",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.asquaremobileapps.videocutter.audiovideomixer",
-      "ptr_domain": "sfo03s01-in-x0a.1e100.net.",
-      "ip_address": "2607:f8b0:4005:805::200a",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.asquaremobileapps.videocutter.audiovideomixer",
-      "ptr_domain": "sfo03s01-in-x0e.1e100.net.",
-      "ip_address": "2607:f8b0:4005:805::200e",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.asquaremobileapps.videocutter.audiovideomixer",
-      "ptr_domain": "pc-in-x8b.1e100.net.",
-      "ip_address": "2607:f8b0:400e:c04::8b",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.asquaremobileapps.videocutter.audiovideomixer",
-      "ptr_domain": "N/A",
-      "ip_address": "2607:f8b0:401d:2::8",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Facebook Ads",
+    "ShallWeAD",
+    "Google Ads"
   ]
 }

@@ -4,68 +4,34 @@
   "category": "BUSINESS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.VIBRATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.CAMERA",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.symbol.emdk.permission.EMDK",
-    "com.eventbrite.organizer.permission.C2D_MESSAGE",
-    "com.eventbrite.organizer.permission.C2D_MESSAGE",
-    "android.permission.NFC",
-    "android.permission.NFC",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
     "android.permission.MODIFY_AUDIO_SETTINGS",
-    "android.permission.RECORD_AUDIO",
+    "android.permission.NFC",
     "android.permission.READ_CONTACTS",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.eventbrite.organizer.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.symbol.emdk.permission.EMDK"
   ],
   "version": "8.5.2",
   "trackers": [
-    "Google CrashLytics",
-    "Facebook Places",
+    "Segment",
+    "Google Firebase Analytics",
     "Facebook Login",
     "Facebook Share",
-    "Google Firebase Analytics",
     "Google Analytics",
-    "Segment",
-    "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.eventbrite.organizer",
-      "ptr_domain": "ec2-52-44-84-44.compute-1.amazonaws.com.",
-      "ip_address": "52.44.84.44",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.eventbrite.organizer",
-      "ptr_domain": "ec2-52-54-35-251.compute-1.amazonaws.com.",
-      "ip_address": "52.54.35.251",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.eventbrite.organizer",
-      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com.",
-      "ip_address": "54.83.37.39",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google CrashLytics",
+    "Facebook Analytics",
+    "Facebook Places"
   ]
 }

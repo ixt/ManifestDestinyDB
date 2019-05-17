@@ -4,48 +4,35 @@
   "category": "MUSIC_AND_AUDIO",
   "icon": "",
   "permissions": [
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "com.greencopper.android.southside.permission.C2D_MESSAGE",
-    "com.greencopper.android.southside.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.CAMERA",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.VIBRATE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
-    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
     "android.permission.CHANGE_WIFI_STATE",
-    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
     "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.greencopper.android.southside.permission.C2D_MESSAGE"
   ],
   "version": "10.1.0",
   "trackers": [
-    "Google CrashLytics",
-    "Google Analytics",
-    "Colocator",
-    "Facebook Share",
-    "Kontakt",
-    "Facebook Analytics",
     "Google Firebase Analytics",
+    "Google Analytics",
+    "Google CrashLytics",
+    "Kontakt",
+    "Facebook Login",
     "Segment",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.greencopper.android.southside",
-      "ptr_domain": "ec2-54-243-106-99.compute-1.amazonaws.com.",
-      "ip_address": "54.243.106.99",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Facebook Analytics",
+    "Facebook Share",
+    "Colocator"
   ]
 }

@@ -4,51 +4,28 @@
   "category": "COMMUNICATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CHANGE_WIFI_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.vertoanalytics.vivo.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.GET_TASKS",
-    "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
     "android.permission.FOREGROUND_SERVICE",
-    "com.vertoanalytics.vivo.permission.C2D_MESSAGE",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
     "android.permission.PACKAGE_USAGE_STATS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.vertoanalytics.vivo.permission.C2D_MESSAGE",
     "com.vertoanalytics.vivo.ui.permission.MeteringPermissionsActivity",
     "com.vertoanalytics.vivo.ui.permission.UsageAccessPermissionActivity"
   ],
   "version": "3.21.3",
   "trackers": [
-    "Google DoubleClick",
     "Google Ads",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.vertoanalytics.smartpanel",
-      "ptr_domain": "ec2-52-205-94-144.compute-1.amazonaws.com.",
-      "ip_address": "52.205.94.144",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.vertoanalytics.smartpanel",
-      "ptr_domain": "ec2-52-206-51-173.compute-1.amazonaws.com.",
-      "ip_address": "52.206.51.173",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google CrashLytics",
+    "Google DoubleClick"
   ]
 }

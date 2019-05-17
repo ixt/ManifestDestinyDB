@@ -4,28 +4,15 @@
   "category": "TRAVEL_AND_LOCAL",
   "icon": "",
   "permissions": [
-    "com.tripadvisor.android.vr.owner.gcm.permission.C2D_MESSAGE",
-    "com.tripadvisor.android.vr.owner.gcm.permission.C2D_MESSAGE",
     "android.permission.INTERNET",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.VIBRATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.tripadvisor.android.vr.owner.gcm.permission.C2D_MESSAGE"
   ],
   "version": "8.4.0",
   "trackers": [
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.tripadvisor.android.vr.owner",
-      "ptr_domain": "N/A",
-      "ip_address": "185.61.97.85",
-      "loc_city": "N/A",
-      "loc_country": "United Kingdom",
-      "loc_continent": "Europe",
-      "loc_long": "-0.122400",
-      "loc_lat": "51.496400"
-    }
   ]
 }

@@ -4,75 +4,34 @@
   "category": "GAME_STRATEGY",
   "icon": "",
   "permissions": [
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.ACCESS_DEVICE_STATS",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.VIBRATE",
-    "android.permission.USE_CREDENTIALS",
-    "android.permission.GET_TASKS",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CAMERA",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "2.91.3",
   "trackers": [
-    "HelpShift",
-    "Facebook Login",
+    "Google Analytics",
     "Facebook Analytics",
     "Facebook Share",
-    "AppsFlyer",
     "Branch",
+    "Facebook Login",
     "Google Firebase Analytics",
+    "HelpShift",
+    "Bugly",
     "Google CrashLytics",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.hts.ams",
-      "ptr_domain": "N/A",
-      "ip_address": "178.162.216.180",
-      "loc_city": "Braunschweig",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "10.523300",
-      "loc_lat": "52.264700"
-    },
-    {
-      "package": "com.hts.ams",
-      "ptr_domain": "ec2-184-72-39-163.us-west-1.compute.amazonaws.com.",
-      "ip_address": "184.72.39.163",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.hts.ams",
-      "ptr_domain": "sfo03s06-in-f226.1e100.net.",
-      "ip_address": "216.58.195.226",
-      "loc_city": "Bluffdale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.943900",
-      "loc_lat": "40.495300"
-    },
-    {
-      "package": "com.hts.ams",
-      "ptr_domain": "edge-star6-shv-01-atl3.facebook.com.",
-      "ip_address": "2a03:2880:f011:1:face:b00c:0:1",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    }
+    "AppsFlyer"
   ]
 }

@@ -4,33 +4,20 @@
   "category": "COMMUNICATION",
   "icon": "",
   "permissions": [
-    "android.permission.VIBRATE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.INTERNET",
     "android.permission.READ_CONTACTS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "de.mail.android.mailapp.permission.C2D_MESSAGE",
-    "de.mail.android.mailapp.permission.C2D_MESSAGE",
-    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "de.mail.android.mailapp.permission.C2D_MESSAGE"
   ],
   "version": "1.5.14",
   "trackers": [
     "Google Firebase Analytics",
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "de.mail.android.mailapp",
-      "ptr_domain": "my.mail.de.",
-      "ip_address": "213.128.151.201",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "9.491000",
-      "loc_lat": "51.299300"
-    }
   ]
 }

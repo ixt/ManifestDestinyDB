@@ -4,37 +4,15 @@
   "category": "TOOLS",
   "icon": "",
   "permissions": [
-    "com.android.launcher.permission.INSTALL_SHORTCUT",
-    "com.htc.launcher.permission.UPDATE_SHORTCUT",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.GET_TASKS",
-    "android.permission.PACKAGE_USAGE_STATS"
+    "android.permission.INTERNET",
+    "android.permission.PACKAGE_USAGE_STATS",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "com.htc.launcher.permission.UPDATE_SHORTCUT"
   ],
   "version": "2.6",
   "trackers": [
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.tasomaniac.openwith",
-      "ptr_domain": "ec2-174-129-218-17.compute-1.amazonaws.com.",
-      "ip_address": "174.129.218.17",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.tasomaniac.openwith",
-      "ptr_domain": "ec2-184-73-195-3.compute-1.amazonaws.com.",
-      "ip_address": "184.73.195.3",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

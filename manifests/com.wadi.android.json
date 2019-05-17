@@ -4,84 +4,31 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.GET_ACCOUNTS",
     "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_PHONE_STATE",
     "android.permission.SYSTEM_ALERT_WINDOW",
-    "com.wadi.android.permission.C2D_MESSAGE",
-    "com.wadi.android.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.VIBRATE",
-    "android.permission.GET_ACCOUNTS",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "android.permission.USE_FINGERPRINT",
-    "android.permission.READ_PHONE_STATE"
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.wadi.android.permission.C2D_MESSAGE"
   ],
   "version": "2.1.5",
   "trackers": [
-    "AppSee",
-    "Google Firebase Analytics",
-    "Facebook Share",
-    "Tune",
     "Google Analytics",
+    "Google Firebase Analytics",
     "Facebook Places",
-    "Google CrashLytics",
     "Facebook Login",
-    "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.wadi.android",
-      "ptr_domain": "N/A",
-      "ip_address": "104.17.110.96",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.wadi.android",
-      "ptr_domain": "ams16s29-in-f52.1e100.net.",
-      "ip_address": "172.217.17.52",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.wadi.android",
-      "ptr_domain": "ams15s32-in-f20.1e100.net.",
-      "ip_address": "216.58.211.116",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.wadi.android",
-      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com.",
-      "ip_address": "31.13.86.8",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.wadi.android",
-      "ptr_domain": "ec2-52-66-181-178.ap-south-1.compute.amazonaws.com.",
-      "ip_address": "52.66.181.178",
-      "loc_city": "Mumbai",
-      "loc_country": "India",
-      "loc_continent": "Asia",
-      "loc_long": "72.824600",
-      "loc_lat": "18.972100"
-    }
+    "Facebook Share",
+    "Facebook Analytics",
+    "AppSee",
+    "Tune",
+    "Google CrashLytics"
   ]
 }

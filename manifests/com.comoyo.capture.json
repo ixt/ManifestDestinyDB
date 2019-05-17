@@ -4,45 +4,23 @@
   "category": "TOOLS",
   "icon": "",
   "permissions": [
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.INTERNET",
-    "android.permission.WAKE_LOCK",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-    "android.permission.FOREGROUND_SERVICE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "3.2802.7",
   "trackers": [
+    "Adjust",
     "Google Analytics",
     "Google CrashLytics",
-    "LeanPlum",
-    "Adjust",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.comoyo.capture",
-      "ptr_domain": "ec2-50-19-122-61.compute-1.amazonaws.com.",
-      "ip_address": "50.19.122.61",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.comoyo.capture",
-      "ptr_domain": "134.26.92.62.in-addr.arpa. CNAME 134.128-255.26.92.62.in-addr.arpa.",
-      "ip_address": "62.92.26.134",
-      "loc_city": "Alta",
-      "loc_country": "Norway",
-      "loc_continent": "Europe",
-      "loc_long": "23.271700",
-      "loc_lat": "69.968900"
-    }
+    "Google Firebase Analytics",
+    "LeanPlum"
   ]
 }

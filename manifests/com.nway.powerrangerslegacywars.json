@@ -4,211 +4,28 @@
   "category": "GAME_ACTION",
   "icon": "",
   "permissions": [
-    "android.permission.VIBRATE",
-    "android.permission.INTERNET",
-    "android.permission.CHANGE_WIFI_STATE",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_SETTINGS",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SETTINGS",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.nway.powerrangerslegacywars.permission.C2D_MESSAGE",
-    "com.nway.powerrangerslegacywars.permission.C2D_MESSAGE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.nway.powerrangerslegacywars.permission.C2D_MESSAGE"
   ],
   "version": "2.5.2",
   "trackers": [
-    "AdColony",
-    "Moat",
     "ironSource",
+    "Moat",
     "Google Firebase Analytics",
+    "Adjust",
     "Amplitude",
     "HelpShift",
-    "Adjust",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-184-169-129-236.us-west-1.compute.amazonaws.com.",
-      "ip_address": "184.169.129.236",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-184-73-161-9.compute-1.amazonaws.com.",
-      "ip_address": "184.73.161.9",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-23-22-49-51.compute-1.amazonaws.com.",
-      "ip_address": "23.22.49.51",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-50-18-158-187.us-west-1.compute.amazonaws.com.",
-      "ip_address": "50.18.158.187",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-50-18-57-42.us-west-1.compute.amazonaws.com.",
-      "ip_address": "50.18.57.42",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-52-213-122-62.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.213.122.62",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-52-30-196-20.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.30.196.20",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-52-31-93-211.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.31.93.211",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "server-52-84-243-103.sfo20.r.cloudfront.net.",
-      "ip_address": "52.84.243.103",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "server-52-84-243-137.sfo20.r.cloudfront.net.",
-      "ip_address": "52.84.243.137",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "server-52-84-243-219.sfo20.r.cloudfront.net.",
-      "ip_address": "52.84.243.219",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "server-52-84-243-220.sfo20.r.cloudfront.net.",
-      "ip_address": "52.84.243.220",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "server-52-84-243-225.sfo20.r.cloudfront.net.",
-      "ip_address": "52.84.243.225",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "server-52-84-243-73.sfo20.r.cloudfront.net.",
-      "ip_address": "52.84.243.73",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-54-225-186-46.compute-1.amazonaws.com.",
-      "ip_address": "54.225.186.46",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-54-225-192-183.compute-1.amazonaws.com.",
-      "ip_address": "54.225.192.183",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-54-245-232-181.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.245.232.181",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.nway.powerrangerslegacywars",
-      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com.",
-      "ip_address": "54.83.193.68",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google CrashLytics",
+    "AdColony"
   ]
 }

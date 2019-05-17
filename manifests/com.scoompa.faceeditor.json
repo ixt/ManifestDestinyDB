@@ -4,232 +4,29 @@
   "category": "PHOTOGRAPHY",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.scoompa.faceeditor.permission.C2D_MESSAGE",
     "com.scoompa.faceeditor.permission.C2D_MESSAGE"
   ],
   "version": "9.0",
   "trackers": [
-    "Amazon Advertisement",
-    "Facebook Login",
-    "Facebook Share",
-    "Google Analytics",
+    "Google Firebase Analytics",
     "Google CrashLytics",
     "Flurry",
-    "Google DoubleClick",
-    "Facebook Ads",
     "Facebook Analytics",
-    "Google Ads",
-    "Inmobi",
-    "Google Firebase Analytics",
+    "AppBrain",
+    "Google DoubleClick",
+    "Amazon Advertisement",
+    "Facebook Login",
     "Facebook Places",
-    "AppBrain"
-  ],
-  "network_connections": [
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "edge-star-shv-01-sin6.facebook.com.",
-      "ip_address": "157.240.7.20",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "edge-star-mini-shv-01-sin6.facebook.com.",
-      "ip_address": "157.240.7.35",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "sin11s04-in-f17.1e100.net.",
-      "ip_address": "172.217.27.113",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "sin11s02-in-f2.1e100.net.",
-      "ip_address": "172.217.27.2",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "sin11s04-in-f2.1e100.net.",
-      "ip_address": "172.217.27.98",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "N/A",
-      "ip_address": "203.116.189.39",
-      "loc_city": "Singapore",
-      "loc_country": "Singapore",
-      "loc_continent": "Asia",
-      "loc_long": "103.854700",
-      "loc_lat": "1.292900"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "N/A",
-      "ip_address": "203.117.34.152",
-      "loc_city": "Singapore",
-      "loc_country": "Singapore",
-      "loc_continent": "Asia",
-      "loc_long": "103.854700",
-      "loc_lat": "1.292900"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "N/A",
-      "ip_address": "31.13.78.13",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "N/A",
-      "ip_address": "31.13.78.35",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "N/A",
-      "ip_address": "31.13.78.42",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "52.216.225.27",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "ec2-54-221-215-110.compute-1.amazonaws.com.",
-      "ip_address": "54.221.215.110",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "ec2-54-225-190-116.compute-1.amazonaws.com.",
-      "ip_address": "54.225.190.116",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "ec2-54-225-221-229.compute-1.amazonaws.com.",
-      "ip_address": "54.225.221.229",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.115.42",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "sb-in-f154.1e100.net.",
-      "ip_address": "74.125.130.154",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "sb-in-f95.1e100.net.",
-      "ip_address": "74.125.130.95",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "sc-in-f132.1e100.net.",
-      "ip_address": "74.125.68.132",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "sc-in-f155.1e100.net.",
-      "ip_address": "74.125.68.155",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.scoompa.faceeditor",
-      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com.",
-      "ip_address": "74.6.34.8",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Facebook Share",
+    "Google Ads",
+    "Google Analytics",
+    "Inmobi",
+    "Facebook Ads"
   ]
 }

@@ -4,45 +4,22 @@
   "category": "TRAVEL_AND_LOCAL",
   "icon": "",
   "permissions": [
-    "se.sj.android.permission.C2D_MESSAGE",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.CALL_PHONE",
+    "android.permission.INTERNET",
     "android.permission.WAKE_LOCK",
-    "se.sj.android.permission.C2D_MESSAGE",
-    "android.permission.CALL_PHONE"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "se.sj.android.permission.C2D_MESSAGE"
   ],
   "version": "8.3.5",
   "trackers": [
-    "Google CrashLytics",
     "Google Analytics",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "se.sj.android",
-      "ptr_domain": "sjmg.sj.se.",
-      "ip_address": "217.213.30.48",
-      "loc_city": "Hoeviksnaes",
-      "loc_country": "Sweden",
-      "loc_continent": "Europe",
-      "loc_long": "11.766700",
-      "loc_lat": "58.033300"
-    },
-    {
-      "package": "se.sj.android",
-      "ptr_domain": "app-api.sj.se.",
-      "ip_address": "217.213.30.55",
-      "loc_city": "Hoeviksnaes",
-      "loc_country": "Sweden",
-      "loc_continent": "Europe",
-      "loc_long": "11.766700",
-      "loc_lat": "58.033300"
-    }
+    "Google Firebase Analytics",
+    "Google CrashLytics"
   ]
 }

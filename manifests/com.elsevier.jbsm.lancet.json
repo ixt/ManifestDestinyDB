@@ -4,53 +4,28 @@
   "category": "MEDICAL",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.VIBRATE",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.WAKE_LOCK",
-    "com.google.android.c2dm.permission.RECEIVE",
     "android.permission.DISABLE_KEYGUARD",
-    "com.elsevier.jbsm.lancet.permission.C2D_MESSAGE",
-    "com.elsevier.jbsm.lancet.permission.C2D_MESSAGE",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-    "com.elsevier.jbsm.lancet.permission.UA_DATA",
-    "com.elsevier.jbsm.lancet.permission.UA_DATA",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.amazon.device.messaging.permission.RECEIVE",
+    "com.elsevier.jbsm.lancet.permission.C2D_MESSAGE",
     "com.elsevier.jbsm.lancet.permission.RECEIVE_ADM_MESSAGE",
-    "com.elsevier.jbsm.lancet.permission.RECEIVE_ADM_MESSAGE"
+    "com.elsevier.jbsm.lancet.permission.UA_DATA",
+    "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "7.5.0",
   "trackers": [
-    "Google DoubleClick",
-    "Google Ads",
     "Urbanairship",
+    "Google CrashLytics",
+    "Google DoubleClick",
     "Demdex",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.elsevier.jbsm.lancet",
-      "ptr_domain": "a104-73-129-191.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.73.129.191",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "com.elsevier.jbsm.lancet",
-      "ptr_domain": "a88-221-185-225.deploy.static.akamaitechnologies.com.",
-      "ip_address": "88.221.185.225",
-      "loc_city": "N/A",
-      "loc_country": "N/A",
-      "loc_continent": "Europe",
-      "loc_long": "8.000000",
-      "loc_lat": "47.000000"
-    }
+    "Google Ads"
   ]
 }

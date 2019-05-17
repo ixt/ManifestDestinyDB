@@ -4,83 +4,31 @@
   "category": "MUSIC_AND_AUDIO",
   "icon": "",
   "permissions": [
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.INTERNET",
-    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.VIBRATE",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.INTERNET",
     "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.RECORD_AUDIO",
-    "com.magix.android.mmjam.permission.C2D_MESSAGE",
-    "com.magix.android.mmjam.permission.C2D_MESSAGE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.magix.android.mmjam.permission.C2D_MESSAGE"
   ],
   "version": "5.1.2",
   "trackers": [
-    "Facebook Share",
-    "Google CrashLytics",
-    "Facebook Login",
-    "Facebook Places",
-    "Facebook Analytics",
     "Google Firebase Analytics",
-    "Moat",
+    "Google CrashLytics",
     "Flurry",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.magix.android.mmjam",
-      "ptr_domain": "server-13-32-146-107.zrh50.r.cloudfront.net.",
-      "ip_address": "13.32.146.107",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.magix.android.mmjam",
-      "ptr_domain": "N/A",
-      "ip_address": "185.60.216.15",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.magix.android.mmjam",
-      "ptr_domain": "edge-star-shv-01-ams3.facebook.com.",
-      "ip_address": "31.13.91.2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.magix.android.mmjam",
-      "ptr_domain": "ec2-54-77-1-188.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.77.1.188",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.magix.android.mmjam",
-      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com.",
-      "ip_address": "74.6.105.9",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Google Analytics",
+    "Moat",
+    "Facebook Analytics",
+    "Tapjoy",
+    "Facebook Places",
+    "Facebook Share",
+    "Facebook Login"
   ]
 }

@@ -4,213 +4,31 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.CALL_PHONE",
-    "android.permission.GET_TASKS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_CONTACTS",
-    "android.permission.READ_CONTACTS",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
     "android.permission.ACCESS_NOTIFICATION_POLICY",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CALL_PHONE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.RECORD_AUDIO",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.READ_PHONE_STATE"
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "7.27 (937)",
   "trackers": [
-    "Google Analytics",
-    "Google CrashLytics",
     "New Relic",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-107-21-237-18.compute-1.amazonaws.com.",
-      "ip_address": "107.21.237.18",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "N/A",
-      "ip_address": "151.101.192.207",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "lr-in-f104.1e100.net.",
-      "ip_address": "209.85.233.104",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "lr-in-f105.1e100.net.",
-      "ip_address": "209.85.233.105",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "lr-in-f94.1e100.net.",
-      "ip_address": "209.85.233.94",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "arn09s10-in-f129.1e100.net.",
-      "ip_address": "216.58.211.129",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "arn09s10-in-f14.1e100.net.",
-      "ip_address": "216.58.211.142",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-50-16-247-225.compute-1.amazonaws.com.",
-      "ip_address": "50.16.247.225",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-50-19-102-118.compute-1.amazonaws.com.",
-      "ip_address": "50.19.102.118",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-50-19-106-31.compute-1.amazonaws.com.",
-      "ip_address": "50.19.106.31",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-50-19-228-192.compute-1.amazonaws.com.",
-      "ip_address": "50.19.228.192",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com.",
-      "ip_address": "50.19.81.254",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-50-19-94-109.compute-1.amazonaws.com.",
-      "ip_address": "50.19.94.109",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-54-197-254-10.compute-1.amazonaws.com.",
-      "ip_address": "54.197.254.10",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-54-243-133-174.compute-1.amazonaws.com.",
-      "ip_address": "54.243.133.174",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-54-243-231-128.compute-1.amazonaws.com.",
-      "ip_address": "54.243.231.128",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-54-243-80-191.compute-1.amazonaws.com.",
-      "ip_address": "54.243.80.191",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.victorops.androidclient",
-      "ptr_domain": "ec2-54-243-91-163.compute-1.amazonaws.com.",
-      "ip_address": "54.243.91.163",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Google CrashLytics"
   ]
 }

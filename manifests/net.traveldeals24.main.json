@@ -4,41 +4,28 @@
   "category": "TRAVEL_AND_LOCAL",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.VIBRATE",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_FINE_LOCATION",
     "com.google.android.c2dm.permission.RECEIVE",
-    "net.traveldeals24.main.permission.C2D_MESSAGE",
-    "net.traveldeals24.main.permission.C2D_MESSAGE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "net.traveldeals24.main.permission.C2D_MESSAGE"
   ],
   "version": "3.3.1",
   "trackers": [
-    "Facebook Share",
-    "Facebook Ads",
-    "Google Ads",
-    "Google Analytics",
     "Facebook Login",
+    "Google Analytics",
     "Google Firebase Analytics",
     "Google DoubleClick",
-    "Twitter MoPub",
+    "Facebook Share",
     "AppsFlyer",
+    "Google Ads",
+    "Twitter MoPub",
+    "Facebook Ads",
     "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "net.traveldeals24.main",
-      "ptr_domain": "edge-star6-shv-01-sea1.facebook.com.",
-      "ip_address": "2a03:2880:f001:6:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    }
   ]
 }

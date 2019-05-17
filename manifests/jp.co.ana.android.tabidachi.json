@@ -4,42 +4,20 @@
   "category": "TRAVEL_AND_LOCAL",
   "icon": "",
   "permissions": [
+    "aero.panasonic.inflight.permission.ACCESS_IFESERVICE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.BLUETOOTH",
     "android.permission.CHANGE_WIFI_STATE",
-    "com.felicanetworks.mfc.permission.MFC_ACCESS",
     "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.WAKE_LOCK",
-    "aero.panasonic.inflight.permission.ACCESS_IFESERVICE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.felicanetworks.mfc.permission.MFC_ACCESS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "4.1.28",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "jp.co.ana.android.tabidachi",
-      "ptr_domain": "ec2-184-73-195-3.compute-1.amazonaws.com.",
-      "ip_address": "184.73.195.3",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "jp.co.ana.android.tabidachi",
-      "ptr_domain": "ec2-54-204-4-24.compute-1.amazonaws.com.",
-      "ip_address": "54.204.4.24",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google CrashLytics",
+    "Google Firebase Analytics"
   ]
 }

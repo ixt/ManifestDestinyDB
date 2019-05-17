@@ -4,115 +4,22 @@
   "category": "NEWS_AND_MAGAZINES",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.VIBRATE",
-    "android.permission.GET_ACCOUNTS",
     "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "nz.org.geonet.quake.permission.C2D_MESSAGE",
-    "nz.org.geonet.quake.permission.C2D_MESSAGE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.RECEIVE_BOOT_COMPLETED"
+    "nz.org.geonet.quake.permission.C2D_MESSAGE"
   ],
   "version": "4.0.9",
   "trackers": [
     "Urbanairship",
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "nz.org.geonet.quake",
-      "ptr_domain": "a104-84-35-247.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.84.35.247",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "nz.org.geonet.quake",
-      "ptr_domain": "a104-84-83-7.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.84.83.7",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "nz.org.geonet.quake",
-      "ptr_domain": "a118-215-94-216.deploy.static.akamaitechnologies.com.",
-      "ip_address": "118.215.94.216",
-      "loc_city": "N/A",
-      "loc_country": "Singapore",
-      "loc_continent": "Asia",
-      "loc_long": "103.800000",
-      "loc_lat": "1.366700"
-    },
-    {
-      "package": "nz.org.geonet.quake",
-      "ptr_domain": "N/A",
-      "ip_address": "151.101.129.175",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "nz.org.geonet.quake",
-      "ptr_domain": "syd15s03-in-f14.1e100.net.",
-      "ip_address": "172.217.25.142",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "nz.org.geonet.quake",
-      "ptr_domain": "syd09s15-in-f14.1e100.net.",
-      "ip_address": "216.58.203.110",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "nz.org.geonet.quake",
-      "ptr_domain": "ams15s21-in-f3.1e100.net.",
-      "ip_address": "216.58.212.131",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "nz.org.geonet.quake",
-      "ptr_domain": "ams15s22-in-f3.1e100.net.",
-      "ip_address": "216.58.212.163",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "nz.org.geonet.quake",
-      "ptr_domain": "ec2-50-19-220-0.compute-1.amazonaws.com.",
-      "ip_address": "50.19.220.0",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

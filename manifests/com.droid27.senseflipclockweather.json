@@ -4,107 +4,36 @@
   "category": "WEATHER",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_WIFI_STATE",
-    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "5.00.11",
   "trackers": [
-    "Moat",
-    "Google Analytics",
-    "Google CrashLytics",
-    "AdColony",
-    "Inmobi",
-    "MobFox",
-    "Google DoubleClick",
-    "Facebook Ads",
-    "Facebook Analytics",
-    "Twitter MoPub",
     "Google Firebase Analytics",
+    "AdColony",
+    "Google DoubleClick",
+    "Google Ads",
     "Yandex Ad",
     "AppMetrica",
-    "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "com.droid27.senseflipclockweather",
-      "ptr_domain": "bom07s01-in-f2.1e100.net.",
-      "ip_address": "216.58.199.130",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.droid27.senseflipclockweather",
-      "ptr_domain": "bom05s08-in-f1.1e100.net.",
-      "ip_address": "216.58.199.161",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.droid27.senseflipclockweather",
-      "ptr_domain": "bom07s11-in-f2.1e100.net.",
-      "ip_address": "216.58.203.162",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.droid27.senseflipclockweather",
-      "ptr_domain": "sea15s01-in-f138.1e100.net.",
-      "ip_address": "216.58.216.138",
-      "loc_city": "Bluffdale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.943900",
-      "loc_lat": "40.495300"
-    },
-    {
-      "package": "com.droid27.senseflipclockweather",
-      "ptr_domain": "ord36s04-in-x0a.1e100.net.",
-      "ip_address": "2607:f8b0:4009:800::200a",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.droid27.senseflipclockweather",
-      "ptr_domain": "ord31s22-in-x02.1e100.net.",
-      "ip_address": "2607:f8b0:4009:809::2002",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.droid27.senseflipclockweather",
-      "ptr_domain": "ec2-52-21-72-121.compute-1.amazonaws.com.",
-      "ip_address": "52.21.72.121",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "MobFox",
+    "myTarget",
+    "Twitter MoPub",
+    "Facebook Ads",
+    "Facebook Analytics",
+    "Google CrashLytics",
+    "Inmobi",
+    "Moat",
+    "Google Analytics"
   ]
 }

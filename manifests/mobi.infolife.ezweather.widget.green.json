@@ -4,49 +4,38 @@
   "category": "WEATHER",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.SET_WALLPAPER",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.SET_WALLPAPER",
     "android.permission.SYSTEM_ALERT_WINDOW",
-    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.WAKE_LOCK",
+    "arch.talent.permissions.PermissionHolderActivity",
     "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.yanzhenjie.permission.FileProvider",
+    "com.yanzhenjie.permission.PermissionActivity",
     "mobi.infolife.ezweather.widget.common.permission.ui.OverlayGuideActivity",
-    "mobi.infolife.ezweather.widget.common.permission.ui.StoragePermissionRequestActivity",
     "mobi.infolife.ezweather.widget.common.permission.ui.OverlayPermissionActivity",
     "mobi.infolife.ezweather.widget.common.permission.ui.RuntimePermissionActivity",
     "mobi.infolife.ezweather.widget.common.permission.ui.SetPermissionActivity",
-    "com.yanzhenjie.permission.PermissionActivity",
-    "com.yanzhenjie.permission.FileProvider",
-    "arch.talent.permissions.PermissionHolderActivity"
+    "mobi.infolife.ezweather.widget.common.permission.ui.StoragePermissionRequestActivity"
   ],
   "version": "15.1.0.45940",
   "trackers": [
-    "Twitter MoPub",
-    "Facebook Ads",
-    "Facebook Share",
-    "Umeng Analytics",
-    "Google DoubleClick",
-    "Facebook Places",
-    "Google Firebase Analytics",
-    "Facebook Analytics",
+    "Bugly",
     "Facebook Login",
-    "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "mobi.infolife.ezweather.widget.green",
-      "ptr_domain": "server-52-222-140-126.bom51.r.cloudfront.net.",
-      "ip_address": "52.222.140.126",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    }
+    "Facebook Ads",
+    "Twitter MoPub",
+    "Google Firebase Analytics",
+    "Google Ads",
+    "Google DoubleClick",
+    "Facebook Share",
+    "Facebook Places",
+    "Umeng Analytics",
+    "Facebook Analytics"
   ]
 }

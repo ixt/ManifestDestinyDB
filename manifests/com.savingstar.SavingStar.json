@@ -4,61 +4,29 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
-    "android.permission.CAMERA",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.GET_ACCOUNTS",
+    "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.sonyericsson.home.permission.BROADCAST_BADGE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "android.permission.ACCESS_COARSE_LOCATION"
+    "com.sonyericsson.home.permission.BROADCAST_BADGE"
   ],
   "version": "4.9.4",
   "trackers": [
-    "Google Analytics",
+    "Google DoubleClick",
     "Google Ads",
     "Facebook Share",
+    "Google Analytics",
     "Facebook Places",
-    "Google DoubleClick",
     "Facebook Analytics",
     "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.savingstar.SavingStar",
-      "ptr_domain": "edge-star-shv-01-cdg2.facebook.com.",
-      "ip_address": "179.60.192.3",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.savingstar.SavingStar",
-      "ptr_domain": "192.230.82.116.ip.incapdns.net.",
-      "ip_address": "192.230.82.116",
-      "loc_city": "Madrid",
-      "loc_country": "Spain",
-      "loc_continent": "Europe",
-      "loc_long": "-3.683900",
-      "loc_lat": "40.417100"
-    },
-    {
-      "package": "com.savingstar.SavingStar",
-      "ptr_domain": "ec2-54-189-147-53.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.189.147.53",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    }
   ]
 }

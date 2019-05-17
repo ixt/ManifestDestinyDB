@@ -4,169 +4,27 @@
   "category": "FOOD_AND_DRINK",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.BLUETOOTH",
-    "com.sec.android.provider.badge.permission.READ",
-    "com.sec.android.provider.badge.permission.WRITE",
+    "android.permission.INTERNET",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.WAKE_LOCK",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "com.htc.launcher.permission.READ_SETTINGS",
     "com.htc.launcher.permission.UPDATE_SHORTCUT",
-    "com.sonyericsson.home.permission.BROADCAST_BADGE",
-    "com.anddoes.launcher.permission.UPDATE_COUNT",
     "com.majeur.launcher.permission.UPDATE_BADGE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE"
   ],
   "version": "6.7.0",
   "trackers": [
     "Google Firebase Analytics",
     "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "a104-122-113-250.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.122.113.250",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "a104-65-129-243.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.65.129.243",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "mct01s09-in-f3.1e100.net.",
-      "ip_address": "172.217.18.131",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "ams15s33-in-f3.1e100.net.",
-      "ip_address": "172.217.20.67",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "bom05s09-in-f10.1e100.net.",
-      "ip_address": "172.217.26.234",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "bom05s09-in-f14.1e100.net.",
-      "ip_address": "172.217.26.238",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "N/A",
-      "ip_address": "202.79.210.118",
-      "loc_city": "Singapore",
-      "loc_country": "Singapore",
-      "loc_continent": "Asia",
-      "loc_long": "103.854700",
-      "loc_lat": "1.292900"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "bom07s11-in-f10.1e100.net.",
-      "ip_address": "216.58.203.170",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "ams15s32-in-f3.1e100.net.",
-      "ip_address": "216.58.211.99",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "a23-57-206-83.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.57.206.83",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "ec2-34-252-212-22.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "34.252.212.22",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "ec2-52-208-225-246.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.208.225.246",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "ec2-52-30-94-36.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.30.94.36",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.pizzahut",
-      "ptr_domain": "ec2-54-171-250-141.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.171.250.141",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    }
   ]
 }

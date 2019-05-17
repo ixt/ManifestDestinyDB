@@ -4,55 +4,23 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CHANGE_WIFI_MULTICAST_STATE",
     "android.permission.INTERNET",
-    "android.permission.WAKE_LOCK",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.SYSTEM_ALERT_WINDOW",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.RECORD_AUDIO",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.VIBRATE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "com.synology.dsnote.permission.ui.StoragePermissionActivity"
   ],
   "version": "1.11.3",
-  "trackers": [],
-  "network_connections": [
-    {
-      "package": "com.synology.dsnote",
-      "ptr_domain": "ec2-35-156-18-33.eu-central-1.compute.amazonaws.com.",
-      "ip_address": "35.156.18.33",
-      "loc_city": "Frankfurt am Main",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "8.684200",
-      "loc_lat": "50.115500"
-    },
-    {
-      "package": "com.synology.dsnote",
-      "ptr_domain": "ec2-52-59-69-110.eu-central-1.compute.amazonaws.com.",
-      "ip_address": "52.59.69.110",
-      "loc_city": "Frankfurt am Main",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "8.684200",
-      "loc_lat": "50.115500"
-    },
-    {
-      "package": "com.synology.dsnote",
-      "ptr_domain": "der1.synology.com.",
-      "ip_address": "62.67.209.108",
-      "loc_city": "N/A",
-      "loc_country": "United Kingdom",
-      "loc_continent": "Europe",
-      "loc_long": "-0.122400",
-      "loc_lat": "51.496400"
-    }
-  ]
+  "trackers": []
 }

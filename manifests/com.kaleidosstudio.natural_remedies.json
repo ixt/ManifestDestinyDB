@@ -8,182 +8,20 @@
     "android.permission.FOREGROUND_SERVICE",
     "android.permission.INTERNET",
     "android.permission.WAKE_LOCK",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "1.89",
   "trackers": [
+    "Facebook Share",
+    "Amazon Advertisement",
     "Google Ads",
     "Google Firebase Analytics",
-    "Google DoubleClick",
-    "Amazon Advertisement",
-    "Facebook Analytics",
     "Google Analytics",
+    "Facebook Analytics",
     "Facebook Ads",
-    "Facebook Login",
-    "Facebook Share"
-  ],
-  "network_connections": [
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "mil04s22-in-f2.1e100.net.",
-      "ip_address": "172.217.23.66",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "mil04s03-in-f1.1e100.net.",
-      "ip_address": "216.58.198.1",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "mil04s27-in-f130.1e100.net.",
-      "ip_address": "216.58.205.130",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "mil04s28-in-f2.1e100.net.",
-      "ip_address": "216.58.205.162",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "mil04s29-in-f194.1e100.net.",
-      "ip_address": "216.58.205.194",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "mil04s26-in-f3.1e100.net.",
-      "ip_address": "216.58.205.99",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
-      "ip_address": "52.218.20.84",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
-      "ip_address": "52.218.20.92",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "N/A",
-      "ip_address": "52.218.48.188",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
-      "ip_address": "52.218.49.20",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
-      "ip_address": "52.218.65.116",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
-      "ip_address": "52.218.65.76",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "ec2-52-48-98-220.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.48.98.220",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
-      "ip_address": "54.231.131.139",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
-      "ip_address": "54.231.134.107",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.kaleidosstudio.natural_remedies",
-      "ptr_domain": "s3-eu-west-1.amazonaws.com.",
-      "ip_address": "54.231.134.43",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    }
+    "Google DoubleClick",
+    "Facebook Login"
   ]
 }

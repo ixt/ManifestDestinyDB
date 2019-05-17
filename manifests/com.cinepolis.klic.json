@@ -4,212 +4,32 @@
   "category": "ENTERTAINMENT",
   "icon": "",
   "permissions": [
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-    "android.permission.INTERNET",
-    "android.permission.CAMERA",
     "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
     "android.permission.CHANGE_WIFI_STATE",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.VIBRATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.QUICKBOOT_POWERON",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
     "android.permission.FOREGROUND_SERVICE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.INTERNET",
+    "android.permission.QUICKBOOT_POWERON",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "1.4.2",
   "trackers": [
-    "Facebook Analytics",
     "Facebook Login",
-    "Facebook Share",
     "Google CrashLytics",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "ec2-174-129-41-20.compute-1.amazonaws.com.",
-      "ip_address": "174.129.41.20",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "N/A",
-      "ip_address": "199.127.193.48",
-      "loc_city": "Sunnyvale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.035100",
-      "loc_lat": "37.347900"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "dfw06s49-in-f15.1e100.net.",
-      "ip_address": "216.58.194.143",
-      "loc_city": "Bluffdale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.943900",
-      "loc_lat": "40.495300"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "ec2-23-21-78-92.compute-1.amazonaws.com.",
-      "ip_address": "23.21.78.92",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com.",
-      "ip_address": "31.13.66.1",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "livestream-edgetee-upload-shv-01-dub4.facebook.com.",
-      "ip_address": "31.13.73.1",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "ec2-52-20-193-207.compute-1.amazonaws.com.",
-      "ip_address": "52.20.193.207",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "ec2-52-7-137-206.compute-1.amazonaws.com.",
-      "ip_address": "52.7.137.206",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "server-52-84-76-157.atl52.r.cloudfront.net.",
-      "ip_address": "52.84.76.157",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "server-52-84-76-70.atl52.r.cloudfront.net.",
-      "ip_address": "52.84.76.70",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "server-54-192-122-109.dfw50.r.cloudfront.net.",
-      "ip_address": "54.192.122.109",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "server-54-192-122-235.dfw50.r.cloudfront.net.",
-      "ip_address": "54.192.122.235",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "server-54-192-122-236.dfw50.r.cloudfront.net.",
-      "ip_address": "54.192.122.236",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "server-54-192-122-32.dfw50.r.cloudfront.net.",
-      "ip_address": "54.192.122.32",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "server-54-192-122-71.dfw50.r.cloudfront.net.",
-      "ip_address": "54.192.122.71",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "ec2-54-225-179-254.compute-1.amazonaws.com.",
-      "ip_address": "54.225.179.254",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "ec2-54-225-85-223.compute-1.amazonaws.com.",
-      "ip_address": "54.225.85.223",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.cinepolis.klic",
-      "ptr_domain": "ec2-54-235-205-203.compute-1.amazonaws.com.",
-      "ip_address": "54.235.205.203",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Amazon Analytics",
+    "Facebook Share",
+    "Google Firebase Analytics",
+    "Facebook Analytics",
+    "Conviva"
   ]
 }

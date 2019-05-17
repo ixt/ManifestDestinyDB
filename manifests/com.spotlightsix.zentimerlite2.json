@@ -4,194 +4,31 @@
   "category": "HEALTH_AND_FITNESS",
   "icon": "",
   "permissions": [
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.WRITE_SETTINGS",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.VIBRATE",
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_NOTIFICATION_POLICY",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.spotlightsix.zentimerlite2.permission.C2D_MESSAGE",
-    "com.spotlightsix.zentimerlite2.permission.C2D_MESSAGE",
     "android.permission.GET_ACCOUNTS",
     "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SETTINGS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.spotlightsix.zentimerlite2.permission.C2D_MESSAGE"
   ],
   "version": "13.4.3",
   "trackers": [
+    "Google CrashLytics",
+    "Google Analytics",
     "MParticle",
     "Google Firebase Analytics",
-    "Google Analytics",
-    "Facebook Login",
-    "Branch",
-    "Facebook Places",
     "Facebook Share",
-    "Google CrashLytics",
-    "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "sfo03s08-in-f51.1e100.net.",
-      "ip_address": "172.217.6.51",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "sfo03s01-in-f19.1e100.net.",
-      "ip_address": "216.58.194.211",
-      "loc_city": "Bluffdale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.943900",
-      "loc_lat": "40.495300"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "sfo07s16-in-f19.1e100.net.",
-      "ip_address": "216.58.195.83",
-      "loc_city": "Bluffdale",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.943900",
-      "loc_lat": "40.495300"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "den03s09-in-f19.1e100.net.",
-      "ip_address": "216.58.217.19",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "sfo03s07-in-x13.1e100.net.",
-      "ip_address": "2607:f8b0:4005:808::2013",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "fra15s28-in-x0e.1e100.net.",
-      "ip_address": "2a00:1450:4001:80b::200e",
-      "loc_city": "Frankfurt am Main",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "8.684200",
-      "loc_lat": "50.115500"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "fra15s28-in-x13.1e100.net.",
-      "ip_address": "2a00:1450:4001:80b::2013",
-      "loc_city": "Frankfurt am Main",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "8.684200",
-      "loc_lat": "50.115500"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "edge-star6-shv-01-frt3.facebook.com.",
-      "ip_address": "2a03:2880:f01c:20e:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "ec2-35-163-153-45.us-west-2.compute.amazonaws.com.",
-      "ip_address": "35.163.153.45",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "server-52-222-169-8.fra54.r.cloudfront.net.",
-      "ip_address": "52.222.169.8",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "ec2-52-34-2-126.us-west-2.compute.amazonaws.com.",
-      "ip_address": "52.34.2.126",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "server-52-84-0-14.ord54.r.cloudfront.net.",
-      "ip_address": "52.84.0.14",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "server-54-192-23-64.dfw54.r.cloudfront.net.",
-      "ip_address": "54.192.23.64",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "ec2-54-201-201-132.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.201.201.132",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "ec2-54-243-180-96.compute-1.amazonaws.com.",
-      "ip_address": "54.243.180.96",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.spotlightsix.zentimerlite2",
-      "ptr_domain": "ec2-54-243-33-139.compute-1.amazonaws.com.",
-      "ip_address": "54.243.33.139",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Facebook Places",
+    "Facebook Analytics",
+    "Branch",
+    "Facebook Login"
   ]
 }

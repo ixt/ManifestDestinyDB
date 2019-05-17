@@ -4,289 +4,36 @@
   "category": "EDUCATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.AUTHENTICATE_ACCOUNTS",
-    "android.permission.MANAGE_ACCOUNTS",
-    "android.permission.USE_CREDENTIALS",
-    "android.permission.GET_ACCOUNTS",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.USE_CREDENTIALS",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.FOREGROUND_SERVICE",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.blinkslabs.blinkist.android.batch.permission.INTERNAL_BROADCAST",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.blinkslabs.blinkist.android.batch.permission.INTERNAL_BROADCAST",
-    "com.blinkslabs.blinkist.android.batch.permission.INTERNAL_BROADCAST",
-    "android.permission.REQUEST_INSTALL_PACKAGES"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "6.2.9",
   "trackers": [
-    "Google CrashLytics",
-    "Google Analytics",
-    "Facebook Analytics",
-    "Braze",
-    "Facebook Login",
     "Facebook Share",
-    "Facebook Places",
     "Batch",
-    "HockeyApp",
+    "Facebook Analytics",
     "Adjust",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "88.13.7a9f.ip4.static.sl-reverse.com.",
-      "ip_address": "159.122.19.136",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "89.13.7a9f.ip4.static.sl-reverse.com.",
-      "ip_address": "159.122.19.137",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "e.81.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.129.14",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "f.81.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.129.15",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "10.81.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.129.16",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "29.81.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.129.41",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "7.81.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.129.7",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "ec2-174-129-41-20.compute-1.amazonaws.com.",
-      "ip_address": "174.129.41.20",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "N/A",
-      "ip_address": "178.162.216.177",
-      "loc_city": "Braunschweig",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "10.523300",
-      "loc_lat": "52.264700"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com.",
-      "ip_address": "23.21.78.229",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "lax28s15-in-x14.1e100.net.",
-      "ip_address": "2607:f8b0:4007:804::2014",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "N/A",
-      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com.",
-      "ip_address": "31.13.90.2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "ec2-34-199-156-168.compute-1.amazonaws.com.",
-      "ip_address": "34.199.156.168",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "ec2-34-200-209-181.compute-1.amazonaws.com.",
-      "ip_address": "34.200.209.181",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "ec2-50-19-241-12.compute-1.amazonaws.com.",
-      "ip_address": "50.19.241.12",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "ec2-52-72-142-250.compute-1.amazonaws.com.",
-      "ip_address": "52.72.142.250",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "server-52-85-82-107.lax1.r.cloudfront.net.",
-      "ip_address": "52.85.82.107",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "server-52-85-82-23.lax1.r.cloudfront.net.",
-      "ip_address": "52.85.82.23",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "server-52-85-82-65.lax1.r.cloudfront.net.",
-      "ip_address": "52.85.82.65",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "server-54-192-136-161.lax1.r.cloudfront.net.",
-      "ip_address": "54.192.136.161",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "server-54-192-136-253.lax1.r.cloudfront.net.",
-      "ip_address": "54.192.136.253",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "server-54-192-136-45.lax1.r.cloudfront.net.",
-      "ip_address": "54.192.136.45",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "server-54-192-136-68.lax1.r.cloudfront.net.",
-      "ip_address": "54.192.136.68",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.blinkslabs.blinkist.android",
-      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com.",
-      "ip_address": "54.225.80.135",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Firebase Analytics",
+    "Facebook Places",
+    "HockeyApp",
+    "Google Analytics",
+    "Braze (formerly Appboy)",
+    "Facebook Login",
+    "Google CrashLytics"
   ]
 }

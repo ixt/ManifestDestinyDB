@@ -4,83 +4,31 @@
   "category": "COMMUNICATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_APP_BADGE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.sec.android.provider.badge.permission.READ",
-    "com.sec.android.provider.badge.permission.WRITE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.htc.launcher.permission.READ_SETTINGS",
     "com.htc.launcher.permission.UPDATE_SHORTCUT",
-    "com.sonyericsson.home.permission.BROADCAST_BADGE",
-    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
-    "com.anddoes.launcher.permission.UPDATE_COUNT",
-    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.huawei.android.launcher.permission.CHANGE_BADGE",
     "com.huawei.android.launcher.permission.READ_SETTINGS",
     "com.huawei.android.launcher.permission.WRITE_SETTINGS",
-    "android.permission.READ_APP_BADGE",
+    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.oppo.launcher.permission.READ_SETTINGS",
     "com.oppo.launcher.permission.WRITE_SETTINGS",
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
     "me.everything.badger.permission.BADGE_COUNT_READ",
     "me.everything.badger.permission.BADGE_COUNT_WRITE"
   ],
   "version": "2.1.8",
   "trackers": [
     "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.fastmail.app",
-      "ptr_domain": "ec2-52-20-214-222.compute-1.amazonaws.com.",
-      "ip_address": "52.20.214.222",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.fastmail.app",
-      "ptr_domain": "ec2-52-21-12-51.compute-1.amazonaws.com.",
-      "ip_address": "52.21.12.51",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.fastmail.app",
-      "ptr_domain": "ec2-52-22-211-217.compute-1.amazonaws.com.",
-      "ip_address": "52.22.211.217",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.fastmail.app",
-      "ptr_domain": "www.fastmail.com.",
-      "ip_address": "66.111.4.147",
-      "loc_city": "New York",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-74.000500",
-      "loc_lat": "40.711400"
-    },
-    {
-      "package": "com.fastmail.app",
-      "ptr_domain": "www.fastmail.com.",
-      "ip_address": "66.111.4.148",
-      "loc_city": "New York",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-74.000500",
-      "loc_lat": "40.711400"
-    }
   ]
 }

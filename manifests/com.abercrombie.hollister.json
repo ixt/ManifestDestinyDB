@@ -4,50 +4,28 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WAKE_LOCK",
-    "android.permission.MEDIA_CONTENT_CONTROL",
-    "android.permission.CAMERA",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.MEDIA_CONTENT_CONTROL",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.SET_DEBUG_APP",
     "android.permission.VIBRATE",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "5.20.1",
   "trackers": [
-    "Apptentive",
-    "Braze",
+    "MParticle",
     "Demdex",
     "Google Firebase Analytics",
-    "MParticle",
+    "Braze (formerly Appboy)",
     "Branch",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.abercrombie.hollister",
-      "ptr_domain": "a23-194-164-187.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.194.164.187",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.abercrombie.hollister",
-      "ptr_domain": "a23-4-120-221.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.4.120.221",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Google CrashLytics",
+    "Apptentive"
   ]
 }

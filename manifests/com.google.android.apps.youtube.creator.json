@@ -4,15 +4,15 @@
   "category": "VIDEO_PLAYERS",
   "icon": "",
   "permissions": [
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.INTERNET",
-    "android.permission.USE_CREDENTIALS",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
     "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "19.03.101",
@@ -20,47 +20,5 @@
     "Google Firebase Analytics",
     "Google Analytics",
     "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "com.google.android.apps.youtube.creator",
-      "ptr_domain": "maa03s22-in-f170.1e100.net.",
-      "ip_address": "172.217.26.170",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.google.android.apps.youtube.creator",
-      "ptr_domain": "maa03s23-in-f206.1e100.net.",
-      "ip_address": "172.217.26.206",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.google.android.apps.youtube.creator",
-      "ptr_domain": "maa03s21-in-f3.1e100.net.",
-      "ip_address": "216.58.197.67",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.google.android.apps.youtube.creator",
-      "ptr_domain": "maa03s23-in-x01.1e100.net.",
-      "ip_address": "2404:6800:4007:802::2001",
-      "loc_city": "N/A",
-      "loc_country": "Australia",
-      "loc_continent": "Oceania",
-      "loc_long": "133.000000",
-      "loc_lat": "-27.000000"
-    }
   ]
 }

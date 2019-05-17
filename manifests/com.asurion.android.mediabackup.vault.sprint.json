@@ -4,81 +4,38 @@
   "category": "PHOTOGRAPHY",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_APP_BADGE",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.READ_PHONE_STATE",
-    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "com.asurion.android.mediabackup.vault.sprint.permission.C2D_MESSAGE",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.sec.android.provider.badge.permission.READ",
-    "com.sec.android.provider.badge.permission.WRITE",
     "com.htc.launcher.permission.READ_SETTINGS",
     "com.htc.launcher.permission.UPDATE_SHORTCUT",
-    "com.sonyericsson.home.permission.BROADCAST_BADGE",
-    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
-    "com.anddoes.launcher.permission.UPDATE_COUNT",
-    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.huawei.android.launcher.permission.CHANGE_BADGE",
     "com.huawei.android.launcher.permission.READ_SETTINGS",
     "com.huawei.android.launcher.permission.WRITE_SETTINGS",
-    "android.permission.READ_APP_BADGE",
+    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.oppo.launcher.permission.READ_SETTINGS",
     "com.oppo.launcher.permission.WRITE_SETTINGS",
-    "com.asurion.android.mediabackup.vault.sprint.permission.C2D_MESSAGE",
-    "com.asurion.android.mediabackup.vault.sprint.permission.C2D_MESSAGE"
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
   ],
   "version": "1.1.71",
   "trackers": [
-    "MixPanel",
-    "Google Firebase Analytics",
-    "Google CrashLytics",
     "Facebook Analytics",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.asurion.android.mediabackup.vault.sprint",
-      "ptr_domain": "ord38s04-in-f14.1e100.net.",
-      "ip_address": "172.217.0.14",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.asurion.android.mediabackup.vault.sprint",
-      "ptr_domain": "ec2-23-23-215-5.compute-1.amazonaws.com.",
-      "ip_address": "23.23.215.5",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.asurion.android.mediabackup.vault.sprint",
-      "ptr_domain": "ec2-54-235-221-79.compute-1.amazonaws.com.",
-      "ip_address": "54.235.221.79",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.asurion.android.mediabackup.vault.sprint",
-      "ptr_domain": "ec2-54-243-132-222.compute-1.amazonaws.com.",
-      "ip_address": "54.243.132.222",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "MixPanel",
+    "Facebook Login",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
   ]
 }

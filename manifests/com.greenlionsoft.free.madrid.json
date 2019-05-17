@@ -4,180 +4,28 @@
   "category": "MAPS_AND_NAVIGATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.NFC",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
     "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "6.2.6.brb209",
   "trackers": [
     "Google CrashLytics",
-    "Moat",
-    "Twitter MoPub",
     "Google Analytics",
     "Google Firebase Analytics",
     "Google DoubleClick",
-    "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-107-20-224-161.compute-1.amazonaws.com.",
-      "ip_address": "107.20.224.161",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-184-73-246-238.compute-1.amazonaws.com.",
-      "ip_address": "184.73.246.238",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "mad06s10-in-f2.1e100.net.",
-      "ip_address": "216.58.210.162",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-23-21-171-54.compute-1.amazonaws.com.",
-      "ip_address": "23.21.171.54",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-23-21-212-189.compute-1.amazonaws.com.",
-      "ip_address": "23.21.212.189",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-23-23-156-210.compute-1.amazonaws.com.",
-      "ip_address": "23.23.156.210",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-50-17-189-214.compute-1.amazonaws.com.",
-      "ip_address": "50.17.189.214",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-50-17-219-135.compute-1.amazonaws.com.",
-      "ip_address": "50.17.219.135",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-50-19-93-130.compute-1.amazonaws.com.",
-      "ip_address": "50.19.93.130",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-50-19-97-211.compute-1.amazonaws.com.",
-      "ip_address": "50.19.97.211",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-52-17-52-76.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.17.52.76",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-54-225-215-77.compute-1.amazonaws.com.",
-      "ip_address": "54.225.215.77",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-54-225-233-150.compute-1.amazonaws.com.",
-      "ip_address": "54.225.233.150",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-54-243-133-174.compute-1.amazonaws.com.",
-      "ip_address": "54.243.133.174",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.greenlionsoft.free.madrid",
-      "ptr_domain": "ec2-54-243-180-96.compute-1.amazonaws.com.",
-      "ip_address": "54.243.180.96",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Moat",
+    "Google Ads",
+    "Twitter MoPub"
   ]
 }

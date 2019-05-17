@@ -4,65 +4,22 @@
   "category": "BUSINESS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.READ_CONTACTS",
-    "android.permission.VIBRATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.RECORD_AUDIO",
     "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
+    "android.permission.RECORD_AUDIO",
     "android.permission.USE_FINGERPRINT",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "cm.confide.android.permission.C2D_MESSAGE",
-    "cm.confide.android.permission.C2D_MESSAGE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "5.9.2",
   "trackers": [
     "Google Firebase Analytics",
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "cm.confide.android",
-      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com.",
-      "ip_address": "31.13.86.8",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "cm.confide.android",
-      "ptr_domain": "server-52-85-19-164.mxp4.r.cloudfront.net.",
-      "ip_address": "52.85.19.164",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "cm.confide.android",
-      "ptr_domain": "ec2-54-149-117-71.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.149.117.71",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "cm.confide.android",
-      "ptr_domain": "ec2-54-225-204-178.compute-1.amazonaws.com.",
-      "ip_address": "54.225.204.178",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

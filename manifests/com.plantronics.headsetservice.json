@@ -4,45 +4,30 @@
   "category": "COMMUNICATION",
   "icon": "",
   "permissions": [
-    "com.plantronics.headsetservice.to_communicator_permission",
-    "com.plantronics.headsetservice.pdp.command_permission",
-    "com.plantronics.headsetservice.master_resolver_permission",
-    "com.plantronics.headsetservice.ElaraAuthProvider_permission",
-    "com.plantronics.headsetservice.master_resolver_permission",
-    "com.plantronics.headsetservice.to_communicator_permission",
-    "com.plantronics.headsetservice.pdp.command_permission",
-    "com.google.android.permission.PROVIDE_BACKGROUND",
-    "android.permission.WAKE_LOCK",
-    "android.permission.GET_ACCOUNTS",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.CALL_PHONE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.READ_PHONE_STATE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.permission.PROVIDE_BACKGROUND",
+    "com.plantronics.headsetservice.ElaraAuthProvider_permission",
+    "com.plantronics.headsetservice.master_resolver_permission",
+    "com.plantronics.headsetservice.pdp.command_permission",
+    "com.plantronics.headsetservice.to_communicator_permission"
   ],
   "version": "3.13.0",
   "trackers": [
-    "Google Analytics",
+    "Google DoubleClick",
     "Flurry",
-    "Google Ads",
-    "Google DoubleClick"
-  ],
-  "network_connections": [
-    {
-      "package": "com.plantronics.headsetservice",
-      "ptr_domain": "ec2-52-26-77-9.us-west-2.compute.amazonaws.com.",
-      "ip_address": "52.26.77.9",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    }
+    "Google Analytics",
+    "Google Ads"
   ]
 }

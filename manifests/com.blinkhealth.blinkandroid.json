@@ -4,164 +4,30 @@
   "category": "MEDICAL",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.CAMERA",
     "android.permission.GET_ACCOUNTS",
     "android.permission.INTERNET",
     "android.permission.MANAGE_ACCOUNTS",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.VIBRATE",
-    "android.permission.CAMERA",
     "android.permission.WAKE_LOCK",
-    "com.blinkhealth.blinkandroid.permission.C2D_MESSAGE",
-    "com.blinkhealth.blinkandroid.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.amazon.device.messaging.permission.RECEIVE",
+    "com.blinkhealth.blinkandroid.permission.C2D_MESSAGE",
     "com.blinkhealth.blinkandroid.permission.RECEIVE_ADM_MESSAGE",
-    "com.blinkhealth.blinkandroid.permission.RECEIVE_ADM_MESSAGE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "2.0.56",
   "trackers": [
-    "Google CrashLytics",
-    "Google Analytics",
     "MixPanel",
-    "Google Firebase Analytics",
+    "Adjust",
     "Segment",
+    "Google Analytics",
+    "Google Firebase Analytics",
     "Urbanairship",
-    "Adjust"
-  ],
-  "network_connections": [
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "15.81.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.129.21",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "19.81.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.129.25",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "2.81.36a9.ip4.static.sl-reverse.com.",
-      "ip_address": "169.54.129.2",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-52-10-175-226.us-west-2.compute.amazonaws.com.",
-      "ip_address": "52.10.175.226",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-52-10-245-181.us-west-2.compute.amazonaws.com.",
-      "ip_address": "52.10.245.181",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-52-35-230-118.us-west-2.compute.amazonaws.com.",
-      "ip_address": "52.35.230.118",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-54-171-202-15.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.171.202.15",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-54-186-251-229.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.186.251.229",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-54-194-44-208.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.194.44.208",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-54-229-245-246.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.229.245.246",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-54-241-32-29.us-west-1.compute.amazonaws.com.",
-      "ip_address": "54.241.32.29",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-54-241-32-31.us-west-1.compute.amazonaws.com.",
-      "ip_address": "54.241.32.31",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.blinkhealth.blinkandroid",
-      "ptr_domain": "ec2-54-69-26-116.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.69.26.116",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    }
+    "Google CrashLytics"
   ]
 }

@@ -4,76 +4,24 @@
   "category": "VIDEO_PLAYERS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.CHANGE_WIFI_STATE",
     "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-    "android.permission.RESTART_PACKAGES",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.INTERNET",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.WAKE_LOCK",
     "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.RESTART_PACKAGES",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "2.30.0.02",
   "trackers": [
     "Google Analytics",
-    "Google CrashLytics",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.seagate.goflexsatellite",
-      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com.",
-      "ip_address": "107.22.187.210",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.seagate.goflexsatellite",
-      "ptr_domain": "ec2-184-73-203-162.compute-1.amazonaws.com.",
-      "ip_address": "184.73.203.162",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.seagate.goflexsatellite",
-      "ptr_domain": "ec2-23-21-212-189.compute-1.amazonaws.com.",
-      "ip_address": "23.21.212.189",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.seagate.goflexsatellite",
-      "ptr_domain": "ec2-23-21-72-212.compute-1.amazonaws.com.",
-      "ip_address": "23.21.72.212",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.seagate.goflexsatellite",
-      "ptr_domain": "ec2-54-221-230-67.compute-1.amazonaws.com.",
-      "ip_address": "54.221.230.67",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Firebase Analytics",
+    "Google CrashLytics"
   ]
 }

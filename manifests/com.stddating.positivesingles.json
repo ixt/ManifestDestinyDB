@@ -4,184 +4,31 @@
   "category": "DATING",
   "icon": "",
   "permissions": [
-    "android.permission.CAMERA",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.VIBRATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
     "android.permission.EXPAND_STATUS_BAR",
-    "android.permission.WAKE_LOCK",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.GET_ACCOUNTS",
     "android.permission.GET_TASKS",
-    "com.stddating.positivesingles.permission.C2D_MESSAGE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.stddating.positivesingles.permission.C2D_MESSAGE"
   ],
   "version": "6.4.7",
   "trackers": [
-    "Google Firebase Analytics",
-    "Facebook Share",
+    "Facebook Login",
+    "AppsFlyer",
     "Flurry",
     "Facebook Analytics",
+    "Facebook Share",
     "Facebook Places",
-    "AppsFlyer",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "N/A",
-      "ip_address": "2001:4998:c:292f::3001",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "edge-star6-shv-01-atl3.facebook.com.",
-      "ip_address": "2a03:2880:f011:1:face:b00c:0:1",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com.",
-      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-52-16-218-102.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.16.218.102",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-52-19-67-20.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.19.67.20",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-52-215-11-249.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.215.11.249",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-52-31-93-211.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.31.93.211",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-52-49-8-11.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.49.8.11",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-52-50-30-64.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.50.30.64",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-52-51-246-224.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.51.246.224",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-52-78-3-211.ap-northeast-2.compute.amazonaws.com.",
-      "ip_address": "52.78.3.211",
-      "loc_city": "Incheon",
-      "loc_country": "South Korea",
-      "loc_continent": "Asia",
-      "loc_long": "126.728800",
-      "loc_lat": "37.456200"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-54-76-211-198.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.76.211.198",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "ec2-54-77-26-179.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.77.26.179",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "sl-vip7.baqe.com.",
-      "ip_address": "75.126.140.220",
-      "loc_city": "Dallas",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-96.821700",
-      "loc_lat": "32.778700"
-    },
-    {
-      "package": "com.stddating.positivesingles",
-      "ptr_domain": "sl-vip9.baqe.com.",
-      "ip_address": "75.126.140.222",
-      "loc_city": "Dallas",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-96.821700",
-      "loc_lat": "32.778700"
-    }
+    "Google Firebase Analytics"
   ]
 }

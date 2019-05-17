@@ -4,60 +4,28 @@
   "category": "COMMUNICATION",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CALL_PHONE",
+    "android.permission.INTERNET",
+    "android.permission.QUICKBOOT_POWERON",
+    "android.permission.READ_CALL_LOG",
     "android.permission.READ_CONTACTS",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.CALL_PHONE",
     "android.permission.READ_SMS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.RECEIVE_SMS",
     "android.permission.SEND_SMS",
-    "android.permission.WRITE_SMS",
-    "android.permission.READ_CALL_LOG",
     "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.INTERNET",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.QUICKBOOT_POWERON",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WRITE_SMS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "3.2.49",
   "trackers": [
-    "Google CrashLytics",
-    "Google Firebase Analytics",
+    "Google Ads",
     "Google DoubleClick",
-    "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "com.vladlee.easyblacklist",
-      "ptr_domain": "bom07s11-in-f2.1e100.net.",
-      "ip_address": "216.58.203.162",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.vladlee.easyblacklist",
-      "ptr_domain": "bom07s12-in-f2.1e100.net.",
-      "ip_address": "216.58.203.194",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.vladlee.easyblacklist",
-      "ptr_domain": "bom05s05-in-f2.1e100.net.",
-      "ip_address": "216.58.220.2",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    }
+    "Google Firebase Analytics",
+    "Google CrashLytics"
   ]
 }

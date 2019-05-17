@@ -4,44 +4,32 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.VIBRATE",
-    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.FOREGROUND_SERVICE",
-    "com.sec.android.provider.badge.permission.READ",
-    "com.sec.android.provider.badge.permission.WRITE",
+    "android.permission.INTERNET",
+    "android.permission.READ_APP_BADGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
     "com.htc.launcher.permission.READ_SETTINGS",
     "com.htc.launcher.permission.UPDATE_SHORTCUT",
-    "com.sonyericsson.home.permission.BROADCAST_BADGE",
-    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
-    "com.anddoes.launcher.permission.UPDATE_COUNT",
-    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.huawei.android.launcher.permission.CHANGE_BADGE",
     "com.huawei.android.launcher.permission.READ_SETTINGS",
     "com.huawei.android.launcher.permission.WRITE_SETTINGS",
-    "android.permission.READ_APP_BADGE",
+    "com.majeur.launcher.permission.UPDATE_BADGE",
     "com.oppo.launcher.permission.READ_SETTINGS",
-    "com.oppo.launcher.permission.WRITE_SETTINGS"
+    "com.oppo.launcher.permission.WRITE_SETTINGS",
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
   ],
   "version": "1.2",
   "trackers": [
     "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "me.webalert",
-      "ptr_domain": "ec2-50-19-241-12.compute-1.amazonaws.com.",
-      "ip_address": "50.19.241.12",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

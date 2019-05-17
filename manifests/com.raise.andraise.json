@@ -4,62 +4,30 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
     "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
     "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.USE_FINGERPRINT",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_CONTACTS",
-    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.CAMERA",
-    "android.permission.VIBRATE"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "3.2.7",
   "trackers": [
-    "Facebook Login",
     "Adjust",
-    "Google Firebase Analytics",
-    "Facebook Share",
     "Carnival",
+    "Google Firebase Analytics",
+    "Facebook Login",
     "Google CrashLytics",
     "Google Analytics",
-    "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.raise.andraise",
-      "ptr_domain": "ec2-52-200-43-16.compute-1.amazonaws.com.",
-      "ip_address": "52.200.43.16",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.raise.andraise",
-      "ptr_domain": "ec2-52-4-25-95.compute-1.amazonaws.com.",
-      "ip_address": "52.4.25.95",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.raise.andraise",
-      "ptr_domain": "ec2-54-225-218-25.compute-1.amazonaws.com.",
-      "ip_address": "54.225.218.25",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Facebook Analytics",
+    "Facebook Share"
   ]
 }

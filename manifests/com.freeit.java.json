@@ -5,48 +5,25 @@
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
     "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-    "com.google.android.c2dm.permission.RECEIVE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.freeit.java.permission.C2D_MESSAGE",
-    "com.freeit.java.permission.C2D_MESSAGE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "5.0.13",
   "trackers": [
     "Facebook Analytics",
-    "Facebook Login",
     "Google Firebase Analytics",
-    "Amplitude",
-    "MixPanel",
+    "Facebook Share",
     "Google CrashLytics",
-    "AppSee",
-    "Facebook Share"
-  ],
-  "network_connections": [
-    {
-      "package": "com.freeit.java",
-      "ptr_domain": "ec2-107-22-230-165.compute-1.amazonaws.com.",
-      "ip_address": "107.22.230.165",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.freeit.java",
-      "ptr_domain": "ec2-54-225-179-254.compute-1.amazonaws.com.",
-      "ip_address": "54.225.179.254",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "MixPanel",
+    "Amplitude",
+    "Facebook Login",
+    "AppSee"
   ]
 }

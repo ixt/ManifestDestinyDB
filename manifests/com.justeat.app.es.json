@@ -4,174 +4,31 @@
   "category": "FOOD_AND_DRINK",
   "icon": "",
   "permissions": [
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_FINE_LOCATION",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.AUTHENTICATE_ACCOUNTS",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
     "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.USE_CREDENTIALS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.justeat.app.es.permission.C2D_MESSAGE",
-    "com.justeat.app.es.permission.C2D_MESSAGE",
-    "android.permission.WAKE_LOCK"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.justeat.app.es.permission.C2D_MESSAGE"
   ],
   "version": "3.24.0.666",
   "trackers": [
-    "ExactTarget",
-    "Tune",
-    "Google Firebase Analytics",
-    "Braze",
+    "Facebook Login",
     "Google CrashLytics",
-    "Google Analytics",
-    "Facebook Share",
+    "Tune",
     "Facebook Analytics",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "ec2-107-21-209-177.compute-1.amazonaws.com.",
-      "ip_address": "107.21.209.177",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "ec2-107-21-239-97.compute-1.amazonaws.com.",
-      "ip_address": "107.21.239.97",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "ec2-107-21-98-91.compute-1.amazonaws.com.",
-      "ip_address": "107.21.98.91",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "edge-star-shv-01-cdg2.facebook.com.",
-      "ip_address": "179.60.192.3",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "192.230.82.211.ip.incapdns.net.",
-      "ip_address": "192.230.82.211",
-      "loc_city": "Madrid",
-      "loc_country": "Spain",
-      "loc_continent": "Europe",
-      "loc_long": "-3.683900",
-      "loc_lat": "40.417100"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "mad06s09-in-f8.1e100.net.",
-      "ip_address": "216.58.210.136",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "mad06s09-in-f138.1e100.net.",
-      "ip_address": "216.58.210.138",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "mad01s26-in-f168.1e100.net.",
-      "ip_address": "216.58.214.168",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "N/A",
-      "ip_address": "31.13.77.6",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "ec2-52-213-144-88.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.213.144.88",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "ec2-52-49-155-255.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.49.155.255",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "ec2-54-165-214-189.compute-1.amazonaws.com.",
-      "ip_address": "54.165.214.189",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "ec2-54-194-133-40.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.194.133.40",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.justeat.app.es",
-      "ptr_domain": "ec2-54-243-174-212.compute-1.amazonaws.com.",
-      "ip_address": "54.243.174.212",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Firebase Analytics",
+    "Braze (formerly Appboy)",
+    "Google Analytics",
+    "ExactTarget",
+    "Facebook Share"
   ]
 }

@@ -4,265 +4,33 @@
   "category": "LIFESTYLE",
   "icon": "",
   "permissions": [
-    "android.permission.CAMERA",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.USE_CREDENTIALS",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.c2dm.permission.SEND",
-    "android.permission.USE_CREDENTIALS",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.GET_ACCOUNTS",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "1.2.33",
   "trackers": [
-    "Google Analytics",
-    "AppsFlyer",
-    "Google Firebase Analytics",
-    "Facebook Analytics",
     "Facebook Share",
     "CleverTap",
+    "AppsFlyer",
+    "Google Firebase Analytics",
+    "Facebook Login",
     "Google CrashLytics",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ams16s29-in-f35.1e100.net.",
-      "ip_address": "172.217.17.35",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ams15s33-in-f3.1e100.net.",
-      "ip_address": "172.217.20.67",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "bom07s11-in-f14.1e100.net.",
-      "ip_address": "216.58.203.174",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ams15s32-in-f3.1e100.net.",
-      "ip_address": "216.58.211.99",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ams16s21-in-f3.1e100.net.",
-      "ip_address": "216.58.212.195",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ams16s22-in-f3.1e100.net.",
-      "ip_address": "216.58.212.227",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-34-192-160-146.compute-1.amazonaws.com.",
-      "ip_address": "34.192.160.146",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-50-16-193-81.compute-1.amazonaws.com.",
-      "ip_address": "50.16.193.81",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-50-19-194-41.compute-1.amazonaws.com.",
-      "ip_address": "50.19.194.41",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-52-214-17-131.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.214.17.131",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-52-214-228-144.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.214.228.144",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "server-52-222-190-101.bom52.r.cloudfront.net.",
-      "ip_address": "52.222.190.101",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "server-52-222-190-156.bom52.r.cloudfront.net.",
-      "ip_address": "52.222.190.156",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "server-52-222-190-186.bom52.r.cloudfront.net.",
-      "ip_address": "52.222.190.186",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "server-52-222-190-198.bom52.r.cloudfront.net.",
-      "ip_address": "52.222.190.198",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "server-52-222-190-226.bom52.r.cloudfront.net.",
-      "ip_address": "52.222.190.226",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "server-52-222-190-27.bom52.r.cloudfront.net.",
-      "ip_address": "52.222.190.27",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "server-52-222-190-51.bom52.r.cloudfront.net.",
-      "ip_address": "52.222.190.51",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-52-55-234-52.compute-1.amazonaws.com.",
-      "ip_address": "52.55.234.52",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-52-7-135-101.compute-1.amazonaws.com.",
-      "ip_address": "52.7.135.101",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-54-154-73-253.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.154.73.253",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-54-173-75-206.compute-1.amazonaws.com.",
-      "ip_address": "54.173.75.206",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.nestaway.customerapp",
-      "ptr_domain": "ec2-54-235-243-207.compute-1.amazonaws.com.",
-      "ip_address": "54.235.243.207",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Facebook Analytics",
+    "Google Analytics"
   ]
 }

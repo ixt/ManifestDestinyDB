@@ -4,62 +4,19 @@
   "category": "BUSINESS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.zopim.android.permission.C2D_MESSAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.zopim.android.permission.C2D_MESSAGE"
   ],
   "version": "1.3.3",
   "trackers": [
-    "Google CrashLytics",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.zopim.android",
-      "ptr_domain": "ec2-52-3-144-148.compute-1.amazonaws.com.",
-      "ip_address": "52.3.144.148",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.zopim.android",
-      "ptr_domain": "ec2-52-74-191-25.ap-southeast-1.compute.amazonaws.com.",
-      "ip_address": "52.74.191.25",
-      "loc_city": "Singapore",
-      "loc_country": "Singapore",
-      "loc_continent": "Asia",
-      "loc_long": "103.854700",
-      "loc_lat": "1.292900"
-    },
-    {
-      "package": "com.zopim.android",
-      "ptr_domain": "ec2-54-169-219-85.ap-southeast-1.compute.amazonaws.com.",
-      "ip_address": "54.169.219.85",
-      "loc_city": "Singapore",
-      "loc_country": "Singapore",
-      "loc_continent": "Asia",
-      "loc_long": "103.854700",
-      "loc_lat": "1.292900"
-    },
-    {
-      "package": "com.zopim.android",
-      "ptr_domain": "ec2-54-69-171-251.us-west-2.compute.amazonaws.com.",
-      "ip_address": "54.69.171.251",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    }
+    "Google Firebase Analytics",
+    "Google CrashLytics"
   ]
 }

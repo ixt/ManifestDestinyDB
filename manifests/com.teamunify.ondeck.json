@@ -4,53 +4,31 @@
   "category": "SPORTS",
   "icon": "",
   "permissions": [
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.INTERNET",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.CAMERA",
-    "android.permission.VIBRATE",
     "android.permission.ACTION_SENDTO",
-    "android.permission.WAKE_LOCK",
+    "android.permission.CAMERA",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
     "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.READ_PROFILE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "4.33.1",
   "trackers": [
-    "Google Firebase Analytics",
     "Facebook Places",
-    "Google Analytics",
     "Facebook Login",
-    "Facebook Share",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Analytics",
     "Facebook Analytics",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.teamunify.ondeck",
-      "ptr_domain": "208.100.130.99.teamunify.com.",
-      "ip_address": "208.100.130.99",
-      "loc_city": "Bend",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.407300",
-      "loc_lat": "44.091500"
-    },
-    {
-      "package": "com.teamunify.ondeck",
-      "ptr_domain": "ec2-54-243-104-248.compute-1.amazonaws.com.",
-      "ip_address": "54.243.104.248",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Facebook Share"
   ]
 }

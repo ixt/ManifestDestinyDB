@@ -4,44 +4,21 @@
   "category": "LIFESTYLE",
   "icon": "",
   "permissions": [
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.MANAGE_ACCOUNTS",
-    "android.permission.INTERNET",
-    "android.permission.AUTHENTICATE_ACCOUNTS",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "de.dm.mobile.glueckskind.permission.C2D_MESSAGE",
-    "de.dm.mobile.glueckskind.permission.C2D_MESSAGE",
     "android.permission.REQUEST_INSTALL_PACKAGES",
-    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "de.dm.mobile.glueckskind.permission.C2D_MESSAGE"
   ],
   "version": "3.2.1",
   "trackers": [
     "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "de.dm.mobile.glueckskind",
-      "ptr_domain": "N/A",
-      "ip_address": "194.127.222.56",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "9.491000",
-      "loc_lat": "51.299300"
-    },
-    {
-      "package": "de.dm.mobile.glueckskind",
-      "ptr_domain": "services.dm.de.",
-      "ip_address": "194.127.222.58",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "9.491000",
-      "loc_lat": "51.299300"
-    }
   ]
 }

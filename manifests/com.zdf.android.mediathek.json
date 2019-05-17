@@ -4,50 +4,19 @@
   "category": "ENTERTAINMENT",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.WAKE_LOCK",
-    "android.permission.FOREGROUND_SERVICE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "5.0.2",
   "trackers": [
+    "ATInternet",
+    "INFOnline",
     "Google Ads",
-    "Google Firebase Analytics",
-    "ATInternet"
-  ],
-  "network_connections": [
-    {
-      "package": "com.zdf.android.mediathek",
-      "ptr_domain": "a104-125-6-196.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.125.6.196",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "com.zdf.android.mediathek",
-      "ptr_domain": "ec2-54-243-245-38.compute-1.amazonaws.com.",
-      "ip_address": "54.243.245.38",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.zdf.android.mediathek",
-      "ptr_domain": "config3.ioam.de.",
-      "ip_address": "91.215.103.66",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "9.491000",
-      "loc_lat": "51.299300"
-    }
+    "Google Firebase Analytics"
   ]
 }

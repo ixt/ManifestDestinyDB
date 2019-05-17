@@ -4,89 +4,26 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
-    "nl.tpp.mobile.android.permission.C2D_MESSAGE",
-    "nl.tpp.mobile.android.permission.C2D_MESSAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.CAMERA",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_FINE_LOCATION",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "android.permission.INTERNET",
-    "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_NETWORK_STATE"
+    "nl.tpp.mobile.android.permission.C2D_MESSAGE"
   ],
   "version": "5.10.3",
   "trackers": [
+    "Google CrashLytics",
     "Facebook Analytics",
-    "Facebook Share",
-    "Facebook Places",
     "Google Firebase Analytics",
+    "Facebook Places",
+    "Facebook Share",
     "Facebook Login",
-    "Demdex",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "nl.tpp.mobile.android",
-      "ptr_domain": "ec2-107-22-209-65.compute-1.amazonaws.com.",
-      "ip_address": "107.22.209.65",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "nl.tpp.mobile.android",
-      "ptr_domain": "mobile-api.telegraaf.nl.",
-      "ip_address": "217.196.41.201",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "nl.tpp.mobile.android",
-      "ptr_domain": "a23-201-166-128.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.201.166.128",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "nl.tpp.mobile.android",
-      "ptr_domain": "ec2-23-23-172-159.compute-1.amazonaws.com.",
-      "ip_address": "23.23.172.159",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "nl.tpp.mobile.android",
-      "ptr_domain": "ec2-54-171-228-78.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.171.228.78",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "nl.tpp.mobile.android",
-      "ptr_domain": "N/A",
-      "ip_address": "66.117.29.37",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Demdex"
   ]
 }

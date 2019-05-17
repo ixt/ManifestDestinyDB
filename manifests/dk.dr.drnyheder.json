@@ -4,85 +4,22 @@
   "category": "NEWS_AND_MAGAZINES",
   "icon": "",
   "permissions": [
-    "dk.dr.drnyheder.permission.C2D_MESSAGE",
-    "dk.dr.drnyheder.permission.C2D_MESSAGE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.CAMERA",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "dk.dr.drnyheder.permission.C2D_MESSAGE"
   ],
   "version": "5.2.7",
   "trackers": [
-    "Google CrashLytics",
     "Google Firebase Analytics",
-    "Ensighten",
-    "Batch"
-  ],
-  "network_connections": [
-    {
-      "package": "dk.dr.drnyheder",
-      "ptr_domain": "226.130.154.104.bc.googleusercontent.com.",
-      "ip_address": "104.154.130.226",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.248100",
-      "loc_lat": "38.658300"
-    },
-    {
-      "package": "dk.dr.drnyheder",
-      "ptr_domain": "N/A",
-      "ip_address": "159.20.6.22",
-      "loc_city": "N/A",
-      "loc_country": "Denmark",
-      "loc_continent": "Europe",
-      "loc_long": "12.056400",
-      "loc_lat": "55.712300"
-    },
-    {
-      "package": "dk.dr.drnyheder",
-      "ptr_domain": "N/A",
-      "ip_address": "159.20.6.6",
-      "loc_city": "N/A",
-      "loc_country": "Denmark",
-      "loc_continent": "Europe",
-      "loc_long": "12.056400",
-      "loc_lat": "55.712300"
-    },
-    {
-      "package": "dk.dr.drnyheder",
-      "ptr_domain": "ec2-52-211-103-202.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.211.103.202",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "dk.dr.drnyheder",
-      "ptr_domain": "ec2-52-50-251-236.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.50.251.236",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "dk.dr.drnyheder",
-      "ptr_domain": "N/A",
-      "ip_address": "77.66.39.38",
-      "loc_city": "Copenhagen",
-      "loc_country": "Denmark",
-      "loc_continent": "Europe",
-      "loc_long": "12.558900",
-      "loc_lat": "55.678600"
-    }
+    "Google CrashLytics",
+    "Batch",
+    "Ensighten"
   ]
 }

@@ -4,38 +4,26 @@
   "category": "MUSIC_AND_AUDIO",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
-    "android.permission.MEDIA_CONTENT_CONTROL",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.INTERNET",
+    "android.permission.MEDIA_CONTENT_CONTROL",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.RECEIVE_BOOT_COMPLETED"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "2.8.2",
   "trackers": [
-    "Google CrashLytics",
-    "Facebook Share",
-    "Facebook Places",
-    "Facebook Analytics",
     "Google Analytics",
     "Google Firebase Analytics",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.headfone.www.headfone",
-      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com.",
-      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    }
+    "Google CrashLytics",
+    "Facebook Login",
+    "Facebook Places",
+    "Facebook Analytics",
+    "Facebook Share"
   ]
 }

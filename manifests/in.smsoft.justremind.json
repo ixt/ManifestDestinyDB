@@ -4,77 +4,25 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.READ_CONTACTS",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.SYSTEM_ALERT_WINDOW",
-    "com.google.android.apps.photos.permission.GOOGLE_PHOTOS",
+    "android.permission.USE_FINGERPRINT",
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.USE_FINGERPRINT",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.apps.photos.permission.GOOGLE_PHOTOS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "2.4.4",
   "trackers": [
     "Google DoubleClick",
     "Google Firebase Analytics",
     "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "in.smsoft.justremind",
-      "ptr_domain": "a104-117-86-14.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.117.86.14",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "in.smsoft.justremind",
-      "ptr_domain": "lga34s14-in-f6.1e100.net.",
-      "ip_address": "172.217.10.70",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "in.smsoft.justremind",
-      "ptr_domain": "lga25s60-in-f2.1e100.net.",
-      "ip_address": "172.217.11.2",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "in.smsoft.justremind",
-      "ptr_domain": "sea09s17-in-f2.1e100.net.",
-      "ip_address": "172.217.3.98",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "in.smsoft.justremind",
-      "ptr_domain": "server-52-85-90-207.jfk6.r.cloudfront.net.",
-      "ip_address": "52.85.90.207",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    }
   ]
 }

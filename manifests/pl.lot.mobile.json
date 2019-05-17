@@ -4,40 +4,27 @@
   "category": "TRAVEL_AND_LOCAL",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
-    "android.permission.VIBRATE",
-    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
-    "android.permission.WAKE_LOCK",
+    "android.permission.INTERNET",
+    "android.permission.READ_PHONE_STATE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "pl.lot.mobile.permission.C2D_MESSAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "pl.lot.mobile.permission.C2D_MESSAGE"
   ],
   "version": "1.75.2",
   "trackers": [
     "Demdex",
+    "Google Analytics",
     "AppsFlyer",
-    "Google Firebase Analytics",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "pl.lot.mobile",
-      "ptr_domain": "ec2-52-30-156-105.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.30.156.105",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    }
+    "Google Firebase Analytics"
   ]
 }

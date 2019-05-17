@@ -1,40 +1,27 @@
 {
   "appName": "17TRACK",
   "packageName": "yqtrack.app",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
-    "com.google.android.c2dm.permission.RECEIVE",
-    "yqtrack.app.permission.C2D_MESSAGE",
-    "android.permission.VIBRATE",
-    "yqtrack.app.permission.C2D_MESSAGE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "android.permission.CAMERA"
+    "yqtrack.app.permission.C2D_MESSAGE"
   ],
   "version": "3.1.2281",
   "trackers": [
-    "Google Firebase Analytics",
-    "Facebook Login",
-    "Facebook Analytics",
     "Facebook Share",
+    "Facebook Login",
     "Facebook Places",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "yqtrack.app",
-      "ptr_domain": "N/A",
-      "ip_address": "202.181.145.137",
-      "loc_city": "N/A",
-      "loc_country": "Hong Kong",
-      "loc_continent": "Asia",
-      "loc_long": "114.166700",
-      "loc_lat": "22.250000"
-    }
+    "Facebook Analytics",
+    "Google Analytics",
+    "Google Firebase Analytics"
   ]
 }

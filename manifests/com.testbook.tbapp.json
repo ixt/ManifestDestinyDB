@@ -4,203 +4,30 @@
   "category": "EDUCATION",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.GET_ACCOUNTS",
-    "android.permission.USE_CREDENTIALS",
+    "android.permission.INTERNET",
     "android.permission.READ_CONTACTS",
     "android.permission.READ_PHONE_STATE",
+    "android.permission.USE_CREDENTIALS",
     "android.permission.VIBRATE",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.testbook.tbapp.permission.C2D_MESSAGE",
     "com.testbook.tbapp.permission.C2D_MESSAGE"
   ],
   "version": "4.4.2",
   "trackers": [
-    "Facebook Analytics",
-    "AppsFlyer",
-    "Google Firebase Analytics",
     "Facebook Share",
-    "Google Analytics",
-    "MixPanel",
-    "Google CrashLytics",
-    "Facebook Login",
     "Branch",
-    "Facebook Places"
-  ],
-  "network_connections": [
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "edge-star6-shv-01-bom1.facebook.com.",
-      "ip_address": "2a03:2880:f02f:f:face:b00c:0:2",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-8.000000",
-      "loc_lat": "53.000000"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "52.216.16.107",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "52.216.16.75",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "52.216.225.227",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "N/A",
-      "ip_address": "52.216.229.3",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "52.216.230.125",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "52.216.80.219",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "52.216.80.59",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "52.216.82.91",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.120.74",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.50.60",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.72.154",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.72.42",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.73.66",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.81.27",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.82.12",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.testbook.tbapp",
-      "ptr_domain": "s3-1.amazonaws.com.",
-      "ip_address": "54.231.98.203",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google CrashLytics",
+    "AppsFlyer",
+    "MixPanel",
+    "Facebook Places",
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Facebook Login",
+    "Facebook Analytics"
   ]
 }

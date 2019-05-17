@@ -4,38 +4,25 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_FINE_LOCATION",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.USE_FINGERPRINT",
     "android.permission.VIBRATE",
-    "no.coop.members.permission.C2D_MESSAGE",
-    "no.coop.members.permission.C2D_MESSAGE",
-    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.huawei.android.launcher.permission.CHANGE_BADGE",
     "com.huawei.android.launcher.permission.READ_SETTINGS",
     "com.huawei.android.launcher.permission.WRITE_SETTINGS",
-    "android.permission.USE_FINGERPRINT",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "no.coop.members.permission.C2D_MESSAGE"
   ],
   "version": "2.10.9",
   "trackers": [
+    "Google CrashLytics",
     "Google Analytics",
-    "Google Firebase Analytics",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "no.coop.members",
-      "ptr_domain": "151.30.92.62.static.cust.telenor.com.",
-      "ip_address": "62.92.30.151",
-      "loc_city": "Drammen",
-      "loc_country": "Norway",
-      "loc_continent": "Europe",
-      "loc_long": "10.204500",
-      "loc_lat": "59.743900"
-    }
+    "Google Firebase Analytics"
   ]
 }

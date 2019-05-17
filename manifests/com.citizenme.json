@@ -5,78 +5,26 @@
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.INTERNET",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.READ_PHONE_STATE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.WAKE_LOCK",
     "android.permission.BODY_SENSORS",
-    "android.permission.FOREGROUND_SERVICE",
     "android.permission.CAMERA",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
     "android.permission.PACKAGE_USAGE_STATS",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "2.42.4",
   "trackers": [
+    "Facebook Login",
+    "Google Firebase Analytics",
     "Facebook Places",
     "Facebook Share",
-    "Facebook Login",
     "Google CrashLytics",
-    "Google Firebase Analytics",
     "Facebook Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.citizenme",
-      "ptr_domain": "edge-star-shv-01-frt3.facebook.com.",
-      "ip_address": "31.13.92.10",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.citizenme",
-      "ptr_domain": "ec2-52-49-1-108.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.49.1.108",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.citizenme",
-      "ptr_domain": "ec2-52-49-60-165.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.49.60.165",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.citizenme",
-      "ptr_domain": "server-54-192-50-207.jfk5.r.cloudfront.net.",
-      "ip_address": "54.192.50.207",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    },
-    {
-      "package": "com.citizenme",
-      "ptr_domain": "server-54-192-50-72.jfk5.r.cloudfront.net.",
-      "ip_address": "54.192.50.72",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.330300",
-      "loc_lat": "47.610900"
-    }
   ]
 }

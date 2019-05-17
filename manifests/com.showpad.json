@@ -4,65 +4,32 @@
   "category": "BUSINESS",
   "icon": "",
   "permissions": [
-    "com.showpad.permission.RECEIVE_BROADCASTS",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.VIBRATE",
-    "android.permission.FOREGROUND_SERVICE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.showpad.permission.RECEIVE_BROADCASTS",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.USE_CREDENTIALS",
-    "android.permission.READ_CONTACTS",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "com.android.launcher.permission.INSTALL_SHORTCUT",
-    "android.permission.READ_SYNC_SETTINGS",
-    "android.permission.WRITE_SYNC_SETTINGS",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
     "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_SYNC_SETTINGS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.showpad.permission.RECEIVE_BROADCASTS"
   ],
   "version": "3.0.2",
   "trackers": [
     "Google Firebase Analytics",
-    "Google CrashLytics",
-    "Segment"
-  ],
-  "network_connections": [
-    {
-      "package": "com.showpad",
-      "ptr_domain": "115.102.93.188.static.as30961.net.",
-      "ip_address": "188.93.102.115",
-      "loc_city": "N/A",
-      "loc_country": "Belgium",
-      "loc_continent": "Europe",
-      "loc_long": "4.350000",
-      "loc_lat": "50.850000"
-    },
-    {
-      "package": "com.showpad",
-      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com.",
-      "ip_address": "23.21.94.175",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.showpad",
-      "ptr_domain": "ec2-52-27-215-54.us-west-2.compute.amazonaws.com.",
-      "ip_address": "52.27.215.54",
-      "loc_city": "Boardman",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-119.714300",
-      "loc_lat": "45.849100"
-    }
+    "Segment",
+    "Google CrashLytics"
   ]
 }

@@ -4,44 +4,32 @@
   "category": "TOOLS",
   "icon": "",
   "permissions": [
-    "com.morrison.gallerylocklite.permission.COMM_SIGNATURE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
     "android.permission.GET_TASKS",
     "android.permission.INTERNET",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.VIBRATE",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.RESTART_PACKAGES",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.CAMERA",
-    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.REQUEST_INSTALL_PACKAGES",
-    "com.morrison.gallerylock.permission.COMM_SIGNATURE",
+    "android.permission.RESTART_PACKAGES",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.morrison.gallerylocklite.permission.COMM_SIGNATURE",
+    "com.morrison.gallerylock.permission.COMM_SIGNATURE"
   ],
   "version": "5.0.4",
   "trackers": [
+    "Facebook Ads",
+    "Google Ads",
+    "Inmobi",
     "Google DoubleClick",
     "Google Firebase Analytics",
-    "Facebook Ads",
-    "Inmobi",
-    "Google Ads",
     "Moat",
     "Twitter MoPub"
-  ],
-  "network_connections": [
-    {
-      "package": "com.morrison.gallerylocklite",
-      "ptr_domain": "edge-star-shv-01-sin6.facebook.com.",
-      "ip_address": "157.240.7.20",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
   ]
 }

@@ -4,234 +4,30 @@
   "category": "MUSIC_AND_AUDIO",
   "icon": "",
   "permissions": [
-    "com.sonyericsson.permission.MUSICSERVICE",
-    "com.sonymobile.media.permission.TILES_ACCESS",
-    "com.sonyericsson.music.permission.BROADCAST",
-    "com.sonyericsson.music.permission.C2D_MESSAGE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.BLUETOOTH",
-    "android.permission.INTERNET",
-    "android.permission.FOREGROUND_SERVICE",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.BLUETOOTH",
     "android.permission.BROADCAST_STICKY",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
     "android.permission.NFC",
-    "com.sonyericsson.illumination.permission.ILLUMINATION",
-    "com.sonymobile.playanywhere.permission.READ_CONNECTIVITY_STATE",
-    "com.sonyericsson.music.permission.C2D_MESSAGE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_MEDIA_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.sonyericsson.illumination.permission.ILLUMINATION",
     "com.sonyericsson.music.permission.BROADCAST",
+    "com.sonyericsson.music.permission.C2D_MESSAGE",
+    "com.sonyericsson.permission.MUSICSERVICE",
     "com.sonymobile.dlna.permission.READ_DATA",
     "com.sonymobile.dlna.permission.READ_DATA_V6",
-    "android.permission.WRITE_MEDIA_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE"
+    "com.sonymobile.media.permission.TILES_ACCESS",
+    "com.sonymobile.playanywhere.permission.READ_CONNECTIVITY_STATE"
   ],
   "version": "9.4.3.A.0.3",
   "trackers": [
     "Google CrashLytics",
     "Google Firebase Analytics",
     "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com.",
-      "ip_address": "107.20.235.207",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-107-21-116-9.compute-1.amazonaws.com.",
-      "ip_address": "107.21.116.9",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-107-22-169-178.compute-1.amazonaws.com.",
-      "ip_address": "107.22.169.178",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "fra16s13-in-f232.1e100.net.",
-      "ip_address": "172.217.21.232",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "fra16s18-in-f8.1e100.net.",
-      "ip_address": "172.217.23.136",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "lga34s11-in-f8.1e100.net.",
-      "ip_address": "172.217.9.232",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "qro01s12-in-f30.1e100.net.",
-      "ip_address": "173.194.115.190",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "N/A",
-      "ip_address": "173.194.65.97",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-174-129-222-182.compute-1.amazonaws.com.",
-      "ip_address": "174.129.222.182",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "bom07s01-in-f136.1e100.net.",
-      "ip_address": "216.58.199.136",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-23-23-114-1.compute-1.amazonaws.com.",
-      "ip_address": "23.23.114.1",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-23-23-116-35.compute-1.amazonaws.com.",
-      "ip_address": "23.23.116.35",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "N/A",
-      "ip_address": "2404:6800:4006:800::2008",
-      "loc_city": "Sydney",
-      "loc_country": "Australia",
-      "loc_continent": "Oceania",
-      "loc_long": "151.198200",
-      "loc_lat": "-33.861200"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "bom07s11-in-x08.1e100.net.",
-      "ip_address": "2404:6800:4009:803::2008",
-      "loc_city": "N/A",
-      "loc_country": "Australia",
-      "loc_continent": "Oceania",
-      "loc_long": "133.000000",
-      "loc_lat": "-27.000000"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ord30s26-in-x08.1e100.net.",
-      "ip_address": "2607:f8b0:4009:80f::2008",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-34-248-2-199.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "34.248.2.199",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-50-16-235-9.compute-1.amazonaws.com.",
-      "ip_address": "50.16.235.9",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-54-221-215-110.compute-1.amazonaws.com.",
-      "ip_address": "54.221.215.110",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-54-243-112-235.compute-1.amazonaws.com.",
-      "ip_address": "54.243.112.235",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.sonyericsson.music",
-      "ptr_domain": "ec2-54-243-91-163.compute-1.amazonaws.com.",
-      "ip_address": "54.243.91.163",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
   ]
 }

@@ -4,48 +4,26 @@
   "category": "LIFESTYLE",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "v3.5.3",
   "trackers": [
+    "Inmobi",
     "Flurry",
+    "AdFit (Daum)",
     "Google Analytics",
+    "Facebook Ads",
     "Google CrashLytics",
     "Google Ads",
-    "Facebook Ads",
-    "Inmobi",
-    "AdFit (Daum)",
-    "Google DoubleClick",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.aboutjsp.memowidget",
-      "ptr_domain": "sea15s12-in-f6.1e100.net.",
-      "ip_address": "172.217.3.198",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.aboutjsp.memowidget",
-      "ptr_domain": "a23-48-158-94.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.48.158.94",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Google Firebase Analytics",
+    "Google DoubleClick"
   ]
 }

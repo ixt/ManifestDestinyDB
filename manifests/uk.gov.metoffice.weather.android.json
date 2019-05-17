@@ -4,211 +4,28 @@
   "category": "WEATHER",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.VIBRATE",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "uk.gov.metoffice.weather.android.permission.UA_DATA",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "uk.gov.metoffice.weather.android.permission.UA_DATA"
   ],
   "version": "1.28.0",
   "trackers": [
-    "Google DoubleClick",
-    "Google Ads",
+    "Google Firebase Analytics",
     "Brightcove",
-    "Google Analytics",
-    "Google CrashLytics",
     "Urbanairship",
+    "Google DoubleClick",
+    "Google CrashLytics",
     "Amazon Advertisement",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "a104-127-35-228.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.127.35.228",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "a104-82-173-220.deploy.static.akamaitechnologies.com.",
-      "ip_address": "104.82.173.220",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com.",
-      "ip_address": "107.22.169.1",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "a173-222-130-155.deploy.static.akamaitechnologies.com.",
-      "ip_address": "173.222.130.155",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "lhr35s07-in-f2.1e100.net.",
-      "ip_address": "216.58.204.2",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "lhr25s12-in-f34.1e100.net.",
-      "ip_address": "216.58.204.34",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "lhr35s10-in-f2.1e100.net.",
-      "ip_address": "216.58.206.34",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "a2-20-36-161.deploy.static.akamaitechnologies.com.",
-      "ip_address": "2.20.36.161",
-      "loc_city": "N/A",
-      "loc_country": "N/A",
-      "loc_continent": "Europe",
-      "loc_long": "8.000000",
-      "loc_lat": "47.000000"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "a23-214-181-105.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.214.181.105",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "ec2-23-23-235-188.compute-1.amazonaws.com.",
-      "ip_address": "23.23.235.188",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "ec2-23-23-96-14.compute-1.amazonaws.com.",
-      "ip_address": "23.23.96.14",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "a23-40-12-67.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.40.12.67",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "a23-63-150-67.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.63.150.67",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "ec2-54-225-136-132.compute-1.amazonaws.com.",
-      "ip_address": "54.225.136.132",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "ec2-54-225-217-126.compute-1.amazonaws.com.",
-      "ip_address": "54.225.217.126",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "ec2-54-243-73-224.compute-1.amazonaws.com.",
-      "ip_address": "54.243.73.224",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "a72-246-226-106.deploy.static.akamaitechnologies.com.",
-      "ip_address": "72.246.226.106",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "uk.gov.metoffice.weather.android",
-      "ptr_domain": "a95-101-196-163.deploy.static.akamaitechnologies.com.",
-      "ip_address": "95.101.196.163",
-      "loc_city": "N/A",
-      "loc_country": "N/A",
-      "loc_continent": "Europe",
-      "loc_long": "8.000000",
-      "loc_lat": "47.000000"
-    }
+    "Google Ads",
+    "Google Analytics"
   ]
 }

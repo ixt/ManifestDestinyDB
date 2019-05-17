@@ -4,105 +4,33 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.MANAGE_DOCUMENTS",
     "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.READ_INTERNAL_STORAGE",
-    "android.permission.WRITE_INTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.USE_CREDENTIALS",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.MANAGE_DOCUMENTS",
-    "android.permission.MANAGE_ACCOUNTS",
-    "android.permission.AUTHENTICATE_ACCOUNTS",
-    "android.permission.WAKE_LOCK",
     "android.permission.VIBRATE",
-    "android.permission.FOREGROUND_SERVICE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_INTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "4.3.24",
   "trackers": [
-    "Facebook Login",
-    "Demdex",
-    "Facebook Share",
-    "Google Firebase Analytics",
+    "HockeyApp",
     "Facebook Analytics",
+    "Google Firebase Analytics",
+    "Demdex",
     "Google CrashLytics",
-    "HockeyApp"
-  ],
-  "network_connections": [
-    {
-      "package": "com.adobe.cc",
-      "ptr_domain": "ec2-52-1-86-87.compute-1.amazonaws.com.",
-      "ip_address": "52.1.86.87",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.adobe.cc",
-      "ptr_domain": "ec2-52-211-187-90.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.211.187.90",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.adobe.cc",
-      "ptr_domain": "ec2-52-213-21-245.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.213.21.245",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.adobe.cc",
-      "ptr_domain": "ec2-52-3-180-225.compute-1.amazonaws.com.",
-      "ip_address": "52.3.180.225",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.adobe.cc",
-      "ptr_domain": "ec2-54-246-203-125.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.246.203.125",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.adobe.cc",
-      "ptr_domain": "ec2-54-246-229-90.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.246.229.90",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.adobe.cc",
-      "ptr_domain": "*.sc.omtrdc.net.",
-      "ip_address": "66.235.148.73",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Facebook Login",
+    "Facebook Share"
   ]
 }

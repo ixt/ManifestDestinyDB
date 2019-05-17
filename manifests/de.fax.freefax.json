@@ -5,39 +5,27 @@
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
     "android.permission.GET_ACCOUNTS",
     "android.permission.INTERNET",
-    "android.permission.READ_PROFILE",
-    "android.permission.READ_CONTACTS",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.CAMERA",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.VIBRATE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.USE_CREDENTIALS",
     "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PROFILE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.sony.mobile.permission.SYSTEM_UI_VISIBILITY_EXTENSION"
   ],
   "version": "2.0.20",
   "trackers": [
     "Google CrashLytics",
-    "Google Firebase Analytics",
-    "Google Ads"
-  ],
-  "network_connections": [
-    {
-      "package": "de.fax.freefax",
-      "ptr_domain": "238.251.207.91.rev.hqs.de.",
-      "ip_address": "91.207.251.238",
-      "loc_city": "N/A",
-      "loc_country": "Germany",
-      "loc_continent": "Europe",
-      "loc_long": "9.491000",
-      "loc_lat": "51.299300"
-    }
+    "Google Ads",
+    "Google Firebase Analytics"
   ]
 }

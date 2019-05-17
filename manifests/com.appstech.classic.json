@@ -4,156 +4,24 @@
   "category": "TOOLS",
   "icon": "",
   "permissions": [
-    "android.permission.VIBRATE",
-    "android.permission.READ_USER_DICTIONARY",
-    "android.permission.WRITE_USER_DICTIONARY",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_USER_DICTIONARY",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_USER_DICTIONARY",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "5.0",
   "trackers": [
+    "Facebook Ads",
+    "Moat",
     "Google Firebase Analytics",
     "Twitter MoPub",
     "Google Ads",
-    "Facebook Ads",
-    "Google CrashLytics",
-    "Moat"
-  ],
-  "network_connections": [
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "edge-star-shv-02-sin6.facebook.com.",
-      "ip_address": "157.240.13.14",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "xx-fbcdn-shv-02-sin6.fbcdn.net.",
-      "ip_address": "157.240.13.19",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "edge-star-mini-shv-02-sin6.facebook.com.",
-      "ip_address": "157.240.13.35",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "maa03s22-in-f162.1e100.net.",
-      "ip_address": "172.217.26.162",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "maa03s23-in-f2.1e100.net.",
-      "ip_address": "172.217.26.194",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "maa03s19-in-f98.1e100.net.",
-      "ip_address": "216.58.196.98",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "maa03s21-in-f1.1e100.net.",
-      "ip_address": "216.58.197.65",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "maa03s21-in-f67.1e100.net.",
-      "ip_address": "216.58.197.67",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "maa03s21-in-f74.1e100.net.",
-      "ip_address": "216.58.197.74",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "maa03s21-in-f20.1e100.net.",
-      "ip_address": "216.58.197.84",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "bom07s01-in-f131.1e100.net.",
-      "ip_address": "216.58.199.131",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "ec2-54-229-82-116.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.229.82.116",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.appstech.classic",
-      "ptr_domain": "server-54-230-190-93.maa3.r.cloudfront.net.",
-      "ip_address": "54.230.190.93",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.303200",
-      "loc_lat": "47.540000"
-    }
+    "Google CrashLytics"
   ]
 }

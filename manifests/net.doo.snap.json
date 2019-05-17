@@ -4,241 +4,29 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CAMERA",
+    "android.permission.CHANGE_WIFI_STATE",
     "android.permission.GET_ACCOUNTS",
     "android.permission.INTERNET",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.CHANGE_WIFI_STATE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.READ_CALENDAR",
     "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.READ_CALENDAR",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.USE_CREDENTIALS",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "com.sony.mobile.permission.SYSTEM_UI_VISIBILITY_EXTENSION"
   ],
   "version": "7.5.8.242",
   "trackers": [
     "Google Firebase Analytics",
-    "Google CrashLytics",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-107-20-220-24.compute-1.amazonaws.com.",
-      "ip_address": "107.20.220.24",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-107-21-214-197.compute-1.amazonaws.com.",
-      "ip_address": "107.21.214.197",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-107-22-161-159.compute-1.amazonaws.com.",
-      "ip_address": "107.22.161.159",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-107-22-189-83.compute-1.amazonaws.com.",
-      "ip_address": "107.22.189.83",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com.",
-      "ip_address": "174.129.19.57",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-184-73-219-223.compute-1.amazonaws.com.",
-      "ip_address": "184.73.219.223",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-23-21-205-74.compute-1.amazonaws.com.",
-      "ip_address": "23.21.205.74",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-23-21-97-174.compute-1.amazonaws.com.",
-      "ip_address": "23.21.97.174",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-23-23-96-14.compute-1.amazonaws.com.",
-      "ip_address": "23.23.96.14",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com.",
-      "ip_address": "50.16.241.242",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com.",
-      "ip_address": "50.16.247.186",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-50-17-188-98.compute-1.amazonaws.com.",
-      "ip_address": "50.17.188.98",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com.",
-      "ip_address": "50.19.210.28",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-50-19-93-128.compute-1.amazonaws.com.",
-      "ip_address": "50.19.93.128",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-50-19-93-130.compute-1.amazonaws.com.",
-      "ip_address": "50.19.93.130",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-54-197-237-178.compute-1.amazonaws.com.",
-      "ip_address": "54.197.237.178",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-54-225-170-49.compute-1.amazonaws.com.",
-      "ip_address": "54.225.170.49",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-54-225-212-15.compute-1.amazonaws.com.",
-      "ip_address": "54.225.212.15",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-54-225-217-126.compute-1.amazonaws.com.",
-      "ip_address": "54.225.217.126",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com.",
-      "ip_address": "54.227.238.44",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "net.doo.snap",
-      "ptr_domain": "ec2-54-235-98-38.compute-1.amazonaws.com.",
-      "ip_address": "54.235.98.38",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Analytics",
+    "Google CrashLytics"
   ]
 }

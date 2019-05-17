@@ -4,62 +4,29 @@
   "category": "TOOLS",
   "icon": "",
   "permissions": [
-    "android.permission.BATTERY_STATS",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BATTERY_STATS",
     "android.permission.BLUETOOTH",
-    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.FOREGROUND_SERVICE",
     "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.READ_PHONE_STATE",
-    "android.permission.ACCESS_WIFI_STATE",
-    "com.gsamlabs.permission.BATTERY_STATS",
-    "com.gsamlabs.permission.BATTERY_STATS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.gsamlabs.permission.BATTERY_STATS"
   ],
   "version": "3.37",
   "trackers": [
-    "Google Analytics",
-    "Google Ads",
-    "Google Firebase Analytics",
-    "Twitter MoPub",
     "Moat",
+    "Google Firebase Analytics",
     "Amazon Advertisement",
-    "Google DoubleClick"
-  ],
-  "network_connections": [
-    {
-      "package": "com.gsamlabs.bbm",
-      "ptr_domain": "N/A",
-      "ip_address": "192.44.68.5",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.gsamlabs.bbm",
-      "ptr_domain": "server-52-84-62-245.ord51.r.cloudfront.net.",
-      "ip_address": "52.84.62.245",
-      "loc_city": "Seattle",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.345100",
-      "loc_lat": "47.634800"
-    },
-    {
-      "package": "com.gsamlabs.bbm",
-      "ptr_domain": "N/A",
-      "ip_address": "52.94.224.25",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Ads",
+    "Twitter MoPub",
+    "Google DoubleClick",
+    "Google Analytics"
   ]
 }

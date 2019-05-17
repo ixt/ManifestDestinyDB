@@ -4,49 +4,17 @@
   "category": "PRODUCTIVITY",
   "icon": "",
   "permissions": [
-    "android.permission.READ_CALENDAR",
-    "com.itbenefit.android.calendar.permission.ACCESS_KEY_APP",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_CALENDAR",
     "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.itbenefit.android.calendar.permission.ACCESS_KEY_APP"
   ],
   "version": "1.29",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.itbenefit.android.calendar",
-      "ptr_domain": "lax28s15-in-f8.1e100.net.",
-      "ip_address": "172.217.11.168",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.itbenefit.android.calendar",
-      "ptr_domain": "N/A",
-      "ip_address": "173.194.116.94",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.itbenefit.android.calendar",
-      "ptr_domain": "tk-in-f97.1e100.net.",
-      "ip_address": "64.233.188.97",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Google Analytics",
+    "Google Firebase Analytics"
   ]
 }

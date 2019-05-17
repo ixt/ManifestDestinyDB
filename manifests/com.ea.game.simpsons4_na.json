@@ -4,239 +4,26 @@
   "category": "GAME_CASUAL",
   "icon": "",
   "permissions": [
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.INTERNET",
-    "android.permission.WAKE_LOCK",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.ea.game.simpsons4_na.permission.C2D_MESSAGE",
-    "com.ea.game.simpsons4_na.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.ACCESS_WIFI_STATE"
+    "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "4.37.5",
   "trackers": [
+    "Google Firebase Analytics",
+    "Facebook Places",
     "Facebook Analytics",
+    "Google DoubleClick",
+    "Facebook Share",
     "Google Analytics",
     "Facebook Login",
-    "Facebook Places",
     "Google CrashLytics",
-    "Facebook Share",
-    "Google Firebase Analytics",
-    "Google Ads",
-    "Google DoubleClick"
-  ],
-  "network_connections": [
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com.",
-      "ip_address": "23.21.94.175",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-34-192-150-145.compute-1.amazonaws.com.",
-      "ip_address": "34.192.150.145",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-34-197-47-153.compute-1.amazonaws.com.",
-      "ip_address": "34.197.47.153",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-34-198-84-90.compute-1.amazonaws.com.",
-      "ip_address": "34.198.84.90",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-34-200-211-156.compute-1.amazonaws.com.",
-      "ip_address": "34.200.211.156",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-34-205-60-63.compute-1.amazonaws.com.",
-      "ip_address": "34.205.60.63",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-50-16-168-57.compute-1.amazonaws.com.",
-      "ip_address": "50.16.168.57",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-50-17-226-183.compute-1.amazonaws.com.",
-      "ip_address": "50.17.226.183",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-52-202-184-181.compute-1.amazonaws.com.",
-      "ip_address": "52.202.184.181",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-52-206-107-153.compute-1.amazonaws.com.",
-      "ip_address": "52.206.107.153",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-52-207-77-113.compute-1.amazonaws.com.",
-      "ip_address": "52.207.77.113",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-52-5-164-195.compute-1.amazonaws.com.",
-      "ip_address": "52.5.164.195",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-52-6-133-186.compute-1.amazonaws.com.",
-      "ip_address": "52.6.133.186",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-52-71-181-134.compute-1.amazonaws.com.",
-      "ip_address": "52.71.181.134",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-54-152-167-168.compute-1.amazonaws.com.",
-      "ip_address": "54.152.167.168",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-54-174-231-73.compute-1.amazonaws.com.",
-      "ip_address": "54.174.231.73",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-54-175-36-220.compute-1.amazonaws.com.",
-      "ip_address": "54.175.36.220",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-54-175-50-220.compute-1.amazonaws.com.",
-      "ip_address": "54.175.50.220",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-54-221-219-50.compute-1.amazonaws.com.",
-      "ip_address": "54.221.219.50",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-54-235-185-152.compute-1.amazonaws.com.",
-      "ip_address": "54.235.185.152",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.ea.game.simpsons4_na",
-      "ptr_domain": "ec2-54-85-181-199.compute-1.amazonaws.com.",
-      "ip_address": "54.85.181.199",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Ads"
   ]
 }

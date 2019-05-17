@@ -4,45 +4,33 @@
   "category": "BUSINESS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.READ_CONTACTS",
-    "android.permission.WRITE_CONTACTS",
-    "android.permission.GET_ACCOUNTS",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.READ_CALL_LOG",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CALL_PHONE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
+    "android.permission.READ_CALL_LOG",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.SEND_SMS",
     "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.VIBRATE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.GET_TASKS",
-    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
-    "android.permission.CHANGE_NETWORK_STATE",
-    "android.permission.SEND_SMS",
-    "android.permission.ACCESS_WIFI_STATE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.telenor.mbedriftsnett.permission.C2D_MESSAGE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.WRITE_CONTACTS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.telenor.mbedriftsnett.permission.C2D_MESSAGE"
   ],
   "version": "4.1.9",
   "trackers": [
-    "Google Firebase Analytics",
-    "Apteligent by VMWare",
+    "Google CrashLytics",
+    "Apteligent by VMWare (formerly Crittercism)",
     "Demdex",
-    "Google CrashLytics"
-  ],
-  "network_connections": [
-    {
-      "package": "com.telenor.mbedriftsnett",
-      "ptr_domain": "N/A",
-      "ip_address": "66.117.29.37",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Google Firebase Analytics"
   ]
 }

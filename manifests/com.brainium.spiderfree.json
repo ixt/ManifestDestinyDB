@@ -4,37 +4,25 @@
   "category": "GAME_CARD",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "1.3.8.58",
   "trackers": [
     "Millennial Media",
-    "ironSource",
-    "Google CrashLytics",
-    "Facebook Ads",
-    "Google Firebase Analytics",
-    "Google Ads",
-    "Google DoubleClick",
-    "Moat",
     "Google Analytics",
-    "AppLovin"
-  ],
-  "network_connections": [
-    {
-      "package": "com.brainium.spiderfree",
-      "ptr_domain": "ec2-54-183-34-203.us-west-1.compute.amazonaws.com.",
-      "ip_address": "54.183.34.203",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    }
+    "ironSource",
+    "Facebook Ads",
+    "AppLovin",
+    "Moat",
+    "Google Ads",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "Google DoubleClick"
   ]
 }

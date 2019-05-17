@@ -4,45 +4,34 @@
   "category": "HEALTH_AND_FITNESS",
   "icon": "",
   "permissions": [
-    "android.permission.RECEIVE_USER_PRESENT",
-    "android.permission.WAKE_LOCK",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.VIBRATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CHANGE_WIFI_STATE",
     "android.permission.GET_TASKS",
     "android.permission.INTERNET",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.WRITE_SETTINGS",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.READ_PHONE_STATE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECEIVE_USER_PRESENT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SETTINGS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "7.10.00",
   "trackers": [
-    "Facebook Analytics",
+    "Bugly",
     "Facebook Share",
+    "Facebook Login",
+    "Facebook Places",
     "Google DoubleClick",
     "Adjust",
-    "Google Ads",
-    "Facebook Places",
     "Google Firebase Analytics",
-    "Facebook Login"
-  ],
-  "network_connections": [
-    {
-      "package": "com.dailyyoga.inc",
-      "ptr_domain": "N/A",
-      "ip_address": "183.240.12.85",
-      "loc_city": "Guangzhou",
-      "loc_country": "China",
-      "loc_continent": "Asia",
-      "loc_long": "113.250000",
-      "loc_lat": "23.116700"
-    }
+    "Google Ads",
+    "Facebook Analytics"
   ]
 }

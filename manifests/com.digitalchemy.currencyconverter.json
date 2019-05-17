@@ -4,63 +4,30 @@
   "category": "TRAVEL_AND_LOCAL",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.INTERNET",
     "android.permission.VIBRATE",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.WAKE_LOCK",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.digitalchemy.currencyconverter.permission.C2D_MESSAGE",
-    "com.digitalchemy.currencyconverter.permission.C2D_MESSAGE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "1.9.0",
   "trackers": [
+    "AdColony",
+    "Moat",
+    "Facebook Ads",
     "Google Firebase Analytics",
     "Amazon Advertisement",
-    "Facebook Ads",
-    "Tune",
-    "Google DoubleClick",
     "Millennial Media",
-    "Moat",
+    "Google Analytics",
+    "Rubicon Project",
     "Twitter MoPub",
+    "Google DoubleClick",
     "Google CrashLytics",
     "Google Ads",
-    "Google Analytics",
-    "AdColony",
-    "Rubicon Project"
-  ],
-  "network_connections": [
-    {
-      "package": "com.digitalchemy.currencyconverter",
-      "ptr_domain": "ec2-107-20-228-83.compute-1.amazonaws.com.",
-      "ip_address": "107.20.228.83",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.digitalchemy.currencyconverter",
-      "ptr_domain": "ec2-107-23-28-239.compute-1.amazonaws.com.",
-      "ip_address": "107.23.28.239",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.digitalchemy.currencyconverter",
-      "ptr_domain": "ec2-52-44-7-77.compute-1.amazonaws.com.",
-      "ip_address": "52.44.7.77",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Tune"
   ]
 }

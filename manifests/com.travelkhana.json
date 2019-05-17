@@ -4,54 +4,31 @@
   "category": "TRAVEL_AND_LOCAL",
   "icon": "",
   "permissions": [
-    "android.permission.AUTHENTICATE_ACCOUNTS",
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.VIBRATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.WAKE_LOCK",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.WRITE_SYNC_SETTINGS",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "com.travelkhana.permission.C2D_MESSAGE",
-    "com.travelkhana.permission.C2D_MESSAGE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "com.travelkhana.permission.C2D_MESSAGE"
   ],
   "version": "2.5.2",
   "trackers": [
-    "Facebook Places",
-    "Google Firebase Analytics",
-    "Facebook Login",
     "Facebook Analytics",
+    "CleverTap",
     "Facebook Share",
     "Google CrashLytics",
+    "Facebook Login",
     "Google Analytics",
-    "CleverTap"
-  ],
-  "network_connections": [
-    {
-      "package": "com.travelkhana",
-      "ptr_domain": "edge-star-shv-01-sin6.facebook.com.",
-      "ip_address": "157.240.7.20",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.travelkhana",
-      "ptr_domain": "ec2-54-225-185-191.compute-1.amazonaws.com.",
-      "ip_address": "54.225.185.191",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    }
+    "Google Firebase Analytics",
+    "Facebook Places"
   ]
 }

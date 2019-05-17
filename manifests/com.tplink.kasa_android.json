@@ -5,192 +5,29 @@
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.WRITE_SETTINGS",
-    "android.permission.MANAGE_DOCUMENTS",
-    "android.permission.INTERACT_ACROSS_USERS",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.CHANGE_WIFI_STATE",
-    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-    "android.permission.CHANGE_NETWORK_STATE",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_NOTIFICATION_POLICY",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.INTERACT_ACROSS_USERS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_DOCUMENTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECORD_AUDIO",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SETTINGS",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.tplink.kasa_android.permission.C2D_MESSAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
     "com.tplink.kasa_android.permission.C2D_MESSAGE",
     "pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
   ],
   "version": "2.10.0.834",
   "trackers": [
-    "Google Firebase Analytics",
+    "HockeyApp",
     "Flurry",
-    "HockeyApp"
-  ],
-  "network_connections": [
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "226.130.154.104.bc.googleusercontent.com.",
-      "ip_address": "104.154.130.226",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.248100",
-      "loc_lat": "38.658300"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "13.250.197.104.bc.googleusercontent.com.",
-      "ip_address": "104.197.250.13",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.248100",
-      "loc_lat": "38.658300"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "bud02s21-in-f3.1e100.net.",
-      "ip_address": "216.58.209.163",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "N/A",
-      "ip_address": "217.182.141.247",
-      "loc_city": "N/A",
-      "loc_country": "France",
-      "loc_continent": "Europe",
-      "loc_long": "2.338700",
-      "loc_lat": "48.858200"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "edge-star-shv-01-frt3.facebook.com.",
-      "ip_address": "31.13.92.10",
-      "loc_city": "N/A",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.243900",
-      "loc_lat": "53.347200"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "ec2-34-199-193-201.compute-1.amazonaws.com.",
-      "ip_address": "34.199.193.201",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "ec2-52-18-231-177.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "52.18.231.177",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "ec2-52-203-232-166.compute-1.amazonaws.com.",
-      "ip_address": "52.203.232.166",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "ec2-52-6-111-220.compute-1.amazonaws.com.",
-      "ip_address": "52.6.111.220",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "ec2-52-6-190-233.compute-1.amazonaws.com.",
-      "ip_address": "52.6.190.233",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "ec2-52-7-81-197.compute-1.amazonaws.com.",
-      "ip_address": "52.7.81.197",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "N/A",
-      "ip_address": "52.94.220.255",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "ec2-54-165-109-162.compute-1.amazonaws.com.",
-      "ip_address": "54.165.109.162",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "ec2-54-229-27-48.eu-west-1.compute.amazonaws.com.",
-      "ip_address": "54.229.27.48",
-      "loc_city": "Dublin",
-      "loc_country": "Ireland",
-      "loc_continent": "Europe",
-      "loc_long": "-6.248800",
-      "loc_lat": "53.333800"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "N/A",
-      "ip_address": "54.239.26.114",
-      "loc_city": "Ashburn",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-77.472800",
-      "loc_lat": "39.048100"
-    },
-    {
-      "package": "com.tplink.kasa_android",
-      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com.",
-      "ip_address": "74.6.105.9",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    }
+    "Google Firebase Analytics"
   ]
 }

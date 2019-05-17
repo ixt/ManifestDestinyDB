@@ -4,96 +4,24 @@
   "category": "SHOPPING",
   "icon": "",
   "permissions": [
-    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.CAMERA",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.INTERNET",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "3.13.0",
   "trackers": [
-    "Google Analytics",
+    "Google CrashLytics",
     "Google DoubleClick",
     "Google Ads",
-    "Braze",
-    "Google CrashLytics",
-    "Google Firebase Analytics"
-  ],
-  "network_connections": [
-    {
-      "package": "dk.dba.android",
-      "ptr_domain": "mad08s06-in-f8.1e100.net.",
-      "ip_address": "216.58.201.168",
-      "loc_city": "Mountain View",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-122.074800",
-      "loc_lat": "37.404300"
-    },
-    {
-      "package": "dk.dba.android",
-      "ptr_domain": "a23-13-247-28.deploy.static.akamaitechnologies.com.",
-      "ip_address": "23.13.247.28",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "dk.dba.android",
-      "ptr_domain": "N/A",
-      "ip_address": "5.255.156.145",
-      "loc_city": "N/A",
-      "loc_country": "Netherlands",
-      "loc_continent": "Europe",
-      "loc_long": "4.899500",
-      "loc_lat": "52.382400"
-    },
-    {
-      "package": "dk.dba.android",
-      "ptr_domain": "ec2-52-8-178-205.us-west-1.compute.amazonaws.com.",
-      "ip_address": "52.8.178.205",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "dk.dba.android",
-      "ptr_domain": "ec2-54-193-253-1.us-west-1.compute.amazonaws.com.",
-      "ip_address": "54.193.253.1",
-      "loc_city": "San Jose",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-121.891400",
-      "loc_lat": "37.338800"
-    },
-    {
-      "package": "dk.dba.android",
-      "ptr_domain": "N/A",
-      "ip_address": "77.66.39.38",
-      "loc_city": "Copenhagen",
-      "loc_country": "Denmark",
-      "loc_continent": "Europe",
-      "loc_long": "12.558900",
-      "loc_lat": "55.678600"
-    },
-    {
-      "package": "dk.dba.android",
-      "ptr_domain": "N/A",
-      "ip_address": "77.66.39.39",
-      "loc_city": "Copenhagen",
-      "loc_country": "Denmark",
-      "loc_continent": "Europe",
-      "loc_long": "12.558900",
-      "loc_lat": "55.678600"
-    }
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Braze (formerly Appboy)"
   ]
 }

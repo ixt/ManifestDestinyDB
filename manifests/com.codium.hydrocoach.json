@@ -4,71 +4,29 @@
   "category": "HEALTH_AND_FITNESS",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.VIBRATE",
-    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
     "android.permission.WAKE_LOCK",
-    "android.permission.FOREGROUND_SERVICE",
-    "android.permission.ACCESS_WIFI_STATE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "com.samsung.android.health.permission.read",
-    "com.samsung.android.health.permission.write"
+    "com.samsung.android.health.permission.write",
+    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
   ],
   "version": "4.0.65",
   "trackers": [
     "Google CrashLytics",
-    "Facebook Login",
-    "Google Ads",
-    "Google Analytics",
     "Facebook Places",
+    "Google Analytics",
+    "Google Ads",
+    "Facebook Share",
+    "Facebook Login",
     "Google Firebase Analytics",
-    "Google DoubleClick",
-    "Facebook Share"
-  ],
-  "network_connections": [
-    {
-      "package": "com.codium.hydrocoach",
-      "ptr_domain": "sea15s12-in-f14.1e100.net.",
-      "ip_address": "172.217.3.206",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.codium.hydrocoach",
-      "ptr_domain": "pg-in-f155.1e100.net.",
-      "ip_address": "173.194.203.155",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.codium.hydrocoach",
-      "ptr_domain": "pg-in-f157.1e100.net.",
-      "ip_address": "173.194.203.157",
-      "loc_city": "N/A",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-97.822000",
-      "loc_lat": "37.751000"
-    },
-    {
-      "package": "com.codium.hydrocoach",
-      "ptr_domain": "sea15s07-in-f10.1e100.net.",
-      "ip_address": "216.58.193.74",
-      "loc_city": "Draper",
-      "loc_country": "United States",
-      "loc_continent": "North America",
-      "loc_long": "-111.883800",
-      "loc_lat": "40.508400"
-    }
+    "Google DoubleClick"
   ]
 }
