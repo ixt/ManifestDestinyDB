@@ -1,7 +1,7 @@
 {
   "appName": "Name ID",
   "packageName": "com.tmobile.services.nameid",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -30,8 +30,40 @@
   ],
   "version": "3.0.7.3116",
   "trackers": [
+    "Google Firebase Analytics",
     "Google CrashLytics",
-    "Apptentive",
-    "Google Firebase Analytics"
+    "Apptentive"
+  ],
+  "network_connections": [
+    {
+      "package": "com.tmobile.services.nameid",
+      "ptr_domain": "ec2-107-23-105-226.compute-1.amazonaws.com",
+      "ip_address": "107.23.105.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tmobile.services.nameid",
+      "ptr_domain": "ec2-34-192-120-105.compute-1.amazonaws.com",
+      "ip_address": "34.192.120.105",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tmobile.services.nameid",
+      "ptr_domain": "ec2-52-54-199-120.compute-1.amazonaws.com",
+      "ip_address": "52.54.199.120",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

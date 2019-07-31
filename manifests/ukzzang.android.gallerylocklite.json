@@ -1,7 +1,7 @@
 {
   "appName": "Safe Gallery",
   "packageName": "ukzzang.android.gallerylocklite",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -22,11 +22,23 @@
   ],
   "version": "5.5.1",
   "trackers": [
+    "Google Firebase Analytics",
+    "Moat",
     "Google DoubleClick",
-    "Google Ads",
     "Inmobi",
     "Vungle",
-    "Moat",
-    "Google Firebase Analytics"
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "ukzzang.android.gallerylocklite",
+      "ptr_domain": "bom07s10-in-f2.1e100.net",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    }
   ]
 }

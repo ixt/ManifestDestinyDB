@@ -1,0 +1,648 @@
+{
+  "appName": "Movie Night",
+  "packageName": "com.tabtale.theater",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.tabtale.theater.permission.C2D_MESSAGE"
+  ],
+  "version": "1.0.8",
+  "trackers": [
+    "ironSource",
+    "AdColony",
+    "AppsFlyer",
+    "AppLovin",
+    "Inmobi",
+    "Millennial Media",
+    "Twitter MoPub",
+    "HockeyApp",
+    "Flurry",
+    "Facebook Ads",
+    "ChartBoost",
+    "Moat",
+    "Unity3d Ads",
+    "Google DoubleClick",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "103.251.109.101",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "a104-85-226-132.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.85.226.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-107-23-45-106.compute-1.amazonaws.com",
+      "ip_address": "107.23.45.106",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.18",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.21",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.22",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.34",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.38",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.45",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.52.113",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "64.ce.559e.ip4.static.sl-reverse.com",
+      "ip_address": "158.85.206.100",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.835300",
+      "loc_lat": "32.932200"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "174.140.158.56",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-184-73-137-123.compute-1.amazonaws.com",
+      "ip_address": "184.73.137.123",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "a198-189-255-209.deploy.akamaitechnologies.com",
+      "ip_address": "198.189.255.209",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "198.54.233.82",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.413000",
+      "loc_lat": "33.921400"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:1402::101e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "N/A",
+      "ip_address": "216.157.12.18",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "nuq04s29-in-f2.1e100.net",
+      "ip_address": "216.58.192.2",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "sfo07s16-in-f6.1e100.net",
+      "ip_address": "216.58.195.70",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "a23-37-230-189.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.37.230.189",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "nuq04s29-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "sfo07s13-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "sfo07s13-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "sfo07s13-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "sfo03s01-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "sfo07s16-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:807::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "sfo03s07-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "sfo03s07-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "pg-in-x5e.1e100.net",
+      "ip_address": "2607:f8b0:400e:c05::5e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "pg-in-x5f.1e100.net",
+      "ip_address": "2607:f8b0:400e:c05::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "li-in-x5e.1e100.net",
+      "ip_address": "2a00:1450:4010:c05::5e",
+      "loc_city": "Lappeenranta",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "28.183300",
+      "loc_lat": "61.066700"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "edge-atlas6-shv-01-sea1.facebook.com",
+      "ip_address": "2a03:2880:f001:2:face:b00c:0:8c",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "edge-atlas6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:2:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-34-250-52-8.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.52.8",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-204-139-169.compute-1.amazonaws.com",
+      "ip_address": "52.204.139.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-205-155-238.compute-1.amazonaws.com",
+      "ip_address": "52.205.155.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-205-182-190.compute-1.amazonaws.com",
+      "ip_address": "52.205.182.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-20-63-112.compute-1.amazonaws.com",
+      "ip_address": "52.20.63.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-207-51-176.compute-1.amazonaws.com",
+      "ip_address": "52.207.51.176",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-208-95-67.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.95.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-22-178-115.compute-1.amazonaws.com",
+      "ip_address": "52.22.178.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-22-90-231.compute-1.amazonaws.com",
+      "ip_address": "52.22.90.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-39-247-59.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.39.247.59",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-5-44-125.compute-1.amazonaws.com",
+      "ip_address": "52.5.44.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-70-146-13.compute-1.amazonaws.com",
+      "ip_address": "52.70.146.13",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "server-52-84-243-118.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.118",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-52-87-213-86.compute-1.amazonaws.com",
+      "ip_address": "52.87.213.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-54-152-213-168.compute-1.amazonaws.com",
+      "ip_address": "54.152.213.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-54-154-57-161.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.57.161",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-54-187-157-104.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.187.157.104",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "server-54-230-141-52.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.141.52",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-54-245-249-64.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.249.64",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-54-246-201-54.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.201.54",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-54-76-205-218.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.205.218",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-54-85-122-232.compute-1.amazonaws.com",
+      "ip_address": "54.85.122.232",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-54-85-91-18.compute-1.amazonaws.com",
+      "ip_address": "54.85.91.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "ec2-54-87-120-224.compute-1.amazonaws.com",
+      "ip_address": "54.87.120.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "a96-16-186-59.deploy.static.akamaitechnologies.com",
+      "ip_address": "96.16.186.59",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.tabtale.theater",
+      "ptr_domain": "UNKNOWN-98-138-4-X.yahoo.com",
+      "ip_address": "98.138.4.253",
+      "loc_city": "Omaha",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-95.999800",
+      "loc_lat": "41.237700"
+    }
+  ]
+}

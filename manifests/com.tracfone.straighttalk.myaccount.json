@@ -1,7 +1,7 @@
 {
   "appName": "My Account",
   "packageName": "com.tracfone.straighttalk.myaccount",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -47,12 +47,34 @@
   "version": "R9.1.1",
   "trackers": [
     "Urbanairship",
-    "Facebook Places",
     "Google Analytics",
     "Google Firebase Analytics",
     "Facebook Share",
-    "Facebook Analytics",
+    "Google CrashLytics",
     "Facebook Login",
-    "Google CrashLytics"
+    "Facebook Analytics",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.tracfone.straighttalk.myaccount",
+      "ptr_domain": "api.bandwidthx.net",
+      "ip_address": "148.62.4.246",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.tracfone.straighttalk.myaccount",
+      "ptr_domain": "a23-202-233-24.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.202.233.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

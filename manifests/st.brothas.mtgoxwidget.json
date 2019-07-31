@@ -1,0 +1,417 @@
+{
+  "appName": "Bitcoin Ticker Widget",
+  "packageName": "st.brothas.mtgoxwidget",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "st.brothas.mtgoxwidget.permission.C2D_MESSAGE"
+  ],
+  "version": "1.8.46",
+  "trackers": [
+    "Google Ads",
+    "Google Firebase Analytics",
+    "Google DoubleClick",
+    "Google Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-107-21-248-175.compute-1.amazonaws.com",
+      "ip_address": "107.21.248.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-107-22-241-65.compute-1.amazonaws.com",
+      "ip_address": "107.22.241.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "sea15s11-in-f162.1e100.net",
+      "ip_address": "172.217.3.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "sea15s11-in-f166.1e100.net",
+      "ip_address": "172.217.3.166",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-174-129-40-213.compute-1.amazonaws.com",
+      "ip_address": "174.129.40.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "mad06s25-in-f1.1e100.net",
+      "ip_address": "216.58.201.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "mad06s25-in-f2.1e100.net",
+      "ip_address": "216.58.201.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "mad06s25-in-f138.1e100.net",
+      "ip_address": "216.58.201.138",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "mad01s25-in-f1.1e100.net",
+      "ip_address": "216.58.211.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "mad01s25-in-f194.1e100.net",
+      "ip_address": "216.58.211.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "mad01s24-in-f226.1e100.net",
+      "ip_address": "216.58.211.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "mad01s26-in-f2.1e100.net",
+      "ip_address": "216.58.214.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "sea15s01-in-f134.1e100.net",
+      "ip_address": "216.58.216.134",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-23-21-209-66.compute-1.amazonaws.com",
+      "ip_address": "23.21.209.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-23-21-68-70.compute-1.amazonaws.com",
+      "ip_address": "23.21.68.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-23-23-186-247.compute-1.amazonaws.com",
+      "ip_address": "23.23.186.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-23-23-250-209.compute-1.amazonaws.com",
+      "ip_address": "23.23.250.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-23-23-96-14.compute-1.amazonaws.com",
+      "ip_address": "23.23.96.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-23-23-96-77.compute-1.amazonaws.com",
+      "ip_address": "23.23.96.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ord36s04-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4009:800::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ord37s07-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4009:802::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ord31s22-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4009:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ord30s25-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4009:80e::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ord37s09-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4009:810::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ord37s09-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4009:810::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ord38s04-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4009:813::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ord38s08-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4009:815::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-50-16-226-200.compute-1.amazonaws.com",
+      "ip_address": "50.16.226.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-50-16-247-225.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-50-17-207-86.compute-1.amazonaws.com",
+      "ip_address": "50.17.207.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-54-225-165-43.compute-1.amazonaws.com",
+      "ip_address": "54.225.165.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-54-225-215-149.compute-1.amazonaws.com",
+      "ip_address": "54.225.215.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-54-235-131-96.compute-1.amazonaws.com",
+      "ip_address": "54.235.131.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-54-235-214-170.compute-1.amazonaws.com",
+      "ip_address": "54.235.214.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-54-243-245-38.compute-1.amazonaws.com",
+      "ip_address": "54.243.245.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "st.brothas.mtgoxwidget",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

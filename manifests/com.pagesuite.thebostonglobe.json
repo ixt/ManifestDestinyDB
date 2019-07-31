@@ -1,7 +1,7 @@
 {
   "appName": "The Boston Globe",
   "packageName": "com.pagesuite.thebostonglobe",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,17 +22,29 @@
   ],
   "version": "5.3",
   "trackers": [
-    "Facebook Share",
-    "Facebook Login",
-    "Facebook Places",
-    "Demdex",
-    "ComScore",
-    "Google Analytics",
-    "ATInternet",
-    "Facebook Analytics",
     "Google Ads",
-    "Tealium",
+    "Google Firebase Analytics",
+    "Demdex",
+    "Google Analytics",
+    "Facebook Share",
+    "ATInternet",
     "Google DoubleClick",
-    "Google Firebase Analytics"
+    "Tealium",
+    "Facebook Analytics",
+    "Facebook Login",
+    "ComScore",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.pagesuite.thebostonglobe",
+      "ptr_domain": "a23-72-209-103.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.72.209.103",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

@@ -1,24 +1,36 @@
 {
   "appName": "English Status Quote",
   "packageName": "best.status.quotes.whatsapp",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
     "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "12.0",
   "trackers": [
-    "Facebook Ads",
-    "Startapp",
     "Google Ads",
-    "Google DoubleClick"
+    "Google DoubleClick",
+    "Facebook Ads",
+    "Startapp"
+  ],
+  "network_connections": [
+    {
+      "package": "best.status.quotes.whatsapp",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

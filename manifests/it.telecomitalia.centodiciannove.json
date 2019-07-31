@@ -1,7 +1,7 @@
 {
   "appName": "MyTIM",
   "packageName": "it.telecomitalia.centodiciannove",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -26,12 +26,24 @@
   ],
   "version": "5.1.1",
   "trackers": [
-    "Demdex",
     "Facebook Analytics",
+    "Demdex",
+    "Google Ads",
     "Facebook Share",
-    "Google CrashLytics",
     "Google Firebase Analytics",
     "Facebook Login",
-    "Google Ads"
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "it.telecomitalia.centodiciannove",
+      "ptr_domain": "timinternet.adv.tim.it",
+      "ip_address": "213.26.205.170",
+      "loc_city": "N/A",
+      "loc_country": "Italy",
+      "loc_continent": "Europe",
+      "loc_long": "12.109700",
+      "loc_lat": "43.147900"
+    }
   ]
 }

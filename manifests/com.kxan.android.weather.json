@@ -1,7 +1,7 @@
 {
   "appName": "KXAN Weather",
   "packageName": "com.kxan.android.weather",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,18 +24,40 @@
   ],
   "version": "4.7.1600",
   "trackers": [
-    "Google Analytics",
-    "ComScore",
-    "AppNexus",
-    "Amazon Advertisement",
-    "Twitter MoPub",
-    "Millennial Media",
-    "Google Ads",
     "HockeyApp",
+    "Google Analytics",
+    "Google DoubleClick",
+    "Mapbox",
+    "AppNexus",
+    "ComScore",
+    "Demdex",
+    "Google Ads",
+    "Millennial Media",
+    "Amazon Advertisement",
     "Flurry",
     "Moat",
-    "Demdex",
-    "Mapbox",
-    "Google DoubleClick"
+    "Twitter MoPub"
+  ],
+  "network_connections": [
+    {
+      "package": "com.kxan.android.weather",
+      "ptr_domain": "a104-85-0-143.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.85.0.143",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.kxan.android.weather",
+      "ptr_domain": "ec2-52-204-144-50.compute-1.amazonaws.com",
+      "ip_address": "52.204.144.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

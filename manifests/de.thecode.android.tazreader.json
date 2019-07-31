@@ -1,7 +1,7 @@
 {
   "appName": "taz.app",
   "packageName": "de.thecode.android.tazreader",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -18,5 +18,27 @@
   "trackers": [
     "Google CrashLytics",
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "de.thecode.android.tazreader",
+      "ptr_domain": "taz.de",
+      "ip_address": "193.104.220.21",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.thecode.android.tazreader",
+      "ptr_domain": "stampy.taz.de",
+      "ip_address": "193.104.220.50",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
   ]
 }

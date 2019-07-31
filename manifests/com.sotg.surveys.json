@@ -1,7 +1,7 @@
 {
   "appName": "Surveys",
   "packageName": "com.sotg.surveys",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -34,12 +34,44 @@
   "version": "2.36.1",
   "trackers": [
     "Sense360",
-    "Google CrashLytics",
-    "Facebook Places",
-    "Facebook Share",
-    "Facebook Login",
     "Pilgrim",
+    "Facebook Places",
+    "Facebook Login",
+    "Google Firebase Analytics",
     "Facebook Analytics",
-    "Google Firebase Analytics"
+    "Google CrashLytics",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sotg.surveys",
+      "ptr_domain": "ec2-23-23-227-163.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sotg.surveys",
+      "ptr_domain": "ec2-52-11-75-60.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.11.75.60",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.sotg.surveys",
+      "ptr_domain": "ec2-54-68-31-40.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.68.31.40",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

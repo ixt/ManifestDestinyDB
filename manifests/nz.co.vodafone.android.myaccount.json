@@ -1,7 +1,7 @@
 {
   "appName": "My Vodafone",
   "packageName": "nz.co.vodafone.android.myaccount",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -22,8 +22,21 @@
   ],
   "version": "4.11.2",
   "trackers": [
-    "Tealium",
     "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Instabug",
+    "Google CrashLytics",
+    "Tealium"
+  ],
+  "network_connections": [
+    {
+      "package": "nz.co.vodafone.android.myaccount",
+      "ptr_domain": "202-73-199-57.vodafone.net.nz",
+      "ip_address": "202.73.199.57",
+      "loc_city": "Auckland",
+      "loc_country": "New Zealand",
+      "loc_continent": "Oceania",
+      "loc_long": "174.767900",
+      "loc_lat": "-36.850600"
+    }
   ]
 }

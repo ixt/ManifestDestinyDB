@@ -1,7 +1,7 @@
 {
   "appName": "Waplog",
   "packageName": "com.waplog.social",
-  "category": "SOCIAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -33,23 +33,785 @@
   ],
   "version": "3.19.2",
   "trackers": [
-    "Inmobi",
-    "Moat",
-    "Facebook Analytics",
-    "Millennial Media",
-    "Flurry",
-    "Google DoubleClick",
-    "Branch",
-    "Google CrashLytics",
-    "Google Firebase Analytics",
-    "Facebook Share",
-    "Smaato",
-    "Twitter MoPub",
-    "AccountKit",
-    "Google Ads",
-    "Facebook Ads",
-    "Facebook Places",
     "Facebook Login",
-    "Google Analytics"
+    "Facebook Analytics",
+    "Inmobi",
+    "Branch",
+    "Flurry",
+    "Google Firebase Analytics",
+    "AccountKit",
+    "Facebook Places",
+    "Facebook Ads",
+    "Google Ads",
+    "Google CrashLytics",
+    "Smaato",
+    "Google DoubleClick",
+    "Google Analytics",
+    "Millennial Media",
+    "Twitter MoPub",
+    "Facebook Share",
+    "Moat"
+  ],
+  "network_connections": [
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.0.87",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.1.87",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.67.31",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.68.31",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.43.103",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.43.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-107-21-122-150.compute-1.amazonaws.com",
+      "ip_address": "107.21.122.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "d3-6-0-11-0.a10.nycmny01.us.ra.verio.net",
+      "ip_address": "165.254.203.169",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "d1-6-0-11.a10.nycmny01.us.ce.verio.net",
+      "ip_address": "165.254.203.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "lga34s13-in-f2.1e100.net",
+      "ip_address": "172.217.10.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "lga34s14-in-f1.1e100.net",
+      "ip_address": "172.217.10.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s26-in-f194.1e100.net",
+      "ip_address": "172.217.1.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "yyz10s14-in-f2.1e100.net",
+      "ip_address": "172.217.1.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s23-in-f194.1e100.net",
+      "ip_address": "172.217.2.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s57-in-f34.1e100.net",
+      "ip_address": "172.217.3.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad30s07-in-f238.1e100.net",
+      "ip_address": "172.217.5.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad30s07-in-f16.1e100.net",
+      "ip_address": "172.217.5.240",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad30s08-in-f130.1e100.net",
+      "ip_address": "172.217.7.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad30s09-in-f1.1e100.net",
+      "ip_address": "172.217.7.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad30s09-in-f2.1e100.net",
+      "ip_address": "172.217.7.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad30s10-in-f194.1e100.net",
+      "ip_address": "172.217.7.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s58-in-f2.1e100.net",
+      "ip_address": "172.217.7.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s59-in-f14.1e100.net",
+      "ip_address": "172.217.8.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s59-in-f2.1e100.net",
+      "ip_address": "172.217.8.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "46.d5.25ae.ip4.static.sl-reverse.com",
+      "ip_address": "174.37.213.70",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-184-73-203-162.compute-1.amazonaws.com",
+      "ip_address": "184.73.203.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "192.44.68.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "199.16.156.232",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-204-236-236-214.compute-1.amazonaws.com",
+      "ip_address": "204.236.236.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "4e.ef.2bd0.ip4.static.sl-reverse.com",
+      "ip_address": "208.43.239.78",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s24-in-f130.1e100.net",
+      "ip_address": "216.58.195.130",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s43-in-f130.1e100.net",
+      "ip_address": "216.58.217.130",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s44-in-f162.1e100.net",
+      "ip_address": "216.58.217.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s41-in-f66.1e100.net",
+      "ip_address": "216.58.217.66",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s42-in-f97.1e100.net",
+      "ip_address": "216.58.217.97",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s42-in-f98.1e100.net",
+      "ip_address": "216.58.217.98",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "iad23s40-in-f1.1e100.net",
+      "ip_address": "216.58.218.225",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-23-20-225-191.compute-1.amazonaws.com",
+      "ip_address": "23.20.225.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-23-21-176-29.compute-1.amazonaws.com",
+      "ip_address": "23.21.176.29",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-23-21-179-248.compute-1.amazonaws.com",
+      "ip_address": "23.21.179.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "a23-222-113-68.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.222.113.68",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "a23-222-23-45.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.222.23.45",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-23-23-131-150.compute-1.amazonaws.com",
+      "ip_address": "23.23.131.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-23-23-181-34.compute-1.amazonaws.com",
+      "ip_address": "23.23.181.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "edge-star-mini-shv-01-lga3.facebook.com",
+      "ip_address": "31.13.71.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "xx-fbcdn-shv-01-lga3.fbcdn.net",
+      "ip_address": "31.13.71.7",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "xx-fbcdn-shv-01-yyz1.fbcdn.net",
+      "ip_address": "31.13.80.12",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "edge-star-mini-shv-01-yyz1.facebook.com",
+      "ip_address": "31.13.80.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "edge-star-shv-01-yyz1.facebook.com",
+      "ip_address": "31.13.80.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-34-198-78-144.compute-1.amazonaws.com",
+      "ip_address": "34.198.78.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-34-199-224-200.compute-1.amazonaws.com",
+      "ip_address": "34.199.224.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "234.3.190.35.bc.googleusercontent.com",
+      "ip_address": "35.190.3.234",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-50-19-210-58.compute-1.amazonaws.com",
+      "ip_address": "50.19.210.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "server-52-85-142-125.iad12.r.cloudfront.net",
+      "ip_address": "52.85.142.125",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "server-52-85-142-70.iad12.r.cloudfront.net",
+      "ip_address": "52.85.142.70",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "server-52-85-142-95.iad12.r.cloudfront.net",
+      "ip_address": "52.85.142.95",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "server-52-85-147-114.iad12.r.cloudfront.net",
+      "ip_address": "52.85.147.114",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "server-54-192-16-25.iad12.r.cloudfront.net",
+      "ip_address": "54.192.16.25",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "server-54-192-16-89.iad12.r.cloudfront.net",
+      "ip_address": "54.192.16.89",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "server-54-192-19-232.iad12.r.cloudfront.net",
+      "ip_address": "54.192.19.232",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "server-54-230-50-144.jfk5.r.cloudfront.net",
+      "ip_address": "54.230.50.144",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-54-235-151-110.compute-1.amazonaws.com",
+      "ip_address": "54.235.151.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-54-235-165-25.compute-1.amazonaws.com",
+      "ip_address": "54.235.165.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-54-235-171-4.compute-1.amazonaws.com",
+      "ip_address": "54.235.171.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "ec2-54-243-182-104.compute-1.amazonaws.com",
+      "ip_address": "54.243.182.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "N/A",
+      "ip_address": "74.121.140.171",
+      "loc_city": "Zurich",
+      "loc_country": "Switzerland",
+      "loc_continent": "Europe",
+      "loc_long": "8.554600",
+      "loc_lat": "47.366400"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "qn-in-f132.1e100.net",
+      "ip_address": "74.125.192.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "qn-in-f95.1e100.net",
+      "ip_address": "74.125.192.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.28",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "UNKNOWN-98-137-201-X.yahoo.com",
+      "ip_address": "98.137.201.232",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "UNKNOWN-98-138-243-X.yahoo.com",
+      "ip_address": "98.138.243.53",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.waplog.social",
+      "ptr_domain": "UNKNOWN-98-138-4-X.yahoo.com",
+      "ip_address": "98.138.4.253",
+      "loc_city": "Omaha",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-95.999800",
+      "loc_lat": "41.237700"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Monitor Your Weight",
   "packageName": "monitoryourweight.bustan.net",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -21,9 +21,31 @@
   ],
   "version": "4.9.9.2",
   "trackers": [
-    "Google DoubleClick",
     "Google Ads",
     "HockeyApp",
-    "Google Firebase Analytics"
+    "Google Firebase Analytics",
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "monitoryourweight.bustan.net",
+      "ptr_domain": "cas.nl.eu.criteo.com",
+      "ip_address": "178.250.2.102",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "monitoryourweight.bustan.net",
+      "ptr_domain": "mad01s25-in-f2.1e100.net",
+      "ip_address": "216.58.211.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    }
   ]
 }

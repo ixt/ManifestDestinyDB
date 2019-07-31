@@ -1,7 +1,7 @@
 {
   "appName": "CLauncher",
   "packageName": "com.cma.launcher.lite",
-  "category": "PERSONALIZATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -58,18 +58,370 @@
   ],
   "version": "3.10.25",
   "trackers": [
-    "Facebook Analytics",
-    "Inmobi",
-    "Mintegral",
-    "Facebook Ads",
     "Facebook Login",
-    "Google DoubleClick",
-    "Google Ads",
     "Yandex Ad",
-    "Google CrashLytics",
-    "Facebook Share",
+    "Google Ads",
     "AppMetrica",
+    "Inmobi",
+    "Facebook Ads",
+    "Facebook Share",
+    "Facebook Analytics",
     "Google Firebase Analytics",
-    "Flurry"
+    "Flurry",
+    "Google DoubleClick",
+    "Mintegral",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-107-20-160-144.compute-1.amazonaws.com",
+      "ip_address": "107.20.160.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-107-20-188-69.compute-1.amazonaws.com",
+      "ip_address": "107.20.188.69",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-107-22-199-165.compute-1.amazonaws.com",
+      "ip_address": "107.22.199.165",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-174-129-29-44.compute-1.amazonaws.com",
+      "ip_address": "174.129.29.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-184-73-213-37.compute-1.amazonaws.com",
+      "ip_address": "184.73.213.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-23-21-204-219.compute-1.amazonaws.com",
+      "ip_address": "23.21.204.219",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-23-23-234-198.compute-1.amazonaws.com",
+      "ip_address": "23.23.234.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-23-23-250-209.compute-1.amazonaws.com",
+      "ip_address": "23.23.250.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "bom07s01-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:19:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-34-199-14-71.compute-1.amazonaws.com",
+      "ip_address": "34.199.14.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-34-200-159-104.compute-1.amazonaws.com",
+      "ip_address": "34.200.159.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-35-154-159-156.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.159.156",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-50-16-191-172.compute-1.amazonaws.com",
+      "ip_address": "50.16.191.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-50-16-222-66.compute-1.amazonaws.com",
+      "ip_address": "50.16.222.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-50-16-225-126.compute-1.amazonaws.com",
+      "ip_address": "50.16.225.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-50-17-188-214.compute-1.amazonaws.com",
+      "ip_address": "50.17.188.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-50-17-202-98.compute-1.amazonaws.com",
+      "ip_address": "50.17.202.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-50-19-114-116.compute-1.amazonaws.com",
+      "ip_address": "50.19.114.116",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-52-5-202-203.compute-1.amazonaws.com",
+      "ip_address": "52.5.202.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-52-74-9-207.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.9.207",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-52-77-159-15.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.159.15",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-221-198-70.compute-1.amazonaws.com",
+      "ip_address": "54.221.198.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-221-219-50.compute-1.amazonaws.com",
+      "ip_address": "54.221.219.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-225-174-11.compute-1.amazonaws.com",
+      "ip_address": "54.225.174.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-225-175-247.compute-1.amazonaws.com",
+      "ip_address": "54.225.175.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-225-179-254.compute-1.amazonaws.com",
+      "ip_address": "54.225.179.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-225-192-196.compute-1.amazonaws.com",
+      "ip_address": "54.225.192.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-225-197-56.compute-1.amazonaws.com",
+      "ip_address": "54.225.197.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-227-237-88.compute-1.amazonaws.com",
+      "ip_address": "54.227.237.88",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-235-121-103.compute-1.amazonaws.com",
+      "ip_address": "54.235.121.103",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-235-129-139.compute-1.amazonaws.com",
+      "ip_address": "54.235.129.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-235-145-74.compute-1.amazonaws.com",
+      "ip_address": "54.235.145.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cma.launcher.lite",
+      "ptr_domain": "ec2-54-243-101-102.compute-1.amazonaws.com",
+      "ip_address": "54.243.101.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

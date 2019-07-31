@@ -1,7 +1,7 @@
 {
   "appName": "Article Reader",
   "packageName": "com.olegsheremet.articlereader",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -15,9 +15,21 @@
   ],
   "version": "2.63",
   "trackers": [
-    "Google DoubleClick",
     "Google Ads",
+    "Google DoubleClick",
     "Google CrashLytics",
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.olegsheremet.articlereader",
+      "ptr_domain": "server-52-222-171-190.fra54.r.cloudfront.net",
+      "ip_address": "52.222.171.190",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    }
   ]
 }

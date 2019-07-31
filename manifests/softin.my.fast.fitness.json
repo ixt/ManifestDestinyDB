@@ -1,7 +1,7 @@
 {
   "appName": "Fitness & Bodybuilding",
   "packageName": "softin.my.fast.fitness",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -36,13 +36,45 @@
   ],
   "version": "2.5.7",
   "trackers": [
+    "Facebook Analytics",
     "OneSignal",
     "Google Firebase Analytics",
-    "Google Ads",
-    "Facebook Analytics",
-    "Facebook Share",
-    "Google DoubleClick",
     "Facebook Login",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Facebook Share",
+    "Google Ads",
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "softin.my.fast.fitness",
+      "ptr_domain": "bom07s12-in-f10.1e100.net",
+      "ip_address": "216.58.203.202",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "softin.my.fast.fitness",
+      "ptr_domain": "del01s08-in-f193.1e100.net",
+      "ip_address": "216.58.220.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "softin.my.fast.fitness",
+      "ptr_domain": "ec2-52-210-206-40.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.206.40",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

@@ -1,33 +1,113 @@
 {
   "appName": "CTV News",
   "packageName": "ca.bellmedia.ctvnews",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "ca.bellmedia.ctvnews.permission.C2D_MESSAGE",
-    "ca.bellmedia.ctvnews.permission.C2D_MESSAGE",
-    "com.amazon.device.messaging.permission.RECEIVE",
-    "ca.bellmedia.ctvnews.permission.RECEIVE_ADM_MESSAGE",
-    "ca.bellmedia.ctvnews.permission.RECEIVE_ADM_MESSAGE",
-    "android.permission.WAKE_LOCK",
+    "android.permission.INTERNET",
     "android.permission.VIBRATE",
-    "android.permission.ACCESS_FINE_LOCATION"
+    "android.permission.WAKE_LOCK",
+    "ca.bellmedia.ctvnews.permission.C2D_MESSAGE",
+    "ca.bellmedia.ctvnews.permission.RECEIVE_ADM_MESSAGE",
+    "com.amazon.device.messaging.permission.RECEIVE",
+    "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "2.0",
   "trackers": [
+    "Krux",
+    "Urbanairship",
+    "Omniture",
+    "Google DoubleClick",
+    "Conviva",
+    "Google CrashLytics",
     "Google Ads",
     "Moat",
     "ComScore",
-    "Google CrashLytics",
-    "Demdex",
-    "Urbanairship",
-    "Omniture",
-    "Conviva",
-    "Krux",
-    "Google DoubleClick"
+    "Demdex"
+  ],
+  "network_connections": [
+    {
+      "package": "ca.bellmedia.ctvnews",
+      "ptr_domain": "a184-84-40-57.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.84.40.57",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ca.bellmedia.ctvnews",
+      "ptr_domain": "N/A",
+      "ip_address": "191.237.128.219",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "ca.bellmedia.ctvnews",
+      "ptr_domain": "ec2-23-21-225-144.compute-1.amazonaws.com",
+      "ip_address": "23.21.225.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "ca.bellmedia.ctvnews",
+      "ptr_domain": "ec2-23-23-101-152.compute-1.amazonaws.com",
+      "ip_address": "23.23.101.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "ca.bellmedia.ctvnews",
+      "ptr_domain": "a23-45-198-71.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.45.198.71",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ca.bellmedia.ctvnews",
+      "ptr_domain": "ec2-54-225-93-51.compute-1.amazonaws.com",
+      "ip_address": "54.225.93.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "ca.bellmedia.ctvnews",
+      "ptr_domain": "ec2-54-235-183-115.compute-1.amazonaws.com",
+      "ip_address": "54.235.183.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "ca.bellmedia.ctvnews",
+      "ptr_domain": "ec2-54-243-180-96.compute-1.amazonaws.com",
+      "ip_address": "54.243.180.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Cafe",
   "packageName": "com.threeplate.customer.qualcomm",
-  "category": "FOOD_AND_DRINK",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -21,8 +21,50 @@
   "trackers": [
     "Google Analytics",
     "Google Ads",
+    "Google CrashLytics",
     "Google DoubleClick",
-    "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.threeplate.customer.qualcomm",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.threeplate.customer.qualcomm",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com",
+      "ip_address": "52.219.36.25",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.threeplate.customer.qualcomm",
+      "ptr_domain": "s3-ap-southeast-1.amazonaws.com",
+      "ip_address": "52.219.40.29",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.threeplate.customer.qualcomm",
+      "ptr_domain": "ec2-52-220-82-90.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.220.82.90",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    }
   ]
 }

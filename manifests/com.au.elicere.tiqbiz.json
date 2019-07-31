@@ -1,7 +1,7 @@
 {
   "appName": "FlexiBuzz",
   "packageName": "com.au.elicere.tiqbiz",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,8 +24,20 @@
   ],
   "version": "6.1.1",
   "trackers": [
-    "Google Firebase Analytics",
+    "Google Analytics",
     "Google CrashLytics",
-    "Google Analytics"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.au.elicere.tiqbiz",
+      "ptr_domain": "api.tiqbiz.com",
+      "ip_address": "54.153.160.64",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "MyDish",
   "packageName": "com.dish.mydish",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -27,10 +27,42 @@
   "version": "3.16.4",
   "trackers": [
     "Google Ads",
-    "Facebook Analytics",
-    "Facebook Share",
-    "Facebook Login",
     "Google Firebase Analytics",
+    "Facebook Login",
+    "Facebook Share",
+    "Facebook Analytics",
     "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.dish.mydish",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dish.mydish",
+      "ptr_domain": "N/A",
+      "ip_address": "66.170.248.27",
+      "loc_city": "Englewood",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-104.961400",
+      "loc_lat": "39.640500"
+    },
+    {
+      "package": "com.dish.mydish",
+      "ptr_domain": "itma.dish.com",
+      "ip_address": "66.170.251.38",
+      "loc_city": "Englewood",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-104.961400",
+      "loc_lat": "39.640500"
+    }
   ]
 }

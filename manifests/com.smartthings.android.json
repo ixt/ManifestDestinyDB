@@ -1,0 +1,499 @@
+{
+  "appName": "SmartThings",
+  "packageName": "com.smartthings.android",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.CAMERA",
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.amazon.device.messaging.permission.RECEIVE",
+    "com.android.alarm.permission.SET_ALARM",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.samsung.accessory.permission.ACCESSORY_FRAMEWORK",
+    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+    "com.smartthings.android.permission.C2D_MESSAGE",
+    "com.smartthings.android.permission.MAPS_RECEIVE",
+    "com.smartthings.android.permission.RECEIVE_ADM_MESSAGE",
+    "com.smartthings.android.permission.UA_DATA"
+  ],
+  "version": "2.17.0",
+  "trackers": [
+    "MixPanel",
+    "Google Analytics",
+    "HockeyApp",
+    "Urbanairship"
+  ],
+  "network_connections": [
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-107-20-201-51.compute-1.amazonaws.com",
+      "ip_address": "107.20.201.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "f.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "16.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "17.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "2.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "1f.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.31",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "20.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.32",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "22.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "6.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "7.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a172-224-12-61.deploy.static.akamaitechnologies.com",
+      "ip_address": "172.224.12.61",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a172-226-79-123.deploy.static.akamaitechnologies.com",
+      "ip_address": "172.226.79.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "server-205-251-219-101.arn1.r.cloudfront.net",
+      "ip_address": "205.251.219.101",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "server-205-251-219-217.arn1.r.cloudfront.net",
+      "ip_address": "205.251.219.217",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "mil04s26-in-f115.1e100.net",
+      "ip_address": "216.58.205.115",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a2-20-156-201.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.20.156.201",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a23-202-233-24.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.202.233.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a23-204-72-153.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.204.72.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a23-34-73-166.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.34.73.166",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a23-41-180-226.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.41.180.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a23-53-44-16.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.53.44.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a23-56-126-216.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.56.126.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-34-202-140-196.compute-1.amazonaws.com",
+      "ip_address": "34.202.140.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-34-248-73-210.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.248.73.210",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-34-252-123-76.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.123.76",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "N/A",
+      "ip_address": "40.114.241.141",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "N/A",
+      "ip_address": "40.84.189.107",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.493500",
+      "loc_lat": "29.424700"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-52-1-118-10.compute-1.amazonaws.com",
+      "ip_address": "52.1.118.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-52-14-182-162.us-east-2.compute.amazonaws.com",
+      "ip_address": "52.14.182.162",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.023500",
+      "loc_lat": "39.965300"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-52-14-249-160.us-east-2.compute.amazonaws.com",
+      "ip_address": "52.14.249.160",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.023500",
+      "loc_lat": "39.965300"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-52-15-111-191.us-east-2.compute.amazonaws.com",
+      "ip_address": "52.15.111.191",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.023500",
+      "loc_lat": "39.965300"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-52-15-164-205.us-east-2.compute.amazonaws.com",
+      "ip_address": "52.15.164.205",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.023500",
+      "loc_lat": "39.965300"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "N/A",
+      "ip_address": "52.167.221.184",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "N/A",
+      "ip_address": "52.169.64.244",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-52-208-172-240.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.172.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-52-210-127-182.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.127.182",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-52-49-77-142.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.77.142",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-54-171-103-229.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.103.229",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-54-171-18-247.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.18.247",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-54-174-97-152.compute-1.amazonaws.com",
+      "ip_address": "54.174.97.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-54-175-188-180.compute-1.amazonaws.com",
+      "ip_address": "54.175.188.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-54-194-69-163.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.69.163",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "ec2-54-243-81-68.compute-1.amazonaws.com",
+      "ip_address": "54.243.81.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "N/A",
+      "ip_address": "8.27.189.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartthings.android",
+      "ptr_domain": "a92-122-145-182.deploy.static.akamaitechnologies.com",
+      "ip_address": "92.122.145.182",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
+  ]
+}

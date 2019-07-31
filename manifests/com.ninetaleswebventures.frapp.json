@@ -1,7 +1,7 @@
 {
   "appName": "Frapp",
   "packageName": "com.ninetaleswebventures.frapp",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -16,10 +16,32 @@
   ],
   "version": "6.1.6",
   "trackers": [
-    "Facebook Login",
-    "CleverTap",
     "Google CrashLytics",
+    "CleverTap",
+    "Facebook Login",
     "Google Firebase Analytics",
     "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ninetaleswebventures.frapp",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ninetaleswebventures.frapp",
+      "ptr_domain": "ec2-23-23-147-10.compute-1.amazonaws.com",
+      "ip_address": "23.23.147.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

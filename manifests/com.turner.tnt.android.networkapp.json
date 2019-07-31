@@ -1,7 +1,7 @@
 {
   "appName": "TNT",
   "packageName": "com.turner.tnt.android.networkapp",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -20,20 +20,42 @@
   ],
   "version": "5.0.0",
   "trackers": [
+    "Branch",
+    "Demdex",
+    "ComScore",
+    "HelpShift",
+    "Conviva",
+    "Facebook Places",
+    "Facebook Analytics",
     "Facebook Login",
     "Facebook Share",
-    "Conviva",
-    "Branch",
-    "HelpShift",
-    "Google Firebase Analytics",
-    "Facebook Analytics",
-    "Facebook Places",
     "MParticle",
-    "Google Ads",
-    "Google CrashLytics",
-    "Demdex",
-    "Braze (formerly Appboy)",
     "Google DoubleClick",
-    "ComScore"
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Braze (formerly Appboy)",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.turner.tnt.android.networkapp",
+      "ptr_domain": "148.254.178.107.bc.googleusercontent.com",
+      "ip_address": "107.178.254.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.turner.tnt.android.networkapp",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

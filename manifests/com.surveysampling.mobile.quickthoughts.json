@@ -1,7 +1,7 @@
 {
   "appName": "QuickThoughts®",
   "packageName": "com.surveysampling.mobile.quickthoughts",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -29,11 +29,33 @@
   ],
   "version": "2.17.0",
   "trackers": [
-    "Google Firebase Analytics",
+    "Google DoubleClick",
     "AppsFlyer",
-    "Sense360",
-    "Google CrashLytics",
+    "Google Firebase Analytics",
     "Google Ads",
-    "Google DoubleClick"
+    "Sense360",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.surveysampling.mobile.quickthoughts",
+      "ptr_domain": "ec2-107-21-202-10.compute-1.amazonaws.com",
+      "ip_address": "107.21.202.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.surveysampling.mobile.quickthoughts",
+      "ptr_domain": "ec2-107-22-161-159.compute-1.amazonaws.com",
+      "ip_address": "107.22.161.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

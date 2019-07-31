@@ -1,27 +1,219 @@
 {
   "appName": "Klix.ba",
   "packageName": "ba.klix.android",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "4.2.1",
   "trackers": [
+    "Google DoubleClick",
     "Google Firebase Analytics",
     "Facebook Login",
-    "Google Ads",
-    "Google Analytics",
-    "Facebook Analytics",
-    "Google DoubleClick",
     "Facebook Share",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Analytics",
+    "Google Ads",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.214.32",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.2.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "a104-91-181-88.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.91.181.88",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "a184-28-248-211.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.28.248.211",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "a184-84-146-198.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.84.146.198",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "N/A",
+      "ip_address": "204.2.226.108",
+      "loc_city": "Campbellsville",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-85.350800",
+      "loc_lat": "37.346600"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "209-150-80-76.static.ctl.one",
+      "ip_address": "209.150.80.76",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "sfo07s13-in-f162.1e100.net",
+      "ip_address": "216.58.194.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "sfo03s01-in-f194.1e100.net",
+      "ip_address": "216.58.194.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "a23-36-51-24.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.36.51.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "a23-75-101-164.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.75.101.164",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "nuq04s29-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "sfo03s01-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "sfo03s01-in-x06.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2006",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "sfo03s01-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "ec2-54-173-192-55.compute-1.amazonaws.com",
+      "ip_address": "54.173.192.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "ba.klix.android",
+      "ptr_domain": "ec2-54-191-243-57.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.191.243.57",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

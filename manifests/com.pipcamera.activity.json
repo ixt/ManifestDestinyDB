@@ -1,0 +1,459 @@
+{
+  "appName": "PIP Camera",
+  "packageName": "com.pipcamera.activity",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.pipcamera.activity.permission.C2D_MESSAGE"
+  ],
+  "version": "4.8.8",
+  "trackers": [
+    "Google Firebase Analytics",
+    "Flurry",
+    "Google DoubleClick",
+    "Facebook Ads",
+    "Google Ads",
+    "Google CrashLytics",
+    "Google Analytics",
+    "Inmobi"
+  ],
+  "network_connections": [
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-107-20-205-68.compute-1.amazonaws.com",
+      "ip_address": "107.20.205.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-107-22-238-80.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "edge-star-shv-01-bom1.facebook.com",
+      "ip_address": "157.240.16.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-174-129-0-175.compute-1.amazonaws.com",
+      "ip_address": "174.129.0.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-174-129-29-44.compute-1.amazonaws.com",
+      "ip_address": "174.129.29.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-184-72-248-107.compute-1.amazonaws.com",
+      "ip_address": "184.72.248.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-184-73-187-250.compute-1.amazonaws.com",
+      "ip_address": "184.73.187.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-184-73-243-250.compute-1.amazonaws.com",
+      "ip_address": "184.73.243.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "N/A",
+      "ip_address": "209.58.176.37",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "maa03s20-in-f33.1e100.net",
+      "ip_address": "216.58.197.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "bom07s01-in-f129.1e100.net",
+      "ip_address": "216.58.199.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-23-21-50-138.compute-1.amazonaws.com",
+      "ip_address": "23.21.50.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-23-21-54-53.compute-1.amazonaws.com",
+      "ip_address": "23.21.54.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-23-23-161-213.compute-1.amazonaws.com",
+      "ip_address": "23.23.161.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-23-23-181-34.compute-1.amazonaws.com",
+      "ip_address": "23.23.181.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-23-23-213-226.compute-1.amazonaws.com",
+      "ip_address": "23.23.213.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-23-23-227-102.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-23-23-72-114.compute-1.amazonaws.com",
+      "ip_address": "23.23.72.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-50-19-102-118.compute-1.amazonaws.com",
+      "ip_address": "50.19.102.118",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-50-19-122-61.compute-1.amazonaws.com",
+      "ip_address": "50.19.122.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-50-19-244-139.compute-1.amazonaws.com",
+      "ip_address": "50.19.244.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.0.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-197-237-178.compute-1.amazonaws.com",
+      "ip_address": "54.197.237.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-221-199-46.compute-1.amazonaws.com",
+      "ip_address": "54.221.199.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-221-244-3.compute-1.amazonaws.com",
+      "ip_address": "54.221.244.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-221-254-2.compute-1.amazonaws.com",
+      "ip_address": "54.221.254.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-225-161-73.compute-1.amazonaws.com",
+      "ip_address": "54.225.161.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-225-179-254.compute-1.amazonaws.com",
+      "ip_address": "54.225.179.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-225-192-196.compute-1.amazonaws.com",
+      "ip_address": "54.225.192.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-225-215-149.compute-1.amazonaws.com",
+      "ip_address": "54.225.215.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-225-221-53.compute-1.amazonaws.com",
+      "ip_address": "54.225.221.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-235-107-87.compute-1.amazonaws.com",
+      "ip_address": "54.235.107.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-235-130-118.compute-1.amazonaws.com",
+      "ip_address": "54.235.130.118",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-235-191-172.compute-1.amazonaws.com",
+      "ip_address": "54.235.191.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-243-126-239.compute-1.amazonaws.com",
+      "ip_address": "54.243.126.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-243-127-94.compute-1.amazonaws.com",
+      "ip_address": "54.243.127.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-243-170-6.compute-1.amazonaws.com",
+      "ip_address": "54.243.170.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-243-223-85.compute-1.amazonaws.com",
+      "ip_address": "54.243.223.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-243-99-96.compute-1.amazonaws.com",
+      "ip_address": "54.243.99.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.pipcamera.activity",
+      "ptr_domain": "ec2-75-101-130-107.compute-1.amazonaws.com",
+      "ip_address": "75.101.130.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

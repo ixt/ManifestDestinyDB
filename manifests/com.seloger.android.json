@@ -1,7 +1,7 @@
 {
   "appName": "SeLoger",
   "packageName": "com.seloger.android",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -31,17 +31,29 @@
   ],
   "version": "6.1.1",
   "trackers": [
-    "Google Ads",
-    "Google DoubleClick",
+    "Facebook Share",
     "ATInternet",
     "Google Firebase Analytics",
     "Ad4Screen",
-    "Demdex",
-    "Facebook Share",
-    "Tune",
     "Facebook Analytics",
     "Facebook Login",
+    "Demdex",
+    "Google Ads",
+    "Google DoubleClick",
+    "Tune",
     "Google CrashLytics",
     "Snowplow"
+  ],
+  "network_connections": [
+    {
+      "package": "com.seloger.android",
+      "ptr_domain": "ec2-34-192-63-57.compute-1.amazonaws.com",
+      "ip_address": "34.192.63.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

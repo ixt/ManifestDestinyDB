@@ -1,7 +1,7 @@
 {
   "appName": "HMA! Pro VPN",
   "packageName": "com.hidemyass.hidemyassprovpn",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,12 +24,34 @@
   ],
   "version": "4.7.2755",
   "trackers": [
-    "AppsFlyer",
-    "Google Firebase Analytics",
-    "Facebook Login",
-    "Google Analytics",
     "Google CrashLytics",
+    "Google Analytics",
+    "Facebook Share",
+    "AppsFlyer",
+    "Facebook Login",
     "Facebook Places",
-    "Facebook Share"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.hidemyass.hidemyassprovpn",
+      "ptr_domain": "ber01s09-in-f200.1e100.net",
+      "ip_address": "216.58.201.200",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.hidemyass.hidemyassprovpn",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

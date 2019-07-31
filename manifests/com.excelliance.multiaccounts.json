@@ -1,7 +1,7 @@
 {
   "appName": "Multiple Accounts",
   "packageName": "com.excelliance.multiaccounts",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_CACHE_FILESYSTEM",
@@ -208,9 +208,21 @@
   ],
   "version": "2.6.4",
   "trackers": [
-    "AppsFlyer",
-    "Google Analytics",
     "Google DoubleClick",
-    "Google Ads"
+    "Google Ads",
+    "Google Analytics",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.excelliance.multiaccounts",
+      "ptr_domain": "ec2-52-210-57-64.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.57.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

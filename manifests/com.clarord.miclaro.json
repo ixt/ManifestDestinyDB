@@ -1,7 +1,7 @@
 {
   "appName": "Mi Claro",
   "packageName": "com.clarord.miclaro",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -16,11 +16,23 @@
   ],
   "version": "6.8.0",
   "trackers": [
-    "Google CrashLytics",
     "Flurry",
     "Facebook Analytics",
-    "Facebook Share",
     "Facebook Login",
-    "Facebook Places"
+    "Google CrashLytics",
+    "Facebook Places",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.clarord.miclaro",
+      "ptr_domain": "55.88.3.196.l.sta.codetel.net.do",
+      "ip_address": "196.3.88.55",
+      "loc_city": "Santo Domingo Este",
+      "loc_country": "Dominican Republic",
+      "loc_continent": "North America",
+      "loc_long": "-69.894000",
+      "loc_lat": "18.465700"
+    }
   ]
 }

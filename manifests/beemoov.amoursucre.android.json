@@ -1,38 +1,78 @@
 {
   "appName": "My Candy Love",
   "packageName": "beemoov.amoursucre.android",
-  "category": "GAME_ROLE_PLAYING",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.READ_PHONE_STATE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.GET_ACCOUNTS",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "beemoov.amoursucre.android.permission.RECEIVE_ADM_MESSAGE",
+    "beemoov.amoursucre.android.permission.C2D_MESSAGE",
     "beemoov.amoursucre.android.permission.RECEIVE_ADM_MESSAGE",
     "com.amazon.device.messaging.permission.RECEIVE",
-    "beemoov.amoursucre.android.permission.C2D_MESSAGE",
-    "beemoov.amoursucre.android.permission.C2D_MESSAGE",
-    "org.onepf.openiab.permission.BILLING",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "org.onepf.openiab.permission.BILLING"
   ],
   "version": "3.3.8",
   "trackers": [
-    "Google CrashLytics",
+    "Google Ads",
+    "AppsFlyer",
+    "Google DoubleClick",
     "Google Firebase Analytics",
     "Google Analytics",
     "Facebook Share",
-    "AppsFlyer",
-    "Google Ads",
+    "Google CrashLytics",
     "Facebook Analytics",
-    "Google DoubleClick",
     "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "beemoov.amoursucre.android",
+      "ptr_domain": "a23-203-229-5.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.203.229.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "beemoov.amoursucre.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:8:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "beemoov.amoursucre.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f100:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "beemoov.amoursucre.android",
+      "ptr_domain": "edge-z-m-mini6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f10d:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    }
   ]
 }

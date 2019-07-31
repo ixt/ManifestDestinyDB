@@ -1,0 +1,741 @@
+{
+  "appName": "Boom Beach",
+  "packageName": "com.supercell.boombeach",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "38.106",
+  "trackers": [
+    "Facebook Login",
+    "Facebook Places",
+    "HelpShift",
+    "Facebook Analytics",
+    "Facebook Share",
+    "Google CrashLytics",
+    "Google Analytics",
+    "Tune",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-107-20-212-115.compute-1.amazonaws.com",
+      "ip_address": "107.20.212.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-107-23-28-239.compute-1.amazonaws.com",
+      "ip_address": "107.23.28.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-129-236.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.129.236",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-131-224.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.131.224",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-149-20.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.149.20",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-152-134.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.152.134",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-156-171.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.156.171",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-157-166.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.157.166",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-163-201.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.163.201",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-164-133.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.164.133",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-174-97.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.174.97",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-169-181-94.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.181.94",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-72-37-61.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.72.37.61",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-72-39-84.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.72.39.84",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-184-73-250-203.compute-1.amazonaws.com",
+      "ip_address": "184.73.250.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-204-236-134-117.us-west-1.compute.amazonaws.com",
+      "ip_address": "204.236.134.117",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-205-251-215-136.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.136",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-205-251-215-13.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.13",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-205-251-215-178.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.178",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-205-251-215-70.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.70",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-205-251-215-79.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.79",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-23-21-200-113.compute-1.amazonaws.com",
+      "ip_address": "23.21.200.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "edge-star6-shv-01-iad3.facebook.com",
+      "ip_address": "2a03:2880:f003:c07:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f01c:2:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "edge-z-m-mini-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.37",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-17-239-226.compute-1.amazonaws.com",
+      "ip_address": "50.17.239.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-18-114-34.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.114.34",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-18-151-133.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.151.133",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-18-158-187.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.158.187",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-18-174-39.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.174.39",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-18-190-203.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.190.203",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-18-248-217.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.248.217",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-18-45-175.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.45.175",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-18-57-42.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.57.42",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-18-59-61.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.59.61",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-50-19-218-228.compute-1.amazonaws.com",
+      "ip_address": "50.19.218.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-52-20-125-193.compute-1.amazonaws.com",
+      "ip_address": "52.20.125.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-52-22-169-132.compute-1.amazonaws.com",
+      "ip_address": "52.22.169.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-222-171-116.fra54.r.cloudfront.net",
+      "ip_address": "52.222.171.116",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-222-171-167.fra54.r.cloudfront.net",
+      "ip_address": "52.222.171.167",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-222-171-250.fra54.r.cloudfront.net",
+      "ip_address": "52.222.171.250",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-52-3-82-39.compute-1.amazonaws.com",
+      "ip_address": "52.3.82.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-52-3-99-107.compute-1.amazonaws.com",
+      "ip_address": "52.3.99.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-52-44-7-77.compute-1.amazonaws.com",
+      "ip_address": "52.44.7.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-52-45-13-66.compute-1.amazonaws.com",
+      "ip_address": "52.45.13.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-52-5-129-37.compute-1.amazonaws.com",
+      "ip_address": "52.5.129.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-84-21-149.sea32.r.cloudfront.net",
+      "ip_address": "52.84.21.149",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-84-21-237.sea32.r.cloudfront.net",
+      "ip_address": "52.84.21.237",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-84-21-238.sea32.r.cloudfront.net",
+      "ip_address": "52.84.21.238",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-84-21-35.sea32.r.cloudfront.net",
+      "ip_address": "52.84.21.35",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-85-142-179.iad12.r.cloudfront.net",
+      "ip_address": "52.85.142.179",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-85-47-116.mad50.r.cloudfront.net",
+      "ip_address": "52.85.47.116",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-85-47-140.mad50.r.cloudfront.net",
+      "ip_address": "52.85.47.140",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-85-47-150.mad50.r.cloudfront.net",
+      "ip_address": "52.85.47.150",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-85-47-50.mad50.r.cloudfront.net",
+      "ip_address": "52.85.47.50",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-52-85-90-242.jfk6.r.cloudfront.net",
+      "ip_address": "52.85.90.242",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-54-165-214-189.compute-1.amazonaws.com",
+      "ip_address": "54.165.214.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-54-173-225-146.compute-1.amazonaws.com",
+      "ip_address": "54.173.225.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-54-175-19-240.compute-1.amazonaws.com",
+      "ip_address": "54.175.19.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-54-192-93-22.fra2.r.cloudfront.net",
+      "ip_address": "54.192.93.22",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "server-54-192-93-60.fra2.r.cloudfront.net",
+      "ip_address": "54.192.93.60",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-54-208-240-106.compute-1.amazonaws.com",
+      "ip_address": "54.208.240.106",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-54-209-123-161.compute-1.amazonaws.com",
+      "ip_address": "54.209.123.161",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-54-210-172-10.compute-1.amazonaws.com",
+      "ip_address": "54.210.172.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-54-225-166-48.compute-1.amazonaws.com",
+      "ip_address": "54.225.166.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-54-225-175-1.compute-1.amazonaws.com",
+      "ip_address": "54.225.175.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.supercell.boombeach",
+      "ptr_domain": "ec2-54-235-192-214.compute-1.amazonaws.com",
+      "ip_address": "54.235.192.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

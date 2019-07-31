@@ -1,7 +1,7 @@
 {
   "appName": "Nearify",
   "packageName": "com.nearify.android",
-  "category": "EVENTS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,11 +23,23 @@
   ],
   "version": "9.2",
   "trackers": [
-    "Facebook Share",
     "Facebook Login",
+    "Google Analytics",
+    "Facebook Share",
     "Facebook Analytics",
     "Google Firebase Analytics",
-    "MixPanel",
-    "Google Analytics"
+    "MixPanel"
+  ],
+  "network_connections": [
+    {
+      "package": "com.nearify.android",
+      "ptr_domain": "ec2-54-210-223-201.compute-1.amazonaws.com",
+      "ip_address": "54.210.223.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Quick Search",
   "packageName": "com.startapp.quicksearchbox",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -27,9 +27,31 @@
   "trackers": [
     "Localytics",
     "Startapp",
-    "AppsFlyer",
     "MixPanel",
     "Flurry",
-    "Google Firebase Analytics"
+    "Google Firebase Analytics",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.startapp.quicksearchbox",
+      "ptr_domain": "a23-66-252-150.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.66.252.150",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.startapp.quicksearchbox",
+      "ptr_domain": "a23-67-1-167.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.67.1.167",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "BlackPlayer",
   "packageName": "com.kodarkooperativet.blackplayerfree",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -21,10 +21,22 @@
   ],
   "version": "2.54",
   "trackers": [
-    "Google Firebase Analytics",
     "Google Ads",
+    "Google Firebase Analytics",
+    "Facebook Ads",
     "Google CrashLytics",
-    "Google Analytics",
-    "Facebook Ads"
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.kodarkooperativet.blackplayerfree",
+      "ptr_domain": "ec2-23-21-53-226.compute-1.amazonaws.com",
+      "ip_address": "23.21.53.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

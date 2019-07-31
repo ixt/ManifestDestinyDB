@@ -1,7 +1,7 @@
 {
   "appName": "ARD Mediathek",
   "packageName": "de.swr.avp.ard",
-  "category": "VIDEO_PLAYERS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -12,11 +12,53 @@
   ],
   "version": "7.5.3",
   "trackers": [
-    "ATInternet",
-    "Google CrashLytics",
-    "Google Ads",
-    "INFOnline",
     "Google Firebase Analytics",
-    "Google DoubleClick"
+    "INFOnline",
+    "ATInternet",
+    "Google DoubleClick",
+    "Google CrashLytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "de.swr.avp.ard",
+      "ptr_domain": "N/A",
+      "ip_address": "212.122.129.27",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.swr.avp.ard",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6810:cca5",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "de.swr.avp.ard",
+      "ptr_domain": "script3.ioam.de",
+      "ip_address": "91.215.103.64",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.swr.avp.ard",
+      "ptr_domain": "de3.ioam.de",
+      "ip_address": "91.215.103.65",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
   ]
 }

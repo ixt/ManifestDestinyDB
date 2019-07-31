@@ -1,7 +1,7 @@
 {
   "appName": "Xodo Docs",
   "packageName": "com.xodo.pdf.reader",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -22,8 +22,20 @@
   "version": "4.7.4",
   "trackers": [
     "Google Firebase Analytics",
-    "HockeyApp",
+    "Google CrashLytics",
     "Google Analytics",
-    "Google CrashLytics"
+    "HockeyApp"
+  ],
+  "network_connections": [
+    {
+      "package": "com.xodo.pdf.reader",
+      "ptr_domain": "acmkokissk.gs01.gridserver.com",
+      "ip_address": "64.13.203.124",
+      "loc_city": "Culver City",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.397300",
+      "loc_lat": "34.016800"
+    }
   ]
 }

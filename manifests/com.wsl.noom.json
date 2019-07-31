@@ -1,7 +1,7 @@
 {
   "appName": "Noom",
   "packageName": "com.wsl.noom",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -50,15 +50,37 @@
   ],
   "version": "7.2.0",
   "trackers": [
-    "Facebook Login",
-    "Google CrashLytics",
-    "Flurry",
-    "Branch",
-    "Google Firebase Analytics",
     "MixPanel",
-    "Google Analytics",
-    "Facebook Analytics",
+    "Google Firebase Analytics",
+    "Branch",
+    "Flurry",
     "Facebook Share",
-    "Facebook Places"
+    "Facebook Analytics",
+    "Google CrashLytics",
+    "Facebook Places",
+    "Facebook Login",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.wsl.noom",
+      "ptr_domain": "N/A",
+      "ip_address": "198.101.168.160",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.wsl.noom",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.28",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

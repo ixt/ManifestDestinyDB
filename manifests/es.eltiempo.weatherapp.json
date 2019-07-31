@@ -1,7 +1,7 @@
 {
   "appName": "ElTiempo.es",
   "packageName": "es.eltiempo.weatherapp",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -21,17 +21,309 @@
   ],
   "version": "3.8.6",
   "trackers": [
-    "ComScore",
-    "Krux",
-    "Brightcove",
     "Google CrashLytics",
-    "Facebook Login",
+    "Facebook Share",
     "Google DoubleClick",
-    "Google Firebase Analytics",
-    "Amazon Advertisement",
+    "Krux",
+    "ComScore",
     "Google Ads",
     "Google Analytics",
+    "Facebook Login",
+    "Brightcove",
     "Facebook Places",
-    "Facebook Share"
+    "Amazon Advertisement",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.112.173",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.116.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "cas.fr.eu.criteo.com",
+      "ip_address": "178.250.0.101",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "N/A",
+      "ip_address": "178.250.0.66",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad06s25-in-f129.1e100.net",
+      "ip_address": "216.58.201.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad06s25-in-f2.1e100.net",
+      "ip_address": "216.58.201.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad06s25-in-f6.1e100.net",
+      "ip_address": "216.58.201.134",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad06s10-in-f162.1e100.net",
+      "ip_address": "216.58.210.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad06s10-in-f163.1e100.net",
+      "ip_address": "216.58.210.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad06s10-in-f6.1e100.net",
+      "ip_address": "216.58.210.166",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad01s25-in-f193.1e100.net",
+      "ip_address": "216.58.211.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad01s25-in-f2.1e100.net",
+      "ip_address": "216.58.211.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad01s25-in-f202.1e100.net",
+      "ip_address": "216.58.211.202",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad01s24-in-f226.1e100.net",
+      "ip_address": "216.58.211.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad01s24-in-f234.1e100.net",
+      "ip_address": "216.58.211.234",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "mad01s26-in-f2.1e100.net",
+      "ip_address": "216.58.214.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "ec2-50-19-235-238.compute-1.amazonaws.com",
+      "ip_address": "50.19.235.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "ec2-52-16-252-135.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.252.135",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "ec2-52-17-186-21.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.186.21",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "ec2-52-211-51-70.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.51.70",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "server-52-85-47-181.mad50.r.cloudfront.net",
+      "ip_address": "52.85.47.181",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "server-52-85-47-50.mad50.r.cloudfront.net",
+      "ip_address": "52.85.47.50",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.220.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "server-54-192-63-161.mad50.r.cloudfront.net",
+      "ip_address": "54.192.63.161",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "server-54-192-63-52.mad50.r.cloudfront.net",
+      "ip_address": "54.192.63.52",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "ec2-54-225-144-48.compute-1.amazonaws.com",
+      "ip_address": "54.225.144.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "es.eltiempo.weatherapp",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.32.31",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

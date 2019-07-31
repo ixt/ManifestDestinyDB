@@ -1,7 +1,7 @@
 {
   "appName": "Voxer",
   "packageName": "com.rebelvox.voxer",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -61,12 +61,614 @@
   ],
   "version": "3.18.19.21068",
   "trackers": [
-    "Facebook Analytics",
-    "Google Firebase Analytics",
     "Google CrashLytics",
+    "Facebook Login",
+    "Facebook Analytics",
+    "Facebook Places",
     "MixPanel",
     "Facebook Share",
-    "Facebook Login",
-    "Facebook Places"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "edge-star-shv-02-ort2.facebook.com",
+      "ip_address": "157.240.18.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "a.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "b.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "10.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "11.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "12.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "17.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "19.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "1c.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.28",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "20.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.32",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "21.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.33",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "22.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "25.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "26.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "27.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "29.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.41",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "2b.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.43",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "5.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "8.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "N/A",
+      "ip_address": "165.225.152.219",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.399400",
+      "loc_lat": "37.797600"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "N/A",
+      "ip_address": "165.225.152.226",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.399400",
+      "loc_lat": "37.797600"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "N/A",
+      "ip_address": "165.225.153.188",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.399400",
+      "loc_lat": "37.797600"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "N/A",
+      "ip_address": "165.225.153.98",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.399400",
+      "loc_lat": "37.797600"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "21.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.33",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "5.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "9.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "8c.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.140",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "9f.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.159",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "a1.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "a6.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.166",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "b4.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.180",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "c6.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.198",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "cf.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "dfw06s38-in-f15.1e100.net",
+      "ip_address": "172.217.0.239",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "yyz10s06-in-f15.1e100.net",
+      "ip_address": "172.217.2.175",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ord37s09-in-f15.1e100.net",
+      "ip_address": "172.217.8.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-23-21-138-252.compute-1.amazonaws.com",
+      "ip_address": "23.21.138.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-23-21-182-231.compute-1.amazonaws.com",
+      "ip_address": "23.21.182.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-23-23-102-58.compute-1.amazonaws.com",
+      "ip_address": "23.23.102.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "edge-star-shv-01-hkg3.facebook.com",
+      "ip_address": "31.13.95.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-52-8-117-25.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.117.25",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-52-8-242-7.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.242.7",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-52-8-58-209.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.58.209",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-52-8-72-47.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.72.47",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-52-9-105-139.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.105.139",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-52-9-32-193.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.32.193",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-52-9-57-47.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.57.47",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-183-102-215.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.102.215",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-183-93-198.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.93.198",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-193-60-137.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.60.137",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-215-231-130.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.231.130",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-219-156-148.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.219.156.148",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-219-157-60.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.219.157.60",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-235-148-27.compute-1.amazonaws.com",
+      "ip_address": "54.235.148.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-243-147-114.compute-1.amazonaws.com",
+      "ip_address": "54.243.147.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-67-62-120.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.67.62.120",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "ec2-54-67-9-17.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.67.9.17",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rebelvox.voxer",
+      "ptr_domain": "yw-in-f117.1e100.net",
+      "ip_address": "64.233.176.117",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

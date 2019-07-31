@@ -1,7 +1,7 @@
 {
   "appName": "Telstra Air®",
   "packageName": "com.telstra.mobile.android.air",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,8 +22,20 @@
   ],
   "version": "9.1.0",
   "trackers": [
-    "New Relic",
     "Google CrashLytics",
-    "Demdex"
+    "Demdex",
+    "New Relic"
+  ],
+  "network_connections": [
+    {
+      "package": "com.telstra.mobile.android.air",
+      "ptr_domain": "N/A",
+      "ip_address": "203.36.148.153",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "143.210400",
+      "loc_lat": "-33.494000"
+    }
   ]
 }

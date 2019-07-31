@@ -1,7 +1,7 @@
 {
   "appName": "Legimi e-books",
   "packageName": "legimi.android.main",
-  "category": "BOOKS_AND_REFERENCE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -19,12 +19,24 @@
   ],
   "version": "2.65.5",
   "trackers": [
-    "Facebook Places",
-    "Google Firebase Analytics",
-    "Facebook Analytics",
     "Facebook Share",
+    "Facebook Analytics",
+    "Google Firebase Analytics",
+    "Google Analytics",
     "HockeyApp",
-    "Facebook Login",
-    "Google Analytics"
+    "Facebook Places",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "legimi.android.main",
+      "ptr_domain": "ec2-34-192-63-57.compute-1.amazonaws.com",
+      "ip_address": "34.192.63.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

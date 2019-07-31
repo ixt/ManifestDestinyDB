@@ -1,7 +1,7 @@
 {
   "appName": "USA TODAY",
   "packageName": "com.usatoday.android.news",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -28,21 +28,1343 @@
   ],
   "version": "5.17.1",
   "trackers": [
-    "Amazon Advertisement",
-    "Demdex",
-    "Facebook Analytics",
     "Facebook Places",
-    "ComScore",
-    "Urbanairship",
+    "Moat",
+    "Amazon Advertisement",
+    "Localytics",
+    "Facebook Analytics",
+    "Facebook Share",
     "Google CrashLytics",
-    "Google DoubleClick",
-    "Facebook Login",
+    "Google Ads",
+    "ComScore",
     "Krux",
     "Google Firebase Analytics",
-    "Localytics",
-    "Google Ads",
-    "Facebook Share",
-    "Moat",
+    "Facebook Login",
+    "Urbanairship",
+    "Demdex",
+    "Google DoubleClick",
     "Adjust"
+  ],
+  "network_connections": [
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a104-107-25-66.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.107.25.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a104-107-5-195.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.107.5.195",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.90.50",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.43.49",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.167",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a104-78-128-103.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.78.128.103",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a104-80-31-145.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.80.31.145",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a104-80-68-156.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.80.68.156",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a104-81-154-149.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.81.154.149",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a104-91-33-58.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.91.33.58",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a104-96-204-130.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.96.204.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a104-97-126-35.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.97.126.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-107-20-241-21.compute-1.amazonaws.com",
+      "ip_address": "107.20.241.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-107-21-109-56.compute-1.amazonaws.com",
+      "ip_address": "107.21.109.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-107-22-161-159.compute-1.amazonaws.com",
+      "ip_address": "107.22.161.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.118.62",
+      "loc_city": "Boston",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-71.063100",
+      "loc_lat": "42.356200"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.130.62",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.22.62",
+      "loc_city": "New York",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.002900",
+      "loc_lat": "40.714500"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.2.62",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.56.143",
+      "loc_city": "Atlanta",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.387100",
+      "loc_lat": "33.748500"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.58.62",
+      "loc_city": "Atlanta",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.387100",
+      "loc_lat": "33.748500"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.66.62",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga34s16-in-f2.1e100.net",
+      "ip_address": "172.217.10.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga25s59-in-f2.1e100.net",
+      "ip_address": "172.217.10.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga34s14-in-f2.1e100.net",
+      "ip_address": "172.217.10.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga25s61-in-f2.1e100.net",
+      "ip_address": "172.217.11.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga25s55-in-f1.1e100.net",
+      "ip_address": "172.217.6.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "sfo03s08-in-f34.1e100.net",
+      "ip_address": "172.217.6.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "sfo03s08-in-f38.1e100.net",
+      "ip_address": "172.217.6.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "sfo07s17-in-f2.1e100.net",
+      "ip_address": "172.217.6.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga25s56-in-f2.1e100.net",
+      "ip_address": "172.217.7.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga34s11-in-f2.1e100.net",
+      "ip_address": "172.217.9.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a2.c8.c1ad.ip4.static.sl-reverse.com",
+      "ip_address": "173.193.200.162",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "dd.e5.c1ad.ip4.static.sl-reverse.com",
+      "ip_address": "173.193.229.221",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ya-in-f156.1e100.net",
+      "ip_address": "173.194.219.156",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com",
+      "ip_address": "174.129.19.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-174-129-40-191.compute-1.amazonaws.com",
+      "ip_address": "174.129.40.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a184-27-110-143.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.27.110.143",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a184-27-110-176.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.27.110.176",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a184-29-141-8.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.29.141.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-184-73-203-162.compute-1.amazonaws.com",
+      "ip_address": "184.73.203.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "199.16.156.52",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "199.96.57.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "sfo07s13-in-f162.1e100.net",
+      "ip_address": "216.58.194.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-194-121-238.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.194.121.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-194-182-82.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.194.182.82",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-202-233-24.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.202.233.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-203-72-97.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.203.72.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-205-210-224.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.205.210.224",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-206-224-169.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.206.224.169",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-207-174-116.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.207.174.116",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-23-21-213-97.compute-1.amazonaws.com",
+      "ip_address": "23.21.213.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-23-21-92-173.compute-1.amazonaws.com",
+      "ip_address": "23.21.92.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-23-23-161-173.compute-1.amazonaws.com",
+      "ip_address": "23.23.161.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-36-32-191.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.36.32.191",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-36-34-126.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.36.34.126",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-36-70-64.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.36.70.64",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-40-2-249.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.40.2.249",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-51-196-11.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.51.196.11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-53-122-10.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.53.122.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-54-43-82.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.54.43.82",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-72-155-126.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.72.155.126",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "a23-72-161-211.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.72.161.211",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "sfo03s07-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "sfo03s08-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "sfo03s08-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "sfo03s08-in-x06.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2006",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga34s12-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4006:802::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga25s54-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4006:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "lga34s16-in-x06.1e100.net",
+      "ip_address": "2607:f8b0:4006:812::2006",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "sea15s11-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:400a:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-34-194-31-4.compute-1.amazonaws.com",
+      "ip_address": "34.194.31.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-34-196-149-119.compute-1.amazonaws.com",
+      "ip_address": "34.196.149.119",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-34-224-171-34.compute-1.amazonaws.com",
+      "ip_address": "34.224.171.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-35-160-5-86.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.160.5.86",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "presentation-atl1.turn.com",
+      "ip_address": "50.116.194.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-50-18-212-220.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.212.220",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-50-19-100-110.compute-1.amazonaws.com",
+      "ip_address": "50.19.100.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-50-19-244-139.compute-1.amazonaws.com",
+      "ip_address": "50.19.244.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-50-19-93-128.compute-1.amazonaws.com",
+      "ip_address": "50.19.93.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-205-3-64.compute-1.amazonaws.com",
+      "ip_address": "52.205.3.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-205-40-87.compute-1.amazonaws.com",
+      "ip_address": "52.205.40.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-206-164-48.compute-1.amazonaws.com",
+      "ip_address": "52.206.164.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-206-53-186.compute-1.amazonaws.com",
+      "ip_address": "52.206.53.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-21-163-254.compute-1.amazonaws.com",
+      "ip_address": "52.21.163.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-214-211-15.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.211.15",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "server-52-222-219-155.msp50.r.cloudfront.net",
+      "ip_address": "52.222.219.155",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-3-104-252.compute-1.amazonaws.com",
+      "ip_address": "52.3.104.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-6-114-238.compute-1.amazonaws.com",
+      "ip_address": "52.6.114.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-7-131-48.compute-1.amazonaws.com",
+      "ip_address": "52.7.131.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-72-243-207.compute-1.amazonaws.com",
+      "ip_address": "52.72.243.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-73-29-75.compute-1.amazonaws.com",
+      "ip_address": "52.73.29.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-7-35-112.compute-1.amazonaws.com",
+      "ip_address": "52.7.35.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "server-52-84-243-229.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.229",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "server-52-84-243-81.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.81",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "server-52-85-142-194.iad12.r.cloudfront.net",
+      "ip_address": "52.85.142.194",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "server-52-85-95-96.jfk5.r.cloudfront.net",
+      "ip_address": "52.85.95.96",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-86-17-43.compute-1.amazonaws.com",
+      "ip_address": "52.86.17.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-87-21-221.compute-1.amazonaws.com",
+      "ip_address": "52.87.21.221",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-52-89-254-136.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.89.254.136",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.224.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.232.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.232.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.232.33",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.236.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-221-230-67.compute-1.amazonaws.com",
+      "ip_address": "54.221.230.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-225-130-79.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-225-136-132.compute-1.amazonaws.com",
+      "ip_address": "54.225.136.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-225-170-144.compute-1.amazonaws.com",
+      "ip_address": "54.225.170.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-225-209-156.compute-1.amazonaws.com",
+      "ip_address": "54.225.209.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.17.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.23.82",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-243-101-102.compute-1.amazonaws.com",
+      "ip_address": "54.243.101.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-243-215-229.compute-1.amazonaws.com",
+      "ip_address": "54.243.215.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-68-225-122.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.68.225.122",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-84-152-61.compute-1.amazonaws.com",
+      "ip_address": "54.84.152.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "ec2-54-86-223-191.compute-1.amazonaws.com",
+      "ip_address": "54.86.223.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "103.108.241.63.in-addr.arpa. CNAME 103.64/26.108.241.63.in-addr.arpa",
+      "ip_address": "63.241.108.103",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "yx-in-f157.1e100.net",
+      "ip_address": "64.233.177.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "68.128.204.113",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.55",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.56",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "70.42.146.149",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.91.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "74.119.118.86",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "yi-in-f132.1e100.net",
+      "ip_address": "74.125.138.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "yi-in-f148.1e100.net",
+      "ip_address": "74.125.138.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "yk-in-f128.1e100.net",
+      "ip_address": "74.125.196.128",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "yk-in-f156.1e100.net",
+      "ip_address": "74.125.196.156",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usatoday.android.news",
+      "ptr_domain": "yk-in-f95.1e100.net",
+      "ip_address": "74.125.196.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

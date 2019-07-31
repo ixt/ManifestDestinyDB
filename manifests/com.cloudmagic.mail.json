@@ -1,7 +1,7 @@
 {
   "appName": "Newton",
   "packageName": "com.cloudmagic.mail",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -36,13 +36,365 @@
   ],
   "version": "10.0.23",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Analytics",
-    "Facebook Places",
-    "Facebook Share",
-    "MixPanel",
     "Facebook Login",
+    "MixPanel",
     "Facebook Analytics",
+    "Facebook Places",
+    "Google Analytics",
+    "Facebook Share",
+    "Google Firebase Analytics",
     "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "a104-105-238-249.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.105.238.249",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-107-23-238-107.compute-1.amazonaws.com",
+      "ip_address": "107.23.238.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "nrt12s13-in-f1.1e100.net",
+      "ip_address": "172.217.25.193",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "dfw25s34-in-f3.1e100.net",
+      "ip_address": "216.58.193.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "a23-199-54-46.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.199.54.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-50-17-249-87.compute-1.amazonaws.com",
+      "ip_address": "50.17.249.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-0-184-164.compute-1.amazonaws.com",
+      "ip_address": "52.0.184.164",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-200-95-62.compute-1.amazonaws.com",
+      "ip_address": "52.200.95.62",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-204-100-53.compute-1.amazonaws.com",
+      "ip_address": "52.204.100.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-20-44-15.compute-1.amazonaws.com",
+      "ip_address": "52.20.44.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-20-80-201.compute-1.amazonaws.com",
+      "ip_address": "52.20.80.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-22-192-224.compute-1.amazonaws.com",
+      "ip_address": "52.22.192.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-5-67-98.compute-1.amazonaws.com",
+      "ip_address": "52.5.67.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-6-15-158.compute-1.amazonaws.com",
+      "ip_address": "52.6.15.158",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-7-131-104.compute-1.amazonaws.com",
+      "ip_address": "52.7.131.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-72-135-224.compute-1.amazonaws.com",
+      "ip_address": "52.72.135.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "server-52-84-78-119.atl52.r.cloudfront.net",
+      "ip_address": "52.84.78.119",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-52-86-175-38.compute-1.amazonaws.com",
+      "ip_address": "52.86.175.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-149-18-211.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.149.18.211",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-163-251-123.compute-1.amazonaws.com",
+      "ip_address": "54.163.251.123",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-164-239-82.compute-1.amazonaws.com",
+      "ip_address": "54.164.239.82",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-174-172-132.compute-1.amazonaws.com",
+      "ip_address": "54.174.172.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-174-7-241.compute-1.amazonaws.com",
+      "ip_address": "54.174.7.241",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-210-204-169.compute-1.amazonaws.com",
+      "ip_address": "54.210.204.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-225-130-79.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "s3-1-w.amazonaws.com",
+      "ip_address": "54.231.83.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-236-105-73.compute-1.amazonaws.com",
+      "ip_address": "54.236.105.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-236-144-213.compute-1.amazonaws.com",
+      "ip_address": "54.236.144.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-243-119-134.compute-1.amazonaws.com",
+      "ip_address": "54.243.119.134",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-243-33-165.compute-1.amazonaws.com",
+      "ip_address": "54.243.33.165",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-243-84-112.compute-1.amazonaws.com",
+      "ip_address": "54.243.84.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-83-49-38.compute-1.amazonaws.com",
+      "ip_address": "54.83.49.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-85-250-230.compute-1.amazonaws.com",
+      "ip_address": "54.85.250.230",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-85-49-12.compute-1.amazonaws.com",
+      "ip_address": "54.85.49.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cloudmagic.mail",
+      "ptr_domain": "ec2-54-86-52-196.compute-1.amazonaws.com",
+      "ip_address": "54.86.52.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

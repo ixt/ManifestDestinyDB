@@ -1,7 +1,7 @@
 {
   "appName": "Medisafe",
   "packageName": "com.medisafe.android.client",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,15 +24,718 @@
   ],
   "version": "8.36.07206",
   "trackers": [
+    "AppsFlyer",
     "Google CrashLytics",
     "Google Firebase Analytics",
-    "Google Analytics",
-    "Localytics",
-    "Facebook Login",
-    "Branch",
-    "AppsFlyer",
     "Facebook Share",
+    "Branch",
     "Facebook Places",
+    "Localytics",
+    "Google Analytics",
+    "Facebook Login",
+    "Bugsnag",
     "Apptimize"
+  ],
+  "network_connections": [
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-107-20-139-157.compute-1.amazonaws.com",
+      "ip_address": "107.20.139.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-107-21-118-233.compute-1.amazonaws.com",
+      "ip_address": "107.21.118.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-107-22-238-216.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com",
+      "ip_address": "23.23.112.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "edge-star6-shv-02-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:110:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "edge-star-shv-01-lax3.facebook.com",
+      "ip_address": "31.13.70.1",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-34-192-76-17.compute-1.amazonaws.com",
+      "ip_address": "34.192.76.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-34-194-31-4.compute-1.amazonaws.com",
+      "ip_address": "34.194.31.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-34-196-149-119.compute-1.amazonaws.com",
+      "ip_address": "34.196.149.119",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-34-198-137-154.compute-1.amazonaws.com",
+      "ip_address": "34.198.137.154",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-34-205-251-204.compute-1.amazonaws.com",
+      "ip_address": "34.205.251.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-34-224-171-34.compute-1.amazonaws.com",
+      "ip_address": "34.224.171.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-34-225-92-15.compute-1.amazonaws.com",
+      "ip_address": "34.225.92.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-50-16-185-40.compute-1.amazonaws.com",
+      "ip_address": "50.16.185.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-50-19-220-208.compute-1.amazonaws.com",
+      "ip_address": "50.19.220.208",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-50-19-224-242.compute-1.amazonaws.com",
+      "ip_address": "50.19.224.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-50-19-38-16.compute-1.amazonaws.com",
+      "ip_address": "50.19.38.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-0-67-65.compute-1.amazonaws.com",
+      "ip_address": "52.0.67.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-1-101-255.compute-1.amazonaws.com",
+      "ip_address": "52.1.101.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-1-131-19.compute-1.amazonaws.com",
+      "ip_address": "52.1.131.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-200-124-246.compute-1.amazonaws.com",
+      "ip_address": "52.200.124.246",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-201-153-133.compute-1.amazonaws.com",
+      "ip_address": "52.201.153.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-205-3-64.compute-1.amazonaws.com",
+      "ip_address": "52.205.3.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-206-164-48.compute-1.amazonaws.com",
+      "ip_address": "52.206.164.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-206-36-65.compute-1.amazonaws.com",
+      "ip_address": "52.206.36.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-206-53-186.compute-1.amazonaws.com",
+      "ip_address": "52.206.53.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-21-163-254.compute-1.amazonaws.com",
+      "ip_address": "52.21.163.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-21-99-97.compute-1.amazonaws.com",
+      "ip_address": "52.21.99.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-35-158-138.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.158.138",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-4-187-180.compute-1.amazonaws.com",
+      "ip_address": "52.4.187.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-54-146-212.compute-1.amazonaws.com",
+      "ip_address": "52.54.146.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-6-114-238.compute-1.amazonaws.com",
+      "ip_address": "52.6.114.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-6-98-127.compute-1.amazonaws.com",
+      "ip_address": "52.6.98.127",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-7-131-48.compute-1.amazonaws.com",
+      "ip_address": "52.7.131.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-72-243-207.compute-1.amazonaws.com",
+      "ip_address": "52.72.243.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-73-29-75.compute-1.amazonaws.com",
+      "ip_address": "52.73.29.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-7-35-112.compute-1.amazonaws.com",
+      "ip_address": "52.7.35.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-86-17-43.compute-1.amazonaws.com",
+      "ip_address": "52.86.17.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-86-177-162.compute-1.amazonaws.com",
+      "ip_address": "52.86.177.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-86-81-101.compute-1.amazonaws.com",
+      "ip_address": "52.86.81.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-87-11-228.compute-1.amazonaws.com",
+      "ip_address": "52.87.11.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-52-89-249-6.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.89.249.6",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-165-155-168.compute-1.amazonaws.com",
+      "ip_address": "54.165.155.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-186-200-142.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.186.200.142",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-191-212-67.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.191.212.67",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "server-54-192-138-110.lax1.r.cloudfront.net",
+      "ip_address": "54.192.138.110",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "server-54-192-85-145.lax3.r.cloudfront.net",
+      "ip_address": "54.192.85.145",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "server-54-192-85-35.lax3.r.cloudfront.net",
+      "ip_address": "54.192.85.35",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-197-234-180.compute-1.amazonaws.com",
+      "ip_address": "54.197.234.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-200-38-205.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.200.38.205",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-201-75-133.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.201.75.133",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-208-235-44.compute-1.amazonaws.com",
+      "ip_address": "54.208.235.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-225-168-139.compute-1.amazonaws.com",
+      "ip_address": "54.225.168.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-225-195-136.compute-1.amazonaws.com",
+      "ip_address": "54.225.195.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-225-233-150.compute-1.amazonaws.com",
+      "ip_address": "54.225.233.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "server-54-230-86-14.lax3.r.cloudfront.net",
+      "ip_address": "54.230.86.14",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-235-132-180.compute-1.amazonaws.com",
+      "ip_address": "54.235.132.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-235-182-15.compute-1.amazonaws.com",
+      "ip_address": "54.235.182.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-243-182-104.compute-1.amazonaws.com",
+      "ip_address": "54.243.182.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-243-252-170.compute-1.amazonaws.com",
+      "ip_address": "54.243.252.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-68-106-54.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.68.106.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-84-152-61.compute-1.amazonaws.com",
+      "ip_address": "54.84.152.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-85-192-89.compute-1.amazonaws.com",
+      "ip_address": "54.85.192.89",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-86-223-191.compute-1.amazonaws.com",
+      "ip_address": "54.86.223.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.medisafe.android.client",
+      "ptr_domain": "ec2-54-88-41-66.compute-1.amazonaws.com",
+      "ip_address": "54.88.41.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

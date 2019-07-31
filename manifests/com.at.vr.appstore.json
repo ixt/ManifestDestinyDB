@@ -1,7 +1,7 @@
 {
   "appName": "VR Games Store",
   "packageName": "com.at.vr.appstore",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -11,10 +11,22 @@
   ],
   "version": "3.0",
   "trackers": [
-    "Google Analytics",
-    "Unity3d Ads",
-    "Google DoubleClick",
     "Google Ads",
+    "Unity3d Ads",
+    "Google Analytics",
+    "Google DoubleClick",
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.at.vr.appstore",
+      "ptr_domain": "server-54-230-143-124.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.124",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "OpenSnow",
   "packageName": "com.opensnow.android",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -39,11 +39,43 @@
   "version": "3.0.5",
   "trackers": [
     "Google Firebase Analytics",
-    "Google DoubleClick",
-    "OneSignal",
-    "Google Analytics",
     "Google CrashLytics",
+    "Google DoubleClick",
+    "Google Analytics",
+    "OneSignal",
     "Flurry",
     "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.opensnow.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.opensnow.android",
+      "ptr_domain": "ec2-50-17-193-175.compute-1.amazonaws.com",
+      "ip_address": "50.17.193.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.opensnow.android",
+      "ptr_domain": "ec2-52-73-46-179.compute-1.amazonaws.com",
+      "ip_address": "52.73.46.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

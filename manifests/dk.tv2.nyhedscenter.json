@@ -1,7 +1,7 @@
 {
   "appName": "Nyheder",
   "packageName": "dk.tv2.nyhedscenter",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -21,12 +21,24 @@
   ],
   "version": "7.2.0-Release-38",
   "trackers": [
-    "Demdex",
     "Google Firebase Analytics",
-    "Flurry",
     "Google CrashLytics",
-    "Google DoubleClick",
+    "Demdex",
+    "Urbanairship",
+    "Flurry",
     "Google Ads",
-    "Urbanairship"
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "dk.tv2.nyhedscenter",
+      "ptr_domain": "a92-122-172-200.deploy.static.akamaitechnologies.com",
+      "ip_address": "92.122.172.200",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "IHG®",
   "packageName": "com.ihg.apps.android",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,12 +24,44 @@
   "version": "4.25.0",
   "trackers": [
     "OtherLevels",
+    "Ensighten",
     "AppsFlyer",
+    "Demdex",
+    "Google Firebase Analytics",
     "Appdynamics",
     "Apptentive",
-    "Google Firebase Analytics",
-    "Demdex",
-    "Google Ads",
-    "Ensighten"
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ihg.apps.android",
+      "ptr_domain": "ec2-35-163-208-216.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.208.216",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.ihg.apps.android",
+      "ptr_domain": "ec2-52-10-255-115.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.10.255.115",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.ihg.apps.android",
+      "ptr_domain": "ec2-54-244-237-129.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.237.129",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

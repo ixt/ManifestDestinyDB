@@ -1,7 +1,7 @@
 {
   "appName": "Expressen",
   "packageName": "se.expressen.launcher",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -20,14 +20,36 @@
   ],
   "version": "7.15.0",
   "trackers": [
-    "Google Analytics",
-    "Google Firebase Analytics",
     "Google DoubleClick",
+    "Google Firebase Analytics",
+    "ComScore",
     "Facebook Analytics",
+    "Google Analytics",
+    "Facebook Login",
     "Urbanairship",
     "Google CrashLytics",
-    "Google Ads",
-    "ComScore",
-    "Facebook Login"
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "se.expressen.launcher",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "se.expressen.launcher",
+      "ptr_domain": "ec2-50-16-247-246.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.246",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

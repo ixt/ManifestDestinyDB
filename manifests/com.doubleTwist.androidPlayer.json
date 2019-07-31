@@ -1,7 +1,7 @@
 {
   "appName": "doubleTwist",
   "packageName": "com.doubleTwist.androidPlayer",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,8 +23,40 @@
   ],
   "version": "3.3.6",
   "trackers": [
-    "Google Firebase Analytics",
     "Google CrashLytics",
-    "Google Ads"
+    "Google Ads",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.doubleTwist.androidPlayer",
+      "ptr_domain": "ec2-54-225-166-137.compute-1.amazonaws.com",
+      "ip_address": "54.225.166.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.doubleTwist.androidPlayer",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.doubleTwist.androidPlayer",
+      "ptr_domain": "ec2-54-243-58-1.compute-1.amazonaws.com",
+      "ip_address": "54.243.58.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

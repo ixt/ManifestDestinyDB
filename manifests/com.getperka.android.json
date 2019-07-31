@@ -1,7 +1,7 @@
 {
   "appName": "Clover",
   "packageName": "com.getperka.android",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -19,10 +19,22 @@
   ],
   "version": "5.1.0",
   "trackers": [
+    "Google CrashLytics",
     "MixPanel",
-    "Google Firebase Analytics",
     "Branch",
     "Flurry",
-    "Google CrashLytics"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.getperka.android",
+      "ptr_domain": "ec2-23-21-212-189.compute-1.amazonaws.com",
+      "ip_address": "23.21.212.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

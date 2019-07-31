@@ -1,7 +1,7 @@
 {
   "appName": "TouchPal",
   "packageName": "com.cootek.smartinputv5",
-  "category": "PERSONALIZATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -47,23 +47,395 @@
   ],
   "version": "7.0.1.1_20190325185102",
   "trackers": [
-    "Inmobi",
-    "AppLovin",
     "AppsFlyer",
+    "Facebook Analytics",
+    "AppLovin",
+    "myTarget",
+    "Inmobi",
+    "Facebook Login",
+    "Amazon Advertisement",
+    "Facebook Ads",
+    "Moat",
+    "AppMonet",
     "Flurry",
     "Google DoubleClick",
-    "myTarget",
-    "Facebook Ads",
+    "Twitter MoPub",
     "Google Firebase Analytics",
     "Facebook Share",
-    "Twitter MoPub",
-    "Amazon Advertisement",
-    "AppMonet",
+    "Duapps",
     "Google Ads",
-    "Moat",
-    "Facebook Login",
-    "Facebook Analytics",
-    "Unity3d Ads",
-    "Duapps"
+    "Unity3d Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "UNKNOWN-106-10-164-X.yahoo.com",
+      "ip_address": "106.10.164.125",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "N/A",
+      "ip_address": "151.139.105.16",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.802100",
+      "loc_lat": "32.788900"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "edge-mqtt-mini-shv-02-sin6.facebook.com",
+      "ip_address": "157.240.13.32",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "waw02s07-in-f162.1e100.net",
+      "ip_address": "172.217.20.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "UNKNOWN-180-222-100-X.yahoo.com",
+      "ip_address": "180.222.100.7",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ams16s21-in-f194.1e100.net",
+      "ip_address": "216.58.212.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ams16s22-in-f2.1e100.net",
+      "ip_address": "216.58.212.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "mad01s26-in-f162.1e100.net",
+      "ip_address": "216.58.214.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "UNKNOWN-217-146-190-X.yahoo.com",
+      "ip_address": "217.146.190.251",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "edge-star-shv-01-vie1.facebook.com",
+      "ip_address": "31.13.84.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-34-196-111-221.compute-1.amazonaws.com",
+      "ip_address": "34.196.111.221",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-34-204-208-5.compute-1.amazonaws.com",
+      "ip_address": "34.204.208.5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-19-114-44.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.114.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-210-175-246.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.175.246",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-212-117-55.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.117.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-220-246-150.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.220.246.150",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-221-116-128.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.221.116.128",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-30-204-210.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.204.210",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-48-53-213.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.53.213",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-5-171-80.compute-1.amazonaws.com",
+      "ip_address": "52.5.171.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-58-23-193.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.58.23.193",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-74-203-193.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.203.193",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-7-42-3.compute-1.amazonaws.com",
+      "ip_address": "52.7.42.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-52-77-32-77.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.32.77",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-54-169-113-29.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.113.29",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-54-194-14-29.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.14.29",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "ec2-54-72-30-63.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.30.63",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "yx-in-f155.1e100.net",
+      "ip_address": "64.233.177.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "N/A",
+      "ip_address": "74.125.155.250",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "wk-in-f155.1e100.net",
+      "ip_address": "74.125.206.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cootek.smartinputv5",
+      "ptr_domain": "UNKNOWN-98-137-201-X.yahoo.com",
+      "ip_address": "98.137.201.232",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

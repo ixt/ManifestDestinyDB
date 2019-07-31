@@ -1,7 +1,7 @@
 {
   "appName": "SAS",
   "packageName": "se.sas.android",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -28,10 +28,22 @@
   ],
   "version": "3.3.1",
   "trackers": [
-    "Facebook Login",
-    "Facebook Share",
-    "Google Analytics",
+    "Google Firebase Analytics",
     "HockeyApp",
-    "Google Firebase Analytics"
+    "Facebook Share",
+    "Facebook Login",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "se.sas.android",
+      "ptr_domain": "edge-star6-shv-01-iad3.facebook.com",
+      "ip_address": "2a03:2880:f003:c07:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    }
   ]
 }

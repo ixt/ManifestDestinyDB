@@ -1,7 +1,7 @@
 {
   "appName": "Wattbike Hub",
   "packageName": "com.wattbike.powerapp",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -16,13 +16,55 @@
   ],
   "version": "3.5.2",
   "trackers": [
+    "Google CrashLytics",
     "Facebook Login",
+    "Facebook Share",
+    "Google Firebase Analytics",
+    "Facebook Places",
     "MixPanel",
     "New Relic",
-    "Google Firebase Analytics",
-    "Facebook Analytics",
-    "Facebook Share",
-    "Facebook Places",
-    "Google CrashLytics"
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.wattbike.powerapp",
+      "ptr_domain": "105.37.211.130.bc.googleusercontent.com",
+      "ip_address": "130.211.37.105",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.wattbike.powerapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.192.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.wattbike.powerapp",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.wattbike.powerapp",
+      "ptr_domain": "b8.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

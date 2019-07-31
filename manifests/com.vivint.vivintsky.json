@@ -1,7 +1,7 @@
 {
   "appName": "Vivint",
   "packageName": "com.vivint.vivintsky",
-  "category": "HOUSE_AND_HOME",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -32,12 +32,34 @@
   ],
   "version": "19.3.201 (4)",
   "trackers": [
+    "Apptimize",
+    "Google Firebase Analytics",
+    "Facebook Share",
     "MixPanel",
     "Facebook Analytics",
-    "Facebook Login",
-    "Google Firebase Analytics",
-    "Apptimize",
-    "Facebook Share",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.vivint.vivintsky",
+      "ptr_domain": "vivintsky.com",
+      "ip_address": "206.79.220.141",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.vivint.vivintsky",
+      "ptr_domain": "ec2-23-21-118-60.compute-1.amazonaws.com",
+      "ip_address": "23.21.118.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

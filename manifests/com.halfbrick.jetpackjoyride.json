@@ -1,7 +1,7 @@
 {
   "appName": "Jetpack",
   "packageName": "com.halfbrick.jetpackjoyride",
-  "category": "GAME_ARCADE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -13,23 +13,535 @@
   ],
   "version": "1.15.3",
   "trackers": [
-    "Google Ads",
-    "Facebook Places",
-    "Facebook Ads",
-    "Google CrashLytics",
-    "HelpShift",
-    "Facebook Share",
-    "Facebook Analytics",
-    "AppsFlyer",
-    "Google DoubleClick",
-    "AdColony",
-    "Google Firebase Analytics",
-    "HyprMX",
-    "Unity3d Ads",
-    "AppLovin",
-    "Moat",
     "ironSource",
+    "Unity3d Ads",
+    "AppsFlyer",
+    "HyprMX",
+    "Facebook Ads",
+    "HelpShift",
+    "Google DoubleClick",
+    "Moat",
+    "Facebook Share",
+    "AppLovin",
+    "AdColony",
     "Facebook Login",
-    "ChartBoost"
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "ChartBoost",
+    "Facebook Places",
+    "Facebook Analytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "a104-85-208-205.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.85.208.205",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-107-20-238-35.compute-1.amazonaws.com",
+      "ip_address": "107.20.238.35",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "sfo07s17-in-f2.1e100.net",
+      "ip_address": "172.217.6.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-184-169-131-224.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.131.224",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-184-169-152-134.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.152.134",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-184-169-174-205.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.174.205",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-184-72-32-80.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.72.32.80",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-184-72-37-61.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.72.37.61",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-184-73-137-123.compute-1.amazonaws.com",
+      "ip_address": "184.73.137.123",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "vip0x055.map2.ssl.hwcdn.net",
+      "ip_address": "209.197.3.85",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "prg03s01-in-f2.1e100.net",
+      "ip_address": "216.58.201.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-23-20-188-132.compute-1.amazonaws.com",
+      "ip_address": "23.20.188.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-23-21-103-234.compute-1.amazonaws.com",
+      "ip_address": "23.21.103.234",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "a23-44-163-126.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.44.163.126",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "a23-52-2-142.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.52.2.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:202f:d400:16:2f31:d940:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "nuq04s29-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "sfo07s13-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "sfo07s13-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "sfo07s13-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "sfo07s13-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "sfo03s06-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:13::15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:2::a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:c::e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "edge-star6-shv-01-lga3.facebook.com",
+      "ip_address": "2a03:2880:f012:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:10d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "edge-star6-shv-02-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:20e:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-34-197-29-73.compute-1.amazonaws.com",
+      "ip_address": "34.197.29.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-34-198-202-247.compute-1.amazonaws.com",
+      "ip_address": "34.198.202.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "181.222.186.35.bc.googleusercontent.com",
+      "ip_address": "35.186.222.181",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-50-18-114-34.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.114.34",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-50-18-174-39.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.174.39",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-0-100-215.compute-1.amazonaws.com",
+      "ip_address": "52.0.100.215",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-11-152-93.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.11.152.93",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-1-181-148.compute-1.amazonaws.com",
+      "ip_address": "52.1.181.148",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-17-153-101.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.153.101",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-17-74-6.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.74.6",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-207-12-43.compute-1.amazonaws.com",
+      "ip_address": "52.207.12.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-209-92-104.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.92.104",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-34-224-93.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.34.224.93",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-42-194-172.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.42.194.172",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-52-55-108-58.compute-1.amazonaws.com",
+      "ip_address": "52.55.108.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-54-161-203-183.compute-1.amazonaws.com",
+      "ip_address": "54.161.203.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-54-165-164-200.compute-1.amazonaws.com",
+      "ip_address": "54.165.164.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "server-54-192-119-249.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.249",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-54-194-49-47.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.49.47",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-54-210-240-220.compute-1.amazonaws.com",
+      "ip_address": "54.210.240.220",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-54-236-176-230.compute-1.amazonaws.com",
+      "ip_address": "54.236.176.230",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-54-83-204-208.compute-1.amazonaws.com",
+      "ip_address": "54.83.204.208",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.halfbrick.jetpackjoyride",
+      "ptr_domain": "ec2-54-87-185-0.compute-1.amazonaws.com",
+      "ip_address": "54.87.185.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

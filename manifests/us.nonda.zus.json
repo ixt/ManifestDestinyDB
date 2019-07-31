@@ -1,7 +1,7 @@
 {
   "appName": "ZUS",
   "packageName": "us.nonda.zus",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -32,13 +32,25 @@
   ],
   "version": "6.5.9",
   "trackers": [
-    "Facebook Login",
-    "Amazon Analytics",
-    "Google CrashLytics",
     "Amplitude",
-    "Facebook Analytics",
     "Google Firebase Analytics",
-    "Facebook Places",
-    "Facebook Share"
+    "Amazon Analytics",
+    "Facebook Login",
+    "Facebook Analytics",
+    "Facebook Share",
+    "Google CrashLytics",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "us.nonda.zus",
+      "ptr_domain": "s3-us-west-2.amazonaws.com",
+      "ip_address": "52.218.200.64",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

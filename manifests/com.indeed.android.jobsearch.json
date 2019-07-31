@@ -1,0 +1,959 @@
+{
+  "appName": "Indeed Job Search",
+  "packageName": "com.indeed.android.jobsearch",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "13.4",
+  "trackers": [
+    "AppsFlyer",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "a104-109-242-112.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.109.242.112",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "104.130.96.24",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.18.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "a104-83-54-35.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.83.54.35",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-107-21-236-239.compute-1.amazonaws.com",
+      "ip_address": "107.21.236.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-107-21-251-92.compute-1.amazonaws.com",
+      "ip_address": "107.21.251.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com",
+      "ip_address": "107.22.187.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "120.136.43.230",
+      "loc_city": "N/A",
+      "loc_country": "Hong Kong",
+      "loc_continent": "Asia",
+      "loc_long": "114.166700",
+      "loc_lat": "22.250000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "xx-fbcdn-shv-01-lht6.fbcdn.net",
+      "ip_address": "157.240.1.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "edge-star-mini-shv-01-lht6.facebook.com",
+      "ip_address": "157.240.1.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "da.29.559e.ip4.static.sl-reverse.com",
+      "ip_address": "158.85.41.218",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "162.13.248.104",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "162.13.248.120",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "48.8b.2ca9.ip4.static.sl-reverse.com",
+      "ip_address": "169.44.139.72",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "4e.8b.2ca9.ip4.static.sl-reverse.com",
+      "ip_address": "169.44.139.78",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "c8.9f.2ca9.ip4.static.sl-reverse.com",
+      "ip_address": "169.44.159.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "48.a2.2ca9.ip4.static.sl-reverse.com",
+      "ip_address": "169.44.162.72",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "4f.a2.2ca9.ip4.static.sl-reverse.com",
+      "ip_address": "169.44.162.79",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "40.a5.2ca9.ip4.static.sl-reverse.com",
+      "ip_address": "169.44.165.64",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "c7.cf.2da9.ip4.static.sl-reverse.com",
+      "ip_address": "169.45.207.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.539000",
+      "loc_lat": "39.018000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "88.13.2fa9.ip4.static.sl-reverse.com",
+      "ip_address": "169.47.19.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.539000",
+      "loc_lat": "39.018000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "4f.19.2fa9.ip4.static.sl-reverse.com",
+      "ip_address": "169.47.25.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.539000",
+      "loc_lat": "39.018000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ya-in-f105.1e100.net",
+      "ip_address": "173.194.219.105",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "edge-star-shv-01-cdg2.facebook.com",
+      "ip_address": "179.60.192.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-184-73-203-162.compute-1.amazonaws.com",
+      "ip_address": "184.73.203.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "proxy.vip.pod4.sac1.zdsys.com",
+      "ip_address": "192.161.147.1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "198-58-75-20.cyrusone.com",
+      "ip_address": "198.58.75.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "198-58-75-37.cyrusone.com",
+      "ip_address": "198.58.75.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "any-in-2001-4860-4802-32--1b.1e100.net",
+      "ip_address": "2001:4860:4802:32::1b",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "qu-in-f156.1e100.net",
+      "ip_address": "209.85.201.156",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "any-in-201b.1e100.net",
+      "ip_address": "216.239.32.27",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "mad01s26-in-f4.1e100.net",
+      "ip_address": "216.58.214.164",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "mad01s26-in-f14.1e100.net",
+      "ip_address": "216.58.214.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "a23-205-39-172.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.205.39.172",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-23-21-204-219.compute-1.amazonaws.com",
+      "ip_address": "23.21.204.219",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "a23-216-159-249.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.216.159.249",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "a23-57-51-166.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.57.51.166",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "iad30s09-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4004:800::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "iad30s09-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4004:800::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "iad23s40-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4004:80a::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "iad23s44-in-x04.1e100.net",
+      "ip_address": "2607:f8b0:4004:80e::2004",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "sfo03s01-in-x04.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2004",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "sfo03s01-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "sfo03s01-in-x10.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2010",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "sfo07s17-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "qt-in-x9a.1e100.net",
+      "ip_address": "2607:f8b0:400d:c0d::9a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "pf-in-x9b.1e100.net",
+      "ip_address": "2607:f8b0:400e:c00::9b",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f000:8:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "xx-fbcdn6-shv-01-iad3.fbcdn.net",
+      "ip_address": "2a03:2880:f003:c0e:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "edge-star6-shv-01-atl3.facebook.com",
+      "ip_address": "2a03:2880:f011:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:b:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "edge-star6-shv-02-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:20e:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "edge-star-mini6-shv-01-sea1.facebook.com",
+      "ip_address": "2a03:2880:f101:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "edge-star-mini6-shv-01-iad3.facebook.com",
+      "ip_address": "2a03:2880:f103:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "edge-star-mini6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f10d:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f113:183:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f113:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f113:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.36",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-34-252-216-237.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.216.237",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-10-47-150.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.10.47.150",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-17-153-101.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.153.101",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-18-160-21.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.160.21",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-19-100-174.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.100.174",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-19-172-146.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.172.146",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-208-95-67.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.95.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-213-114-35.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.114.35",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-214-17-131.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.17.131",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-215-23-51.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.215.23.51",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "s3-1-w.amazonaws.com",
+      "ip_address": "52.216.81.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "s3-1-w.amazonaws.com",
+      "ip_address": "52.216.81.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "server-52-222-136-131.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.131",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-52-33-122-87.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.33.122.87",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "server-52-84-126-170.iad16.r.cloudfront.net",
+      "ip_address": "52.84.126.170",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "server-52-85-82-223.lax1.r.cloudfront.net",
+      "ip_address": "52.85.82.223",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-54-154-29-154.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.29.154",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "server-54-192-117-12.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.117.12",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "server-54-192-117-193.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.117.193",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "server-54-192-117-7.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.117.7",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "server-54-192-118-151.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.118.151",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-54-225-168-139.compute-1.amazonaws.com",
+      "ip_address": "54.225.168.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "server-54-230-141-221.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.141.221",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "server-54-230-84-89.lax3.r.cloudfront.net",
+      "ip_address": "54.230.84.89",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-54-235-168-254.compute-1.amazonaws.com",
+      "ip_address": "54.235.168.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-54-235-191-172.compute-1.amazonaws.com",
+      "ip_address": "54.235.191.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-54-69-214-67.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.69.214.67",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "ec2-54-77-82-212.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.82.212",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.91.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.indeed.android.jobsearch",
+      "ptr_domain": "wk-in-f154.1e100.net",
+      "ip_address": "74.125.206.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

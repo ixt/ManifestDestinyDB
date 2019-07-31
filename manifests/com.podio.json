@@ -1,7 +1,7 @@
 {
   "appName": "Podio",
   "packageName": "com.podio",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -28,12 +28,24 @@
   ],
   "version": "4.8",
   "trackers": [
-    "Google CrashLytics",
-    "Google Analytics",
-    "HockeyApp",
     "Google Ads",
+    "Google Analytics",
     "Google Firebase Analytics",
     "MixPanel",
+    "Google CrashLytics",
+    "HockeyApp",
     "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "com.podio",
+      "ptr_domain": "ec2-54-229-15-211.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.15.211",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

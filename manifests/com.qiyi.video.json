@@ -1,7 +1,7 @@
 {
   "appName": "iQIYI",
   "packageName": "com.qiyi.video",
-  "category": "VIDEO_PLAYERS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -48,14 +48,26 @@
   ],
   "version": "9.12.5",
   "trackers": [
+    "ComScore",
     "Facebook Share",
-    "AppsFlyer",
-    "Baidu Location",
-    "Google Ads",
+    "Google Firebase Analytics",
     "Google DoubleClick",
     "Facebook Login",
-    "Google Firebase Analytics",
+    "AppsFlyer",
     "Facebook Analytics",
-    "ComScore"
+    "Google Ads",
+    "Baidu Location"
+  ],
+  "network_connections": [
+    {
+      "package": "com.qiyi.video",
+      "ptr_domain": "N/A",
+      "ip_address": "58.56.65.104",
+      "loc_city": "N/A",
+      "loc_country": "China",
+      "loc_continent": "Asia",
+      "loc_long": "120.371900",
+      "loc_lat": "36.098600"
+    }
   ]
 }

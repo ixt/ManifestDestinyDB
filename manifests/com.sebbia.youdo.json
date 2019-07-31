@@ -1,7 +1,7 @@
 {
   "appName": "YouDo",
   "packageName": "com.sebbia.youdo",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -19,13 +19,35 @@
   ],
   "version": "4.0.22",
   "trackers": [
-    "AppMetrica",
-    "Facebook Share",
-    "Google Firebase Analytics",
-    "AppsFlyer",
-    "Facebook Analytics",
-    "Yandex Ad",
     "Google CrashLytics",
-    "Facebook Login"
+    "Google Firebase Analytics",
+    "Facebook Login",
+    "AppMetrica",
+    "Facebook Analytics",
+    "AppsFlyer",
+    "Yandex Ad",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sebbia.youdo",
+      "ptr_domain": "ec2-184-73-208-78.compute-1.amazonaws.com",
+      "ip_address": "184.73.208.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sebbia.youdo",
+      "ptr_domain": "ec2-54-225-173-240.compute-1.amazonaws.com",
+      "ip_address": "54.225.173.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

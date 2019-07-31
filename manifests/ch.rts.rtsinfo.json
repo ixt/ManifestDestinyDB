@@ -1,31 +1,41 @@
 {
   "appName": "RTS Info",
   "packageName": "ch.rts.rtsinfo",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "ch.rts.rtsinfo.permission.C2D_MESSAGE",
-    "ch.rts.rtsinfo.permission.C2D_MESSAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "ch.rts.rtsinfo.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "2.22.3",
   "trackers": [
-    "Google Firebase Analytics",
     "Urbanairship",
     "Tag Commander",
-    "ComScore",
     "Google DoubleClick",
+    "ComScore",
+    "Google Firebase Analytics",
     "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "ch.rts.rtsinfo",
+      "ptr_domain": "a104-66-183-171.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.66.183.171",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    }
   ]
 }

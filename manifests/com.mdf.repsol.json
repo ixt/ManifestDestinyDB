@@ -1,7 +1,7 @@
 {
   "appName": "Waylet",
   "packageName": "com.mdf.repsol",
-  "category": "FINANCE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -29,12 +29,74 @@
   ],
   "version": "6.7.7",
   "trackers": [
-    "AppsFlyer",
-    "Facebook Analytics",
     "Google Firebase Analytics",
     "Google CrashLytics",
+    "Facebook Analytics",
+    "Gigya",
+    "AppsFlyer",
     "Facebook Login",
-    "Facebook Share",
-    "Gigya"
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mdf.repsol",
+      "ptr_domain": "ec2-107-21-210-141.compute-1.amazonaws.com",
+      "ip_address": "107.21.210.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mdf.repsol",
+      "ptr_domain": "ec2-184-73-180-205.compute-1.amazonaws.com",
+      "ip_address": "184.73.180.205",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mdf.repsol",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mdf.repsol",
+      "ptr_domain": "ec2-52-49-16-186.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.16.186",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mdf.repsol",
+      "ptr_domain": "ec2-54-194-52-170.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.52.170",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mdf.repsol",
+      "ptr_domain": "ec2-54-229-235-132.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.235.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

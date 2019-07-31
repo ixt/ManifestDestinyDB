@@ -1,7 +1,7 @@
 {
   "appName": "Battery Widget",
   "packageName": "com.geekyouup.android.widgets.battery",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -26,8 +26,20 @@
   ],
   "version": "5.2.6",
   "trackers": [
-    "Flurry",
+    "Google Firebase Analytics",
     "MixPanel",
-    "Google Firebase Analytics"
+    "Flurry"
+  ],
+  "network_connections": [
+    {
+      "package": "com.geekyouup.android.widgets.battery",
+      "ptr_domain": "199-168-30-200.static.bitrefinery.net",
+      "ip_address": "199.168.30.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Hypocam",
   "packageName": "com.xnview.hypocam",
-  "category": "PHOTOGRAPHY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -16,7 +16,29 @@
   ],
   "version": "2.1.8",
   "trackers": [
-    "Google CrashLytics",
-    "Google Firebase Analytics"
+    "Google Firebase Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.xnview.hypocam",
+      "ptr_domain": "ec2-50-17-222-169.compute-1.amazonaws.com",
+      "ip_address": "50.17.222.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.xnview.hypocam",
+      "ptr_domain": "ec2-54-225-185-191.compute-1.amazonaws.com",
+      "ip_address": "54.225.185.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

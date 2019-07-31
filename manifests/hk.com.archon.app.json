@@ -1,7 +1,7 @@
 {
   "appName": "Archon",
   "packageName": "hk.com.archon.app",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -30,10 +30,22 @@
   ],
   "version": "5.7.229",
   "trackers": [
-    "Google CrashLytics",
-    "Tencent Stats",
     "Facebook Login",
     "Facebook Analytics",
+    "Google CrashLytics",
+    "Tencent Stats",
     "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "hk.com.archon.app",
+      "ptr_domain": "ec2-52-74-67-253.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.67.253",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    }
   ]
 }

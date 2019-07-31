@@ -1,7 +1,7 @@
 {
   "appName": "1mg",
   "packageName": "com.aranoah.healthkart.plus",
-  "category": "MEDICAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -31,12 +31,604 @@
   "version": "10.3.0",
   "trackers": [
     "Google Firebase Analytics",
+    "Facebook Analytics",
     "Google DoubleClick",
-    "Facebook Login",
-    "CleverTap",
     "Google Analytics",
+    "Facebook Login",
     "Google CrashLytics",
     "Google Ads",
-    "Facebook Analytics"
+    "CleverTap"
+  ],
+  "network_connections": [
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "226.130.154.104.bc.googleusercontent.com",
+      "ip_address": "104.154.130.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "13.250.197.104.bc.googleusercontent.com",
+      "ip_address": "104.197.250.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-107-20-139-157.compute-1.amazonaws.com",
+      "ip_address": "107.20.139.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-107-20-172-125.compute-1.amazonaws.com",
+      "ip_address": "107.20.172.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-107-20-220-24.compute-1.amazonaws.com",
+      "ip_address": "107.20.220.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-107-21-115-231.compute-1.amazonaws.com",
+      "ip_address": "107.21.115.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-107-21-202-10.compute-1.amazonaws.com",
+      "ip_address": "107.21.202.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-107-21-210-141.compute-1.amazonaws.com",
+      "ip_address": "107.21.210.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-107-22-162-79.compute-1.amazonaws.com",
+      "ip_address": "107.22.162.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com",
+      "ip_address": "107.22.187.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-13-228-41-48.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "13.228.41.48",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "N/A",
+      "ip_address": "157.240.0.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "edge-star-shv-02-lax3.facebook.com",
+      "ip_address": "157.240.11.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "bom05s09-in-f1.1e100.net",
+      "ip_address": "172.217.26.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-174-129-32-125.compute-1.amazonaws.com",
+      "ip_address": "174.129.32.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "bom07s01-in-f1.1e100.net",
+      "ip_address": "216.58.199.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "N/A",
+      "ip_address": "223.165.27.110",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-23-21-109-80.compute-1.amazonaws.com",
+      "ip_address": "23.21.109.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-23-21-47-236.compute-1.amazonaws.com",
+      "ip_address": "23.21.47.236",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com",
+      "ip_address": "23.21.78.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-23-23-122-193.compute-1.amazonaws.com",
+      "ip_address": "23.23.122.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-23-23-126-54.compute-1.amazonaws.com",
+      "ip_address": "23.23.126.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-23-23-184-36.compute-1.amazonaws.com",
+      "ip_address": "23.23.184.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-23-23-235-188.compute-1.amazonaws.com",
+      "ip_address": "23.23.235.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-23-23-96-14.compute-1.amazonaws.com",
+      "ip_address": "23.23.96.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "edge-star6-shv-01-sin6.facebook.com",
+      "ip_address": "2a03:2880:f00c:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "edge-star-shv-01-hkg3.facebook.com",
+      "ip_address": "31.13.95.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-34-249-78-227.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.78.227",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-50-16-247-225.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-50-16-247-246.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.246",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-50-17-211-253.compute-1.amazonaws.com",
+      "ip_address": "50.17.211.253",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-52-21-196-92.compute-1.amazonaws.com",
+      "ip_address": "52.21.196.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-52-214-63-28.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.63.28",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-52-72-91-83.compute-1.amazonaws.com",
+      "ip_address": "52.72.91.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-225-93-51.compute-1.amazonaws.com",
+      "ip_address": "54.225.93.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-235-168-75.compute-1.amazonaws.com",
+      "ip_address": "54.235.168.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-235-244-117.compute-1.amazonaws.com",
+      "ip_address": "54.235.244.117",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-235-247-104.compute-1.amazonaws.com",
+      "ip_address": "54.235.247.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-235-67-75.compute-1.amazonaws.com",
+      "ip_address": "54.235.67.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-235-69-83.compute-1.amazonaws.com",
+      "ip_address": "54.235.69.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-243-109-101.compute-1.amazonaws.com",
+      "ip_address": "54.243.109.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-243-129-40.compute-1.amazonaws.com",
+      "ip_address": "54.243.129.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-243-147-93.compute-1.amazonaws.com",
+      "ip_address": "54.243.147.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-243-148-175.compute-1.amazonaws.com",
+      "ip_address": "54.243.148.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-243-160-177.compute-1.amazonaws.com",
+      "ip_address": "54.243.160.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aranoah.healthkart.plus",
+      "ptr_domain": "ec2-54-83-50-23.compute-1.amazonaws.com",
+      "ip_address": "54.83.50.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "myCANAL",
   "packageName": "com.canal.android.canal",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -21,11 +21,33 @@
   ],
   "version": "3.6.5",
   "trackers": [
-    "AppsFlyer",
-    "Google Analytics",
-    "Google Firebase Analytics",
-    "Google Ads",
     "Google CrashLytics",
-    "Google DoubleClick"
+    "AppsFlyer",
+    "Google DoubleClick",
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.canal.android.canal",
+      "ptr_domain": "edge-star-shv-01-cdg2.facebook.com",
+      "ip_address": "179.60.192.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.canal.android.canal",
+      "ptr_domain": "edge-star6-shv-01-cdg2.facebook.com",
+      "ip_address": "2a03:2880:f01f:2:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Riot.im",
   "packageName": "im.vector.alpha",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -48,7 +48,39 @@
   ],
   "version": "0.8.23",
   "trackers": [
-    "Google Firebase Analytics",
-    "Matomo (Piwik)"
+    "Matomo (Piwik)",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "im.vector.alpha",
+      "ptr_domain": "li357-66.members.linode.com",
+      "ip_address": "178.79.188.66",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "im.vector.alpha",
+      "ptr_domain": "ec2-34-197-178-240.compute-1.amazonaws.com",
+      "ip_address": "34.197.178.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "im.vector.alpha",
+      "ptr_domain": "83-136-250-51.uk-lon1.upcloud.host",
+      "ip_address": "83.136.250.51",
+      "loc_city": "Newport Pagnell",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.721900",
+      "loc_lat": "52.089400"
+    }
   ]
 }

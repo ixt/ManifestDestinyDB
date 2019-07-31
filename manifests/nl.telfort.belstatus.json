@@ -1,7 +1,7 @@
 {
   "appName": "Mijn Telfort",
   "packageName": "nl.telfort.belstatus",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -12,5 +12,17 @@
   "version": "4.8.1",
   "trackers": [
     "Demdex"
+  ],
+  "network_connections": [
+    {
+      "package": "nl.telfort.belstatus",
+      "ptr_domain": "ec2-54-225-167-80.compute-1.amazonaws.com",
+      "ip_address": "54.225.167.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

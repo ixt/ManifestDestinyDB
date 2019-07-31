@@ -1,7 +1,7 @@
 {
   "appName": "Soundbrenner",
   "packageName": "com.soundbrenner.pulse",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,11 +24,33 @@
   "version": "1.17.4",
   "trackers": [
     "Facebook Analytics",
-    "Google CrashLytics",
-    "Facebook Share",
     "Google Firebase Analytics",
     "MixPanel",
+    "Facebook Places",
     "Facebook Login",
-    "Facebook Places"
+    "Google CrashLytics",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.soundbrenner.pulse",
+      "ptr_domain": "proxy.vip.pod6.iad1.zdsys.com",
+      "ip_address": "192.161.156.1",
+      "loc_city": "Lafayette",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.114400",
+      "loc_lat": "37.899400"
+    },
+    {
+      "package": "com.soundbrenner.pulse",
+      "ptr_domain": "shops.myshopify.com",
+      "ip_address": "23.227.38.64",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    }
   ]
 }

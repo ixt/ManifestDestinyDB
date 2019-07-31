@@ -1,7 +1,7 @@
 {
   "appName": "",
   "packageName": "com.mmi.maps",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -39,13 +39,35 @@
   ],
   "version": "7.1.4",
   "trackers": [
-    "Google Analytics",
-    "Google CrashLytics",
-    "Facebook Places",
-    "Mapbox",
-    "Google Firebase Analytics",
-    "Facebook Share",
     "Flurry",
+    "Facebook Share",
+    "Google Firebase Analytics",
+    "Facebook Places",
+    "Google Analytics",
+    "Mapbox",
+    "Google CrashLytics",
     "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mmi.maps",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mmi.maps",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

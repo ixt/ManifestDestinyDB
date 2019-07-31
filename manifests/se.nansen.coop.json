@@ -1,7 +1,7 @@
 {
   "appName": "Coop",
   "packageName": "se.nansen.coop",
-  "category": "FOOD_AND_DRINK",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -16,9 +16,21 @@
   ],
   "version": "5.1.5",
   "trackers": [
-    "Google Analytics",
-    "Flurry",
     "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Analytics",
+    "Flurry"
+  ],
+  "network_connections": [
+    {
+      "package": "se.nansen.coop",
+      "ptr_domain": "edge-star6-shv-01-arn2.facebook.com",
+      "ip_address": "2a03:2880:f00a:8:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    }
   ]
 }

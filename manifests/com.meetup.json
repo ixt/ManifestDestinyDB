@@ -1,7 +1,7 @@
 {
   "appName": "Meetup",
   "packageName": "com.meetup",
-  "category": "SOCIAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -27,12 +27,334 @@
   ],
   "version": "3.10.51",
   "trackers": [
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Google CrashLytics",
     "Facebook Share",
     "Facebook Analytics",
     "Braze (formerly Appboy)",
-    "Google Firebase Analytics",
-    "Facebook Login",
-    "Google CrashLytics",
-    "Google Analytics"
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.86.48",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.1.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.126.2",
+      "loc_city": "Toronto",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.419500",
+      "loc_lat": "43.664400"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.22.2",
+      "loc_city": "New York",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.002900",
+      "loc_lat": "40.714500"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.2.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.62.2",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "yyz10s05-in-f14.1e100.net",
+      "ip_address": "172.217.2.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "yyz08s13-in-f142.1e100.net",
+      "ip_address": "172.217.3.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "sea15s11-in-f174.1e100.net",
+      "ip_address": "172.217.3.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "184.150.153.157",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "184.150.168.181",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "184.150.168.214",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "184.150.183.54",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-184-73-203-162.compute-1.amazonaws.com",
+      "ip_address": "184.73.203.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "cf-190-93-244-216.cloudflare.com",
+      "ip_address": "190.93.244.216",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ams15s21-in-f131.1e100.net",
+      "ip_address": "216.58.212.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "iad23s41-in-f4.1e100.net",
+      "ip_address": "216.58.217.68",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "iad23s41-in-f14.1e100.net",
+      "ip_address": "216.58.217.78",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-23-21-109-80.compute-1.amazonaws.com",
+      "ip_address": "23.21.109.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-23-21-51-54.compute-1.amazonaws.com",
+      "ip_address": "23.21.51.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com",
+      "ip_address": "23.21.78.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "a23-62-239-16.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.62.239.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-50-19-252-149.compute-1.amazonaws.com",
+      "ip_address": "50.19.252.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-50-19-91-193.compute-1.amazonaws.com",
+      "ip_address": "50.19.91.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-54-225-181-65.compute-1.amazonaws.com",
+      "ip_address": "54.225.181.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-54-225-204-178.compute-1.amazonaws.com",
+      "ip_address": "54.225.204.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-54-225-84-52.compute-1.amazonaws.com",
+      "ip_address": "54.225.84.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-54-235-173-224.compute-1.amazonaws.com",
+      "ip_address": "54.235.173.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-54-243-33-139.compute-1.amazonaws.com",
+      "ip_address": "54.243.33.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.meetup",
+      "ptr_domain": "ec2-54-83-201-223.compute-1.amazonaws.com",
+      "ip_address": "54.83.201.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

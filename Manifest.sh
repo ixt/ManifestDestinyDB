@@ -13,8 +13,24 @@ aapt d xmltree "$1" AndroidManifest.xml \
     | sed -e "/:/d" \
         > $PERMISSIONS
 fi
+if [[ ! -s $PERMISSIONS ]]; then
+    mkdir .tmp
+    pushd .tmp
+    unzip $1 
+    if [[ -s manifest.json ]]; then
+        jq -r .permissions manifest.json
+            > $PERMISSIONS
+            version=$(jq -r .version_name manifest.json)
+            appname=$(jq -r .name manifest.json)
+            package=$(jq -r .package_name manifest.json)
+            convert icon.* ../$package.png
+    fi
+    popd
+    rm .tmp -rf
+fi
 
 filename=$(echo "$1" | cut -d/ -f 3)
+if [[ "$version" == "" ]]; then
 version=$(aapt d --values badging $1 \
     | egrep -o "versionName='[^']*'" \
     | cut -d"'" -f2 )
@@ -34,16 +50,9 @@ if [[ "$appname" == "" ]]; then
         | egrep -o "label='[^']*'" \
         | cut -d"'" -f2 )
 fi
-
 package=$(aapt d --values badging $1 \
     | egrep -o "package: name='[^']*'" \
     | cut -d"'" -f2 )
-
-category=$(curl -s "https://play.google.com/store/apps/details?id=$package" \
-    | grep 'itemprop="genre"' \
-    | egrep -o "https://play\.google\.com/store/apps/category/[A-Z_]*" \
-    | sed -e "s/.*\///g")
-
 iconpath=$(aapt d --values badging $1 \
     | grep "application-icon" \
     | sed "/\.xml/d" \
@@ -53,6 +62,12 @@ iconpath=$(aapt d --values badging $1 \
 iconname=$(basename "$iconpath")
 iconext="${iconname##*.}"
 unzip -p $1 $iconpath > $package.$iconext
+fi
+category=$(curl -s "https://play.google.com/store/apps/details?id=$package" \
+    | grep 'itemprop="genre"' \
+    | egrep -o "https://play\.google\.com/store/apps/category/[A-Z_]*" \
+    | sed -e "s/.*\///g")
+
 if [[ ! -s "$package.png" ]]; then
     echo "second attempt $package" >&2
     iconpath=$(unzip -l $1 \

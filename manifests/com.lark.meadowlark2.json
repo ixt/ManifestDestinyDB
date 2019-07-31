@@ -1,7 +1,7 @@
 {
   "appName": "Lark",
   "packageName": "com.lark.meadowlark2",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,15 +24,37 @@
   ],
   "version": "4.9.0.254",
   "trackers": [
-    "Facebook Login",
-    "HockeyApp",
-    "Google Analytics",
-    "Facebook Analytics",
-    "Branch",
     "Google Firebase Analytics",
+    "Facebook Analytics",
     "Flurry",
     "Facebook Places",
-    "Google CrashLytics",
-    "Facebook Share"
+    "Facebook Share",
+    "HockeyApp",
+    "Facebook Login",
+    "Google Analytics",
+    "Branch",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.lark.meadowlark2",
+      "ptr_domain": "ec2-52-10-64-223.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.10.64.223",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.lark.meadowlark2",
+      "ptr_domain": "ec2-54-149-17-122.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.149.17.122",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

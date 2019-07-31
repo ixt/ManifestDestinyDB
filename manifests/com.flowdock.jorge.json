@@ -1,7 +1,7 @@
 {
   "appName": "Flowdock",
   "packageName": "com.flowdock.jorge",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -26,6 +26,19 @@
   "trackers": [
     "Google Firebase Analytics",
     "Google Analytics",
+    "Bugsnag",
     "MixPanel"
+  ],
+  "network_connections": [
+    {
+      "package": "com.flowdock.jorge",
+      "ptr_domain": "ec2-54-217-244-114.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.217.244.114",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

@@ -1,26 +1,368 @@
 {
   "appName": "BBC iPlayer",
   "packageName": "bbc.iplayer.android",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.FOREGROUND_SERVICE",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.CHANGE_WIFI_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.BLUETOOTH"
+    "android.permission.BLUETOOTH",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "version": "4.62.0.1",
   "trackers": [
-    "ComScore",
     "HockeyApp",
     "ATInternet",
+    "ComScore",
     "Optimizely"
+  ],
+  "network_connections": [
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a104-103-228-128.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.103.228.128",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a104-66-228-102.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.66.228.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a104-80-211-87.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.80.211.87",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a104-82-232-205.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.82.232.205",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a104-82-93-89.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.82.93.89",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a104-84-218-125.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.84.218.125",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ae.f3.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.243.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ec2-176-34-235-5.eu-west-1.compute.amazonaws.com",
+      "ip_address": "176.34.235.5",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "fmt-vip57.telhc.bbc.co.uk",
+      "ip_address": "212.58.244.114",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "fmt-vip58.telhc.bbc.co.uk",
+      "ip_address": "212.58.244.115",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "bbc-vip113.telhc.bbc.co.uk",
+      "ip_address": "212.58.244.68",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "bbc-vip023.cwwtf.bbc.co.uk",
+      "ip_address": "212.58.246.109",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "fmt-vip92.cwwtf.bbc.co.uk",
+      "ip_address": "212.58.246.212",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "fmt-vip93.cwwtf.bbc.co.uk",
+      "ip_address": "212.58.246.213",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "bbc-vip046.cwwtf.bbc.co.uk",
+      "ip_address": "212.58.246.55",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "bbc-vip011.cwwtf.bbc.co.uk",
+      "ip_address": "212.58.246.90",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "bbc-vip014.cwwtf.bbc.co.uk",
+      "ip_address": "212.58.246.93",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a2-18-8-214.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.18.8.214",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a2-22-4-250.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.22.4.250",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a23-195-69-117.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.195.69.117",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a23-3-67-49.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.3.67.49",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ec2-46-51-202-227.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.202.227",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ec2-52-17-37-44.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.37.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ec2-52-213-213-212.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.213.212",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ec2-52-50-229-12.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.50.229.12",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ec2-54-154-166-84.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.166.84",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ec2-54-171-156-1.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.156.1",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ec2-54-217-254-178.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.217.254.178",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "server-54-230-79-163.cdg50.r.cloudfront.net",
+      "ip_address": "54.230.79.163",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "ec2-54-76-71-53.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.71.53",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a72-246-92-242.deploy.static.akamaitechnologies.com",
+      "ip_address": "72.246.92.242",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a88-221-18-141.deploy.static.akamaitechnologies.com",
+      "ip_address": "88.221.18.141",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a88-221-41-35.deploy.static.akamaitechnologies.com",
+      "ip_address": "88.221.41.35",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "bbc.iplayer.android",
+      "ptr_domain": "a92-123-130-164.deploy.static.akamaitechnologies.com",
+      "ip_address": "92.123.130.164",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
   ]
 }

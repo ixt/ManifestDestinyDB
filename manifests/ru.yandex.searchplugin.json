@@ -1,7 +1,7 @@
 {
   "appName": "Yandex",
   "packageName": "ru.yandex.searchplugin",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -52,8 +52,20 @@
   "version": "8.05",
   "trackers": [
     "Google CrashLytics",
+    "AppMetrica",
     "Facebook Login",
-    "Yandex Ad",
-    "AppMetrica"
+    "Yandex Ad"
+  ],
+  "network_connections": [
+    {
+      "package": "ru.yandex.searchplugin",
+      "ptr_domain": "w-0-15.msk.spbtv.com",
+      "ip_address": "91.228.177.219",
+      "loc_city": "Moscow",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.617200",
+      "loc_lat": "55.752700"
+    }
   ]
 }

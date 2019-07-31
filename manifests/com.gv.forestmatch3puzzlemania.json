@@ -1,0 +1,584 @@
+{
+  "appName": "Forest Match 3 Puzzle Mania",
+  "packageName": "com.gv.forestmatch3puzzlemania",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.gv.forestmatch3puzzlemania.permission.C2D_MESSAGE"
+  ],
+  "version": "9.220.3",
+  "trackers": [
+    "Unity3d Ads",
+    "AppLovin",
+    "Google DoubleClick",
+    "ChartBoost",
+    "Facebook Share",
+    "Facebook Analytics",
+    "Facebook Login",
+    "Facebook Ads",
+    "Heyzap (bought by Fyber)",
+    "Google Ads",
+    "AdColony",
+    "Fyber"
+  ],
+  "network_connections": [
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "a104-86-193-127.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.86.193.127",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-107-20-206-247.compute-1.amazonaws.com",
+      "ip_address": "107.20.206.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-107-21-213-213.compute-1.amazonaws.com",
+      "ip_address": "107.21.213.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "N/A",
+      "ip_address": "141.101.121.201",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.19",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.23",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.24",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "N/A",
+      "ip_address": "146.0.239.45",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s07-in-f97.1e100.net",
+      "ip_address": "172.217.5.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s07-in-f3.1e100.net",
+      "ip_address": "172.217.5.99",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s08-in-f14.1e100.net",
+      "ip_address": "172.217.6.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.12.71",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "vip0x055.map2.ssl.hwcdn.net",
+      "ip_address": "209.197.3.85",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s01-in-f2.1e100.net",
+      "ip_address": "216.58.194.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s01-in-f10.1e100.net",
+      "ip_address": "216.58.194.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s01-in-f14.1e100.net",
+      "ip_address": "216.58.194.206",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s06-in-f1.1e100.net",
+      "ip_address": "216.58.195.225",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s06-in-f226.1e100.net",
+      "ip_address": "216.58.195.226",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s06-in-f227.1e100.net",
+      "ip_address": "216.58.195.227",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo07s16-in-f66.1e100.net",
+      "ip_address": "216.58.195.66",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo07s16-in-f78.1e100.net",
+      "ip_address": "216.58.195.78",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "a23-203-229-226.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.203.229.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "a23-209-176-53.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.209.176.53",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-23-21-168-69.compute-1.amazonaws.com",
+      "ip_address": "23.21.168.69",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-23-23-150-99.compute-1.amazonaws.com",
+      "ip_address": "23.23.150.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s01-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s06-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "sfo03s06-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "edge-star6-shv-01-sea1.facebook.com",
+      "ip_address": "2a03:2880:f001:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-201-10-194.compute-1.amazonaws.com",
+      "ip_address": "52.201.10.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-201-143-81.compute-1.amazonaws.com",
+      "ip_address": "52.201.143.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-4-204-251.compute-1.amazonaws.com",
+      "ip_address": "52.4.204.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-44-178-129.compute-1.amazonaws.com",
+      "ip_address": "52.44.178.129",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-52-129-119.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.129.119",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-72-225-241.compute-1.amazonaws.com",
+      "ip_address": "52.72.225.241",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-8-12-173.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.12.173",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-8-250-132.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.250.132",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "server-52-84-243-103.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.103",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "server-52-84-243-131.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.131",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "server-52-84-243-157.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.157",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "server-52-84-243-185.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.185",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "server-52-84-243-219.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.219",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "server-52-84-243-239.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.239",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "server-52-84-243-45.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.45",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "server-52-84-243-51.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.51",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-87-167-98.compute-1.amazonaws.com",
+      "ip_address": "52.87.167.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-9-114-161.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.114.161",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-52-9-88-217.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.88.217",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-54-153-67-50.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.153.67.50",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-54-153-80-200.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.153.80.200",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-54-161-203-183.compute-1.amazonaws.com",
+      "ip_address": "54.161.203.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-54-163-239-44.compute-1.amazonaws.com",
+      "ip_address": "54.163.239.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "ec2-54-183-68-236.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.68.236",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gv.forestmatch3puzzlemania",
+      "ptr_domain": "server-54-192-119-74.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.74",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    }
+  ]
+}

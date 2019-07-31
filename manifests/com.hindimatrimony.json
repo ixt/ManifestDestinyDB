@@ -1,7 +1,7 @@
 {
   "appName": "BharatMatrimony",
   "packageName": "com.hindimatrimony",
-  "category": "SOCIAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,9 +24,21 @@
   ],
   "version": "6.2",
   "trackers": [
-    "Google Analytics",
-    "AppsFlyer",
+    "Google Firebase Analytics",
     "Google CrashLytics",
-    "Google Firebase Analytics"
+    "Google Analytics",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.hindimatrimony",
+      "ptr_domain": "ec2-54-221-246-132.compute-1.amazonaws.com",
+      "ip_address": "54.221.246.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

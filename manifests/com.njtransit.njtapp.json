@@ -1,7 +1,7 @@
 {
   "appName": "NJTransit",
   "packageName": "com.njtransit.njtapp",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -21,8 +21,30 @@
   ],
   "version": "2018.2.4",
   "trackers": [
-    "Google Analytics",
     "Google Ads",
+    "Google Analytics",
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.njtransit.njtapp",
+      "ptr_domain": "mtix1.njtransit.com",
+      "ip_address": "198.177.3.133",
+      "loc_city": "Clifton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.173600",
+      "loc_lat": "40.867600"
+    },
+    {
+      "package": "com.njtransit.njtapp",
+      "ptr_domain": "N/A",
+      "ip_address": "199.184.144.61",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

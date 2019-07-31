@@ -1,7 +1,7 @@
 {
   "appName": "LA Times",
   "packageName": "com.apptivateme.next.la",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,12 +22,24 @@
   ],
   "version": "4.0.4",
   "trackers": [
-    "ComScore",
+    "Urbanairship",
+    "Google DoubleClick",
     "Google Ads",
-    "Amazon Advertisement",
     "Ensighten",
     "Google CrashLytics",
-    "Urbanairship",
-    "Google DoubleClick"
+    "ComScore",
+    "Amazon Advertisement"
+  ],
+  "network_connections": [
+    {
+      "package": "com.apptivateme.next.la",
+      "ptr_domain": "64.ce.559e.ip4.static.sl-reverse.com",
+      "ip_address": "158.85.206.100",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.835300",
+      "loc_lat": "32.932200"
+    }
   ]
 }

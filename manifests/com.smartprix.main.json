@@ -1,7 +1,7 @@
 {
   "appName": "Smartprix",
   "packageName": "com.smartprix.main",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -21,9 +21,31 @@
   ],
   "version": "1.4.6",
   "trackers": [
-    "Google CrashLytics",
-    "Google Firebase Analytics",
     "Facebook Login",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.smartprix.main",
+      "ptr_domain": "N/A",
+      "ip_address": "104.28.30.57",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.smartprix.main",
+      "ptr_domain": "ec2-46-51-197-24.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.197.24",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

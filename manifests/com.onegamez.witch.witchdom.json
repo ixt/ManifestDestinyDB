@@ -1,0 +1,680 @@
+{
+  "appName": "Witchdom",
+  "packageName": "com.onegamez.witch.witchdom",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.onegamez.witch.witchdom.permission.C2D_MESSAGE"
+  ],
+  "version": "1.6.8",
+  "trackers": [
+    "AppLovin",
+    "Google Firebase Analytics",
+    "Unity3d Ads",
+    "Moat",
+    "Facebook Login",
+    "ironSource",
+    "Facebook Analytics",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "a198-189-255-206.deploy.akamaitechnologies.com",
+      "ip_address": "198.189.255.206",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "a198-189-255-217.deploy.akamaitechnologies.com",
+      "ip_address": "198.189.255.217",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "sfo03s01-in-f193.1e100.net",
+      "ip_address": "216.58.194.193",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "a23-203-229-74.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.203.229.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "a23-45-88-185.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.45.88.185",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "a23-52-2-142.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.52.2.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "a23-52-3-101.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.52.3.101",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "sfo03s01-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "sfo03s01-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "sfo07s16-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:807::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "sfo03s07-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "qj-in-x63.1e100.net",
+      "ip_address": "2607:f8b0:400d:c08::63",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "qj-in-x6a.1e100.net",
+      "ip_address": "2607:f8b0:400d:c08::6a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "pg-in-x9c.1e100.net",
+      "ip_address": "2607:f8b0:400e:c05::9c",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1e::9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:2::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "xx-fbcdn6-shv-01-sea1.fbcdn.net",
+      "ip_address": "2a03:2880:f001:b:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "edge-star6-shv-01-atl3.facebook.com",
+      "ip_address": "2a03:2880:f011:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "edge-star6-shv-01-lga3.facebook.com",
+      "ip_address": "2a03:2880:f012:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:312:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "edge-star6-shv-02-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:20e:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f100:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "edge-z-m-mini6-shv-01-atl3.facebook.com",
+      "ip_address": "2a03:2880:f111:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f113:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "edge-z-m-mini6-shv-02-ort2.facebook.com",
+      "ip_address": "2a03:2880:f127:284:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-34-192-177-87.compute-1.amazonaws.com",
+      "ip_address": "34.192.177.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-34-194-148-240.compute-1.amazonaws.com",
+      "ip_address": "34.194.148.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-34-251-54-181.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.54.181",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-18-85-163.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.85.163",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-20-186-231.compute-1.amazonaws.com",
+      "ip_address": "52.20.186.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-204-202-6.compute-1.amazonaws.com",
+      "ip_address": "52.204.202.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-205-51-38.compute-1.amazonaws.com",
+      "ip_address": "52.205.51.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-205-92-12.compute-1.amazonaws.com",
+      "ip_address": "52.205.92.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-213-118-102.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.118.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-55-164-44.compute-1.amazonaws.com",
+      "ip_address": "52.55.164.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-71-204-191.compute-1.amazonaws.com",
+      "ip_address": "52.71.204.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-8-147-59.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.147.59",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-103.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.103",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-131.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.131",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-185.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.185",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-186.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.186",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-19.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.19",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-219.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.219",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-237.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.237",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-239.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.239",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-42.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.42",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-45.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.45",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-51.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.51",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-54.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.54",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-81.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.81",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-88.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.88",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "server-52-84-243-92.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.92",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-52-87-19-166.compute-1.amazonaws.com",
+      "ip_address": "52.87.19.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-54-146-38-96.compute-1.amazonaws.com",
+      "ip_address": "54.146.38.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-54-153-67-50.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.153.67.50",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-54-164-57-174.compute-1.amazonaws.com",
+      "ip_address": "54.164.57.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-54-183-159-220.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.159.220",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-54-210-192-248.compute-1.amazonaws.com",
+      "ip_address": "54.210.192.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-54-246-184-227.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.184.227",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-54-76-241-89.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.241.89",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "ec2-54-83-76-249.compute-1.amazonaws.com",
+      "ip_address": "54.83.76.249",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.onegamez.witch.witchdom",
+      "ptr_domain": "94.31.29.54.IPYX-077437-ZYO.above.net",
+      "ip_address": "94.31.29.54",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    }
+  ]
+}

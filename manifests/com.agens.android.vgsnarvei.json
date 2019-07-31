@@ -1,7 +1,7 @@
 {
   "appName": "VG",
   "packageName": "com.agens.android.vgsnarvei",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -20,11 +20,33 @@
   ],
   "version": "5.5.0",
   "trackers": [
-    "ATInternet",
-    "JW Player",
-    "Google Firebase Analytics",
-    "Schibsted",
     "Google CrashLytics",
-    "ComScore"
+    "ComScore",
+    "Schibsted",
+    "Google Firebase Analytics",
+    "JW Player",
+    "ATInternet"
+  ],
+  "network_connections": [
+    {
+      "package": "com.agens.android.vgsnarvei",
+      "ptr_domain": "ec2-23-23-165-121.compute-1.amazonaws.com",
+      "ip_address": "23.23.165.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.agens.android.vgsnarvei",
+      "ptr_domain": "ec2-50-16-235-9.compute-1.amazonaws.com",
+      "ip_address": "50.16.235.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

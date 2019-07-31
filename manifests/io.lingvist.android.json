@@ -1,7 +1,7 @@
 {
   "appName": "Lingvist",
   "packageName": "io.lingvist.android",
-  "category": "EDUCATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -16,12 +16,384 @@
   ],
   "version": "2.34.7",
   "trackers": [
-    "Facebook Share",
-    "Google Analytics",
-    "AppsFlyer",
+    "Google Firebase Analytics",
     "LeanPlum",
-    "Facebook Places",
+    "Google Analytics",
     "Facebook Login",
-    "Google Firebase Analytics"
+    "Facebook Places",
+    "AppsFlyer",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "server-13-32-240-180.dfw54.r.cloudfront.net",
+      "ip_address": "13.32.240.180",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "server-13-32-240-198.dfw54.r.cloudfront.net",
+      "ip_address": "13.32.240.198",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "server-13-32-240-50.dfw54.r.cloudfront.net",
+      "ip_address": "13.32.240.50",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-34-194-72-159.compute-1.amazonaws.com",
+      "ip_address": "34.194.72.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-34-196-30-17.compute-1.amazonaws.com",
+      "ip_address": "34.196.30.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-34-198-72-122.compute-1.amazonaws.com",
+      "ip_address": "34.198.72.122",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-34-203-148-213.compute-1.amazonaws.com",
+      "ip_address": "34.203.148.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-34-205-243-58.compute-1.amazonaws.com",
+      "ip_address": "34.205.243.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-34-206-156-247.compute-1.amazonaws.com",
+      "ip_address": "34.206.156.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-34-224-235-17.compute-1.amazonaws.com",
+      "ip_address": "34.224.235.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-34-225-4-185.compute-1.amazonaws.com",
+      "ip_address": "34.225.4.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-34-252-107-238.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.107.238",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-50-19-106-31.compute-1.amazonaws.com",
+      "ip_address": "50.19.106.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-0-58-84.compute-1.amazonaws.com",
+      "ip_address": "52.0.58.84",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-1-9-141.compute-1.amazonaws.com",
+      "ip_address": "52.1.9.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-200-0-248.compute-1.amazonaws.com",
+      "ip_address": "52.200.0.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-200-174-184.compute-1.amazonaws.com",
+      "ip_address": "52.200.174.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-202-201-151.compute-1.amazonaws.com",
+      "ip_address": "52.202.201.151",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-204-245-89.compute-1.amazonaws.com",
+      "ip_address": "52.204.245.89",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-205-241-37.compute-1.amazonaws.com",
+      "ip_address": "52.205.241.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-205-74-251.compute-1.amazonaws.com",
+      "ip_address": "52.205.74.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-206-166-125.compute-1.amazonaws.com",
+      "ip_address": "52.206.166.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-206-93-197.compute-1.amazonaws.com",
+      "ip_address": "52.206.93.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-22-179-85.compute-1.amazonaws.com",
+      "ip_address": "52.22.179.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-4-223-188.compute-1.amazonaws.com",
+      "ip_address": "52.4.223.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-54-141-1.compute-1.amazonaws.com",
+      "ip_address": "52.54.141.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-73-164-50.compute-1.amazonaws.com",
+      "ip_address": "52.73.164.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-73-234-2.compute-1.amazonaws.com",
+      "ip_address": "52.73.234.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-52-73-63-134.compute-1.amazonaws.com",
+      "ip_address": "52.73.63.134",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-54-164-5-207.compute-1.amazonaws.com",
+      "ip_address": "54.164.5.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-54-165-147-101.compute-1.amazonaws.com",
+      "ip_address": "54.165.147.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-54-171-154-176.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.154.176",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-54-210-158-194.compute-1.amazonaws.com",
+      "ip_address": "54.210.158.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-54-236-178-64.compute-1.amazonaws.com",
+      "ip_address": "54.236.178.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-54-84-69-4.compute-1.amazonaws.com",
+      "ip_address": "54.84.69.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "io.lingvist.android",
+      "ptr_domain": "ec2-54-85-236-232.compute-1.amazonaws.com",
+      "ip_address": "54.85.236.232",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

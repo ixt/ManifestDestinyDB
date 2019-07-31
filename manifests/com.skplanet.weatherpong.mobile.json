@@ -1,7 +1,7 @@
 {
   "appName": "웨더퐁\n날씨위젯",
   "packageName": "com.skplanet.weatherpong.mobile",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,10 +23,32 @@
   ],
   "version": "6.2.4",
   "trackers": [
-    "Google Tag Manager",
-    "Google DoubleClick",
-    "Google Ads",
     "Google CrashLytics",
+    "Google DoubleClick",
+    "Google Tag Manager",
+    "Google Ads",
     "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.skplanet.weatherpong.mobile",
+      "ptr_domain": "ec2-184-73-242-146.compute-1.amazonaws.com",
+      "ip_address": "184.73.242.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.skplanet.weatherpong.mobile",
+      "ptr_domain": "ec2-54-243-165-181.compute-1.amazonaws.com",
+      "ip_address": "54.243.165.181",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

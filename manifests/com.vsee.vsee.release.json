@@ -1,7 +1,7 @@
 {
   "appName": "VSee Messenger",
   "packageName": "com.vsee.vsee.release",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -42,7 +42,39 @@
   ],
   "version": "4.4.1",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.vsee.vsee.release",
+      "ptr_domain": "ec2-13-56-6-124.us-west-1.compute.amazonaws.com",
+      "ip_address": "13.56.6.124",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.vsee.vsee.release",
+      "ptr_domain": "ec2-52-52-111-88.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.111.88",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.vsee.vsee.release",
+      "ptr_domain": "ec2-52-52-36-123.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.36.123",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    }
   ]
 }

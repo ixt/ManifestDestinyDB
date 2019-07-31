@@ -1,7 +1,7 @@
 {
   "appName": "My Vodafone",
   "packageName": "com.myvodafone.android",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -32,8 +32,30 @@
   ],
   "version": "4.7.3.1-4395AL-REL",
   "trackers": [
-    "Google Firebase Analytics",
     "Google Ads",
+    "Google Firebase Analytics",
     "Urbanairship"
+  ],
+  "network_connections": [
+    {
+      "package": "com.myvodafone.android",
+      "ptr_domain": "a104-107-159-112.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.107.159.112",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.myvodafone.android",
+      "ptr_domain": "ec2-54-225-185-191.compute-1.amazonaws.com",
+      "ip_address": "54.225.185.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Seed4.Me VPN",
   "packageName": "me.seed4.app.android",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,11 +24,43 @@
   "version": "1.2.9",
   "trackers": [
     "Google Firebase Analytics",
+    "Facebook Share",
+    "Google Analytics",
     "Facebook Analytics",
-    "Facebook Login",
     "Facebook Places",
     "Google CrashLytics",
-    "Google Analytics",
-    "Facebook Share"
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "me.seed4.app.android",
+      "ptr_domain": "ec2-23-21-219-171.compute-1.amazonaws.com",
+      "ip_address": "23.21.219.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "me.seed4.app.android",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "me.seed4.app.android",
+      "ptr_domain": "ec2-54-204-4-24.compute-1.amazonaws.com",
+      "ip_address": "54.204.4.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

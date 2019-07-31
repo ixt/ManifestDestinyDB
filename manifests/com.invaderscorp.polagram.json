@@ -1,7 +1,7 @@
 {
   "appName": "LALALAB.",
   "packageName": "com.invaderscorp.polagram",
-  "category": "PHOTOGRAPHY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -22,16 +22,28 @@
   ],
   "version": "605",
   "trackers": [
-    "Facebook Login",
-    "Localytics",
+    "Google Analytics",
     "Batch",
-    "Adjust",
-    "Google CrashLytics",
-    "Facebook Places",
-    "Facebook Share",
     "Facebook Analytics",
     "Google Firebase Analytics",
-    "Google Analytics",
-    "Segment"
+    "Segment",
+    "Facebook Share",
+    "Google CrashLytics",
+    "Adjust",
+    "Facebook Login",
+    "Localytics",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.invaderscorp.polagram",
+      "ptr_domain": "ec2-35-163-223-46.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.223.46",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

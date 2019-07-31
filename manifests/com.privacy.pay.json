@@ -1,7 +1,7 @@
 {
   "appName": "Privacy",
   "packageName": "com.privacy.pay",
-  "category": "FINANCE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -32,7 +32,30 @@
   ],
   "version": "2.11.4",
   "trackers": [
+    "Bugsnag",
     "Google CrashLytics",
     "MixPanel"
+  ],
+  "network_connections": [
+    {
+      "package": "com.privacy.pay",
+      "ptr_domain": "lga25s62-in-f14.1e100.net",
+      "ip_address": "172.217.12.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.privacy.pay",
+      "ptr_domain": "ec2-52-8-200-173.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.200.173",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    }
   ]
 }

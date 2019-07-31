@@ -1,7 +1,7 @@
 {
   "appName": "Barometer Reborn",
   "packageName": "net.hubalek.android.apps.barometer",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -14,7 +14,19 @@
   ],
   "version": "1.9.6",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Ads"
+    "Google Ads",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "net.hubalek.android.apps.barometer",
+      "ptr_domain": "ec2-23-23-101-152.compute-1.amazonaws.com",
+      "ip_address": "23.23.101.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

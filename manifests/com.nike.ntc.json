@@ -1,7 +1,7 @@
 {
   "appName": "Nike Training",
   "packageName": "com.nike.ntc",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -31,14 +31,26 @@
   ],
   "version": "5.18.1",
   "trackers": [
+    "Facebook Analytics",
     "Facebook Login",
-    "Facebook Share",
-    "Facebook Places",
+    "Gigya",
     "Google Ads",
     "New Relic",
-    "Facebook Analytics",
-    "Gigya",
     "Optimizely",
+    "Facebook Places",
+    "Facebook Share",
     "Urbanairship"
+  ],
+  "network_connections": [
+    {
+      "package": "com.nike.ntc",
+      "ptr_domain": "a173-222-30-216.deploy.static.akamaitechnologies.com",
+      "ip_address": "173.222.30.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

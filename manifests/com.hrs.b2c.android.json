@@ -1,7 +1,7 @@
 {
   "appName": "HRS Hotels",
   "packageName": "com.hrs.b2c.android",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -26,14 +26,56 @@
   ],
   "version": "8.12.1",
   "trackers": [
-    "Baidu Location",
-    "Google DoubleClick",
-    "Baidu Map",
-    "HockeyApp",
-    "Google Analytics",
     "Adjust",
-    "Google Ads",
+    "Google Analytics",
+    "Baidu Map",
+    "Google DoubleClick",
     "Google Firebase Analytics",
-    "Omniture"
+    "Omniture",
+    "Baidu Location",
+    "Google Ads",
+    "HockeyApp"
+  ],
+  "network_connections": [
+    {
+      "package": "com.hrs.b2c.android",
+      "ptr_domain": "ec2-184-73-152-246.compute-1.amazonaws.com",
+      "ip_address": "184.73.152.246",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.hrs.b2c.android",
+      "ptr_domain": "ec2-52-16-231-94.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.231.94",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.hrs.b2c.android",
+      "ptr_domain": "ec2-52-28-35-47.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.28.35.47",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.hrs.b2c.android",
+      "ptr_domain": "ec2-54-77-91-168.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.91.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

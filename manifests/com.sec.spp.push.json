@@ -1,0 +1,5740 @@
+{
+  "appName": "Samsung Push Service",
+  "packageName": "com.sec.spp.push",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERACT_ACROSS_USERS",
+    "android.permission.INTERNET",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.READ_PRIVILEGED_PHONE_STATE",
+    "android.permission.REAL_GET_TASKS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.sec.dlc.permission.DLC_REQUEST",
+    "com.sec.spp.permission.GET_REG_INFO",
+    "com.sec.spp.permission.PUSH_SERVICE_PROVIDER",
+    "com.sec.spp.permission.SEND",
+    "com.sec.spp.permission.TOKEN_93826e86cec89c5a525ae83ddf9ebd98ecc233c92e8756bc704afa2d0778c64fdb5fef0d4cf09b8d73963b6df482827430806db3a69e587adc1c167cc50e7207453c58ea58cad7caaef5646b8deb9556378af5867696aa51fbca0e2f918d7d12a6f0b7acd5bba2d48c6688ee2089b816ad6fb0bc395f6986b71129090f423d3d",
+    "com.sec.spp.permission.TOKEN_a1a30b694300dac6f59ae7b791d9eef52f677d5a5fe53412b7608126d463248f21f62f60c9bc92da81138bf6f292302d960c7273f648e5596bc9fea9ca594701e696c0917204658ac9f0e74745807472e9d3e9977f667274ee768334b7f9004f9a0046decafe7e068ad420d39e629d727f6b28195b118d7f7a4230be62243bd1",
+    "com.sec.spp.push.permission.AOM_KEEPALIVE",
+    "com.sec.spp.push.permission.REQUEST"
+  ],
+  "version": "1.9.01",
+  "trackers": [],
+  "network_connections": [
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-34-250-114-53.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.114.53",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-34-252-49-16.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.49.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-46-51-205-125.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.205.125",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-50-18-202-90.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.202.90",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-50-18-203-32.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.203.32",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-50-18-212-220.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.212.220",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-50-18-218-243.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.218.243",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-111-246.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.111.246",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-11-171.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.11.171",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-111-89.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.111.89",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-115-195.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.115.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-121-66.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.121.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-122-84.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.122.84",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-126-246.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.126.246",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-129-49.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.129.49",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-13-130.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.13.130",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-135-244.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.135.244",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-15-169.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.15.169",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-158-69.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.158.69",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-161-69.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.161.69",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-164-62.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.164.62",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-172-190.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.172.190",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-177-55.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.177.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-179-91.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.179.91",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-18-180.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.18.180",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-186-235.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.186.235",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-186-76.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.186.76",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-197-185.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.197.185",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-202-168.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.202.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-205-72.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.205.72",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-207-132.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.207.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-219-102.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.219.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-225-196.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.225.196",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-22-77.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.22.77",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-230-206.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.230.206",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-232-155.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.232.155",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-236-100.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.236.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-236-86.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.236.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-240-61.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.240.61",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-242-54.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.242.54",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-245-181.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.245.181",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-246-253.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.246.253",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-247-43.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.247.43",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-29-2.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.29.2",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-30-63.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.30.63",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-59-11.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.59.11",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-63-77.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.63.77",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-64-125.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.64.125",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-7-128.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.7.128",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-81-102.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.81.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-83-217.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.83.217",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-85-4.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.85.4",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-88-86.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.88.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-90-183.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.90.183",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-91-160.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.91.160",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-94-236.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.94.236",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-16-99-238.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.99.238",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-103-79.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.103.79",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-106-159.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.106.159",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-108-192.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.108.192",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-108-225.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.108.225",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-109-49.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.109.49",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-109-77.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.109.77",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-110-167.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.110.167",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-110-195.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.110.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-111-141.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.111.141",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-111-56.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.111.56",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-11-170.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.11.170",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-111-85.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.111.85",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-114-254.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.114.254",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-117-183.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.117.183",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-117-197.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.117.197",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-117-218.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.117.218",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-117-9.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.117.9",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-118-17.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.118.17",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-118-81.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.118.81",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-122-100.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.122.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-122-146.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.122.146",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-122-26.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.122.26",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-123-15.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.123.15",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-124-139.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.124.139",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-125-34.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.125.34",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-125-58.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.125.58",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-125-74.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.125.74",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-126-108.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.126.108",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-126-111.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.126.111",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-126-123.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.126.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-126-125.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.126.125",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-126-151.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.126.151",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-126-29.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.126.29",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-126-38.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.126.38",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-126-78.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.126.78",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-126-99.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.126.99",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-127-155.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.127.155",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-128-228.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.128.228",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-128-238.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.128.238",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-128-243.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.128.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-128-244.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.128.244",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-128-250.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.128.250",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-128-3.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.128.3",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-128-42.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.128.42",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-129-134.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.129.134",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-129-146.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.129.146",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-129-240.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.129.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-131-113.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.131.113",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-132-67.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.132.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-133-210.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.133.210",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-13-32.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.13.32",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-136-73.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.136.73",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-148-200.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.148.200",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-158-168.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.158.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-158-35.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.158.35",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-159-244.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.159.244",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-162-186.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.162.186",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-163-8.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.163.8",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-164-222.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.164.222",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-165-143.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.165.143",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-166-214.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.166.214",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-169-91.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.169.91",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-182-238.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.182.238",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-184-170.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.184.170",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-187-190.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.187.190",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-189-37.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.189.37",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-197-175.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.197.175",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-200-243.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.200.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-203-29.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.203.29",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-205-101.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.205.101",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-205-95.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.205.95",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-207-77.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.207.77",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-223-222.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.223.222",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-230-220.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.230.220",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-231-68.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.231.68",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-237-131.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.237.131",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-237-78.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.237.78",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-23-82.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.23.82",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-239-231.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.239.231",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-241-244.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.241.244",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-249-23.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.249.23",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-254-141.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.254.141",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-26-245.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.26.245",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-26-51.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.26.51",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-27-213.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.27.213",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-28-19.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.28.19",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-30-94.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.30.94",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-34-20.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.34.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-34-252.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.34.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-38-13.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.38.13",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-43-120.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.43.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-45-123.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.45.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-51-113.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.51.113",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-5-19.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.5.19",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-53-110.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.53.110",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-56-180.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.56.180",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-63-120.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.63.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-64-135.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.64.135",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-64-202.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.64.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-71-244.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.71.244",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-75-212.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.75.212",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-78-65.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.78.65",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-79-129.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.79.129",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-8-43.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.8.43",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-8-60.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.8.60",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-92-122.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.92.122",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-96-55.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.96.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-17-96-89.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.96.89",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-110-234.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.110.234",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-118-208.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.118.208",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-134-41.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.134.41",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-140-101.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.140.101",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-140-92.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.140.92",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-163-194.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.163.194",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-195-172.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.195.172",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-204-52.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.204.52",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-212-240.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.212.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-254-13.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.254.13",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-55-71.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.55.71",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-18-68-185.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.68.185",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-19-201-84.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.201.84",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-19-219-206.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.219.206",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-192-2-175.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.192.2.175",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-192-78-22.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.192.78.22",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-193-43-86.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.193.43.86",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-193-79-228.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.193.79.228",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-193-90-166.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.193.90.166",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-193-94-14.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.193.94.14",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-196-146-108.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.196.146.108",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-196-183-62.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.196.183.62",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-196-185-212.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.196.185.212",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-196-198-105.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.196.198.105",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-19-80-177.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.80.177",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-19-80-63.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.80.63",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-19-83-25.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.83.25",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-198-84-201.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.198.84.201",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-208-194-232.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.194.232",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-208-222-230.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.222.230",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-208-237-171.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.237.171",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-208-251-149.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.251.149",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-208-73-45.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.73.45",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-208-87-36.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.87.36",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-209-203-221.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.203.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-210-12-211.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.12.211",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-210-213-49.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.213.49",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-210-80-248.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.80.248",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-211-18-22.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.18.22",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-211-200-91.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.200.91",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-211-76-215.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.76.215",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-212-107-161.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.107.161",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-212-57-5.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.57.5",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-213-80-15.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.80.15",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-213-95-195.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.95.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-214-127-248.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.127.248",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-214-164-162.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.164.162",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-214-201-33.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.201.33",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-214-230-30.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.230.30",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-214-32-156.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.32.156",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-215-28-30.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.215.28.30",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-215-47-207.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.215.47.207",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-220-128-45.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.220.128.45",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-220-55-156.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.220.55.156",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-221-12-164.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.221.12.164",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-221-28-112.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.221.28.112",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-30-103-67.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.103.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-30-109-18.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.109.18",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-30-129-142.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.129.142",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-30-211-42.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.211.42",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-30-222-254.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.222.254",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-30-247-55.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.247.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-113-44.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.113.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-116-135.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.116.135",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-176-228.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.176.228",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-215-185.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.215.185",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-222-100.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.222.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-237-181.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.237.181",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-239-89.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.239.89",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-2-9.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.2.9",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-54-81.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.54.81",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-56-131.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.56.131",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-31-61-109.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.61.109",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-13-124.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.13.124",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-13-150.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.13.150",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-14-65.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.14.65",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-156-12.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.156.12",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-17-152.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.17.152",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-17-16.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.17.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-17-201.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.17.201",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-17-44.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.17.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-180-2.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.180.2",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-20-130.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.20.130",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-209-150.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.209.150",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-240-183.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.240.183",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-48-25-119.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.25.119",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-49-196-219.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.196.219",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-49-218-87.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.218.87",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-49-228-30.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.228.30",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-49-230-220.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.230.220",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-49-24-125.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.24.125",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-49-255-182.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.255.182",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-49-37-57.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.37.57",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-50-160-185.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.50.160.185",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-50-198-50.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.50.198.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-50-71-103.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.50.71.103",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-50-88-127.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.50.88.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-111-150.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.111.150",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-141-90.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.141.90",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-150-255.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.150.255",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-152-67.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.152.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-153-144.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.153.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-154-1.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.154.1",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-154-34.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.154.34",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-25-135.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.25.135",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-36-12.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.36.12",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-71-195.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.71.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-51-98-216.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.98.216",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-52-178-174.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.178.174",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-52-178-196.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.178.196",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-52-243-227.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.243.227",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-113-147.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.113.147",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-115-159.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.115.159",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-119-109.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.119.109",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-121-150.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.121.150",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-131-176.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.131.176",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-133-124.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.133.124",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-143-50.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.143.50",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-145-182.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.145.182",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-151-36.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.151.36",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-154-246.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.154.246",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-159-97.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.159.97",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-160-51.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.160.51",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-163-140.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.163.140",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-167-38.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.167.38",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-168-196.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.168.196",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-173-130.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.173.130",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-173-237.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.173.237",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-174-129.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.174.129",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-175-11.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.175.11",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-178-149.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.178.149",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-180-208.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.180.208",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-180-233.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.180.233",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-181-158.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.181.158",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-181-233.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.181.233",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-181-93.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.181.93",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-181-9.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.181.9",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-182-13.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.182.13",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-182-44.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.182.44",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-183-107.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.183.107",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-183-111.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.183.111",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-183-158.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.183.158",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-183-20.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.183.20",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-183-95.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.183.95",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-184-210.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.184.210",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-184-234.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.184.234",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-184-237.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.184.237",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "in-law.biz",
+      "ip_address": "52.68.185.21",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-185-64.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.185.64",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-186-145.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.186.145",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-186-195.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.186.195",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-186-226.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.186.226",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-186-243.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.186.243",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-186-245.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.186.245",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-186-252.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.186.252",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-10.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.10",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-12.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.12",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-13.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.13",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-161.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.161",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-218.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.218",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-237.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.237",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-245.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.245",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-248.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.248",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-38.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.38",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-187-54.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.187.54",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-188-40.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.188.40",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-191-244.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.191.244",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-23-200.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.23.200",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-24-83.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.24.83",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-41-131.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.41.131",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-41-6.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.41.6",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-46-53.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.46.53",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-46-94.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.46.94",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-48-165.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.48.165",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-50-16.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.50.16",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-56-211.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.56.211",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-70-111.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.70.111",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-70-216.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.70.216",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-75-41.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.75.41",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-75-57.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.75.57",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-80-54.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.80.54",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-82-107.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.82.107",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-82-191.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.82.191",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-8-27.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.8.27",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-83-232.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.83.232",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-68-99-53.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.99.53",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-69-127-76.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.69.127.76",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-69-163-32.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.69.163.32",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-69-189-141.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.69.189.141",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-69-44-43.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.69.44.43",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-11-172.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.11.172",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-128-100.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.128.100",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-131-183.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.131.183",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-131-74.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.131.74",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-14-189.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.14.189",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-168-242.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.168.242",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-168-30.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.168.30",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-200-79.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.200.79",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-215-133.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.215.133",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-217-238.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.217.238",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-219-247.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.219.247",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-226-74.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.226.74",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-242-13.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.242.13",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-242-62.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.242.62",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-245-63.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.245.63",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-247-26.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.247.26",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-248-252.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.248.252",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-255-107.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.255.107",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-33-194.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.33.194",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-57-79.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.57.79",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-66-111.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.66.111",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-74-87-117.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.87.117",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-76-120-23.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.120.23",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-76-159-69.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.159.69",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-76-197-246.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.197.246",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-76-233-22.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.233.22",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-76-37-249.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.37.249",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-76-94-227.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.94.227",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-76-95-64.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.95.64",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-76-96-221.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.96.221",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-76-96-39.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.96.39",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-104-150.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.104.150",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-128-233.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.128.233",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-140-209.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.140.209",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-156-102.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.156.102",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-156-240.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.156.240",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-157-15.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.157.15",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-157-16.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.157.16",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-157-41.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.157.41",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-163-242.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.163.242",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-188-18.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.188.18",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-189-192.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.189.192",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-189-67.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.189.67",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-77-190-101.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.190.101",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-8-247-164.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.247.164",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-8-252-249.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.252.249",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-8-95-35.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.95.35",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-9-170-8.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.170.8",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-52-9-35-218.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.35.218",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-153-1-251.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.153.1.251",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-153-33-78.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.153.33.78",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-109-101.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.109.101",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-122-135.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.122.135",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-14-112.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.14.112",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-184-238.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.184.238",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-20-190.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.20.190",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-207-32.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.207.32",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-227-140.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.227.140",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-26-217.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.26.217",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-29-230.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.29.230",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-34-12.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.34.12",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-38-161.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.38.161",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-40-96.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.40.96",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-49-203.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.49.203",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-51-62.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.51.62",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-53-114.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.53.114",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-53-172.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.53.172",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-53-83.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.53.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-54-172.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.54.172",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-57-55.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.57.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-57-83.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.57.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-58-158.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.58.158",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-59-16.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.59.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-59-227.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.59.227",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-59-247.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.59.247",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-60-214.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.60.214",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-154-79-242.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.79.242",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-15-198.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.15.198",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-15-66.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.15.66",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-18-193.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.18.193",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-229-158.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.229.158",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-25-117.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.25.117",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-34-46.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.34.46",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-35-40.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.35.40",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-36-44.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.36.44",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-36-53.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.36.53",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-3-87.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.3.87",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-44-84.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.44.84",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-47-236.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.47.236",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-47-38.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.47.38",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-50-9.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.50.9",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-52-213.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.52.213",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-55-164.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.55.164",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-55-66.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.55.66",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-57-250.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.57.250",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-58-250.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.58.250",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-59-108.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.59.108",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-59-111.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.59.111",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-59-124.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.59.124",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-59-85.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.59.85",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-59-91.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.59.91",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-60-134.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.60.134",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-60-171.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.60.171",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-60-220.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.60.220",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-60-60.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.60.60",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-60-67.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.60.67",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-60-6.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.60.6",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-61-157.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.61.157",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-61-54.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.61.54",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-63-41.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.63.41",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-64-38.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.64.38",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-64-57.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.64.57",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-66-137.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.66.137",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-9-194.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.9.194",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-169-9-43.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.9.43",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-171-21-159.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.21.159",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-171-39-149.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.39.149",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-171-41-164.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.41.164",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-171-6-181.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.6.181",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-183-108-145.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.108.145",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-183-186-176.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.186.176",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-183-193-121.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.193.121",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-183-204-53.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.204.53",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-183-225-144.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.225.144",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-183-50-9.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.50.9",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-193-2-29.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.2.29",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-193-26-7.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.26.7",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-194-197-131.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.197.131",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-194-82-91.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.82.91",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-215-132-78.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.132.78",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-215-170-221.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.170.221",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-215-210-55.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.210.55",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-215-219-2.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.219.2",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-215-241-218.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.241.218",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-219-162-177.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.219.162.177",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-229-100-150.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.100.150",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-229-134-108.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.134.108",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-229-241-34.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.241.34",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-229-247-153.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.247.153",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-229-42-47.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.42.47",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-229-75-167.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.75.167",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-241-163-94.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.241.163.94",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-241-186-80.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.241.186.80",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-246-181-152.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.181.152",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-246-194-238.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.194.238",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-251-190-200.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.251.190.200",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-254-237-6.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.254.237.6",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-255-140-93.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.255.140.93",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-255-148-52.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.255.148.52",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-255-253-20.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.255.253.20",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-255-253-5.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.255.253.5",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-64-86-187.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.64.86.187",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-72-110-50.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.110.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-72-156-228.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.156.228",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-72-208-173.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.208.173",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-72-220-59.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.220.59",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-72-221-122.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.221.122",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-72-61-76.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.61.76",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-72-79-199.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.79.199",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-72-84-123.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.84.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-72-93-146.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.93.146",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-12-133.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.12.133",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-127-42.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.127.42",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-130-181.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.130.181",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-186-241.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.186.241",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-195-210.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.195.210",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-208-197.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.208.197",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-208-92.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.208.92",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-209-71.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.209.71",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-210-76.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.210.76",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-215-145.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.215.145",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-217-32.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.217.32",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-227-49.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.227.49",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-228-168.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.228.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-241-249.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.241.249",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-244-228.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.244.228",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-249-249.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.249.249",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-2-67.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.2.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-27-107.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.27.107",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-33-67.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.33.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-36-125.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.36.125",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-58-228.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.58.228",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-80-140.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.80.140",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-76-94-122.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.94.122",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-107-152.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.107.152",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-108-42.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.108.42",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-121-196.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.121.196",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-124-73.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.124.73",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-125-154.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.125.154",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-125-2.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.125.2",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-134-118.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.134.118",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-157-137.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.157.137",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-167-90.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.167.90",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-188-245.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.188.245",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-200-195.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.200.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-205-66.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.205.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-210-229.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.210.229",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-219-172.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.219.172",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-227-215.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.227.215",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-246-225.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.246.225",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-249-30.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.249.30",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-58-91.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.58.91",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-67-12.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.67.12",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-80-127.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.80.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-8-184.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.8.184",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-83-143.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.83.143",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-86-48.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.86.48",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-95-214.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.95.214",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-77-99-240.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.99.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "ec2-54-92-113-124.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.92.113.124",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::2e33:cd7d",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::3212:daf3",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::3409:aa08",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::3434:b2c4",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::34d6:e61e",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    },
+    {
+      "package": "com.sec.spp.push",
+      "ptr_domain": "N/A",
+      "ip_address": "64:ff9b::36c1:1a07",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "N/A",
+      "loc_long": "N/A",
+      "loc_lat": "N/A"
+    }
+  ]
+}

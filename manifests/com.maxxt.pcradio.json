@@ -1,7 +1,7 @@
 {
   "appName": "PCRadio",
   "packageName": "com.maxxt.pcradio",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -17,8 +17,30 @@
   ],
   "version": "2.4.8.0",
   "trackers": [
+    "Google CrashLytics",
     "Google Firebase Analytics",
-    "Google Ads",
-    "Google CrashLytics"
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.maxxt.pcradio",
+      "ptr_domain": "mad06s10-in-f162.1e100.net",
+      "ip_address": "216.58.210.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.maxxt.pcradio",
+      "ptr_domain": "mad01s26-in-f163.1e100.net",
+      "ip_address": "216.58.214.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    }
   ]
 }

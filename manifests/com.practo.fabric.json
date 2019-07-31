@@ -1,7 +1,7 @@
 {
   "appName": "Practo",
   "packageName": "com.practo.fabric",
-  "category": "MEDICAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -29,16 +29,368 @@
   ],
   "version": "4.28.7",
   "trackers": [
+    "CleverTap",
+    "Google CrashLytics",
     "Snowplow",
-    "OneSignal",
+    "Google Analytics",
+    "Facebook Login",
     "Facebook Share",
     "Facebook Places",
-    "Google Analytics",
     "Facebook Analytics",
-    "Google CrashLytics",
-    "Facebook Login",
+    "OneSignal",
     "Google Firebase Analytics",
-    "AppsFlyer",
-    "CleverTap"
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.208.165",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "N/A",
+      "ip_address": "104.17.27.29",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "ec2-107-21-98-91.compute-1.amazonaws.com",
+      "ip_address": "107.21.98.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "d.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "e.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "f.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "11.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "16.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "18.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "19.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "1a.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.26",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "1c.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.28",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "1e.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "23.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "25.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "2a.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "7.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "8.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "bam-6.nr-data.net",
+      "ip_address": "162.247.242.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "maa03s22-in-f164.1e100.net",
+      "ip_address": "172.217.26.164",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "maa03s20-in-f14.1e100.net",
+      "ip_address": "216.58.197.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "maa03s18-in-f35.1e100.net",
+      "ip_address": "216.58.220.35",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "ec2-23-21-171-54.compute-1.amazonaws.com",
+      "ip_address": "23.21.171.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "ec2-23-21-64-174.compute-1.amazonaws.com",
+      "ip_address": "23.21.64.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "ec2-23-21-97-174.compute-1.amazonaws.com",
+      "ip_address": "23.21.97.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "N/A",
+      "ip_address": "23.235.47.143",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "server-54-230-190-155.maa3.r.cloudfront.net",
+      "ip_address": "54.230.190.155",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "server-54-230-190-63.maa3.r.cloudfront.net",
+      "ip_address": "54.230.190.63",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "ec2-54-243-226-115.compute-1.amazonaws.com",
+      "ip_address": "54.243.226.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "ec2-54-72-230-77.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.230.77",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.practo.fabric",
+      "ptr_domain": "N/A",
+      "ip_address": "74.125.24.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

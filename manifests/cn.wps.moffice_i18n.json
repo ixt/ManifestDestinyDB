@@ -1,7 +1,7 @@
 {
   "appName": "WPS Office (BETA)",
   "packageName": "cn.wps.moffice_i18n",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -29,14 +29,26 @@
   ],
   "version": "11.5.2",
   "trackers": [
-    "Flurry",
-    "Tencent Stats",
+    "Inmobi",
+    "Google Firebase Analytics",
     "Google Ads",
     "Google DoubleClick",
-    "Inmobi",
-    "Twitter MoPub",
     "Tencent Weiyun",
+    "Flurry",
+    "Twitter MoPub",
     "Facebook Ads",
-    "Google Firebase Analytics"
+    "Tencent Stats"
+  ],
+  "network_connections": [
+    {
+      "package": "cn.wps.moffice_i18n",
+      "ptr_domain": "ec2-54-92-26-163.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.92.26.163",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Drive Ahead!",
   "packageName": "com.dodreams.driveahead",
-  "category": "GAME_RACING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -12,19 +12,721 @@
   ],
   "version": "1.81.2",
   "trackers": [
+    "AdColony",
+    "AppMetrica",
+    "Soomla",
+    "Google Firebase Analytics",
+    "Google Ads",
     "Unity3d Ads",
     "Twitter MoPub",
-    "AppMetrica",
-    "Adjust",
-    "Moat",
-    "AdColony",
-    "Google Ads",
-    "Google Firebase Analytics",
-    "ironSource",
-    "Facebook Ads",
     "Google DoubleClick",
-    "Soomla",
+    "Moat",
+    "Facebook Ads",
+    "AppsFlyer",
+    "ironSource",
     "Tapjoy",
-    "AppsFlyer"
+    "Adjust"
+  ],
+  "network_connections": [
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "a104-67-133-223.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.67.133.223",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-174-129-62-126.compute-1.amazonaws.com",
+      "ip_address": "174.129.62.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-184-73-137-123.compute-1.amazonaws.com",
+      "ip_address": "184.73.137.123",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "a198-189-255-206.deploy.akamaitechnologies.com",
+      "ip_address": "198.189.255.206",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "a198-189-255-214.deploy.akamaitechnologies.com",
+      "ip_address": "198.189.255.214",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "a198-189-255-217.deploy.akamaitechnologies.com",
+      "ip_address": "198.189.255.217",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "36-124-232-198.static.unitasglobal.net",
+      "ip_address": "198.232.124.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::7000",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "a23-203-229-226.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.203.229.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "a23-203-229-74.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.203.229.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "a23-44-160-35.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.44.160.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "a23-44-162-54.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.44.162.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "sfo07s13-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "sfo07s13-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "sfo07s13-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "sfo07s17-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1f::7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-34-199-160-85.compute-1.amazonaws.com",
+      "ip_address": "34.199.160.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-34-199-70-75.compute-1.amazonaws.com",
+      "ip_address": "34.199.70.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-34-200-180-212.compute-1.amazonaws.com",
+      "ip_address": "34.200.180.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-34-200-186-74.compute-1.amazonaws.com",
+      "ip_address": "34.200.186.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-34-207-39-0.compute-1.amazonaws.com",
+      "ip_address": "34.207.39.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-34-209-168-7.us-west-2.compute.amazonaws.com",
+      "ip_address": "34.209.168.7",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-34-250-213-120.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.213.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-34-250-57-123.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.57.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-0-240-95.compute-1.amazonaws.com",
+      "ip_address": "52.0.240.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-200-83-122.compute-1.amazonaws.com",
+      "ip_address": "52.200.83.122",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-20-174-111.compute-1.amazonaws.com",
+      "ip_address": "52.20.174.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-20-186-231.compute-1.amazonaws.com",
+      "ip_address": "52.20.186.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-208-152-16.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.152.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-212-120-179.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.120.179",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-213-123-151.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.123.151",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-214-17-131.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.17.131",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-49-8-11.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.8.11",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-50-30-64.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.50.30.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-52-244-101.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.244.101",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-55-164-44.compute-1.amazonaws.com",
+      "ip_address": "52.55.164.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-71-204-191.compute-1.amazonaws.com",
+      "ip_address": "52.71.204.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-7-197-79.compute-1.amazonaws.com",
+      "ip_address": "52.7.197.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-8-147-59.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.147.59",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-52-84-243-103.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.103",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-52-84-243-45.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.45",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-52-84-243-50.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.50",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-52-84-243-92.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.92",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-52-84-245-191.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.245.191",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-52-84-245-199.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.245.199",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-87-167-98.compute-1.amazonaws.com",
+      "ip_address": "52.87.167.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-87-19-166.compute-1.amazonaws.com",
+      "ip_address": "52.87.19.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-88-204-27.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.88.204.27",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-90-128-5.compute-1.amazonaws.com",
+      "ip_address": "52.90.128.5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-9-109-21.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.109.21",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-52-91-66-170.compute-1.amazonaws.com",
+      "ip_address": "52.91.66.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-146-38-96.compute-1.amazonaws.com",
+      "ip_address": "54.146.38.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-161-203-183.compute-1.amazonaws.com",
+      "ip_address": "54.161.203.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-164-57-174.compute-1.amazonaws.com",
+      "ip_address": "54.164.57.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-173-238-166.compute-1.amazonaws.com",
+      "ip_address": "54.173.238.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-183-159-220.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.159.220",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-54-192-119-12.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.12",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-54-192-119-149.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.149",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-54-192-119-36.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.36",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-54-192-119-4.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.4",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-54-192-119-75.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.75",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "server-54-192-119-84.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.84",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-194-49-47.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.49.47",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-210-192-248.compute-1.amazonaws.com",
+      "ip_address": "54.210.192.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-213-228-198.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.213.228.198",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-246-184-227.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.184.227",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "ec2-54-83-76-249.compute-1.amazonaws.com",
+      "ip_address": "54.83.76.249",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dodreams.driveahead",
+      "ptr_domain": "94.31.29.54.IPYX-077437-ZYO.above.net",
+      "ip_address": "94.31.29.54",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    }
   ]
 }

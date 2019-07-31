@@ -1,0 +1,649 @@
+{
+  "appName": "My Consumer Cellular",
+  "packageName": "cci.usage",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "2.5.9",
+  "trackers": [
+    "Google Firebase Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "104.19.194.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "190.0.196.104.bc.googleusercontent.com",
+      "ip_address": "104.196.0.190",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "146.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net",
+      "ip_address": "104.254.150.59",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "326.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net",
+      "ip_address": "104.254.150.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "129.146.13.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "129.146.14.99",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "13.107.21.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "149.174.66.134",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.52.166",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "152.163.20.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "adtechus-img-adtech-mtc-blue-b.evip.aol.com",
+      "ip_address": "152.163.56.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "UNKNOWN-162-208-20-X.yahoo.com",
+      "ip_address": "162.208.20.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ox-173-241-250-143.ca.dc.openx.org",
+      "ip_address": "173.241.250.143",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "192.31.109.33",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "192.82.242.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "a-0001.a-msedge.net",
+      "ip_address": "204.79.197.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "any-in-201b.1e100.net",
+      "ip_address": "216.239.32.27",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "UNKNOWN-216-39-55-X.yahoo.com",
+      "ip_address": "216.39.55.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "sea15s07-in-f4.1e100.net",
+      "ip_address": "216.58.193.68",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "sea15s07-in-f70.1e100.net",
+      "ip_address": "216.58.193.70",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "sea15s07-in-f8.1e100.net",
+      "ip_address": "216.58.193.72",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "sea15s07-in-f78.1e100.net",
+      "ip_address": "216.58.193.78",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "sea15s08-in-f98.1e100.net",
+      "ip_address": "216.58.193.98",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "sea15s01-in-f129.1e100.net",
+      "ip_address": "216.58.216.129",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "sea15s01-in-f136.1e100.net",
+      "ip_address": "216.58.216.136",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "sea15s01-in-f142.1e100.net",
+      "ip_address": "216.58.216.142",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "a23-14-165-104.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.14.165.104",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "a23-194-100-109.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.194.100.109",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "a23-49-13-103.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.49.13.103",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.107",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.68",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-34-197-13-28.compute-1.amazonaws.com",
+      "ip_address": "34.197.13.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-34-199-97-28.compute-1.amazonaws.com",
+      "ip_address": "34.199.97.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-50-18-210-35.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.210.35",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "s3-1-w.amazonaws.com",
+      "ip_address": "52.216.82.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-52-33-122-87.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.33.122.87",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-52-33-155-40.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.33.155.40",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-52-43-213-139.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.43.213.139",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "server-52-84-22-12.sea32.r.cloudfront.net",
+      "ip_address": "52.84.22.12",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.232.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-54-197-237-178.compute-1.amazonaws.com",
+      "ip_address": "54.197.237.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-54-215-164-95.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.164.95",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-54-218-29-5.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.218.29.5",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-54-218-44-217.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.218.44.217",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "ec2-54-245-241-63.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.241.63",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.248.136",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.252.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "media-sj2.msg.dotomi.com",
+      "ip_address": "64.156.167.112",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "media.sj2.vcmedia.com",
+      "ip_address": "64.156.167.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "67.137.33.197",
+      "loc_city": "Portland",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.636300",
+      "loc_lat": "45.528700"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "67.137.33.200",
+      "loc_city": "Portland",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.636300",
+      "loc_lat": "45.528700"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "67.137.33.203",
+      "loc_city": "Portland",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.636300",
+      "loc_lat": "45.528700"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "capi-offstage.creatr.vip.gq1.yahoo.com",
+      "ip_address": "67.195.33.91",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "e1.ycpi.vip.sja.yahoo.com",
+      "ip_address": "69.147.88.7",
+      "loc_city": "Costa Mesa",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-117.908900",
+      "loc_lat": "33.674800"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "d-sjc2.turn.com",
+      "ip_address": "69.194.244.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "70.42.160.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "70.42.160.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "70.42.160.58",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "pc-in-f155.1e100.net",
+      "ip_address": "74.125.28.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "pc-in-f157.1e100.net",
+      "ip_address": "74.125.28.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "8.39.37.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cci.usage",
+      "ptr_domain": "N/A",
+      "ip_address": "8.41.222.241",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "appName": "AARP Now",
   "packageName": "com.aarp.app",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,16 +22,38 @@
   ],
   "version": "3.16.1",
   "trackers": [
-    "Google Firebase Analytics",
-    "Flurry",
-    "Facebook Login",
-    "Braze (formerly Appboy)",
-    "Facebook Share",
-    "AppsFlyer",
-    "Google CrashLytics",
-    "Brightcove",
     "Facebook Analytics",
+    "Facebook Share",
+    "Facebook Places",
+    "Braze (formerly Appboy)",
+    "Facebook Login",
+    "Brightcove",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Foresee",
-    "Facebook Places"
+    "Flurry",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.aarp.app",
+      "ptr_domain": "78.122.119.209.in-addr.arpa",
+      "ip_address": "209.119.122.78",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aarp.app",
+      "ptr_domain": "ec2-54-225-162-48.compute-1.amazonaws.com",
+      "ip_address": "54.225.162.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

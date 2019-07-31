@@ -1,7 +1,7 @@
 {
   "appName": "Mobilt Bedriftsnett",
   "packageName": "com.telenor.mbedriftsnett",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -28,9 +28,21 @@
   ],
   "version": "4.1.9",
   "trackers": [
-    "Google CrashLytics",
-    "Apteligent by VMWare (formerly Crittercism)",
+    "Google Firebase Analytics",
     "Demdex",
-    "Google Firebase Analytics"
+    "Apteligent by VMWare (formerly Crittercism)",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.telenor.mbedriftsnett",
+      "ptr_domain": "N/A",
+      "ip_address": "66.117.29.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

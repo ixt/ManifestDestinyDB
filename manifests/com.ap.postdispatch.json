@@ -1,7 +1,7 @@
 {
   "appName": "St. Louis Post-Dispatch",
   "packageName": "com.ap.postdispatch",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -13,10 +13,32 @@
   ],
   "version": "5.4",
   "trackers": [
+    "Google Firebase Analytics",
     "Google CrashLytics",
     "Google DoubleClick",
     "Google Ads",
-    "Google Analytics",
-    "Google Firebase Analytics"
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ap.postdispatch",
+      "ptr_domain": "ec2-52-5-201-250.compute-1.amazonaws.com",
+      "ip_address": "52.5.201.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ap.postdispatch",
+      "ptr_domain": "ec2-54-82-228-207.compute-1.amazonaws.com",
+      "ip_address": "54.82.228.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "busuu",
   "packageName": "com.busuu.android.de",
-  "category": "EDUCATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -20,15 +20,47 @@
   ],
   "version": "16.3.0.472",
   "trackers": [
+    "Facebook Analytics",
+    "Apptimize",
     "Facebook Login",
     "Google Firebase Analytics",
-    "Snowplow",
     "AppSee",
     "Braze (formerly Appboy)",
-    "Apptimize",
-    "Facebook Analytics",
-    "Facebook Share",
+    "Google CrashLytics",
+    "Snowplow",
     "Adjust",
-    "Google CrashLytics"
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.busuu.android.de",
+      "ptr_domain": "ec2-52-6-42-17.compute-1.amazonaws.com",
+      "ip_address": "52.6.42.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.busuu.android.de",
+      "ptr_domain": "ec2-52-72-45-37.compute-1.amazonaws.com",
+      "ip_address": "52.72.45.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.busuu.android.de",
+      "ptr_domain": "ec2-54-84-0-82.compute-1.amazonaws.com",
+      "ip_address": "54.84.0.82",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

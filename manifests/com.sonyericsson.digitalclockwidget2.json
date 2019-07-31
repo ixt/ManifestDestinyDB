@@ -1,16 +1,74 @@
 {
   "appName": "Digital clock Xperia™",
   "packageName": "com.sonyericsson.digitalclockwidget2",
-  "category": "PERSONALIZATION",
+  "category": "",
   "icon": "",
-  "permissions": [],
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.BIND_JOB_SERVICE",
+    "android.permission.INSTALL_PACKAGES",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.c2dm.permission.SEND",
+    "com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE",
+    "com.sec.android.app.clockpackage.permission.READ_ALARM",
+    "com.sonyericsson.digitalclockwidget2.permission.C2D_MESSAGE"
+  ],
   "version": "5.3.5.308",
   "trackers": [
-    "Google Ads",
     "Cuebiq",
     "Facebook Ads",
-    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Ads",
     "Google DoubleClick",
-    "Google Firebase Analytics"
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sonyericsson.digitalclockwidget2",
+      "ptr_domain": "ec2-174-129-41-20.compute-1.amazonaws.com",
+      "ip_address": "174.129.41.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sonyericsson.digitalclockwidget2",
+      "ptr_domain": "ec2-52-30-197-119.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.197.119",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sonyericsson.digitalclockwidget2",
+      "ptr_domain": "ec2-54-225-217-126.compute-1.amazonaws.com",
+      "ip_address": "54.225.217.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sonyericsson.digitalclockwidget2",
+      "ptr_domain": "ec2-54-243-71-210.compute-1.amazonaws.com",
+      "ip_address": "54.243.71.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

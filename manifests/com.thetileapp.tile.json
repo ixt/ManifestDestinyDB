@@ -1,0 +1,516 @@
+{
+  "appName": "Tile",
+  "packageName": "com.thetileapp.tile",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.thetileapp.tile.nux.permissions.NuxPermissionsActivity"
+  ],
+  "version": "2.50.0",
+  "trackers": [
+    "Facebook Share",
+    "Google Firebase Analytics",
+    "Facebook Login",
+    "Facebook Analytics",
+    "Google CrashLytics",
+    "Branch",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "a104-93-68-176.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.93.68.176",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "edge-star-shv-02-ort2.facebook.com",
+      "ip_address": "157.240.18.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "a.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "b.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "10.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "15.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "16.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "17.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "1e.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "22.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "26.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "28.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "6.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "yyz08s13-in-f142.1e100.net",
+      "ip_address": "172.217.3.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "N/A",
+      "ip_address": "198.70.71.217",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "dfw06s48-in-f2.1e100.net",
+      "ip_address": "216.58.194.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.083900",
+      "loc_lat": "37.386100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ams15s21-in-f3.1e100.net",
+      "ip_address": "216.58.212.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-23-21-118-60.compute-1.amazonaws.com",
+      "ip_address": "23.21.118.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-23-21-230-199.compute-1.amazonaws.com",
+      "ip_address": "23.21.230.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "dfw28s04-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4000:815::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ams15s21-in-x03.1e100.net",
+      "ip_address": "2a00:1450:400e:800::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:312:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-34-192-76-17.compute-1.amazonaws.com",
+      "ip_address": "34.192.76.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-34-193-180-44.compute-1.amazonaws.com",
+      "ip_address": "34.193.180.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-34-200-108-109.compute-1.amazonaws.com",
+      "ip_address": "34.200.108.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-34-202-201-215.compute-1.amazonaws.com",
+      "ip_address": "34.202.201.215",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-34-203-114-27.compute-1.amazonaws.com",
+      "ip_address": "34.203.114.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-34-206-62-165.compute-1.amazonaws.com",
+      "ip_address": "34.206.62.165",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-50-17-162-43.compute-1.amazonaws.com",
+      "ip_address": "50.17.162.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-52-0-10-229.compute-1.amazonaws.com",
+      "ip_address": "52.0.10.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-52-1-120-48.compute-1.amazonaws.com",
+      "ip_address": "52.1.120.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-52-200-122-228.compute-1.amazonaws.com",
+      "ip_address": "52.200.122.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.18.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-52-22-219-69.compute-1.amazonaws.com",
+      "ip_address": "52.22.219.69",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-52-55-193-136.compute-1.amazonaws.com",
+      "ip_address": "52.55.193.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-52-71-193-156.compute-1.amazonaws.com",
+      "ip_address": "52.71.193.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-54-172-152-79.compute-1.amazonaws.com",
+      "ip_address": "54.172.152.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-54-173-103-30.compute-1.amazonaws.com",
+      "ip_address": "54.173.103.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-54-173-225-146.compute-1.amazonaws.com",
+      "ip_address": "54.173.225.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.114.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.72.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-54-236-231-112.compute-1.amazonaws.com",
+      "ip_address": "54.236.231.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.29.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.29.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-54-243-112-174.compute-1.amazonaws.com",
+      "ip_address": "54.243.112.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.thetileapp.tile",
+      "ptr_domain": "ec2-54-243-95-134.compute-1.amazonaws.com",
+      "ip_address": "54.243.95.134",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

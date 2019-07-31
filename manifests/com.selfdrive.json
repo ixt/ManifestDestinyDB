@@ -1,7 +1,7 @@
 {
   "appName": "REVV",
   "packageName": "com.selfdrive",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,10 +24,32 @@
   ],
   "version": "22.1.4",
   "trackers": [
-    "Facebook Share",
-    "Google Firebase Analytics",
     "Facebook Analytics",
-    "Facebook Login",
-    "Facebook Places"
+    "Facebook Share",
+    "Facebook Places",
+    "Google Firebase Analytics",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.selfdrive",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.selfdrive",
+      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com",
+      "ip_address": "50.19.81.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

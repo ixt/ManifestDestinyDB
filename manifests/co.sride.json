@@ -1,7 +1,7 @@
 {
   "appName": "sRide",
   "packageName": "co.sride",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -28,14 +28,926 @@
   ],
   "version": "4.20.0",
   "trackers": [
-    "HyperTrack",
-    "Facebook Analytics",
     "Facebook Share",
-    "Google CrashLytics",
-    "Facebook Places",
-    "AppsFlyer",
-    "Google Analytics",
     "Facebook Login",
+    "Facebook Places",
+    "Google Analytics",
+    "Facebook Analytics",
+    "HyperTrack",
+    "AppsFlyer",
+    "Google CrashLytics",
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-107-21-109-56.compute-1.amazonaws.com",
+      "ip_address": "107.21.109.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "a.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "b.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "c.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "d.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "e.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "11.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "12.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "13.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "14.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "15.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "16.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "17.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "18.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "19.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "1a.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.26",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "1c.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.28",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "22.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "23.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "24.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "25.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "26.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "27.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "28.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "29.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.41",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "2a.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "2b.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.43",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "6.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "8.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "9.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "maa03s22-in-f162.1e100.net",
+      "ip_address": "172.217.26.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "maa03s23-in-f194.1e100.net",
+      "ip_address": "172.217.26.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "bom05s09-in-f2.1e100.net",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "maa03s19-in-f98.1e100.net",
+      "ip_address": "216.58.196.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "maa03s21-in-f66.1e100.net",
+      "ip_address": "216.58.197.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "bom07s01-in-f2.1e100.net",
+      "ip_address": "216.58.199.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "bom05s08-in-f162.1e100.net",
+      "ip_address": "216.58.199.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "bom05s10-in-f130.1e100.net",
+      "ip_address": "216.58.203.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "bom07s11-in-f2.1e100.net",
+      "ip_address": "216.58.203.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "bom07s12-in-f2.1e100.net",
+      "ip_address": "216.58.203.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "bom07s10-in-f162.1e100.net",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "bom05s05-in-f2.1e100.net",
+      "ip_address": "216.58.220.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "maa03s18-in-f34.1e100.net",
+      "ip_address": "216.58.220.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "N/A",
+      "ip_address": "223.196.112.17",
+      "loc_city": "Davangere",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "75.916700",
+      "loc_lat": "14.466700"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-23-23-114-1.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-23-23-162-140.compute-1.amazonaws.com",
+      "ip_address": "23.23.162.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "sa-in-x5e.1e100.net",
+      "ip_address": "2404:6800:4003:c00::5e",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "bom05s08-in-x0e.1e100.net",
+      "ip_address": "2404:6800:4009:807::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-34-202-126-68.compute-1.amazonaws.com",
+      "ip_address": "34.202.126.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-34-248-128-242.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.248.128.242",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-34-249-104-16.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.104.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-34-249-168-100.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.168.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-34-250-139-252.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.139.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-34-250-57-123.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.57.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-34-251-212-81.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.212.81",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-34-251-99-44.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.99.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-34-253-63-180.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.253.63.180",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-46-51-197-24.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.197.24",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-50-16-186-79.compute-1.amazonaws.com",
+      "ip_address": "50.16.186.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-17-58-168.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.58.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-18-134-239.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.134.239",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-19-144-252.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.144.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-19-42-226.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.42.226",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-208-152-16.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.152.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-209-222-169.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.222.169",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-211-203-116.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.203.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-211-218-67.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.218.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-211-88-83.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.88.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-212-117-55.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.117.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-212-231-48.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.231.48",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-213-123-151.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.123.151",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-214-17-131.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.17.131",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-214-3-201.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.3.201",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "server-52-222-135-202.bom51.r.cloudfront.net",
+      "ip_address": "52.222.135.202",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-31-79-235.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.79.235",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-48-119-103.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.119.103",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-49-39-238.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.39.238",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-50-30-64.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.50.30.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-52-51-196-221.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.196.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-171-21-157.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.21.157",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-171-26-243.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.26.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-174-243-128.compute-1.amazonaws.com",
+      "ip_address": "54.174.243.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-194-104-70.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.104.70",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-194-126-0.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.126.0",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-194-49-47.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.49.47",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-229-91-86.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.91.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-235-221-79.compute-1.amazonaws.com",
+      "ip_address": "54.235.221.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-235-75-243.compute-1.amazonaws.com",
+      "ip_address": "54.235.75.243",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-72-189-21.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.189.21",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "co.sride",
+      "ptr_domain": "ec2-54-72-30-63.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.30.63",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

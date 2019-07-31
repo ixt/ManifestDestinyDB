@@ -1,7 +1,7 @@
 {
   "appName": "DS cam",
   "packageName": "com.synology.DScam",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,7 +24,19 @@
   ],
   "version": "3.2.0",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.synology.DScam",
+      "ptr_domain": "ec2-52-59-69-110.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.59.69.110",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    }
   ]
 }

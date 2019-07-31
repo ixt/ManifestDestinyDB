@@ -1,7 +1,7 @@
 {
   "appName": "Polar Beat",
   "packageName": "fi.polar.beat",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,7 +23,19 @@
   ],
   "version": "3.1.1",
   "trackers": [
-    "Google Analytics",
-    "Google Firebase Analytics"
+    "Google Firebase Analytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "fi.polar.beat",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

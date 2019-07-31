@@ -1,7 +1,7 @@
 {
   "appName": "Chewy",
   "packageName": "com.chewy.android",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -19,11 +19,33 @@
   ],
   "version": "2.11.1",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google CrashLytics",
-    "Braze (formerly Appboy)",
+    "AppsFlyer",
     "Branch",
+    "Google Firebase Analytics",
     "MParticle",
-    "AppsFlyer"
+    "Google CrashLytics",
+    "Braze (formerly Appboy)"
+  ],
+  "network_connections": [
+    {
+      "package": "com.chewy.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.88.179.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.chewy.android",
+      "ptr_domain": "ec2-23-23-227-102.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

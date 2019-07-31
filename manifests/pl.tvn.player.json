@@ -1,7 +1,7 @@
 {
   "appName": "player",
   "packageName": "pl.tvn.player",
-  "category": "VIDEO_PLAYERS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -20,13 +20,35 @@
   ],
   "version": "5.0.37",
   "trackers": [
-    "New Relic",
-    "Google CrashLytics",
-    "Facebook Analytics",
-    "Google Ads",
-    "Google DoubleClick",
     "Facebook Login",
     "Facebook Share",
-    "Google Firebase Analytics"
+    "Facebook Analytics",
+    "Google DoubleClick",
+    "Google Firebase Analytics",
+    "Google Ads",
+    "Google CrashLytics",
+    "New Relic"
+  ],
+  "network_connections": [
+    {
+      "package": "pl.tvn.player",
+      "ptr_domain": "35.145.229.46.in-addr.arpa. CNAME 35.rev46-229-145.online.tvwisla.com.pl",
+      "ip_address": "46.229.145.35",
+      "loc_city": "Iwiczna",
+      "loc_country": "Poland",
+      "loc_continent": "Europe",
+      "loc_long": "20.991700",
+      "loc_lat": "52.081900"
+    },
+    {
+      "package": "pl.tvn.player",
+      "ptr_domain": "server-52-84-194-25.waw50.r.cloudfront.net",
+      "ip_address": "52.84.194.25",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    }
   ]
 }

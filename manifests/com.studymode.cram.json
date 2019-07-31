@@ -1,7 +1,7 @@
 {
   "appName": "Cram",
   "packageName": "com.studymode.cram",
-  "category": "EDUCATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -15,8 +15,30 @@
   "trackers": [
     "Google Analytics",
     "Facebook Login",
-    "Facebook Analytics",
     "Google Firebase Analytics",
-    "Facebook Share"
+    "Facebook Share",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.studymode.cram",
+      "ptr_domain": "ec2-52-45-64-202.compute-1.amazonaws.com",
+      "ip_address": "52.45.64.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.studymode.cram",
+      "ptr_domain": "ec2-54-236-169-31.compute-1.amazonaws.com",
+      "ip_address": "54.236.169.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

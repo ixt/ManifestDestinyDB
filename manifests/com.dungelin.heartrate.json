@@ -1,14 +1,256 @@
 {
   "appName": "Heart Rate Plus",
   "packageName": "com.dungelin.heartrate",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
-  "permissions": [],
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BIND_JOB_SERVICE",
+    "android.permission.BODY_SENSORS",
+    "android.permission.CAMERA",
+    "android.permission.FLASHLIGHT",
+    "android.permission.INSTALL_PACKAGES",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.dungelin.heartrate.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.c2dm.permission.SEND",
+    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+    "com.samsung.permission.SSENSOR_HRM_RAW_PPG",
+    "com.sec.android.iap.permission.BILLING"
+  ],
   "version": "2.5.3",
   "trackers": [
+    "Google CrashLytics",
     "Flurry",
-    "Google Ads",
     "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "mil04s23-in-f2.1e100.net",
+      "ip_address": "172.217.23.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "lhr25s10-in-f1.1e100.net",
+      "ip_address": "216.58.198.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "mil04s26-in-f10.1e100.net",
+      "ip_address": "216.58.205.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "mil04s26-in-f110.1e100.net",
+      "ip_address": "216.58.205.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "mil04s29-in-f2.1e100.net",
+      "ip_address": "216.58.205.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "mil04s25-in-f1.1e100.net",
+      "ip_address": "216.58.205.65",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "mil04s26-in-f99.1e100.net",
+      "ip_address": "216.58.205.99",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "arn09s05-in-f3.1e100.net",
+      "ip_address": "216.58.209.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "ec2-23-23-186-247.compute-1.amazonaws.com",
+      "ip_address": "23.23.186.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "ord30s31-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4009:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "edge-star6-shv-01-yyz1.facebook.com",
+      "ip_address": "2a03:2880:f00e:a:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "edge-star6-shv-01-lga3.facebook.com",
+      "ip_address": "2a03:2880:f012:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "edge-star-mini-shv-01-mxp1.facebook.com",
+      "ip_address": "31.13.86.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "xx-fbcdn-shv-01-mxp1.fbcdn.net",
+      "ip_address": "31.13.86.4",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com",
+      "ip_address": "31.13.86.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "ec2-35-156-13-243.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.156.13.243",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "ec2-50-16-218-218.compute-1.amazonaws.com",
+      "ip_address": "50.16.218.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "ec2-52-221-109-45.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.221.109.45",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "cache.google.com",
+      "ip_address": "64.15.120.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dungelin.heartrate",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

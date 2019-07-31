@@ -1,7 +1,7 @@
 {
   "appName": "My Livebox",
   "packageName": "com.orange.mylivebox.fr",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,8 +25,30 @@
   ],
   "version": "8.1",
   "trackers": [
-    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Google Analytics",
-    "Google CrashLytics"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.orange.mylivebox.fr",
+      "ptr_domain": "N/A",
+      "ip_address": "23.101.53.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.orange.mylivebox.fr",
+      "ptr_domain": "ec2-23-21-59-163.compute-1.amazonaws.com",
+      "ip_address": "23.21.59.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

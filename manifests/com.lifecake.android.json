@@ -1,7 +1,7 @@
 {
   "appName": "Lifecake",
   "packageName": "com.lifecake.android",
-  "category": "PARENTING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -22,11 +22,63 @@
   ],
   "version": "3.23.1.0",
   "trackers": [
-    "Adjust",
-    "Facebook Share",
     "Google CrashLytics",
+    "Facebook Share",
+    "Facebook Login",
     "Google Firebase Analytics",
-    "Facebook Analytics",
-    "Facebook Login"
+    "Adjust",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "server-13-32-253-185.sea19.r.cloudfront.net",
+      "ip_address": "13.32.253.185",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "ec2-52-86-23-144.compute-1.amazonaws.com",
+      "ip_address": "52.86.23.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "ec2-52-89-254-136.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.89.254.136",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.lifecake.android",
+      "ptr_domain": "ec2-54-89-16-202.compute-1.amazonaws.com",
+      "ip_address": "54.89.16.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

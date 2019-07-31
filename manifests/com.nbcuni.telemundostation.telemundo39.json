@@ -1,7 +1,7 @@
 {
   "appName": "Telemundo 39",
   "packageName": "com.nbcuni.telemundostation.telemundo39",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -26,23 +26,695 @@
   ],
   "version": "6.4",
   "trackers": [
-    "Facebook Analytics",
-    "Google Ads",
-    "Facebook Share",
-    "HockeyApp",
     "Facebook Places",
-    "Demdex",
-    "Twitter MoPub",
-    "Google Analytics",
-    "Flurry",
-    "Urbanairship",
-    "ComScore",
-    "Google DoubleClick",
-    "Conviva",
     "Google Firebase Analytics",
-    "AppNexus",
+    "Demdex",
     "Google CrashLytics",
+    "Twitter MoPub",
+    "Facebook Analytics",
+    "ComScore",
+    "Google Analytics",
+    "Moat",
+    "Facebook Share",
+    "Google Ads",
+    "Google DoubleClick",
+    "AppNexus",
+    "Flurry",
+    "Conviva",
+    "HockeyApp",
     "Facebook Login",
-    "Moat"
+    "Urbanairship"
+  ],
+  "network_connections": [
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "a104-68-101-223.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.68.101.223",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-107-20-160-144.compute-1.amazonaws.com",
+      "ip_address": "107.20.160.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-107-22-184-200.compute-1.amazonaws.com",
+      "ip_address": "107.22.184.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-107-22-238-144.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-107-22-238-71.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.40.175",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.42.2",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "14.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo03s07-in-f106.1e100.net",
+      "ip_address": "172.217.5.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo03s07-in-f97.1e100.net",
+      "ip_address": "172.217.5.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo03s07-in-f98.1e100.net",
+      "ip_address": "172.217.5.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo07s17-in-f66.1e100.net",
+      "ip_address": "172.217.6.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "a172-231-68-154.deploy.static.akamaitechnologies.com",
+      "ip_address": "172.231.68.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "N/A",
+      "ip_address": "199.96.57.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo07s13-in-f162.1e100.net",
+      "ip_address": "216.58.194.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo03s01-in-f194.1e100.net",
+      "ip_address": "216.58.194.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo03s01-in-f6.1e100.net",
+      "ip_address": "216.58.194.198",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-23-23-143-15.compute-1.amazonaws.com",
+      "ip_address": "23.23.143.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "a23-56-126-216.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.56.126.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo03s01-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "sfo03s08-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "edge-star6-shv-01-sea1.facebook.com",
+      "ip_address": "2a03:2880:f001:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-34-196-190-106.compute-1.amazonaws.com",
+      "ip_address": "34.196.190.106",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-34-197-107-242.compute-1.amazonaws.com",
+      "ip_address": "34.197.107.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-34-197-13-74.compute-1.amazonaws.com",
+      "ip_address": "34.197.13.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-34-205-241-252.compute-1.amazonaws.com",
+      "ip_address": "34.205.241.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-50-16-196-224.compute-1.amazonaws.com",
+      "ip_address": "50.16.196.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-50-16-222-66.compute-1.amazonaws.com",
+      "ip_address": "50.16.222.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-50-17-222-169.compute-1.amazonaws.com",
+      "ip_address": "50.17.222.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-52-204-240-79.compute-1.amazonaws.com",
+      "ip_address": "52.204.240.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-52-22-230-175.compute-1.amazonaws.com",
+      "ip_address": "52.22.230.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-52-31-44-82.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.44.82",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-52-44-217-154.compute-1.amazonaws.com",
+      "ip_address": "52.44.217.154",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-52-4-66-212.compute-1.amazonaws.com",
+      "ip_address": "52.4.66.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-52-6-103-151.compute-1.amazonaws.com",
+      "ip_address": "52.6.103.151",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-52-72-123-192.compute-1.amazonaws.com",
+      "ip_address": "52.72.123.192",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "server-52-84-243-19.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.19",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-52-86-79-178.compute-1.amazonaws.com",
+      "ip_address": "52.86.79.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-171-228-83.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.228.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-175-48-235.compute-1.amazonaws.com",
+      "ip_address": "54.175.48.235",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "server-54-192-119-185.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.185",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-204-28-196.compute-1.amazonaws.com",
+      "ip_address": "54.204.28.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-225-189-67.compute-1.amazonaws.com",
+      "ip_address": "54.225.189.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "server-54-230-147-222.sfo20.r.cloudfront.net",
+      "ip_address": "54.230.147.222",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-243-127-94.compute-1.amazonaws.com",
+      "ip_address": "54.243.127.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-243-177-201.compute-1.amazonaws.com",
+      "ip_address": "54.243.177.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-243-226-203.compute-1.amazonaws.com",
+      "ip_address": "54.243.226.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-243-94-211.compute-1.amazonaws.com",
+      "ip_address": "54.243.94.211",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-85-139-18.compute-1.amazonaws.com",
+      "ip_address": "54.85.139.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "ec2-54-85-201-229.compute-1.amazonaws.com",
+      "ip_address": "54.85.201.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.109.82",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.109.85",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "*.sc.omtrdc.net",
+      "ip_address": "66.235.138.209",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "*.sc.omtrdc.net",
+      "ip_address": "66.235.138.210",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "*.sc.omtrdc.net",
+      "ip_address": "66.235.138.211",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "*.sc.omtrdc.net",
+      "ip_address": "66.235.139.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "*.sc.omtrdc.net",
+      "ip_address": "66.235.139.221",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "a72-246-163-182.deploy.static.akamaitechnologies.com",
+      "ip_address": "72.246.163.182",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "pc-in-f94.1e100.net",
+      "ip_address": "74.125.28.94",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "N/A",
+      "ip_address": "93.184.216.43",
+      "loc_city": "Lombard",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-88.000200",
+      "loc_lat": "41.873200"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "94.31.29.138.IPYX-077437-ZYO.above.net",
+      "ip_address": "94.31.29.138",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.nbcuni.telemundostation.telemundo39",
+      "ptr_domain": "94.31.29.55.IPYX-077437-ZYO.above.net",
+      "ip_address": "94.31.29.55",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    }
   ]
 }

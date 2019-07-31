@@ -1,7 +1,7 @@
 {
   "appName": "Arsenal",
   "packageName": "com.arsenal.official",
-  "category": "SPORTS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -17,14 +17,37 @@
   ],
   "version": "4.0.0",
   "trackers": [
-    "Google DoubleClick",
-    "Facebook Analytics",
-    "Gigya",
     "Google Ads",
+    "Google DoubleClick",
+    "Gigya",
+    "Ooyala",
     "Facebook Share",
     "Google Firebase Analytics",
     "Facebook Login",
+    "Google CrashLytics",
     "Urbanairship",
-    "Google CrashLytics"
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.arsenal.official",
+      "ptr_domain": "a23-214-119-108.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.214.119.108",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.arsenal.official",
+      "ptr_domain": "a23-214-85-115.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.214.85.115",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

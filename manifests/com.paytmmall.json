@@ -1,7 +1,7 @@
 {
   "appName": "পেটিএম",
   "packageName": "com.paytmmall",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -39,15 +39,377 @@
   ],
   "version": "3.13.0",
   "trackers": [
+    "Facebook Analytics",
+    "Facebook Share",
+    "Facebook Login",
+    "CleverTap",
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Branch",
     "Urbanairship",
     "AppsFlyer",
-    "Branch",
-    "Google Firebase Analytics",
-    "Facebook Analytics",
-    "Google CrashLytics",
-    "Facebook Login",
-    "Google Analytics",
-    "Facebook Share",
-    "CleverTap"
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "a104-122-60-219.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.122.60.219",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "a104-122-74-58.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.122.74.58",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "a104-122-93-40.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.122.93.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "a118-214-110-216.deploy.static.akamaitechnologies.com",
+      "ip_address": "118.214.110.216",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "sin11s02-in-f8.1e100.net",
+      "ip_address": "172.217.27.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "a173-223-51-120.deploy.static.akamaitechnologies.com",
+      "ip_address": "173.223.51.120",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-184-72-248-107.compute-1.amazonaws.com",
+      "ip_address": "184.72.248.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "maa03s19-in-f98.1e100.net",
+      "ip_address": "216.58.196.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "bom07s01-in-f136.1e100.net",
+      "ip_address": "216.58.199.136",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "bom07s10-in-f168.1e100.net",
+      "ip_address": "216.58.220.168",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-23-23-110-16.compute-1.amazonaws.com",
+      "ip_address": "23.23.110.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-23-23-140-207.compute-1.amazonaws.com",
+      "ip_address": "23.23.140.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "a23-52-64-198.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.52.64.198",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "a23-54-25-21.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.54.25.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-34-250-139-252.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.139.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-34-250-57-123.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.57.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-34-252-212-22.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.212.22",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-34-252-216-237.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.216.237",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.104.111",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-50-16-222-66.compute-1.amazonaws.com",
+      "ip_address": "50.16.222.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-52-214-120-178.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.120.178",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-52-220-205-123.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.220.205.123",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-52-220-252-120.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.220.252.120",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-52-74-159-207.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.159.207",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-52-76-135-178.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.135.178",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-52-77-46-85.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.46.85",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-54-179-185-245.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.179.185.245",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-54-191-181-124.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.191.181.124",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-54-197-248-166.compute-1.amazonaws.com",
+      "ip_address": "54.197.248.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-54-243-132-222.compute-1.amazonaws.com",
+      "ip_address": "54.243.132.222",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-54-254-238-194.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.254.238.194",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-54-255-161-237.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.255.161.237",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-54-68-98-185.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.68.98.185",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.paytmmall",
+      "ptr_domain": "ec2-54-83-50-23.compute-1.amazonaws.com",
+      "ip_address": "54.83.50.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

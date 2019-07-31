@@ -1,7 +1,7 @@
 {
   "appName": "Fishbrain",
   "packageName": "com.fishbrain.app",
-  "category": "SPORTS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -38,19 +38,291 @@
   ],
   "version": "6.28",
   "trackers": [
-    "Facebook Analytics",
-    "Segment",
-    "Google Firebase Analytics",
-    "Facebook Share",
-    "Facebook Places",
-    "HelpShift",
-    "Mapbox",
-    "Facebook Login",
     "Google CrashLytics",
-    "Google Analytics",
-    "Apptimize",
     "Braze (formerly Appboy)",
+    "Amplitude",
+    "Apptimize",
+    "Facebook Analytics",
+    "Facebook Places",
+    "Facebook Login",
+    "Google Firebase Analytics",
     "AppsFlyer",
-    "Amplitude"
+    "Facebook Share",
+    "HelpShift",
+    "Segment",
+    "Google Analytics",
+    "Mapbox"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-23-21-56-15.compute-1.amazonaws.com",
+      "ip_address": "23.21.56.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-34-211-204-221.us-west-2.compute.amazonaws.com",
+      "ip_address": "34.211.204.221",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-35-163-223-46.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.223.46",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-35-166-78-207.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.166.78.207",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-35-167-220-255.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.167.220.255",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-19-144-252.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.144.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-21-163-254.compute-1.amazonaws.com",
+      "ip_address": "52.21.163.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-212-120-179.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.120.179",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-22-76-207.compute-1.amazonaws.com",
+      "ip_address": "52.22.76.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-24-196-36.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.24.196.36",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-26-11-6.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.26.11.6",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-27-215-54.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.215.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-27-24-76.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.24.76",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-31-93-211.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.93.211",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-35-80-8.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.80.8",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-40-155-133.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.40.155.133",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-73-29-75.compute-1.amazonaws.com",
+      "ip_address": "52.73.29.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "server-52-84-243-152.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.152",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-88-79-183.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.88.79.183",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-52-89-86-249.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.89.86.249",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-54-148-117-235.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.148.117.235",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-54-154-216-172.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.216.172",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-54-186-207-204.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.186.207.204",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "server-54-192-119-5.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.5",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-54-194-126-0.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.126.0",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fishbrain.app",
+      "ptr_domain": "ec2-54-84-152-61.compute-1.amazonaws.com",
+      "ip_address": "54.84.152.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

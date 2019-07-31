@@ -1,7 +1,7 @@
 {
   "appName": "Shopular",
   "packageName": "com.aircrunch.shopalerts",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -30,12 +30,54 @@
   ],
   "version": "7.12",
   "trackers": [
-    "Braze (formerly Appboy)",
     "Google DoubleClick",
+    "Facebook Share",
     "Facebook Places",
-    "Google Ads",
     "MixPanel",
-    "Facebook Login",
-    "Facebook Share"
+    "Google Ads",
+    "Braze (formerly Appboy)",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.aircrunch.shopalerts",
+      "ptr_domain": "ec2-107-20-235-224.compute-1.amazonaws.com",
+      "ip_address": "107.20.235.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aircrunch.shopalerts",
+      "ptr_domain": "ec2-184-169-156-171.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.156.171",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.aircrunch.shopalerts",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aircrunch.shopalerts",
+      "ptr_domain": "ec2-54-225-235-142.compute-1.amazonaws.com",
+      "ip_address": "54.225.235.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Digikala",
   "packageName": "com.digikala",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -27,10 +27,22 @@
   ],
   "version": "1.9.2-GP",
   "trackers": [
-    "Adjust",
-    "Google Analytics",
-    "Batch",
     "Google Firebase Analytics",
+    "Google Analytics",
+    "Adjust",
+    "Batch",
     "Branch"
+  ],
+  "network_connections": [
+    {
+      "package": "com.digikala",
+      "ptr_domain": "ec2-184-73-242-146.compute-1.amazonaws.com",
+      "ip_address": "184.73.242.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,0 +1,530 @@
+{
+  "appName": "AllCast",
+  "packageName": "com.koushikdutta.cast",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_SUPERUSER",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BROADCAST_STICKY",
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "version": "2.0.5.0",
+  "trackers": [
+    "Google DoubleClick",
+    "Google Analytics",
+    "Google Ads",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-20-139-157.compute-1.amazonaws.com",
+      "ip_address": "107.20.139.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-20-142-207.compute-1.amazonaws.com",
+      "ip_address": "107.20.142.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-20-203-190.compute-1.amazonaws.com",
+      "ip_address": "107.20.203.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-20-217-232.compute-1.amazonaws.com",
+      "ip_address": "107.20.217.232",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com",
+      "ip_address": "107.20.235.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-21-210-141.compute-1.amazonaws.com",
+      "ip_address": "107.21.210.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-21-214-197.compute-1.amazonaws.com",
+      "ip_address": "107.21.214.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-21-239-97.compute-1.amazonaws.com",
+      "ip_address": "107.21.239.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-21-248-175.compute-1.amazonaws.com",
+      "ip_address": "107.21.248.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-22-160-16.compute-1.amazonaws.com",
+      "ip_address": "107.22.160.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-22-199-176.compute-1.amazonaws.com",
+      "ip_address": "107.22.199.176",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-22-199-247.compute-1.amazonaws.com",
+      "ip_address": "107.22.199.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-22-216-237.compute-1.amazonaws.com",
+      "ip_address": "107.22.216.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-22-216-92.compute-1.amazonaws.com",
+      "ip_address": "107.22.216.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-22-220-210.compute-1.amazonaws.com",
+      "ip_address": "107.22.220.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-107-22-238-216.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "par21s11-in-f2.1e100.net",
+      "ip_address": "172.217.19.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-21-118-60.compute-1.amazonaws.com",
+      "ip_address": "23.21.118.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-21-225-144.compute-1.amazonaws.com",
+      "ip_address": "23.21.225.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-21-230-199.compute-1.amazonaws.com",
+      "ip_address": "23.21.230.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-21-53-226.compute-1.amazonaws.com",
+      "ip_address": "23.21.53.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-21-56-15.compute-1.amazonaws.com",
+      "ip_address": "23.21.56.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-21-64-174.compute-1.amazonaws.com",
+      "ip_address": "23.21.64.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-23-101-152.compute-1.amazonaws.com",
+      "ip_address": "23.23.101.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-23-111-85.compute-1.amazonaws.com",
+      "ip_address": "23.23.111.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-23-114-90.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-23-116-35.compute-1.amazonaws.com",
+      "ip_address": "23.23.116.35",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-23-23-186-247.compute-1.amazonaws.com",
+      "ip_address": "23.23.186.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-50-16-247-225.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-50-16-247-246.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.246",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-50-17-204-79.compute-1.amazonaws.com",
+      "ip_address": "50.17.204.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-50-19-241-12.compute-1.amazonaws.com",
+      "ip_address": "50.19.241.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-50-19-244-139.compute-1.amazonaws.com",
+      "ip_address": "50.19.244.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-163-254-184.compute-1.amazonaws.com",
+      "ip_address": "54.163.254.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-197-237-178.compute-1.amazonaws.com",
+      "ip_address": "54.197.237.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-197-255-113.compute-1.amazonaws.com",
+      "ip_address": "54.197.255.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-221-246-132.compute-1.amazonaws.com",
+      "ip_address": "54.221.246.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-225-158-189.compute-1.amazonaws.com",
+      "ip_address": "54.225.158.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-225-204-178.compute-1.amazonaws.com",
+      "ip_address": "54.225.204.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-225-215-77.compute-1.amazonaws.com",
+      "ip_address": "54.225.215.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-225-70-98.compute-1.amazonaws.com",
+      "ip_address": "54.225.70.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-235-165-25.compute-1.amazonaws.com",
+      "ip_address": "54.235.165.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-235-168-75.compute-1.amazonaws.com",
+      "ip_address": "54.235.168.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-243-130-90.compute-1.amazonaws.com",
+      "ip_address": "54.243.130.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-243-148-175.compute-1.amazonaws.com",
+      "ip_address": "54.243.148.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-243-252-170.compute-1.amazonaws.com",
+      "ip_address": "54.243.252.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-243-70-185.compute-1.amazonaws.com",
+      "ip_address": "54.243.70.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-243-75-227.compute-1.amazonaws.com",
+      "ip_address": "54.243.75.227",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.koushikdutta.cast",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

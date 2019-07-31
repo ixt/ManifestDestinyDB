@@ -1,7 +1,7 @@
 {
   "appName": "Browser Alpha",
   "packageName": "com.yandex.browser.alpha",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -59,13 +59,25 @@
   ],
   "version": "19.3.6.94",
   "trackers": [
-    "Flurry",
-    "Facebook Login",
-    "AppMetrica",
-    "Yandex Ad",
+    "Inmobi",
     "Facebook Analytics",
-    "Facebook Ads",
     "Facebook Share",
-    "Inmobi"
+    "Yandex Ad",
+    "Facebook Login",
+    "Facebook Ads",
+    "AppMetrica",
+    "Flurry"
+  ],
+  "network_connections": [
+    {
+      "package": "com.yandex.browser.alpha",
+      "ptr_domain": "api.browser.yandex.ru",
+      "ip_address": "87.250.251.82",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    }
   ]
 }

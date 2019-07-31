@@ -1,7 +1,7 @@
 {
   "appName": "GoPro",
   "packageName": "com.gopro.smarty",
-  "category": "PHOTOGRAPHY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -33,13 +33,815 @@
   ],
   "version": "5.2.1",
   "trackers": [
-    "Google CrashLytics",
-    "Localytics",
-    "Facebook Login",
     "Facebook Analytics",
-    "Google Firebase Analytics",
-    "Facebook Share",
     "Facebook Places",
-    "Google Analytics"
+    "Google CrashLytics",
+    "Google Analytics",
+    "Facebook Share",
+    "Google Firebase Analytics",
+    "Facebook Login",
+    "Localytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-107-20-139-157.compute-1.amazonaws.com",
+      "ip_address": "107.20.139.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-107-21-115-231.compute-1.amazonaws.com",
+      "ip_address": "107.21.115.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-107-21-209-177.compute-1.amazonaws.com",
+      "ip_address": "107.21.209.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-107-22-160-16.compute-1.amazonaws.com",
+      "ip_address": "107.22.160.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-107-22-162-79.compute-1.amazonaws.com",
+      "ip_address": "107.22.162.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-107-22-238-71.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.122.2",
+      "loc_city": "Paris",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.328100",
+      "loc_lat": "48.860700"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.130.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.134.2",
+      "loc_city": "Madrid",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.683900",
+      "loc_lat": "40.417100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.14.2",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.18.2",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.2.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.26.2",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.34.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.38.2",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.42.2",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.46.2",
+      "loc_city": "Chicago",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.651700",
+      "loc_lat": "41.848300"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.58.2",
+      "loc_city": "Atlanta",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.387100",
+      "loc_lat": "33.748500"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "atl26s14-in-f8.1e100.net",
+      "ip_address": "172.217.12.104",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ord30s31-in-f10.1e100.net",
+      "ip_address": "172.217.4.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "haystack.ICSI.Berkeley.EDU",
+      "ip_address": "192.150.187.44",
+      "loc_city": "Berkeley",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.254900",
+      "loc_lat": "37.873800"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "mad06s10-in-f2.1e100.net",
+      "ip_address": "216.58.210.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ams15s32-in-f14.1e100.net",
+      "ip_address": "216.58.211.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "fra16s05-in-f113.1e100.net",
+      "ip_address": "216.58.214.113",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-23-21-225-144.compute-1.amazonaws.com",
+      "ip_address": "23.21.225.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-23-21-54-53.compute-1.amazonaws.com",
+      "ip_address": "23.21.54.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com",
+      "ip_address": "23.21.78.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-23-23-129-71.compute-1.amazonaws.com",
+      "ip_address": "23.23.129.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-23-23-165-121.compute-1.amazonaws.com",
+      "ip_address": "23.23.165.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-23-23-227-23.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "lax28s10-in-x08.1e100.net",
+      "ip_address": "2607:f8b0:4007:80d::2008",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "edge-star6-shv-02-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:110:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-34-192-130-81.compute-1.amazonaws.com",
+      "ip_address": "34.192.130.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-34-192-142-38.compute-1.amazonaws.com",
+      "ip_address": "34.192.142.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-34-192-6-144.compute-1.amazonaws.com",
+      "ip_address": "34.192.6.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-34-198-137-154.compute-1.amazonaws.com",
+      "ip_address": "34.198.137.154",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-34-198-181-40.compute-1.amazonaws.com",
+      "ip_address": "34.198.181.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-34-205-168-43.compute-1.amazonaws.com",
+      "ip_address": "34.205.168.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-34-205-234-124.compute-1.amazonaws.com",
+      "ip_address": "34.205.234.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-34-206-27-142.compute-1.amazonaws.com",
+      "ip_address": "34.206.27.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-35-164-137-11.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.164.137.11",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-50-16-218-218.compute-1.amazonaws.com",
+      "ip_address": "50.16.218.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.16.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.16.211",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.81.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.82.123",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "server-52-222-169-156.fra54.r.cloudfront.net",
+      "ip_address": "52.222.169.156",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-52-27-150-223.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.150.223",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-52-35-243-201.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.243.201",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-52-44-13-142.compute-1.amazonaws.com",
+      "ip_address": "52.44.13.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "server-52-85-244-227.ams50.r.cloudfront.net",
+      "ip_address": "52.85.244.227",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "server-52-85-246-192.ams50.r.cloudfront.net",
+      "ip_address": "52.85.246.192",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-149-43-197.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.149.43.197",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "server-54-192-13-254.ams1.r.cloudfront.net",
+      "ip_address": "54.192.13.254",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "server-54-192-13-40.ams1.r.cloudfront.net",
+      "ip_address": "54.192.13.40",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "server-54-192-143-93.sfo5.r.cloudfront.net",
+      "ip_address": "54.192.143.93",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-193-253-2.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.253.2",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-221-246-132.compute-1.amazonaws.com",
+      "ip_address": "54.221.246.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-225-167-80.compute-1.amazonaws.com",
+      "ip_address": "54.225.167.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-225-212-15.compute-1.amazonaws.com",
+      "ip_address": "54.225.212.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.50.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.72.26",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.82.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.97.219",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-235-130-118.compute-1.amazonaws.com",
+      "ip_address": "54.235.130.118",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-235-132-180.compute-1.amazonaws.com",
+      "ip_address": "54.235.132.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-235-189-52.compute-1.amazonaws.com",
+      "ip_address": "54.235.189.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-235-67-75.compute-1.amazonaws.com",
+      "ip_address": "54.235.67.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-235-69-83.compute-1.amazonaws.com",
+      "ip_address": "54.235.69.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-243-110-22.compute-1.amazonaws.com",
+      "ip_address": "54.243.110.22",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-243-72-146.compute-1.amazonaws.com",
+      "ip_address": "54.243.72.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-70-191-227.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.70.191.227",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "ec2-54-88-41-66.compute-1.amazonaws.com",
+      "ip_address": "54.88.41.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.gopro.smarty",
+      "ptr_domain": "wk-in-f97.1e100.net",
+      "ip_address": "74.125.206.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

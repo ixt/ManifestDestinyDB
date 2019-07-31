@@ -1,0 +1,2619 @@
+{
+  "appName": "Mint",
+  "packageName": "com.mint",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.CAMERA",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.READ_CALENDAR",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.android.alarm.permission.SET_ALARM",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
+  ],
+  "version": "6.3.0",
+  "trackers": [
+    "Google DoubleClick",
+    "Kochava",
+    "Segment",
+    "Google Firebase Analytics",
+    "Google Ads",
+    "Google CrashLytics",
+    "MixPanel"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mint",
+      "ptr_domain": "li873-113.members.linode.com",
+      "ip_address": "104.237.136.113",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a104-70-74-66.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.70.74.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a104-78-235-178.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.78.235.178",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a104-95-45-146.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.95.45.146",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a104-95-56-185.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.95.56.185",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a104-96-241-127.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.96.241.127",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "107.154.102.238.ip.incapdns.net",
+      "ip_address": "107.154.102.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "107.154.104.238.ip.incapdns.net",
+      "ip_address": "107.154.104.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "107.154.108.238.ip.incapdns.net",
+      "ip_address": "107.154.108.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "107.154.110.238.ip.incapdns.net",
+      "ip_address": "107.154.110.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "107.154.111.238.ip.incapdns.net",
+      "ip_address": "107.154.111.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "107.154.114.238.ip.incapdns.net",
+      "ip_address": "107.154.114.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "148.254.178.107.bc.googleusercontent.com",
+      "ip_address": "107.178.254.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-20-168-105.compute-1.amazonaws.com",
+      "ip_address": "107.20.168.105",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-20-172-125.compute-1.amazonaws.com",
+      "ip_address": "107.20.172.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-20-200-251.compute-1.amazonaws.com",
+      "ip_address": "107.20.200.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-20-205-68.compute-1.amazonaws.com",
+      "ip_address": "107.20.205.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-20-220-57.compute-1.amazonaws.com",
+      "ip_address": "107.20.220.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-20-246-158.compute-1.amazonaws.com",
+      "ip_address": "107.20.246.158",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-21-210-141.compute-1.amazonaws.com",
+      "ip_address": "107.21.210.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-21-232-174.compute-1.amazonaws.com",
+      "ip_address": "107.21.232.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-22-169-178.compute-1.amazonaws.com",
+      "ip_address": "107.22.169.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-22-192-179.compute-1.amazonaws.com",
+      "ip_address": "107.22.192.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-22-199-176.compute-1.amazonaws.com",
+      "ip_address": "107.22.199.176",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-22-222-128.compute-1.amazonaws.com",
+      "ip_address": "107.22.222.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-22-241-65.compute-1.amazonaws.com",
+      "ip_address": "107.22.241.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-107-22-242-137.compute-1.amazonaws.com",
+      "ip_address": "107.22.242.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "oauth-prd-qydc.platform.intuit.com",
+      "ip_address": "12.179.134.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.128.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "edge-star-shv-02-frt3.facebook.com",
+      "ip_address": "157.240.20.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "9f.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.159",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a1.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "af.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.175",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "c0.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.192",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "4.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "6.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "c.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "e.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "f.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "10.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "12.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "14.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "15.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "16.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "17.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "19.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "1c.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.28",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "1d.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.29",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "1e.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "1f.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.31",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "20.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.32",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "22.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "24.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "26.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "27.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "3.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "28.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "29.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.41",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "5.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "7.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "9.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "82.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "83.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.131",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "84.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "86.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.134",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "88.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.136",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "89.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.137",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "8b.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.139",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "8c.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.140",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "8d.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.141",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "8f.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.143",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "90.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.144",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "91.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.145",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "92.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.146",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "93.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.147",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "96.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.150",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "97.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.151",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "98.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.152",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "99.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "9a.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "9b.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.155",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "9d.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a3.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.163",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a4.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.164",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a5.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.165",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a7.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.167",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ac.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.172",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ad.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.173",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ae.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "af.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.175",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "b0.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.176",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "b2.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.178",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "b4.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.180",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "b5.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.181",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "b7.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.183",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "b8.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "b9.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.185",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ba.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.186",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "bd.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.189",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "be.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.190",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "c2.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "c3.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.195",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "c4.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.196",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "c5.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "c6.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.198",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "c8.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "c9.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.201",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "cb.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.203",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "cc.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.204",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "cf.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "d1.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.209",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ord38s04-in-f14.1e100.net",
+      "ip_address": "172.217.0.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "yyz10s03-in-f10.1e100.net",
+      "ip_address": "172.217.0.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ord38s04-in-f2.1e100.net",
+      "ip_address": "172.217.0.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "lga25s60-in-f14.1e100.net",
+      "ip_address": "172.217.11.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ord36s04-in-f116.1e100.net",
+      "ip_address": "172.217.4.116",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad30s08-in-f138.1e100.net",
+      "ip_address": "172.217.7.138",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad30s08-in-f20.1e100.net",
+      "ip_address": "172.217.7.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad30s09-in-f180.1e100.net",
+      "ip_address": "172.217.7.180",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad23s58-in-f2.1e100.net",
+      "ip_address": "172.217.7.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a173-222-187-153.deploy.static.akamaitechnologies.com",
+      "ip_address": "173.222.187.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "servicegw-3-ent-prd-qydc.api.intuit.com",
+      "ip_address": "173.240.160.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "gw-partition01-ssz-prd-qydc.platform.intuit.com",
+      "ip_address": "173.240.170.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "gw-partition04-ssz-prd-qydc.platform.intuit.com",
+      "ip_address": "173.240.170.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "gw-partition01-ssz-prd-lvdc.platform.intuit.com",
+      "ip_address": "173.240.173.179",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-174-129-42-30.compute-1.amazonaws.com",
+      "ip_address": "174.129.42.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-174-129-9-155.compute-1.amazonaws.com",
+      "ip_address": "174.129.9.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-184-72-251-121.compute-1.amazonaws.com",
+      "ip_address": "184.72.251.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-184-73-195-3.compute-1.amazonaws.com",
+      "ip_address": "184.73.195.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "192.225.158.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a-sac.h.online-metrix.net",
+      "ip_address": "192.225.158.1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "cws.conviva.com",
+      "ip_address": "199.127.194.73",
+      "loc_city": "Sunnyvale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.035100",
+      "loc_lat": "37.347900"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "cws-iad1.conviva.com",
+      "ip_address": "199.127.194.93",
+      "loc_city": "Sunnyvale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.035100",
+      "loc_lat": "37.347900"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "mint-prd-lvdc.finance.intuit.com",
+      "ip_address": "199.16.136.250",
+      "loc_city": "San Diego",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-117.120200",
+      "loc_lat": "32.966100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "credit-prd-lvdc.finance.intuit.com",
+      "ip_address": "199.16.142.107",
+      "loc_city": "San Diego",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-117.120200",
+      "loc_lat": "32.966100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "servicegw-3-ent-prd-lvdc.api.intuit.com",
+      "ip_address": "199.16.142.10",
+      "loc_city": "San Diego",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-117.120200",
+      "loc_lat": "32.966100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "api-cmp-s1-prd-us-qydc-1c.api.intuit.com",
+      "ip_address": "199.187.153.76",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "199.27.76.143",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "199.27.79.143",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.023500",
+      "loc_lat": "39.965300"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-205-251-251-197.jfk5.r.cloudfront.net",
+      "ip_address": "205.251.251.197",
+      "loc_city": "Fort Lee",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-73.973500",
+      "loc_lat": "40.849200"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "mad01s25-in-f212.1e100.net",
+      "ip_address": "216.58.211.212",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad23s44-in-f2.1e100.net",
+      "ip_address": "216.58.217.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad23s41-in-f84.1e100.net",
+      "ip_address": "216.58.217.84",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad23s40-in-f234.1e100.net",
+      "ip_address": "216.58.218.234",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a23-13-179-153.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.13.179.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-21-59-163.compute-1.amazonaws.com",
+      "ip_address": "23.21.59.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-21-68-70.compute-1.amazonaws.com",
+      "ip_address": "23.21.68.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a23-218-117-57.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.218.117.57",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-110-16.compute-1.amazonaws.com",
+      "ip_address": "23.23.110.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-156-210.compute-1.amazonaws.com",
+      "ip_address": "23.23.156.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-157-187.compute-1.amazonaws.com",
+      "ip_address": "23.23.157.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-161-213.compute-1.amazonaws.com",
+      "ip_address": "23.23.161.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-162-140.compute-1.amazonaws.com",
+      "ip_address": "23.23.162.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-168-96.compute-1.amazonaws.com",
+      "ip_address": "23.23.168.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-172-159.compute-1.amazonaws.com",
+      "ip_address": "23.23.172.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-186-247.compute-1.amazonaws.com",
+      "ip_address": "23.23.186.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-215-5.compute-1.amazonaws.com",
+      "ip_address": "23.23.215.5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "23.235.40.143",
+      "loc_city": "Chicago",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.651700",
+      "loc_lat": "41.848300"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "23.235.44.143",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "23.235.46.143",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "23.235.47.143",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-23-23-96-77.compute-1.amazonaws.com",
+      "ip_address": "23.23.96.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a23-36-70-2.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.36.70.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a23-39-176-133.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.39.176.133",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a23-4-180-76.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.4.180.76",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "a23-5-97-196.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.5.97.196",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "dfw25s17-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4000:804::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "dfw06s49-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4000:80d::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad23s58-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4004:802::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad23s59-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4004:803::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad30s08-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4004:805::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad23s43-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4004:80d::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "iad23s57-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4004:80f::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "lga34s15-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4006:811::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ord37s07-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4009:802::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ord37s08-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4009:803::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ord38s04-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4009:813::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ord38s04-in-x14.1e100.net",
+      "ip_address": "2607:f8b0:4009:813::2014",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4017:17::11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "edge-star6-shv-01-iad3.facebook.com",
+      "ip_address": "2a03:2880:f003:c07:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "edge-star6-shv-01-lga3.facebook.com",
+      "ip_address": "2a03:2880:f012:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:312:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "edge-star-shv-01-lax3.facebook.com",
+      "ip_address": "31.13.70.1",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "livestream-edgetee-upload-shv-01-gig2.facebook.com",
+      "ip_address": "31.13.74.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-34-208-228-132.us-west-2.compute.amazonaws.com",
+      "ip_address": "34.208.228.132",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-34-210-110-208.us-west-2.compute.amazonaws.com",
+      "ip_address": "34.210.110.208",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-34-211-96-104.us-west-2.compute.amazonaws.com",
+      "ip_address": "34.211.96.104",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-35-160-21-81.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.160.21.81",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-50-16-185-40.compute-1.amazonaws.com",
+      "ip_address": "50.16.185.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-50-16-192-69.compute-1.amazonaws.com",
+      "ip_address": "50.16.192.69",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-50-17-205-178.compute-1.amazonaws.com",
+      "ip_address": "50.17.205.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-50-17-249-91.compute-1.amazonaws.com",
+      "ip_address": "50.17.249.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-50-19-106-31.compute-1.amazonaws.com",
+      "ip_address": "50.19.106.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-50-19-85-47.compute-1.amazonaws.com",
+      "ip_address": "50.19.85.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-52-10-134-200.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.10.134.200",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-52-26-11-34.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.26.11.34",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-52-26-149-109.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.26.149.109",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-52-27-35-86.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.35.86",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-52-32-191-206.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.32.191.206",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-52-34-71-183.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.34.71.183",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-52-36-15-128.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.36.15.128",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-52-84-11-153.ord54.r.cloudfront.net",
+      "ip_address": "52.84.11.153",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-52-84-117-176.iad16.r.cloudfront.net",
+      "ip_address": "52.84.117.176",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-52-84-141-45.yto50.r.cloudfront.net",
+      "ip_address": "52.84.141.45",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-52-85-189-42.fra2.r.cloudfront.net",
+      "ip_address": "52.85.189.42",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-148-110-212.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.148.110.212",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-148-192-16.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.148.192.16",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-187-230-52.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.187.230.52",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-187-250-168.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.187.250.168",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-191-251-229.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.191.251.229",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-54-192-141-156.sfo5.r.cloudfront.net",
+      "ip_address": "54.192.141.156",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-54-192-19-193.iad12.r.cloudfront.net",
+      "ip_address": "54.192.19.193",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-54-192-2-197.lhr5.r.cloudfront.net",
+      "ip_address": "54.192.2.197",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-197-224-108.compute-1.amazonaws.com",
+      "ip_address": "54.197.224.108",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-197-255-73.compute-1.amazonaws.com",
+      "ip_address": "54.197.255.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-201-243-20.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.201.243.20",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-201-5-203.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.201.5.203",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-208-240-106.compute-1.amazonaws.com",
+      "ip_address": "54.208.240.106",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-221-198-70.compute-1.amazonaws.com",
+      "ip_address": "54.221.198.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-225-162-48.compute-1.amazonaws.com",
+      "ip_address": "54.225.162.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-225-165-43.compute-1.amazonaws.com",
+      "ip_address": "54.225.165.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-225-80-179.compute-1.amazonaws.com",
+      "ip_address": "54.225.80.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-54-230-123-30.dfw50.r.cloudfront.net",
+      "ip_address": "54.230.123.30",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-54-230-19-193.iad12.r.cloudfront.net",
+      "ip_address": "54.230.19.193",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-54-230-204-228.atl50.r.cloudfront.net",
+      "ip_address": "54.230.204.228",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "server-54-230-88-163.ind6.r.cloudfront.net",
+      "ip_address": "54.230.88.163",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-235-107-248.compute-1.amazonaws.com",
+      "ip_address": "54.235.107.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-235-165-25.compute-1.amazonaws.com",
+      "ip_address": "54.235.165.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-235-182-15.compute-1.amazonaws.com",
+      "ip_address": "54.235.182.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-235-184-39.compute-1.amazonaws.com",
+      "ip_address": "54.235.184.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-235-221-79.compute-1.amazonaws.com",
+      "ip_address": "54.235.221.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-235-69-83.compute-1.amazonaws.com",
+      "ip_address": "54.235.69.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.29.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.29.215",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.29.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-101-102.compute-1.amazonaws.com",
+      "ip_address": "54.243.101.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-112-174.compute-1.amazonaws.com",
+      "ip_address": "54.243.112.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-116-171.compute-1.amazonaws.com",
+      "ip_address": "54.243.116.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-132-222.compute-1.amazonaws.com",
+      "ip_address": "54.243.132.222",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-215-229.compute-1.amazonaws.com",
+      "ip_address": "54.243.215.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-73-224.compute-1.amazonaws.com",
+      "ip_address": "54.243.73.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-76-44.compute-1.amazonaws.com",
+      "ip_address": "54.243.76.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-95-134.compute-1.amazonaws.com",
+      "ip_address": "54.243.95.134",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-98-142.compute-1.amazonaws.com",
+      "ip_address": "54.243.98.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-243-99-96.compute-1.amazonaws.com",
+      "ip_address": "54.243.99.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-84-124-138.compute-1.amazonaws.com",
+      "ip_address": "54.84.124.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "ec2-54-84-219-91.compute-1.amazonaws.com",
+      "ip_address": "54.84.219.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mint",
+      "ptr_domain": "N/A",
+      "ip_address": "91.235.133.92",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    }
+  ]
+}

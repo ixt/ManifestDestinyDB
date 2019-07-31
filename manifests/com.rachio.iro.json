@@ -1,7 +1,7 @@
 {
   "appName": "Rachio",
   "packageName": "com.rachio.iro",
-  "category": "HOUSE_AND_HOME",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,8 +22,60 @@
   ],
   "version": "3.12.2",
   "trackers": [
-    "Google CrashLytics",
+    "Google Firebase Analytics",
     "Google Analytics",
-    "Google Firebase Analytics"
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.rachio.iro",
+      "ptr_domain": "ec2-34-210-238-40.us-west-2.compute.amazonaws.com",
+      "ip_address": "34.210.238.40",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.rachio.iro",
+      "ptr_domain": "ec2-52-40-133-174.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.40.133.174",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.rachio.iro",
+      "ptr_domain": "ec2-54-187-195-3.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.187.195.3",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.rachio.iro",
+      "ptr_domain": "ec2-54-225-185-191.compute-1.amazonaws.com",
+      "ip_address": "54.225.185.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rachio.iro",
+      "ptr_domain": "ec2-54-235-185-132.compute-1.amazonaws.com",
+      "ip_address": "54.235.185.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

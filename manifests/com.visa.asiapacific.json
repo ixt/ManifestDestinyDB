@@ -1,7 +1,7 @@
 {
   "appName": "Visa Explore",
   "packageName": "com.visa.asiapacific",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -18,11 +18,23 @@
   ],
   "version": "V 3.1",
   "trackers": [
-    "Google CrashLytics",
-    "Google Ads",
-    "Localytics",
-    "AppsFlyer",
+    "Google Firebase Analytics",
     "Google DoubleClick",
-    "Google Firebase Analytics"
+    "Google Ads",
+    "AppsFlyer",
+    "Localytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.visa.asiapacific",
+      "ptr_domain": "a104-81-101-101.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.81.101.101",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    }
   ]
 }

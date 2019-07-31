@@ -1,7 +1,7 @@
 {
   "appName": "Jófogás",
   "packageName": "com.schibsted.iberica.jofogas",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -23,10 +23,42 @@
   ],
   "version": "4.8.0",
   "trackers": [
+    "Google Firebase Analytics",
+    "Tealium",
     "ATInternet",
     "Google CrashLytics",
-    "Schibsted",
-    "Google Firebase Analytics",
-    "Tealium"
+    "Schibsted"
+  ],
+  "network_connections": [
+    {
+      "package": "com.schibsted.iberica.jofogas",
+      "ptr_domain": "ec2-107-20-220-24.compute-1.amazonaws.com",
+      "ip_address": "107.20.220.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.schibsted.iberica.jofogas",
+      "ptr_domain": "vip127.ssl.hwcdn.net",
+      "ip_address": "205.185.208.127",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.schibsted.iberica.jofogas",
+      "ptr_domain": "ec2-52-212-7-239.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.7.239",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

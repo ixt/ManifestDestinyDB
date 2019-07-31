@@ -1,7 +1,7 @@
 {
   "appName": "Family Tree",
   "packageName": "org.familysearch.mobile",
-  "category": "BOOKS_AND_REFERENCE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,8 +24,20 @@
   ],
   "version": "2.8.1",
   "trackers": [
+    "Google CrashLytics",
     "Localytics",
-    "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "org.familysearch.mobile",
+      "ptr_domain": "a104-67-67-132.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.67.67.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

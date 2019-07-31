@@ -1,7 +1,7 @@
 {
   "appName": "Camera",
   "packageName": "com.nextbit.camera",
-  "category": "PHOTOGRAPHY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -32,10 +32,32 @@
   ],
   "version": "2.0.1 (B391) (d824222)",
   "trackers": [
+    "Google CrashLytics",
     "Flurry",
     "Apptimize",
-    "Google CrashLytics",
     "Google Firebase Analytics",
     "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.nextbit.camera",
+      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com",
+      "ip_address": "50.19.81.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.nextbit.camera",
+      "ptr_domain": "ec2-52-35-158-138.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.158.138",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

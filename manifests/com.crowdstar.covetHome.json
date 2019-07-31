@@ -1,7 +1,7 @@
 {
   "appName": "Design Home",
   "packageName": "com.crowdstar.covetHome",
-  "category": "GAME_SIMULATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -36,22 +36,754 @@
   ],
   "version": "1.25.062",
   "trackers": [
-    "Twitter MoPub",
-    "Facebook Analytics",
-    "Facebook Login",
-    "AppLovin",
-    "Tapjoy",
     "Facebook Places",
-    "Facebook Share",
-    "Moat",
-    "Google CrashLytics",
-    "Facebook Ads",
-    "AdColony",
-    "Google DoubleClick",
-    "Batch",
-    "Unity3d Ads",
     "Fyber",
+    "Facebook Ads",
+    "Moat",
+    "Twitter MoPub",
+    "Facebook Share",
+    "AppLovin",
+    "AdColony",
+    "HelpShift",
     "Google Ads",
-    "HelpShift"
+    "Google DoubleClick",
+    "Unity3d Ads",
+    "Tapjoy",
+    "Facebook Login",
+    "Facebook Analytics",
+    "Google CrashLytics",
+    "Batch"
+  ],
+  "network_connections": [
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "a104-85-228-177.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.85.228.177",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-107-20-184-187.compute-1.amazonaws.com",
+      "ip_address": "107.20.184.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-107-21-215-93.compute-1.amazonaws.com",
+      "ip_address": "107.21.215.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-174-129-62-126.compute-1.amazonaws.com",
+      "ip_address": "174.129.62.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.178",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.60",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-184-169-143-6.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.143.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-184-169-164-133.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.164.133",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-184-169-172-7.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.172.7",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-184-169-174-205.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.174.205",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-184-169-174-97.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.174.97",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-184-169-183-216.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.183.216",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-184-72-248-107.compute-1.amazonaws.com",
+      "ip_address": "184.72.248.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-184-72-37-61.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.72.37.61",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.211.63",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "a198-189-255-199.deploy.akamaitechnologies.com",
+      "ip_address": "198.189.255.199",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "a198-189-255-216.deploy.akamaitechnologies.com",
+      "ip_address": "198.189.255.216",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "map2.hwcdn.net",
+      "ip_address": "205.185.216.10",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "map2.hwcdn.net",
+      "ip_address": "205.185.216.42",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "a23-203-229-5.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.203.229.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-23-21-179-248.compute-1.amazonaws.com",
+      "ip_address": "23.21.179.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-23-21-211-206.compute-1.amazonaws.com",
+      "ip_address": "23.21.211.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-23-21-62-180.compute-1.amazonaws.com",
+      "ip_address": "23.21.62.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-23-21-96-207.compute-1.amazonaws.com",
+      "ip_address": "23.21.96.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-23-23-156-210.compute-1.amazonaws.com",
+      "ip_address": "23.23.156.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-23-23-161-48.compute-1.amazonaws.com",
+      "ip_address": "23.23.161.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "a23-44-163-126.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.44.163.126",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "a23-56-125-246.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.56.125.246",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::3210:cd32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::36e1:c93c",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "edge-star6-shv-01-sea1.facebook.com",
+      "ip_address": "2a03:2880:f001:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "edge-star6-shv-02-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:110:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-50-16-191-172.compute-1.amazonaws.com",
+      "ip_address": "50.16.191.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-50-18-60-207.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.60.207",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "api.nanigans.com",
+      "ip_address": "50.97.55.58",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-52-200-169-33.compute-1.amazonaws.com",
+      "ip_address": "52.200.169.33",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-52-200-237-64.compute-1.amazonaws.com",
+      "ip_address": "52.200.237.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-52-201-108-252.compute-1.amazonaws.com",
+      "ip_address": "52.201.108.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-52-202-119-247.compute-1.amazonaws.com",
+      "ip_address": "52.202.119.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-52-203-140-71.compute-1.amazonaws.com",
+      "ip_address": "52.203.140.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-52-203-194-31.compute-1.amazonaws.com",
+      "ip_address": "52.203.194.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-52-5-172-158.compute-1.amazonaws.com",
+      "ip_address": "52.5.172.158",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-52-52-244-101.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.244.101",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "server-52-84-243-154.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.154",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "server-52-84-243-220.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.220",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-52-9-109-21.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.109.21",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.224.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.225.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.225.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.226.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.232.164",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.234.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-54-161-203-183.compute-1.amazonaws.com",
+      "ip_address": "54.161.203.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-54-215-4-184.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.4.184",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-54-225-213-13.compute-1.amazonaws.com",
+      "ip_address": "54.225.213.13",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-54-225-80-179.compute-1.amazonaws.com",
+      "ip_address": "54.225.80.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "server-54-230-143-131.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.131",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "server-54-230-143-204.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.204",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "server-54-230-143-216.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.216",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-54-235-151-110.compute-1.amazonaws.com",
+      "ip_address": "54.235.151.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-54-235-163-52.compute-1.amazonaws.com",
+      "ip_address": "54.235.163.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.19.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.21.217",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.22.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.28.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.28.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.28.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.28.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-54-243-187-20.compute-1.amazonaws.com",
+      "ip_address": "54.243.187.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-54-85-149-200.compute-1.amazonaws.com",
+      "ip_address": "54.85.149.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "ec2-75-101-130-107.compute-1.amazonaws.com",
+      "ip_address": "75.101.130.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crowdstar.covetHome",
+      "ptr_domain": "api.nanigans.com",
+      "ip_address": "75.126.18.77",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    }
   ]
 }

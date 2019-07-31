@@ -1,19 +1,60 @@
 {
   "appName": "Marine Collision Regulations",
   "packageName": "bitmetric.android.colregs",
-  "category": "BOOKS_AND_REFERENCE",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.SYSTEM_ALERT_WINDOW",
     "android.permission.WAKE_LOCK",
-    "com.google.android.c2dm.permission.RECEIVE",
     "bitmetric.android.colregs.permission.C2D_MESSAGE",
-    "bitmetric.android.colregs.permission.C2D_MESSAGE"
+    "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "3.1",
   "trackers": [
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "bitmetric.android.colregs",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bitmetric.android.colregs",
+      "ptr_domain": "sfo03s01-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bitmetric.android.colregs",
+      "ptr_domain": "sfo03s01-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bitmetric.android.colregs",
+      "ptr_domain": "sfo03s08-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

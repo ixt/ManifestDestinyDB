@@ -1,7 +1,7 @@
 {
   "appName": "GOM Audio",
   "packageName": "com.gomtv.gomaudio",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -28,19 +28,31 @@
   ],
   "version": "2.2.5",
   "trackers": [
-    "AdFit (Daum)",
-    "Facebook Places",
-    "Facebook Share",
-    "Facebook Analytics",
-    "Flurry",
     "Facebook Ads",
-    "Inmobi",
-    "Display",
-    "Google DoubleClick",
-    "Google Analytics",
-    "Duapps",
-    "Facebook Login",
     "Google Ads",
-    "Twitter MoPub"
+    "Flurry",
+    "Duapps",
+    "Display",
+    "Facebook Share",
+    "Twitter MoPub",
+    "Facebook Login",
+    "Google Analytics",
+    "Facebook Places",
+    "Facebook Analytics",
+    "AdFit (Daum)",
+    "Inmobi",
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "com.gomtv.gomaudio",
+      "ptr_domain": "ec2-34-200-46-187.compute-1.amazonaws.com",
+      "ip_address": "34.200.46.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

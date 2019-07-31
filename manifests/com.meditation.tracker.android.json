@@ -1,7 +1,7 @@
 {
   "appName": "Sattva",
   "packageName": "com.meditation.tracker.android",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -26,12 +26,74 @@
   "version": "6.0.4",
   "trackers": [
     "Google Firebase Analytics",
-    "Facebook Share",
-    "Google Analytics",
     "Facebook Login",
-    "Facebook Places",
+    "Google CrashLytics",
     "Urbanairship",
-    "Facebook Analytics",
-    "Google CrashLytics"
+    "Google Analytics",
+    "Facebook Places",
+    "Facebook Share",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.meditation.tracker.android",
+      "ptr_domain": "ec2-13-113-146-254.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "13.113.146.254",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.meditation.tracker.android",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.meditation.tracker.android",
+      "ptr_domain": "ec2-52-199-8-143.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.199.8.143",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.meditation.tracker.android",
+      "ptr_domain": "ec2-52-52-151-52.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.151.52",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.meditation.tracker.android",
+      "ptr_domain": "ec2-52-52-99-185.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.99.185",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.meditation.tracker.android",
+      "ptr_domain": "ec2-54-215-224-84.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.224.84",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    }
   ]
 }

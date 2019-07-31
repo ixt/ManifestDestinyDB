@@ -1,7 +1,7 @@
 {
   "appName": "Sensibo",
   "packageName": "com.sensibo.app",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,8 +22,50 @@
   ],
   "version": "1.0.219",
   "trackers": [
-    "Google Analytics",
     "Google Firebase Analytics",
+    "Google Analytics",
     "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sensibo.app",
+      "ptr_domain": "ec2-184-73-211-229.compute-1.amazonaws.com",
+      "ip_address": "184.73.211.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sensibo.app",
+      "ptr_domain": "ec2-50-16-240-170.compute-1.amazonaws.com",
+      "ip_address": "50.16.240.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sensibo.app",
+      "ptr_domain": "server-54-192-208-109.mnl50.r.cloudfront.net",
+      "ip_address": "54.192.208.109",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sensibo.app",
+      "ptr_domain": "ec2-54-77-241-118.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.241.118",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

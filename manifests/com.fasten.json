@@ -1,0 +1,456 @@
+{
+  "appName": "Fasten",
+  "packageName": "com.fasten",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.fasten.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "2.25.0",
+  "trackers": [
+    "AppsFlyer",
+    "Facebook Analytics",
+    "Facebook Share",
+    "Google Analytics",
+    "Facebook Places",
+    "Amplitude",
+    "Braze (formerly Appboy)",
+    "Google CrashLytics",
+    "Facebook Login",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fasten",
+      "ptr_domain": "dfw28s23-in-f3.1e100.net",
+      "ip_address": "172.217.1.131",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "yyz10s04-in-f14.1e100.net",
+      "ip_address": "172.217.1.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "muc11s14-in-f3.1e100.net",
+      "ip_address": "172.217.17.227",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "mct01s09-in-f3.1e100.net",
+      "ip_address": "172.217.18.131",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "arn09s11-in-f163.1e100.net",
+      "ip_address": "172.217.22.163",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-184-73-187-250.compute-1.amazonaws.com",
+      "ip_address": "184.73.187.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "proxy.vip.pod3.dub1.zdsys.com",
+      "ip_address": "185.12.82.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "dfw25s34-in-f3.1e100.net",
+      "ip_address": "216.58.193.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "mad08s06-in-f3.1e100.net",
+      "ip_address": "216.58.201.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ber01s09-in-f195.1e100.net",
+      "ip_address": "216.58.201.195",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "arn09s05-in-f131.1e100.net",
+      "ip_address": "216.58.209.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "dub08s03-in-f3.1e100.net",
+      "ip_address": "216.58.209.99",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "arn09s10-in-f131.1e100.net",
+      "ip_address": "216.58.211.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ams15s21-in-f131.1e100.net",
+      "ip_address": "216.58.212.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ams15s22-in-f163.1e100.net",
+      "ip_address": "216.58.212.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ams16s21-in-f3.1e100.net",
+      "ip_address": "216.58.212.195",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ams16s22-in-f227.1e100.net",
+      "ip_address": "216.58.212.227",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "atl14s38-in-f3.1e100.net",
+      "ip_address": "216.58.217.227",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "atl14s38-in-f238.1e100.net",
+      "ip_address": "216.58.217.238",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "atl14s39-in-f3.1e100.net",
+      "ip_address": "216.58.218.3",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-23-21-212-189.compute-1.amazonaws.com",
+      "ip_address": "23.21.212.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "dfw06s48-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4000:80c::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "atl14s39-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4002:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ya-in-x64.1e100.net",
+      "ip_address": "2607:f8b0:4002:c03::64",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ya-in-x65.1e100.net",
+      "ip_address": "2607:f8b0:4002:c03::65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ya-in-x8a.1e100.net",
+      "ip_address": "2607:f8b0:4002:c03::8a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ams15s21-in-x03.1e100.net",
+      "ip_address": "2a00:1450:400e:800::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "edge-star6-shv-01-atl3.facebook.com",
+      "ip_address": "2a03:2880:f011:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:312:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-50-19-93-128.compute-1.amazonaws.com",
+      "ip_address": "50.19.93.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-52-19-57-74.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.57.74",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-52-2-194-0.compute-1.amazonaws.com",
+      "ip_address": "52.2.194.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-52-7-59-82.compute-1.amazonaws.com",
+      "ip_address": "52.7.59.82",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-54-154-111-221.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.111.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-54-154-219-215.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.219.215",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-54-154-28-246.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.28.246",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-54-171-114-86.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.114.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-54-171-177-121.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.177.121",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-54-171-27-11.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.27.11",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-54-225-158-189.compute-1.amazonaws.com",
+      "ip_address": "54.225.158.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fasten",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

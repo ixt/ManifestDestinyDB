@@ -1,26 +1,137 @@
 {
   "appName": "Catalunya Ràdio",
   "packageName": "cat.catradio.eng",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
     "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
     "cat.catradio.eng.permission.C2D_MESSAGE",
-    "cat.catradio.eng.permission.C2D_MESSAGE",
-    "android.permission.ACCESS_WIFI_STATE"
+    "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "2.2.9",
   "trackers": [
-    "Google Ads",
     "Google Firebase Analytics",
     "Google CrashLytics",
-    "Smart",
-    "Google DoubleClick",
+    "Demdex",
     "ComScore",
-    "Demdex"
+    "Google Ads",
+    "Smart",
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "ec2-107-21-118-233.compute-1.amazonaws.com",
+      "ip_address": "107.21.118.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "ec2-107-21-221-240.compute-1.amazonaws.com",
+      "ip_address": "107.21.221.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "core103.richmediastudio.com",
+      "ip_address": "151.80.102.183",
+      "loc_city": "Roubaix",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "3.178000",
+      "loc_lat": "50.697400"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "32-125-232-198.static.unitasglobal.net",
+      "ip_address": "198.232.125.32",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "mad06s10-in-f174.1e100.net",
+      "ip_address": "216.58.210.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "a23-214-127-198.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.214.127.198",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "a23-223-103-92.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.223.103.92",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "ec2-52-29-78-87.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.78.87",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "N/A",
+      "ip_address": "68.232.35.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "N/A",
+      "ip_address": "82.199.68.73",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "cat.catradio.eng",
+      "ptr_domain": "94.31.29.128.IPYX-077437-ZYO.above.net",
+      "ip_address": "94.31.29.128",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "SchoolSoft",
   "packageName": "se.schoolsoft.android",
-  "category": "EDUCATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_DOWNLOAD_MANAGER",
@@ -36,7 +36,19 @@
   ],
   "version": "2.0.7",
   "trackers": [
-    "OneSignal",
-    "Google Firebase Analytics"
+    "Google Firebase Analytics",
+    "OneSignal"
+  ],
+  "network_connections": [
+    {
+      "package": "se.schoolsoft.android",
+      "ptr_domain": "sms.schoolsoft.se",
+      "ip_address": "89.107.221.134",
+      "loc_city": "Lidingoe",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.133300",
+      "loc_lat": "59.366700"
+    }
   ]
 }

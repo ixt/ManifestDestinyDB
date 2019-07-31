@@ -1,28 +1,59 @@
 {
   "appName": "Centrelink",
   "packageName": "au.gov.dhs.centrelinkexpressplus",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
-    "au.gov.dhs.centrelinkexpressplus.permission.C2D_MESSAGE",
-    "au.gov.dhs.centrelinkexpressplus.permission.C2D_MESSAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CALL_PHONE",
-    "android.permission.WRITE_CALENDAR",
+    "android.permission.INTERNET",
+    "android.permission.READ_CALENDAR",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
-    "com.google.android.c2dm.permission.RECEIVE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.READ_CALENDAR"
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "au.gov.dhs.centrelinkexpressplus.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "3.11.0",
   "trackers": [
     "Google Analytics",
     "Dynatrace"
+  ],
+  "network_connections": [
+    {
+      "package": "au.gov.dhs.centrelinkexpressplus",
+      "ptr_domain": "syd09s13-in-f14.1e100.net",
+      "ip_address": "172.217.25.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "au.gov.dhs.centrelinkexpressplus",
+      "ptr_domain": "si.centrelink.gov.au",
+      "ip_address": "203.13.0.100",
+      "loc_city": "Canberra",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "149.127800",
+      "loc_lat": "-35.312600"
+    },
+    {
+      "package": "au.gov.dhs.centrelinkexpressplus",
+      "ptr_domain": "mobile.human705vices.gov.au",
+      "ip_address": "203.13.0.186",
+      "loc_city": "Canberra",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "149.127800",
+      "loc_lat": "-35.312600"
+    }
   ]
 }

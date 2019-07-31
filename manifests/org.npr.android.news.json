@@ -1,7 +1,7 @@
 {
   "appName": "NPR News",
   "packageName": "org.npr.android.news",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -17,8 +17,520 @@
   ],
   "version": "2.7.5",
   "trackers": [
-    "Google Firebase Analytics",
     "Google Analytics",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "a104-72-60-216.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.72.60.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "a104-94-246-125.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.94.246.125",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-107-21-220-89.compute-1.amazonaws.com",
+      "ip_address": "107.21.220.89",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-107-21-239-97.compute-1.amazonaws.com",
+      "ip_address": "107.21.239.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-107-21-98-91.compute-1.amazonaws.com",
+      "ip_address": "107.21.98.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-107-22-189-83.compute-1.amazonaws.com",
+      "ip_address": "107.22.189.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-107-22-216-92.compute-1.amazonaws.com",
+      "ip_address": "107.22.216.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-107-22-226-203.compute-1.amazonaws.com",
+      "ip_address": "107.22.226.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "sfo03s07-in-f14.1e100.net",
+      "ip_address": "172.217.5.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "lax28s10-in-f196.1e100.net",
+      "ip_address": "172.217.5.196",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-174-129-209-245.compute-1.amazonaws.com",
+      "ip_address": "174.129.209.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-174-129-251-113.compute-1.amazonaws.com",
+      "ip_address": "174.129.251.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-184-72-220-146.compute-1.amazonaws.com",
+      "ip_address": "184.72.220.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-184-73-203-162.compute-1.amazonaws.com",
+      "ip_address": "184.73.203.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-184-73-224-125.compute-1.amazonaws.com",
+      "ip_address": "184.73.224.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "205-144-162-143.alchemy.net",
+      "ip_address": "205.144.162.143",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "N/A",
+      "ip_address": "216.35.221.71",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "sfo03s06-in-f10.1e100.net",
+      "ip_address": "216.58.195.234",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "a23-194-140-48.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.194.140.48",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-116-90.compute-1.amazonaws.com",
+      "ip_address": "23.21.116.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-118-91.compute-1.amazonaws.com",
+      "ip_address": "23.21.118.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-192-242.compute-1.amazonaws.com",
+      "ip_address": "23.21.192.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-219-171.compute-1.amazonaws.com",
+      "ip_address": "23.21.219.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-54-53.compute-1.amazonaws.com",
+      "ip_address": "23.21.54.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-56-15.compute-1.amazonaws.com",
+      "ip_address": "23.21.56.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-64-174.compute-1.amazonaws.com",
+      "ip_address": "23.21.64.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-68-38.compute-1.amazonaws.com",
+      "ip_address": "23.21.68.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-68-70.compute-1.amazonaws.com",
+      "ip_address": "23.21.68.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-21-70-185.compute-1.amazonaws.com",
+      "ip_address": "23.21.70.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-23-111-85.compute-1.amazonaws.com",
+      "ip_address": "23.23.111.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-23-23-80-6.compute-1.amazonaws.com",
+      "ip_address": "23.23.80.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "a23-72-4-117.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.72.4.117",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "a23-72-91-109.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.72.91.109",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "a23-73-195-166.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.73.195.166",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-50-17-219-135.compute-1.amazonaws.com",
+      "ip_address": "50.17.219.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-50-19-215-224.compute-1.amazonaws.com",
+      "ip_address": "50.19.215.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-197-237-178.compute-1.amazonaws.com",
+      "ip_address": "54.197.237.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-225-169-184.compute-1.amazonaws.com",
+      "ip_address": "54.225.169.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-225-170-144.compute-1.amazonaws.com",
+      "ip_address": "54.225.170.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-225-214-148.compute-1.amazonaws.com",
+      "ip_address": "54.225.214.148",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-225-217-6.compute-1.amazonaws.com",
+      "ip_address": "54.225.217.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-235-183-115.compute-1.amazonaws.com",
+      "ip_address": "54.235.183.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-235-189-52.compute-1.amazonaws.com",
+      "ip_address": "54.235.189.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-235-243-207.compute-1.amazonaws.com",
+      "ip_address": "54.235.243.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-241-32-1.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.241.32.1",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-243-127-94.compute-1.amazonaws.com",
+      "ip_address": "54.243.127.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-243-129-40.compute-1.amazonaws.com",
+      "ip_address": "54.243.129.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-243-160-177.compute-1.amazonaws.com",
+      "ip_address": "54.243.160.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com",
+      "ip_address": "54.243.212.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-243-227-109.compute-1.amazonaws.com",
+      "ip_address": "54.243.227.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.npr.android.news",
+      "ptr_domain": "ec2-54-243-78-111.compute-1.amazonaws.com",
+      "ip_address": "54.243.78.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

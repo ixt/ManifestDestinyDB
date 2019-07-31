@@ -1,0 +1,1567 @@
+{
+  "appName": "MyPermissions",
+  "packageName": "com.mypermissions.mypermissions",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.mypermissions.core.managers.TasksReceiver",
+    "com.mypermissions.core.ui.ApplicationService",
+    "com.mypermissions.core.ui.InstallationReceiver",
+    "com.mypermissions.mypermissions.core.MyPermissionsStandaloneApplication",
+    "com.mypermissions.mypermissions.managers.apps.NativeAppsReceiver",
+    "com.mypermissions.mypermissions.managers.tasksManager.BatteryLevelReceiver",
+    "com.mypermissions.mypermissions.managers.tasksManager.BootCompletedReceiver",
+    "com.mypermissions.mypermissions.v4.activities.MP4Activity",
+    "com.mypermissions.mypermissions.v4.activities.MP4NotificationActivity",
+    "com.mypermissions.mypermissions.v4.managers.notifications.V4_NotificationReceiver"
+  ],
+  "version": "4.4.2.0",
+  "trackers": [
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "Branch",
+    "MixPanel",
+    "Amplitude"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.129",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-107-21-214-197.compute-1.amazonaws.com",
+      "ip_address": "107.21.214.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-107-22-186-145.compute-1.amazonaws.com",
+      "ip_address": "107.22.186.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "83.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.131",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "86.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.134",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "88.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.136",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "89.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.137",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "8b.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.139",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "8c.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.140",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "8d.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.141",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "8e.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "90.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.144",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "92.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.146",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "96.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.150",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "99.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.153",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ab.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.171",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ad.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.173",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ae.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "b2.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.178",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "b6.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.182",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "bc.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.188",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "be.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.190",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "bf.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.191",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "c6.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.198",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "c7.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.199",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "c9.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.201",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "cb.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.203",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "cc.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.204",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ce.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "d1.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.209",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "e.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "21.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.33",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "7.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "19.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "21.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.33",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "29.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.41",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-174-129-0-175.compute-1.amazonaws.com",
+      "ip_address": "174.129.0.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-174-129-20-185.compute-1.amazonaws.com",
+      "ip_address": "174.129.20.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-184-72-248-107.compute-1.amazonaws.com",
+      "ip_address": "184.72.248.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-184-72-251-121.compute-1.amazonaws.com",
+      "ip_address": "184.72.251.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-184-73-180-205.compute-1.amazonaws.com",
+      "ip_address": "184.73.180.205",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-184-73-213-37.compute-1.amazonaws.com",
+      "ip_address": "184.73.213.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-184-73-220-110.compute-1.amazonaws.com",
+      "ip_address": "184.73.220.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-184-73-235-122.compute-1.amazonaws.com",
+      "ip_address": "184.73.235.122",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-184-73-243-250.compute-1.amazonaws.com",
+      "ip_address": "184.73.243.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "UNKNOWN-188-125-80-X.yahoo.com",
+      "ip_address": "188.125.80.138",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "UNKNOWN-188-125-80-X.yahoo.com",
+      "ip_address": "188.125.80.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "UNKNOWN-188-125-80-X.yahoo.com",
+      "ip_address": "188.125.80.145",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "UNKNOWN-217-12-13-X.yahoo.com",
+      "ip_address": "217.12.13.40",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "UNKNOWN-217-12-13-X.yahoo.com",
+      "ip_address": "217.12.13.41",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "mpr2.ngd.vip.ir2.yahoo.com",
+      "ip_address": "217.12.15.54",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "beap3.cbs.vip.ir2.yahoo.com",
+      "ip_address": "217.146.190.16",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "a2-17-153-105.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.17.153.105",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "a2-17-212-106.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.17.212.106",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "a2-20-89-132.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.20.89.132",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-21-140-144.compute-1.amazonaws.com",
+      "ip_address": "23.21.140.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-21-204-219.compute-1.amazonaws.com",
+      "ip_address": "23.21.204.219",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-21-209-66.compute-1.amazonaws.com",
+      "ip_address": "23.21.209.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-21-254-156.compute-1.amazonaws.com",
+      "ip_address": "23.21.254.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-21-79-77.compute-1.amazonaws.com",
+      "ip_address": "23.21.79.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-21-92-9.compute-1.amazonaws.com",
+      "ip_address": "23.21.92.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-23-140-207.compute-1.amazonaws.com",
+      "ip_address": "23.23.140.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-23-156-102.compute-1.amazonaws.com",
+      "ip_address": "23.23.156.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-23-161-173.compute-1.amazonaws.com",
+      "ip_address": "23.23.161.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-23-164-24.compute-1.amazonaws.com",
+      "ip_address": "23.23.164.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-23-195-103.compute-1.amazonaws.com",
+      "ip_address": "23.23.195.103",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-23-227-102.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-23-248-196.compute-1.amazonaws.com",
+      "ip_address": "23.23.248.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-23-72-114.compute-1.amazonaws.com",
+      "ip_address": "23.23.72.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-23-23-72-201.compute-1.amazonaws.com",
+      "ip_address": "23.23.72.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "a23-46-117-60.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.46.117.60",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "a23-54-25-188.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.54.25.188",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::1715:5c09",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "N/A",
+      "ip_address": "2406:da00:ff00::3211:ed64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "edge-z-m-mini-shv-01-iad3.facebook.com",
+      "ip_address": "31.13.66.36",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "edge-msgr-latest-shv-01-iad3.facebook.com",
+      "ip_address": "31.13.66.5",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "edge-z-m-mini-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.37",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-34-226-56-169.compute-1.amazonaws.com",
+      "ip_address": "34.226.56.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-46-137-167-137.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.137.167.137",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-112-109-9.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.109.9",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-112-125-59.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.125.59",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-112-244-156.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.244.156",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-112-253-76.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.253.76",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-112-93-230.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.93.230",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-112-95-22.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.95.22",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-112-98-250.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.98.250",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-16-191-218.compute-1.amazonaws.com",
+      "ip_address": "50.16.191.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-16-198-226.compute-1.amazonaws.com",
+      "ip_address": "50.16.198.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-16-249-200.compute-1.amazonaws.com",
+      "ip_address": "50.16.249.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-17-237-100.compute-1.amazonaws.com",
+      "ip_address": "50.17.237.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-17-249-91.compute-1.amazonaws.com",
+      "ip_address": "50.17.249.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-50-19-94-109.compute-1.amazonaws.com",
+      "ip_address": "50.19.94.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-52-2-122-250.compute-1.amazonaws.com",
+      "ip_address": "52.2.122.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "s3-1-w.amazonaws.com",
+      "ip_address": "52.216.17.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-52-222-183-65.bom52.r.cloudfront.net",
+      "ip_address": "52.222.183.65",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-52-222-183-84.bom52.r.cloudfront.net",
+      "ip_address": "52.222.183.84",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-52-222-240-156.lhr52.r.cloudfront.net",
+      "ip_address": "52.222.240.156",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-52-72-53-158.compute-1.amazonaws.com",
+      "ip_address": "52.72.53.158",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-192-5-100.dfw3.r.cloudfront.net",
+      "ip_address": "54.192.5.100",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-192-61-205.mad50.r.cloudfront.net",
+      "ip_address": "54.192.61.205",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-192-7-100.dfw3.r.cloudfront.net",
+      "ip_address": "54.192.7.100",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-203-247-189.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.203.247.189",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-203-253-248.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.203.253.248",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-203-254-139.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.203.254.139",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-209-167-183.compute-1.amazonaws.com",
+      "ip_address": "54.209.167.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-23-193.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.23.193",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-234-239.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.234.239",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-238-126.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.238.126",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-238-58.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.238.58",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-24-254.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.24.254",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-244-154.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.244.154",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-247-214.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.247.214",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-30-243.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.30.243",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-41-98.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.41.98",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-214-49-4.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.49.4",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-221-199-46.compute-1.amazonaws.com",
+      "ip_address": "54.221.199.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-225-161-73.compute-1.amazonaws.com",
+      "ip_address": "54.225.161.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-225-185-130.compute-1.amazonaws.com",
+      "ip_address": "54.225.185.130",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-225-234-169.compute-1.amazonaws.com",
+      "ip_address": "54.225.234.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-225-235-202.compute-1.amazonaws.com",
+      "ip_address": "54.225.235.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-230-229-205.waw50.r.cloudfront.net",
+      "ip_address": "54.230.229.205",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-230-62-138.mad50.r.cloudfront.net",
+      "ip_address": "54.230.62.138",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-230-62-14.mad50.r.cloudfront.net",
+      "ip_address": "54.230.62.14",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-230-62-182.mad50.r.cloudfront.net",
+      "ip_address": "54.230.62.182",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-230-62-239.mad50.r.cloudfront.net",
+      "ip_address": "54.230.62.239",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-230-62-62.mad50.r.cloudfront.net",
+      "ip_address": "54.230.62.62",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-230-62-69.mad50.r.cloudfront.net",
+      "ip_address": "54.230.62.69",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-230-62-71.mad50.r.cloudfront.net",
+      "ip_address": "54.230.62.71",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-230-62-82.mad50.r.cloudfront.net",
+      "ip_address": "54.230.62.82",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-235-131-96.compute-1.amazonaws.com",
+      "ip_address": "54.235.131.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-235-202-23.compute-1.amazonaws.com",
+      "ip_address": "54.235.202.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "server-54-239-192-70.waw50.r.cloudfront.net",
+      "ip_address": "54.239.192.70",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-243-246-82.compute-1.amazonaws.com",
+      "ip_address": "54.243.246.82",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-243-67-29.compute-1.amazonaws.com",
+      "ip_address": "54.243.67.29",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-244-120-178.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.120.178",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-244-228-9.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.228.9",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-244-232-29.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.232.29",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-244-234-141.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.234.141",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-244-242-240.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.242.240",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-244-91-34.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.91.34",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-245-104-174.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.104.174",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-245-105-173.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.105.173",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-245-224-96.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.224.96",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-245-232-181.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.232.181",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-245-250-210.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.250.210",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-245-253-196.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.253.196",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ec2-54-245-89-129.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.89.129",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "a1.ue.vip.ir2.yahoo.net",
+      "ip_address": "77.238.185.49",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "e1.ycpi.vip.amb.yahoo.com",
+      "ip_address": "87.248.116.11",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "ambdlv02.atlas.cdn.amb.yimg.com",
+      "ip_address": "87.248.116.79",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "e2.ycpi.vip.deb.yahoo.com",
+      "ip_address": "87.248.118.23",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.mypermissions.mypermissions",
+      "ptr_domain": "a96-7-93-50.deploy.static.akamaitechnologies.com",
+      "ip_address": "96.7.93.50",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

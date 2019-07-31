@@ -1,7 +1,7 @@
 {
   "appName": "ΣΚΑΙ.gr",
   "packageName": "gr.skai.skai_android",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -17,11 +17,33 @@
   ],
   "version": "5.8",
   "trackers": [
-    "Google DoubleClick",
-    "Google Ads",
     "Google Firebase Analytics",
-    "OneSignal",
     "OutBrain",
-    "Google Analytics"
+    "Google Ads",
+    "OneSignal",
+    "Google Analytics",
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "gr.skai.skai_android",
+      "ptr_domain": "ec2-35-156-222-240.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.156.222.240",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "gr.skai.skai_android",
+      "ptr_domain": "ec2-35-157-37-23.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.157.37.23",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    }
   ]
 }

@@ -1,17 +1,62 @@
 {
   "appName": "Andrognito",
   "packageName": "com.codexapps.andrognito",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
-  "permissions": [],
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INSTALL_PACKAGES",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.codexapps.andrognito.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.c2dm.permission.SEND",
+    "com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION",
+    "com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE"
+  ],
   "version": "3.10.0",
   "trackers": [
-    "Facebook Login",
-    "CleverTap",
     "Google Ads",
-    "Google CrashLytics",
     "Facebook Share",
+    "Facebook Login",
     "Facebook Places",
-    "Google Firebase Analytics"
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "CleverTap"
+  ],
+  "network_connections": [
+    {
+      "package": "com.codexapps.andrognito",
+      "ptr_domain": "226.130.154.104.bc.googleusercontent.com",
+      "ip_address": "104.154.130.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.codexapps.andrognito",
+      "ptr_domain": "13.250.197.104.bc.googleusercontent.com",
+      "ip_address": "104.197.250.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.codexapps.andrognito",
+      "ptr_domain": "ec2-52-72-67-24.compute-1.amazonaws.com",
+      "ip_address": "52.72.67.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "iimjobs",
   "packageName": "com.org.iimjobs",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,12 +25,24 @@
   ],
   "version": "3.0.6",
   "trackers": [
-    "Google CrashLytics",
-    "Google Ads",
-    "Google DoubleClick",
     "Google Firebase Analytics",
     "Apteligent by VMWare (formerly Crittercism)",
-    "Google Analytics",
-    "MixPanel"
+    "Google Ads",
+    "Google CrashLytics",
+    "MixPanel",
+    "Google DoubleClick",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.org.iimjobs",
+      "ptr_domain": "ec2-54-241-252-12.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.241.252.12",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    }
   ]
 }

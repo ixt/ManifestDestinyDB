@@ -1,7 +1,7 @@
 {
   "appName": "Goodbox",
   "packageName": "in.goodbox",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -28,10 +28,22 @@
   ],
   "version": "1.10.292.1",
   "trackers": [
-    "Google Firebase Analytics",
-    "Branch",
     "Google Analytics",
+    "Branch",
     "CleverTap",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "in.goodbox",
+      "ptr_domain": "72.36.211.130.bc.googleusercontent.com",
+      "ip_address": "130.211.36.72",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    }
   ]
 }

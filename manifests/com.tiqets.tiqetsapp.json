@@ -1,7 +1,7 @@
 {
   "appName": "Tiqets",
   "packageName": "com.tiqets.tiqetsapp",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -19,13 +19,35 @@
   ],
   "version": "3.7.2-7b2a43a0",
   "trackers": [
-    "Google Firebase Analytics",
     "Facebook Share",
+    "Google CrashLytics",
+    "Amplitude",
     "Google Analytics",
     "LeanPlum",
+    "Google Firebase Analytics",
     "Adjust",
-    "Amplitude",
-    "Facebook Login",
-    "Google CrashLytics"
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.tiqets.tiqetsapp",
+      "ptr_domain": "ec2-23-23-215-5.compute-1.amazonaws.com",
+      "ip_address": "23.23.215.5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.tiqets.tiqetsapp",
+      "ptr_domain": "ec2-54-243-91-163.compute-1.amazonaws.com",
+      "ip_address": "54.243.91.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

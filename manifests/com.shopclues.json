@@ -1,7 +1,7 @@
 {
   "appName": "ShopClues",
   "packageName": "com.shopclues",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -23,17 +23,1669 @@
   ],
   "version": "3.5.70",
   "trackers": [
+    "Omniture",
+    "Google CrashLytics",
+    "Facebook Places",
+    "Google DoubleClick",
     "Google Analytics",
     "Facebook Analytics",
-    "Facebook Share",
     "Google Ads",
-    "Facebook Login",
-    "Omniture",
     "Google Firebase Analytics",
-    "Google DoubleClick",
-    "Facebook Places",
+    "AppsFlyer",
+    "Facebook Share",
     "Demdex",
-    "Google CrashLytics",
-    "AppsFlyer"
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-107-20-135-85.compute-1.amazonaws.com",
+      "ip_address": "107.20.135.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-107-20-139-157.compute-1.amazonaws.com",
+      "ip_address": "107.20.139.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-107-20-205-68.compute-1.amazonaws.com",
+      "ip_address": "107.20.205.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-107-20-220-24.compute-1.amazonaws.com",
+      "ip_address": "107.20.220.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-107-20-243-255.compute-1.amazonaws.com",
+      "ip_address": "107.20.243.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com",
+      "ip_address": "107.22.187.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-107-22-226-203.compute-1.amazonaws.com",
+      "ip_address": "107.22.226.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "sin10s06-in-f4.1e100.net",
+      "ip_address": "172.217.24.68",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom05s09-in-f2.1e100.net",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-174-129-0-175.compute-1.amazonaws.com",
+      "ip_address": "174.129.0.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-174-129-29-44.compute-1.amazonaws.com",
+      "ip_address": "174.129.29.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-174-129-32-125.compute-1.amazonaws.com",
+      "ip_address": "174.129.32.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-174-129-9-155.compute-1.amazonaws.com",
+      "ip_address": "174.129.9.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "180.179.168.169",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "180.179.168.174",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "180.179.175.207",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "a184-50-110-84.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.50.110.84",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-184-73-195-3.compute-1.amazonaws.com",
+      "ip_address": "184.73.195.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "phonebook5.truecaller.com",
+      "ip_address": "192.121.90.155",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.237.125",
+      "loc_city": "Anaheim",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-117.969200",
+      "loc_lat": "33.816000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s01-in-f2.1e100.net",
+      "ip_address": "216.58.199.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom05s08-in-f162.1e100.net",
+      "ip_address": "216.58.199.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom05s10-in-f2.1e100.net",
+      "ip_address": "216.58.203.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s11-in-f1.1e100.net",
+      "ip_address": "216.58.203.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s11-in-f2.1e100.net",
+      "ip_address": "216.58.203.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s12-in-f2.1e100.net",
+      "ip_address": "216.58.203.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s12-in-f14.1e100.net",
+      "ip_address": "216.58.203.206",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom05s05-in-f10.1e100.net",
+      "ip_address": "216.58.220.10",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s10-in-f2.1e100.net",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom05s05-in-f2.1e100.net",
+      "ip_address": "216.58.220.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-21-225-144.compute-1.amazonaws.com",
+      "ip_address": "23.21.225.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-21-59-163.compute-1.amazonaws.com",
+      "ip_address": "23.21.59.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-21-64-252.compute-1.amazonaws.com",
+      "ip_address": "23.21.64.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-21-72-212.compute-1.amazonaws.com",
+      "ip_address": "23.21.72.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-23-107-83.compute-1.amazonaws.com",
+      "ip_address": "23.23.107.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-23-110-16.compute-1.amazonaws.com",
+      "ip_address": "23.23.110.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-23-126-54.compute-1.amazonaws.com",
+      "ip_address": "23.23.126.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-23-162-140.compute-1.amazonaws.com",
+      "ip_address": "23.23.162.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-23-171-128.compute-1.amazonaws.com",
+      "ip_address": "23.23.171.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-23-23-227-102.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s11-in-x01.1e100.net",
+      "ip_address": "2404:6800:4009:803::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom05s05-in-x0a.1e100.net",
+      "ip_address": "2404:6800:4009:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom05s09-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s01-in-x01.1e100.net",
+      "ip_address": "2404:6800:4009:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s01-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom05s08-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:807::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s12-in-x03.1e100.net",
+      "ip_address": "2404:6800:4009:808::2003",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "bom07s12-in-x0e.1e100.net",
+      "ip_address": "2404:6800:4009:808::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1602:2885:face:b00c:0:a7",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:0:1d:c532:3180:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:4800:1d:c532:3180:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "edge-star6-shv-01-bom1.facebook.com",
+      "ip_address": "2a03:2880:f02f:f:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-34-192-160-146.compute-1.amazonaws.com",
+      "ip_address": "34.192.160.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-34-249-168-100.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.168.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-34-250-213-120.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.213.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-34-250-57-123.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.57.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-34-251-174-73.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.174.73",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-34-252-48-208.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.48.208",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-34-253-63-180.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.253.63.180",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-35-161-233-118.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.161.233.118",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "43.255.154.51",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.104.189",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.98.56",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-50-17-202-98.compute-1.amazonaws.com",
+      "ip_address": "50.17.202.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-50-19-107-92.compute-1.amazonaws.com",
+      "ip_address": "50.19.107.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-50-19-228-192.compute-1.amazonaws.com",
+      "ip_address": "50.19.228.192",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-50-19-248-32.compute-1.amazonaws.com",
+      "ip_address": "50.19.248.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-17-58-168.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.58.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-17-66-63.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.66.63",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-17-74-6.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.74.6",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-18-135-214.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.135.214",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-18-229-127.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.229.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-19-144-252.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.144.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-19-42-226.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.42.226",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-19-57-74.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.57.74",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-19-67-20.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.67.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-19-90-70.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.90.70",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-208-152-16.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.152.16",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-208-220-116.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.220.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-209-0-166.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.0.166",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-209-222-169.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.222.169",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-210-237-132.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.237.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-211-14-23.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.14.23",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-211-203-116.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.203.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-211-47-180.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.47.180",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-211-88-83.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.88.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-212-117-55.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.117.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-212-168-155.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.168.155",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-212-7-239.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.7.239",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-213-114-35.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.114.35",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-213-123-151.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.123.151",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-213-16-110.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.16.110",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-214-120-178.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.120.178",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-214-124-7.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.124.7",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-214-228-144.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.228.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-214-3-201.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.3.201",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "server-52-222-135-110.bom51.r.cloudfront.net",
+      "ip_address": "52.222.135.110",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "server-52-222-135-28.bom51.r.cloudfront.net",
+      "ip_address": "52.222.135.28",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "server-52-222-135-59.bom51.r.cloudfront.net",
+      "ip_address": "52.222.135.59",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "server-52-222-135-94.bom51.r.cloudfront.net",
+      "ip_address": "52.222.135.94",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "server-52-222-183-252.bom52.r.cloudfront.net",
+      "ip_address": "52.222.183.252",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "server-52-222-183-80.bom52.r.cloudfront.net",
+      "ip_address": "52.222.183.80",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-30-76-66.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.76.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-30-79-195.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.79.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-30-94-36.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.94.36",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-31-42-100.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.42.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-34-36-188.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.34.36.188",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-35-158-138.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.158.138",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-48-221-73.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.221.73",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-49-204-95.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.204.95",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-49-39-238.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.39.238",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-50-30-64.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.50.30.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-55-234-52.compute-1.amazonaws.com",
+      "ip_address": "52.55.234.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-71-206-168.compute-1.amazonaws.com",
+      "ip_address": "52.71.206.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-52-88-85-177.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.88.85.177",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-154-111-221.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.111.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-154-228-144.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.228.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-154-73-253.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.73.253",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-171-21-157.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.21.157",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-171-26-243.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.26.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-171-42-50.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.42.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-173-75-206.compute-1.amazonaws.com",
+      "ip_address": "54.173.75.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-194-129-160.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.129.160",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-194-33-163.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.33.163",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-197-251-56.compute-1.amazonaws.com",
+      "ip_address": "54.197.251.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-221-199-46.compute-1.amazonaws.com",
+      "ip_address": "54.221.199.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-221-244-3.compute-1.amazonaws.com",
+      "ip_address": "54.221.244.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-225-128-109.compute-1.amazonaws.com",
+      "ip_address": "54.225.128.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-225-158-189.compute-1.amazonaws.com",
+      "ip_address": "54.225.158.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-225-165-43.compute-1.amazonaws.com",
+      "ip_address": "54.225.165.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-225-170-49.compute-1.amazonaws.com",
+      "ip_address": "54.225.170.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-225-183-252.compute-1.amazonaws.com",
+      "ip_address": "54.225.183.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-225-204-178.compute-1.amazonaws.com",
+      "ip_address": "54.225.204.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-229-235-132.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.235.132",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-229-42-121.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.42.121",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-229-91-86.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.91.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-235-145-74.compute-1.amazonaws.com",
+      "ip_address": "54.235.145.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-235-217-30.compute-1.amazonaws.com",
+      "ip_address": "54.235.217.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-243-120-177.compute-1.amazonaws.com",
+      "ip_address": "54.243.120.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-243-147-93.compute-1.amazonaws.com",
+      "ip_address": "54.243.147.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-243-156-240.compute-1.amazonaws.com",
+      "ip_address": "54.243.156.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-243-185-11.compute-1.amazonaws.com",
+      "ip_address": "54.243.185.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com",
+      "ip_address": "54.243.212.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-243-58-1.compute-1.amazonaws.com",
+      "ip_address": "54.243.58.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-243-99-96.compute-1.amazonaws.com",
+      "ip_address": "54.243.99.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-246-139-143.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.139.143",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-69-230-92.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.69.230.92",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-70-41-198.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.70.41.198",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-72-11-202.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.11.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-72-193-194.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.193.194",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-72-226-65.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.226.65",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-77-129-38.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.129.38",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-77-26-179.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.26.179",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-77-29-117.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.29.117",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-77-40-156.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.40.156",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-77-74-254.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.74.254",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-77-92-106.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.92.106",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "ec2-54-83-50-23.compute-1.amazonaws.com",
+      "ip_address": "54.83.50.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "63.140.45.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.shopclues",
+      "ptr_domain": "N/A",
+      "ip_address": "82.199.68.73",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    }
   ]
 }

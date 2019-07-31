@@ -1,7 +1,7 @@
 {
   "appName": "Mi Drop",
   "packageName": "com.xiaomi.midrop",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -46,7 +46,19 @@
   "trackers": [
     "Google Firebase Analytics",
     "Google CrashLytics",
-    "Facebook Share",
-    "Facebook Login"
+    "Facebook Login",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.xiaomi.midrop",
+      "ptr_domain": "ec2-54-254-196-90.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.254.196.90",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    }
   ]
 }

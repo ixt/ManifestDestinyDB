@@ -1,7 +1,7 @@
 {
   "appName": "Rapid City Journal",
   "packageName": "com.rapidcityjournal.news",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -13,10 +13,42 @@
   ],
   "version": "5.4",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Ads",
-    "Google CrashLytics",
+    "Google DoubleClick",
     "Google Analytics",
-    "Google DoubleClick"
+    "Google CrashLytics",
+    "Google Ads",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.rapidcityjournal.news",
+      "ptr_domain": "a23-79-195-225.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.79.195.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rapidcityjournal.news",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.109.85",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rapidcityjournal.news",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.109.87",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

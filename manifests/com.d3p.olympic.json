@@ -1,7 +1,7 @@
 {
   "appName": "Magic: PQ",
   "packageName": "com.d3p.olympic",
-  "category": "GAME_ROLE_PLAYING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -19,13 +19,45 @@
   ],
   "version": "3.3.1",
   "trackers": [
-    "AppsFlyer",
-    "HelpShift",
-    "Facebook Analytics",
-    "Google CrashLytics",
     "Facebook Share",
     "MixPanel",
+    "HelpShift",
     "Facebook Login",
+    "AppsFlyer",
+    "Facebook Analytics",
+    "Google CrashLytics",
     "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.d3p.olympic",
+      "ptr_domain": "ec2-34-199-106-10.compute-1.amazonaws.com",
+      "ip_address": "34.199.106.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.d3p.olympic",
+      "ptr_domain": "server-52-84-21-36.sea32.r.cloudfront.net",
+      "ip_address": "52.84.21.36",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.d3p.olympic",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.50.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

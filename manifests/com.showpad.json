@@ -1,7 +1,7 @@
 {
   "appName": "Showpad",
   "packageName": "com.showpad",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -28,8 +28,40 @@
   ],
   "version": "3.0.2",
   "trackers": [
-    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Segment",
-    "Google CrashLytics"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.showpad",
+      "ptr_domain": "115.102.93.188.static.as30961.net",
+      "ip_address": "188.93.102.115",
+      "loc_city": "N/A",
+      "loc_country": "Belgium",
+      "loc_continent": "Europe",
+      "loc_long": "4.350000",
+      "loc_lat": "50.850000"
+    },
+    {
+      "package": "com.showpad",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.showpad",
+      "ptr_domain": "ec2-52-27-215-54.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.215.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

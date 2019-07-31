@@ -1,7 +1,7 @@
 {
   "appName": "LBC",
   "packageName": "com.thisisglobal.player.lbc",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,15 +22,28 @@
   ],
   "version": "20.0.1",
   "trackers": [
-    "Facebook Login",
-    "Google DoubleClick",
-    "Facebook Share",
-    "AdsWizz",
-    "Gigya",
-    "Google Ads",
-    "Google Firebase Analytics",
     "Facebook Analytics",
+    "Facebook Places",
+    "Facebook Login",
+    "Ooyala",
+    "Google Firebase Analytics",
     "Google CrashLytics",
-    "Facebook Places"
+    "AdsWizz",
+    "Facebook Share",
+    "Google Ads",
+    "Google DoubleClick",
+    "Gigya"
+  ],
+  "network_connections": [
+    {
+      "package": "com.thisisglobal.player.lbc",
+      "ptr_domain": "ec2-52-30-9-119.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.9.119",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

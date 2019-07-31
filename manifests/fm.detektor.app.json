@@ -1,0 +1,350 @@
+{
+  "appName": "detektor.fm",
+  "packageName": "fm.detektor.app",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.MEDIA_CONTENT_CONTROL",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "fm.detektor.app.permission.C2D_MESSAGE",
+    "fm.detektor.app.permission.UA_DATA"
+  ],
+  "version": "2.2",
+  "trackers": [
+    "Urbanairship",
+    "Google Analytics",
+    "HockeyApp"
+  ],
+  "network_connections": [
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "N/A",
+      "ip_address": "109.239.62.96",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "7.012200",
+      "loc_lat": "51.447600"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-34-192-33-47.compute-1.amazonaws.com",
+      "ip_address": "34.192.33.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-34-194-109-44.compute-1.amazonaws.com",
+      "ip_address": "34.194.109.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-34-194-219-73.compute-1.amazonaws.com",
+      "ip_address": "34.194.219.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-34-198-83-153.compute-1.amazonaws.com",
+      "ip_address": "34.198.83.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-34-199-205-112.compute-1.amazonaws.com",
+      "ip_address": "34.199.205.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-34-199-240-19.compute-1.amazonaws.com",
+      "ip_address": "34.199.240.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-34-199-31-222.compute-1.amazonaws.com",
+      "ip_address": "34.199.31.222",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-34-199-60-64.compute-1.amazonaws.com",
+      "ip_address": "34.199.60.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-20-143-53.compute-1.amazonaws.com",
+      "ip_address": "52.20.143.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-203-233-46.compute-1.amazonaws.com",
+      "ip_address": "52.203.233.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-206-240-8.compute-1.amazonaws.com",
+      "ip_address": "52.206.240.8",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-2-241-185.compute-1.amazonaws.com",
+      "ip_address": "52.2.241.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-22-79-76.compute-1.amazonaws.com",
+      "ip_address": "52.22.79.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-4-118-110.compute-1.amazonaws.com",
+      "ip_address": "52.4.118.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-4-130-242.compute-1.amazonaws.com",
+      "ip_address": "52.4.130.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-45-49-88.compute-1.amazonaws.com",
+      "ip_address": "52.45.49.88",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-4-97-203.compute-1.amazonaws.com",
+      "ip_address": "52.4.97.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-6-146-119.compute-1.amazonaws.com",
+      "ip_address": "52.6.146.119",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-6-90-80.compute-1.amazonaws.com",
+      "ip_address": "52.6.90.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-71-148-140.compute-1.amazonaws.com",
+      "ip_address": "52.71.148.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-72-113-210.compute-1.amazonaws.com",
+      "ip_address": "52.72.113.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-73-71-78.compute-1.amazonaws.com",
+      "ip_address": "52.73.71.78",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-52-7-56-31.compute-1.amazonaws.com",
+      "ip_address": "52.7.56.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-54-165-171-4.compute-1.amazonaws.com",
+      "ip_address": "54.165.171.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-54-175-62-130.compute-1.amazonaws.com",
+      "ip_address": "54.175.62.130",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-54-208-220-185.compute-1.amazonaws.com",
+      "ip_address": "54.208.220.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-54-208-24-157.compute-1.amazonaws.com",
+      "ip_address": "54.208.24.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-54-236-105-115.compute-1.amazonaws.com",
+      "ip_address": "54.236.105.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-54-84-121-83.compute-1.amazonaws.com",
+      "ip_address": "54.84.121.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "ec2-54-88-173-80.compute-1.amazonaws.com",
+      "ip_address": "54.88.173.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fm.detektor.app",
+      "ptr_domain": "apps2.konsole-labs.com",
+      "ip_address": "5.9.170.178",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
+  ]
+}

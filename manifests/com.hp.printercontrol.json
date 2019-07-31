@@ -1,7 +1,7 @@
 {
   "appName": "HP Smart",
   "packageName": "com.hp.printercontrol",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,12 +25,24 @@
   "version": "6.2.160",
   "trackers": [
     "Facebook Analytics",
-    "Facebook Places",
     "Urbanairship",
-    "Facebook Share",
     "Google CrashLytics",
-    "Google Analytics",
+    "Facebook Share",
+    "Facebook Login",
     "Google Firebase Analytics",
-    "Facebook Login"
+    "Google Analytics",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.hp.printercontrol",
+      "ptr_domain": "ec2-52-89-91-176.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.89.91.176",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

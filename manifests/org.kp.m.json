@@ -1,7 +1,7 @@
 {
   "appName": "KP",
   "packageName": "org.kp.m",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -32,11 +32,23 @@
   ],
   "version": "4.24.1",
   "trackers": [
-    "Countly",
-    "Google CrashLytics",
-    "Webtrends",
     "Demdex",
-    "Google Firebase Analytics",
-    "Google Analytics"
+    "Webtrends",
+    "Countly",
+    "Google Analytics",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "org.kp.m",
+      "ptr_domain": "dc.webtrends.com",
+      "ip_address": "208.92.236.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

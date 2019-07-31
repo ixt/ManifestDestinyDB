@@ -1,7 +1,7 @@
 {
   "appName": "Zoiper",
   "packageName": "com.zoiper.android.app",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -36,7 +36,19 @@
   ],
   "version": "2.7.12",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Analytics"
+    "Google Analytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.zoiper.android.app",
+      "ptr_domain": "oem.zoiper.com",
+      "ip_address": "185.117.83.35",
+      "loc_city": "N/A",
+      "loc_country": "Bulgaria",
+      "loc_continent": "Europe",
+      "loc_long": "23.333300",
+      "loc_lat": "42.700000"
+    }
   ]
 }

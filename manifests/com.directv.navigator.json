@@ -1,7 +1,7 @@
 {
   "appName": "DIREC​TV",
   "packageName": "com.directv.navigator",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,17 +25,29 @@
   ],
   "version": "5.14.002",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Analytics",
-    "Google Ads",
+    "Apptentive",
+    "Facebook Login",
     "Apteligent by VMWare (formerly Crittercism)",
+    "Google Analytics",
     "ComScore",
     "Facebook Share",
-    "Conviva",
-    "Apptentive",
+    "Tune",
     "Google DoubleClick",
+    "Google Ads",
+    "Google Firebase Analytics",
     "LeanPlum",
-    "Facebook Login",
-    "Tune"
+    "Conviva"
+  ],
+  "network_connections": [
+    {
+      "package": "com.directv.navigator",
+      "ptr_domain": "ec2-52-45-84-217.compute-1.amazonaws.com",
+      "ip_address": "52.45.84.217",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Amazfit Watch",
   "packageName": "com.huami.watch.hmwatchmanager",
-  "category": "SPORTS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -37,9 +37,41 @@
   "version": "2.6.13-play",
   "trackers": [
     "Facebook Analytics",
-    "Facebook Share",
+    "Google Firebase Analytics",
     "Facebook Login",
     "Google CrashLytics",
-    "Google Firebase Analytics"
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.huami.watch.hmwatchmanager",
+      "ptr_domain": "N/A",
+      "ip_address": "198.11.190.4",
+      "loc_city": "San Mateo",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330000",
+      "loc_lat": "37.551700"
+    },
+    {
+      "package": "com.huami.watch.hmwatchmanager",
+      "ptr_domain": "N/A",
+      "ip_address": "205.204.101.237",
+      "loc_city": "San Mateo",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330000",
+      "loc_lat": "37.551700"
+    },
+    {
+      "package": "com.huami.watch.hmwatchmanager",
+      "ptr_domain": "ec2-52-42-109-181.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.42.109.181",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

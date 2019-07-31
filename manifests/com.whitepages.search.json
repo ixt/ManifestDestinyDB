@@ -1,7 +1,7 @@
 {
   "appName": "Whitepages",
   "packageName": "com.whitepages.search",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,14 +24,36 @@
   ],
   "version": "3.3.21",
   "trackers": [
-    "Facebook Share",
-    "Facebook Analytics",
     "LeanPlum",
-    "Facebook Places",
     "Google Firebase Analytics",
+    "Facebook Share",
+    "Amplitude",
+    "Facebook Analytics",
     "Facebook Login",
-    "Mapbox",
     "Google CrashLytics",
-    "Amplitude"
+    "Mapbox",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.whitepages.search",
+      "ptr_domain": "lax17s04-in-x0f.1e100.net",
+      "ip_address": "2607:f8b0:4007:807::200f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.whitepages.search",
+      "ptr_domain": "lax02s23-in-x0f.1e100.net",
+      "ip_address": "2607:f8b0:4007:80b::200f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Endomondo",
   "packageName": "com.endomondo.android",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -34,14 +34,726 @@
   ],
   "version": "19.3.5",
   "trackers": [
-    "Google DoubleClick",
-    "Facebook Places",
-    "Facebook Login",
-    "Facebook Analytics",
     "Google Ads",
-    "Twitter MoPub",
-    "Rubicon Project",
+    "Facebook Places",
+    "Facebook Analytics",
     "Google CrashLytics",
+    "Facebook Login",
+    "Rubicon Project",
+    "Google DoubleClick",
+    "Twitter MoPub",
     "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-107-20-233-56.compute-1.amazonaws.com",
+      "ip_address": "107.20.233.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-107-22-221-125.compute-1.amazonaws.com",
+      "ip_address": "107.22.221.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "lga15s43-in-f14.1e100.net",
+      "ip_address": "172.217.0.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams15s30-in-f3.1e100.net",
+      "ip_address": "172.217.17.131",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams16s29-in-f34.1e100.net",
+      "ip_address": "172.217.17.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams16s30-in-f66.1e100.net",
+      "ip_address": "172.217.17.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams15s29-in-f2.1e100.net",
+      "ip_address": "172.217.17.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams16s31-in-f2.1e100.net",
+      "ip_address": "172.217.19.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "fra02s28-in-f14.1e100.net",
+      "ip_address": "172.217.20.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "waw02s08-in-f206.1e100.net",
+      "ip_address": "172.217.20.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams17s01-in-f2.1e100.net",
+      "ip_address": "172.217.20.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "fra15s18-in-f2.1e100.net",
+      "ip_address": "172.217.22.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.219.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "207.126.106.210.IPYX-075612-ZYO.zip.zayo.com",
+      "ip_address": "207.126.106.210",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams15s32-in-f14.1e100.net",
+      "ip_address": "216.58.211.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams15s32-in-f2.1e100.net",
+      "ip_address": "216.58.211.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams15s32-in-f3.1e100.net",
+      "ip_address": "216.58.211.99",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams15s21-in-f3.1e100.net",
+      "ip_address": "216.58.212.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ams15s22-in-f163.1e100.net",
+      "ip_address": "216.58.212.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ham04s01-in-f226.1e100.net",
+      "ip_address": "216.58.213.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "mad01s26-in-f5.1e100.net",
+      "ip_address": "216.58.214.165",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "del01s08-in-f194.1e100.net",
+      "ip_address": "216.58.220.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "del01s08-in-f206.1e100.net",
+      "ip_address": "216.58.220.206",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com",
+      "ip_address": "23.21.143.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-23-21-62-180.compute-1.amazonaws.com",
+      "ip_address": "23.21.62.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-23-21-83-21.compute-1.amazonaws.com",
+      "ip_address": "23.21.83.21",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-23-23-175-199.compute-1.amazonaws.com",
+      "ip_address": "23.23.175.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "edge-star6-shv-01-otp1.facebook.com",
+      "ip_address": "2a03:2880:f023:12:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "edge-star-shv-01-lax3.facebook.com",
+      "ip_address": "31.13.70.1",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "edge-star-shv-01-waw1.facebook.com",
+      "ip_address": "31.13.81.9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-34-248-72-141.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.248.72.141",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-34-253-37-212.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.253.37.212",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-50-112-125-59.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.125.59",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-50-112-244-156.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.244.156",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-50-112-253-76.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.253.76",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-50-16-226-96.compute-1.amazonaws.com",
+      "ip_address": "50.16.226.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-50-19-122-55.compute-1.amazonaws.com",
+      "ip_address": "50.19.122.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-52-19-224-116.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.224.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-52-211-56-244.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.56.244",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-52-212-35-239.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.35.239",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-52-48-28-40.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.28.40",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "server-52-84-105-169.del51.r.cloudfront.net",
+      "ip_address": "52.84.105.169",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-203-247-189.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.203.247.189",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-203-254-139.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.203.254.139",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-214-238-58.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.238.58",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-214-41-98.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.214.41.98",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-225-140-101.compute-1.amazonaws.com",
+      "ip_address": "54.225.140.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-225-85-223.compute-1.amazonaws.com",
+      "ip_address": "54.225.85.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-225-85-24.compute-1.amazonaws.com",
+      "ip_address": "54.225.85.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-229-175-102.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.175.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-243-111-144.compute-1.amazonaws.com",
+      "ip_address": "54.243.111.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-243-156-240.compute-1.amazonaws.com",
+      "ip_address": "54.243.156.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-243-252-170.compute-1.amazonaws.com",
+      "ip_address": "54.243.252.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-244-228-9.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.228.9",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-244-232-29.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.232.29",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-244-234-141.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.234.141",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-244-242-240.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.242.240",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-244-91-34.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.91.34",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-245-104-174.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.104.174",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-245-224-96.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.224.96",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-245-253-196.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.245.253.196",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.endomondo.android",
+      "ptr_domain": "ec2-54-77-127-2.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.127.2",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

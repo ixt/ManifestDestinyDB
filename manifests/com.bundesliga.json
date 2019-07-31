@@ -1,7 +1,7 @@
 {
   "appName": "Bundesliga",
   "packageName": "com.bundesliga",
-  "category": "SPORTS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -14,9 +14,41 @@
   ],
   "version": "3.1.5-production",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Ads",
     "Google DoubleClick",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.bundesliga",
+      "ptr_domain": "tunnel341225-pt.tunnel.tserv6.fra1.ipv6.he.net",
+      "ip_address": "2001:470:1f0a:1107::2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bundesliga",
+      "ptr_domain": "ec2-50-16-240-171.compute-1.amazonaws.com",
+      "ip_address": "50.16.240.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bundesliga",
+      "ptr_domain": "ec2-54-243-58-93.compute-1.amazonaws.com",
+      "ip_address": "54.243.58.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "HubSpot",
   "packageName": "com.hubspot.android",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -26,10 +26,42 @@
   "trackers": [
     "Facebook Places",
     "Google CrashLytics",
-    "Facebook Login",
-    "Google Firebase Analytics",
     "Facebook Share",
+    "Google Firebase Analytics",
     "New Relic",
-    "Facebook Analytics"
+    "Facebook Analytics",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.hubspot.android",
+      "ptr_domain": "ec2-174-129-35-151.compute-1.amazonaws.com",
+      "ip_address": "174.129.35.151",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.hubspot.android",
+      "ptr_domain": "ec2-54-225-233-150.compute-1.amazonaws.com",
+      "ip_address": "54.225.233.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.hubspot.android",
+      "ptr_domain": "ec2-54-243-114-139.compute-1.amazonaws.com",
+      "ip_address": "54.243.114.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

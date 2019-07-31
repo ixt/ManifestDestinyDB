@@ -1,7 +1,7 @@
 {
   "appName": "AB Blast!",
   "packageName": "com.rovio.blast",
-  "category": "GAME_PUZZLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -16,20 +16,532 @@
   ],
   "version": "1.7.8",
   "trackers": [
-    "Facebook Ads",
-    "Google Firebase Analytics",
-    "Moat",
+    "Inmobi",
+    "Facebook Places",
     "Flurry",
-    "Facebook Login",
+    "Facebook Share",
+    "Google DoubleClick",
+    "Facebook Ads",
     "Google Ads",
     "AdColony",
-    "Vungle",
-    "Google DoubleClick",
+    "Google Firebase Analytics",
     "Unity3d Ads",
-    "Facebook Share",
     "Google CrashLytics",
-    "Inmobi",
+    "Facebook Login",
     "Facebook Analytics",
-    "Facebook Places"
+    "Moat",
+    "Vungle"
+  ],
+  "network_connections": [
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "a104-82-102-89.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.82.102.89",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "109.144.6.224",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "146.20.129.3",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "edge-star-shv-01-lht6.facebook.com",
+      "ip_address": "157.240.1.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.178",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.180",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.58",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.60",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "a198-189-255-200.deploy.akamaitechnologies.com",
+      "ip_address": "198.189.255.200",
+      "loc_city": "Long Beach",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.177400",
+      "loc_lat": "33.763000"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "host213-123-242-18.in-addr.btopenworld.com",
+      "ip_address": "213.123.242.18",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-23-21-150-201.compute-1.amazonaws.com",
+      "ip_address": "23.21.150.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-23-23-72-114.compute-1.amazonaws.com",
+      "ip_address": "23.23.72.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "a23-32-22-90.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.32.22.90",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "a23-43-24-242.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.43.24.242",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "a23-47-170-55.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.47.170.55",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "a23-51-222-215.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.51.222.215",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-34-202-144-239.compute-1.amazonaws.com",
+      "ip_address": "34.202.144.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-34-202-204-24.compute-1.amazonaws.com",
+      "ip_address": "34.202.204.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-34-203-103-168.compute-1.amazonaws.com",
+      "ip_address": "34.203.103.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-34-204-136-102.compute-1.amazonaws.com",
+      "ip_address": "34.204.136.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-50-16-213-202.compute-1.amazonaws.com",
+      "ip_address": "50.16.213.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-50-16-213-250.compute-1.amazonaws.com",
+      "ip_address": "50.16.213.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-52-0-55-122.compute-1.amazonaws.com",
+      "ip_address": "52.0.55.122",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-52-201-33-231.compute-1.amazonaws.com",
+      "ip_address": "52.201.33.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-52-54-187-68.compute-1.amazonaws.com",
+      "ip_address": "52.54.187.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-52-72-174-23.compute-1.amazonaws.com",
+      "ip_address": "52.72.174.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-52-72-247-241.compute-1.amazonaws.com",
+      "ip_address": "52.72.247.241",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-52-86-56-146.compute-1.amazonaws.com",
+      "ip_address": "52.86.56.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-52-87-167-98.compute-1.amazonaws.com",
+      "ip_address": "52.87.167.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-52-91-117-194.compute-1.amazonaws.com",
+      "ip_address": "52.91.117.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-146-38-96.compute-1.amazonaws.com",
+      "ip_address": "54.146.38.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-159-202-197.compute-1.amazonaws.com",
+      "ip_address": "54.159.202.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-161-203-183.compute-1.amazonaws.com",
+      "ip_address": "54.161.203.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-175-251-224.compute-1.amazonaws.com",
+      "ip_address": "54.175.251.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-210-56-175.compute-1.amazonaws.com",
+      "ip_address": "54.210.56.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-225-128-109.compute-1.amazonaws.com",
+      "ip_address": "54.225.128.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-235-151-110.compute-1.amazonaws.com",
+      "ip_address": "54.235.151.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-235-75-243.compute-1.amazonaws.com",
+      "ip_address": "54.235.75.243",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-242-169-225.compute-1.amazonaws.com",
+      "ip_address": "54.242.169.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-243-212-128.compute-1.amazonaws.com",
+      "ip_address": "54.243.212.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-85-164-2.compute-1.amazonaws.com",
+      "ip_address": "54.85.164.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "ec2-54-89-64-115.compute-1.amazonaws.com",
+      "ip_address": "54.89.64.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "UNKNOWN-68-142-242-X.yahoo.com",
+      "ip_address": "68.142.242.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.rovio.blast",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

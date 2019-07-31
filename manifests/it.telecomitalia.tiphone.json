@@ -1,7 +1,7 @@
 {
   "appName": "TIM Telefono",
   "packageName": "it.telecomitalia.tiphone",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -37,7 +37,29 @@
   ],
   "version": "19.02",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "it.telecomitalia.tiphone",
+      "ptr_domain": "N/A",
+      "ip_address": "156.54.69.97",
+      "loc_city": "N/A",
+      "loc_country": "Italy",
+      "loc_continent": "Europe",
+      "loc_long": "12.109700",
+      "loc_lat": "43.147900"
+    },
+    {
+      "package": "it.telecomitalia.tiphone",
+      "ptr_domain": "tim.it.ssl.d2.sc.omtrdc.net",
+      "ip_address": "63.140.41.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

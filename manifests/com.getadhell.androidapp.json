@@ -1,7 +1,7 @@
 {
   "appName": "Adhell",
   "packageName": "com.getadhell.androidapp",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -19,7 +19,29 @@
   ],
   "version": "2.0.2",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.getadhell.androidapp",
+      "ptr_domain": "ec2-50-19-97-211.compute-1.amazonaws.com",
+      "ip_address": "50.19.97.211",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.getadhell.androidapp",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

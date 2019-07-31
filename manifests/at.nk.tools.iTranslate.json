@@ -1,30 +1,92 @@
 {
   "appName": "iTranslate",
   "packageName": "at.nk.tools.iTranslate",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
     "android.permission.FOREGROUND_SERVICE",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.RECORD_AUDIO",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.CAMERA"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
   ],
   "version": "5.2.4",
   "trackers": [
-    "Facebook Places",
-    "Facebook Login",
     "Adjust",
+    "Facebook Share",
     "Facebook Analytics",
     "Google CrashLytics",
-    "Facebook Share",
+    "Facebook Login",
+    "Facebook Places",
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "at.nk.tools.iTranslate",
+      "ptr_domain": "prg02s12-in-f1.1e100.net",
+      "ip_address": "172.217.16.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "at.nk.tools.iTranslate",
+      "ptr_domain": "bud02s25-in-f3.1e100.net",
+      "ip_address": "172.217.16.99",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "at.nk.tools.iTranslate",
+      "ptr_domain": "bud02s26-in-f2.1e100.net",
+      "ip_address": "172.217.18.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "at.nk.tools.iTranslate",
+      "ptr_domain": "ec2-174-129-9-155.compute-1.amazonaws.com",
+      "ip_address": "174.129.9.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "at.nk.tools.iTranslate",
+      "ptr_domain": "ec2-23-23-148-99.compute-1.amazonaws.com",
+      "ip_address": "23.23.148.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "at.nk.tools.iTranslate",
+      "ptr_domain": "edge-star-shv-01-vie1.facebook.com",
+      "ip_address": "31.13.84.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    }
   ]
 }

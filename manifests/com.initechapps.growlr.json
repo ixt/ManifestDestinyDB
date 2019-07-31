@@ -1,0 +1,758 @@
+{
+  "appName": "GROWLr",
+  "packageName": "com.initechapps.growlr",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.initechapps.growlr.permission.C2D_MESSAGE"
+  ],
+  "version": "11.0",
+  "trackers": [
+    "Google CrashLytics",
+    "Google Analytics",
+    "Moat",
+    "Facebook Login",
+    "Google Firebase Analytics",
+    "Adjust",
+    "Facebook Analytics",
+    "Twitter MoPub",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.46.39",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "179.9.211.130.bc.googleusercontent.com",
+      "ip_address": "130.211.9.179",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "edge-star-shv-02-gru2.facebook.com",
+      "ip_address": "157.240.12.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord38s04-in-f2.1e100.net",
+      "ip_address": "172.217.0.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord37s07-in-f2.1e100.net",
+      "ip_address": "172.217.1.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord36s04-in-f2.1e100.net",
+      "ip_address": "172.217.4.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord38s01-in-f2.1e100.net",
+      "ip_address": "172.217.6.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord37s03-in-f2.1e100.net",
+      "ip_address": "172.217.6.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord37s08-in-f6.1e100.net",
+      "ip_address": "172.217.8.166",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord37s08-in-f14.1e100.net",
+      "ip_address": "172.217.8.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord37s09-in-f2.1e100.net",
+      "ip_address": "172.217.8.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord37s09-in-f6.1e100.net",
+      "ip_address": "172.217.8.198",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord38s08-in-f2.1e100.net",
+      "ip_address": "172.217.9.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "42.d5.25ae.ip4.static.sl-reverse.com",
+      "ip_address": "174.37.213.66",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "43.d5.25ae.ip4.static.sl-reverse.com",
+      "ip_address": "174.37.213.67",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "89.e7.25ae.ip4.static.sl-reverse.com",
+      "ip_address": "174.37.231.137",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "growlrservice.initechapps.com",
+      "ip_address": "184.106.100.59",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "N/A",
+      "ip_address": "192.44.68.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "N/A",
+      "ip_address": "192.44.68.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "196-124-232-198.static.unitasglobal.net",
+      "ip_address": "198.232.124.196",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "anycast.sc.iasds01.com",
+      "ip_address": "199.166.0.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "4c.ef.2bd0.ip4.static.sl-reverse.com",
+      "ip_address": "208.43.239.76",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "4e.ef.2bd0.ip4.static.sl-reverse.com",
+      "ip_address": "208.43.239.78",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "vip0x013.map2.ssl.hwcdn.net",
+      "ip_address": "209.197.3.19",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord30s25-in-f194.1e100.net",
+      "ip_address": "216.58.192.194",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord30s26-in-f226.1e100.net",
+      "ip_address": "216.58.192.226",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord30s21-in-f2.1e100.net",
+      "ip_address": "216.58.216.66",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ord30s22-in-f2.1e100.net",
+      "ip_address": "216.58.216.98",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "a23-12-36-193.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.12.36.193",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-23-22-181-71.compute-1.amazonaws.com",
+      "ip_address": "23.22.181.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-194-64-27.compute-1.amazonaws.com",
+      "ip_address": "34.194.64.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-198-174-179.compute-1.amazonaws.com",
+      "ip_address": "34.198.174.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-199-159-119.compute-1.amazonaws.com",
+      "ip_address": "34.199.159.119",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-199-224-200.compute-1.amazonaws.com",
+      "ip_address": "34.199.224.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-199-6-77.compute-1.amazonaws.com",
+      "ip_address": "34.199.6.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-199-94-88.compute-1.amazonaws.com",
+      "ip_address": "34.199.94.88",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-202-223-105.compute-1.amazonaws.com",
+      "ip_address": "34.202.223.105",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-206-14-85.compute-1.amazonaws.com",
+      "ip_address": "34.206.14.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-206-204-60.compute-1.amazonaws.com",
+      "ip_address": "34.206.204.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-34-207-46-250.compute-1.amazonaws.com",
+      "ip_address": "34.207.46.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-52-1-6-81.compute-1.amazonaws.com",
+      "ip_address": "52.1.6.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-52-23-148-133.compute-1.amazonaws.com",
+      "ip_address": "52.23.148.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-52-45-142-132.compute-1.amazonaws.com",
+      "ip_address": "52.45.142.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-52-5-254-107.compute-1.amazonaws.com",
+      "ip_address": "52.5.254.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-52-5-32-169.compute-1.amazonaws.com",
+      "ip_address": "52.5.32.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-52-71-99-142.compute-1.amazonaws.com",
+      "ip_address": "52.71.99.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "server-52-84-57-11.ord51.r.cloudfront.net",
+      "ip_address": "52.84.57.11",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "server-52-84-63-163.ord51.r.cloudfront.net",
+      "ip_address": "52.84.63.163",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "server-52-84-63-25.ord51.r.cloudfront.net",
+      "ip_address": "52.84.63.25",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "server-52-84-63-37.ord51.r.cloudfront.net",
+      "ip_address": "52.84.63.37",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "server-52-85-112-205.ind6.r.cloudfront.net",
+      "ip_address": "52.85.112.205",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "server-52-85-112-219.ind6.r.cloudfront.net",
+      "ip_address": "52.85.112.219",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-54-173-158-125.compute-1.amazonaws.com",
+      "ip_address": "54.173.158.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-54-173-192-55.compute-1.amazonaws.com",
+      "ip_address": "54.173.192.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-54-174-49-228.compute-1.amazonaws.com",
+      "ip_address": "54.174.49.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "server-54-192-89-140.ind6.r.cloudfront.net",
+      "ip_address": "54.192.89.140",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-54-209-13-204.compute-1.amazonaws.com",
+      "ip_address": "54.209.13.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-54-210-21-209.compute-1.amazonaws.com",
+      "ip_address": "54.210.21.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "server-54-230-90-23.ind6.r.cloudfront.net",
+      "ip_address": "54.230.90.23",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "ec2-54-236-94-183.compute-1.amazonaws.com",
+      "ip_address": "54.236.94.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "it-in-f128.1e100.net",
+      "ip_address": "64.233.183.128",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "27-76-208-67.ptr.atlanticmetro.net",
+      "ip_address": "67.208.76.27",
+      "loc_city": "Reston",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.341900",
+      "loc_lat": "38.980700"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.111",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.55",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.91.70",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "N/A",
+      "ip_address": "74.121.140.171",
+      "loc_city": "Zurich",
+      "loc_country": "Switzerland",
+      "loc_continent": "Europe",
+      "loc_long": "8.554600",
+      "loc_lat": "47.366400"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "a96-16-204-14.deploy.static.akamaitechnologies.com",
+      "ip_address": "96.16.204.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "a96-16-205-252.deploy.static.akamaitechnologies.com",
+      "ip_address": "96.16.205.252",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.initechapps.growlr",
+      "ptr_domain": "a96-16-205-41.deploy.static.akamaitechnologies.com",
+      "ip_address": "96.16.205.41",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

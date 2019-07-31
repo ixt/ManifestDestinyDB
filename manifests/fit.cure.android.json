@@ -1,7 +1,7 @@
 {
   "appName": "cure.fit",
   "packageName": "fit.cure.android",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -38,16 +38,48 @@
   ],
   "version": "7.43",
   "trackers": [
-    "Google CrashLytics",
     "Google Ads",
-    "Facebook Share",
-    "Facebook Analytics",
     "Facebook Login",
+    "Branch",
+    "Facebook Analytics",
     "Facebook Places",
     "Google DoubleClick",
+    "Google CrashLytics",
     "CleverTap",
-    "Google Firebase Analytics",
+    "Facebook Share",
     "AppsFlyer",
-    "Branch"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "fit.cure.android",
+      "ptr_domain": "ec2-23-23-122-193.compute-1.amazonaws.com",
+      "ip_address": "23.23.122.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "fit.cure.android",
+      "ptr_domain": "ec2-35-154-127-27.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.127.27",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "fit.cure.android",
+      "ptr_domain": "ec2-52-66-96-255.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.96.255",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    }
   ]
 }

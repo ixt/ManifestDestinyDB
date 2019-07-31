@@ -1,7 +1,7 @@
 {
   "appName": "Upwork",
   "packageName": "com.upwork.android",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -18,11 +18,23 @@
   ],
   "version": "v4.19.6.0",
   "trackers": [
-    "MParticle",
     "Google Firebase Analytics",
+    "Branch",
     "Google CrashLytics",
     "New Relic",
     "Google Analytics",
-    "Branch"
+    "MParticle"
+  ],
+  "network_connections": [
+    {
+      "package": "com.upwork.android",
+      "ptr_domain": "ec2-23-23-169-210.compute-1.amazonaws.com",
+      "ip_address": "23.23.169.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

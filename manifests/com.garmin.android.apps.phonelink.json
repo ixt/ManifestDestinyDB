@@ -1,7 +1,7 @@
 {
   "appName": "Smartphone Link",
   "packageName": "com.garmin.android.apps.phonelink",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -31,12 +31,44 @@
   ],
   "version": "2.9.8",
   "trackers": [
+    "Facebook Share",
+    "Google Analytics",
     "Facebook Analytics",
     "Facebook Places",
-    "Facebook Share",
-    "Facebook Login",
+    "Google CrashLytics",
     "Google Firebase Analytics",
-    "Google Analytics",
-    "Google CrashLytics"
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.garmin.android.apps.phonelink",
+      "ptr_domain": "a104-87-40-192.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.87.40.192",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.garmin.android.apps.phonelink",
+      "ptr_domain": "ec2-107-20-205-68.compute-1.amazonaws.com",
+      "ip_address": "107.20.205.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.garmin.android.apps.phonelink",
+      "ptr_domain": "a23-43-70-215.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.43.70.215",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    }
   ]
 }

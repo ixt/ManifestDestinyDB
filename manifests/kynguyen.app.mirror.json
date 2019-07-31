@@ -1,7 +1,7 @@
 {
   "appName": "Mirror",
   "packageName": "kynguyen.app.mirror",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -16,8 +16,30 @@
   ],
   "version": "2019.01.05",
   "trackers": [
-    "Google Ads",
     "Google CrashLytics",
-    "Google DoubleClick"
+    "Google DoubleClick",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "kynguyen.app.mirror",
+      "ptr_domain": "ec2-23-23-82-49.compute-1.amazonaws.com",
+      "ip_address": "23.23.82.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "kynguyen.app.mirror",
+      "ptr_domain": "ec2-54-225-165-247.compute-1.amazonaws.com",
+      "ip_address": "54.225.165.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

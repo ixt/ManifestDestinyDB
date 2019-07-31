@@ -1,7 +1,7 @@
 {
   "appName": "Capsule",
   "packageName": "com.CheckPoint.SSLVpn",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -41,9 +41,21 @@
   ],
   "version": "7.11.38",
   "trackers": [
+    "Google Tag Manager",
     "Google CrashLytics",
     "Google Firebase Analytics",
-    "Google Analytics",
-    "Google Tag Manager"
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.CheckPoint.SSLVpn",
+      "ptr_domain": "209.87.222.143.us.checkpoint.com",
+      "ip_address": "209.87.222.143",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

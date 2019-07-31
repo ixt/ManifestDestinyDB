@@ -1,7 +1,7 @@
 {
   "appName": "Housing",
   "packageName": "com.locon.housing",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -35,11 +35,23 @@
   ],
   "version": "12.3.7",
   "trackers": [
-    "Facebook Places",
-    "Facebook Share",
-    "Facebook Login",
+    "Google Firebase Analytics",
     "Google Analytics",
     "Facebook Analytics",
-    "Google Firebase Analytics"
+    "Facebook Places",
+    "Facebook Login",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.locon.housing",
+      "ptr_domain": "ec2-52-74-25-114.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.25.114",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    }
   ]
 }

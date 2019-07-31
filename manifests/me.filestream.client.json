@@ -1,7 +1,7 @@
 {
   "appName": "FileStream.Me Client",
   "packageName": "me.filestream.client",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -15,10 +15,22 @@
   ],
   "version": "2.5.0",
   "trackers": [
-    "Google Firebase Analytics",
+    "Facebook Analytics",
     "Facebook Share",
     "Facebook Login",
     "Google Analytics",
-    "Facebook Analytics"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "me.filestream.client",
+      "ptr_domain": "api.filestream.me",
+      "ip_address": "82.198.29.48",
+      "loc_city": "Vilnius",
+      "loc_country": "Republic of Lithuania",
+      "loc_continent": "Europe",
+      "loc_long": "25.322500",
+      "loc_lat": "54.681600"
+    }
   ]
 }

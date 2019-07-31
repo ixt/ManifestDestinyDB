@@ -1,7 +1,7 @@
 {
   "appName": "Rossmann",
   "packageName": "de.rossmann.app.android",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -32,5 +32,27 @@
   "trackers": [
     "Google Firebase Analytics",
     "HockeyApp"
+  ],
+  "network_connections": [
+    {
+      "package": "de.rossmann.app.android",
+      "ptr_domain": "ec2-52-16-107-177.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.107.177",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.rossmann.app.android",
+      "ptr_domain": "N/A",
+      "ip_address": "88.215.221.134",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
   ]
 }

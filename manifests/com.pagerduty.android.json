@@ -1,7 +1,7 @@
 {
   "appName": "PagerDuty",
   "packageName": "com.pagerduty.android",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -20,9 +20,31 @@
   ],
   "version": "5.38",
   "trackers": [
+    "Google Firebase Analytics",
     "Segment",
     "Google CrashLytics",
-    "Google Firebase Analytics",
     "New Relic"
+  ],
+  "network_connections": [
+    {
+      "package": "com.pagerduty.android",
+      "ptr_domain": "ec2-50-112-113-201.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.113.201",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.pagerduty.android",
+      "ptr_domain": "ec2-50-112-113-204.us-west-2.compute.amazonaws.com",
+      "ip_address": "50.112.113.204",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

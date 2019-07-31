@@ -1,7 +1,7 @@
 {
   "appName": "Connected",
   "packageName": "de.bmw.connected",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -35,8 +35,20 @@
   ],
   "version": "6.1.0.5272",
   "trackers": [
-    "Appdynamics",
+    "Google Firebase Analytics",
     "HockeyApp",
-    "Google Firebase Analytics"
+    "Appdynamics"
+  ],
+  "network_connections": [
+    {
+      "package": "de.bmw.connected",
+      "ptr_domain": "a104-94-136-144.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.94.136.144",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

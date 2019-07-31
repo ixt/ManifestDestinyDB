@@ -1,7 +1,7 @@
 {
   "appName": "JioCloud",
   "packageName": "jio.cloud.drive",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -42,13 +42,585 @@
   ],
   "version": "17.10.20",
   "trackers": [
-    "CleverTap",
-    "Facebook Analytics",
-    "Facebook Places",
-    "Google Firebase Analytics",
-    "Flurry",
     "Google CrashLytics",
     "Facebook Share",
+    "Google Firebase Analytics",
+    "Flurry",
+    "Facebook Analytics",
+    "Facebook Places",
+    "CleverTap",
     "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-107-20-139-157.compute-1.amazonaws.com",
+      "ip_address": "107.20.139.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-107-20-220-57.compute-1.amazonaws.com",
+      "ip_address": "107.20.220.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-107-22-160-142.compute-1.amazonaws.com",
+      "ip_address": "107.22.160.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-107-22-216-237.compute-1.amazonaws.com",
+      "ip_address": "107.22.216.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-107-22-238-216.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-174-129-32-125.compute-1.amazonaws.com",
+      "ip_address": "174.129.32.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "bom05s10-in-f14.1e100.net",
+      "ip_address": "216.58.203.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com",
+      "ip_address": "23.21.143.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-23-23-72-201.compute-1.amazonaws.com",
+      "ip_address": "23.23.72.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "edge-star6-shv-01-bom1.facebook.com",
+      "ip_address": "2a03:2880:f02f:f:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-142-61.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.142.61",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-168-73.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.168.73",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-170-34.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.170.34",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-189-124.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.189.124",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-193-49.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.193.49",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-199-54.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.199.54",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-229-202.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.229.202",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-237-239.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.237.239",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-241-146.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.241.146",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-245-15.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.245.15",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-43-214.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.43.214",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-82-146.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.82.146",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-85-241.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.85.241",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-86-205.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.86.205",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-93-4.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.93.4",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-35-154-99-152.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.99.152",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "N/A",
+      "ip_address": "49.40.3.7",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "N/A",
+      "ip_address": "49.40.8.155",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "N/A",
+      "ip_address": "49.40.8.193",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-50-17-189-214.compute-1.amazonaws.com",
+      "ip_address": "50.17.189.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-30-200-205.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.200.205",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-100-114.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.100.114",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-104-145.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.104.145",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-107-150.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.107.150",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-155-16.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.155.16",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-159-131.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.159.131",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-163-222.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.163.222",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-167-48.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.167.48",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-168-248.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.168.248",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-169-215.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.169.215",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-169-82.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.169.82",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-170-36.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.170.36",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-182-105.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.182.105",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-190-16.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.190.16",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-31-88.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.31.88",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-42-123.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.42.123",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-91-184.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.91.184",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-92-187.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.92.187",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-95-186.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.95.186",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-52-66-99-221.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.99.221",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-54-197-251-56.compute-1.amazonaws.com",
+      "ip_address": "54.197.251.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "ec2-54-225-192-183.compute-1.amazonaws.com",
+      "ip_address": "54.225.192.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jio.cloud.drive",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

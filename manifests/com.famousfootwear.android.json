@@ -1,7 +1,7 @@
 {
   "appName": "Famous",
   "packageName": "com.famousfootwear.android",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,9 +23,21 @@
   ],
   "version": "2.8.1",
   "trackers": [
-    "Google Firebase Analytics",
-    "Demdex",
     "Apptentive",
+    "Demdex",
+    "Google Firebase Analytics",
     "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.famousfootwear.android",
+      "ptr_domain": "a23-52-243-123.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.52.243.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

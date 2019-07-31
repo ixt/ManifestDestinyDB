@@ -1,7 +1,7 @@
 {
   "appName": "The Times",
   "packageName": "uk.co.thetimes",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -21,14 +21,26 @@
   ],
   "version": "4.8.2",
   "trackers": [
-    "Google CrashLytics",
-    "Tune",
-    "Urbanairship",
     "New Relic",
-    "Tealium",
-    "Google Firebase Analytics",
-    "HelpShift",
+    "Tune",
+    "Google CrashLytics",
+    "Urbanairship",
     "Google Ads",
-    "Brightcove"
+    "Tealium",
+    "Brightcove",
+    "Google Firebase Analytics",
+    "HelpShift"
+  ],
+  "network_connections": [
+    {
+      "package": "uk.co.thetimes",
+      "ptr_domain": "a88-221-40-238.deploy.static.akamaitechnologies.com",
+      "ip_address": "88.221.40.238",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
   ]
 }

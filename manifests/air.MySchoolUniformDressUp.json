@@ -4,18 +4,30 @@
   "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "version": "3.0.5",
   "trackers": [
-    "Google Analytics",
-    "Google DoubleClick",
     "ChartBoost",
-    "Google Ads",
-    "Google Firebase Analytics"
+    "Google Analytics",
+    "Google Firebase Analytics",
+    "Google DoubleClick",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "air.MySchoolUniformDressUp",
+      "ptr_domain": "ec2-52-71-136-119.compute-1.amazonaws.com",
+      "ip_address": "52.71.136.119",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

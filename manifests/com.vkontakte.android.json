@@ -1,7 +1,7 @@
 {
   "appName": "VK",
   "packageName": "com.vkontakte.android",
-  "category": "SOCIAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -63,15 +63,447 @@
   ],
   "version": "5.31",
   "trackers": [
-    "Facebook Analytics",
-    "HockeyApp",
-    "Google Analytics",
-    "Google CrashLytics",
-    "Facebook Share",
-    "Facebook Login",
-    "Google Firebase Analytics",
-    "myTarget",
     "Google Ads",
-    "myTracker"
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "myTracker",
+    "Facebook Login",
+    "Facebook Share",
+    "myTarget",
+    "Google Analytics",
+    "Facebook Analytics",
+    "HockeyApp"
+  ],
+  "network_connections": [
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com",
+      "ip_address": "107.20.235.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-107-22-234-157.compute-1.amazonaws.com",
+      "ip_address": "107.22.234.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "r.my.com",
+      "ip_address": "185.30.176.220",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "r.my.com",
+      "ip_address": "185.30.177.56",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-23-21-247-215.compute-1.amazonaws.com",
+      "ip_address": "23.21.247.215",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-23-23-248-196.compute-1.amazonaws.com",
+      "ip_address": "23.23.248.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-23-23-250-209.compute-1.amazonaws.com",
+      "ip_address": "23.23.250.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-50-16-213-202.compute-1.amazonaws.com",
+      "ip_address": "50.16.213.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-50-19-100-110.compute-1.amazonaws.com",
+      "ip_address": "50.19.100.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-50-19-106-31.compute-1.amazonaws.com",
+      "ip_address": "50.19.106.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-54-225-212-15.compute-1.amazonaws.com",
+      "ip_address": "54.225.212.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-54-235-184-39.compute-1.amazonaws.com",
+      "ip_address": "54.235.184.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-54-235-75-243.compute-1.amazonaws.com",
+      "ip_address": "54.235.75.243",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-54-235-88-249.compute-1.amazonaws.com",
+      "ip_address": "54.235.88.249",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-54-243-127-94.compute-1.amazonaws.com",
+      "ip_address": "54.243.127.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "ec2-54-243-251-231.compute-1.amazonaws.com",
+      "ip_address": "54.243.251.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "cs475.vkontakte.ru",
+      "ip_address": "87.240.163.161",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "cs476.vkontakte.ru",
+      "ip_address": "87.240.163.162",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "cs477.vkontakte.ru",
+      "ip_address": "87.240.163.163",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv80-165-240-87.vk.com",
+      "ip_address": "87.240.165.80",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv81-165-240-87.vk.com",
+      "ip_address": "87.240.165.81",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv82-165-240-87.vk.com",
+      "ip_address": "87.240.165.82",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "r0.mradx.net",
+      "ip_address": "94.100.180.12",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "r0.mradx.net",
+      "ip_address": "94.100.180.166",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv116-194.vkontakte.ru",
+      "ip_address": "95.142.194.116",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv120-194.vkontakte.ru",
+      "ip_address": "95.142.194.120",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv50-194.vkontakte.ru",
+      "ip_address": "95.142.194.50",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv6-194.vkontakte.ru",
+      "ip_address": "95.142.194.6",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv218-199.vkontakte.ru",
+      "ip_address": "95.142.199.218",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv65-10-213-95.vk.com",
+      "ip_address": "95.213.10.65",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv114-11-213-95.vk.com",
+      "ip_address": "95.213.11.114",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv139-11-213-95.vk.com",
+      "ip_address": "95.213.11.139",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv180-11-213-95.vk.com",
+      "ip_address": "95.213.11.180",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv181-11-213-95.vk.com",
+      "ip_address": "95.213.11.181",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv201-11-213-95.vk.com",
+      "ip_address": "95.213.11.201",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv20-11-213-95.vk.com",
+      "ip_address": "95.213.11.20",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv221-11-213-95.vk.com",
+      "ip_address": "95.213.11.221",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv193-4-213-95.vk.com",
+      "ip_address": "95.213.4.193",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv209-4-213-95.vk.com",
+      "ip_address": "95.213.4.209",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    },
+    {
+      "package": "com.vkontakte.android",
+      "ptr_domain": "srv210-4-213-95.vk.com",
+      "ip_address": "95.213.4.210",
+      "loc_city": "N/A",
+      "loc_country": "Russia",
+      "loc_continent": "Europe",
+      "loc_long": "37.606800",
+      "loc_lat": "55.738600"
+    }
   ]
 }

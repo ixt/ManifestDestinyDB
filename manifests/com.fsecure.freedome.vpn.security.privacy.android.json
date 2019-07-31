@@ -1,9 +1,485 @@
 {
   "appName": "Freedome",
   "packageName": "com.fsecure.freedome.vpn.security.privacy.android",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
-  "permissions": [],
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BIND_JOB_SERVICE",
+    "android.permission.BIND_QUICK_SETTINGS_TILE",
+    "android.permission.BIND_VPN_SERVICE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.fsecure.permission.infectionbroadcast",
+    "com.fsecure.ultralight.permission.READ"
+  ],
   "version": "2.5.7.8045",
-  "trackers": []
+  "trackers": [],
+  "network_connections": [
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "static.82.201.251.148.clients.your-server.de",
+      "ip_address": "148.251.201.82",
+      "loc_city": "Ingolstadt",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "11.414700",
+      "loc_lat": "48.766700"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "N/A",
+      "ip_address": "192.0.76.3",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "N/A",
+      "ip_address": "217.110.97.203",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.666300",
+      "loc_lat": "50.107400"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "N/A",
+      "ip_address": "217.110.97.205",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.666300",
+      "loc_lat": "50.107400"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-34-251-224-248.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.224.248",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "fs-46-228-134-120.f-secure.com",
+      "ip_address": "46.228.134.120",
+      "loc_city": "N/A",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "24.937500",
+      "loc_lat": "60.170800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "fs-46-228-134-121.f-secure.com",
+      "ip_address": "46.228.134.121",
+      "loc_city": "N/A",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "24.937500",
+      "loc_lat": "60.170800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "fs-46-228-134-139.f-secure.com",
+      "ip_address": "46.228.134.139",
+      "loc_city": "N/A",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "24.937500",
+      "loc_lat": "60.170800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "fs-46-228-134-140.f-secure.com",
+      "ip_address": "46.228.134.140",
+      "loc_city": "N/A",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "24.937500",
+      "loc_lat": "60.170800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-46-51-202-109.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.202.109",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-16-133-97.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.133.97",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-17-85-228.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.85.228",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-18-113-0.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.113.0",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-209-205-213.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.205.213",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-209-235-99.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.235.99",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-211-200-208.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.200.208",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-212-65-89.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.65.89",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-213-115-129.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.115.129",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-213-161-165.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.161.165",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-30-135-216.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.135.216",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-48-158-201.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.158.201",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-52-51-20-41.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.20.41",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-54-171-18-167.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.18.167",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-54-194-250-187.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.250.187",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-54-194-254-125.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.254.125",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-54-246-199-44.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.199.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-54-72-115-24.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.115.24",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "ec2-54-76-93-251.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.93.251",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "f-secure.com.ssl.ldc.d3.sc.omtrdc.net",
+      "ip_address": "63.140.43.94",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android",
+      "ptr_domain": "fs084-104-175-095.freedome-vpn.net",
+      "ip_address": "95.175.104.84",
+      "loc_city": "Helsinki",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "24.949800",
+      "loc_lat": "60.191800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.fellows",
+      "ptr_domain": "ec2-34-251-224-248.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.224.248",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.fellows",
+      "ptr_domain": "fs-46-228-134-139.f-secure.com",
+      "ip_address": "46.228.134.139",
+      "loc_city": "N/A",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "24.937500",
+      "loc_lat": "60.170800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.fellows",
+      "ptr_domain": "fs-46-228-134-140.f-secure.com",
+      "ip_address": "46.228.134.140",
+      "loc_city": "N/A",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "24.937500",
+      "loc_lat": "60.170800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.fellows",
+      "ptr_domain": "ec2-52-209-235-99.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.235.99",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.fellows",
+      "ptr_domain": "ec2-52-213-161-165.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.161.165",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.fellows",
+      "ptr_domain": "ec2-52-30-135-216.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.135.216",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.fellows",
+      "ptr_domain": "ec2-54-76-93-251.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.93.251",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.kindle",
+      "ptr_domain": "static.82.201.251.148.clients.your-server.de",
+      "ip_address": "148.251.201.82",
+      "loc_city": "Ingolstadt",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "11.414700",
+      "loc_lat": "48.766700"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.kindle",
+      "ptr_domain": "ec2-34-251-224-248.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.224.248",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.kindle",
+      "ptr_domain": "fs-46-228-134-121.f-secure.com",
+      "ip_address": "46.228.134.121",
+      "loc_city": "N/A",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "24.937500",
+      "loc_lat": "60.170800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.kindle",
+      "ptr_domain": "ec2-52-18-113-0.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.113.0",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.kindle",
+      "ptr_domain": "ec2-52-209-235-99.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.235.99",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.kindle",
+      "ptr_domain": "ec2-52-213-161-165.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.161.165",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.kindle",
+      "ptr_domain": "ec2-52-30-135-216.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.135.216",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.kindle",
+      "ptr_domain": "ec2-54-72-6-27.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.6.27",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fsecure.freedome.vpn.security.privacy.android.kindle",
+      "ptr_domain": "ec2-54-76-93-251.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.93.251",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
+  ]
 }

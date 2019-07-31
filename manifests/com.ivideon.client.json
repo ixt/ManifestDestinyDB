@@ -1,7 +1,7 @@
 {
   "appName": "Ivideon",
   "packageName": "com.ivideon.client",
-  "category": "VIDEO_PLAYERS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -40,8 +40,40 @@
   ],
   "version": "2.21.2",
   "trackers": [
-    "Google Firebase Analytics",
     "Google Analytics",
+    "Google Firebase Analytics",
     "HockeyApp"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ivideon.client",
+      "ptr_domain": "ec2-34-193-73-4.compute-1.amazonaws.com",
+      "ip_address": "34.193.73.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ivideon.client",
+      "ptr_domain": "ec2-34-225-198-30.compute-1.amazonaws.com",
+      "ip_address": "34.225.198.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ivideon.client",
+      "ptr_domain": "ec2-52-6-87-31.compute-1.amazonaws.com",
+      "ip_address": "52.6.87.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

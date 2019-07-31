@@ -1,7 +1,7 @@
 {
   "appName": "Jakdojade",
   "packageName": "com.citynav.jakdojade.pl.android",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -26,18 +26,600 @@
   ],
   "version": "3.10.0",
   "trackers": [
-    "Google Analytics",
-    "Google Ads",
-    "Flurry",
     "Google CrashLytics",
-    "Google DoubleClick",
-    "Facebook Analytics",
     "Facebook Login",
-    "Facebook Places",
-    "Facebook Ads",
     "Facebook Share",
     "Google Firebase Analytics",
+    "Facebook Ads",
+    "Google Ads",
+    "Google DoubleClick",
     "Inmobi",
-    "Branch"
+    "Flurry",
+    "Branch",
+    "Facebook Places",
+    "Google Analytics",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-107-22-169-178.compute-1.amazonaws.com",
+      "ip_address": "107.22.169.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "edge-star-shv-02-frt3.facebook.com",
+      "ip_address": "157.240.20.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ams16s30-in-f67.1e100.net",
+      "ip_address": "172.217.17.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "waw02s07-in-f161.1e100.net",
+      "ip_address": "172.217.20.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "waw02s07-in-f2.1e100.net",
+      "ip_address": "172.217.20.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "waw02s07-in-f14.1e100.net",
+      "ip_address": "172.217.20.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "waw02s08-in-f193.1e100.net",
+      "ip_address": "172.217.20.193",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "waw02s08-in-f194.1e100.net",
+      "ip_address": "172.217.20.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "waw02s08-in-f3.1e100.net",
+      "ip_address": "172.217.20.195",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "waw02s08-in-f14.1e100.net",
+      "ip_address": "172.217.20.206",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-184-73-187-250.compute-1.amazonaws.com",
+      "ip_address": "184.73.187.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-184-73-203-162.compute-1.amazonaws.com",
+      "ip_address": "184.73.203.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "sfo03s06-in-f227.1e100.net",
+      "ip_address": "216.58.195.227",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "arn09s05-in-f3.1e100.net",
+      "ip_address": "216.58.209.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "bud02s21-in-f10.1e100.net",
+      "ip_address": "216.58.209.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "waw02s05-in-f2.1e100.net",
+      "ip_address": "216.58.209.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "waw02s06-in-f66.1e100.net",
+      "ip_address": "216.58.209.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ams15s32-in-f3.1e100.net",
+      "ip_address": "216.58.211.99",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ams15s22-in-f163.1e100.net",
+      "ip_address": "216.58.212.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-23-21-118-91.compute-1.amazonaws.com",
+      "ip_address": "23.21.118.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-23-21-179-248.compute-1.amazonaws.com",
+      "ip_address": "23.21.179.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-23-21-204-219.compute-1.amazonaws.com",
+      "ip_address": "23.21.204.219",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-23-21-230-199.compute-1.amazonaws.com",
+      "ip_address": "23.21.230.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-23-23-156-210.compute-1.amazonaws.com",
+      "ip_address": "23.23.156.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-23-23-162-140.compute-1.amazonaws.com",
+      "ip_address": "23.23.162.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-23-23-235-188.compute-1.amazonaws.com",
+      "ip_address": "23.23.235.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "edge-star-shv-01-waw1.facebook.com",
+      "ip_address": "31.13.81.9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-50-16-162-68.compute-1.amazonaws.com",
+      "ip_address": "50.16.162.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-50-17-188-214.compute-1.amazonaws.com",
+      "ip_address": "50.17.188.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-50-17-204-79.compute-1.amazonaws.com",
+      "ip_address": "50.17.204.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-50-19-95-95.compute-1.amazonaws.com",
+      "ip_address": "50.19.95.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ns6607319.ip-5-196-85.eu",
+      "ip_address": "5.196.85.27",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-52-57-215-48.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.57.215.48",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "server-52-84-194-156.waw50.r.cloudfront.net",
+      "ip_address": "52.84.194.156",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "server-52-84-194-53.waw50.r.cloudfront.net",
+      "ip_address": "52.84.194.53",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-225-152-202.compute-1.amazonaws.com",
+      "ip_address": "54.225.152.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-225-179-254.compute-1.amazonaws.com",
+      "ip_address": "54.225.179.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-225-214-241.compute-1.amazonaws.com",
+      "ip_address": "54.225.214.241",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-225-221-53.compute-1.amazonaws.com",
+      "ip_address": "54.225.221.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-227-237-88.compute-1.amazonaws.com",
+      "ip_address": "54.227.237.88",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "server-54-230-229-205.waw50.r.cloudfront.net",
+      "ip_address": "54.230.229.205",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-235-129-139.compute-1.amazonaws.com",
+      "ip_address": "54.235.129.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-235-173-224.compute-1.amazonaws.com",
+      "ip_address": "54.235.173.224",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-235-247-104.compute-1.amazonaws.com",
+      "ip_address": "54.235.247.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-243-105-3.compute-1.amazonaws.com",
+      "ip_address": "54.243.105.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-243-231-36.compute-1.amazonaws.com",
+      "ip_address": "54.243.231.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-243-78-111.compute-1.amazonaws.com",
+      "ip_address": "54.243.78.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-243-78-97.compute-1.amazonaws.com",
+      "ip_address": "54.243.78.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-243-81-55.compute-1.amazonaws.com",
+      "ip_address": "54.243.81.55",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-243-91-163.compute-1.amazonaws.com",
+      "ip_address": "54.243.91.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-83-200-94.compute-1.amazonaws.com",
+      "ip_address": "54.83.200.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "ec2-54-83-50-23.compute-1.amazonaws.com",
+      "ip_address": "54.83.50.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.citynav.jakdojade.pl.android",
+      "ptr_domain": "87-98-234-36.kimsufi.com",
+      "ip_address": "87.98.234.36",
+      "loc_city": "Wrocław",
+      "loc_country": "Poland",
+      "loc_continent": "Europe",
+      "loc_long": "17.054400",
+      "loc_lat": "51.126000"
+    }
   ]
 }

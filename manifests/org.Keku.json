@@ -1,7 +1,7 @@
 {
   "appName": "KeKu",
   "packageName": "org.Keku",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,10 +25,22 @@
   ],
   "version": "8.1.0",
   "trackers": [
+    "Google Firebase Analytics",
     "Facebook Share",
-    "Facebook Analytics",
     "Google CrashLytics",
-    "Facebook Login",
-    "Google Firebase Analytics"
+    "Facebook Analytics",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "org.Keku",
+      "ptr_domain": "ec2-107-23-52-35.compute-1.amazonaws.com",
+      "ip_address": "107.23.52.35",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

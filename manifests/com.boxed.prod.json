@@ -1,7 +1,7 @@
 {
   "appName": "Boxed",
   "packageName": "com.boxed.prod",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -18,17 +18,39 @@
   ],
   "version": "2.3.7",
   "trackers": [
-    "Carnival",
-    "Google CrashLytics",
-    "Facebook Login",
-    "Facebook Share",
+    "MixPanel",
+    "Tune",
     "Google DoubleClick",
     "Facebook Analytics",
-    "Google Firebase Analytics",
     "Branch",
-    "Segment",
+    "Carnival",
     "Google Ads",
-    "Tune",
-    "MixPanel"
+    "Facebook Login",
+    "Google CrashLytics",
+    "Segment",
+    "Facebook Share",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.boxed.prod",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.boxed.prod",
+      "ptr_domain": "ec2-34-192-83-113.compute-1.amazonaws.com",
+      "ip_address": "34.192.83.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

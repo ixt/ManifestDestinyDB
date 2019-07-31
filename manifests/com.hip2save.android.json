@@ -1,7 +1,7 @@
 {
   "appName": "Hip2Save",
   "packageName": "com.hip2save.android",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -36,13 +36,35 @@
   ],
   "version": "3.1.0",
   "trackers": [
-    "Gigya",
-    "Facebook Analytics",
+    "Facebook Places",
     "OneSignal",
     "Google Firebase Analytics",
-    "Facebook Places",
-    "Facebook Login",
+    "Gigya",
+    "Google Analytics",
+    "Facebook Analytics",
     "Facebook Share",
-    "Google Analytics"
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.hip2save.android",
+      "ptr_domain": "ec2-52-204-164-235.compute-1.amazonaws.com",
+      "ip_address": "52.204.164.235",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.hip2save.android",
+      "ptr_domain": "ec2-54-209-50-52.compute-1.amazonaws.com",
+      "ip_address": "54.209.50.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

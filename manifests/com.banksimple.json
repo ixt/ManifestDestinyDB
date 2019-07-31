@@ -1,0 +1,435 @@
+{
+  "appName": "Simple",
+  "packageName": "com.banksimple",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "com.banksimple.permission.MAPS_RECEIVE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
+  ],
+  "version": "2.78.0",
+  "trackers": [
+    "Segment",
+    "Google Analytics",
+    "Adjust",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-107-20-220-24.compute-1.amazonaws.com",
+      "ip_address": "107.20.220.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-107-20-233-56.compute-1.amazonaws.com",
+      "ip_address": "107.20.233.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-107-20-242-44.compute-1.amazonaws.com",
+      "ip_address": "107.20.242.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-107-21-210-141.compute-1.amazonaws.com",
+      "ip_address": "107.21.210.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-107-21-220-89.compute-1.amazonaws.com",
+      "ip_address": "107.21.220.89",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-107-21-251-92.compute-1.amazonaws.com",
+      "ip_address": "107.21.251.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-107-21-98-91.compute-1.amazonaws.com",
+      "ip_address": "107.21.98.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-107-22-186-145.compute-1.amazonaws.com",
+      "ip_address": "107.22.186.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ord36s04-in-f98.1e100.net",
+      "ip_address": "172.217.4.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "sfo03s08-in-f34.1e100.net",
+      "ip_address": "172.217.6.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-174-129-42-30.compute-1.amazonaws.com",
+      "ip_address": "174.129.42.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-184-73-184-4.compute-1.amazonaws.com",
+      "ip_address": "184.73.184.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "sfo07s13-in-f2.1e100.net",
+      "ip_address": "216.58.194.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "sfo03s01-in-f10.1e100.net",
+      "ip_address": "216.58.194.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-23-21-86-206.compute-1.amazonaws.com",
+      "ip_address": "23.21.86.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-23-21-97-174.compute-1.amazonaws.com",
+      "ip_address": "23.21.97.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-23-23-110-16.compute-1.amazonaws.com",
+      "ip_address": "23.23.110.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-23-23-115-15.compute-1.amazonaws.com",
+      "ip_address": "23.23.115.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "upload-lb.eqiad.wikimedia.org",
+      "ip_address": "2620:0:861:ed1a::2:b",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-35-163-28-163.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.28.163",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-50-16-187-219.compute-1.amazonaws.com",
+      "ip_address": "50.16.187.219",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-50-17-211-253.compute-1.amazonaws.com",
+      "ip_address": "50.17.211.253",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-50-19-106-31.compute-1.amazonaws.com",
+      "ip_address": "50.19.106.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-50-19-119-48.compute-1.amazonaws.com",
+      "ip_address": "50.19.119.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-52-27-215-54.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.215.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-52-8-80-19.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.80.19",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-52-88-79-183.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.88.79.183",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-52-9-141-88.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.141.88",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-186-207-204.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.186.207.204",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-193-113-62.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.113.62",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-193-93-155.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.93.155",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-215-174-153.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.174.153",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "server-54-230-83-161.mia50.r.cloudfront.net",
+      "ip_address": "54.230.83.161",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-235-130-118.compute-1.amazonaws.com",
+      "ip_address": "54.235.130.118",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-235-132-180.compute-1.amazonaws.com",
+      "ip_address": "54.235.132.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-243-120-177.compute-1.amazonaws.com",
+      "ip_address": "54.243.120.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-243-203-99.compute-1.amazonaws.com",
+      "ip_address": "54.243.203.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-243-248-254.compute-1.amazonaws.com",
+      "ip_address": "54.243.248.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-243-50-175.compute-1.amazonaws.com",
+      "ip_address": "54.243.50.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.banksimple",
+      "ptr_domain": "ec2-54-83-3-178.compute-1.amazonaws.com",
+      "ip_address": "54.83.3.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

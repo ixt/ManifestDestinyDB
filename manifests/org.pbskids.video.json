@@ -1,0 +1,610 @@
+{
+  "appName": "Watch Videos",
+  "packageName": "org.pbskids.video",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "com.amazon.device.permission.COMRADE_CAPABILITIES"
+  ],
+  "version": "2.8.1",
+  "trackers": [
+    "ComScore",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-107-20-163-4.compute-1.amazonaws.com",
+      "ip_address": "107.20.163.4",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-107-20-217-232.compute-1.amazonaws.com",
+      "ip_address": "107.20.217.232",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-107-20-228-83.compute-1.amazonaws.com",
+      "ip_address": "107.20.228.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-107-20-247-81.compute-1.amazonaws.com",
+      "ip_address": "107.20.247.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-107-22-176-47.compute-1.amazonaws.com",
+      "ip_address": "107.22.176.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-107-22-182-190.compute-1.amazonaws.com",
+      "ip_address": "107.22.182.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo03s07-in-f10.1e100.net",
+      "ip_address": "172.217.5.106",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo03s08-in-f2.1e100.net",
+      "ip_address": "172.217.6.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo03s08-in-f42.1e100.net",
+      "ip_address": "172.217.6.42",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "map2.hwcdn.net",
+      "ip_address": "205.185.216.10",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "map2.hwcdn.net",
+      "ip_address": "205.185.216.42",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-205-251-215-153.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.153",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-205-251-215-178.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.178",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-205-251-215-184.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.184",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-205-251-215-230.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.230",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-205-251-215-52.sfo5.r.cloudfront.net",
+      "ip_address": "205.251.215.52",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo07s13-in-f174.1e100.net",
+      "ip_address": "216.58.194.174",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo03s01-in-f2.1e100.net",
+      "ip_address": "216.58.194.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo03s01-in-f202.1e100.net",
+      "ip_address": "216.58.194.202",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo03s06-in-f226.1e100.net",
+      "ip_address": "216.58.195.226",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo07s16-in-f2.1e100.net",
+      "ip_address": "216.58.195.66",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "iad23s41-in-f66.1e100.net",
+      "ip_address": "216.58.217.66",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "iad23s41-in-f78.1e100.net",
+      "ip_address": "216.58.217.78",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "iad23s40-in-f10.1e100.net",
+      "ip_address": "216.58.218.234",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-23-21-53-226.compute-1.amazonaws.com",
+      "ip_address": "23.21.53.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-23-21-68-38.compute-1.amazonaws.com",
+      "ip_address": "23.21.68.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "nuq04s29-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo03s08-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "sfo07s17-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-50-19-246-191.compute-1.amazonaws.com",
+      "ip_address": "50.19.246.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-50-19-94-168.compute-1.amazonaws.com",
+      "ip_address": "50.19.94.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-52-84-243-176.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.176",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-52-84-243-182.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.182",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-52-84-243-192.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.192",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-52-84-243-26.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.26",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-52-84-243-55.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.55",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-52-84-243-62.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.62",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-54-192-119-118.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.118",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-54-192-119-228.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.228",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-54-192-119-253.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.253",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-54-192-119-90.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.90",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-225-130-79.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-225-143-212.compute-1.amazonaws.com",
+      "ip_address": "54.225.143.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-225-158-137.compute-1.amazonaws.com",
+      "ip_address": "54.225.158.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-225-179-254.compute-1.amazonaws.com",
+      "ip_address": "54.225.179.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-225-221-202.compute-1.amazonaws.com",
+      "ip_address": "54.225.221.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-225-221-53.compute-1.amazonaws.com",
+      "ip_address": "54.225.221.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-54-230-143-208.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.208",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "server-54-230-143-43.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.43",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-235-191-172.compute-1.amazonaws.com",
+      "ip_address": "54.235.191.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-235-202-23.compute-1.amazonaws.com",
+      "ip_address": "54.235.202.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-235-88-249.compute-1.amazonaws.com",
+      "ip_address": "54.235.88.249",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-243-142-33.compute-1.amazonaws.com",
+      "ip_address": "54.243.142.33",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-243-142-37.compute-1.amazonaws.com",
+      "ip_address": "54.243.142.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-243-185-11.compute-1.amazonaws.com",
+      "ip_address": "54.243.185.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "ec2-54-243-217-105.compute-1.amazonaws.com",
+      "ip_address": "54.243.217.105",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "14.73.88.63.ashburn.google-ggc.verizon.com",
+      "ip_address": "63.88.73.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.pbskids.video",
+      "ptr_domain": "N/A",
+      "ip_address": "74.125.170.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.pbskids.video.kidscontrol",
+      "ptr_domain": "ec2-54-197-254-10.compute-1.amazonaws.com",
+      "ip_address": "54.197.254.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

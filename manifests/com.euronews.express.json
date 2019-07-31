@@ -1,7 +1,7 @@
 {
   "appName": "Euronews",
   "packageName": "com.euronews.express",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -15,8 +15,270 @@
   "version": "5.0.1",
   "trackers": [
     "Google DoubleClick",
+    "Google Firebase Analytics",
     "Google CrashLytics",
-    "Google Ads",
-    "Google Firebase Analytics"
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-107-21-248-175.compute-1.amazonaws.com",
+      "ip_address": "107.21.248.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com",
+      "ip_address": "174.129.19.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-184-72-246-24.compute-1.amazonaws.com",
+      "ip_address": "184.72.246.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-184-73-203-162.compute-1.amazonaws.com",
+      "ip_address": "184.73.203.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-184-73-246-238.compute-1.amazonaws.com",
+      "ip_address": "184.73.246.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-23-21-118-60.compute-1.amazonaws.com",
+      "ip_address": "23.21.118.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-23-23-227-23.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-50-17-244-57.compute-1.amazonaws.com",
+      "ip_address": "50.17.244.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-50-19-100-110.compute-1.amazonaws.com",
+      "ip_address": "50.19.100.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-50-19-235-238.compute-1.amazonaws.com",
+      "ip_address": "50.19.235.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-50-19-97-211.compute-1.amazonaws.com",
+      "ip_address": "50.19.97.211",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-163-254-184.compute-1.amazonaws.com",
+      "ip_address": "54.163.254.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-225-162-48.compute-1.amazonaws.com",
+      "ip_address": "54.225.162.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-225-170-49.compute-1.amazonaws.com",
+      "ip_address": "54.225.170.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-225-173-240.compute-1.amazonaws.com",
+      "ip_address": "54.225.173.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-225-185-191.compute-1.amazonaws.com",
+      "ip_address": "54.225.185.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-225-209-156.compute-1.amazonaws.com",
+      "ip_address": "54.225.209.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-235-247-104.compute-1.amazonaws.com",
+      "ip_address": "54.235.247.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-243-133-174.compute-1.amazonaws.com",
+      "ip_address": "54.243.133.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-243-255-60.compute-1.amazonaws.com",
+      "ip_address": "54.243.255.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-243-72-146.compute-1.amazonaws.com",
+      "ip_address": "54.243.72.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.euronews.express",
+      "ptr_domain": "ec2-54-83-50-23.compute-1.amazonaws.com",
+      "ip_address": "54.83.50.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

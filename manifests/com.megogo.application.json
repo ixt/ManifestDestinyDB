@@ -1,7 +1,7 @@
 {
   "appName": "MEGOGO",
   "packageName": "com.megogo.application",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -35,14 +35,26 @@
   ],
   "version": "3.3.6",
   "trackers": [
-    "Google CrashLytics",
-    "Google Analytics",
     "Facebook Login",
+    "Google Analytics",
     "Facebook Places",
-    "Facebook Analytics",
-    "Kochava",
+    "Google CrashLytics",
+    "OneSignal",
     "Facebook Share",
-    "Google Firebase Analytics",
-    "OneSignal"
+    "Kochava",
+    "Facebook Analytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.megogo.application",
+      "ptr_domain": "N/A",
+      "ip_address": "193.187.76.207",
+      "loc_city": "N/A",
+      "loc_country": "Ukraine",
+      "loc_continent": "Europe",
+      "loc_long": "30.523300",
+      "loc_lat": "50.450000"
+    }
   ]
 }

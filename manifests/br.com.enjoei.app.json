@@ -1,35 +1,407 @@
 {
   "appName": "enjoei",
   "packageName": "br.com.enjoei.app",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
     "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.GET_ACCOUNTS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "4.16.0",
   "trackers": [
-    "Facebook Share",
     "Google Firebase Analytics",
-    "Criteo",
-    "AppsFlyer",
-    "Amazon Analytics",
-    "Facebook Analytics",
     "Google CrashLytics",
     "Facebook Places",
-    "New Relic",
+    "AppsFlyer",
+    "Amazon Analytics",
     "Google Analytics",
-    "Facebook Login"
+    "New Relic",
+    "Facebook Share",
+    "Facebook Login",
+    "Criteo",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "107.154.130.146.ip.incapdns.net",
+      "ip_address": "107.154.130.146",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "rio01s24-in-f2.1e100.net",
+      "ip_address": "172.217.29.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-176-34-137-164.eu-west-1.compute.amazonaws.com",
+      "ip_address": "176.34.137.164",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "gru06s31-in-f194.1e100.net",
+      "ip_address": "216.58.202.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "eze04s06-in-f14.1e100.net",
+      "ip_address": "216.58.222.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "a23-44-181-211.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.44.181.211",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "edge-star-shv-01-gru2.facebook.com",
+      "ip_address": "31.13.85.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-50-16-217-86.compute-1.amazonaws.com",
+      "ip_address": "50.16.217.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-50-19-211-198.compute-1.amazonaws.com",
+      "ip_address": "50.19.211.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-52-18-178-190.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.178.190",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-52-207-196-158.compute-1.amazonaws.com",
+      "ip_address": "52.207.196.158",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-52-208-161-192.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.161.192",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-52-212-7-239.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.7.239",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-52-214-43-168.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.43.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-52-21-85-198.compute-1.amazonaws.com",
+      "ip_address": "52.21.85.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-171-114-86.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.114.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-171-129-94.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.129.94",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-171-27-11.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.27.11",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-171-34-42.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.34.42",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-225-149-1.compute-1.amazonaws.com",
+      "ip_address": "54.225.149.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-225-244-77.compute-1.amazonaws.com",
+      "ip_address": "54.225.244.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-229-91-86.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.91.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-235-75-243.compute-1.amazonaws.com",
+      "ip_address": "54.235.75.243",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-243-183-98.compute-1.amazonaws.com",
+      "ip_address": "54.243.183.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-243-58-93.compute-1.amazonaws.com",
+      "ip_address": "54.243.58.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-246-182-96.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.182.96",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-72-193-194.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.193.194",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-72-226-65.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.226.65",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-72-88-90.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.88.90",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-76-198-57.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.198.57",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-76-22-101.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.22.101",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-76-238-135.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.238.135",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-76-81-175.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.81.175",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-77-34-202.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.34.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-80-178-197.compute-1.amazonaws.com",
+      "ip_address": "54.80.178.197",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.enjoei.app",
+      "ptr_domain": "N/A",
+      "ip_address": "74.119.118.82",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

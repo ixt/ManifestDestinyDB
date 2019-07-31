@@ -1,7 +1,7 @@
 {
   "appName": "Hollister",
   "packageName": "com.abercrombie.hollister",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -20,12 +20,35 @@
   ],
   "version": "5.20.1",
   "trackers": [
-    "MParticle",
-    "Demdex",
     "Google Firebase Analytics",
-    "Braze (formerly Appboy)",
+    "Apptentive",
     "Branch",
+    "Taplytics",
+    "Demdex",
     "Google CrashLytics",
-    "Apptentive"
+    "MParticle",
+    "Braze (formerly Appboy)"
+  ],
+  "network_connections": [
+    {
+      "package": "com.abercrombie.hollister",
+      "ptr_domain": "a23-194-164-187.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.194.164.187",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.abercrombie.hollister",
+      "ptr_domain": "a23-4-120-221.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.4.120.221",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

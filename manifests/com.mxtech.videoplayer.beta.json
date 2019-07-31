@@ -1,7 +1,7 @@
 {
   "appName": "MX Player",
   "packageName": "com.mxtech.videoplayer.beta",
-  "category": "VIDEO_PLAYERS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -21,21 +21,303 @@
   ],
   "version": "1.5.0.1",
   "trackers": [
-    "Facebook Share",
-    "Facebook Ads",
-    "CleverTap",
-    "AppsFlyer",
     "Flurry",
+    "Facebook Places",
+    "Google Firebase Analytics",
+    "Facebook Share",
+    "CleverTap",
+    "Moat",
+    "Facebook Ads",
     "Google Analytics",
     "Inmobi",
-    "Google Ads",
-    "Moat",
-    "Facebook Login",
-    "Millennial Media",
     "Google DoubleClick",
     "Google CrashLytics",
+    "Millennial Media",
     "Facebook Analytics",
-    "Google Firebase Analytics",
-    "Facebook Places"
+    "Facebook Login",
+    "Google Ads",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-107-20-220-57.compute-1.amazonaws.com",
+      "ip_address": "107.20.220.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "bom05s09-in-f2.1e100.net",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.179",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.58",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "bom07s01-in-f2.1e100.net",
+      "ip_address": "216.58.199.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "bom07s01-in-f6.1e100.net",
+      "ip_address": "216.58.199.134",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "bom07s12-in-f2.1e100.net",
+      "ip_address": "216.58.203.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-23-21-68-70.compute-1.amazonaws.com",
+      "ip_address": "23.21.68.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "edge-star6-shv-01-sin6.facebook.com",
+      "ip_address": "2a03:2880:f00c:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "xx-fbcdn6-shv-01-sin6.fbcdn.net",
+      "ip_address": "2a03:2880:f00c:19:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:19:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.17",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-35-154-106-164.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.106.164",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-35-154-141-92.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.141.92",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-35-154-190-229.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.190.229",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-35-154-64-21.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.64.21",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-35-154-91-237.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.91.237",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-35-154-95-82.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.95.82",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-54-225-173-240.compute-1.amazonaws.com",
+      "ip_address": "54.225.173.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-54-243-231-128.compute-1.amazonaws.com",
+      "ip_address": "54.243.231.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-54-243-78-97.compute-1.amazonaws.com",
+      "ip_address": "54.243.78.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "ec2-54-243-99-83.compute-1.amazonaws.com",
+      "ip_address": "54.243.99.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mxtech.videoplayer.beta",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

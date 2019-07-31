@@ -1,7 +1,7 @@
 {
   "appName": "bigbasket",
   "packageName": "com.bigbasket.mobileapp",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,16 +25,758 @@
   ],
   "version": "4.9.5",
   "trackers": [
-    "Facebook Share",
     "New Relic",
-    "Facebook Login",
-    "Snowplow",
-    "Localytics",
-    "Google CrashLytics",
-    "AppsFlyer",
     "Google Firebase Analytics",
+    "Facebook Places",
+    "Google CrashLytics",
+    "Snowplow",
     "Branch",
+    "AppsFlyer",
+    "Facebook Share",
     "Facebook Analytics",
-    "Facebook Places"
+    "Localytics",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "a104-65-152-38.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.65.152.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com",
+      "ip_address": "107.20.235.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-107-21-115-231.compute-1.amazonaws.com",
+      "ip_address": "107.21.115.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-107-21-209-177.compute-1.amazonaws.com",
+      "ip_address": "107.21.209.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-107-21-98-91.compute-1.amazonaws.com",
+      "ip_address": "107.21.98.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-107-22-162-79.compute-1.amazonaws.com",
+      "ip_address": "107.22.162.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-107-22-187-210.compute-1.amazonaws.com",
+      "ip_address": "107.22.187.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-107-22-216-92.compute-1.amazonaws.com",
+      "ip_address": "107.22.216.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.0.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.128.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.192.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.64.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "maa03s22-in-f162.1e100.net",
+      "ip_address": "172.217.26.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "maa03s23-in-f2.1e100.net",
+      "ip_address": "172.217.26.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom05s09-in-f2.1e100.net",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-174-129-32-125.compute-1.amazonaws.com",
+      "ip_address": "174.129.32.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ord30s26-in-f226.1e100.net",
+      "ip_address": "216.58.192.226",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "maa03s19-in-f106.1e100.net",
+      "ip_address": "216.58.196.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "maa03s19-in-f98.1e100.net",
+      "ip_address": "216.58.196.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "maa03s20-in-f2.1e100.net",
+      "ip_address": "216.58.197.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "maa03s21-in-f2.1e100.net",
+      "ip_address": "216.58.197.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom07s01-in-f129.1e100.net",
+      "ip_address": "216.58.199.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom07s01-in-f2.1e100.net",
+      "ip_address": "216.58.199.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom05s08-in-f2.1e100.net",
+      "ip_address": "216.58.199.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom05s10-in-f130.1e100.net",
+      "ip_address": "216.58.203.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom07s11-in-f2.1e100.net",
+      "ip_address": "216.58.203.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom07s12-in-f2.1e100.net",
+      "ip_address": "216.58.203.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom07s10-in-f162.1e100.net",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom07s10-in-f174.1e100.net",
+      "ip_address": "216.58.220.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "bom05s05-in-f2.1e100.net",
+      "ip_address": "216.58.220.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "maa03s18-in-f34.1e100.net",
+      "ip_address": "216.58.220.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-23-21-116-90.compute-1.amazonaws.com",
+      "ip_address": "23.21.116.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-23-21-56-15.compute-1.amazonaws.com",
+      "ip_address": "23.21.56.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-23-23-122-193.compute-1.amazonaws.com",
+      "ip_address": "23.23.122.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-23-23-165-121.compute-1.amazonaws.com",
+      "ip_address": "23.23.165.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-23-23-172-159.compute-1.amazonaws.com",
+      "ip_address": "23.23.172.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "edge-star-shv-01-mrs1.facebook.com",
+      "ip_address": "31.13.75.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-34-192-160-146.compute-1.amazonaws.com",
+      "ip_address": "34.192.160.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-34-205-251-204.compute-1.amazonaws.com",
+      "ip_address": "34.205.251.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-34-253-72-240.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.253.72.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-35-154-156-177.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.156.177",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com",
+      "ip_address": "50.19.81.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-52-16-128-175.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.128.175",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-52-17-153-101.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.153.101",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-52-18-160-21.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.160.21",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-52-205-3-64.compute-1.amazonaws.com",
+      "ip_address": "52.205.3.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-52-21-99-97.compute-1.amazonaws.com",
+      "ip_address": "52.21.99.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "server-52-222-139-208.bom51.r.cloudfront.net",
+      "ip_address": "52.222.139.208",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-52-55-234-52.compute-1.amazonaws.com",
+      "ip_address": "52.55.234.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-163-254-184.compute-1.amazonaws.com",
+      "ip_address": "54.163.254.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-171-42-50.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.42.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-173-75-206.compute-1.amazonaws.com",
+      "ip_address": "54.173.75.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-225-215-77.compute-1.amazonaws.com",
+      "ip_address": "54.225.215.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-235-165-25.compute-1.amazonaws.com",
+      "ip_address": "54.235.165.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-235-168-75.compute-1.amazonaws.com",
+      "ip_address": "54.235.168.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-235-190-60.compute-1.amazonaws.com",
+      "ip_address": "54.235.190.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-236-113-218.compute-1.amazonaws.com",
+      "ip_address": "54.236.113.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-243-112-174.compute-1.amazonaws.com",
+      "ip_address": "54.243.112.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-243-203-20.compute-1.amazonaws.com",
+      "ip_address": "54.243.203.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-72-4-255.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.4.255",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-83-193-68.compute-1.amazonaws.com",
+      "ip_address": "54.83.193.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-83-201-104.compute-1.amazonaws.com",
+      "ip_address": "54.83.201.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "ec2-54-88-41-66.compute-1.amazonaws.com",
+      "ip_address": "54.88.41.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bigbasket.mobileapp",
+      "ptr_domain": "sa-in-f147.1e100.net",
+      "ip_address": "74.125.200.147",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

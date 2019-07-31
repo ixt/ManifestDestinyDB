@@ -1,33 +1,45 @@
 {
   "appName": "SOSAFE",
   "packageName": "cl.sosafe.panicbuttonandroid.app",
-  "category": "SOCIAL",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.SYSTEM_ALERT_WINDOW",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_COARSE_LOCATION",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "android.permission.CAMERA",
-    "android.permission.VIBRATE",
-    "android.permission.DISABLE_KEYGUARD",
-    "android.permission.READ_CONTACTS",
-    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
+    "android.permission.DISABLE_KEYGUARD",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
     "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
     "pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
   ],
   "version": "3.23.11",
   "trackers": [
     "Google Firebase Analytics",
     "AccountKit",
-    "Google CrashLytics",
     "Facebook Analytics",
+    "Facebook Login",
     "Facebook Share",
-    "Facebook Login"
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "cl.sosafe.panicbuttonandroid.app",
+      "ptr_domain": "ec2-54-204-4-24.compute-1.amazonaws.com",
+      "ip_address": "54.204.4.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

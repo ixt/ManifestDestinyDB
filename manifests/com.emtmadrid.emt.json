@@ -1,7 +1,7 @@
 {
   "appName": "EMT Madrid",
   "packageName": "com.emtmadrid.emt",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,14 +25,36 @@
   ],
   "version": "8.0.1",
   "trackers": [
-    "Facebook Share",
-    "Google DoubleClick",
+    "Facebook Login",
+    "Google Ads",
+    "Google Analytics",
     "Google Firebase Analytics",
-    "Flurry",
+    "Google DoubleClick",
     "Facebook Analytics",
     "Smart",
-    "Google Analytics",
-    "Google Ads",
-    "Facebook Login"
+    "Facebook Share",
+    "Flurry"
+  ],
+  "network_connections": [
+    {
+      "package": "com.emtmadrid.emt",
+      "ptr_domain": "mad01s26-in-f174.1e100.net",
+      "ip_address": "216.58.214.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.emtmadrid.emt",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

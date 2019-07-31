@@ -1,41 +1,61 @@
 {
   "appName": "Chipolo",
   "packageName": "chipolo.net.v3",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.SYSTEM_ALERT_WINDOW",
-    "android.permission.WRITE_SETTINGS",
-    "android.permission.BLUETOOTH",
-    "android.permission.BLUETOOTH_ADMIN",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.READ_CONTACTS",
-    "android.permission.VIBRATE",
-    "android.permission.WAKE_LOCK",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.INTERNET",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.USE_CREDENTIALS",
-    "com.google.maps.android.utils.permission.MAPS_RECEIVE",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
     "android.permission.CAMERA",
     "android.permission.FLASHLIGHT",
     "android.permission.FOREGROUND_SERVICE",
     "android.permission.INTERACT_ACROSS_USERS_FULL",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SETTINGS",
     "chipolo.net.v3.permission.C2D_MESSAGE",
-    "chipolo.net.v3.permission.C2D_MESSAGE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.google.maps.android.utils.permission.MAPS_RECEIVE"
   ],
   "version": "3.6.2",
   "trackers": [
-    "Facebook Login",
-    "Google Firebase Analytics",
     "Google Analytics",
-    "Google CrashLytics"
+    "Facebook Login",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "chipolo.net.v3",
+      "ptr_domain": "N/A",
+      "ip_address": "104.25.86.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "chipolo.net.v3",
+      "ptr_domain": "N/A",
+      "ip_address": "104.25.87.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

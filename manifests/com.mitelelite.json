@@ -1,7 +1,7 @@
 {
   "appName": "MiTele",
   "packageName": "com.mitelelite",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -38,18 +38,591 @@
   ],
   "version": "3.4.7",
   "trackers": [
-    "Facebook Analytics",
-    "Facebook Share",
     "Facebook Login",
-    "Google Firebase Analytics",
-    "Google DoubleClick",
-    "Facebook Places",
-    "ComScore",
+    "Google CrashLytics",
+    "Facebook Share",
     "Demdex",
+    "Google Firebase Analytics",
+    "Facebook Analytics",
+    "Facebook Places",
+    "Ooyala",
     "Google Ads",
+    "Ad4Screen",
+    "Google DoubleClick",
     "BlueKai (acquired by Oracle)",
     "Gigya",
-    "Ad4Screen",
-    "Google CrashLytics"
+    "ComScore"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-107-20-211-189.compute-1.amazonaws.com",
+      "ip_address": "107.20.211.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-107-21-232-174.compute-1.amazonaws.com",
+      "ip_address": "107.21.232.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "171.42.211.130.bc.googleusercontent.com",
+      "ip_address": "130.211.42.171",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "112.45.211.130.bc.googleusercontent.com",
+      "ip_address": "130.211.45.112",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "40.1e.2fa9.ip4.static.sl-reverse.com",
+      "ip_address": "169.47.30.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.539000",
+      "loc_lat": "39.018000"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr35s02-in-f2.1e100.net",
+      "ip_address": "172.217.23.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-174-129-13-10.compute-1.amazonaws.com",
+      "ip_address": "174.129.13.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "host213-123-242-9.in-addr.btopenworld.com",
+      "ip_address": "213.123.242.9",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr25s10-in-f2.1e100.net",
+      "ip_address": "216.58.198.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "mad06s25-in-f129.1e100.net",
+      "ip_address": "216.58.201.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "mad06s25-in-f2.1e100.net",
+      "ip_address": "216.58.201.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "arn02s06-in-f163.1e100.net",
+      "ip_address": "216.58.201.163",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr35s07-in-f2.1e100.net",
+      "ip_address": "216.58.204.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "mad01s24-in-f2.1e100.net",
+      "ip_address": "216.58.211.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ams16s22-in-f227.1e100.net",
+      "ip_address": "216.58.212.227",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr25s01-in-f2.1e100.net",
+      "ip_address": "216.58.213.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "mad01s26-in-f2.1e100.net",
+      "ip_address": "216.58.214.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr26s05-in-f2.1e100.net",
+      "ip_address": "216.58.214.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "a23-207-189-83.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.207.189.83",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-23-23-114-96.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "a23-40-96-189.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.40.96.189",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "a23-40-97-95.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.40.97.95",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "a23-51-230-75.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.51.230.75",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6814:657",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr35s05-in-x02.1e100.net",
+      "ip_address": "2a00:1450:4009:806::2002",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr25s10-in-x01.1e100.net",
+      "ip_address": "2a00:1450:4009:809::2001",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr25s10-in-x02.1e100.net",
+      "ip_address": "2a00:1450:4009:809::2002",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr25s02-in-x0e.1e100.net",
+      "ip_address": "2a00:1450:4009:80f::200e",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr26s04-in-x02.1e100.net",
+      "ip_address": "2a00:1450:4009:813::2002",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "lhr35s11-in-x0a.1e100.net",
+      "ip_address": "2a00:1450:4009:815::200a",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "edge-star6-shv-01-lhr3.facebook.com",
+      "ip_address": "2a03:2880:f01a:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-50-17-219-135.compute-1.amazonaws.com",
+      "ip_address": "50.17.219.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-52-17-82-217.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.82.217",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-52-212-156-205.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.156.205",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-52-49-16-186.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.16.186",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-52-57-196-194.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.57.196.194",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-52-85-47-120.mad50.r.cloudfront.net",
+      "ip_address": "52.85.47.120",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-52-85-47-223.mad50.r.cloudfront.net",
+      "ip_address": "52.85.47.223",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-192-61-215.mad50.r.cloudfront.net",
+      "ip_address": "54.192.61.215",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-192-8-176.lhr3.r.cloudfront.net",
+      "ip_address": "54.192.8.176",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-54-225-217-126.compute-1.amazonaws.com",
+      "ip_address": "54.225.217.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-230-185-190.cdg3.r.cloudfront.net",
+      "ip_address": "54.230.185.190",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-230-9-187.lhr3.r.cloudfront.net",
+      "ip_address": "54.230.9.187",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-230-9-221.lhr3.r.cloudfront.net",
+      "ip_address": "54.230.9.221",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-230-9-254.lhr3.r.cloudfront.net",
+      "ip_address": "54.230.9.254",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-230-9-29.lhr3.r.cloudfront.net",
+      "ip_address": "54.230.9.29",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-230-9-30.lhr3.r.cloudfront.net",
+      "ip_address": "54.230.9.30",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-54-235-145-74.compute-1.amazonaws.com",
+      "ip_address": "54.235.145.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-54-235-184-39.compute-1.amazonaws.com",
+      "ip_address": "54.235.184.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-239-158-145.cdg3.r.cloudfront.net",
+      "ip_address": "54.239.158.145",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-239-158-171.cdg3.r.cloudfront.net",
+      "ip_address": "54.239.158.171",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "server-54-239-158-29.cdg3.r.cloudfront.net",
+      "ip_address": "54.239.158.29",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "ec2-54-243-111-152.compute-1.amazonaws.com",
+      "ip_address": "54.243.111.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "a88-221-1-70.deploy.static.akamaitechnologies.com",
+      "ip_address": "88.221.1.70",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.mitelelite",
+      "ptr_domain": "a88-221-238-163.deploy.static.akamaitechnologies.com",
+      "ip_address": "88.221.238.163",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Grab Driver",
   "packageName": "com.grabtaxi.driver2",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -40,10 +40,22 @@
   ],
   "version": "5.68.1",
   "trackers": [
-    "Mapbox",
-    "Google Ads",
+    "LeanPlum",
     "AppsFlyer",
+    "Google Ads",
     "Google CrashLytics",
-    "LeanPlum"
+    "Mapbox"
+  ],
+  "network_connections": [
+    {
+      "package": "com.grabtaxi.driver2",
+      "ptr_domain": "ec2-50-17-249-91.compute-1.amazonaws.com",
+      "ip_address": "50.17.249.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

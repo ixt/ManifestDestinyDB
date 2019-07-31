@@ -1,7 +1,7 @@
 {
   "appName": "Weedmaps",
   "packageName": "com.weedmaps.app.android",
-  "category": "MEDICAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -19,15 +19,28 @@
   ],
   "version": "7.57.1",
   "trackers": [
-    "CleverTap",
-    "Facebook Share",
-    "Apptimize",
-    "Amplitude",
-    "Adjust",
-    "Facebook Analytics",
-    "Google Firebase Analytics",
     "Facebook Login",
+    "Google Firebase Analytics",
     "Google CrashLytics",
-    "Google Analytics"
+    "Instabug",
+    "Google Analytics",
+    "CleverTap",
+    "Adjust",
+    "Apptimize",
+    "Facebook Share",
+    "Facebook Analytics",
+    "Amplitude"
+  ],
+  "network_connections": [
+    {
+      "package": "com.weedmaps.app.android",
+      "ptr_domain": "ec2-52-206-189-221.compute-1.amazonaws.com",
+      "ip_address": "52.206.189.221",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

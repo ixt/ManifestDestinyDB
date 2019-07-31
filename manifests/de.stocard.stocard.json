@@ -1,7 +1,7 @@
 {
   "appName": "Stocard",
   "packageName": "de.stocard.stocard",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -28,10 +28,682 @@
   ],
   "version": "7.9.1",
   "trackers": [
+    "MixPanel",
     "Google Analytics",
     "Facebook Share",
-    "Facebook Login",
-    "MixPanel",
-    "Google Firebase Analytics"
+    "Google Firebase Analytics",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-107-20-179-70.compute-1.amazonaws.com",
+      "ip_address": "107.20.179.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-107-20-196-218.compute-1.amazonaws.com",
+      "ip_address": "107.20.196.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-107-21-94-141.compute-1.amazonaws.com",
+      "ip_address": "107.21.94.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-syd2.facebook.com",
+      "ip_address": "157.240.8.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "90.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.144",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "9f.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.159",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "af.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.175",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "c8.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "15.01.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.1.21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "84.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "a0.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.160",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "b8.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-174-129-222-182.compute-1.amazonaws.com",
+      "ip_address": "174.129.222.182",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-174-129-42-30.compute-1.amazonaws.com",
+      "ip_address": "174.129.42.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "p.wcon.io",
+      "ip_address": "178.33.172.50",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-184-73-219-223.compute-1.amazonaws.com",
+      "ip_address": "184.73.219.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-184-73-246-238.compute-1.amazonaws.com",
+      "ip_address": "184.73.246.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-204-236-231-153.compute-1.amazonaws.com",
+      "ip_address": "204.236.231.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-21-92-173.compute-1.amazonaws.com",
+      "ip_address": "23.21.92.173",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-107-83.compute-1.amazonaws.com",
+      "ip_address": "23.23.107.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com",
+      "ip_address": "23.23.112.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-114-96.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-126-54.compute-1.amazonaws.com",
+      "ip_address": "23.23.126.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-144-49.compute-1.amazonaws.com",
+      "ip_address": "23.23.144.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-23-23-248-130.compute-1.amazonaws.com",
+      "ip_address": "23.23.248.130",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star6-shv-01-ams3.facebook.com",
+      "ip_address": "2a03:2880:f01b:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-amt2.facebook.com",
+      "ip_address": "31.13.64.16",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-yyz1.facebook.com",
+      "ip_address": "31.13.80.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-waw1.facebook.com",
+      "ip_address": "31.13.81.9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-mxp1.facebook.com",
+      "ip_address": "31.13.86.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "edge-star-shv-01-hkg3.facebook.com",
+      "ip_address": "31.13.95.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-206-103-68.compute-1.amazonaws.com",
+      "ip_address": "34.206.103.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-251-80-202.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.80.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-252-114-54.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.114.54",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-252-141-125.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.141.125",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-34-252-151-243.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.151.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-17-218-175.compute-1.amazonaws.com",
+      "ip_address": "50.17.218.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-19-100-110.compute-1.amazonaws.com",
+      "ip_address": "50.19.100.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-50-19-235-238.compute-1.amazonaws.com",
+      "ip_address": "50.19.235.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-17-144-123.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.144.123",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-19-222-185.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.222.185",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-30-180-28.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.180.28",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-49-77-55.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.77.55",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-52-51-180-135.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.180.135",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-197-235-216.compute-1.amazonaws.com",
+      "ip_address": "54.197.235.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-197-239-228.compute-1.amazonaws.com",
+      "ip_address": "54.197.239.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-204-4-24.compute-1.amazonaws.com",
+      "ip_address": "54.204.4.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-221-215-110.compute-1.amazonaws.com",
+      "ip_address": "54.221.215.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-221-222-20.compute-1.amazonaws.com",
+      "ip_address": "54.221.222.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-221-247-247.compute-1.amazonaws.com",
+      "ip_address": "54.221.247.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-225-167-80.compute-1.amazonaws.com",
+      "ip_address": "54.225.167.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-235-165-25.compute-1.amazonaws.com",
+      "ip_address": "54.235.165.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-235-86-237.compute-1.amazonaws.com",
+      "ip_address": "54.235.86.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-243-149-90.compute-1.amazonaws.com",
+      "ip_address": "54.243.149.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "de.stocard.stocard",
+      "ptr_domain": "ec2-54-76-143-181.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.143.181",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

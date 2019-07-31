@@ -1,0 +1,728 @@
+{
+  "appName": "Stocktwits",
+  "packageName": "org.stocktwits.android.activity",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.CAMERA",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "8.0.02",
+  "trackers": [
+    "MParticle",
+    "Google Ads",
+    "Facebook Login",
+    "Google Analytics",
+    "AppsFlyer",
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Apptentive",
+    "Google DoubleClick",
+    "Facebook Places",
+    "Braze (formerly Appboy)",
+    "Facebook Share",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.204.165",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.10.61",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.11.61",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-107-20-187-206.compute-1.amazonaws.com",
+      "ip_address": "107.20.187.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-107-21-236-253.compute-1.amazonaws.com",
+      "ip_address": "107.21.236.253",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-107-22-199-247.compute-1.amazonaws.com",
+      "ip_address": "107.22.199.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-107-22-241-19.compute-1.amazonaws.com",
+      "ip_address": "107.22.241.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-13-32-188-198.atl51.r.cloudfront.net",
+      "ip_address": "13.32.188.198",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-13-32-188-69.atl51.r.cloudfront.net",
+      "ip_address": "13.32.188.69",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "N/A",
+      "ip_address": "157.240.0.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "edge-star-shv-02-ort2.facebook.com",
+      "ip_address": "157.240.18.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "lax28s10-in-f2.1e100.net",
+      "ip_address": "172.217.5.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-174-129-42-30.compute-1.amazonaws.com",
+      "ip_address": "174.129.42.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-184-72-254-32.compute-1.amazonaws.com",
+      "ip_address": "184.72.254.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-23-23-114-90.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-23-23-114-96.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-23-23-96-14.compute-1.amazonaws.com",
+      "ip_address": "23.23.96.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "yi-in-x5e.1e100.net",
+      "ip_address": "2607:f8b0:4002:c0c::5e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:fb90:8f0:2::d",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "edge-star6-shv-01-iad3.facebook.com",
+      "ip_address": "2a03:2880:f003:c07:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "edge-mqtt6-shv-01-atl3.facebook.com",
+      "ip_address": "2a03:2880:f011:3:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "edge-star6-shv-01-lga3.facebook.com",
+      "ip_address": "2a03:2880:f012:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "edge-star-shv-01-atl3.facebook.com",
+      "ip_address": "31.13.65.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "livestream-edgetee-upload-shv-01-dub4.facebook.com",
+      "ip_address": "31.13.73.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-34-194-198-50.compute-1.amazonaws.com",
+      "ip_address": "34.194.198.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-34-202-199-236.compute-1.amazonaws.com",
+      "ip_address": "34.202.199.236",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-34-224-103-58.compute-1.amazonaws.com",
+      "ip_address": "34.224.103.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-34-227-130-188.compute-1.amazonaws.com",
+      "ip_address": "34.227.130.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-1-73-191.compute-1.amazonaws.com",
+      "ip_address": "52.1.73.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-200-58-73.compute-1.amazonaws.com",
+      "ip_address": "52.200.58.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-20-134-67.compute-1.amazonaws.com",
+      "ip_address": "52.20.134.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-20-177-245.compute-1.amazonaws.com",
+      "ip_address": "52.20.177.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-203-119-109.compute-1.amazonaws.com",
+      "ip_address": "52.203.119.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-203-65-193.compute-1.amazonaws.com",
+      "ip_address": "52.203.65.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-206-166-42.compute-1.amazonaws.com",
+      "ip_address": "52.206.166.42",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-207-71-179.compute-1.amazonaws.com",
+      "ip_address": "52.207.71.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-222-217-219.msp50.r.cloudfront.net",
+      "ip_address": "52.222.217.219",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-2-85-251.compute-1.amazonaws.com",
+      "ip_address": "52.2.85.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-52-45-19-101.compute-1.amazonaws.com",
+      "ip_address": "52.45.19.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-0-210.ord54.r.cloudfront.net",
+      "ip_address": "52.84.0.210",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-0-56.ord54.r.cloudfront.net",
+      "ip_address": "52.84.0.56",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-3-134.ord54.r.cloudfront.net",
+      "ip_address": "52.84.3.134",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-64-165.ord51.r.cloudfront.net",
+      "ip_address": "52.84.64.165",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-64-39.ord51.r.cloudfront.net",
+      "ip_address": "52.84.64.39",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-76-18.atl52.r.cloudfront.net",
+      "ip_address": "52.84.76.18",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-76-218.atl52.r.cloudfront.net",
+      "ip_address": "52.84.76.218",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-76-24.atl52.r.cloudfront.net",
+      "ip_address": "52.84.76.24",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-76-51.atl52.r.cloudfront.net",
+      "ip_address": "52.84.76.51",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-84-76-83.atl52.r.cloudfront.net",
+      "ip_address": "52.84.76.83",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-52-85-142-10.iad12.r.cloudfront.net",
+      "ip_address": "52.85.142.10",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-54-192-122-47.dfw50.r.cloudfront.net",
+      "ip_address": "54.192.122.47",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-54-192-122-65.dfw50.r.cloudfront.net",
+      "ip_address": "54.192.122.65",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-54-209-49-126.compute-1.amazonaws.com",
+      "ip_address": "54.209.49.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-54-225-179-254.compute-1.amazonaws.com",
+      "ip_address": "54.225.179.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-54-225-192-200.compute-1.amazonaws.com",
+      "ip_address": "54.225.192.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-54-230-90-103.ind6.r.cloudfront.net",
+      "ip_address": "54.230.90.103",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-54-230-90-15.ind6.r.cloudfront.net",
+      "ip_address": "54.230.90.15",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-54-230-90-244.ind6.r.cloudfront.net",
+      "ip_address": "54.230.90.244",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "server-54-230-90-52.ind6.r.cloudfront.net",
+      "ip_address": "54.230.90.52",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-54-235-101-190.compute-1.amazonaws.com",
+      "ip_address": "54.235.101.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "ec2-54-86-118-58.compute-1.amazonaws.com",
+      "ip_address": "54.86.118.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "org.stocktwits.android.activity",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

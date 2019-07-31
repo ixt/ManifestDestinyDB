@@ -1,7 +1,7 @@
 {
   "appName": "Fender Tune",
   "packageName": "com.fender.tuner",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -18,11 +18,43 @@
   ],
   "version": "3.2.0",
   "trackers": [
-    "Google CrashLytics",
-    "Google Analytics",
-    "Google Firebase Analytics",
+    "Adjust",
     "CleverTap",
+    "Google Analytics",
     "Segment",
-    "Adjust"
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fender.tuner",
+      "ptr_domain": "ec2-23-23-96-77.compute-1.amazonaws.com",
+      "ip_address": "23.23.96.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fender.tuner",
+      "ptr_domain": "ec2-35-163-135-126.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.135.126",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fender.tuner",
+      "ptr_domain": "ec2-52-88-79-183.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.88.79.183",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

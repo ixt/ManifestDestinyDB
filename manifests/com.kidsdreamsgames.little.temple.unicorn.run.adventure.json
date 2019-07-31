@@ -1,7 +1,7 @@
 {
   "appName": "🦄 Unicorn Run 3D",
   "packageName": "com.kidsdreamsgames.little.temple.unicorn.run.adventure",
-  "category": "GAME_CASUAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -30,10 +30,32 @@
   ],
   "version": "1.3.0",
   "trackers": [
-    "Google Firebase Analytics",
-    "Unity3d Ads",
     "Google Ads",
+    "Google Firebase Analytics",
+    "Google DoubleClick",
     "OneSignal",
-    "Google DoubleClick"
+    "Unity3d Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.kidsdreamsgames.little.temple.unicorn.run.adventure",
+      "ptr_domain": "ec2-52-87-167-98.compute-1.amazonaws.com",
+      "ip_address": "52.87.167.98",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.kidsdreamsgames.little.temple.unicorn.run.adventure",
+      "ptr_domain": "ec2-54-146-38-96.compute-1.amazonaws.com",
+      "ip_address": "54.146.38.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

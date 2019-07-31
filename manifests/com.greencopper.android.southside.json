@@ -1,7 +1,7 @@
 {
   "appName": "Southside",
   "packageName": "com.greencopper.android.southside",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,14 +25,26 @@
   ],
   "version": "10.1.0",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Analytics",
-    "Google CrashLytics",
-    "Kontakt",
-    "Facebook Login",
-    "Segment",
     "Facebook Analytics",
     "Facebook Share",
-    "Colocator"
+    "Google Firebase Analytics",
+    "Segment",
+    "Kontakt",
+    "Google CrashLytics",
+    "Google Analytics",
+    "Colocator",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.greencopper.android.southside",
+      "ptr_domain": "ec2-54-243-106-99.compute-1.amazonaws.com",
+      "ip_address": "54.243.106.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

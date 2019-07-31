@@ -1,7 +1,7 @@
 {
   "appName": "Family Locator",
   "packageName": "com.zoemob.gpstracking",
-  "category": "PARENTING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -38,15 +38,57 @@
   ],
   "version": "4.60",
   "trackers": [
-    "Flurry",
-    "AppLovin",
     "Facebook Login",
     "Google Analytics",
-    "AccountKit",
-    "Google Ads",
+    "Google DoubleClick",
+    "Flurry",
     "Google Firebase Analytics",
-    "Facebook Analytics",
+    "AccountKit",
+    "AppLovin",
+    "Google Ads",
     "Facebook Share",
-    "Google DoubleClick"
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.zoemob.gpstracking",
+      "ptr_domain": "proxy.vip.pod5.iad1.zdsys.com",
+      "ip_address": "192.161.154.1",
+      "loc_city": "Lafayette",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.114400",
+      "loc_lat": "37.899400"
+    },
+    {
+      "package": "com.zoemob.gpstracking",
+      "ptr_domain": "ec2-34-196-54-133.compute-1.amazonaws.com",
+      "ip_address": "34.196.54.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zoemob.gpstracking",
+      "ptr_domain": "ec2-52-22-90-7.compute-1.amazonaws.com",
+      "ip_address": "52.22.90.7",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zoemob.gpstracking",
+      "ptr_domain": "ec2-54-175-77-90.compute-1.amazonaws.com",
+      "ip_address": "54.175.77.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

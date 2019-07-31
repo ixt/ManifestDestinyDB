@@ -1,7 +1,7 @@
 {
   "appName": "USA",
   "packageName": "com.usanetwork.watcher",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -16,17 +16,389 @@
   ],
   "version": "3.5.0",
   "trackers": [
-    "Kochava",
-    "Google Analytics",
-    "Demdex",
-    "Nexage",
     "Apteligent by VMWare (formerly Crittercism)",
-    "ComScore",
     "Conviva",
+    "Nexage",
+    "Kochava",
+    "ComScore",
+    "Google Analytics",
+    "Moat",
     "Google DoubleClick",
-    "Google CrashLytics",
     "Google Ads",
+    "Google CrashLytics",
     "MixPanel",
-    "Moat"
+    "Demdex"
+  ],
+  "network_connections": [
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "a104-68-109-142.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.68.109.142",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "148.254.178.107.bc.googleusercontent.com",
+      "ip_address": "107.178.254.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-107-22-238-80.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "f.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "1f.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.31",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "23.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "24.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "sfo03s08-in-f34.1e100.net",
+      "ip_address": "172.217.6.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-184-169-134-65.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.134.65",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "a23-209-177-192.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.209.177.192",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "a23-209-178-19.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.209.178.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-23-23-154-194.compute-1.amazonaws.com",
+      "ip_address": "23.23.154.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-23-23-227-23.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "a23-56-115-76.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.56.115.76",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-34-196-179-141.compute-1.amazonaws.com",
+      "ip_address": "34.196.179.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-35-165-117-199.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.165.117.199",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-50-16-185-40.compute-1.amazonaws.com",
+      "ip_address": "50.16.185.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-50-16-222-66.compute-1.amazonaws.com",
+      "ip_address": "50.16.222.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-50-16-226-200.compute-1.amazonaws.com",
+      "ip_address": "50.16.226.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-50-18-179-7.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.179.7",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-50-18-54-179.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.54.179",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-52-206-85-215.compute-1.amazonaws.com",
+      "ip_address": "52.206.85.215",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-52-4-172-8.compute-1.amazonaws.com",
+      "ip_address": "52.4.172.8",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-52-41-86-56.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.41.86.56",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-52-71-17-135.compute-1.amazonaws.com",
+      "ip_address": "52.71.17.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-52-72-153-189.compute-1.amazonaws.com",
+      "ip_address": "52.72.153.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-52-7-245-63.compute-1.amazonaws.com",
+      "ip_address": "52.7.245.63",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-52-7-38-171.compute-1.amazonaws.com",
+      "ip_address": "52.7.38.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "server-52-84-245-150.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.245.150",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "server-52-84-245-212.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.245.212",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "server-52-84-245-237.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.245.237",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "server-52-84-245-27.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.245.27",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "server-52-84-245-62.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.245.62",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-52-88-212-202.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.88.212.202",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-54-149-15-98.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.149.15.98",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "ec2-54-243-251-231.compute-1.amazonaws.com",
+      "ip_address": "54.243.251.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.usanetwork.watcher",
+      "ptr_domain": "as.la.dtvce.com",
+      "ip_address": "99.193.227.44",
+      "loc_city": "Denver",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-104.881400",
+      "loc_lat": "39.699300"
+    }
   ]
 }

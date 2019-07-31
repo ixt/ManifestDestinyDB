@@ -1,7 +1,7 @@
 {
   "appName": "DHL Paket",
   "packageName": "de.dhl.paket",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -19,9 +19,31 @@
   ],
   "version": "2.25.1",
   "trackers": [
-    "Flurry",
     "Scandit",
-    "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Flurry",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "de.dhl.paket",
+      "ptr_domain": "N/A",
+      "ip_address": "149.239.171.9",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "de.dhl.paket",
+      "ptr_domain": "ec2-54-225-151-2.compute-1.amazonaws.com",
+      "ip_address": "54.225.151.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

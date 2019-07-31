@@ -1,7 +1,7 @@
 {
   "appName": "Trip.com",
   "packageName": "ctrip.english",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_ASSISTED_GPS",
@@ -41,14 +41,36 @@
   ],
   "version": "6.11.0",
   "trackers": [
-    "AppsFlyer",
-    "Facebook Login",
-    "Facebook Places",
-    "Google Firebase Analytics",
     "Facebook Share",
-    "Facebook Analytics",
+    "Facebook Login",
+    "Bugly",
+    "Facebook Places",
     "Baidu Location",
-    "Baidu Map",
-    "Bugly"
+    "Google Firebase Analytics",
+    "AppsFlyer",
+    "Facebook Analytics",
+    "Baidu Map"
+  ],
+  "network_connections": [
+    {
+      "package": "ctrip.english",
+      "ptr_domain": "a104-120-166-22.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.120.166.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ctrip.english",
+      "ptr_domain": "whatsapp-cdn-shv-02-sin6.fbcdn.net",
+      "ip_address": "157.240.13.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

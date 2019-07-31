@@ -1,7 +1,7 @@
 {
   "appName": "My Mixtapez",
   "packageName": "my.googlemusic.play",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -33,22 +33,34 @@
   ],
   "version": "7.8.6",
   "trackers": [
-    "Facebook Places",
-    "Facebook Ads",
+    "Google CrashLytics",
+    "Twitter MoPub",
+    "Amazon Advertisement",
+    "Google Firebase Analytics",
+    "Amazon Analytics",
+    "Facebook Login",
+    "Google DoubleClick",
+    "Flurry",
+    "Facebook Share",
     "Cuebiq",
     "Google Ads",
-    "Moat",
-    "Google CrashLytics",
-    "Flurry",
-    "Google DoubleClick",
-    "Amazon Advertisement",
+    "Facebook Ads",
+    "Facebook Places",
     "Facebook Analytics",
-    "Twitter MoPub",
-    "Facebook Share",
-    "Amazon Analytics",
-    "Google Firebase Analytics",
-    "Facebook Login",
-    "Millennial Media",
-    "Google Analytics"
+    "Moat",
+    "Google Analytics",
+    "Millennial Media"
+  ],
+  "network_connections": [
+    {
+      "package": "my.googlemusic.play",
+      "ptr_domain": "ec2-54-243-104-248.compute-1.amazonaws.com",
+      "ip_address": "54.243.104.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "YOOX",
   "packageName": "com.yoox",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -20,16 +20,48 @@
   ],
   "version": "5.2.8",
   "trackers": [
+    "Google CrashLytics",
+    "Adjust",
     "Google Firebase Analytics",
+    "Optimizely",
     "Google Analytics",
+    "Facebook Login",
+    "Tag Commander",
     "Facebook Analytics",
     "Localytics",
     "Facebook Share",
-    "Google CrashLytics",
-    "Optimizely",
-    "Facebook Login",
-    "Brightcove",
-    "Tag Commander",
-    "Adjust"
+    "Brightcove"
+  ],
+  "network_connections": [
+    {
+      "package": "com.yoox",
+      "ptr_domain": "a2-20-237-23.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.20.237.23",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.yoox",
+      "ptr_domain": "ec2-52-2-69-252.compute-1.amazonaws.com",
+      "ip_address": "52.2.69.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.yoox",
+      "ptr_domain": "a95-101-70-74.deploy.static.akamaitechnologies.com",
+      "ip_address": "95.101.70.74",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
   ]
 }

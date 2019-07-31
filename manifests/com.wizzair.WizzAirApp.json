@@ -1,7 +1,7 @@
 {
   "appName": "Wizz Air",
   "packageName": "com.wizzair.WizzAirApp",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -17,9 +17,31 @@
   ],
   "version": "6.3.0",
   "trackers": [
+    "Google Firebase Analytics",
     "New Relic",
     "Google CrashLytics",
-    "Google Analytics",
-    "Google Firebase Analytics"
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.wizzair.WizzAirApp",
+      "ptr_domain": "ec2-54-221-215-110.compute-1.amazonaws.com",
+      "ip_address": "54.221.215.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.wizzair.WizzAirApp",
+      "ptr_domain": "ec2-54-243-182-104.compute-1.amazonaws.com",
+      "ip_address": "54.243.182.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Bukalapak",
   "packageName": "com.bukalapak.android",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -37,15 +37,27 @@
   ],
   "version": "4.37.6",
   "trackers": [
-    "Google Firebase Analytics",
-    "Branch",
-    "Facebook Places",
-    "Google CrashLytics",
     "Facebook Login",
-    "Facebook Share",
-    "ComScore",
+    "Google Firebase Analytics",
     "Google Analytics",
+    "Facebook Places",
     "Adjust",
-    "Moat"
+    "Facebook Share",
+    "Google CrashLytics",
+    "Moat",
+    "ComScore",
+    "Branch"
+  ],
+  "network_connections": [
+    {
+      "package": "com.bukalapak.android",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

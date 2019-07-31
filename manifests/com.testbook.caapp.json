@@ -1,7 +1,7 @@
 {
   "appName": "Current Affairs",
   "packageName": "com.testbook.caapp",
-  "category": "EDUCATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -22,10 +22,572 @@
   ],
   "version": "3.0.0",
   "trackers": [
+    "Google Analytics",
     "Google Firebase Analytics",
     "Facebook Login",
     "Google CrashLytics",
-    "Google Analytics",
     "MixPanel"
+  ],
+  "network_connections": [
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.4.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-107-20-243-255.compute-1.amazonaws.com",
+      "ip_address": "107.20.243.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.0.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.128.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.192.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.64.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "fna-fbcdn-shv-02-fdel1.fbcdn.net",
+      "ip_address": "157.240.189.81",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "presence.truecaller.com",
+      "ip_address": "192.121.90.188",
+      "loc_city": "N/A",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.056000",
+      "loc_lat": "59.324700"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "maa03s22-in-x10.1e100.net",
+      "ip_address": "2404:6800:4007:801::2010",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "bom07s11-in-x08.1e100.net",
+      "ip_address": "2404:6800:4009:803::2008",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:3400:7:c266:a140:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:7200:7:c266:a140:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:9200:7:c266:a140:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:c800:7:c266:a140:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2098:5600:7:c266:a140:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-34-197-178-240.compute-1.amazonaws.com",
+      "ip_address": "34.197.178.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-34-199-181-79.compute-1.amazonaws.com",
+      "ip_address": "34.199.181.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-34-225-120-57.compute-1.amazonaws.com",
+      "ip_address": "34.225.120.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-34-248-128-242.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.248.128.242",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-34-249-168-100.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.168.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-34-249-56-85.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.56.85",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-35-154-193-49.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.193.49",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "159.246.186.35.bc.googleusercontent.com",
+      "ip_address": "35.186.246.159",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.91.145",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-50-19-220-208.compute-1.amazonaws.com",
+      "ip_address": "50.19.220.208",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-50-19-241-12.compute-1.amazonaws.com",
+      "ip_address": "50.19.241.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-52-18-229-127.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.229.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-52-215-23-51.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.215.23.51",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.227.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-136-10.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.10",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-136-113.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.113",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-136-159.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.159",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-136-183.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.183",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-136-188.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.188",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-136-229.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.229",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-136-65.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.65",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-190-146.bom52.r.cloudfront.net",
+      "ip_address": "52.222.190.146",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-190-183.bom52.r.cloudfront.net",
+      "ip_address": "52.222.190.183",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-190-62.bom52.r.cloudfront.net",
+      "ip_address": "52.222.190.62",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-52-222-190-96.bom52.r.cloudfront.net",
+      "ip_address": "52.222.190.96",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-52-30-196-20.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.196.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-52-44-125-139.compute-1.amazonaws.com",
+      "ip_address": "52.44.125.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-52-48-221-73.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.221.73",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-52-6-33-14.compute-1.amazonaws.com",
+      "ip_address": "52.6.33.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-54-154-194-72.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.194.72",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-54-171-42-50.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.42.50",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-54-225-170-144.compute-1.amazonaws.com",
+      "ip_address": "54.225.170.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-54-229-143-59.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.143.59",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "server-54-230-191-139.maa3.r.cloudfront.net",
+      "ip_address": "54.230.191.139",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.73.42",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-54-235-132-180.compute-1.amazonaws.com",
+      "ip_address": "54.235.132.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-54-246-139-143.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.139.143",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-54-72-11-202.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.11.202",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "ec2-54-77-82-212.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.82.212",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.testbook.caapp",
+      "ptr_domain": "sa-in-f128.1e100.net",
+      "ip_address": "74.125.200.128",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Aaptiv",
   "packageName": "com.aaptiv.android",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -22,17 +22,399 @@
   ],
   "version": "3.1.9-prod",
   "trackers": [
-    "Facebook Analytics",
-    "Facebook Places",
-    "Facebook Login",
-    "Facebook Share",
-    "MixPanel",
-    "Segment",
-    "Google CrashLytics",
     "Google DoubleClick",
-    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Branch",
+    "AppsFlyer",
     "Google Ads",
-    "AppsFlyer"
+    "Segment",
+    "Facebook Login",
+    "Google Firebase Analytics",
+    "MixPanel",
+    "Facebook Share",
+    "Facebook Analytics",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "edge-z-p1-shv-01-sea1.facebook.com",
+      "ip_address": "157.240.3.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "a.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "c.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "13.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "2.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "3.81.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.129.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.177",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.180",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.61",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-23-21-142-10.compute-1.amazonaws.com",
+      "ip_address": "23.21.142.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-23-21-213-97.compute-1.amazonaws.com",
+      "ip_address": "23.21.213.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f000:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "xx-fbcdn6-shv-01-iad3.fbcdn.net",
+      "ip_address": "2a03:2880:f003:c0e:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "edge-star6-shv-02-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:110:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "xx-fbcdn6-shv-02-lax3.fbcdn.net",
+      "ip_address": "2a03:2880:f00d:115:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "xx-fbcdn6-shv-01-atl3.fbcdn.net",
+      "ip_address": "2a03:2880:f011:8:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "edge-star6-shv-01-lga3.facebook.com",
+      "ip_address": "2a03:2880:f012:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:10d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:312:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "edge-z-m-mini6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f10d:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f122:84:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "edge-z-m-mini6-shv-02-ort2.facebook.com",
+      "ip_address": "2a03:2880:f127:284:face:b00c:0:14c9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-35-163-223-46.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.223.46",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-35-163-28-163.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.28.163",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-35-165-210-165.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.165.210.165",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-35-167-179-96.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.167.179.96",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-52-26-110-130.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.26.110.130",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-52-27-215-54.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.215.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-52-35-80-8.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.80.8",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-52-40-155-133.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.40.155.133",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-52-43-47-214.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.43.47.214",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-52-88-79-183.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.88.79.183",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-52-89-86-249.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.89.86.249",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "server-54-230-147-141.sfo20.r.cloudfront.net",
+      "ip_address": "54.230.147.141",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-54-243-99-96.compute-1.amazonaws.com",
+      "ip_address": "54.243.99.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.aaptiv.android",
+      "ptr_domain": "ec2-54-68-144-184.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.68.144.184",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

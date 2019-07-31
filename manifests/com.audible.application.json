@@ -1,7 +1,7 @@
 {
   "appName": "Audible",
   "packageName": "com.audible.application",
-  "category": "BOOKS_AND_REFERENCE",
+  "category": "",
   "icon": "",
   "permissions": [
     "amazon.permission.COLLECT_METRICS",
@@ -33,16 +33,1558 @@
   ],
   "version": "2.34.0",
   "trackers": [
-    "Facebook Analytics",
     "Amazon Analytics",
-    "Facebook Share",
+    "Facebook Login",
     "Google Firebase Analytics",
+    "Branch",
+    "Facebook Analytics",
+    "Demdex",
     "Kochava",
+    "Google CrashLytics",
     "Amazon Advertisement",
     "Google Analytics",
-    "Facebook Login",
-    "Google CrashLytics",
-    "Demdex",
-    "Branch"
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.65",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "a104-90-91-13.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.90.91.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "0.249.178.107.bc.googleusercontent.com",
+      "ip_address": "107.178.249.0",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "148.254.178.107.bc.googleusercontent.com",
+      "ip_address": "107.178.254.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "13.107.21.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star-shv-02-ort2.facebook.com",
+      "ip_address": "157.240.18.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "xx-fbcdn-shv-01-ort2.fbcdn.net",
+      "ip_address": "157.240.2.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star-mini-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ord38s04-in-f6.1e100.net",
+      "ip_address": "172.217.0.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ord37s07-in-f2.1e100.net",
+      "ip_address": "172.217.1.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ord37s07-in-f46.1e100.net",
+      "ip_address": "172.217.1.46",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "sea15s12-in-f2.1e100.net",
+      "ip_address": "172.217.3.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ord36s04-in-f100.1e100.net",
+      "ip_address": "172.217.4.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.100.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.100.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.100.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.101.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.101.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.103.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.103.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.98.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.98.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.98.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.99.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "176.32.99.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "a.tribalfusion.com",
+      "ip_address": "204.11.109.68",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "bs-ec.doubleverify.com",
+      "ip_address": "204.154.110.79",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "205.204.101.241",
+      "loc_city": "San Mateo",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330000",
+      "loc_lat": "37.551700"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "205.251.242.230",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "205.251.243.29",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "163-134.amazon.com",
+      "ip_address": "207.171.163.134",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "207.200.74.133",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "vip0x013.map2.ssl.hwcdn.net",
+      "ip_address": "209.197.3.19",
+      "loc_city": "Phoenix",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-112.067800",
+      "loc_lat": "33.509700"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "waw02s05-in-f46.1e100.net",
+      "ip_address": "216.58.209.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "lax17s05-in-f14.1e100.net",
+      "ip_address": "216.58.217.206",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "a23-197-19-41.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.197.19.41",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "a23-51-198-110.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.51.198.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "sfo03s08-in-x08.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2008",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "lax17s15-in-x05.1e100.net",
+      "ip_address": "2607:f8b0:4007:80c::2005",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f000:110:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f000:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star-shv-01-amt2.facebook.com",
+      "ip_address": "31.13.64.16",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star-shv-01-atl3.facebook.com",
+      "ip_address": "31.13.65.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star-shv-01-lax3.facebook.com",
+      "ip_address": "31.13.70.1",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "livestream-edgetee-upload-shv-01-dub4.facebook.com",
+      "ip_address": "31.13.73.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-34-194-193-178.compute-1.amazonaws.com",
+      "ip_address": "34.194.193.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-34-206-129-221.compute-1.amazonaws.com",
+      "ip_address": "34.206.129.221",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "40.113.87.220",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-52-201-153-133.compute-1.amazonaws.com",
+      "ip_address": "52.201.153.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-52-2-180-200.compute-1.amazonaws.com",
+      "ip_address": "52.2.180.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-52-222-214-194.msp50.r.cloudfront.net",
+      "ip_address": "52.222.214.194",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-52-222-214-59.msp50.r.cloudfront.net",
+      "ip_address": "52.222.214.59",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-52-222-219-155.msp50.r.cloudfront.net",
+      "ip_address": "52.222.219.155",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-52-222-219-192.msp50.r.cloudfront.net",
+      "ip_address": "52.222.219.192",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-52-3-97-114.compute-1.amazonaws.com",
+      "ip_address": "52.3.97.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-52-52-208-216.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.208.216",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-52-52-226-188.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.226.188",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-52-52-228-106.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.228.106",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-52-71-132-109.compute-1.amazonaws.com",
+      "ip_address": "52.71.132.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-52-84-231-76.sfo9.r.cloudfront.net",
+      "ip_address": "52.84.231.76",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-52-84-67-84.ord51.r.cloudfront.net",
+      "ip_address": "52.84.67.84",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.208.165",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.210.128",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.212.133",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.224.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.224.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.225.7",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.232.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.232.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.232.33",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.232.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.236.162",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.236.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-52-9-76-89.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.76.89",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-54-165-64-140.compute-1.amazonaws.com",
+      "ip_address": "54.165.64.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-54-183-135-40.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.135.40",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-54-192-141-133.sfo5.r.cloudfront.net",
+      "ip_address": "54.192.141.133",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-54-192-201-167.fra50.r.cloudfront.net",
+      "ip_address": "54.192.201.167",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-54-192-201-230.fra50.r.cloudfront.net",
+      "ip_address": "54.192.201.230",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-54-209-13-204.compute-1.amazonaws.com",
+      "ip_address": "54.209.13.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "ec2-54-225-165-43.compute-1.amazonaws.com",
+      "ip_address": "54.225.165.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "server-54-230-116-122.sfo9.r.cloudfront.net",
+      "ip_address": "54.230.116.122",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.16.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.17.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.22.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.23.82",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.24.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.26.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.26.167",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.26.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.26.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.26.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.26.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.26.244",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.27.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.27.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.27.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.29.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.29.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.29.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.29.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.31.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.31.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.32.48",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.33.205",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.34.82",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.35.51",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.37.30",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.240.254.241",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "54.240.254.249",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "dmppixel-shared-mtc-c.evip.aol.com",
+      "ip_address": "64.12.245.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "*.112.2o7.net",
+      "ip_address": "66.235.138.195",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "66.235.155.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "139.bm-nginx-loadbalancer.mgmt.nym2.adnexus.net",
+      "ip_address": "68.67.178.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "138.bm-nginx-loadbalancer.mgmt.nym2.adnexus.net",
+      "ip_address": "68.67.178.230",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "135.bm-nginx-loadbalancer.mgmt.nym2.adnexus.net",
+      "ip_address": "68.67.178.243",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.194.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.194.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.194.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.195.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "s3-console-us-standard.console.aws.amazon.com",
+      "ip_address": "72.21.195.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "s3-external-1.amazonaws.com",
+      "ip_address": "72.21.195.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.202.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "206-121.amazon.com",
+      "ip_address": "72.21.206.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "206-135.amazon.com",
+      "ip_address": "72.21.206.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "206-141.amazon.com",
+      "ip_address": "72.21.206.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "206-159.amazon.com",
+      "ip_address": "72.21.206.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "206-53.amazon.com",
+      "ip_address": "72.21.206.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.207.109",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.207.120",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "s3.amazonaws.com",
+      "ip_address": "72.21.207.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.207.148",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.207.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.207.5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.207.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.207.82",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "xml.amazon.com",
+      "ip_address": "72.21.207.8",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "210-52.amazon.com",
+      "ip_address": "72.21.210.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.215.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.215.58",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.91.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "vipmw01.rightnowtech.com",
+      "ip_address": "74.117.206.64",
+      "loc_city": "Elk Grove Village",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-87.995400",
+      "loc_lat": "42.004800"
+    },
+    {
+      "package": "com.audible.application",
+      "ptr_domain": "spdc.pbp.vip.bf1.yahoo.com",
+      "ip_address": "98.139.225.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

@@ -1,27 +1,89 @@
 {
   "appName": "ABC News",
   "packageName": "android.AbcApplication",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
     "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
     "com.google.android.c2dm.permission.RECEIVE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "6.0.5",
   "trackers": [
+    "Google CrashLytics",
     "Snowplow",
-    "Facebook Share",
-    "Google Analytics",
     "Flurry",
     "Facebook Places",
-    "Facebook Login",
+    "Google Analytics",
     "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Facebook Share",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "android.AbcApplication",
+      "ptr_domain": "edge-star-shv-01-syd2.facebook.com",
+      "ip_address": "157.240.8.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "android.AbcApplication",
+      "ptr_domain": "syd15s02-in-f36.1e100.net",
+      "ip_address": "172.217.25.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "android.AbcApplication",
+      "ptr_domain": "ec2-52-202-119-247.compute-1.amazonaws.com",
+      "ip_address": "52.202.119.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "android.AbcApplication",
+      "ptr_domain": "ec2-52-20-248-202.compute-1.amazonaws.com",
+      "ip_address": "52.20.248.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "android.AbcApplication",
+      "ptr_domain": "ec2-52-63-163-86.ap-southeast-2.compute.amazonaws.com",
+      "ip_address": "52.63.163.86",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "android.AbcApplication",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

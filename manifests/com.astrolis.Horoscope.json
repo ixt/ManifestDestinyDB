@@ -1,7 +1,7 @@
 {
   "appName": "Horoscope",
   "packageName": "com.astrolis.Horoscope",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -29,8 +29,40 @@
   ],
   "version": "3.6.2",
   "trackers": [
-    "Google Ads",
     "Google Firebase Analytics",
-    "Google DoubleClick"
+    "Google DoubleClick",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.astrolis.Horoscope",
+      "ptr_domain": "ec2-52-4-91-140.compute-1.amazonaws.com",
+      "ip_address": "52.4.91.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.astrolis.Horoscope",
+      "ptr_domain": "server-52-84-243-218.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.218",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.astrolis.Horoscope",
+      "ptr_domain": "ec2-54-235-110-50.compute-1.amazonaws.com",
+      "ip_address": "54.235.110.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "cloudLibrary",
   "packageName": "com.txtr.android.mmm",
-  "category": "BOOKS_AND_REFERENCE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,8 +23,40 @@
   ],
   "version": "4.2.17",
   "trackers": [
+    "New Relic",
     "Google Firebase Analytics",
-    "Google CrashLytics",
-    "New Relic"
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.txtr.android.mmm",
+      "ptr_domain": "N/A",
+      "ip_address": "40.76.192.15",
+      "loc_city": "Washington",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.153900",
+      "loc_lat": "38.709500"
+    },
+    {
+      "package": "com.txtr.android.mmm",
+      "ptr_domain": "ec2-52-45-109-218.compute-1.amazonaws.com",
+      "ip_address": "52.45.109.218",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.txtr.android.mmm",
+      "ptr_domain": "ec2-54-213-189-240.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.213.189.240",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

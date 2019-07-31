@@ -1,7 +1,7 @@
 {
   "appName": "AT Player",
   "packageName": "com.atpc",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -43,13 +43,335 @@
   ],
   "version": "1.328",
   "trackers": [
-    "OneSignal",
-    "Facebook Ads",
-    "Google Firebase Analytics",
-    "AppLovin",
-    "Google Ads",
     "Google CrashLytics",
+    "Facebook Ads",
+    "AppLovin",
+    "OneSignal",
     "Google DoubleClick",
+    "Google Ads",
+    "Google Firebase Analytics",
     "Duapps"
+  ],
+  "network_connections": [
+    {
+      "package": "com.atpc",
+      "ptr_domain": "sfo03s07-in-f110.1e100.net",
+      "ip_address": "172.217.5.110",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "ec2-174-129-40-213.compute-1.amazonaws.com",
+      "ip_address": "174.129.40.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "sfo07s13-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "sfo07s13-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "sfo03s01-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "sfo03s07-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "sfo03s07-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "sfo03s07-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "sfo07s17-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4007:2a::7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4007:2c::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4008:26::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4009:2e::13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4013:6::14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401c:2::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:11::6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:15::10",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:18::17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:18::e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:19::12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1a::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1b::b",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1f::7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:2::7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:2::c",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2a00:1450:401c:13::15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2a04:4e42:600::70",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "N/A",
+      "ip_address": "2a04:4e42::70",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "ec2-50-16-186-79.compute-1.amazonaws.com",
+      "ip_address": "50.16.186.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "ec2-50-19-114-116.compute-1.amazonaws.com",
+      "ip_address": "50.19.114.116",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "ec2-50-19-117-251.compute-1.amazonaws.com",
+      "ip_address": "50.19.117.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.atpc",
+      "ptr_domain": "ec2-54-243-109-101.compute-1.amazonaws.com",
+      "ip_address": "54.243.109.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

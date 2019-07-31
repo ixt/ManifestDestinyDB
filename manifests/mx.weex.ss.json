@@ -1,0 +1,380 @@
+{
+  "appName": "weex",
+  "packageName": "mx.weex.ss",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_APN_SETTINGS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "mx.weex.ss.permission.C2D_MESSAGE"
+  ],
+  "version": "1.0.51",
+  "trackers": [
+    "Google Analytics",
+    "Google CrashLytics",
+    "AppsFlyer",
+    "Facebook Login",
+    "Facebook Share",
+    "Apteligent by VMWare (formerly Crittercism)",
+    "Facebook Analytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "a104-118-248-56.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.118.248.56",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "qro01s14-in-f8.1e100.net",
+      "ip_address": "172.217.5.168",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "N/A",
+      "ip_address": "172.99.100.50",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "qro01s13-in-f40.1e100.net",
+      "ip_address": "216.58.193.40",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "a23-204-186-105.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.204.186.105",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "edge-star-shv-01-lax3.facebook.com",
+      "ip_address": "31.13.70.1",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "xx-fbcdn-shv-01-lax3.fbcdn.net",
+      "ip_address": "31.13.70.7",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-34-198-72-122.compute-1.amazonaws.com",
+      "ip_address": "34.198.72.122",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-34-253-72-240.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.253.72.240",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-50-16-205-27.compute-1.amazonaws.com",
+      "ip_address": "50.16.205.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-50-16-213-250.compute-1.amazonaws.com",
+      "ip_address": "50.16.213.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-50-19-224-242.compute-1.amazonaws.com",
+      "ip_address": "50.19.224.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-17-74-6.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.74.6",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-210-175-246.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.175.246",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-4-223-188.compute-1.amazonaws.com",
+      "ip_address": "52.4.223.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-48-240-221.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.240.221",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-52-151-52.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.151.52",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-52-99-185.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.99.185",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-73-164-50.compute-1.amazonaws.com",
+      "ip_address": "52.73.164.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-73-234-2.compute-1.amazonaws.com",
+      "ip_address": "52.73.234.2",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-8-115-243.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.115.243",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-52-9-56-46.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.56.46",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-164-5-207.compute-1.amazonaws.com",
+      "ip_address": "54.164.5.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-165-147-101.compute-1.amazonaws.com",
+      "ip_address": "54.165.147.101",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-165-170-102.compute-1.amazonaws.com",
+      "ip_address": "54.165.170.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-183-103-252.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.103.252",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-183-96-151.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.96.151",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-193-253-1.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.253.1",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-193-253-2.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.253.2",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-193-253-3.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.253.3",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-215-224-84.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.215.224.84",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-225-162-66.compute-1.amazonaws.com",
+      "ip_address": "54.225.162.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "mx.weex.ss",
+      "ptr_domain": "ec2-54-235-247-104.compute-1.amazonaws.com",
+      "ip_address": "54.235.247.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
+  ]
+}

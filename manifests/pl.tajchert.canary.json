@@ -1,7 +1,7 @@
 {
   "appName": "Canary",
   "packageName": "pl.tajchert.canary",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -34,9 +34,31 @@
   ],
   "version": "2.0.0",
   "trackers": [
-    "Google CrashLytics",
     "Google Analytics",
-    "OneSignal",
-    "Google Firebase Analytics"
+    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "OneSignal"
+  ],
+  "network_connections": [
+    {
+      "package": "pl.tajchert.canary",
+      "ptr_domain": "ec2-52-58-250-149.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.58.250.149",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "pl.tajchert.canary",
+      "ptr_domain": "dynamodb.eu-central-1.amazonaws.com",
+      "ip_address": "52.94.17.74",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    }
   ]
 }

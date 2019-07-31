@@ -1,7 +1,7 @@
 {
   "appName": "İBB CepTrafik",
   "packageName": "tr.gov.ibb.ibbceptrafik",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,9 +25,41 @@
   "version": "4.6.0.6",
   "trackers": [
     "Google Ads",
-    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Google DoubleClick",
-    "Google Analytics",
-    "Google CrashLytics"
+    "Google Firebase Analytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "tr.gov.ibb.ibbceptrafik",
+      "ptr_domain": "ams16s29-in-f3.1e100.net",
+      "ip_address": "172.217.17.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "tr.gov.ibb.ibbceptrafik",
+      "ptr_domain": "mil04s27-in-f142.1e100.net",
+      "ip_address": "216.58.205.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "tr.gov.ibb.ibbceptrafik",
+      "ptr_domain": "mil04s28-in-f14.1e100.net",
+      "ip_address": "216.58.205.174",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    }
   ]
 }

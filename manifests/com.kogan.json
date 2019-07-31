@@ -1,7 +1,7 @@
 {
   "appName": "Kogan",
   "packageName": "com.kogan",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,14 +22,26 @@
   ],
   "version": "2.0.3",
   "trackers": [
-    "Facebook Share",
-    "Facebook Places",
     "Facebook Analytics",
-    "Facebook Login",
+    "Facebook Places",
+    "Google Analytics",
     "Google Firebase Analytics",
     "Segment",
     "Google CrashLytics",
-    "New Relic",
-    "Google Analytics"
+    "Facebook Share",
+    "Facebook Login",
+    "New Relic"
+  ],
+  "network_connections": [
+    {
+      "package": "com.kogan",
+      "ptr_domain": "a23-212-198-114.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.212.198.114",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

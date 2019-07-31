@@ -1,7 +1,7 @@
 {
   "appName": "Freshservice",
   "packageName": "com.freshservice.helpdesk",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -19,7 +19,39 @@
   ],
   "version": "3.9.2",
   "trackers": [
-    "MixPanel",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "MixPanel"
+  ],
+  "network_connections": [
+    {
+      "package": "com.freshservice.helpdesk",
+      "ptr_domain": "90.21.36a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.54.33.144",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.freshservice.helpdesk",
+      "ptr_domain": "ec2-52-45-98-71.compute-1.amazonaws.com",
+      "ip_address": "52.45.98.71",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.freshservice.helpdesk",
+      "ptr_domain": "ec2-54-225-98-79.compute-1.amazonaws.com",
+      "ip_address": "54.225.98.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "",
   "packageName": "com.ryanair.cheapflights",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -28,16 +28,508 @@
   ],
   "version": "3.62.1",
   "trackers": [
+    "Facebook Analytics",
     "Demdex",
     "Swrve",
-    "HockeyApp",
-    "Facebook Share",
     "Google Firebase Analytics",
-    "Google DoubleClick",
-    "Facebook Analytics",
-    "Inmobi",
-    "Google Ads",
+    "Facebook Share",
     "Facebook Login",
-    "Google CrashLytics"
+    "Inmobi",
+    "HockeyApp",
+    "Google Ads",
+    "Google CrashLytics",
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "133.247.178.107.bc.googleusercontent.com",
+      "ip_address": "107.178.247.133",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-107-20-151-187.compute-1.amazonaws.com",
+      "ip_address": "107.20.151.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-107-20-246-158.compute-1.amazonaws.com",
+      "ip_address": "107.20.246.158",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "edge-star-shv-02-frt3.facebook.com",
+      "ip_address": "157.240.20.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "N/A",
+      "ip_address": "162.13.60.122",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-174-129-209-245.compute-1.amazonaws.com",
+      "ip_address": "174.129.209.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "edge-star-shv-01-bru2.facebook.com",
+      "ip_address": "179.60.195.7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-184-73-207-183.compute-1.amazonaws.com",
+      "ip_address": "184.73.207.183",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "N/A",
+      "ip_address": "185.60.216.15",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "N/A",
+      "ip_address": "192.243.250.68",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "*.sc.omtrdc.net",
+      "ip_address": "192.243.250.84",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "a2-16-190-245.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.16.190.245",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "a2-19-173-17.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.19.173.17",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-23-21-59-163.compute-1.amazonaws.com",
+      "ip_address": "23.21.59.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-23-23-101-152.compute-1.amazonaws.com",
+      "ip_address": "23.23.101.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-23-23-114-28.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-23-23-115-174.compute-1.amazonaws.com",
+      "ip_address": "23.23.115.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-23-23-215-5.compute-1.amazonaws.com",
+      "ip_address": "23.23.215.5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "a23-9-43-27.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.9.43.27",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "edge-star6-shv-01-amt2.facebook.com",
+      "ip_address": "2a03:2880:f006:15:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "edge-star-shv-01-waw1.facebook.com",
+      "ip_address": "31.13.81.9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-34-249-139-42.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.139.42",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "N/A",
+      "ip_address": "37.18.148.84",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "N/A",
+      "ip_address": "37.18.149.208",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "N/A",
+      "ip_address": "37.18.149.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-50-16-226-96.compute-1.amazonaws.com",
+      "ip_address": "50.16.226.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-52-17-210-152.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.210.152",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-52-17-222-169.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.222.169",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-52-208-15-34.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.15.34",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-52-31-139-251.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.139.251",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-52-49-66-183.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.66.183",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-54-154-100-118.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.100.118",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-54-154-18-32.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.18.32",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-54-154-198-146.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.198.146",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-54-171-94-79.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.94.79",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-54-225-79-128.compute-1.amazonaws.com",
+      "ip_address": "54.225.79.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-54-243-38-50.compute-1.amazonaws.com",
+      "ip_address": "54.243.38.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-54-243-72-146.compute-1.amazonaws.com",
+      "ip_address": "54.243.72.146",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "ec2-54-76-110-90.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.110.90",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "N/A",
+      "ip_address": "62.73.129.157",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "rynukplrtb002.cwspoole.co.uk",
+      "ip_address": "62.73.129.173",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "N/A",
+      "ip_address": "66.117.29.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "a92-122-165-68.deploy.static.akamaitechnologies.com",
+      "ip_address": "92.122.165.68",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.ryanair.cheapflights",
+      "ptr_domain": "a92-122-45-137.deploy.static.akamaitechnologies.com",
+      "ip_address": "92.122.45.137",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    }
   ]
 }

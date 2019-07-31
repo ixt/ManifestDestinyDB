@@ -1,7 +1,7 @@
 {
   "appName": "Zynga Poker",
   "packageName": "com.zynga.livepoker",
-  "category": "GAME_CASINO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -23,13 +23,25 @@
   ],
   "version": "21.67",
   "trackers": [
-    "Facebook Analytics",
+    "Twitter MoPub",
     "Google Firebase Analytics",
-    "Adjust",
-    "Facebook Share",
-    "Apteligent by VMWare (formerly Crittercism)",
+    "Facebook Analytics",
     "Unity3d Ads",
+    "Facebook Share",
+    "Adjust",
     "Facebook Login",
-    "Twitter MoPub"
+    "Apteligent by VMWare (formerly Crittercism)"
+  ],
+  "network_connections": [
+    {
+      "package": "com.zynga.livepoker",
+      "ptr_domain": "ec2-54-193-253-7.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.253.7",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    }
   ]
 }

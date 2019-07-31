@@ -1,7 +1,7 @@
 {
   "appName": "InstantCheckmate",
   "packageName": "com.instantcheckmate.app",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -39,12 +39,24 @@
   ],
   "version": "1.24.0",
   "trackers": [
-    "Facebook Places",
     "Facebook Login",
-    "Facebook Analytics",
-    "Facebook Share",
-    "Google Analytics",
+    "Google Firebase Analytics",
+    "Facebook Places",
     "OneSignal",
-    "Google Firebase Analytics"
+    "Facebook Analytics",
+    "Google Analytics",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.instantcheckmate.app",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.254.252",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

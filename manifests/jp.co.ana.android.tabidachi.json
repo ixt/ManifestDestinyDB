@@ -1,7 +1,7 @@
 {
   "appName": "ANA",
   "packageName": "jp.co.ana.android.tabidachi",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "aero.panasonic.inflight.permission.ACCESS_IFESERVICE",
@@ -17,7 +17,29 @@
   ],
   "version": "4.1.28",
   "trackers": [
-    "Google CrashLytics",
-    "Google Firebase Analytics"
+    "Google Firebase Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "jp.co.ana.android.tabidachi",
+      "ptr_domain": "ec2-184-73-195-3.compute-1.amazonaws.com",
+      "ip_address": "184.73.195.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "jp.co.ana.android.tabidachi",
+      "ptr_domain": "ec2-54-204-4-24.compute-1.amazonaws.com",
+      "ip_address": "54.204.4.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

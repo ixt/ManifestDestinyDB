@@ -1,7 +1,7 @@
 {
   "appName": "Food Network",
   "packageName": "com.foodnetwork.watcher",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -13,16 +13,38 @@
   ],
   "version": "2.12.1",
   "trackers": [
-    "Braze (formerly Appboy)",
     "Google Analytics",
+    "Google Firebase Analytics",
+    "Conviva",
+    "Google DoubleClick",
     "Google Ads",
     "Moat",
-    "Kochava",
-    "Google Firebase Analytics",
-    "Facebook Share",
-    "ComScore",
     "Google CrashLytics",
-    "Conviva",
-    "Google DoubleClick"
+    "Kochava",
+    "ComScore",
+    "Braze (formerly Appboy)",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.foodnetwork.watcher",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.0.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.foodnetwork.watcher",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.128.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

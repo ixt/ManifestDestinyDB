@@ -8,6 +8,7 @@ FULLPATH=$(readlink -f $package)
 ./Manifest.sh "${FULLPATH}" > $TEMP
 PKGNAME=$(jq -r .packageName $TEMP)
 
+rm -rf .tmp/ >/dev/null
 pushd ./otherData/exodus-standalone/
     source env/bin/activate
     

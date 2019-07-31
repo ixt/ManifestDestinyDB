@@ -1,7 +1,7 @@
 {
   "appName": "NOAA Weather",
   "packageName": "pandamonium.noaaweather",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -16,8 +16,20 @@
   ],
   "version": "7.9.3",
   "trackers": [
-    "Google Ads",
     "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "pandamonium.noaaweather",
+      "ptr_domain": "fra15s29-in-f3.1e100.net",
+      "ip_address": "172.217.18.163",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

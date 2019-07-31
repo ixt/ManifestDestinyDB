@@ -1,7 +1,7 @@
 {
   "appName": "Antivirus Free",
   "packageName": "com.bitdefender.antivirus",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -20,9 +20,641 @@
   ],
   "version": "3.5.564",
   "trackers": [
-    "Google CrashLytics",
+    "Google Analytics",
     "Google Firebase Analytics",
-    "HockeyApp",
-    "Google Analytics"
+    "Google CrashLytics",
+    "HockeyApp"
+  ],
+  "network_connections": [
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.6.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.7.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "iad23s41-in-f78.1e100.net",
+      "ip_address": "216.58.217.78",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "dfw06s46-in-f162.1e100.net",
+      "ip_address": "216.58.218.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-34-197-198-3.compute-1.amazonaws.com",
+      "ip_address": "34.197.198.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-34-203-123-100.compute-1.amazonaws.com",
+      "ip_address": "34.203.123.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-156-141-183.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.156.141.183",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-156-200-114.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.156.200.114",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-156-219-181.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.156.219.181",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-156-42-33.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.156.42.33",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-156-57-241.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.156.57.241",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-157-119-216.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.157.119.216",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-157-137-71.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.157.137.71",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-157-155-191.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.157.155.191",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-157-250-38.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.157.250.38",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-157-77-234.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.157.77.234",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-158-50-166.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.158.50.166",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-158-50-44.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.158.50.44",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-158-56-236.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.158.56.236",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-35-164-143-31.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.164.143.31",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-196-210-250.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.196.210.250",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-197-194-208.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.197.194.208",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-197-198-118.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.197.198.118",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-197-217-138.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.197.217.138",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-197-220-254.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.197.220.254",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-197-86-192.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.197.86.192",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-206-151-6.compute-1.amazonaws.com",
+      "ip_address": "52.206.151.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-206-156-209.compute-1.amazonaws.com",
+      "ip_address": "52.206.156.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-2-136-191.compute-1.amazonaws.com",
+      "ip_address": "52.2.136.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-28-146-11.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.28.146.11",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-28-224-193.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.28.224.193",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-28-225-142.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.28.225.142",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-28-225-168.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.28.225.168",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-28-42-32.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.28.42.32",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-28-87-102.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.28.87.102",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-28-94-9.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.28.94.9",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-29-107-24.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.107.24",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-29-126-29.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.126.29",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-29-136-91.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.136.91",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-29-141-207.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.141.207",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-29-157-247.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.157.247",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-29-234-163.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.234.163",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-29-247-113.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.247.113",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-29-36-254.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.36.254",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-29-50-5.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.29.50.5",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-35-235-119.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.235.119",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-35-35-148.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.35.148",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-4-148-25.compute-1.amazonaws.com",
+      "ip_address": "52.4.148.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-45-231-34.compute-1.amazonaws.com",
+      "ip_address": "52.45.231.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-5-166-35.compute-1.amazonaws.com",
+      "ip_address": "52.5.166.35",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-57-50-149.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.57.50.149",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-58-183-77.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.58.183.77",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-58-211-65.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.58.211.65",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-58-225-113.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.58.225.113",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-58-230-149.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.58.230.149",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-58-83-248.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.58.83.248",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-68-188-183.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.188.183",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-70-170-225.compute-1.amazonaws.com",
+      "ip_address": "52.70.170.225",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-71-56-16.compute-1.amazonaws.com",
+      "ip_address": "52.71.56.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-52-7-50-172.compute-1.amazonaws.com",
+      "ip_address": "52.7.50.172",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-54-249-42-226.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.249.42.226",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-54-82-50-96.compute-1.amazonaws.com",
+      "ip_address": "54.82.50.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.bitdefender.antivirus",
+      "ptr_domain": "ec2-54-86-241-221.compute-1.amazonaws.com",
+      "ip_address": "54.86.241.221",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

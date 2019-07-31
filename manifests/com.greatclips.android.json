@@ -1,7 +1,7 @@
 {
   "appName": "Great Clips",
   "packageName": "com.greatclips.android",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -19,13 +19,45 @@
   ],
   "version": "4.5",
   "trackers": [
-    "Google CrashLytics",
-    "Facebook Places",
-    "Urbanairship",
     "Google Analytics",
-    "Google Firebase Analytics",
+    "Urbanairship",
     "Facebook Share",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Facebook Analytics",
-    "Facebook Login"
+    "Facebook Login",
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.greatclips.android",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.greatclips.android",
+      "ptr_domain": "ec2-23-21-109-80.compute-1.amazonaws.com",
+      "ip_address": "23.21.109.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.greatclips.android",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    }
   ]
 }

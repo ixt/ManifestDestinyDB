@@ -1,7 +1,7 @@
 {
   "appName": "SafeInCloud",
   "packageName": "com.safeincloud.free",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -23,5 +23,27 @@
   "trackers": [
     "Google CrashLytics",
     "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.safeincloud.free",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.safeincloud.free",
+      "ptr_domain": "ec2-54-243-77-213.compute-1.amazonaws.com",
+      "ip_address": "54.243.77.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

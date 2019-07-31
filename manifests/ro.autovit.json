@@ -1,7 +1,7 @@
 {
   "appName": "Autovit",
   "packageName": "ro.autovit",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,13 +24,25 @@
   "version": "2.22.0",
   "trackers": [
     "Facebook Share",
-    "Facebook Login",
-    "ATInternet",
-    "Facebook Analytics",
-    "Google Analytics",
     "MixPanel",
     "New Relic",
     "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Facebook Analytics",
+    "Facebook Login",
+    "Google Analytics",
+    "ATInternet"
+  ],
+  "network_connections": [
+    {
+      "package": "ro.autovit",
+      "ptr_domain": "ec2-54-68-106-54.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.68.106.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

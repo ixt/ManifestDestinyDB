@@ -1,0 +1,632 @@
+{
+  "appName": "CNBC",
+  "packageName": "com.cnbc.client",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_GPS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.amazon.device.messaging.permission.RECEIVE",
+    "com.cnbc.client.permission.C2D_MESSAGE",
+    "com.cnbc.client.permission.RECEIVE_ADM_MESSAGE",
+    "com.cnbc.client.permission.UA_DATA",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "3.4.4.1",
+  "trackers": [
+    "Urbanairship",
+    "Apptentive",
+    "HockeyApp",
+    "Google DoubleClick",
+    "Google Analytics",
+    "Moat",
+    "Carnival",
+    "New Relic",
+    "Google Firebase Analytics",
+    "ComScore",
+    "Google Ads",
+    "Kochava"
+  ],
+  "network_connections": [
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a104-100-140-55.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.100.140.55",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "N/A",
+      "ip_address": "104.45.136.42",
+      "loc_city": "Washington",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.153900",
+      "loc_lat": "38.709500"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a104-70-75-67.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.70.75.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "148.254.178.107.bc.googleusercontent.com",
+      "ip_address": "107.178.254.148",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-107-21-26-11.compute-1.amazonaws.com",
+      "ip_address": "107.21.26.11",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.0.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.128.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.64.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "lga25s59-in-f2.1e100.net",
+      "ip_address": "172.217.10.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "lga25s54-in-f194.1e100.net",
+      "ip_address": "172.217.6.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ql-in-f132.1e100.net",
+      "ip_address": "173.194.208.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a184-50-42-59.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.50.42.59",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a23-15-55-107.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.15.55.107",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a23-194-109-177.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.194.109.177",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a23-194-110-87.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.194.110.87",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a23-197-98-109.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.197.98.109",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a23-206-228-14.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.206.228.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a23-75-64-61.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.75.64.61",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a23-78-145-151.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.78.145.151",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-34-193-36-198.compute-1.amazonaws.com",
+      "ip_address": "34.193.36.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-34-194-133-17.compute-1.amazonaws.com",
+      "ip_address": "34.194.133.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-34-194-198-50.compute-1.amazonaws.com",
+      "ip_address": "34.194.198.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-34-199-165-144.compute-1.amazonaws.com",
+      "ip_address": "34.199.165.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-34-200-122-51.compute-1.amazonaws.com",
+      "ip_address": "34.200.122.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-34-205-104-62.compute-1.amazonaws.com",
+      "ip_address": "34.205.104.62",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-35-165-117-199.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.165.117.199",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-0-169-255.compute-1.amazonaws.com",
+      "ip_address": "52.0.169.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-1-188-248.compute-1.amazonaws.com",
+      "ip_address": "52.1.188.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-204-228-136.compute-1.amazonaws.com",
+      "ip_address": "52.204.228.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-207-71-179.compute-1.amazonaws.com",
+      "ip_address": "52.207.71.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.65.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-21-99-105.compute-1.amazonaws.com",
+      "ip_address": "52.21.99.105",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-22-126-171.compute-1.amazonaws.com",
+      "ip_address": "52.22.126.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-22-37-20.compute-1.amazonaws.com",
+      "ip_address": "52.22.37.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-33-41-133.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.33.41.133",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-34-212-132.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.34.212.132",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-4-119-24.compute-1.amazonaws.com",
+      "ip_address": "52.4.119.24",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-41-86-56.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.41.86.56",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-4-20-64.compute-1.amazonaws.com",
+      "ip_address": "52.4.20.64",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-45-234-193.compute-1.amazonaws.com",
+      "ip_address": "52.45.234.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-71-246-130.compute-1.amazonaws.com",
+      "ip_address": "52.71.246.130",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-72-163-76.compute-1.amazonaws.com",
+      "ip_address": "52.72.163.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "server-52-84-50-17.sea32.r.cloudfront.net",
+      "ip_address": "52.84.50.17",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "server-52-84-50-221.sea32.r.cloudfront.net",
+      "ip_address": "52.84.50.221",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "server-52-84-50-96.sea32.r.cloudfront.net",
+      "ip_address": "52.84.50.96",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "server-52-85-133-167.iad53.r.cloudfront.net",
+      "ip_address": "52.85.133.167",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-52-86-79-72.compute-1.amazonaws.com",
+      "ip_address": "52.86.79.72",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-54-152-95-1.compute-1.amazonaws.com",
+      "ip_address": "54.152.95.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-54-175-168-161.compute-1.amazonaws.com",
+      "ip_address": "54.175.168.161",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-54-175-75-59.compute-1.amazonaws.com",
+      "ip_address": "54.175.75.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "server-54-192-55-82.jfk6.r.cloudfront.net",
+      "ip_address": "54.192.55.82",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "server-54-192-55-8.jfk6.r.cloudfront.net",
+      "ip_address": "54.192.55.8",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "server-54-192-55-96.jfk6.r.cloudfront.net",
+      "ip_address": "54.192.55.96",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-54-210-34-168.compute-1.amazonaws.com",
+      "ip_address": "54.210.34.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-54-244-29-104.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.29.104",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-54-70-124-63.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.70.124.63",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "ec2-54-84-241-74.compute-1.amazonaws.com",
+      "ip_address": "54.84.241.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a69-192-30-216.deploy.static.akamaitechnologies.com",
+      "ip_address": "69.192.30.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.cnbc.client",
+      "ptr_domain": "a69-192-94-216.deploy.static.akamaitechnologies.com",
+      "ip_address": "69.192.94.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

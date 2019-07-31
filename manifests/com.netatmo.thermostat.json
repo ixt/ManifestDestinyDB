@@ -1,7 +1,7 @@
 {
   "appName": "Energy",
   "packageName": "com.netatmo.thermostat",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -19,10 +19,32 @@
   ],
   "version": "3.1.0.1",
   "trackers": [
-    "Google DoubleClick",
     "Google Analytics",
+    "Google Ads",
     "Google CrashLytics",
     "Google Firebase Analytics",
-    "Google Ads"
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "com.netatmo.thermostat",
+      "ptr_domain": "ec2-54-243-58-93.compute-1.amazonaws.com",
+      "ip_address": "54.243.58.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.netatmo.thermostat",
+      "ptr_domain": "f3.netatmo.net",
+      "ip_address": "62.210.178.169",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    }
   ]
 }

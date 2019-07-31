@@ -1,29 +1,230 @@
 {
   "appName": "Mi Tigo",
   "packageName": "bo.com.tigo.tigoapp",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.WAKE_LOCK",
     "android.permission.VIBRATE",
-    "bo.com.tigo.tigoapp.permission.C2D_MESSAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
     "bo.com.tigo.tigoapp.permission.C2D_MESSAGE",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "4.0.2",
   "trackers": [
+    "New Relic",
+    "Google DoubleClick",
     "Google CrashLytics",
     "Google Ads",
-    "Google DoubleClick",
     "Google Firebase Analytics",
-    "Apteligent by VMWare (formerly Crittercism)",
-    "New Relic",
     "Pushwoosh",
-    "Segment"
+    "Segment",
+    "Apteligent by VMWare (formerly Crittercism)"
+  ],
+  "network_connections": [
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2404:6800:400b:1::c",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "sfo03s01-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "sfo07s17-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4005::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "qj-in-x6a.1e100.net",
+      "ip_address": "2607:f8b0:400d:c08::6a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4016:4::13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4016:6::16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401c:9::c",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1d::a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:d::18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:d::9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:e::12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2a00:1450:400b:6::a",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2a00:1450:401f:7::9",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2a00:1450:401f:9::13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "N/A",
+      "ip_address": "2a00:1450:4022:4::c",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "ec2-35-163-223-46.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.223.46",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "ec2-35-166-78-207.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.166.78.207",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "ec2-52-204-148-0.compute-1.amazonaws.com",
+      "ip_address": "52.204.148.0",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "bo.com.tigo.tigoapp",
+      "ptr_domain": "ec2-52-4-43-213.compute-1.amazonaws.com",
+      "ip_address": "52.4.43.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

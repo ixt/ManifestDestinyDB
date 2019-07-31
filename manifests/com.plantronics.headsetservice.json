@@ -1,7 +1,7 @@
 {
   "appName": "PLT Hub",
   "packageName": "com.plantronics.headsetservice",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -26,8 +26,20 @@
   "version": "3.13.0",
   "trackers": [
     "Google DoubleClick",
-    "Flurry",
     "Google Analytics",
+    "Flurry",
     "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.plantronics.headsetservice",
+      "ptr_domain": "ec2-52-26-77-9.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.26.77.9",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "appName": "WienMobil",
   "packageName": "at.wienerlinien.wienmobillab",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.WAKE_LOCK",
-    "android.permission.READ_CONTACTS",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.CALL_PHONE",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
     "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
@@ -19,5 +19,17 @@
   "trackers": [
     "Google CrashLytics",
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "at.wienerlinien.wienmobillab",
+      "ptr_domain": "N/A",
+      "ip_address": "194.232.30.252",
+      "loc_city": "N/A",
+      "loc_country": "Austria",
+      "loc_continent": "Europe",
+      "loc_long": "16.366700",
+      "loc_lat": "48.200000"
+    }
   ]
 }

@@ -1,36 +1,75 @@
 {
   "appName": "My Luminus",
   "packageName": "be.luminus.bsp",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
     "android.permission.FLASHLIGHT",
     "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.WAKE_LOCK",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
     "android.permission.VIBRATE",
-    "android.permission.CAMERA",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
     "be.luminus.bsp.permission.C2D_MESSAGE",
+    "be.luminus.bsp.permission.RECEIVE_ADM_MESSAGE",
+    "be.luminus.bsp.permission.UA_DATA",
     "com.amazon.device.messaging.permission.RECEIVE",
-    "be.luminus.bsp.permission.UA_DATA",
-    "be.luminus.bsp.permission.RECEIVE_ADM_MESSAGE",
     "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.REQUEST_INSTALL_PACKAGES",
-    "be.luminus.bsp.permission.UA_DATA",
-    "be.luminus.bsp.permission.C2D_MESSAGE",
-    "be.luminus.bsp.permission.RECEIVE_ADM_MESSAGE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "8.3.0",
   "trackers": [
-    "Facebook Login",
-    "HockeyApp",
     "Facebook Analytics",
-    "Facebook Share",
-    "Google Analytics",
     "Google Firebase Analytics",
+    "HockeyApp",
+    "Facebook Share",
     "Urbanairship",
-    "Facebook Places"
+    "Facebook Login",
+    "Facebook Places",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "be.luminus.bsp",
+      "ptr_domain": "lum-prd-iis01.cloudapp.net",
+      "ip_address": "104.47.142.76",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "be.luminus.bsp",
+      "ptr_domain": "ec2-107-20-220-57.compute-1.amazonaws.com",
+      "ip_address": "107.20.220.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "be.luminus.bsp",
+      "ptr_domain": "a23-218-183-229.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.218.183.229",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "be.luminus.bsp",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    }
   ]
 }

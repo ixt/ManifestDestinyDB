@@ -1,7 +1,7 @@
 {
   "appName": "Photomath",
   "packageName": "com.microblink.photomath",
-  "category": "EDUCATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -16,12 +16,54 @@
   ],
   "version": "5.1.0",
   "trackers": [
-    "Google Firebase Analytics",
     "LeanPlum",
-    "Facebook Login",
-    "Amplitude",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Google Analytics",
     "Facebook Share",
-    "Google CrashLytics"
+    "Amplitude",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.microblink.photomath",
+      "ptr_domain": "N/A",
+      "ip_address": "104.31.90.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microblink.photomath",
+      "ptr_domain": "ec2-23-23-175-199.compute-1.amazonaws.com",
+      "ip_address": "23.23.175.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microblink.photomath",
+      "ptr_domain": "ec2-23-23-192-27.compute-1.amazonaws.com",
+      "ip_address": "23.23.192.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microblink.photomath",
+      "ptr_domain": "ec2-23-23-96-14.compute-1.amazonaws.com",
+      "ip_address": "23.23.96.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

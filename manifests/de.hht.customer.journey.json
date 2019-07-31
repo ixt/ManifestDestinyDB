@@ -1,7 +1,7 @@
 {
   "appName": "Hamburg",
   "packageName": "de.hht.customer.journey",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -21,9 +21,31 @@
   ],
   "version": "1.8.2",
   "trackers": [
-    "Fyber SponsorPay",
-    "HockeyApp",
     "Mapbox",
+    "HockeyApp",
+    "Fyber SponsorPay",
     "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "de.hht.customer.journey",
+      "ptr_domain": "ec2-54-154-102-195.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.102.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "de.hht.customer.journey",
+      "ptr_domain": "ec2-54-246-154-220.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.154.220",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

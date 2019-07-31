@@ -1,36 +1,117 @@
 {
   "appName": "Q",
   "packageName": "be.qmusic.app",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.CAMERA",
     "android.permission.CAMERA_EXTENDED",
     "android.permission.FOREGROUND_SERVICE",
-    "be.qmusic.app.permission.C2D_MESSAGE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.VIBRATE",
-    "be.qmusic.app.permission.C2D_MESSAGE",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.INTERNET",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "android.permission.RECORD_AUDIO"
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "be.qmusic.app.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE"
   ],
   "version": "7.19.0",
   "trackers": [
-    "Google Firebase Analytics",
-    "Facebook Analytics",
-    "Gigya",
-    "Facebook Places",
-    "Google DoubleClick",
-    "Google CrashLytics",
     "Google Analytics",
+    "Facebook Places",
+    "Facebook Analytics",
     "Google Ads",
-    "Facebook Login",
     "Moat",
+    "Google DoubleClick",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "Facebook Login",
+    "Gigya",
     "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "be.qmusic.app",
+      "ptr_domain": "146.185.49-4.vmma.be",
+      "ip_address": "146.185.49.4",
+      "loc_city": "Vilvoorde",
+      "loc_country": "Belgium",
+      "loc_continent": "Europe",
+      "loc_long": "4.433300",
+      "loc_lat": "50.933300"
+    },
+    {
+      "package": "be.qmusic.app",
+      "ptr_domain": "146.185.49-50.vmma.be",
+      "ip_address": "146.185.49.50",
+      "loc_city": "Vilvoorde",
+      "loc_country": "Belgium",
+      "loc_continent": "Europe",
+      "loc_long": "4.433300",
+      "loc_lat": "50.933300"
+    },
+    {
+      "package": "be.qmusic.app",
+      "ptr_domain": "146.185.49-8.vmma.be",
+      "ip_address": "146.185.49.8",
+      "loc_city": "Vilvoorde",
+      "loc_country": "Belgium",
+      "loc_continent": "Europe",
+      "loc_long": "4.433300",
+      "loc_lat": "50.933300"
+    },
+    {
+      "package": "be.qmusic.app",
+      "ptr_domain": "ec2-52-19-57-181.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.57.181",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "be.qmusic.app",
+      "ptr_domain": "ec2-52-31-157-92.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.157.92",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "be.qmusic.app",
+      "ptr_domain": "ec2-52-49-16-186.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.49.16.186",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "be.qmusic.app",
+      "ptr_domain": "ec2-54-229-120-124.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.120.124",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "be.qmusic.app",
+      "ptr_domain": "server-54-230-143-148.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.148",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    }
   ]
 }

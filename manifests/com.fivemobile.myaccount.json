@@ -1,7 +1,7 @@
 {
   "appName": "MyRogers",
   "packageName": "com.fivemobile.myaccount",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -46,12 +46,35 @@
   ],
   "version": "5.6.0.2",
   "trackers": [
-    "Localytics",
-    "Google DoubleClick",
-    "Google CrashLytics",
-    "Dynatrace",
     "Google Firebase Analytics",
+    "Google CrashLytics",
     "Demdex",
-    "Google Ads"
+    "Localytics",
+    "Google Ads",
+    "Google DoubleClick",
+    "Dynatrace",
+    "Instabug"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fivemobile.myaccount",
+      "ptr_domain": "78.122.119.209.in-addr.arpa",
+      "ip_address": "209.119.122.78",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fivemobile.myaccount",
+      "ptr_domain": "235.181.216.67.in-addr.arpa",
+      "ip_address": "67.216.181.235",
+      "loc_city": "Canton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.465600",
+      "loc_lat": "42.331300"
+    }
   ]
 }

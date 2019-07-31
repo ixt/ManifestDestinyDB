@@ -1,7 +1,7 @@
 {
   "appName": "Tv & Film",
   "packageName": "yiuo.mobile.tv",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -21,14 +21,36 @@
   ],
   "version": "7.0.1 (build 6399)",
   "trackers": [
+    "Google Firebase Analytics",
+    "HockeyApp",
+    "Facebook Share",
+    "MixPanel",
+    "Google Analytics",
     "Facebook Analytics",
     "Conviva",
-    "Google Analytics",
     "Google CrashLytics",
-    "HockeyApp",
-    "Facebook Login",
-    "Google Firebase Analytics",
-    "Facebook Share",
-    "MixPanel"
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "yiuo.mobile.tv",
+      "ptr_domain": "server-54-192-98-89.arn1.r.cloudfront.net",
+      "ip_address": "54.192.98.89",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "yiuo.mobile.tv",
+      "ptr_domain": "N/A",
+      "ip_address": "80.62.121.108",
+      "loc_city": "Kirke-Hyllinge",
+      "loc_country": "Denmark",
+      "loc_continent": "Europe",
+      "loc_long": "11.900200",
+      "loc_lat": "55.706700"
+    }
   ]
 }

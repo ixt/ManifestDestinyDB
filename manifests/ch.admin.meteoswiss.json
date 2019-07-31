@@ -1,23 +1,285 @@
 {
   "appName": "MeteoSwiss",
   "packageName": "ch.admin.meteoswiss",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.VIBRATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
     "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "2.4.1",
   "trackers": [
-    "Matomo (Piwik)",
+    "Google CrashLytics",
     "Google Firebase Analytics",
-    "Google Analytics",
-    "Google CrashLytics"
+    "Matomo (Piwik)",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.72.16",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.72.20",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.72.4",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.72.8",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.73.0",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.73.12",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.73.16",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.73.20",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.73.4",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.74.0",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.74.16",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.74.20",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.74.32",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3.eu-central-1.amazonaws.com",
+      "ip_address": "52.219.74.8",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "ec2-52-28-198-134.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.28.198.134",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "ec2-52-57-144-35.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.57.144.35",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "ec2-52-57-234-91.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.57.234.91",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "ec2-52-59-139-17.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.59.139.17",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "ec2-52-59-65-208.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.59.65.208",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "ec2-52-59-69-181.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.59.69.181",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3-eu-central-1.amazonaws.com",
+      "ip_address": "54.231.192.49",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3-eu-central-1.amazonaws.com",
+      "ip_address": "54.231.192.53",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3-eu-central-1.amazonaws.com",
+      "ip_address": "54.231.193.49",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "s3-eu-central-1.amazonaws.com",
+      "ip_address": "54.231.194.41",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "ec2-54-93-183-57.eu-central-1.compute.amazonaws.com",
+      "ip_address": "54.93.183.57",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.admin.meteoswiss",
+      "ptr_domain": "ec2-54-93-66-160.eu-central-1.compute.amazonaws.com",
+      "ip_address": "54.93.66.160",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    }
   ]
 }

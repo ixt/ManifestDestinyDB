@@ -1,7 +1,7 @@
 {
   "appName": "Grubhub",
   "packageName": "com.grubhub.android",
-  "category": "FOOD_AND_DRINK",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -20,14 +20,917 @@
   "trackers": [
     "Google Firebase Analytics",
     "Facebook Login",
-    "Facebook Places",
     "Braze (formerly Appboy)",
-    "Google CrashLytics",
-    "AppsFlyer",
-    "New Relic",
-    "Facebook Analytics",
-    "Google Analytics",
+    "Branch",
     "Facebook Share",
-    "Branch"
+    "Taplytics",
+    "AppsFlyer",
+    "Google Analytics",
+    "New Relic",
+    "Facebook Places",
+    "Google CrashLytics",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "a104-100-140-55.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.100.140.55",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "N/A",
+      "ip_address": "104.244.42.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "142.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net",
+      "ip_address": "104.254.150.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "a104-72-64-9.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.72.64.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-107-20-143-108.compute-1.amazonaws.com",
+      "ip_address": "107.20.143.108",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-107-20-181-51.compute-1.amazonaws.com",
+      "ip_address": "107.20.181.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-107-21-109-56.compute-1.amazonaws.com",
+      "ip_address": "107.21.109.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-107-22-161-159.compute-1.amazonaws.com",
+      "ip_address": "107.22.161.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-107-22-169-178.compute-1.amazonaws.com",
+      "ip_address": "107.22.169.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.1.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.40.249",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.41.160",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.41.200",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "iad30s09-in-f2.1e100.net",
+      "ip_address": "172.217.7.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-174-129-209-245.compute-1.amazonaws.com",
+      "ip_address": "174.129.209.245",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "proxy0301.eu3.dynfactory.com",
+      "ip_address": "193.70.45.30",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "r-199-59-148-12.twttr.com",
+      "ip_address": "199.59.148.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "N/A",
+      "ip_address": "199.96.57.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "sfo03s01-in-f200.1e100.net",
+      "ip_address": "216.58.194.200",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "iad23s44-in-f162.1e100.net",
+      "ip_address": "216.58.217.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "iad23s40-in-f14.1e100.net",
+      "ip_address": "216.58.218.238",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-23-21-50-138.compute-1.amazonaws.com",
+      "ip_address": "23.21.50.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "a23-222-208-27.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.222.208.27",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-23-23-126-54.compute-1.amazonaws.com",
+      "ip_address": "23.23.126.54",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-23-23-165-121.compute-1.amazonaws.com",
+      "ip_address": "23.23.165.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "a23-32-42-154.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.32.42.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "a23-56-117-127.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.56.117.127",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "a23-56-126-216.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.56.126.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "a23-63-150-67.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.63.150.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "nuq04s29-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "sfo03s06-in-x08.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::2008",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4008:804::2008",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ord30s31-in-x08.1e100.net",
+      "ip_address": "2607:f8b0:4009:801::2008",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-34-203-163-112.compute-1.amazonaws.com",
+      "ip_address": "34.203.163.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-34-248-138-14.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.248.138.14",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-34-249-56-85.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.56.85",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-34-250-139-252.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.139.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-34-252-216-237.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.216.237",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-35-165-154-56.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.165.154.56",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-46-51-197-24.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.197.24",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-50-19-220-208.compute-1.amazonaws.com",
+      "ip_address": "50.19.220.208",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-17-74-6.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.74.6",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-18-229-127.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.229.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-19-114-44.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.114.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-19-144-252.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.144.252",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-19-42-226.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.42.226",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-19-67-20.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.67.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-204-77-236.compute-1.amazonaws.com",
+      "ip_address": "52.204.77.236",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-208-95-67.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.95.67",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-209-0-166.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.0.166",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-210-128-122.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.128.122",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-210-98-72.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.98.72",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-211-88-83.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.88.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-27-24-76.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.24.76",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-30-76-66.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.76.66",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-48-119-103.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.119.103",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-48-16-48.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.16.48",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-48-186-102.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.186.102",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-51-111-148.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.111.148",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-89-198-55.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.89.198.55",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-52-89-223-197.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.89.223.197",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-148-117-235.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.148.117.235",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-171-26-243.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.26.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-171-33-187.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.33.187",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-186-200-142.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.186.200.142",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "server-54-192-119-197.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.197",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "server-54-192-119-5.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.5",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "server-54-192-121-184.dfw50.r.cloudfront.net",
+      "ip_address": "54.192.121.184",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-194-126-0.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.126.0",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-197-254-10.compute-1.amazonaws.com",
+      "ip_address": "54.197.254.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-225-185-87.compute-1.amazonaws.com",
+      "ip_address": "54.225.185.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-229-91-86.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.229.91.86",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "server-54-230-119-165.sfo9.r.cloudfront.net",
+      "ip_address": "54.230.119.165",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "server-54-230-50-144.jfk5.r.cloudfront.net",
+      "ip_address": "54.230.50.144",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-235-168-75.compute-1.amazonaws.com",
+      "ip_address": "54.235.168.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-235-86-237.compute-1.amazonaws.com",
+      "ip_address": "54.235.86.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-243-100-193.compute-1.amazonaws.com",
+      "ip_address": "54.243.100.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-243-156-160.compute-1.amazonaws.com",
+      "ip_address": "54.243.156.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-243-182-104.compute-1.amazonaws.com",
+      "ip_address": "54.243.182.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-244-232-182.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.232.182",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-244-243-40.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.244.243.40",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-246-198-137.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.198.137",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-76-152-97.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.152.97",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-76-211-198.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.211.198",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-76-70-130.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.70.130",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "ec2-54-77-153-133.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.153.133",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "mobidcs.ebay.com",
+      "ip_address": "66.135.209.82",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.55",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.grubhub.android",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

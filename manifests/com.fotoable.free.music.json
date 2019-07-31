@@ -1,7 +1,7 @@
 {
   "appName": "FreeMusic",
   "packageName": "com.fotoable.free.music",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -25,15 +25,27 @@
   ],
   "version": "2.4.8",
   "trackers": [
-    "Facebook Ads",
-    "Facebook Analytics",
-    "Facebook Login",
+    "Google Ads",
+    "Inmobi",
     "Google DoubleClick",
+    "Facebook Analytics",
     "Facebook Places",
     "Google CrashLytics",
-    "Google Ads",
-    "Facebook Share",
-    "Inmobi",
-    "Flurry"
+    "Facebook Login",
+    "Facebook Ads",
+    "Flurry",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fotoable.free.music",
+      "ptr_domain": "ec2-50-19-93-128.compute-1.amazonaws.com",
+      "ip_address": "50.19.93.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

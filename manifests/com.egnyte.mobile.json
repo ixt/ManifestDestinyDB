@@ -1,7 +1,7 @@
 {
   "appName": "Egnyte",
   "packageName": "com.egnyte.mobile",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -39,8 +39,20 @@
   ],
   "version": "8.2.1",
   "trackers": [
-    "Google CrashLytics",
     "MixPanel",
+    "Google CrashLytics",
     "OneSignal"
+  ],
+  "network_connections": [
+    {
+      "package": "com.egnyte.mobile",
+      "ptr_domain": "ec2-107-21-204-104.compute-1.amazonaws.com",
+      "ip_address": "107.21.204.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

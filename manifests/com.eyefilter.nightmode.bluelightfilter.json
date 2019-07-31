@@ -1,0 +1,838 @@
+{
+  "appName": "Blue Light Filter - Night Mode",
+  "packageName": "com.eyefilter.nightmode.bluelightfilter",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_NOTIFICATION_POLICY",
+    "android.permission.CAMERA",
+    "android.permission.FLASHLIGHT",
+    "android.permission.HARDWARE_TEST",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.eyefilter.nightmode.bluelightfilter.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.zjlib.permissionguide.OuterPermissionActivity"
+  ],
+  "version": "1.4.6N",
+  "trackers": [
+    "Flurry",
+    "Google CrashLytics",
+    "Twitter MoPub",
+    "Google Ads",
+    "Duapps",
+    "myTarget",
+    "Google Firebase Analytics",
+    "Facebook Ads",
+    "Inmobi",
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "107.154.133.38.ip.incapdns.net",
+      "ip_address": "107.154.133.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-107-20-224-161.compute-1.amazonaws.com",
+      "ip_address": "107.20.224.161",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-107-21-122-150.compute-1.amazonaws.com",
+      "ip_address": "107.21.122.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-107-21-209-177.compute-1.amazonaws.com",
+      "ip_address": "107.21.209.177",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-107-22-161-159.compute-1.amazonaws.com",
+      "ip_address": "107.22.161.159",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-107-22-238-216.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-107-22-238-80.compute-1.amazonaws.com",
+      "ip_address": "107.22.238.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "lt-in-f95.1e100.net",
+      "ip_address": "108.177.14.95",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "yyz10s04-in-f1.1e100.net",
+      "ip_address": "172.217.1.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "yyz10s04-in-f2.1e100.net",
+      "ip_address": "172.217.1.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "yyz10s04-in-f10.1e100.net",
+      "ip_address": "172.217.1.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "yyz10s04-in-f14.1e100.net",
+      "ip_address": "172.217.1.174",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "yyz10s05-in-f1.1e100.net",
+      "ip_address": "172.217.2.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ord30s31-in-f225.1e100.net",
+      "ip_address": "172.217.4.225",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "mia07s47-in-f10.1e100.net",
+      "ip_address": "172.217.8.74",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "mia07s48-in-f2.1e100.net",
+      "ip_address": "172.217.8.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ou-in-f154.1e100.net",
+      "ip_address": "173.194.223.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.44.77",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "od-in-f132.1e100.net",
+      "ip_address": "173.194.67.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com",
+      "ip_address": "174.129.19.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-174-129-42-30.compute-1.amazonaws.com",
+      "ip_address": "174.129.42.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.60",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-184-73-219-223.compute-1.amazonaws.com",
+      "ip_address": "184.73.219.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-184-73-220-110.compute-1.amazonaws.com",
+      "ip_address": "184.73.220.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.233.50",
+      "loc_city": "Anaheim",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-117.969200",
+      "loc_lat": "33.816000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "mia07s46-in-f1.1e100.net",
+      "ip_address": "216.58.192.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "mia07s34-in-f2.1e100.net",
+      "ip_address": "216.58.192.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "mia07s35-in-f99.1e100.net",
+      "ip_address": "216.58.192.99",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "lhr25s10-in-f2.1e100.net",
+      "ip_address": "216.58.198.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "lhr26s04-in-f225.1e100.net",
+      "ip_address": "216.58.198.225",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "bom07s01-in-f130.1e100.net",
+      "ip_address": "216.58.199.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "mia07s27-in-f162.1e100.net",
+      "ip_address": "216.58.219.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-23-20-225-191.compute-1.amazonaws.com",
+      "ip_address": "23.20.225.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-23-21-192-242.compute-1.amazonaws.com",
+      "ip_address": "23.21.192.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-23-21-203-99.compute-1.amazonaws.com",
+      "ip_address": "23.21.203.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-23-21-213-97.compute-1.amazonaws.com",
+      "ip_address": "23.21.213.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-23-21-78-92.compute-1.amazonaws.com",
+      "ip_address": "23.21.78.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-23-21-95-152.compute-1.amazonaws.com",
+      "ip_address": "23.21.95.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-23-23-114-160.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-23-23-156-210.compute-1.amazonaws.com",
+      "ip_address": "23.23.156.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-23-23-235-188.compute-1.amazonaws.com",
+      "ip_address": "23.23.235.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "bom07s11-in-x01.1e100.net",
+      "ip_address": "2404:6800:4009:803::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "bom07s11-in-x0a.1e100.net",
+      "ip_address": "2404:6800:4009:803::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "bom05s08-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:807::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "bom07s12-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-34-250-52-8.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.52.8",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-50-17-234-37.compute-1.amazonaws.com",
+      "ip_address": "50.17.234.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-50-17-249-91.compute-1.amazonaws.com",
+      "ip_address": "50.17.249.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-50-19-104-138.compute-1.amazonaws.com",
+      "ip_address": "50.19.104.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-50-19-124-76.compute-1.amazonaws.com",
+      "ip_address": "50.19.124.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-50-19-246-191.compute-1.amazonaws.com",
+      "ip_address": "50.19.246.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-52-209-244-152.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.244.152",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-52-21-170-42.compute-1.amazonaws.com",
+      "ip_address": "52.21.170.42",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-221-230-67.compute-1.amazonaws.com",
+      "ip_address": "54.221.230.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-221-244-3.compute-1.amazonaws.com",
+      "ip_address": "54.221.244.3",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-225-130-79.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-225-144-48.compute-1.amazonaws.com",
+      "ip_address": "54.225.144.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-225-149-1.compute-1.amazonaws.com",
+      "ip_address": "54.225.149.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-225-170-49.compute-1.amazonaws.com",
+      "ip_address": "54.225.170.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-225-175-247.compute-1.amazonaws.com",
+      "ip_address": "54.225.175.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-225-209-156.compute-1.amazonaws.com",
+      "ip_address": "54.225.209.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-225-244-77.compute-1.amazonaws.com",
+      "ip_address": "54.225.244.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-225-80-135.compute-1.amazonaws.com",
+      "ip_address": "54.225.80.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-235-107-248.compute-1.amazonaws.com",
+      "ip_address": "54.235.107.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-235-182-15.compute-1.amazonaws.com",
+      "ip_address": "54.235.182.15",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-235-189-52.compute-1.amazonaws.com",
+      "ip_address": "54.235.189.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-243-101-244.compute-1.amazonaws.com",
+      "ip_address": "54.243.101.244",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-243-126-239.compute-1.amazonaws.com",
+      "ip_address": "54.243.126.239",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-243-129-40.compute-1.amazonaws.com",
+      "ip_address": "54.243.129.40",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-243-132-222.compute-1.amazonaws.com",
+      "ip_address": "54.243.132.222",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-243-187-254.compute-1.amazonaws.com",
+      "ip_address": "54.243.187.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-243-217-210.compute-1.amazonaws.com",
+      "ip_address": "54.243.217.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-243-223-85.compute-1.amazonaws.com",
+      "ip_address": "54.243.223.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "ec2-54-243-98-142.compute-1.amazonaws.com",
+      "ip_address": "54.243.98.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "oi-in-f156.1e100.net",
+      "ip_address": "64.233.160.156",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "N/A",
+      "ip_address": "74.125.232.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eyefilter.nightmode.bluelightfilter",
+      "ptr_domain": "N/A",
+      "ip_address": "8.39.37.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

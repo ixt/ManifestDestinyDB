@@ -1,7 +1,7 @@
 {
   "appName": "EZVIZ",
   "packageName": "com.ezviz",
-  "category": "VIDEO_PLAYERS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -46,13 +46,25 @@
   ],
   "version": "3.9.1.0325",
   "trackers": [
-    "Google Analytics",
-    "Baidu Location",
     "Bugly",
     "Google Firebase Analytics",
-    "Facebook Login",
-    "Facebook Share",
+    "Baidu Location",
     "Facebook Analytics",
-    "Baidu Map"
+    "Facebook Login",
+    "Baidu Map",
+    "Facebook Share",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ezviz",
+      "ptr_domain": "ec2-52-74-247-96.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.247.96",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    }
   ]
 }

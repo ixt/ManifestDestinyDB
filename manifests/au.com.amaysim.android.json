@@ -1,0 +1,44 @@
+{
+  "appName": "amaysim",
+  "packageName": "au.com.amaysim.android",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "au.com.amaysim.android.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
+  ],
+  "version": "2.11.8",
+  "trackers": [
+    "Google CrashLytics",
+    "New Relic",
+    "MixPanel",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "au.com.amaysim.android",
+      "ptr_domain": "ec2-54-66-149-235.ap-southeast-2.compute.amazonaws.com",
+      "ip_address": "54.66.149.235",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "au.com.amaysim.android",
+      "ptr_domain": "ec2-54-79-7-184.ap-southeast-2.compute.amazonaws.com",
+      "ip_address": "54.79.7.184",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "appName": "Untappd",
   "packageName": "com.untappdllc.app",
-  "category": "FOOD_AND_DRINK",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -40,13 +40,465 @@
   ],
   "version": "3.4.2",
   "trackers": [
-    "Google Analytics",
-    "Facebook Share",
-    "Flurry",
-    "Facebook Places",
-    "Facebook Login",
+    "Google Firebase Analytics",
     "Facebook Analytics",
+    "Facebook Places",
+    "Flurry",
+    "Google Analytics",
+    "Facebook Login",
     "New Relic",
-    "Google Firebase Analytics"
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.0.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.128.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.192.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.56.143",
+      "loc_city": "Atlanta",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.387100",
+      "loc_lat": "33.748500"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.64.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "edge-star-shv-02-lax3.facebook.com",
+      "ip_address": "157.240.11.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "166.78.193.76",
+      "loc_city": "San Antonio",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-98.400400",
+      "loc_lat": "29.496300"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "lga25s59-in-f10.1e100.net",
+      "ip_address": "172.217.10.234",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "a184-25-204-121.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.25.204.121",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "185.31.17.143",
+      "loc_city": "Helsinki",
+      "loc_country": "Finland",
+      "loc_continent": "Europe",
+      "loc_long": "24.934200",
+      "loc_lat": "60.175600"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "185.31.19.143",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "i1.wp.com",
+      "ip_address": "192.0.77.2",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "192.0.80.239",
+      "loc_city": "Richardson",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.702800",
+      "loc_lat": "32.947300"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "192.0.80.240",
+      "loc_city": "Richardson",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.702800",
+      "loc_lat": "32.947300"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "192.0.80.241",
+      "loc_city": "Richardson",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.702800",
+      "loc_lat": "32.947300"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "199.27.79.143",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.023500",
+      "loc_lat": "39.965300"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-205-251-253-130.ind6.r.cloudfront.net",
+      "ip_address": "205.251.253.130",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "sea15s07-in-f74.1e100.net",
+      "ip_address": "216.58.193.74",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "a23-211-124-8.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.211.124.8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "23.235.43.143",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "a23-3-105-27.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.3.105.27",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "a23-34-63-35.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.34.63.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.69.197",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "livestream-edgetee-upload-shv-01-dub4.facebook.com",
+      "ip_address": "31.13.73.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "ec2-34-225-220-120.compute-1.amazonaws.com",
+      "ip_address": "34.225.220.120",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "ec2-52-8-100-19.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.100.19",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-52-84-33-200.ewr50.r.cloudfront.net",
+      "ip_address": "52.84.33.200",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-52-84-34-16.ewr50.r.cloudfront.net",
+      "ip_address": "52.84.34.16",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-52-85-112-248.ind6.r.cloudfront.net",
+      "ip_address": "52.85.112.248",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-52-85-133-175.iad53.r.cloudfront.net",
+      "ip_address": "52.85.133.175",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-54-192-22-193.dfw54.r.cloudfront.net",
+      "ip_address": "54.192.22.193",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-54-192-54-183.jfk6.r.cloudfront.net",
+      "ip_address": "54.192.54.183",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "ec2-54-210-179-136.compute-1.amazonaws.com",
+      "ip_address": "54.210.179.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-54-230-195-223.iad53.r.cloudfront.net",
+      "ip_address": "54.230.195.223",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-54-230-204-204.atl50.r.cloudfront.net",
+      "ip_address": "54.230.204.204",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "server-54-230-206-143.atl50.r.cloudfront.net",
+      "ip_address": "54.230.206.143",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.28.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "ec2-54-86-223-191.compute-1.amazonaws.com",
+      "ip_address": "54.86.223.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "precisionavjet.com",
+      "ip_address": "75.76.84.34",
+      "loc_city": "St. Petersburg",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.724300",
+      "loc_lat": "27.789800"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "80-239-254-201.customer.teliacarrier.com",
+      "ip_address": "80.239.254.201",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.untappdllc.app",
+      "ptr_domain": "a88-217-189-153.deploy.akamaitechnologies.com",
+      "ip_address": "88.217.189.153",
+      "loc_city": "Munich",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "11.585000",
+      "loc_lat": "48.149700"
+    }
   ]
 }

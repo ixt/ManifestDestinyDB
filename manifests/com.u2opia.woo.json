@@ -1,7 +1,7 @@
 {
   "appName": "Woo",
   "packageName": "com.u2opia.woo",
-  "category": "LIFESTYLE",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -26,15 +26,37 @@
   ],
   "version": "3.8.30.2",
   "trackers": [
-    "Facebook Share",
-    "Facebook Login",
-    "MixPanel",
-    "Facebook Analytics",
-    "Google CrashLytics",
     "Google Analytics",
-    "AccountKit",
+    "Facebook Analytics",
+    "MixPanel",
+    "Google Firebase Analytics",
     "Facebook Places",
+    "Facebook Share",
+    "Google CrashLytics",
+    "Facebook Login",
     "AppsFlyer",
-    "Google Firebase Analytics"
+    "AccountKit"
+  ],
+  "network_connections": [
+    {
+      "package": "com.u2opia.woo",
+      "ptr_domain": "75.37.148.146.bc.googleusercontent.com",
+      "ip_address": "146.148.37.75",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.u2opia.woo",
+      "ptr_domain": "ec2-52-214-17-131.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.17.131",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

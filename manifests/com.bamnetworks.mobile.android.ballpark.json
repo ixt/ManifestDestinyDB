@@ -1,7 +1,7 @@
 {
   "appName": "Ballpark",
   "packageName": "com.bamnetworks.mobile.android.ballpark",
-  "category": "SPORTS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,9 +22,21 @@
   ],
   "version": "8.1.1",
   "trackers": [
-    "New Relic",
     "Google Firebase Analytics",
-    "Google Ads",
-    "Google DoubleClick"
+    "Google DoubleClick",
+    "New Relic",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.bamnetworks.mobile.android.ballpark",
+      "ptr_domain": "*.sc.omtrdc.net",
+      "ip_address": "66.235.141.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Virgin Trains",
   "packageName": "com.virgintrains",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -14,8 +14,20 @@
   ],
   "version": "3.2.5",
   "trackers": [
-    "Tune",
     "Google Firebase Analytics",
-    "Google Analytics"
+    "Google Analytics",
+    "Tune"
+  ],
+  "network_connections": [
+    {
+      "package": "com.virgintrains",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

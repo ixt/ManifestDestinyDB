@@ -1,7 +1,7 @@
 {
   "appName": "Telekom",
   "packageName": "hu.telekom.telekomapp",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,13 +25,25 @@
   ],
   "version": "9.42.2",
   "trackers": [
+    "Google CrashLytics",
+    "Facebook Places",
+    "Facebook Login",
     "Facebook Share",
     "Google Firebase Analytics",
-    "Dynatrace",
-    "Facebook Login",
-    "Google Analytics",
-    "Facebook Places",
     "Facebook Analytics",
-    "Google CrashLytics"
+    "Dynatrace",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "hu.telekom.telekomapp",
+      "ptr_domain": "bud02s22-in-f194.1e100.net",
+      "ip_address": "216.58.209.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    }
   ]
 }

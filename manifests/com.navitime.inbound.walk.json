@@ -1,7 +1,7 @@
 {
   "appName": "JapanTravel",
   "packageName": "com.navitime.inbound.walk",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,11 +23,33 @@
   ],
   "version": "3.2.0",
   "trackers": [
-    "Google Analytics",
-    "Google DoubleClick",
     "Google CrashLytics",
-    "Adjust",
+    "Google DoubleClick",
+    "Google Ads",
+    "Google Analytics",
     "Google Firebase Analytics",
-    "Google Ads"
+    "Adjust"
+  ],
+  "network_connections": [
+    {
+      "package": "com.navitime.inbound.walk",
+      "ptr_domain": "ec2-54-225-242-149.compute-1.amazonaws.com",
+      "ip_address": "54.225.242.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navitime.inbound.walk",
+      "ptr_domain": "ec2-54-92-106-61.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.92.106.61",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Ooma",
   "packageName": "com.ooma.mobile2",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -30,9 +30,41 @@
   "version": "7.2.2",
   "trackers": [
     "Google CrashLytics",
-    "Google Firebase Analytics",
-    "Google Analytics",
     "HockeyApp",
+    "Google Analytics",
+    "Google Firebase Analytics",
     "Kochava"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ooma.mobile2",
+      "ptr_domain": "sbc1-eqix-sv5.oomamobile.com",
+      "ip_address": "208.83.246.230",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ooma.mobile2",
+      "ptr_domain": "sbc2-eqix-sv5.oomamobile.com",
+      "ip_address": "208.83.246.231",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ooma.mobile2",
+      "ptr_domain": "apiv2.ooma.com",
+      "ip_address": "208.83.246.51",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

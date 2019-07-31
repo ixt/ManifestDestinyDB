@@ -1,7 +1,7 @@
 {
   "appName": "MyTelkomsel",
   "packageName": "com.telkomsel.telkomselcm",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -41,8 +41,40 @@
   "version": "4.3.0",
   "trackers": [
     "Google CrashLytics",
-    "Google Firebase Analytics",
+    "Adjust",
     "Google Analytics",
-    "Adjust"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.telkomsel.telkomselcm",
+      "ptr_domain": "webtask-tdwidmst.telkomsel.com",
+      "ip_address": "202.3.208.108",
+      "loc_city": "Jakarta",
+      "loc_country": "Indonesia",
+      "loc_continent": "Asia",
+      "loc_long": "106.829600",
+      "loc_lat": "-6.174100"
+    },
+    {
+      "package": "com.telkomsel.telkomselcm",
+      "ptr_domain": "tdw.telkomsel.com",
+      "ip_address": "202.3.208.26",
+      "loc_city": "Jakarta",
+      "loc_country": "Indonesia",
+      "loc_continent": "Asia",
+      "loc_long": "106.829600",
+      "loc_lat": "-6.174100"
+    },
+    {
+      "package": "com.telkomsel.telkomselcm",
+      "ptr_domain": "static.88-198-212-155.clients.your-server.de",
+      "ip_address": "88.198.212.155",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Towbook",
   "packageName": "com.towbook.mobile",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -36,7 +36,29 @@
   ],
   "version": "2.9.25",
   "trackers": [
-    "Google CrashLytics",
-    "New Relic"
+    "New Relic",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.towbook.mobile",
+      "ptr_domain": "2.3d.37a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.55.61.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.towbook.mobile",
+      "ptr_domain": "ec2-54-83-172-9.compute-1.amazonaws.com",
+      "ip_address": "54.83.172.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

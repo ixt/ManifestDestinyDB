@@ -1,7 +1,7 @@
 {
   "appName": "World Phone",
   "packageName": "com.norwoodsystems.worldphone",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -37,9 +37,41 @@
   "trackers": [
     "Facebook Share",
     "Google Firebase Analytics",
+    "Facebook Analytics",
     "Branch",
     "Facebook Login",
-    "Facebook Analytics",
     "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.norwoodsystems.worldphone",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.norwoodsystems.worldphone",
+      "ptr_domain": "ec2-34-226-81-153.compute-1.amazonaws.com",
+      "ip_address": "34.226.81.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.norwoodsystems.worldphone",
+      "ptr_domain": "ec2-54-174-245-201.compute-1.amazonaws.com",
+      "ip_address": "54.174.245.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

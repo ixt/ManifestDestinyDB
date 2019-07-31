@@ -1,0 +1,628 @@
+{
+  "appName": "PlayKids",
+  "packageName": "com.movile.playkids",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.movile.playkids.permission.C2D_MESSAGE",
+    "com.movile.playkids.permissions.PAYMENT_BROADCAST"
+  ],
+  "version": "4.5.17",
+  "trackers": [
+    "Google Ads",
+    "Google Firebase Analytics",
+    "Branch",
+    "AppsFlyer",
+    "Google Analytics",
+    "AccountKit",
+    "Facebook Login",
+    "Facebook Places",
+    "Google DoubleClick",
+    "Facebook Analytics",
+    "Facebook Share",
+    "Braze (formerly Appboy)",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.61",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com",
+      "ip_address": "23.21.78.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "edge-star6-shv-01-iad3.facebook.com",
+      "ip_address": "2a03:2880:f003:c07:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "server-52-84-237-162.sfo5.r.cloudfront.net",
+      "ip_address": "52.84.237.162",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "server-52-84-243-223.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.223",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "ec2-54-153-67-50.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.153.67.50",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "server-54-192-85-232.lax3.r.cloudfront.net",
+      "ip_address": "54.192.85.232",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "ec2-54-210-195-125.compute-1.amazonaws.com",
+      "ip_address": "54.210.195.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "ec2-54-225-192-200.compute-1.amazonaws.com",
+      "ip_address": "54.225.192.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "server-54-230-143-181.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.181",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "server-54-230-143-75.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.75",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "server-54-230-147-141.sfo20.r.cloudfront.net",
+      "ip_address": "54.230.147.141",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "ec2-54-243-33-139.compute-1.amazonaws.com",
+      "ip_address": "54.243.33.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "ec2-54-243-91-163.compute-1.amazonaws.com",
+      "ip_address": "54.243.91.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-107-20-160-144.compute-1.amazonaws.com",
+      "ip_address": "107.20.160.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-107-21-225-17.compute-1.amazonaws.com",
+      "ip_address": "107.21.225.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "edge-star-shv-02-lax3.facebook.com",
+      "ip_address": "157.240.11.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-184-72-248-107.compute-1.amazonaws.com",
+      "ip_address": "184.72.248.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-23-23-114-96.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.96",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-23-23-119-230.compute-1.amazonaws.com",
+      "ip_address": "23.23.119.230",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "edge-star-shv-01-lax3.facebook.com",
+      "ip_address": "31.13.70.1",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.244000",
+      "loc_lat": "34.054400"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.77.6",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-34-192-50-87.compute-1.amazonaws.com",
+      "ip_address": "34.192.50.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-34-194-103-84.compute-1.amazonaws.com",
+      "ip_address": "34.194.103.84",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-34-197-157-26.compute-1.amazonaws.com",
+      "ip_address": "34.197.157.26",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-34-199-180-191.compute-1.amazonaws.com",
+      "ip_address": "34.199.180.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-50-16-249-200.compute-1.amazonaws.com",
+      "ip_address": "50.16.249.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-50-17-238-228.compute-1.amazonaws.com",
+      "ip_address": "50.17.238.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-1-101-255.compute-1.amazonaws.com",
+      "ip_address": "52.1.101.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-201-116-91.compute-1.amazonaws.com",
+      "ip_address": "52.201.116.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-201-153-133.compute-1.amazonaws.com",
+      "ip_address": "52.201.153.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-203-67-52.compute-1.amazonaws.com",
+      "ip_address": "52.203.67.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-203-9-178.compute-1.amazonaws.com",
+      "ip_address": "52.203.9.178",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-206-169-28.compute-1.amazonaws.com",
+      "ip_address": "52.206.169.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-206-36-65.compute-1.amazonaws.com",
+      "ip_address": "52.206.36.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-22-133-60.compute-1.amazonaws.com",
+      "ip_address": "52.22.133.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-2-243-28.compute-1.amazonaws.com",
+      "ip_address": "52.2.243.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-22-76-207.compute-1.amazonaws.com",
+      "ip_address": "52.22.76.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-55-117-201.compute-1.amazonaws.com",
+      "ip_address": "52.55.117.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-87-11-228.compute-1.amazonaws.com",
+      "ip_address": "52.87.11.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-87-21-221.compute-1.amazonaws.com",
+      "ip_address": "52.87.21.221",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-52-9-88-217.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.88.217",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-164-239-22.compute-1.amazonaws.com",
+      "ip_address": "54.164.239.22",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-175-108-201.compute-1.amazonaws.com",
+      "ip_address": "54.175.108.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "server-54-192-138-75.lax1.r.cloudfront.net",
+      "ip_address": "54.192.138.75",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-210-179-136.compute-1.amazonaws.com",
+      "ip_address": "54.210.179.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-235-185-132.compute-1.amazonaws.com",
+      "ip_address": "54.235.185.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-236-96-95.compute-1.amazonaws.com",
+      "ip_address": "54.236.96.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-243-33-139.compute-1.amazonaws.com",
+      "ip_address": "54.243.33.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-243-34-122.compute-1.amazonaws.com",
+      "ip_address": "54.243.34.122",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-243-71-140.compute-1.amazonaws.com",
+      "ip_address": "54.243.71.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-86-126-240.compute-1.amazonaws.com",
+      "ip_address": "54.86.126.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "ec2-54-86-223-191.compute-1.amazonaws.com",
+      "ip_address": "54.86.223.191",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.movile.playkids.party",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.123",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "appName": "GPS Driving Route",
   "packageName": "com.virtualmaze.gpsdrivingroute",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,17 +22,29 @@
   ],
   "version": "4.8.6.0",
   "trackers": [
-    "Google Ads",
-    "Google Analytics",
-    "Facebook Login",
-    "Google Firebase Analytics",
-    "Google DoubleClick",
-    "Inmobi",
-    "Facebook Analytics",
     "Facebook Ads",
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Inmobi",
+    "Facebook Login",
+    "Facebook Analytics",
     "Facebook Share",
+    "Google Ads",
+    "Facebook Places",
+    "Google DoubleClick",
     "Moat",
-    "Flurry",
-    "Facebook Places"
+    "Flurry"
+  ],
+  "network_connections": [
+    {
+      "package": "com.virtualmaze.gpsdrivingroute",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    }
   ]
 }

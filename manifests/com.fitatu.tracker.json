@@ -1,7 +1,7 @@
 {
   "appName": "Fitatu",
   "packageName": "com.fitatu.tracker",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -35,13 +35,25 @@
   ],
   "version": "2.34.2",
   "trackers": [
-    "Google Firebase Analytics",
-    "Facebook Places",
+    "Google Analytics",
     "Google CrashLytics",
+    "Facebook Places",
     "Facebook Analytics",
-    "Facebook Share",
-    "Facebook Login",
     "AppsFlyer",
-    "Google Analytics"
+    "Facebook Share",
+    "Google Firebase Analytics",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fitatu.tracker",
+      "ptr_domain": "s85.iq.fitatu.com",
+      "ip_address": "46.248.164.85",
+      "loc_city": "N/A",
+      "loc_country": "Poland",
+      "loc_continent": "Europe",
+      "loc_long": "21.036200",
+      "loc_lat": "52.239400"
+    }
   ]
 }

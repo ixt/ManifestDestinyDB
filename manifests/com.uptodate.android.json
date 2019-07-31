@@ -1,7 +1,7 @@
 {
   "appName": "UpToDate",
   "packageName": "com.uptodate.android",
-  "category": "MEDICAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -15,9 +15,31 @@
   ],
   "version": "3.12.1",
   "trackers": [
-    "AppsFlyer",
-    "Google Analytics",
+    "Google Tag Manager",
     "Google CrashLytics",
-    "Google Tag Manager"
+    "Google Analytics",
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.uptodate.android",
+      "ptr_domain": "46.132.130.12.in-addr.arpa. CNAME 46.32/27.132.130.12.in-addr.arpa",
+      "ip_address": "12.130.132.46",
+      "loc_city": "Oakland",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.220900",
+      "loc_lat": "37.848700"
+    },
+    {
+      "package": "com.uptodate.android",
+      "ptr_domain": "N/A",
+      "ip_address": "203.163.124.46",
+      "loc_city": "N/A",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.690000",
+      "loc_lat": "35.690000"
+    }
   ]
 }

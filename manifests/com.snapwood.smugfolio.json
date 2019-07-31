@@ -1,7 +1,7 @@
 {
   "appName": "SmugMug",
   "packageName": "com.snapwood.smugfolio",
-  "category": "PHOTOGRAPHY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -22,7 +22,39 @@
   ],
   "version": "3.7.7.20190219",
   "trackers": [
-    "Google CrashLytics",
-    "Snowplow"
+    "Snowplow",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.snapwood.smugfolio",
+      "ptr_domain": "server-13-32-169-158.dfw54.r.cloudfront.net",
+      "ip_address": "13.32.169.158",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.snapwood.smugfolio",
+      "ptr_domain": "server-52-222-220-217.msp50.r.cloudfront.net",
+      "ip_address": "52.222.220.217",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.snapwood.smugfolio",
+      "ptr_domain": "ec2-52-7-139-118.compute-1.amazonaws.com",
+      "ip_address": "52.7.139.118",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

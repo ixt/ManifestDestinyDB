@@ -1,7 +1,7 @@
 {
   "appName": "Travel Triangle",
   "packageName": "com.traveltriangle.traveller",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -40,12 +40,44 @@
   ],
   "version": "3.11.14",
   "trackers": [
-    "Facebook Share",
-    "Google Firebase Analytics",
-    "CleverTap",
-    "MixPanel",
-    "New Relic",
     "Segment",
-    "Facebook Login"
+    "Facebook Share",
+    "New Relic",
+    "CleverTap",
+    "Facebook Login",
+    "Google Firebase Analytics",
+    "MixPanel"
+  ],
+  "network_connections": [
+    {
+      "package": "com.traveltriangle.traveller",
+      "ptr_domain": "ec2-34-250-103-111.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.103.111",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.traveltriangle.traveller",
+      "ptr_domain": "ec2-52-24-196-36.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.24.196.36",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.traveltriangle.traveller",
+      "ptr_domain": "ec2-52-35-80-8.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.80.8",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    }
   ]
 }

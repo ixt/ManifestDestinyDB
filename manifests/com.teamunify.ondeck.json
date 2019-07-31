@@ -1,7 +1,7 @@
 {
   "appName": "OnDeck",
   "packageName": "com.teamunify.ondeck",
-  "category": "SPORTS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -23,12 +23,34 @@
   ],
   "version": "4.33.1",
   "trackers": [
-    "Facebook Places",
-    "Facebook Login",
-    "Google CrashLytics",
     "Google Firebase Analytics",
+    "Facebook Share",
+    "Google CrashLytics",
     "Google Analytics",
-    "Facebook Analytics",
-    "Facebook Share"
+    "Facebook Login",
+    "Facebook Places",
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.teamunify.ondeck",
+      "ptr_domain": "208.100.130.99.teamunify.com",
+      "ip_address": "208.100.130.99",
+      "loc_city": "Bend",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.407300",
+      "loc_lat": "44.091500"
+    },
+    {
+      "package": "com.teamunify.ondeck",
+      "ptr_domain": "ec2-54-243-104-248.compute-1.amazonaws.com",
+      "ip_address": "54.243.104.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

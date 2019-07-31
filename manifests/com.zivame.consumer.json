@@ -1,7 +1,7 @@
 {
   "appName": "Zivame",
   "packageName": "com.zivame.consumer",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,17 +24,29 @@
   ],
   "version": "3.4.5",
   "trackers": [
-    "Google Analytics",
     "HockeyApp",
+    "Facebook Share",
     "AppsFlyer",
     "Google CrashLytics",
-    "Facebook Share",
-    "Branch",
+    "Google Firebase Analytics",
+    "Facebook Analytics",
     "Localytics",
     "Google Ads",
-    "Google DoubleClick",
-    "Facebook Analytics",
+    "Google Analytics",
+    "Branch",
     "Facebook Login",
-    "Google Firebase Analytics"
+    "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "com.zivame.consumer",
+      "ptr_domain": "ec2-52-201-153-133.compute-1.amazonaws.com",
+      "ip_address": "52.201.153.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "MapQuest",
   "packageName": "com.mapquest.android.ace",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,15 +25,87 @@
   ],
   "version": "3.21.0",
   "trackers": [
-    "Facebook Share",
-    "Google CrashLytics",
-    "Google DoubleClick",
-    "Google Ads",
-    "Facebook Analytics",
+    "Mapbox",
     "Amplitude",
-    "Facebook Login",
+    "Google CrashLytics",
     "Flurry",
+    "Facebook Analytics",
+    "Facebook Share",
+    "Google DoubleClick",
     "HockeyApp",
-    "Mapbox"
+    "Google Ads",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mapquest.android.ace",
+      "ptr_domain": "ec2-107-21-232-174.compute-1.amazonaws.com",
+      "ip_address": "107.21.232.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mapquest.android.ace",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.1.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mapquest.android.ace",
+      "ptr_domain": "ec2-52-202-113-121.compute-1.amazonaws.com",
+      "ip_address": "52.202.113.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mapquest.android.ace",
+      "ptr_domain": "ec2-52-21-65-108.compute-1.amazonaws.com",
+      "ip_address": "52.21.65.108",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mapquest.android.ace",
+      "ptr_domain": "ec2-52-87-64-161.compute-1.amazonaws.com",
+      "ip_address": "52.87.64.161",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mapquest.android.ace",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.121.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mapquest.android.ace",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

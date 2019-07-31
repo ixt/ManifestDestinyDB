@@ -1,7 +1,7 @@
 {
   "appName": "Weather",
   "packageName": "mobi.infolife.ezweather.widget.ripple2",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -26,16 +26,48 @@
   ],
   "version": "15.1.0.45940_46100",
   "trackers": [
-    "Google DoubleClick",
-    "Facebook Login",
+    "Google Firebase Analytics",
+    "Bugly",
     "Google Ads",
     "Facebook Ads",
-    "Bugly",
-    "Google Firebase Analytics",
-    "Umeng Analytics",
+    "Facebook Login",
     "Facebook Places",
+    "Facebook Analytics",
+    "Umeng Analytics",
     "Facebook Share",
-    "Twitter MoPub",
-    "Facebook Analytics"
+    "Google DoubleClick",
+    "Twitter MoPub"
+  ],
+  "network_connections": [
+    {
+      "package": "mobi.infolife.ezweather.widget.ripple2",
+      "ptr_domain": "server-52-222-140-126.bom51.r.cloudfront.net",
+      "ip_address": "52.222.140.126",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "mobi.infolife.ezweather.widget.ripple2",
+      "ptr_domain": "ec2-52-31-249-127.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.249.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "mobi.infolife.ezweather.widget.ripple2",
+      "ptr_domain": "ec2-52-74-1-41.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.74.1.41",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Coyote",
   "packageName": "com.coyotesystems.android",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -32,11 +32,33 @@
   "version": "11.1.841",
   "trackers": [
     "Facebook Analytics",
-    "Facebook Share",
-    "AppsFlyer",
     "Demdex",
-    "Google CrashLytics",
+    "AppsFlyer",
+    "Facebook Share",
+    "Google Firebase Analytics",
     "Facebook Login",
-    "Google Firebase Analytics"
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.coyotesystems.android",
+      "ptr_domain": "N/A",
+      "ip_address": "23.101.53.195",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.coyotesystems.android",
+      "ptr_domain": "ec2-54-235-168-75.compute-1.amazonaws.com",
+      "ip_address": "54.235.168.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "AutoZone",
   "packageName": "com.autozone.mobile",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,8 +23,20 @@
   "trackers": [
     "Tealium",
     "New Relic",
-    "Scandit",
     "Google Analytics",
-    "Omniture"
+    "Omniture",
+    "Scandit"
+  ],
+  "network_connections": [
+    {
+      "package": "com.autozone.mobile",
+      "ptr_domain": "ssc-ags.autozone.com",
+      "ip_address": "169.198.1.92",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Sakshi",
   "packageName": "com.sakshi",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -16,10 +16,732 @@
   ],
   "version": "2.6",
   "trackers": [
+    "Google Firebase Analytics",
     "Google Analytics",
     "Google DoubleClick",
-    "Google Ads",
-    "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Google CrashLytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "N/A",
+      "ip_address": "117.219.228.76",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "maa03s20-in-f33.1e100.net",
+      "ip_address": "216.58.197.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "maa03s20-in-f42.1e100.net",
+      "ip_address": "216.58.197.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "maa03s20-in-f46.1e100.net",
+      "ip_address": "216.58.197.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "maa03s20-in-f19.1e100.net",
+      "ip_address": "216.58.197.51",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "bom07s10-in-f2.1e100.net",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "maa03s18-in-f34.1e100.net",
+      "ip_address": "216.58.220.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "maa03s21-in-x02.1e100.net",
+      "ip_address": "2404:6800:4007:800::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "maa03s22-in-x01.1e100.net",
+      "ip_address": "2404:6800:4007:801::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "maa03s20-in-x01.1e100.net",
+      "ip_address": "2404:6800:4007:807::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "bom07s10-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "bom07s11-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:803::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "bom07s01-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "bom05s08-in-x01.1e100.net",
+      "ip_address": "2404:6800:4009:807::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "bom05s08-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:807::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "bom05s08-in-x0e.1e100.net",
+      "ip_address": "2404:6800:4009:807::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "bom07s12-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.18.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.226.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "server-52-222-136-26.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.26",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "server-52-84-102-249.del51.r.cloudfront.net",
+      "ip_address": "52.84.102.249",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "server-52-84-102-92.del51.r.cloudfront.net",
+      "ip_address": "52.84.102.92",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sakshi",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.49.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "150.bm-nginx-loadbalancer.mgmt.sin1.adnexus.net",
+      "ip_address": "103.243.221.112",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "a104-120-158-254.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.120.158.254",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "broadband.actcorp.in",
+      "ip_address": "123.176.33.204",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.0.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.128.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.192.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.37.108",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.64.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ams15s29-in-f99.1e100.net",
+      "ip_address": "172.217.17.99",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s23-in-f2.1e100.net",
+      "ip_address": "172.217.26.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "bom05s09-in-f2.1e100.net",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ord30s31-in-f2.1e100.net",
+      "ip_address": "172.217.4.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "173.194.32.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "a184-26-54-49.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.26.54.49",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "202.79.210.117",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "202.79.210.118",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s19-in-f98.1e100.net",
+      "ip_address": "216.58.196.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s20-in-f1.1e100.net",
+      "ip_address": "216.58.197.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s20-in-f34.1e100.net",
+      "ip_address": "216.58.197.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s20-in-f10.1e100.net",
+      "ip_address": "216.58.197.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s20-in-f46.1e100.net",
+      "ip_address": "216.58.197.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s21-in-f65.1e100.net",
+      "ip_address": "216.58.197.65",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s21-in-f2.1e100.net",
+      "ip_address": "216.58.197.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s21-in-f3.1e100.net",
+      "ip_address": "216.58.197.67",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s21-in-f6.1e100.net",
+      "ip_address": "216.58.197.70",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s21-in-f10.1e100.net",
+      "ip_address": "216.58.197.74",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "maa03s21-in-f78.1e100.net",
+      "ip_address": "216.58.197.78",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "sin11s01-in-f2.1e100.net",
+      "ip_address": "216.58.203.226",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "a23-207-132-235.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.207.132.235",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "a23-211-197-175.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.211.197.175",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ec2-34-199-52-240.compute-1.amazonaws.com",
+      "ip_address": "34.199.52.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ec2-35-156-160-164.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.156.160.164",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ec2-50-16-158-106.compute-1.amazonaws.com",
+      "ip_address": "50.16.158.106",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ec2-52-202-119-247.compute-1.amazonaws.com",
+      "ip_address": "52.202.119.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ec2-52-20-248-202.compute-1.amazonaws.com",
+      "ip_address": "52.20.248.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ec2-52-6-133-161.compute-1.amazonaws.com",
+      "ip_address": "52.6.133.161",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ec2-52-71-74-104.compute-1.amazonaws.com",
+      "ip_address": "52.71.74.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ec2-52-77-148-206.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.148.206",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.226.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.237.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "54.231.33.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.23.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.24.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.24.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "54.239.24.194",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "ec2-54-251-124-41.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.251.124.41",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sakshi.epaper",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.207.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

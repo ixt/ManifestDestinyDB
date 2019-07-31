@@ -1,7 +1,7 @@
 {
   "appName": "Kijiji",
   "packageName": "com.ebay.kijiji.ca",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,15 +22,817 @@
   ],
   "version": "7.3.0",
   "trackers": [
-    "Google CrashLytics",
-    "Google Firebase Analytics",
-    "Google Analytics",
-    "Google Ads",
-    "Google DoubleClick",
-    "ComScore",
-    "Branch",
     "Twitter MoPub",
+    "Adjust",
     "Apptentive",
-    "Adjust"
+    "Google CrashLytics",
+    "Google Analytics",
+    "ComScore",
+    "Google DoubleClick",
+    "Google Firebase Analytics",
+    "Google Ads",
+    "Branch"
+  ],
+  "network_connections": [
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "149.174.66.133",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord38s04-in-f2.1e100.net",
+      "ip_address": "172.217.0.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord38s04-in-f6.1e100.net",
+      "ip_address": "172.217.0.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord37s07-in-f33.1e100.net",
+      "ip_address": "172.217.1.33",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord37s07-in-f2.1e100.net",
+      "ip_address": "172.217.1.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "mia09s17-in-f2.1e100.net",
+      "ip_address": "172.217.1.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "mia09s19-in-f2.1e100.net",
+      "ip_address": "172.217.3.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "sea15s11-in-f8.1e100.net",
+      "ip_address": "172.217.3.168",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "sea15s12-in-f194.1e100.net",
+      "ip_address": "172.217.3.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord36s04-in-f102.1e100.net",
+      "ip_address": "172.217.4.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord30s31-in-f226.1e100.net",
+      "ip_address": "172.217.4.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord36s04-in-f97.1e100.net",
+      "ip_address": "172.217.4.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord36s04-in-f98.1e100.net",
+      "ip_address": "172.217.4.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord38s01-in-f1.1e100.net",
+      "ip_address": "172.217.6.1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord37s03-in-f98.1e100.net",
+      "ip_address": "172.217.6.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord37s08-in-f1.1e100.net",
+      "ip_address": "172.217.8.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord37s08-in-f4.1e100.net",
+      "ip_address": "172.217.8.164",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord37s09-in-f2.1e100.net",
+      "ip_address": "172.217.8.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord38s08-in-f6.1e100.net",
+      "ip_address": "172.217.9.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "173.0.82.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "173.0.82.211",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.58",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.60",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.173.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "masterPixelList-tp00.everesttech.net",
+      "ip_address": "192.243.232.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "195.78.85.100",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "206-248-151-172.dsl.teksavvy.com",
+      "ip_address": "206.248.151.172",
+      "loc_city": "Gatineau",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-75.771100",
+      "loc_lat": "45.427900"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "206-248-169-87.dsl.teksavvy.com",
+      "ip_address": "206.248.169.87",
+      "loc_city": "Ottawa",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-75.751800",
+      "loc_lat": "45.269100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "207.198.110.39",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.436700",
+      "loc_lat": "37.759500"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "207.198.110.40",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.436700",
+      "loc_lat": "37.759500"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "209.15.224.11",
+      "loc_city": "Toronto",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.540200",
+      "loc_lat": "43.602100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "209.15.224.6",
+      "loc_city": "Toronto",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.540200",
+      "loc_lat": "43.602100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "209.15.224.8",
+      "loc_city": "Toronto",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.540200",
+      "loc_lat": "43.602100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "cache.google.com",
+      "ip_address": "216.123.194.104",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "216.123.194.216",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord36s02-in-f2.1e100.net",
+      "ip_address": "216.58.192.162",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord36s02-in-f6.1e100.net",
+      "ip_address": "216.58.192.166",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord30s25-in-f1.1e100.net",
+      "ip_address": "216.58.192.193",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ord30s25-in-f198.1e100.net",
+      "ip_address": "216.58.192.198",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "sea15s07-in-f8.1e100.net",
+      "ip_address": "216.58.193.72",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "a23-217-19-58.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.217.19.58",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "a23-49-12-213.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.49.12.213",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "a23-49-15-241.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.49.15.241",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "a23-60-72-252.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.60.72.252",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "24.244.4.59",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "yyz08s09-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:400b:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "yyz08s09-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:400b:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "yyz08s09-in-x06.1e100.net",
+      "ip_address": "2607:f8b0:400b:806::2006",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400b:807::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400b:80b::2004",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.98",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-34-204-29-83.compute-1.amazonaws.com",
+      "ip_address": "34.204.29.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-34-206-185-8.compute-1.amazonaws.com",
+      "ip_address": "34.206.185.8",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-35-166-99-202.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.166.99.202",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-52-201-126-123.compute-1.amazonaws.com",
+      "ip_address": "52.201.126.123",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-52-203-122-237.compute-1.amazonaws.com",
+      "ip_address": "52.203.122.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-52-24-222-139.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.24.222.139",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-52-44-89-5.compute-1.amazonaws.com",
+      "ip_address": "52.44.89.5",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-52-71-246-130.compute-1.amazonaws.com",
+      "ip_address": "52.71.246.130",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-52-8-115-243.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.115.243",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "server-52-84-24-121.sea32.r.cloudfront.net",
+      "ip_address": "52.84.24.121",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "server-52-84-24-232.sea32.r.cloudfront.net",
+      "ip_address": "52.84.24.232",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-52-9-56-46.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.56.46",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-172-179-91.compute-1.amazonaws.com",
+      "ip_address": "54.172.179.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-173-59-133.compute-1.amazonaws.com",
+      "ip_address": "54.173.59.133",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-175-90-82.compute-1.amazonaws.com",
+      "ip_address": "54.175.90.82",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-186-134-8.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.186.134.8",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-193-253-1.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.253.1",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-193-253-7.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.253.7",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-208-233-154.compute-1.amazonaws.com",
+      "ip_address": "54.208.233.154",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-210-11-86.compute-1.amazonaws.com",
+      "ip_address": "54.210.11.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-225-246-90.compute-1.amazonaws.com",
+      "ip_address": "54.225.246.90",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "ec2-54-241-32-26.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.241.32.26",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "svcs.ebay.com",
+      "ip_address": "66.211.179.158",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "135.bm-nginx-loadbalancer.mgmt.nym2.adnexus.net",
+      "ip_address": "68.67.178.243",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "91.195.49.131",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.ebay.kijiji.ca",
+      "ptr_domain": "N/A",
+      "ip_address": "91.195.49.132",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Foursquare",
   "packageName": "com.joelapenna.foursquared",
-  "category": "FOOD_AND_DRINK",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -39,17 +39,739 @@
   ],
   "version": "11.14.1",
   "trackers": [
+    "Branch",
     "Facebook Analytics",
-    "Pilgrim",
-    "Google Firebase Analytics",
     "MParticle",
-    "Facebook Share",
-    "Facebook Login",
     "Google Ads",
     "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Mapbox",
     "AppsFlyer",
+    "Facebook Share",
     "Braze (formerly Appboy)",
-    "Branch",
-    "Mapbox"
+    "Pilgrim",
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "104.156.81.184",
+      "loc_city": "Palo Alto",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.127400",
+      "loc_lat": "37.418000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "104.156.85.184",
+      "loc_city": "Palo Alto",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.127400",
+      "loc_lat": "37.418000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "104.208.31.113",
+      "loc_city": "Des Moines",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-93.611200",
+      "loc_lat": "41.600600"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-107-22-199-176.compute-1.amazonaws.com",
+      "ip_address": "107.22.199.176",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-107-22-216-92.compute-1.amazonaws.com",
+      "ip_address": "107.22.216.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.0.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.128.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.192.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.64.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-02-gru2.facebook.com",
+      "ip_address": "157.240.12.13",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-02-ort2.facebook.com",
+      "ip_address": "157.240.18.15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-snaptu-http-p1-shv-01-sea1.facebook.com",
+      "ip_address": "157.240.3.19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "173.252.88.163",
+      "loc_city": "Visalia",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.300700",
+      "loc_lat": "36.352800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-cdg2.facebook.com",
+      "ip_address": "179.60.192.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "dub08s03-in-f14.1e100.net",
+      "ip_address": "216.58.209.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-23-21-205-126.compute-1.amazonaws.com",
+      "ip_address": "23.21.205.126",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-23-21-212-189.compute-1.amazonaws.com",
+      "ip_address": "23.21.212.189",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-23-23-110-16.compute-1.amazonaws.com",
+      "ip_address": "23.23.110.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-23-23-114-1.compute-1.amazonaws.com",
+      "ip_address": "23.23.114.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "23.235.33.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "23.235.37.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star6-shv-01-sea1.facebook.com",
+      "ip_address": "2a03:2880:f001:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star6-shv-01-hkg3.facebook.com",
+      "ip_address": "2a03:2880:f002:109:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f00c:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:312:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star6-shv-01-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star6-shv-02-ort2.facebook.com",
+      "ip_address": "2a03:2880:f027:20e:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-arn2.facebook.com",
+      "ip_address": "31.13.72.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "livestream-edgetee-upload-shv-01-dub4.facebook.com",
+      "ip_address": "31.13.73.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "livestream-edgetee-upload-shv-01-gig2.facebook.com",
+      "ip_address": "31.13.74.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.76.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.79.246",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-gru2.facebook.com",
+      "ip_address": "31.13.85.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-lhr3.facebook.com",
+      "ip_address": "31.13.90.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-ams3.facebook.com",
+      "ip_address": "31.13.91.2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.93.3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "edge-star-shv-01-hkg3.facebook.com",
+      "ip_address": "31.13.95.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-50-16-240-110.compute-1.amazonaws.com",
+      "ip_address": "50.16.240.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-50-19-124-76.compute-1.amazonaws.com",
+      "ip_address": "50.19.124.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-50-19-85-47.compute-1.amazonaws.com",
+      "ip_address": "50.19.85.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-52-84-224-74.sin2.r.cloudfront.net",
+      "ip_address": "52.84.224.74",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-52-84-224-88.sin2.r.cloudfront.net",
+      "ip_address": "52.84.224.88",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-52-84-86-168.yul62.r.cloudfront.net",
+      "ip_address": "52.84.86.168",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-52-84-86-29.yul62.r.cloudfront.net",
+      "ip_address": "52.84.86.29",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-52-84-86-39.yul62.r.cloudfront.net",
+      "ip_address": "52.84.86.39",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-52-84-88-27.yul62.r.cloudfront.net",
+      "ip_address": "52.84.88.27",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-52-85-142-147.iad12.r.cloudfront.net",
+      "ip_address": "52.85.142.147",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-52-85-167-103.gig50.r.cloudfront.net",
+      "ip_address": "52.85.167.103",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-54-183-188-183.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.188.183",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-54-183-48-131.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.48.131",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-54-192-147-26.sfo20.r.cloudfront.net",
+      "ip_address": "54.192.147.26",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-54-192-217-34.mrs50.r.cloudfront.net",
+      "ip_address": "54.192.217.34",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-54-192-217-64.mrs50.r.cloudfront.net",
+      "ip_address": "54.192.217.64",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-54-192-59-205.gru1.r.cloudfront.net",
+      "ip_address": "54.192.59.205",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-54-225-244-34.compute-1.amazonaws.com",
+      "ip_address": "54.225.244.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-54-230-218-43.mrs50.r.cloudfront.net",
+      "ip_address": "54.230.218.43",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "server-54-230-60-237.mad50.r.cloudfront.net",
+      "ip_address": "54.230.60.237",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-54-235-165-25.compute-1.amazonaws.com",
+      "ip_address": "54.235.165.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-54-235-69-83.compute-1.amazonaws.com",
+      "ip_address": "54.235.69.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-54-243-245-38.compute-1.amazonaws.com",
+      "ip_address": "54.243.245.38",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "ec2-54-243-89-65.compute-1.amazonaws.com",
+      "ip_address": "54.243.89.65",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "N/A",
+      "ip_address": "68.128.204.113",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.joelapenna.foursquared",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Pages Jaunes",
   "packageName": "com.pagesjaunes",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -28,18 +28,40 @@
   "version": "9.6.3",
   "trackers": [
     "Google CrashLytics",
-    "Mapbox",
-    "Facebook Places",
-    "AppsFlyer",
-    "Ad4Screen",
-    "Google Firebase Analytics",
     "Facebook Analytics",
-    "Optimizely",
     "Google DoubleClick",
+    "AppsFlyer",
     "Facebook Login",
-    "Google Ads",
-    "Gigya",
     "Facebook Share",
-    "ATInternet"
+    "Gigya",
+    "ATInternet",
+    "Google Firebase Analytics",
+    "Optimizely",
+    "Google Ads",
+    "Ad4Screen",
+    "Facebook Places",
+    "Mapbox"
+  ],
+  "network_connections": [
+    {
+      "package": "com.pagesjaunes",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.pagesjaunes",
+      "ptr_domain": "ec2-54-235-69-83.compute-1.amazonaws.com",
+      "ip_address": "54.235.69.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

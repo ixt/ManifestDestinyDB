@@ -1,7 +1,7 @@
 {
   "appName": "Roku",
   "packageName": "com.roku.remote",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,8 +24,550 @@
   "trackers": [
     "Google CrashLytics",
     "Google Ads",
-    "Google Analytics",
     "Google DoubleClick",
-    "Google Firebase Analytics"
+    "Google Firebase Analytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "a104-95-62-113.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.95.62.113",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com",
+      "ip_address": "107.20.235.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "server-13-32-240-13.dfw54.r.cloudfront.net",
+      "ip_address": "13.32.240.13",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-184-72-244-12.compute-1.amazonaws.com",
+      "ip_address": "184.72.244.12",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-184-73-224-125.compute-1.amazonaws.com",
+      "ip_address": "184.73.224.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "N/A",
+      "ip_address": "198.51.152.183",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "a23-0-225-50.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.0.225.50",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "a23-199-65-132.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.199.65.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "a23-204-8-250.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.204.8.250",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-23-21-79-77.compute-1.amazonaws.com",
+      "ip_address": "23.21.79.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "a23-219-236-80.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.219.236.80",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "a23-38-189-117.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.38.189.117",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "a23-46-166-251.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.46.166.251",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2004:3200:18:1cc0:e400:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2009:1c00:18:1cc0:e400:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:202e:3c00:18:1cc0:e400:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:202e:8e00:18:1cc0:e400:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2042:f000:18:1cc0:e400:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2182:8600:18:1cc0:e400:93a1",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-34-192-183-125.compute-1.amazonaws.com",
+      "ip_address": "34.192.183.125",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-34-192-63-43.compute-1.amazonaws.com",
+      "ip_address": "34.192.63.43",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-34-202-73-17.compute-1.amazonaws.com",
+      "ip_address": "34.202.73.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-34-202-84-76.compute-1.amazonaws.com",
+      "ip_address": "34.202.84.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-34-225-197-176.compute-1.amazonaws.com",
+      "ip_address": "34.225.197.176",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-50-16-143-128.compute-1.amazonaws.com",
+      "ip_address": "50.16.143.128",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-50-16-240-171.compute-1.amazonaws.com",
+      "ip_address": "50.16.240.171",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-50-16-247-186.compute-1.amazonaws.com",
+      "ip_address": "50.16.247.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-50-17-204-79.compute-1.amazonaws.com",
+      "ip_address": "50.17.204.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-50-19-224-163.compute-1.amazonaws.com",
+      "ip_address": "50.19.224.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-0-207-59.compute-1.amazonaws.com",
+      "ip_address": "52.0.207.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-200-226-19.compute-1.amazonaws.com",
+      "ip_address": "52.200.226.19",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-204-250-231.compute-1.amazonaws.com",
+      "ip_address": "52.204.250.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-2-112-179.compute-1.amazonaws.com",
+      "ip_address": "52.2.112.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-4-58-157.compute-1.amazonaws.com",
+      "ip_address": "52.4.58.157",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-6-92-48.compute-1.amazonaws.com",
+      "ip_address": "52.6.92.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-8-182-197.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.8.182.197",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-87-115-131.compute-1.amazonaws.com",
+      "ip_address": "52.87.115.131",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-87-130-223.compute-1.amazonaws.com",
+      "ip_address": "52.87.130.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-52-87-34-47.compute-1.amazonaws.com",
+      "ip_address": "52.87.34.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-54-175-243-10.compute-1.amazonaws.com",
+      "ip_address": "54.175.243.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "server-54-192-192-13.iad53.r.cloudfront.net",
+      "ip_address": "54.192.192.13",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "server-54-192-192-98.iad53.r.cloudfront.net",
+      "ip_address": "54.192.192.98",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "server-54-192-23-36.dfw54.r.cloudfront.net",
+      "ip_address": "54.192.23.36",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-54-225-173-240.compute-1.amazonaws.com",
+      "ip_address": "54.225.173.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-54-225-182-18.compute-1.amazonaws.com",
+      "ip_address": "54.225.182.18",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "server-54-230-141-166.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.141.166",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "server-54-230-143-216.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.216",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "server-54-230-143-254.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.254",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "server-54-230-143-49.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.49",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "server-54-230-143-88.sfo5.r.cloudfront.net",
+      "ip_address": "54.230.143.88",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-54-235-145-74.compute-1.amazonaws.com",
+      "ip_address": "54.235.145.74",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-54-235-183-115.compute-1.amazonaws.com",
+      "ip_address": "54.235.183.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.roku.remote",
+      "ptr_domain": "ec2-54-235-243-207.compute-1.amazonaws.com",
+      "ip_address": "54.235.243.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

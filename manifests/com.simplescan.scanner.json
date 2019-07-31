@@ -1,7 +1,7 @@
 {
   "appName": "Simple Scanner",
   "packageName": "com.simplescan.scanner",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -20,8 +20,20 @@
   "version": "2.3.9",
   "trackers": [
     "Google Ads",
-    "Flurry",
     "Google CrashLytics",
-    "Google DoubleClick"
+    "Google DoubleClick",
+    "Flurry"
+  ],
+  "network_connections": [
+    {
+      "package": "com.simplescan.scanner",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

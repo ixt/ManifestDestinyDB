@@ -1,7 +1,7 @@
 {
   "appName": "FlyingFile",
   "packageName": "kr.co.jiran.flyingfile",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -29,7 +29,19 @@
   ],
   "version": "2.2.4",
   "trackers": [
-    "Google Analytics",
-    "Google Firebase Analytics"
+    "Google Firebase Analytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "kr.co.jiran.flyingfile",
+      "ptr_domain": "ec2-54-64-21-53.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.64.21.53",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    }
   ]
 }

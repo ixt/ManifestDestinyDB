@@ -1,7 +1,7 @@
 {
   "appName": "Crunchyroll",
   "packageName": "com.crunchyroll.crunchyroid",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -19,18 +19,750 @@
   ],
   "version": "2.3.1",
   "trackers": [
-    "Amplitude",
-    "Braze (formerly Appboy)",
-    "Google Firebase Analytics",
-    "Adjust",
-    "Inmobi",
-    "Flurry",
-    "Google CrashLytics",
-    "Moat",
-    "Google DoubleClick",
     "Segment",
+    "Flurry",
+    "Adjust",
+    "Google DoubleClick",
+    "Amplitude",
+    "Google CrashLytics",
     "Facebook Ads",
+    "Google Firebase Analytics",
+    "Moat",
+    "Braze (formerly Appboy)",
     "Conviva",
-    "Amazon Advertisement"
+    "Amazon Advertisement",
+    "Inmobi"
+  ],
+  "network_connections": [
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.18.239",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "104.20.19.239",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "104.25.59.113",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-107-22-184-200.compute-1.amazonaws.com",
+      "ip_address": "107.22.184.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "128.242.180.54",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "159.203.176.127",
+      "loc_city": "North Bergen",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.024700",
+      "loc_lat": "40.793000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "do.literati.com",
+      "ip_address": "159.203.176.134",
+      "loc_city": "North Bergen",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.024700",
+      "loc_lat": "40.793000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "159.203.188.104",
+      "loc_city": "North Bergen",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.024700",
+      "loc_lat": "40.793000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "lga25s63-in-f10.1e100.net",
+      "ip_address": "172.217.12.202",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.178",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.61",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-184-73-187-250.compute-1.amazonaws.com",
+      "ip_address": "184.73.187.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "cf-190-93-240-175.cloudflare.com",
+      "ip_address": "190.93.240.175",
+      "loc_city": "N/A",
+      "loc_country": "Costa Rica",
+      "loc_continent": "North America",
+      "loc_long": "-84.000000",
+      "loc_lat": "10.000000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "192.241.143.67",
+      "loc_city": "North Bergen",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.024700",
+      "loc_lat": "40.793000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "198.199.75.141",
+      "loc_city": "North Bergen",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.024700",
+      "loc_lat": "40.793000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "198.199.80.164",
+      "loc_city": "North Bergen",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.024700",
+      "loc_lat": "40.793000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "cws.conviva.com",
+      "ip_address": "199.127.194.73",
+      "loc_city": "Sunnyvale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.035100",
+      "loc_lat": "37.347900"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "cws-iad1.conviva.com",
+      "ip_address": "199.127.194.93",
+      "loc_city": "Sunnyvale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.035100",
+      "loc_lat": "37.347900"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-23-21-109-80.compute-1.amazonaws.com",
+      "ip_address": "23.21.109.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-23-23-148-99.compute-1.amazonaws.com",
+      "ip_address": "23.23.148.99",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "2400:cb00:2048:1::6819:3c71",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-82.197100",
+      "loc_lat": "35.253200"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "edge-star6-shv-01-atl3.facebook.com",
+      "ip_address": "2a03:2880:f011:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "edge-star-shv-01-lga3.facebook.com",
+      "ip_address": "31.13.71.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "livestream-edgetee-upload-shv-01-dub4.facebook.com",
+      "ip_address": "31.13.73.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-34-194-79-114.compute-1.amazonaws.com",
+      "ip_address": "34.194.79.114",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-34-200-195-150.compute-1.amazonaws.com",
+      "ip_address": "34.200.195.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-34-210-34-250.us-west-2.compute.amazonaws.com",
+      "ip_address": "34.210.34.250",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-34-211-105-184.us-west-2.compute.amazonaws.com",
+      "ip_address": "34.211.105.184",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-34-223-213-203.us-west-2.compute.amazonaws.com",
+      "ip_address": "34.223.213.203",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-34-251-152-216.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.152.216",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-34-251-35-236.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.35.236",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-34-252-184-213.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.252.184.213",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-35-163-185-131.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.185.131",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-35-163-96-0.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.96.0",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-35-166-151-57.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.166.151.57",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "38.140.8.78",
+      "loc_city": "East Elmhurst",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-73.891600",
+      "loc_lat": "40.761100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-16-213-80.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.213.80",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-16-50-19.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.50.19",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-206-39-110.compute-1.amazonaws.com",
+      "ip_address": "52.206.39.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-208-98-20.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.98.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-213-193-22.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.193.22",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-214-203-81.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.214.203.81",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-27-122-33.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.122.33",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-27-231-162.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.231.162",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-3-106-10.compute-1.amazonaws.com",
+      "ip_address": "52.3.106.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-31-9-124.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.9.124",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-41-203-250.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.41.203.250",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-4-210-160.compute-1.amazonaws.com",
+      "ip_address": "52.4.210.160",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-43-161-175.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.43.161.175",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-48-77-147.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.77.147",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-54-11-155.compute-1.amazonaws.com",
+      "ip_address": "52.54.11.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-52-73-82-16.compute-1.amazonaws.com",
+      "ip_address": "52.73.82.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "server-52-85-101-119.jfk1.r.cloudfront.net",
+      "ip_address": "52.85.101.119",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "server-52-85-101-156.jfk1.r.cloudfront.net",
+      "ip_address": "52.85.101.156",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "server-52-85-101-193.jfk1.r.cloudfront.net",
+      "ip_address": "52.85.101.193",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "server-52-85-101-222.jfk1.r.cloudfront.net",
+      "ip_address": "52.85.101.222",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "server-52-85-101-239.jfk1.r.cloudfront.net",
+      "ip_address": "52.85.101.239",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-164-58-250.compute-1.amazonaws.com",
+      "ip_address": "54.164.58.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-171-228-168.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.228.168",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-175-178-165.compute-1.amazonaws.com",
+      "ip_address": "54.175.178.165",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-225-215-149.compute-1.amazonaws.com",
+      "ip_address": "54.225.215.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-243-127-94.compute-1.amazonaws.com",
+      "ip_address": "54.243.127.94",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-243-149-238.compute-1.amazonaws.com",
+      "ip_address": "54.243.149.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-246-204-1.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.246.204.1",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-68-1-94.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.68.1.94",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-69-131-40.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.69.131.40",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-76-176-124.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.176.124",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-76-87-76.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.87.76",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "ec2-54-84-100-87.compute-1.amazonaws.com",
+      "ip_address": "54.84.100.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "67.205.135.110",
+      "loc_city": "North Bergen",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.024700",
+      "loc_lat": "40.793000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "N/A",
+      "ip_address": "67.205.135.146",
+      "loc_city": "North Bergen",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-74.024700",
+      "loc_lat": "40.793000"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "odol-atsec-njs-11.union.nj.panjde.comcast.net",
+      "ip_address": "69.241.68.134",
+      "loc_city": "Wilmington",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-75.665600",
+      "loc_lat": "39.738400"
+    },
+    {
+      "package": "com.crunchyroll.crunchyroid",
+      "ptr_domain": "odol-atsec-njs-20.emersonln.nj.panjde.comcast.net",
+      "ip_address": "69.241.68.90",
+      "loc_city": "Wilmington",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-75.665600",
+      "loc_lat": "39.738400"
+    }
   ]
 }

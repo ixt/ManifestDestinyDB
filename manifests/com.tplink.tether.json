@@ -1,7 +1,7 @@
 {
   "appName": "Tether",
   "packageName": "com.tplink.tether",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,5 +23,17 @@
   "trackers": [
     "Google Analytics",
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.tplink.tether",
+      "ptr_domain": "ec2-52-73-213-192.compute-1.amazonaws.com",
+      "ip_address": "52.73.213.192",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "DING",
   "packageName": "com.mdv.DINGCompanion",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -20,9 +20,51 @@
   "version": "4.6.20190130",
   "trackers": [
     "Google CrashLytics",
-    "Google Ads",
-    "Google Firebase Analytics",
     "Google DoubleClick",
-    "Google Analytics"
+    "Google Firebase Analytics",
+    "Google Analytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mdv.DINGCompanion",
+      "ptr_domain": "hcp-prod-app01.pironet-ndh.com",
+      "ip_address": "195.82.69.198",
+      "loc_city": "Cologne",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "6.926400",
+      "loc_lat": "50.951100"
+    },
+    {
+      "package": "com.mdv.DINGCompanion",
+      "ptr_domain": "ding-1.adns.de",
+      "ip_address": "217.31.82.231",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.mdv.DINGCompanion",
+      "ptr_domain": "ec2-54-197-251-200.compute-1.amazonaws.com",
+      "ip_address": "54.197.251.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mdv.DINGCompanion",
+      "ptr_domain": "ec2-54-235-151-110.compute-1.amazonaws.com",
+      "ip_address": "54.235.151.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "PayByPhone",
   "packageName": "com.paybyphone",
-  "category": "AUTO_AND_VEHICLES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,15 +22,47 @@
   ],
   "version": "3.4.0.7293",
   "trackers": [
-    "HockeyApp",
     "Facebook Places",
+    "Google Analytics",
+    "Urbanairship",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Facebook Login",
     "Facebook Share",
-    "Facebook Analytics",
-    "Google Firebase Analytics",
+    "HockeyApp",
     "AppsFlyer",
-    "Urbanairship",
-    "Google CrashLytics",
-    "Google Analytics"
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.paybyphone",
+      "ptr_domain": "N/A",
+      "ip_address": "162.243.24.129",
+      "loc_city": "New York",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-73.997500",
+      "loc_lat": "40.730800"
+    },
+    {
+      "package": "com.paybyphone",
+      "ptr_domain": "N/A",
+      "ip_address": "162.243.24.155",
+      "loc_city": "New York",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-73.997500",
+      "loc_lat": "40.730800"
+    },
+    {
+      "package": "com.paybyphone",
+      "ptr_domain": "N/A",
+      "ip_address": "162.243.26.243",
+      "loc_city": "New York",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-73.997500",
+      "loc_lat": "40.730800"
+    }
   ]
 }

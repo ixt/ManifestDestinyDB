@@ -1,37 +1,88 @@
 {
   "appName": "Minha NET",
   "packageName": "br.com.net.netapp",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "br.com.net.netapp.permission.C2D_MESSAGE",
-    "android.permission.USE_FINGERPRINT",
-    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.RECEIVE_BOOT_COMPLETE",
-    "android.permission.READ_PHONE_STATE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.WAKE_LOCK",
-    "br.com.net.netapp.permission.C2D_MESSAGE",
-    "android.permission.INTERNET",
-    "Manifest.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
     "android.permission.CALL_PHONE",
     "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_FINGERPRINT",
     "android.permission.VIBRATE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "br.com.net.netapp.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY",
+    "Manifest.permission.READ_EXTERNAL_STORAGE"
   ],
   "version": "6.4.7",
   "trackers": [
+    "Google Analytics",
     "Dynatrace",
-    "Google CrashLytics",
     "Google Firebase Analytics",
-    "Amazon Analytics",
-    "Google Analytics"
+    "Google CrashLytics",
+    "Amazon Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "br.com.net.netapp",
+      "ptr_domain": "edge-star-shv-01-gru2.facebook.com",
+      "ip_address": "31.13.85.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "br.com.net.netapp",
+      "ptr_domain": "ec2-52-0-207-59.compute-1.amazonaws.com",
+      "ip_address": "52.0.207.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.net.netapp",
+      "ptr_domain": "N/A",
+      "ip_address": "52.94.226.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "br.com.net.netapp",
+      "ptr_domain": "server-54-192-59-175.gru1.r.cloudfront.net",
+      "ip_address": "54.192.59.175",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "br.com.net.netapp",
+      "ptr_domain": "ec2-54-225-93-51.compute-1.amazonaws.com",
+      "ip_address": "54.225.93.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

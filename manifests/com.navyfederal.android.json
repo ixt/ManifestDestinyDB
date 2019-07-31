@@ -1,0 +1,715 @@
+{
+  "appName": "Navy Federal",
+  "packageName": "com.navyfederal.android",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BROADCAST_PACKAGE_REPLACED",
+    "android.permission.CAMERA",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.REORDER_TASKS",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "com.navyfederal.android.permission.C2D_MESSAGE"
+  ],
+  "version": "6.4.1",
+  "trackers": [
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "a104-65-7-205.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.65.7.205",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "a104-84-115-23.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.84.115.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "a104-95-52-115.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.95.52.115",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-107-20-160-144.compute-1.amazonaws.com",
+      "ip_address": "107.20.160.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-107-20-205-68.compute-1.amazonaws.com",
+      "ip_address": "107.20.205.68",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-107-20-224-161.compute-1.amazonaws.com",
+      "ip_address": "107.20.224.161",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-107-21-118-233.compute-1.amazonaws.com",
+      "ip_address": "107.21.118.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-107-21-225-17.compute-1.amazonaws.com",
+      "ip_address": "107.21.225.17",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-107-21-251-92.compute-1.amazonaws.com",
+      "ip_address": "107.21.251.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-107-22-216-92.compute-1.amazonaws.com",
+      "ip_address": "107.22.216.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-184-169-166-225.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.166.225",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "a184-50-42-59.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.50.42.59",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-184-72-248-107.compute-1.amazonaws.com",
+      "ip_address": "184.72.248.107",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-184-72-52-0.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.72.52.0",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-184-73-219-223.compute-1.amazonaws.com",
+      "ip_address": "184.73.219.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-184-73-246-238.compute-1.amazonaws.com",
+      "ip_address": "184.73.246.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "N/A",
+      "ip_address": "199.204.164.31",
+      "loc_city": "Vienna",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.253200",
+      "loc_lat": "38.893500"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "N/A",
+      "ip_address": "199.204.164.47",
+      "loc_city": "Vienna",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.253200",
+      "loc_lat": "38.893500"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "N/A",
+      "ip_address": "199.204.165.31",
+      "loc_city": "Vienna",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.253200",
+      "loc_lat": "38.893500"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "N/A",
+      "ip_address": "199.204.166.31",
+      "loc_city": "Vienna",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.253200",
+      "loc_lat": "38.893500"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "N/A",
+      "ip_address": "199.204.166.47",
+      "loc_city": "Vienna",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.253200",
+      "loc_lat": "38.893500"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "N/A",
+      "ip_address": "199.204.167.47",
+      "loc_city": "Vienna",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.253200",
+      "loc_lat": "38.893500"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com",
+      "ip_address": "23.21.143.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-21-150-201.compute-1.amazonaws.com",
+      "ip_address": "23.21.150.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-21-44-86.compute-1.amazonaws.com",
+      "ip_address": "23.21.44.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-21-51-186.compute-1.amazonaws.com",
+      "ip_address": "23.21.51.186",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-21-68-70.compute-1.amazonaws.com",
+      "ip_address": "23.21.68.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-21-70-185.compute-1.amazonaws.com",
+      "ip_address": "23.21.70.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-21-73-229.compute-1.amazonaws.com",
+      "ip_address": "23.21.73.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-21-81-100.compute-1.amazonaws.com",
+      "ip_address": "23.21.81.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-21-95-195.compute-1.amazonaws.com",
+      "ip_address": "23.21.95.195",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-23-129-231.compute-1.amazonaws.com",
+      "ip_address": "23.23.129.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-23-147-10.compute-1.amazonaws.com",
+      "ip_address": "23.23.147.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-23-156-210.compute-1.amazonaws.com",
+      "ip_address": "23.23.156.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-23-161-213.compute-1.amazonaws.com",
+      "ip_address": "23.23.161.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-23-162-140.compute-1.amazonaws.com",
+      "ip_address": "23.23.162.140",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-23-227-23.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-23-235-188.compute-1.amazonaws.com",
+      "ip_address": "23.23.235.188",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-23-23-255-145.compute-1.amazonaws.com",
+      "ip_address": "23.23.255.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "a23-41-246-133.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.41.246.133",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "a23-44-27-12.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.44.27.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "a23-47-29-12.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.47.29.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "a23-53-117-165.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.53.117.165",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "a23-63-52-69.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.63.52.69",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-17-189-214.compute-1.amazonaws.com",
+      "ip_address": "50.17.189.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-17-234-37.compute-1.amazonaws.com",
+      "ip_address": "50.17.234.37",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-17-238-193.compute-1.amazonaws.com",
+      "ip_address": "50.17.238.193",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-18-174-184.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.174.184",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-18-248-150.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.248.150",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-19-115-59.compute-1.amazonaws.com",
+      "ip_address": "50.19.115.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-19-211-198.compute-1.amazonaws.com",
+      "ip_address": "50.19.211.198",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-19-214-87.compute-1.amazonaws.com",
+      "ip_address": "50.19.214.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-19-224-163.compute-1.amazonaws.com",
+      "ip_address": "50.19.224.163",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-19-247-226.compute-1.amazonaws.com",
+      "ip_address": "50.19.247.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-50-19-81-254.compute-1.amazonaws.com",
+      "ip_address": "50.19.81.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-197-224-108.compute-1.amazonaws.com",
+      "ip_address": "54.197.224.108",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-225-162-66.compute-1.amazonaws.com",
+      "ip_address": "54.225.162.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-225-163-100.compute-1.amazonaws.com",
+      "ip_address": "54.225.163.100",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-225-209-156.compute-1.amazonaws.com",
+      "ip_address": "54.225.209.156",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-225-244-34.compute-1.amazonaws.com",
+      "ip_address": "54.225.244.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-227-238-44.compute-1.amazonaws.com",
+      "ip_address": "54.227.238.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-235-189-52.compute-1.amazonaws.com",
+      "ip_address": "54.235.189.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-235-190-60.compute-1.amazonaws.com",
+      "ip_address": "54.235.190.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-243-104-248.compute-1.amazonaws.com",
+      "ip_address": "54.243.104.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-243-187-20.compute-1.amazonaws.com",
+      "ip_address": "54.243.187.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "ec2-54-243-34-122.compute-1.amazonaws.com",
+      "ip_address": "54.243.34.122",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "navyfederal.org.ssl.d1.sc.omtrdc.net",
+      "ip_address": "66.235.136.103",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.navyfederal.android",
+      "ptr_domain": "navyfederal.org.ssl.d1.sc.omtrdc.net",
+      "ip_address": "66.235.145.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

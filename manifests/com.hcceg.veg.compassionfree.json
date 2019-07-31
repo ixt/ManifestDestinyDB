@@ -1,7 +1,7 @@
 {
   "appName": "HappyCow",
   "packageName": "com.hcceg.veg.compassionfree",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -18,15 +18,27 @@
   ],
   "version": "61.9.1-free-v2",
   "trackers": [
+    "Facebook Login",
+    "Google Ads",
     "Google DoubleClick",
+    "Flurry",
     "Facebook Share",
-    "Google CrashLytics",
     "Google Analytics",
     "Google Firebase Analytics",
-    "Facebook Analytics",
     "Facebook Places",
-    "Flurry",
-    "Facebook Login",
-    "Google Ads"
+    "Facebook Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.hcceg.veg.compassionfree",
+      "ptr_domain": "ec2-174-129-42-30.compute-1.amazonaws.com",
+      "ip_address": "174.129.42.30",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

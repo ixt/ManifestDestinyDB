@@ -1,7 +1,7 @@
 {
   "appName": "Autolist",
   "packageName": "com.autolist.autolist",
-  "category": "AUTO_AND_VEHICLES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -37,13 +37,45 @@
   ],
   "version": "6.29.0",
   "trackers": [
-    "Facebook Share",
+    "AppsFlyer",
     "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Facebook Analytics",
     "Google Analytics",
     "Google Ads",
-    "AppsFlyer",
-    "Facebook Analytics",
-    "Google Firebase Analytics",
-    "Facebook Login"
+    "Facebook Login",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.autolist.autolist",
+      "ptr_domain": "a23-44-160-60.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.44.160.60",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.autolist.autolist",
+      "ptr_domain": "server-52-84-243-47.sfo20.r.cloudfront.net",
+      "ip_address": "52.84.243.47",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.autolist.autolist",
+      "ptr_domain": "N/A",
+      "ip_address": "69.172.216.111",
+      "loc_city": "N/A",
+      "loc_country": "Canada",
+      "loc_continent": "North America",
+      "loc_long": "-79.371600",
+      "loc_lat": "43.631900"
+    }
   ]
 }

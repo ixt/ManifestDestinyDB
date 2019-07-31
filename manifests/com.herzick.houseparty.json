@@ -1,7 +1,7 @@
 {
   "appName": "Houseparty",
   "packageName": "com.herzick.houseparty",
-  "category": "SOCIAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -45,15 +45,199 @@
   ],
   "version": "1.29.1",
   "trackers": [
-    "Branch",
+    "Segment",
     "Facebook Analytics",
     "Facebook Places",
+    "Taplytics",
     "Facebook Login",
+    "Google Firebase Analytics",
     "Google CrashLytics",
-    "Segment",
-    "Facebook Share",
-    "AppsFlyer",
     "HockeyApp",
-    "Google Firebase Analytics"
+    "AppsFlyer",
+    "Instabug",
+    "Branch",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-107-21-118-233.compute-1.amazonaws.com",
+      "ip_address": "107.21.118.233",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-34-225-70-201.compute-1.amazonaws.com",
+      "ip_address": "34.225.70.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-34-226-144-254.compute-1.amazonaws.com",
+      "ip_address": "34.226.144.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-34-249-12-169.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.12.169",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-34-250-213-120.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.213.120",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-34-253-63-180.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.253.63.180",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-52-203-1-247.compute-1.amazonaws.com",
+      "ip_address": "52.203.1.247",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-52-210-16-62.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.16.62",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-52-27-215-54.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.215.54",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-52-48-16-48.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.48.16.48",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-52-72-196-13.compute-1.amazonaws.com",
+      "ip_address": "52.72.196.13",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-52-87-97-76.compute-1.amazonaws.com",
+      "ip_address": "52.87.97.76",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-52-89-86-249.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.89.86.249",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-54-164-255-52.compute-1.amazonaws.com",
+      "ip_address": "54.164.255.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-54-171-26-243.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.26.243",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-54-172-129-8.compute-1.amazonaws.com",
+      "ip_address": "54.172.129.8",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-54-186-207-204.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.186.207.204",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.herzick.houseparty",
+      "ptr_domain": "ec2-54-194-129-160.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.129.160",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

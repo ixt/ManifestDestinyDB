@@ -1,7 +1,7 @@
 {
   "appName": "ShareChat",
   "packageName": "in.mohalla.sharechat",
-  "category": "SOCIAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,14 +23,826 @@
   ],
   "version": "emarti_8.5.4",
   "trackers": [
-    "Google CrashLytics",
-    "Facebook Share",
-    "Facebook Ads",
-    "AppSee",
-    "Facebook Login",
-    "Facebook Places",
     "Google Ads",
+    "Facebook Places",
+    "AppSee",
+    "Facebook Analytics",
+    "Facebook Login",
     "Google Firebase Analytics",
-    "Facebook Analytics"
+    "Facebook Ads",
+    "Facebook Share",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "broadband.actcorp.in",
+      "ip_address": "106.51.255.237",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-107-20-220-57.compute-1.amazonaws.com",
+      "ip_address": "107.20.220.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-107-20-243-255.compute-1.amazonaws.com",
+      "ip_address": "107.20.243.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-107-21-122-150.compute-1.amazonaws.com",
+      "ip_address": "107.21.122.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-107-21-202-10.compute-1.amazonaws.com",
+      "ip_address": "107.21.202.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-107-22-160-142.compute-1.amazonaws.com",
+      "ip_address": "107.22.160.142",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-107-22-169-1.compute-1.amazonaws.com",
+      "ip_address": "107.22.169.1",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-107-22-216-237.compute-1.amazonaws.com",
+      "ip_address": "107.22.216.237",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-107-22-226-203.compute-1.amazonaws.com",
+      "ip_address": "107.22.226.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "edge-star-shv-02-sin6.facebook.com",
+      "ip_address": "157.240.13.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "bom05s09-in-f2.1e100.net",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-174-129-13-10.compute-1.amazonaws.com",
+      "ip_address": "174.129.13.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-174-129-41-20.compute-1.amazonaws.com",
+      "ip_address": "174.129.41.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "bom07s12-in-f1.1e100.net",
+      "ip_address": "216.58.203.193",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-21-109-80.compute-1.amazonaws.com",
+      "ip_address": "23.21.109.80",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-21-113-253.compute-1.amazonaws.com",
+      "ip_address": "23.21.113.253",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com",
+      "ip_address": "23.21.143.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-21-179-248.compute-1.amazonaws.com",
+      "ip_address": "23.21.179.248",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-21-53-226.compute-1.amazonaws.com",
+      "ip_address": "23.21.53.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-21-62-180.compute-1.amazonaws.com",
+      "ip_address": "23.21.62.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-21-68-70.compute-1.amazonaws.com",
+      "ip_address": "23.21.68.70",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com",
+      "ip_address": "23.21.78.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-21-78-92.compute-1.amazonaws.com",
+      "ip_address": "23.21.78.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-23-110-16.compute-1.amazonaws.com",
+      "ip_address": "23.23.110.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-23-161-213.compute-1.amazonaws.com",
+      "ip_address": "23.23.161.213",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-23-165-121.compute-1.amazonaws.com",
+      "ip_address": "23.23.165.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-23-23-227-23.compute-1.amazonaws.com",
+      "ip_address": "23.23.227.23",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1604:2885:face:b00c:3333:7020",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:1600:1d:5592:2940:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:2c00:1d:5592:2940:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:5e00:1d:5592:2940:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:7600:1d:5592:2940:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:c00:1d:5592:2940:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:d800:1d:5592:2940:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "2600:9000:2046:f600:1d:5592:2940:21",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "edge-star6-shv-01-bom1.facebook.com",
+      "ip_address": "2a03:2880:f02f:f:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.13",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.32",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "31.13.78.53",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.88.33",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-50-16-226-200.compute-1.amazonaws.com",
+      "ip_address": "50.16.226.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-50-19-107-92.compute-1.amazonaws.com",
+      "ip_address": "50.19.107.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-50-19-210-28.compute-1.amazonaws.com",
+      "ip_address": "50.19.210.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-50-19-85-47.compute-1.amazonaws.com",
+      "ip_address": "50.19.85.47",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-50-19-97-211.compute-1.amazonaws.com",
+      "ip_address": "50.19.97.211",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-121.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.121",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-153.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.153",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-165.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.165",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-196.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.196",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-215.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.215",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-218.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.218",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-226.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.226",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-244.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.244",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-44.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.44",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-55.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.55",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-52-222-136-81.bom51.r.cloudfront.net",
+      "ip_address": "52.222.136.81",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-54-192-130-178.ams50.r.cloudfront.net",
+      "ip_address": "54.192.130.178",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-54-192-130-218.ams50.r.cloudfront.net",
+      "ip_address": "54.192.130.218",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-225-144-48.compute-1.amazonaws.com",
+      "ip_address": "54.225.144.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-225-192-200.compute-1.amazonaws.com",
+      "ip_address": "54.225.192.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-225-215-149.compute-1.amazonaws.com",
+      "ip_address": "54.225.215.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-225-228-102.compute-1.amazonaws.com",
+      "ip_address": "54.225.228.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-225-242-149.compute-1.amazonaws.com",
+      "ip_address": "54.225.242.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-225-80-179.compute-1.amazonaws.com",
+      "ip_address": "54.225.80.179",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-225-84-52.compute-1.amazonaws.com",
+      "ip_address": "54.225.84.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-54-230-191-102.maa3.r.cloudfront.net",
+      "ip_address": "54.230.191.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-54-230-191-182.maa3.r.cloudfront.net",
+      "ip_address": "54.230.191.182",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-54-230-191-210.maa3.r.cloudfront.net",
+      "ip_address": "54.230.191.210",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "server-54-230-191-6.maa3.r.cloudfront.net",
+      "ip_address": "54.230.191.6",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-235-129-139.compute-1.amazonaws.com",
+      "ip_address": "54.235.129.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-235-247-104.compute-1.amazonaws.com",
+      "ip_address": "54.235.247.104",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-243-147-93.compute-1.amazonaws.com",
+      "ip_address": "54.243.147.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-243-148-175.compute-1.amazonaws.com",
+      "ip_address": "54.243.148.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-243-215-229.compute-1.amazonaws.com",
+      "ip_address": "54.243.215.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-243-246-82.compute-1.amazonaws.com",
+      "ip_address": "54.243.246.82",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-243-93-187.compute-1.amazonaws.com",
+      "ip_address": "54.243.93.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-54-83-47-63.compute-1.amazonaws.com",
+      "ip_address": "54.83.47.63",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "in.mohalla.sharechat",
+      "ptr_domain": "ec2-75-101-139-105.compute-1.amazonaws.com",
+      "ip_address": "75.101.139.105",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

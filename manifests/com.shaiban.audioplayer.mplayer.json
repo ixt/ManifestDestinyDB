@@ -1,7 +1,7 @@
 {
   "appName": "Audio Beats",
   "packageName": "com.shaiban.audioplayer.mplayer",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -21,9 +21,21 @@
   ],
   "version": "v3.6",
   "trackers": [
-    "Facebook Ads",
     "Google Firebase Analytics",
+    "Facebook Ads",
     "Google Ads",
     "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.shaiban.audioplayer.mplayer",
+      "ptr_domain": "ec2-54-235-221-79.compute-1.amazonaws.com",
+      "ip_address": "54.235.221.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

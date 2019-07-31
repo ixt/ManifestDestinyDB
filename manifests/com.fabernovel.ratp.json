@@ -1,7 +1,7 @@
 {
   "appName": "RATP",
   "packageName": "com.fabernovel.ratp",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,11 +25,63 @@
   ],
   "version": "4.12",
   "trackers": [
-    "Google Ads",
-    "Google CrashLytics",
-    "Google Analytics",
     "Google Firebase Analytics",
+    "Google Ads",
+    "Google Analytics",
+    "Google CrashLytics",
     "Google DoubleClick",
     "Google Tag Manager"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fabernovel.ratp",
+      "ptr_domain": "ec2-107-20-200-251.compute-1.amazonaws.com",
+      "ip_address": "107.20.200.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fabernovel.ratp",
+      "ptr_domain": "ec2-107-21-94-141.compute-1.amazonaws.com",
+      "ip_address": "107.21.94.141",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fabernovel.ratp",
+      "ptr_domain": "ams15s29-in-f3.1e100.net",
+      "ip_address": "172.217.17.99",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fabernovel.ratp",
+      "ptr_domain": "par10s28-in-f14.1e100.net",
+      "ip_address": "216.58.204.110",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fabernovel.ratp",
+      "ptr_domain": "ec2-54-243-223-85.compute-1.amazonaws.com",
+      "ip_address": "54.243.223.85",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

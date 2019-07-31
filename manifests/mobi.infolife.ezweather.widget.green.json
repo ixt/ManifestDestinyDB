@@ -1,7 +1,7 @@
 {
   "appName": "Weather",
   "packageName": "mobi.infolife.ezweather.widget.green",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -26,16 +26,28 @@
   ],
   "version": "15.1.0.45940",
   "trackers": [
-    "Bugly",
-    "Facebook Login",
-    "Facebook Ads",
-    "Twitter MoPub",
-    "Google Firebase Analytics",
-    "Google Ads",
     "Google DoubleClick",
-    "Facebook Share",
-    "Facebook Places",
+    "Facebook Ads",
+    "Google Firebase Analytics",
+    "Facebook Login",
+    "Twitter MoPub",
     "Umeng Analytics",
-    "Facebook Analytics"
+    "Bugly",
+    "Google Ads",
+    "Facebook Analytics",
+    "Facebook Places",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "mobi.infolife.ezweather.widget.green",
+      "ptr_domain": "server-52-222-140-126.bom51.r.cloudfront.net",
+      "ip_address": "52.222.140.126",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    }
   ]
 }

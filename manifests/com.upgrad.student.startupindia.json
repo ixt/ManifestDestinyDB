@@ -1,7 +1,7 @@
 {
   "appName": "SILP",
   "packageName": "com.upgrad.student.startupindia",
-  "category": "EDUCATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -20,9 +20,21 @@
   ],
   "version": "3.0.1",
   "trackers": [
-    "Google Firebase Analytics",
+    "Brightcove",
     "Google CrashLytics",
     "CleverTap",
-    "Brightcove"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.upgrad.student.startupindia",
+      "ptr_domain": "ec2-50-19-220-208.compute-1.amazonaws.com",
+      "ip_address": "50.19.220.208",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

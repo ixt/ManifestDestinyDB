@@ -1,7 +1,7 @@
 {
   "appName": "Mitra App",
   "packageName": "com.airtel.agilelabs.retailerapp",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -36,9 +36,21 @@
   ],
   "version": "2.32",
   "trackers": [
-    "Google CrashLytics",
-    "Appdynamics",
     "Google Firebase Analytics",
-    "AppsFlyer"
+    "Google CrashLytics",
+    "AppsFlyer",
+    "Appdynamics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.airtel.agilelabs.retailerapp",
+      "ptr_domain": "dsl-ncr-static-136.74.16.125.airtelbroadband.in",
+      "ip_address": "125.16.74.136",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    }
   ]
 }

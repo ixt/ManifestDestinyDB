@@ -1,7 +1,7 @@
 {
   "appName": "IndianRail",
   "packageName": "com.indiatravel.apps",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -37,11 +37,23 @@
   ],
   "version": "3.0.58",
   "trackers": [
-    "Google Ads",
-    "Google Firebase Analytics",
+    "OneSignal",
+    "Inmobi",
     "Google DoubleClick",
     "AppBrain",
-    "OneSignal",
-    "Inmobi"
+    "Google Firebase Analytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.indiatravel.apps",
+      "ptr_domain": "ec2-54-236-105-115.compute-1.amazonaws.com",
+      "ip_address": "54.236.105.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

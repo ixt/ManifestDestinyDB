@@ -1,7 +1,7 @@
 {
   "appName": "JioXpressNews",
   "packageName": "com.jio.media.jioxpressnews",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,14 +23,616 @@
   ],
   "version": "1.3.8",
   "trackers": [
+    "Google Ads",
+    "CleverTap",
     "Google Analytics",
+    "Google Firebase Analytics",
     "Google DoubleClick",
     "Facebook Places",
-    "Google Firebase Analytics",
-    "CleverTap",
-    "Facebook Analytics",
+    "Facebook Share",
     "Facebook Login",
-    "Google Ads",
-    "Facebook Share"
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "151.bm-nginx-loadbalancer.mgmt.sin1.adnexus.net",
+      "ip_address": "103.243.221.87",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "139.59.4.28",
+      "loc_city": "Bengaluru",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.583300",
+      "loc_lat": "12.983300"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "maa03s22-in-f2.1e100.net",
+      "ip_address": "172.217.26.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "bom05s09-in-f2.1e100.net",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "nb-185-3-93-165.london.nodebalancer.linode.com",
+      "ip_address": "185.3.93.165",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "199.96.57.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "202.79.210.117",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "bom05s08-in-f2.1e100.net",
+      "ip_address": "216.58.199.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "sc-in-x9d.1e100.net",
+      "ip_address": "2404:6800:4003:c02::9d",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "maa03s22-in-x03.1e100.net",
+      "ip_address": "2404:6800:4007:801::2003",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "maa03s22-in-x0e.1e100.net",
+      "ip_address": "2404:6800:4007:801::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "maa03s23-in-x01.1e100.net",
+      "ip_address": "2404:6800:4007:802::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "maa03s23-in-x03.1e100.net",
+      "ip_address": "2404:6800:4007:802::2003",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "maa03s23-in-x0a.1e100.net",
+      "ip_address": "2404:6800:4007:802::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "maa03s23-in-x0e.1e100.net",
+      "ip_address": "2404:6800:4007:802::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2404:6800:4007:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2404:6800:4007:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "maa03s20-in-x04.1e100.net",
+      "ip_address": "2404:6800:4007:807::2004",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "maa03s20-in-x08.1e100.net",
+      "ip_address": "2404:6800:4007:807::2008",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "bom05s09-in-x01.1e100.net",
+      "ip_address": "2404:6800:4009:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "bom07s01-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "bom07s01-in-x0a.1e100.net",
+      "ip_address": "2404:6800:4009:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "bom05s08-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:807::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "bom05s08-in-x0e.1e100.net",
+      "ip_address": "2404:6800:4009:807::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1601:c0e1:49:40:8:154",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1601:c401:49:40:10:111",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1601:c401:49:40:10:114",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1601:c401:49:40:10:116",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1601:c401:49:40:10:142",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1601:c401:49:40:10:16",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1601:c401:49:40:10:19",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2405:200:1601:c401:49:40:10:84",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "edge-star6-shv-01-sin6.facebook.com",
+      "ip_address": "2a03:2880:f00c:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "edge-star6-shv-02-sin6.facebook.com",
+      "ip_address": "2a03:2880:f00c:20d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "edge-star6-shv-01-bom1.facebook.com",
+      "ip_address": "2a03:2880:f02f:f:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "edge-star-mini6-shv-02-sin6.facebook.com",
+      "ip_address": "2a03:2880:f10c:283:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f126:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-34-249-204-99.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.204.99",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-35-154-194-73.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.194.73",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-35-154-199-54.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.199.54",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-35-154-237-239.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.237.239",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-35-154-241-146.ap-south-1.compute.amazonaws.com",
+      "ip_address": "35.154.241.146",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-35-167-253-159.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.167.253.159",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "49.40.11.143",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "49.40.11.144",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "49.40.11.36",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "49.40.8.193",
+      "loc_city": "N/A",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.000000",
+      "loc_lat": "20.000000"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "N/A",
+      "ip_address": "49.44.50.8",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-220-248-215.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.220.248.215",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-66-169-215.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.169.215",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-66-169-82.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.169.82",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-66-170-36.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.170.36",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-66-182-105.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.182.105",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-66-30-65.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.30.65",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-66-37-14.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.37.14",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-66-37-21.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.37.21",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-66-78-121.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.78.121",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-66-95-186.ap-south-1.compute.amazonaws.com",
+      "ip_address": "52.66.95.186",
+      "loc_city": "Mumbai",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "72.824600",
+      "loc_lat": "18.972100"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-76-33-218.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.76.33.218",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.jio.media.jioxpressnews",
+      "ptr_domain": "ec2-52-78-38-132.ap-northeast-2.compute.amazonaws.com",
+      "ip_address": "52.78.38.132",
+      "loc_city": "Incheon",
+      "loc_country": "South Korea",
+      "loc_continent": "Asia",
+      "loc_long": "126.728800",
+      "loc_lat": "37.456200"
+    }
   ]
 }

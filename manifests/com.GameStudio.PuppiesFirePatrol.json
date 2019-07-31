@@ -1,0 +1,630 @@
+{
+  "appName": "Fire patrol",
+  "packageName": "com.GameStudio.PuppiesFirePatrol",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "1.1.8",
+  "trackers": [
+    "Unity3d Ads",
+    "Google Firebase Analytics",
+    "Vungle",
+    "Google Ads",
+    "Google DoubleClick",
+    "ChartBoost",
+    "Moat",
+    "Inmobi",
+    "MobFox",
+    "myTarget"
+  ],
+  "network_connections": [
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.53.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "53.210.129.12.in-addr.arpa. CNAME 53.0/25.210.129.12.in-addr.arpa",
+      "ip_address": "12.129.210.53",
+      "loc_city": "Los Angeles",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.388700",
+      "loc_lat": "33.956000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s08-in-f2.1e100.net",
+      "ip_address": "172.217.6.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-174-129-203-240.compute-1.amazonaws.com",
+      "ip_address": "174.129.203.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "209.249.180.162.IPYX-102636-910-ZYO.zip.zayo.com",
+      "ip_address": "209.249.180.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "nuq04s29-in-f1.1e100.net",
+      "ip_address": "216.58.192.1",
+      "loc_city": "Draper",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.883800",
+      "loc_lat": "40.508400"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sea15s02-in-f161.1e100.net",
+      "ip_address": "216.58.216.161",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "a23-5-209-221.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.5.209.221",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "iad23s43-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4004:80d::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "nuq04s29-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "nuq04s29-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "nuq04s29-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "nuq04s29-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "nuq04s29-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo07s13-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s01-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s01-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s01-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s06-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s06-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s06-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s06-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s06-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo07s16-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:807::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo07s16-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:807::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo03s08-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo07s17-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "sfo07s17-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:13::11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:13::19",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:13::e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:2::b",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:6::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d::a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ams15s21-in-x03.1e100.net",
+      "ip_address": "2a00:1450:400e:800::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "edge-atlas6-shv-02-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:104:face:b00c:0:8c",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-34-195-228-62.compute-1.amazonaws.com",
+      "ip_address": "34.195.228.62",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-34-195-36-238.compute-1.amazonaws.com",
+      "ip_address": "34.195.36.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-50-18-199-126.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.199.126",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "5d.6b.1732.ip4.static.sl-reverse.com",
+      "ip_address": "50.23.107.93",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "52.25.6132.ip4.static.sl-reverse.com",
+      "ip_address": "50.97.37.82",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-52-18-25-98.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.25.98",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-52-19-229-227.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.229.227",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-52-19-33-211.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.33.211",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-52-21-167-92.compute-1.amazonaws.com",
+      "ip_address": "52.21.167.92",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-52-21-70-206.compute-1.amazonaws.com",
+      "ip_address": "52.21.70.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-52-21-72-121.compute-1.amazonaws.com",
+      "ip_address": "52.21.72.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-52-220-192-128.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.220.192.128",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-52-9-109-21.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.9.109.21",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-54-164-154-209.compute-1.amazonaws.com",
+      "ip_address": "54.164.154.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-54-173-87-174.compute-1.amazonaws.com",
+      "ip_address": "54.173.87.174",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-54-174-49-111.compute-1.amazonaws.com",
+      "ip_address": "54.174.49.111",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "server-54-192-118-129.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.118.129",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "server-54-192-119-44.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.44",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "ec2-54-84-36-52.compute-1.amazonaws.com",
+      "ip_address": "54.84.36.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "64.125.223.112.IPYX-102636-002-ZYO.zip.zayo.com",
+      "ip_address": "64.125.223.112",
+      "loc_city": "Hutchinson",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.931100",
+      "loc_lat": "38.055000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "64.125.223.70.IPYX-102636-002-ZYO.zip.zayo.com",
+      "ip_address": "64.125.223.70",
+      "loc_city": "Hutchinson",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.931100",
+      "loc_lat": "38.055000"
+    },
+    {
+      "package": "com.GameStudio.PuppiesFirePatrol",
+      "ptr_domain": "94.31.6.143.IPYX-102636-ZYO.zip.zayo.com",
+      "ip_address": "94.31.6.143",
+      "loc_city": "Notting Hill Gate",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.216700",
+      "loc_lat": "51.516700"
+    }
+  ]
+}

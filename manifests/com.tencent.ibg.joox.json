@@ -1,7 +1,7 @@
 {
   "appName": "JOOX",
   "packageName": "com.tencent.ibg.joox",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -38,15 +38,37 @@
   ],
   "version": "5.1.1",
   "trackers": [
-    "Facebook Ads",
     "Google Firebase Analytics",
-    "Facebook Login",
     "Facebook Places",
-    "Bugly",
-    "Facebook Share",
     "AppsFlyer",
     "Facebook Analytics",
+    "Facebook Login",
+    "Facebook Share",
+    "Facebook Ads",
+    "Bugly",
     "Google Ads",
     "Google DoubleClick"
+  ],
+  "network_connections": [
+    {
+      "package": "com.tencent.ibg.joox",
+      "ptr_domain": "N/A",
+      "ip_address": "103.7.30.37",
+      "loc_city": "Shanghai",
+      "loc_country": "China",
+      "loc_continent": "Asia",
+      "loc_long": "121.401200",
+      "loc_lat": "31.044900"
+    },
+    {
+      "package": "com.tencent.ibg.joox",
+      "ptr_domain": "ec2-52-211-88-83.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.88.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

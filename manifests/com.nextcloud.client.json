@@ -1,7 +1,7 @@
 {
   "appName": "Nextcloud",
   "packageName": "com.nextcloud.client",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -30,5 +30,27 @@
   "version": "3.5.1",
   "trackers": [
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.nextcloud.client",
+      "ptr_domain": "mcs-hopto.org",
+      "ip_address": "185.101.92.246",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.nextcloud.client",
+      "ptr_domain": "mail.wehrheim.org",
+      "ip_address": "5.10.168.188",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.683100",
+      "loc_lat": "50.111200"
+    }
   ]
 }

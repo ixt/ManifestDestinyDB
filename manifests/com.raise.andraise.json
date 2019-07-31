@@ -1,7 +1,7 @@
 {
   "appName": "Raise",
   "packageName": "com.raise.andraise",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -22,12 +22,44 @@
   "version": "3.2.7",
   "trackers": [
     "Adjust",
-    "Carnival",
-    "Google Firebase Analytics",
-    "Facebook Login",
     "Google CrashLytics",
-    "Google Analytics",
+    "Google Firebase Analytics",
     "Facebook Analytics",
-    "Facebook Share"
+    "Facebook Login",
+    "Google Analytics",
+    "Facebook Share",
+    "Carnival"
+  ],
+  "network_connections": [
+    {
+      "package": "com.raise.andraise",
+      "ptr_domain": "ec2-52-200-43-16.compute-1.amazonaws.com",
+      "ip_address": "52.200.43.16",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.raise.andraise",
+      "ptr_domain": "ec2-52-4-25-95.compute-1.amazonaws.com",
+      "ip_address": "52.4.25.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.raise.andraise",
+      "ptr_domain": "ec2-54-225-218-25.compute-1.amazonaws.com",
+      "ip_address": "54.225.218.25",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

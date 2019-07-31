@@ -1,7 +1,7 @@
 {
   "appName": "AMI Music",
   "packageName": "com.amientertainment.AMISmartBar",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -28,12 +28,24 @@
   ],
   "version": "3.2.0",
   "trackers": [
+    "Facebook Share",
+    "Facebook Analytics",
     "Inmarket",
     "Google Firebase Analytics",
     "Facebook Login",
-    "HockeyApp",
-    "Facebook Analytics",
     "Google Analytics",
-    "Facebook Share"
+    "HockeyApp"
+  ],
+  "network_connections": [
+    {
+      "package": "com.amientertainment.AMISmartBar",
+      "ptr_domain": "170.147.25.69.in-addr.arpa. CNAME 170.160-191.147.25.69.in-addr.arpa",
+      "ip_address": "69.25.147.170",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

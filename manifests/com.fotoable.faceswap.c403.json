@@ -1,0 +1,936 @@
+{
+  "appName": "Face Swap",
+  "packageName": "com.fotoable.faceswap.c403",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.fotoable.faceswap.c403.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "version": "1.6.0",
+  "trackers": [
+    "Facebook Share",
+    "Facebook Login",
+    "Inmobi",
+    "Google DoubleClick",
+    "Google Analytics",
+    "Google Ads",
+    "Google Firebase Analytics",
+    "Facebook Analytics",
+    "Flurry",
+    "Facebook Ads",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "101.102.198.104.bc.googleusercontent.com",
+      "ip_address": "104.198.102.101",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "243.198.199.104.bc.googleusercontent.com",
+      "ip_address": "104.199.198.243",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Asia",
+      "loc_long": "105.000000",
+      "loc_lat": "35.000000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "142.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net",
+      "ip_address": "104.254.150.37",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "328.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net",
+      "ip_address": "104.254.150.69",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "325.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net",
+      "ip_address": "104.254.150.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "a104-68-113-66.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.68.113.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "107.154.133.38.ip.incapdns.net",
+      "ip_address": "107.154.133.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com",
+      "ip_address": "107.20.235.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "122.252.188.126",
+      "loc_city": "N/A",
+      "loc_country": "New Zealand",
+      "loc_continent": "Oceania",
+      "loc_long": "174.000000",
+      "loc_lat": "-41.000000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "184.15.211.130.bc.googleusercontent.com",
+      "ip_address": "130.211.15.184",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "static.80.162.243.136.clients.your-server.de",
+      "ip_address": "136.243.162.80",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "static.84.162.243.136.clients.your-server.de",
+      "ip_address": "136.243.162.84",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.41.108",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "152.163.20.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "edge-star-mini-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "162.248.16.24",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "d8.81.35a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.53.129.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "dc.81.35a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.53.129.220",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "fra15s29-in-f2.1e100.net",
+      "ip_address": "172.217.18.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "fra15s18-in-f1.1e100.net",
+      "ip_address": "172.217.22.97",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "a172-231-66-124.deploy.static.akamaitechnologies.com",
+      "ip_address": "172.231.66.124",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-174-129-0-175.compute-1.amazonaws.com",
+      "ip_address": "174.129.0.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "198.8.71.239",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "mpr1-v6.ngd.vip.ne1.yahoo.com",
+      "ip_address": "2001:4998:44:5196::6000",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "mpr2-v6.ngd.vip.ne1.yahoo.com",
+      "ip_address": "2001:4998:44:6000::1000",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::7000",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "205.210.187.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "216.200.232.216",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "216.200.233.104",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo03s01-in-f198.1e100.net",
+      "ip_address": "216.58.194.198",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo03s01-in-f206.1e100.net",
+      "ip_address": "216.58.194.206",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo03s06-in-f226.1e100.net",
+      "ip_address": "216.58.195.226",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "mad06s25-in-f129.1e100.net",
+      "ip_address": "216.58.201.129",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "fra16s20-in-f2.1e100.net",
+      "ip_address": "216.58.206.2",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "fra16s24-in-f1.1e100.net",
+      "ip_address": "216.58.207.33",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "fra16s24-in-f3.1e100.net",
+      "ip_address": "216.58.207.35",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "fra15s12-in-f34.1e100.net",
+      "ip_address": "216.58.208.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "fra16s05-in-f106.1e100.net",
+      "ip_address": "216.58.214.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "mad01s26-in-f161.1e100.net",
+      "ip_address": "216.58.214.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "mad01s26-in-f162.1e100.net",
+      "ip_address": "216.58.214.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "a2-22-94-166.deploy.static.akamaitechnologies.com",
+      "ip_address": "2.22.94.166",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "a23-11-30-25.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.11.30.25",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-23-21-118-91.compute-1.amazonaws.com",
+      "ip_address": "23.21.118.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-23-21-143-113.compute-1.amazonaws.com",
+      "ip_address": "23.21.143.113",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-23-21-64-252.compute-1.amazonaws.com",
+      "ip_address": "23.21.64.252",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "a23-222-160-207.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.222.160.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "a23-222-160-81.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.222.160.81",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-23-23-184-36.compute-1.amazonaws.com",
+      "ip_address": "23.23.184.36",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "a23-59-197-109.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.59.197.109",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo07s13-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo07s13-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo03s01-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo03s01-in-x06.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2006",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo03s01-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo03s06-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo03s08-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "sfo07s17-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "qh-in-x69.1e100.net",
+      "ip_address": "2607:f8b0:400d:c06::69",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:10d:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:111:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f022:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "edge-star-mini6-shv-01-atl3.facebook.com",
+      "ip_address": "2a03:2880:f111:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "edge-star-shv-01-frt3.facebook.com",
+      "ip_address": "31.13.92.10",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-35-161-35-168.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.161.35.168",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "213.243.186.35.bc.googleusercontent.com",
+      "ip_address": "35.186.243.213",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-50-16-205-27.compute-1.amazonaws.com",
+      "ip_address": "50.16.205.27",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-50-17-237-255.compute-1.amazonaws.com",
+      "ip_address": "50.17.237.255",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-50-18-250-175.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.250.175",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-50-18-251-157.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.251.157",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-52-212-150-136.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.150.136",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-52-52-238-202.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.238.202",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-52-52-44-47.us-west-1.compute.amazonaws.com",
+      "ip_address": "52.52.44.47",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-52-63-230-39.ap-southeast-2.compute.amazonaws.com",
+      "ip_address": "52.63.230.39",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "server-52-84-232-222.sfo9.r.cloudfront.net",
+      "ip_address": "52.84.232.222",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-54-154-80-134.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.80.134",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "server-54-192-119-233.sfo9.r.cloudfront.net",
+      "ip_address": "54.192.119.233",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-54-235-101-190.compute-1.amazonaws.com",
+      "ip_address": "54.235.101.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "ec2-54-235-65-67.compute-1.amazonaws.com",
+      "ip_address": "54.235.65.67",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "63.251.252.12",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "pixel.quantserve.com",
+      "ip_address": "64.95.32.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "pixel.quantserve.com",
+      "ip_address": "64.95.32.22",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "pixel.quantserve.com",
+      "ip_address": "64.95.32.64",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "capi-offstage.creatr.vip.gq1.yahoo.com",
+      "ip_address": "67.195.33.91",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "74.121.136.131",
+      "loc_city": "Palo Alto",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.149700",
+      "loc_lat": "37.444300"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "8.19.18.111",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fotoable.faceswap.c403",
+      "ptr_domain": "N/A",
+      "ip_address": "8.39.37.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
+  ]
+}

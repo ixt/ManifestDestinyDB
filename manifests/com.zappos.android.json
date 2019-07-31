@@ -1,7 +1,7 @@
 {
   "appName": "Zappos",
   "packageName": "com.zappos.android",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -27,10 +27,53 @@
   ],
   "version": "9.1.1",
   "trackers": [
-    "Google Analytics",
-    "Google Firebase Analytics",
+    "Google CrashLytics",
     "Branch",
     "MParticle",
-    "Google CrashLytics"
+    "Google Analytics",
+    "Taplytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.zappos.android",
+      "ptr_domain": "1d.b8.c1ad.ip4.static.sl-reverse.com",
+      "ip_address": "173.193.184.29",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.zappos.android",
+      "ptr_domain": "dc.c0.adb8.ip4.static.sl-reverse.com",
+      "ip_address": "184.173.192.220",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.zappos.android",
+      "ptr_domain": "api.nanigans.com",
+      "ip_address": "50.97.55.58",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.zappos.android",
+      "ptr_domain": "api.nanigans.com",
+      "ip_address": "75.126.18.77",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    }
   ]
 }

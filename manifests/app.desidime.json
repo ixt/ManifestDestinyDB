@@ -1,31 +1,83 @@
 {
   "appName": "Desidime",
   "packageName": "app.desidime",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.USE_CREDENTIALS",
     "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.VIBRATE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.CAMERA",
+    "android.permission.GET_ACCOUNTS",
     "android.permission.GET_TASKS",
-    "android.permission.READ_PHONE_STATE",
+    "android.permission.INTERNET",
     "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
     "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.CAMERA",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "3.2.2",
   "trackers": [
-    "Google CrashLytics",
     "Google Firebase Analytics",
-    "Google Analytics",
     "Google Ads",
-    "Facebook Login"
+    "Facebook Login",
+    "Google Analytics",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "app.desidime",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.64.207",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "app.desidime",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "app.desidime",
+      "ptr_domain": "ec2-54-235-185-132.compute-1.amazonaws.com",
+      "ip_address": "54.235.185.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "app.desidime",
+      "ptr_domain": "ec2-54-65-190-249.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.65.190.249",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "app.desidime",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

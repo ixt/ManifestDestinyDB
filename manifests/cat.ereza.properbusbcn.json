@@ -1,28 +1,40 @@
 {
   "appName": "Proper bus Barcelona",
   "packageName": "cat.ereza.properbusbcn",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.NFC",
-    "android.permission.READ_SYNC_STATS",
-    "android.permission.WRITE_SYNC_SETTINGS",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.AUTHENTICATE_ACCOUNTS",
     "android.permission.GET_ACCOUNTS",
-    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.NFC",
+    "android.permission.READ_SYNC_STATS",
     "android.permission.WAKE_LOCK",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "com.google.android.c2dm.permission.RECEIVE",
     "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE"
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "5.4.0",
   "trackers": [
-    "Google CrashLytics",
-    "Google Ads",
-    "Google Firebase Analytics",
     "Google Analytics",
-    "Google DoubleClick"
+    "Google Firebase Analytics",
+    "Google Ads",
+    "Google DoubleClick",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "cat.ereza.properbusbcn",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

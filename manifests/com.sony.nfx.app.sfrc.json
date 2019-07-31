@@ -1,7 +1,7 @@
 {
   "appName": "News Suite",
   "packageName": "com.sony.nfx.app.sfrc",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -32,12 +32,794 @@
   "trackers": [
     "Inmobi",
     "Google Analytics",
-    "Google DoubleClick",
-    "Facebook Ads",
-    "Flurry",
     "Google Firebase Analytics",
-    "Twitter MoPub",
+    "Google Ads",
+    "Flurry",
+    "Google DoubleClick",
     "Taboola",
-    "Google Ads"
+    "Twitter MoPub",
+    "Facebook Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "a104-110-177-107.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.110.177.107",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "4.93.154.104.bc.googleusercontent.com",
+      "ip_address": "104.154.93.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "238.137.197.104.bc.googleusercontent.com",
+      "ip_address": "104.197.137.238",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.248100",
+      "loc_lat": "38.658300"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "104.27.59.83",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "a104-90-176-199.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.90.176.199",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-107-23-7-209.compute-1.amazonaws.com",
+      "ip_address": "107.23.7.209",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.10.2",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.133.164",
+      "loc_city": "Madrid",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.683900",
+      "loc_lat": "40.417100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.134.2",
+      "loc_city": "Madrid",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.683900",
+      "loc_lat": "40.417100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.141.164",
+      "loc_city": "Fujairah",
+      "loc_country": "United Arab Emirates",
+      "loc_continent": "Asia",
+      "loc_long": "56.341400",
+      "loc_lat": "25.116400"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.142.2",
+      "loc_city": "Fujairah",
+      "loc_country": "United Arab Emirates",
+      "loc_continent": "Asia",
+      "loc_long": "56.341400",
+      "loc_lat": "25.116400"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.2.2",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.38.2",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.58.2",
+      "loc_city": "Atlanta",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-84.387100",
+      "loc_lat": "33.748500"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.85.164",
+      "loc_city": "Stockholm",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.050000",
+      "loc_lat": "59.333300"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.86.2",
+      "loc_city": "Stockholm",
+      "loc_country": "Sweden",
+      "loc_continent": "Europe",
+      "loc_long": "18.050000",
+      "loc_lat": "59.333300"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.139.241.28",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.802100",
+      "loc_lat": "32.788900"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "151.139.242.29",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.802100",
+      "loc_lat": "32.788900"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ip218.ip-167-114-243.eu",
+      "ip_address": "167.114.243.218",
+      "loc_city": "Roubaix",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "3.178000",
+      "loc_lat": "50.697400"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ams15s33-in-f14.1e100.net",
+      "ip_address": "172.217.20.78",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "eg-in-f154.1e100.net",
+      "ip_address": "173.194.79.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "https-178-79-232-25.dus.llnw.net",
+      "ip_address": "178.79.232.25",
+      "loc_city": "N/A",
+      "loc_country": "Italy",
+      "loc_continent": "Europe",
+      "loc_long": "12.109700",
+      "loc_lat": "43.147900"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "https-178-79-238-25.mrs.llnw.net",
+      "ip_address": "178.79.238.25",
+      "loc_city": "N/A",
+      "loc_country": "Italy",
+      "loc_continent": "Europe",
+      "loc_long": "12.109700",
+      "loc_lat": "43.147900"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "UNKNOWN-183-177-93-X.yahoo.com",
+      "ip_address": "183.177.93.11",
+      "loc_city": "N/A",
+      "loc_country": "Hong Kong",
+      "loc_continent": "Asia",
+      "loc_long": "114.166700",
+      "loc_lat": "22.250000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "a184-24-205-189.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.24.205.189",
+      "loc_city": "N/A",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.899500",
+      "loc_lat": "52.382400"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "i1.wp.com",
+      "ip_address": "192.0.77.2",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "192.229.233.25",
+      "loc_city": "Anaheim",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-117.969200",
+      "loc_lat": "33.816000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "192.243.254.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "212.43.1.112",
+      "loc_city": "N/A",
+      "loc_country": "Kuwait",
+      "loc_continent": "Asia",
+      "loc_long": "47.658100",
+      "loc_lat": "29.337500"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "mad06s25-in-f14.1e100.net",
+      "ip_address": "216.58.201.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "mil04s28-in-f161.1e100.net",
+      "ip_address": "216.58.205.161",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "mil04s28-in-f10.1e100.net",
+      "ip_address": "216.58.205.170",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "mil04s29-in-f2.1e100.net",
+      "ip_address": "216.58.205.194",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "a23-14-78-243.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.14.78.243",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-23-21-202-81.compute-1.amazonaws.com",
+      "ip_address": "23.21.202.81",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-23-23-159-73.compute-1.amazonaws.com",
+      "ip_address": "23.23.159.73",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "a23-51-155-107.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.51.155.107",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "edge-star-shv-01-mrs1.facebook.com",
+      "ip_address": "31.13.75.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "edge-star-shv-01-mad1.facebook.com",
+      "ip_address": "31.13.83.8",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "edge-star-shv-01-eze1.facebook.com",
+      "ip_address": "31.13.94.19",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "xx-fbcdn-shv-01-eze1.fbcdn.net",
+      "ip_address": "31.13.94.24",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "edge-star-mini-shv-01-eze1.facebook.com",
+      "ip_address": "31.13.94.35",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-34-225-112-242.compute-1.amazonaws.com",
+      "ip_address": "34.225.112.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-34-249-168-100.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.168.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-34-250-149-71.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.250.149.71",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "38.140.99.21",
+      "loc_city": "Wellsville",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-91.564500",
+      "loc_lat": "39.076500"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-17-74-6.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.74.6",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-208-140-171.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.208.140.171",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-210-16-62.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.16.62",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-210-57-64.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.210.57.64",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-213-123-151.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.213.123.151",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "s3-1.amazonaws.com",
+      "ip_address": "52.216.0.59",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-68-181-182.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.68.181.182",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-69-106-94.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.69.106.94",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-69-1-114.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.69.1.114",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-7-124-236.compute-1.amazonaws.com",
+      "ip_address": "52.7.124.236",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-52-72-201-22.compute-1.amazonaws.com",
+      "ip_address": "52.72.201.22",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "server-52-85-165-64.gru1.r.cloudfront.net",
+      "ip_address": "52.85.165.64",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-54-154-228-144.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.154.228.144",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-54-178-164-14.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.178.164.14",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "server-54-192-59-159.gru1.r.cloudfront.net",
+      "ip_address": "54.192.59.159",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "server-54-192-59-36.gru1.r.cloudfront.net",
+      "ip_address": "54.192.59.36",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "server-54-192-59-67.gru1.r.cloudfront.net",
+      "ip_address": "54.192.59.67",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-54-210-136-91.compute-1.amazonaws.com",
+      "ip_address": "54.210.136.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "server-54-230-14-77.ams1.r.cloudfront.net",
+      "ip_address": "54.230.14.77",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-54-238-206-25.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.238.206.25",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-54-72-193-194.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.193.194",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ec2-54-76-211-198.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.211.198",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "gsapartner2.google.com",
+      "ip_address": "64.233.190.102",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "ce-in-f132.1e100.net",
+      "ip_address": "64.233.190.132",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "67.222.101.124",
+      "loc_city": "Chatsworth",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-118.588000",
+      "loc_lat": "34.254800"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "https-68-142-102-184.fll.llnw.net",
+      "ip_address": "68.142.102.184",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "wq-in-f154.1e100.net",
+      "ip_address": "74.125.140.154",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "https-87-248-214-196.lon.llnw.net",
+      "ip_address": "87.248.214.196",
+      "loc_city": "N/A",
+      "loc_country": "N/A",
+      "loc_continent": "Europe",
+      "loc_long": "8.000000",
+      "loc_lat": "47.000000"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "finextra.com",
+      "ip_address": "94.236.38.249",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "95.66.10.84",
+      "loc_city": "N/A",
+      "loc_country": "Kuwait",
+      "loc_continent": "Asia",
+      "loc_long": "47.658100",
+      "loc_lat": "29.337500"
+    },
+    {
+      "package": "com.sony.nfx.app.sfrc",
+      "ptr_domain": "N/A",
+      "ip_address": "95.66.1.113",
+      "loc_city": "N/A",
+      "loc_country": "Kuwait",
+      "loc_continent": "Asia",
+      "loc_long": "47.658100",
+      "loc_lat": "29.337500"
+    }
   ]
 }

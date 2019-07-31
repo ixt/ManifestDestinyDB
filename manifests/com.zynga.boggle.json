@@ -1,7 +1,7 @@
 {
   "appName": "Boggle",
   "packageName": "com.zynga.boggle",
-  "category": "GAME_WORD",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -23,31 +23,893 @@
   ],
   "version": "11.52",
   "trackers": [
-    "Flurry",
-    "Facebook Analytics",
-    "Google Firebase Analytics",
-    "Millennial Media",
-    "AerServ",
-    "myTarget",
-    "Facebook Share",
     "Appnext",
-    "Google DoubleClick",
+    "Facebook Places",
+    "myTarget",
     "Unity3d Ads",
+    "AerServ",
+    "AppLovin",
     "Twitter MoPub",
+    "Flurry",
+    "Facebook Login",
     "Moat",
     "Inmobi",
-    "Facebook Ads",
     "Adjust",
-    "LeanPlum",
-    "Google CrashLytics",
     "ChartBoost",
-    "AppLovin",
-    "Vungle",
-    "AdColony",
     "HelpShift",
     "Google Ads",
+    "LeanPlum",
+    "Facebook Analytics",
+    "Google Firebase Analytics",
+    "Google CrashLytics",
+    "Millennial Media",
+    "Google DoubleClick",
+    "AdColony",
     "Amazon Advertisement",
-    "Facebook Login",
-    "Facebook Places"
+    "Facebook Share",
+    "Vungle",
+    "Facebook Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "101.119.6.11",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "143.210400",
+      "loc_lat": "-33.494000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "101.119.6.9",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "143.210400",
+      "loc_lat": "-33.494000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "a104-98-252-16.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.98.252.16",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "a104-99-12-131.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.99.12.131",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-107-21-202-10.compute-1.amazonaws.com",
+      "ip_address": "107.21.202.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-107-22-179-196.compute-1.amazonaws.com",
+      "ip_address": "107.22.179.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-107-22-240-139.compute-1.amazonaws.com",
+      "ip_address": "107.22.240.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "edge-star-shv-01-syd2.facebook.com",
+      "ip_address": "157.240.8.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "xx-fbcdn-shv-01-syd2.fbcdn.net",
+      "ip_address": "157.240.8.23",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "edge-star-mini-shv-01-syd2.facebook.com",
+      "ip_address": "157.240.8.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "89.1c.caa1.ip4.static.sl-reverse.com",
+      "ip_address": "161.202.28.137",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd15s03-in-f2.1e100.net",
+      "ip_address": "172.217.25.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd15s03-in-f6.1e100.net",
+      "ip_address": "172.217.25.134",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd15s02-in-f34.1e100.net",
+      "ip_address": "172.217.25.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd15s02-in-f6.1e100.net",
+      "ip_address": "172.217.25.38",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.177",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.58",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.59",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.219.60",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-184-169-157-166.us-west-1.compute.amazonaws.com",
+      "ip_address": "184.169.157.166",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "a184-84-163-86.deploy.static.akamaitechnologies.com",
+      "ip_address": "184.84.163.86",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "192.44.68.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "192.44.68.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "192.96.201.15",
+      "loc_city": "Manassas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.632100",
+      "loc_lat": "38.770100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "202.58.9.202",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-204-236-134-117.us-west-1.compute.amazonaws.com",
+      "ip_address": "204.236.134.117",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "pdlpix-fo1.octopuce.fr",
+      "ip_address": "212.83.153.103",
+      "loc_city": "Paris",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.352700",
+      "loc_lat": "48.854300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd15s04-in-f2.1e100.net",
+      "ip_address": "216.58.196.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd09s12-in-f34.1e100.net",
+      "ip_address": "216.58.199.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd15s01-in-f66.1e100.net",
+      "ip_address": "216.58.199.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd15s01-in-f83.1e100.net",
+      "ip_address": "216.58.199.83",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd09s14-in-f19.1e100.net",
+      "ip_address": "216.58.200.115",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd09s14-in-f1.1e100.net",
+      "ip_address": "216.58.200.97",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd09s14-in-f2.1e100.net",
+      "ip_address": "216.58.200.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd09s15-in-f2.1e100.net",
+      "ip_address": "216.58.203.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ams15s21-in-f131.1e100.net",
+      "ip_address": "216.58.212.131",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "syd09s01-in-f130.1e100.net",
+      "ip_address": "216.58.220.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-23-21-78-229.compute-1.amazonaws.com",
+      "ip_address": "23.21.78.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-23-23-112-166.compute-1.amazonaws.com",
+      "ip_address": "23.23.112.166",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-23-23-254-42.compute-1.amazonaws.com",
+      "ip_address": "23.23.254.42",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-23-23-96-14.compute-1.amazonaws.com",
+      "ip_address": "23.23.96.14",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "edge-secure-shv-01-iad3.facebook.com",
+      "ip_address": "31.13.66.1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-34-199-133-97.compute-1.amazonaws.com",
+      "ip_address": "34.199.133.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-34-200-42-185.compute-1.amazonaws.com",
+      "ip_address": "34.200.42.185",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-34-200-8-254.compute-1.amazonaws.com",
+      "ip_address": "34.200.8.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-34-202-53-31.compute-1.amazonaws.com",
+      "ip_address": "34.202.53.31",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-34-225-48-196.compute-1.amazonaws.com",
+      "ip_address": "34.225.48.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-35-161-140-78.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.161.140.78",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-50-17-228-124.compute-1.amazonaws.com",
+      "ip_address": "50.17.228.124",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-50-18-108-126.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.108.126",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-50-18-114-34.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.114.34",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-50-18-47-33.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.47.33",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-10-178-189.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.10.178.189",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-199-25-120.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "52.199.25.120",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-200-44-20.compute-1.amazonaws.com",
+      "ip_address": "52.200.44.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-24-121-230.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.24.121.230",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-26-52-3.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.26.52.3",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-27-32-217.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.27.32.217",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-35-239-253.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.35.239.253",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-45-78-231.compute-1.amazonaws.com",
+      "ip_address": "52.45.78.231",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-62-22-178.ap-southeast-2.compute.amazonaws.com",
+      "ip_address": "52.62.22.178",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-63-166-217.ap-southeast-2.compute.amazonaws.com",
+      "ip_address": "52.63.166.217",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-63-247-246.ap-southeast-2.compute.amazonaws.com",
+      "ip_address": "52.63.247.246",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-65-98-104.ap-southeast-2.compute.amazonaws.com",
+      "ip_address": "52.65.98.104",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-73-58-155.compute-1.amazonaws.com",
+      "ip_address": "52.73.58.155",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-77-192-229.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.77.192.229",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-52-88-2-234.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.88.2.234",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-148-103-49.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.148.103.49",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-148-110-193.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.148.110.193",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-148-14-200.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.148.14.200",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-148-19-55.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.148.19.55",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-169-192-10.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.192.10",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-187-193-249.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.187.193.249",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-187-253-76.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.187.253.76",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-201-4-147.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.201.4.147",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-225-170-49.compute-1.amazonaws.com",
+      "ip_address": "54.225.170.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-225-244-34.compute-1.amazonaws.com",
+      "ip_address": "54.225.244.34",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-235-169-95.compute-1.amazonaws.com",
+      "ip_address": "54.235.169.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-235-189-52.compute-1.amazonaws.com",
+      "ip_address": "54.235.189.52",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-243-255-60.compute-1.amazonaws.com",
+      "ip_address": "54.243.255.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-243-71-210.compute-1.amazonaws.com",
+      "ip_address": "54.243.71.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-65-22-104.ap-northeast-1.compute.amazonaws.com",
+      "ip_address": "54.65.22.104",
+      "loc_city": "Tokyo",
+      "loc_country": "Japan",
+      "loc_continent": "Asia",
+      "loc_long": "139.753200",
+      "loc_lat": "35.688200"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-69-193-20.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.69.193.20",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-79-120-208.ap-southeast-2.compute.amazonaws.com",
+      "ip_address": "54.79.120.208",
+      "loc_city": "Sydney",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "151.198200",
+      "loc_lat": "-33.861200"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "ec2-54-83-76-249.compute-1.amazonaws.com",
+      "ip_address": "54.83.76.249",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.zynga.boggle",
+      "ptr_domain": "N/A",
+      "ip_address": "63.137.42.243",
+      "loc_city": "Philadelphia",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-75.256000",
+      "loc_lat": "39.976800"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "UAV Forecast",
   "packageName": "com.uavforecast",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -14,5 +14,37 @@
   "version": "1.8.40",
   "trackers": [
     "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.uavforecast",
+      "ptr_domain": "arn09s10-in-f14.1e100.net",
+      "ip_address": "216.58.211.142",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.uavforecast",
+      "ptr_domain": "N/A",
+      "ip_address": "40.101.72.194",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.uavforecast",
+      "ptr_domain": "ec2-54-86-5-132.compute-1.amazonaws.com",
+      "ip_address": "54.86.5.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

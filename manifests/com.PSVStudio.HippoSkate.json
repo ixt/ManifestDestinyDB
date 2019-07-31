@@ -1,0 +1,638 @@
+{
+  "appName": "Hippo Skate",
+  "packageName": "com.PSVStudio.HippoSkate",
+  "category": "",
+  "icon": "",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+  ],
+  "version": "1.1.1",
+  "trackers": [
+    "Inmobi",
+    "Google Firebase Analytics",
+    "ChartBoost",
+    "Google DoubleClick",
+    "Unity3d Ads",
+    "Google Ads",
+    "MobFox",
+    "Moat",
+    "myTarget"
+  ],
+  "network_connections": [
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "104.16.52.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "9b.f8.2bd0.ip4.static.sl-reverse.com",
+      "ip_address": "208.43.248.155",
+      "loc_city": "Chantilly",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.445700",
+      "loc_lat": "38.886700"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "209.249.180.162.IPYX-102636-910-ZYO.zip.zayo.com",
+      "ip_address": "209.249.180.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s13-in-f162.1e100.net",
+      "ip_address": "216.58.194.162",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s01-in-f2.1e100.net",
+      "ip_address": "216.58.194.194",
+      "loc_city": "Bluffdale",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-111.943900",
+      "loc_lat": "40.495300"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4005:2::b",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "nuq04s29-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:801::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s13-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s13-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s13-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s13-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:804::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s01-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s01-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s01-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s01-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s01-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:805::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s06-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:806::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s16-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:807::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s16-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:807::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s16-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:807::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s07-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s07-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s07-in-x0a.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::200a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s07-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo03s08-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:809::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s17-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sfo07s17-in-x0e.1e100.net",
+      "ip_address": "2607:f8b0:4005:80a::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4005::a",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:4005:b::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "pg-in-x5f.1e100.net",
+      "ip_address": "2607:f8b0:400e:c05::5f",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:13::11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:15::15",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:15::e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1c::7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:1d::7",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:6::c",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:a::11",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:401d:d::8",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ams15s21-in-x03.1e100.net",
+      "ip_address": "2a00:1450:400e:800::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "sof02s17-in-x03.1e100.net",
+      "ip_address": "2a00:1450:4017:804::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-50-18-199-126.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.199.126",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-52-21-70-206.compute-1.amazonaws.com",
+      "ip_address": "52.21.70.206",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-52-21-72-121.compute-1.amazonaws.com",
+      "ip_address": "52.21.72.121",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-52-220-192-128.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "52.220.192.128",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-52-55-164-175.compute-1.amazonaws.com",
+      "ip_address": "52.55.164.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-52-6-225-201.compute-1.amazonaws.com",
+      "ip_address": "52.6.225.201",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-52-71-116-204.compute-1.amazonaws.com",
+      "ip_address": "52.71.116.204",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-52-72-253-120.compute-1.amazonaws.com",
+      "ip_address": "52.72.253.120",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-52-73-213-170.compute-1.amazonaws.com",
+      "ip_address": "52.73.213.170",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-54-172-38-152.compute-1.amazonaws.com",
+      "ip_address": "54.172.38.152",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-54-183-38-90.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.38.90",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-54-183-96-10.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.183.96.10",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-54-191-47-247.us-west-2.compute.amazonaws.com",
+      "ip_address": "54.191.47.247",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-54-193-57-99.us-west-1.compute.amazonaws.com",
+      "ip_address": "54.193.57.99",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-54-209-139-137.compute-1.amazonaws.com",
+      "ip_address": "54.209.139.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-54-236-69-87.compute-1.amazonaws.com",
+      "ip_address": "54.236.69.87",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "server-54-239-132-157.sfo9.r.cloudfront.net",
+      "ip_address": "54.239.132.157",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "ec2-54-243-83-229.compute-1.amazonaws.com",
+      "ip_address": "54.243.83.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "64.125.223.111.IPYX-102636-002-ZYO.zip.zayo.com",
+      "ip_address": "64.125.223.111",
+      "loc_city": "Hutchinson",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.931100",
+      "loc_lat": "38.055000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "N/A",
+      "ip_address": "74.125.103.40",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.PSVStudio.HippoSkate",
+      "ptr_domain": "94.31.6.143.IPYX-102636-ZYO.zip.zayo.com",
+      "ip_address": "94.31.6.143",
+      "loc_city": "Notting Hill Gate",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.216700",
+      "loc_lat": "51.516700"
+    }
+  ]
+}

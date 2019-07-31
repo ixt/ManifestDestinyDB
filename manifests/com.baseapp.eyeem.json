@@ -1,7 +1,7 @@
 {
   "appName": "EyeEm",
   "packageName": "com.baseapp.eyeem",
-  "category": "PHOTOGRAPHY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -22,11 +22,153 @@
   "version": "7.2.2",
   "trackers": [
     "Facebook Analytics",
+    "Amplitude",
+    "Google Firebase Analytics",
+    "Facebook Login",
     "Facebook Share",
     "Facebook Places",
-    "Google Firebase Analytics",
-    "Google CrashLytics",
-    "Amplitude",
-    "Facebook Login"
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "ec2-107-20-183-135.compute-1.amazonaws.com",
+      "ip_address": "107.20.183.135",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "ec2-107-23-5-46.compute-1.amazonaws.com",
+      "ip_address": "107.23.5.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.52.143",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "N/A",
+      "ip_address": "199.27.79.143",
+      "loc_city": "Columbus",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-83.023500",
+      "loc_lat": "39.965300"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "ec2-23-23-254-42.compute-1.amazonaws.com",
+      "ip_address": "23.23.254.42",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "N/A",
+      "ip_address": "23.235.47.143",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "ec2-52-36-16-211.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.36.16.211",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "ec2-52-37-252-59.us-west-2.compute.amazonaws.com",
+      "ip_address": "52.37.252.59",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "server-52-85-82-52.lax1.r.cloudfront.net",
+      "ip_address": "52.85.82.52",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "ec2-54-197-235-216.compute-1.amazonaws.com",
+      "ip_address": "54.197.235.216",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "ec2-54-204-30-51.compute-1.amazonaws.com",
+      "ip_address": "54.204.30.51",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "ec2-54-221-208-223.compute-1.amazonaws.com",
+      "ip_address": "54.221.208.223",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.baseapp.eyeem",
+      "ptr_domain": "ec2-54-76-153-85.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.153.85",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

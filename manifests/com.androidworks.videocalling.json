@@ -1,7 +1,7 @@
 {
   "appName": "Video Calling",
   "packageName": "com.androidworks.videocalling",
-  "category": "COMMUNICATION",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -27,17 +27,39 @@
   ],
   "version": "1.0.08.77",
   "trackers": [
-    "Google CrashLytics",
+    "Google Firebase Analytics",
+    "Facebook Analytics",
+    "Flurry",
     "Facebook Ads",
     "Facebook Login",
     "Facebook Share",
-    "Google Firebase Analytics",
-    "Facebook Places",
-    "Facebook Analytics",
     "Twitter MoPub",
+    "Google CrashLytics",
     "Google Ads",
-    "Flurry",
+    "Inmobi",
     "Google DoubleClick",
-    "Inmobi"
+    "Facebook Places"
+  ],
+  "network_connections": [
+    {
+      "package": "com.androidworks.videocalling",
+      "ptr_domain": "edge-star6-shv-01-lax3.facebook.com",
+      "ip_address": "2a03:2880:f00d:1:face:b00c:0:1",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.androidworks.videocalling",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f013:317:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    }
   ]
 }

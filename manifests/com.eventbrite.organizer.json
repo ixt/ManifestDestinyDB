@@ -1,7 +1,7 @@
 {
   "appName": "Eventbrite",
   "packageName": "com.eventbrite.organizer",
-  "category": "BUSINESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -25,13 +25,45 @@
   ],
   "version": "8.5.2",
   "trackers": [
-    "Segment",
     "Google Firebase Analytics",
-    "Facebook Login",
-    "Facebook Share",
+    "Facebook Places",
     "Google Analytics",
+    "Facebook Share",
     "Google CrashLytics",
+    "Segment",
     "Facebook Analytics",
-    "Facebook Places"
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.eventbrite.organizer",
+      "ptr_domain": "ec2-52-44-84-44.compute-1.amazonaws.com",
+      "ip_address": "52.44.84.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eventbrite.organizer",
+      "ptr_domain": "ec2-52-54-35-251.compute-1.amazonaws.com",
+      "ip_address": "52.54.35.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eventbrite.organizer",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

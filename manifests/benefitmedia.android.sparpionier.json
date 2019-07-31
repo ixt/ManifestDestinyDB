@@ -1,20 +1,42 @@
 {
   "appName": "Sparpionier",
   "packageName": "benefitmedia.android.sparpionier",
-  "category": "SHOPPING",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.INTERNET",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.GET_ACCOUNTS",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
     "android.permission.WAKE_LOCK"
   ],
   "version": "7.3.7",
   "trackers": [
     "Google DoubleClick",
     "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "benefitmedia.android.sparpionier",
+      "ptr_domain": "waws-prod-am2-001.cloudapp.net",
+      "ip_address": "65.52.128.33",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    },
+    {
+      "package": "benefitmedia.android.sparpionier",
+      "ptr_domain": "static.84.80.47.78.clients.your-server.de",
+      "ip_address": "78.47.80.84",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
   ]
 }

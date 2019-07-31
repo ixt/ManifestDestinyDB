@@ -1,7 +1,7 @@
 {
   "appName": "PizzaPortal",
   "packageName": "pl.pizzaportalnew",
-  "category": "FOOD_AND_DRINK",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -18,9 +18,21 @@
   ],
   "version": "5.5.0",
   "trackers": [
-    "Braze (formerly Appboy)",
-    "Google Analytics",
     "Google CrashLytics",
-    "Google Firebase Analytics"
+    "Braze (formerly Appboy)",
+    "Google Firebase Analytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "pl.pizzaportalnew",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.37.130",
+      "loc_city": "Amsterdam",
+      "loc_country": "Netherlands",
+      "loc_continent": "Europe",
+      "loc_long": "4.908700",
+      "loc_lat": "52.353400"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "congstar",
   "packageName": "de.congstar.meincongstar",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -34,9 +34,31 @@
   ],
   "version": "3.2.2",
   "trackers": [
-    "Google Analytics",
     "Google CrashLytics",
+    "OneSignal",
     "Google Firebase Analytics",
-    "OneSignal"
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "de.congstar.meincongstar",
+      "ptr_domain": "sof02s18-in-f14.1e100.net",
+      "ip_address": "216.58.212.46",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "de.congstar.meincongstar",
+      "ptr_domain": "N/A",
+      "ip_address": "83.125.119.64",
+      "loc_city": "N/A",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "9.491000",
+      "loc_lat": "51.299300"
+    }
   ]
 }

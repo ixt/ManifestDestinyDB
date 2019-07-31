@@ -1,7 +1,7 @@
 {
   "appName": "6abc",
   "packageName": "com.abclocal.wpvi.news",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -25,19 +25,41 @@
   ],
   "version": "7.4.1",
   "trackers": [
-    "OutBrain",
-    "Demdex",
-    "Facebook Share",
     "ComScore",
-    "Apptentive",
-    "Urbanairship",
-    "Google CrashLytics",
-    "Google Ads",
-    "Facebook Analytics",
-    "Facebook Login",
     "Google DoubleClick",
     "Moat",
+    "Google Ads",
+    "Facebook Login",
+    "Facebook Share",
+    "Demdex",
     "Facebook Places",
-    "BlueKai (acquired by Oracle)"
+    "Facebook Analytics",
+    "Urbanairship",
+    "Apptentive",
+    "OutBrain",
+    "BlueKai (acquired by Oracle)",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.abclocal.wpvi.news",
+      "ptr_domain": "ec2-184-73-232-97.compute-1.amazonaws.com",
+      "ip_address": "184.73.232.97",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.abclocal.wpvi.news",
+      "ptr_domain": "ec2-54-225-174-210.compute-1.amazonaws.com",
+      "ip_address": "54.225.174.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

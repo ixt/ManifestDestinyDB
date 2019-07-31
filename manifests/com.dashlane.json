@@ -1,7 +1,7 @@
 {
   "appName": "Dashlane",
   "packageName": "com.dashlane",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -31,10 +31,772 @@
   ],
   "version": "6.1912.0-armeabi-v7a",
   "trackers": [
-    "Google CrashLytics",
-    "Google Firebase Analytics",
     "Adjust",
     "HockeyApp",
-    "Braze (formerly Appboy)"
+    "Braze (formerly Appboy)",
+    "Google CrashLytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-107-20-235-207.compute-1.amazonaws.com",
+      "ip_address": "107.20.235.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-107-21-109-56.compute-1.amazonaws.com",
+      "ip_address": "107.21.109.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.113.130",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.129.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.49.130",
+      "loc_city": "Dallas",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-96.821700",
+      "loc_lat": "32.778700"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "151.101.52.233",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.331400",
+      "loc_lat": "47.609200"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "lga34s15-in-f2.1e100.net",
+      "ip_address": "172.217.10.98",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "lga15s46-in-f4.1e100.net",
+      "ip_address": "172.217.4.36",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-174-129-19-57.compute-1.amazonaws.com",
+      "ip_address": "174.129.19.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-176-34-186-236.eu-west-1.compute.amazonaws.com",
+      "ip_address": "176.34.186.236",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-176-34-188-204.eu-west-1.compute.amazonaws.com",
+      "ip_address": "176.34.188.204",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-176-34-242-140.eu-west-1.compute.amazonaws.com",
+      "ip_address": "176.34.242.140",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.177",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "178.162.216.179",
+      "loc_city": "Braunschweig",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "10.523300",
+      "loc_lat": "52.264700"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-184-72-254-32.compute-1.amazonaws.com",
+      "ip_address": "184.72.254.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-184-73-161-9.compute-1.amazonaws.com",
+      "ip_address": "184.73.161.9",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-184-73-187-250.compute-1.amazonaws.com",
+      "ip_address": "184.73.187.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-23-21-54-53.compute-1.amazonaws.com",
+      "ip_address": "23.21.54.53",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-34-248-149-109.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.248.149.109",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-34-249-8-226.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.249.8.226",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-34-251-70-94.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.251.70.94",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-34-253-97-137.eu-west-1.compute.amazonaws.com",
+      "ip_address": "34.253.97.137",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-46-137-162-127.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.137.162.127",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-46-137-175-84.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.137.175.84",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-46-51-175-42.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.175.42",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-46-51-184-176.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.184.176",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-46-51-186-63.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.186.63",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-46-51-190-39.eu-west-1.compute.amazonaws.com",
+      "ip_address": "46.51.190.39",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-50-16-241-242.compute-1.amazonaws.com",
+      "ip_address": "50.16.241.242",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-50-19-104-138.compute-1.amazonaws.com",
+      "ip_address": "50.19.104.138",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-52-209-187-189.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.209.187.189",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-52-211-10-230.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.10.230",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-52-211-219-90.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.211.219.90",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.17.28",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "52.218.20.124",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "52.218.20.140",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "52.218.20.92",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.48.140",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.48.164",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.48.236",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.48.52",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "52.218.49.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "52.218.49.4",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.64.20",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.64.84",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "N/A",
+      "ip_address": "52.218.64.92",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "52.218.65.124",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "52.218.65.68",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "52.218.65.76",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-52-30-107-121.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.30.107.121",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-52-31-237-53.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.31.237.53",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-197-254-10.compute-1.amazonaws.com",
+      "ip_address": "54.197.254.10",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-217-211-88.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.217.211.88",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-217-215-24.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.217.215.24",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-217-252-77.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.217.252.77",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-221-215-110.compute-1.amazonaws.com",
+      "ip_address": "54.221.215.110",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-225-130-153.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.153",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-228-206-2.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.228.206.2",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.131.115",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.131.19",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.131.35",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.131.83",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.131.91",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.131.99",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.133.148",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.133.52",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.142.11",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.142.35",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "s3-eu-west-1.amazonaws.com",
+      "ip_address": "54.231.142.75",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-235-190-60.compute-1.amazonaws.com",
+      "ip_address": "54.235.190.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-243-148-175.compute-1.amazonaws.com",
+      "ip_address": "54.243.148.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-243-255-60.compute-1.amazonaws.com",
+      "ip_address": "54.243.255.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-243-92-6.compute-1.amazonaws.com",
+      "ip_address": "54.243.92.6",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-247-98-62.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.247.98.62",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-77-87-45.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.87.45",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.dashlane",
+      "ptr_domain": "ec2-54-83-37-39.compute-1.amazonaws.com",
+      "ip_address": "54.83.37.39",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

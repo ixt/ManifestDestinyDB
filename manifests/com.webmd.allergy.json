@@ -1,7 +1,7 @@
 {
   "appName": "WebMD Allergy",
   "packageName": "com.webmd.allergy",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -19,11 +19,63 @@
   ],
   "version": "3.5.2",
   "trackers": [
-    "Demdex",
-    "Google Firebase Analytics",
-    "Braze (formerly Appboy)",
     "Omniture",
-    "Mapbox",
-    "ComScore"
+    "Demdex",
+    "ComScore",
+    "Braze (formerly Appboy)",
+    "Google Firebase Analytics",
+    "Mapbox"
+  ],
+  "network_connections": [
+    {
+      "package": "com.webmd.allergy",
+      "ptr_domain": "4.42.35a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.53.66.4",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.webmd.allergy",
+      "ptr_domain": "5.42.35a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.53.66.5",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.webmd.allergy",
+      "ptr_domain": "6.42.35a9.ip4.static.sl-reverse.com",
+      "ip_address": "169.53.66.6",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.webmd.allergy",
+      "ptr_domain": "server-54-192-49-102.jfk5.r.cloudfront.net",
+      "ip_address": "54.192.49.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.330300",
+      "loc_lat": "47.610900"
+    },
+    {
+      "package": "com.webmd.allergy",
+      "ptr_domain": "server-54-230-52-103.jfk6.r.cloudfront.net",
+      "ip_address": "54.230.52.103",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    }
   ]
 }

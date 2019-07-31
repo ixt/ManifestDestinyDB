@@ -1,7 +1,7 @@
 {
   "appName": "Domino",
   "packageName": "com.Dominos",
-  "category": "FOOD_AND_DRINK",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -19,14 +19,316 @@
   "version": "7.1.18",
   "trackers": [
     "New Relic",
+    "Facebook Login",
+    "AppsFlyer",
     "Facebook Places",
     "Google Firebase Analytics",
-    "Facebook Share",
-    "AppsFlyer",
     "Facebook Analytics",
     "Google Analytics",
-    "Facebook Login",
-    "CleverTap",
-    "Google CrashLytics"
+    "Facebook Share",
+    "Google CrashLytics",
+    "CleverTap"
+  ],
+  "network_connections": [
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "a104-122-121-149.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.122.121.149",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "edge-star-shv-01-sin6.facebook.com",
+      "ip_address": "157.240.7.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "a23-199-93-152.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.199.93.152",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "a23-52-77-250.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.52.77.250",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f026:13:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-16-33-213.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.33.213",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-16-40-33.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.16.40.33",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-17-61-100.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.17.61.100",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-18-21-230.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.18.21.230",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-19-59-5.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.19.59.5",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-212-120-179.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.212.120.179",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "N/A",
+      "ip_address": "52.219.40.109",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-51-246-224.eu-west-1.compute.amazonaws.com",
+      "ip_address": "52.51.246.224",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-6-114-238.compute-1.amazonaws.com",
+      "ip_address": "52.6.114.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-70-0-77.compute-1.amazonaws.com",
+      "ip_address": "52.70.0.77",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-72-91-83.compute-1.amazonaws.com",
+      "ip_address": "52.72.91.83",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-7-35-112.compute-1.amazonaws.com",
+      "ip_address": "52.7.35.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-52-87-11-228.compute-1.amazonaws.com",
+      "ip_address": "52.87.11.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-165-155-168.compute-1.amazonaws.com",
+      "ip_address": "54.165.155.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-165-224-7.compute-1.amazonaws.com",
+      "ip_address": "54.165.224.7",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-171-177-121.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.177.121",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-194-241-116.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.194.241.116",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-210-179-136.compute-1.amazonaws.com",
+      "ip_address": "54.210.179.136",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-243-113-95.compute-1.amazonaws.com",
+      "ip_address": "54.243.113.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-243-62-28.compute-1.amazonaws.com",
+      "ip_address": "54.243.62.28",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-72-41-103.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.72.41.103",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-76-82-56.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.76.82.56",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-77-116-44.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.116.44",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ec2-54-77-172-114.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.77.172.114",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    },
+    {
+      "package": "com.Dominos",
+      "ptr_domain": "ghs-vip-any-c598.ghs-ssl.googlehosted.com",
+      "ip_address": "72.14.247.90",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

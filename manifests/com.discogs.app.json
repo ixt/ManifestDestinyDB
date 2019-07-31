@@ -1,7 +1,7 @@
 {
   "appName": "Discogs",
   "packageName": "com.discogs.app",
-  "category": "MUSIC_AND_AUDIO",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -20,8 +20,20 @@
   ],
   "version": "2.70",
   "trackers": [
-    "Flurry",
     "Google CrashLytics",
+    "Flurry",
     "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.discogs.app",
+      "ptr_domain": "131.17.151.216.in-addr.arpa. CNAME 131.128/27.17.151.216.in-addr.arpa",
+      "ip_address": "216.151.17.131",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

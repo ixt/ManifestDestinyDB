@@ -1,37 +1,147 @@
 {
   "appName": "Via",
   "packageName": "app.via",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.ACCESS_WIFI_STATE",
-    "android.permission.READ_PHONE_STATE",
-    "app.via.permission.MAPS_RECEIVE",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.INTERNET",
-    "android.permission.WAKE_LOCK",
-    "android.permission.VIBRATE",
-    "com.google.android.providers.gsf.permission.READ_GSERVICES",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "app.via.permission.C2D_MESSAGE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
     "android.permission.USE_CREDENTIALS",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
     "android.permission.WRITE_EXTERNAL_STORAGE",
+    "app.via.permission.C2D_MESSAGE",
+    "app.via.permission.MAPS_RECEIVE",
     "com.android.launcher.permission.INSTALL_SHORTCUT",
     "com.android.launcher.permission.UNINSTALL_SHORTCUT",
-    "app.via.permission.MAPS_RECEIVE",
-    "app.via.permission.C2D_MESSAGE",
-    "android.permission.READ_EXTERNAL_STORAGE"
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES"
   ],
   "version": "10.2",
   "trackers": [
-    "Facebook Login",
+    "Google CrashLytics",
+    "HelpShift",
     "CleverTap",
+    "Facebook Login",
     "Facebook Analytics",
     "Google Analytics",
-    "Google Firebase Analytics",
-    "Google CrashLytics",
-    "HelpShift"
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "app.via",
+      "ptr_domain": "sfo07s17-in-f2.1e100.net",
+      "ip_address": "172.217.6.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "bom07s10-in-f162.1e100.net",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "a23-32-23-124.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.32.23.124",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "sfo03s07-in-x03.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2003",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "sfo03s07-in-x08.1e100.net",
+      "ip_address": "2607:f8b0:4005:808::2008",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "edge-star6-shv-01-sea1.facebook.com",
+      "ip_address": "2a03:2880:f001:6:face:b00c:0:2",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "ec2-50-17-188-214.compute-1.amazonaws.com",
+      "ip_address": "50.17.188.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "ec2-50-18-114-34.us-west-1.compute.amazonaws.com",
+      "ip_address": "50.18.114.34",
+      "loc_city": "San Jose",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-121.891400",
+      "loc_lat": "37.338800"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "ec2-54-169-194-48.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.169.194.48",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "ec2-54-204-29-149.compute-1.amazonaws.com",
+      "ip_address": "54.204.29.149",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "app.via",
+      "ptr_domain": "ec2-54-255-162-20.ap-southeast-1.compute.amazonaws.com",
+      "ip_address": "54.255.162.20",
+      "loc_city": "Singapore",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.854700",
+      "loc_lat": "1.292900"
+    }
   ]
 }

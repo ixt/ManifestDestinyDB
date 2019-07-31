@@ -1,7 +1,7 @@
 {
   "appName": "HealthKart",
   "packageName": "com.healthkart.healthkart",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -24,12 +24,24 @@
   ],
   "version": "7.2.2",
   "trackers": [
-    "Amazon Analytics",
-    "Facebook Share",
     "Facebook Analytics",
-    "AppsFlyer",
     "Google Firebase Analytics",
+    "Facebook Share",
+    "AppsFlyer",
+    "Google Analytics",
     "Facebook Login",
-    "Google Analytics"
+    "Amazon Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.healthkart.healthkart",
+      "ptr_domain": "e2e-7-157.e2enetworks.net.in",
+      "ip_address": "205.147.110.157",
+      "loc_city": "Faridabad",
+      "loc_country": "India",
+      "loc_continent": "Asia",
+      "loc_long": "77.316700",
+      "loc_lat": "28.433300"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Eenadu",
   "packageName": "com.eenadu",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -14,10 +14,862 @@
   ],
   "version": "2.5",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Ads",
     "Google CrashLytics",
+    "Google Firebase Analytics",
     "Google DoubleClick",
-    "Google Analytics"
+    "Google Analytics",
+    "Google Ads"
+  ],
+  "network_connections": [
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-107-20-200-251.compute-1.amazonaws.com",
+      "ip_address": "107.20.200.251",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-107-21-122-150.compute-1.amazonaws.com",
+      "ip_address": "107.21.122.150",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-107-21-223-240.compute-1.amazonaws.com",
+      "ip_address": "107.21.223.240",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-107-22-184-200.compute-1.amazonaws.com",
+      "ip_address": "107.22.184.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "N/A",
+      "ip_address": "138.108.140.100",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "N/A",
+      "ip_address": "138.108.50.100",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.399400",
+      "loc_lat": "37.797600"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "den02s01-in-f2.1e100.net",
+      "ip_address": "172.217.11.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "sin10s06-in-f66.1e100.net",
+      "ip_address": "172.217.24.66",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "syd09s13-in-f1.1e100.net",
+      "ip_address": "172.217.25.161",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "syd15s02-in-f2.1e100.net",
+      "ip_address": "172.217.25.34",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "syd15s02-in-f35.1e100.net",
+      "ip_address": "172.217.25.35",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s22-in-f2.1e100.net",
+      "ip_address": "172.217.26.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s22-in-f163.1e100.net",
+      "ip_address": "172.217.26.163",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s23-in-f194.1e100.net",
+      "ip_address": "172.217.26.194",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "bom05s09-in-f2.1e100.net",
+      "ip_address": "172.217.26.226",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-174-129-29-44.compute-1.amazonaws.com",
+      "ip_address": "174.129.29.44",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "N/A",
+      "ip_address": "182.161.72.69",
+      "loc_city": "N/A",
+      "loc_country": "Singapore",
+      "loc_continent": "Asia",
+      "loc_long": "103.800000",
+      "loc_lat": "1.366700"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "syd15s04-in-f2.1e100.net",
+      "ip_address": "216.58.196.130",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s19-in-f98.1e100.net",
+      "ip_address": "216.58.196.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s20-in-f2.1e100.net",
+      "ip_address": "216.58.197.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s21-in-f1.1e100.net",
+      "ip_address": "216.58.197.65",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s21-in-f2.1e100.net",
+      "ip_address": "216.58.197.66",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s21-in-f67.1e100.net",
+      "ip_address": "216.58.197.67",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s21-in-f6.1e100.net",
+      "ip_address": "216.58.197.70",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "bom05s08-in-f162.1e100.net",
+      "ip_address": "216.58.199.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "syd09s12-in-f34.1e100.net",
+      "ip_address": "216.58.199.34",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "syd09s14-in-f10.1e100.net",
+      "ip_address": "216.58.200.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "syd09s14-in-f2.1e100.net",
+      "ip_address": "216.58.200.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "syd09s15-in-f2.1e100.net",
+      "ip_address": "216.58.203.98",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "syd10s01-in-f106.1e100.net",
+      "ip_address": "216.58.220.106",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "bom07s10-in-f2.1e100.net",
+      "ip_address": "216.58.220.162",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s18-in-f42.1e100.net",
+      "ip_address": "216.58.220.42",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-23-21-118-91.compute-1.amazonaws.com",
+      "ip_address": "23.21.118.91",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-23-21-209-66.compute-1.amazonaws.com",
+      "ip_address": "23.21.209.66",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-23-23-127-115.compute-1.amazonaws.com",
+      "ip_address": "23.23.127.115",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-23-23-175-199.compute-1.amazonaws.com",
+      "ip_address": "23.23.175.199",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-23-23-213-226.compute-1.amazonaws.com",
+      "ip_address": "23.23.213.226",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-23-23-248-196.compute-1.amazonaws.com",
+      "ip_address": "23.23.248.196",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s21-in-x02.1e100.net",
+      "ip_address": "2404:6800:4007:800::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s23-in-x01.1e100.net",
+      "ip_address": "2404:6800:4007:802::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "maa03s23-in-x02.1e100.net",
+      "ip_address": "2404:6800:4007:802::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "N/A",
+      "ip_address": "2404:6800:4007:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "bom07s10-in-x0e.1e100.net",
+      "ip_address": "2404:6800:4009:801::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "bom07s11-in-x06.1e100.net",
+      "ip_address": "2404:6800:4009:803::2006",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "bom05s05-in-x01.1e100.net",
+      "ip_address": "2404:6800:4009:804::2001",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "bom07s01-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:806::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "bom07s01-in-x0e.1e100.net",
+      "ip_address": "2404:6800:4009:806::200e",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "bom07s12-in-x02.1e100.net",
+      "ip_address": "2404:6800:4009:808::2002",
+      "loc_city": "N/A",
+      "loc_country": "Australia",
+      "loc_continent": "Oceania",
+      "loc_long": "133.000000",
+      "loc_lat": "-27.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "den02s01-in-x02.1e100.net",
+      "ip_address": "2607:f8b0:400f:800::2002",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ams15s21-in-x03.1e100.net",
+      "ip_address": "2a00:1450:400e:800::2003",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "edge-star-mini6-shv-02-sin6.facebook.com",
+      "ip_address": "2a03:2880:f10c:283:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "N/A",
+      "ip_address": "2a03:2880:f126:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-50-16-213-250.compute-1.amazonaws.com",
+      "ip_address": "50.16.213.250",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-50-17-204-79.compute-1.amazonaws.com",
+      "ip_address": "50.17.204.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-50-17-222-169.compute-1.amazonaws.com",
+      "ip_address": "50.17.222.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-50-19-235-132.compute-1.amazonaws.com",
+      "ip_address": "50.19.235.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-50-19-245-144.compute-1.amazonaws.com",
+      "ip_address": "50.19.245.144",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-50-19-254-57.compute-1.amazonaws.com",
+      "ip_address": "50.19.254.57",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-50-19-95-95.compute-1.amazonaws.com",
+      "ip_address": "50.19.95.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-197-234-180.compute-1.amazonaws.com",
+      "ip_address": "54.197.234.180",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-221-199-46.compute-1.amazonaws.com",
+      "ip_address": "54.221.199.46",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-221-222-20.compute-1.amazonaws.com",
+      "ip_address": "54.221.222.20",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-225-130-79.compute-1.amazonaws.com",
+      "ip_address": "54.225.130.79",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-225-152-202.compute-1.amazonaws.com",
+      "ip_address": "54.225.152.202",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-225-169-184.compute-1.amazonaws.com",
+      "ip_address": "54.225.169.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-225-179-254.compute-1.amazonaws.com",
+      "ip_address": "54.225.179.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-225-192-200.compute-1.amazonaws.com",
+      "ip_address": "54.225.192.200",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-225-196-50.compute-1.amazonaws.com",
+      "ip_address": "54.225.196.50",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-225-197-56.compute-1.amazonaws.com",
+      "ip_address": "54.225.197.56",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-225-213-13.compute-1.amazonaws.com",
+      "ip_address": "54.225.213.13",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-225-221-229.compute-1.amazonaws.com",
+      "ip_address": "54.225.221.229",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-235-101-190.compute-1.amazonaws.com",
+      "ip_address": "54.235.101.190",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-235-136-137.compute-1.amazonaws.com",
+      "ip_address": "54.235.136.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-235-168-254.compute-1.amazonaws.com",
+      "ip_address": "54.235.168.254",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-235-169-95.compute-1.amazonaws.com",
+      "ip_address": "54.235.169.95",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-235-186-187.compute-1.amazonaws.com",
+      "ip_address": "54.235.186.187",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-243-101-102.compute-1.amazonaws.com",
+      "ip_address": "54.243.101.102",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-243-111-217.compute-1.amazonaws.com",
+      "ip_address": "54.243.111.217",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-243-119-184.compute-1.amazonaws.com",
+      "ip_address": "54.243.119.184",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-243-217-210.compute-1.amazonaws.com",
+      "ip_address": "54.243.217.210",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-243-226-203.compute-1.amazonaws.com",
+      "ip_address": "54.243.226.203",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-243-255-169.compute-1.amazonaws.com",
+      "ip_address": "54.243.255.169",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "ec2-54-243-98-151.compute-1.amazonaws.com",
+      "ip_address": "54.243.98.151",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "sa-in-f156.1e100.net",
+      "ip_address": "74.125.200.156",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.eenadu",
+      "ptr_domain": "yv-in-f157.1e100.net",
+      "ip_address": "74.125.21.157",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

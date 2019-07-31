@@ -1,7 +1,7 @@
 {
   "appName": "SBS On Demand",
   "packageName": "com.sbs.ondemand.android",
-  "category": "ENTERTAINMENT",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -14,12 +14,24 @@
   "version": "v2.5.9",
   "trackers": [
     "Demdex",
-    "Facebook Analytics",
+    "Facebook Places",
     "Facebook Share",
     "Conviva",
+    "Facebook Analytics",
     "Google Firebase Analytics",
-    "Facebook Login",
     "Google CrashLytics",
-    "Facebook Places"
+    "Facebook Login"
+  ],
+  "network_connections": [
+    {
+      "package": "com.sbs.ondemand.android",
+      "ptr_domain": "edge-star-shv-01-syd2.facebook.com",
+      "ip_address": "157.240.8.18",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

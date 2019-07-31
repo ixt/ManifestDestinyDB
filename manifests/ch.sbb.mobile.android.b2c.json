@@ -1,32 +1,193 @@
 {
   "appName": "SBB Mobile",
   "packageName": "ch.sbb.mobile.android.b2c",
-  "category": "MAPS_AND_NAVIGATION",
+  "category": "",
   "icon": "",
   "permissions": [
-    "android.permission.INTERNET",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.READ_EXTERNAL_STORAGE",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.WAKE_LOCK",
-    "android.permission.CAMERA",
-    "android.permission.VIBRATE",
+    "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCESS_WIFI_STATE",
-    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-    "com.google.android.c2dm.permission.RECEIVE",
-    "ch.sbb.mobile.android.b2c.permission.C2D_MESSAGE",
-    "ch.sbb.mobile.android.b2c.permission.C2D_MESSAGE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.READ_EXTERNAL_STORAGE",
     "android.permission.RECEIVE_BOOT_COMPLETED",
-    "android.permission.USE_FINGERPRINT"
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "ch.sbb.mobile.android.b2c.permission.C2D_MESSAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
   ],
   "version": "flavorprodRelease-9.0.0.80-RELEASE",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Ads",
-    "Mapbox",
     "Google DoubleClick",
+    "Google Ads",
     "ATInternet",
+    "Mapbox",
+    "Google Firebase Analytics",
     "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "zrh04s08-in-f14.1e100.net",
+      "ip_address": "172.217.19.14",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "N/A",
+      "ip_address": "185.86.138.16",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "N/A",
+      "ip_address": "185.86.138.32",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "N/A",
+      "ip_address": "185.86.138.79",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "N/A",
+      "ip_address": "194.150.245.142",
+      "loc_city": "N/A",
+      "loc_country": "Switzerland",
+      "loc_continent": "Europe",
+      "loc_long": "8.155100",
+      "loc_lat": "47.144900"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "N/A",
+      "ip_address": "212.47.171.86",
+      "loc_city": "N/A",
+      "loc_country": "Switzerland",
+      "loc_continent": "Europe",
+      "loc_long": "8.155100",
+      "loc_lat": "47.144900"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "N/A",
+      "ip_address": "212.47.171.92",
+      "loc_city": "N/A",
+      "loc_country": "Switzerland",
+      "loc_continent": "Europe",
+      "loc_long": "8.155100",
+      "loc_lat": "47.144900"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "arn06s07-in-f99.1e100.net",
+      "ip_address": "216.58.209.99",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "ec2-23-21-118-60.compute-1.amazonaws.com",
+      "ip_address": "23.21.118.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "ec2-23-21-94-175.compute-1.amazonaws.com",
+      "ip_address": "23.21.94.175",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "35.231.186.31.in-addr.arpa. CNAME 35.0-255.231.186.31.in-addr.arpa",
+      "ip_address": "31.186.231.35",
+      "loc_city": "N/A",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.122400",
+      "loc_lat": "51.496400"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "ec2-35-157-238-144.eu-central-1.compute.amazonaws.com",
+      "ip_address": "35.157.238.144",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "ec2-50-19-244-139.compute-1.amazonaws.com",
+      "ip_address": "50.19.244.139",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "ec2-52-58-58-112.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.58.58.112",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "ec2-52-59-95-128.eu-central-1.compute.amazonaws.com",
+      "ip_address": "52.59.95.128",
+      "loc_city": "Frankfurt am Main",
+      "loc_country": "Germany",
+      "loc_continent": "Europe",
+      "loc_long": "8.684200",
+      "loc_lat": "50.115500"
+    },
+    {
+      "package": "ch.sbb.mobile.android.b2c",
+      "ptr_domain": "logs1158.xiti.com",
+      "ip_address": "62.161.94.230",
+      "loc_city": "N/A",
+      "loc_country": "France",
+      "loc_continent": "Europe",
+      "loc_long": "2.338700",
+      "loc_lat": "48.858200"
+    }
   ]
 }

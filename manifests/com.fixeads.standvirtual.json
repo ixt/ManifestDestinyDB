@@ -1,7 +1,7 @@
 {
   "appName": "Standvirtual",
   "packageName": "com.fixeads.standvirtual",
-  "category": "AUTO_AND_VEHICLES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -23,14 +23,36 @@
   ],
   "version": "3.9.0",
   "trackers": [
+    "Facebook Login",
     "ATInternet",
+    "Google Analytics",
+    "Facebook Analytics",
     "Google Firebase Analytics",
     "MixPanel",
-    "Google CrashLytics",
-    "Facebook Login",
-    "Facebook Share",
-    "Google Analytics",
     "New Relic",
-    "Facebook Analytics"
+    "Google CrashLytics",
+    "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.fixeads.standvirtual",
+      "ptr_domain": "b9.13.7a9f.ip4.static.sl-reverse.com",
+      "ip_address": "159.122.19.185",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.fixeads.standvirtual",
+      "ptr_domain": "mad01s25-in-f200.1e100.net",
+      "ip_address": "216.58.211.200",
+      "loc_city": "Mountain View",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.074800",
+      "loc_lat": "37.404300"
+    }
   ]
 }

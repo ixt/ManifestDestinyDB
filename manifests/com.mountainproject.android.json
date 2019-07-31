@@ -1,7 +1,7 @@
 {
   "appName": "Mountain Project",
   "packageName": "com.mountainproject.android",
-  "category": "SPORTS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -16,11 +16,23 @@
   ],
   "version": "4.2.0",
   "trackers": [
-    "Google Firebase Analytics",
-    "Facebook Login",
     "Google CrashLytics",
-    "Google Analytics",
+    "Facebook Login",
+    "Facebook Places",
     "Facebook Share",
-    "Facebook Places"
+    "Google Firebase Analytics",
+    "Google Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mountainproject.android",
+      "ptr_domain": "ec2-52-72-8-137.compute-1.amazonaws.com",
+      "ip_address": "52.72.8.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Bing",
   "packageName": "com.microsoft.bing",
-  "category": "TOOLS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -39,8 +39,560 @@
   "version": "9.7.27178401",
   "trackers": [
     "Google Firebase Analytics",
-    "Google CrashLytics",
     "HockeyApp",
-    "Branch"
+    "Branch",
+    "Google CrashLytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "a104-76-230-186.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.76.230.186",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "a104-76-242-17.deploy.static.akamaitechnologies.com",
+      "ip_address": "104.76.242.17",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "111.221.29.14",
+      "loc_city": "Central",
+      "loc_country": "Hong Kong",
+      "loc_continent": "Asia",
+      "loc_long": "114.150000",
+      "loc_lat": "22.290900"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "13.107.21.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "server-13-32-205-102.sea19.r.cloudfront.net",
+      "ip_address": "13.32.205.102",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "server-13-32-205-116.sea19.r.cloudfront.net",
+      "ip_address": "13.32.205.116",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "atl14s77-in-f2.1e100.net",
+      "ip_address": "172.217.0.130",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "sea15s11-in-f2.1e100.net",
+      "ip_address": "172.217.3.162",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "192.0.72.16",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "wordpress.com",
+      "ip_address": "192.0.77.32",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "192.0.78.18",
+      "loc_city": "San Francisco",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.412100",
+      "loc_lat": "37.750600"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "2001:4998:c:292f::3001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "a-0001.a-msedge.net",
+      "ip_address": "204.79.197.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "a23-35-53-230.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.35.53.230",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "a23-45-228-108.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.45.228.108",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "a23-45-229-113.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.45.229.113",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "a23-45-229-139.deploy.static.akamaitechnologies.com",
+      "ip_address": "23.45.229.139",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "waws-prod-blu-009.cloudapp.net",
+      "ip_address": "23.96.96.142",
+      "loc_city": "Washington",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.153900",
+      "loc_lat": "38.709500"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "2607:f8b0:400a:807::200e",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "sea15s12-in-x01.1e100.net",
+      "ip_address": "2607:f8b0:400a:809::2001",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "xx-fbcdn6-shv-01-sea1.fbcdn.net",
+      "ip_address": "2a03:2880:f001:b:face:b00c:0:3",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "edge-star-mini6-shv-01-sea1.facebook.com",
+      "ip_address": "2a03:2880:f101:83:face:b00c:0:25de",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "instagram-p36-shv-01-sea1.fbcdn.net",
+      "ip_address": "2a03:2880:f201:c4:face:b00c:0:43fe",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-8.000000",
+      "loc_lat": "53.000000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-34-198-137-154.compute-1.amazonaws.com",
+      "ip_address": "34.198.137.154",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-35-163-223-46.us-west-2.compute.amazonaws.com",
+      "ip_address": "35.163.223.46",
+      "loc_city": "Boardman",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-119.714300",
+      "loc_lat": "45.849100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "40.114.0.47",
+      "loc_city": "Washington",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.153900",
+      "loc_lat": "38.709500"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "40.123.52.224",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "52.167.221.184",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-1-80-93.compute-1.amazonaws.com",
+      "ip_address": "52.1.80.93",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-203-75-143.compute-1.amazonaws.com",
+      "ip_address": "52.203.75.143",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-204-148-49.compute-1.amazonaws.com",
+      "ip_address": "52.204.148.49",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "52-2-169-214.tworismo.com",
+      "ip_address": "52.2.169.214",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-2-180-86.compute-1.amazonaws.com",
+      "ip_address": "52.2.180.86",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-54-146-212.compute-1.amazonaws.com",
+      "ip_address": "52.54.146.212",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-6-114-238.compute-1.amazonaws.com",
+      "ip_address": "52.6.114.238",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-7-131-48.compute-1.amazonaws.com",
+      "ip_address": "52.7.131.48",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-72-243-207.compute-1.amazonaws.com",
+      "ip_address": "52.72.243.207",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-73-29-75.compute-1.amazonaws.com",
+      "ip_address": "52.73.29.75",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-7-35-112.compute-1.amazonaws.com",
+      "ip_address": "52.7.35.112",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "server-52-84-24-228.sea32.r.cloudfront.net",
+      "ip_address": "52.84.24.228",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.345100",
+      "loc_lat": "47.634800"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-86-133-32.compute-1.amazonaws.com",
+      "ip_address": "52.86.133.32",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-86-30-227.compute-1.amazonaws.com",
+      "ip_address": "52.86.30.227",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-52-87-11-228.compute-1.amazonaws.com",
+      "ip_address": "52.87.11.228",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-54-164-239-22.compute-1.amazonaws.com",
+      "ip_address": "54.164.239.22",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-54-165-155-168.compute-1.amazonaws.com",
+      "ip_address": "54.165.155.168",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-54-165-224-7.compute-1.amazonaws.com",
+      "ip_address": "54.165.224.7",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "server-54-230-204-204.atl50.r.cloudfront.net",
+      "ip_address": "54.230.204.204",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "server-54-230-36-186.jfk1.r.cloudfront.net",
+      "ip_address": "54.230.36.186",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-54-84-152-61.compute-1.amazonaws.com",
+      "ip_address": "54.84.152.61",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "ec2-54-84-197-164.compute-1.amazonaws.com",
+      "ip_address": "54.84.197.164",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "65.52.108.59",
+      "loc_city": "Boydton",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-78.375000",
+      "loc_lat": "36.653400"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "N/A",
+      "ip_address": "72.21.81.200",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "n7k01-inet-ny8-v300-sec2.us.criteo.net",
+      "ip_address": "74.119.117.67",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "UNKNOWN-74-6-105-X.yahoo.com",
+      "ip_address": "74.6.105.9",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.microsoft.bing",
+      "ptr_domain": "UNKNOWN-74-6-34-X.yahoo.com",
+      "ip_address": "74.6.34.30",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    }
   ]
 }

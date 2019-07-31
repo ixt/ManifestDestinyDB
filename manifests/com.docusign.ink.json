@@ -1,7 +1,7 @@
 {
   "appName": "DocuSign",
   "packageName": "com.docusign.ink",
-  "category": "PRODUCTIVITY",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -26,10 +26,52 @@
   ],
   "version": "3.12.0",
   "trackers": [
-    "Google Tag Manager",
-    "AppsFlyer",
     "Google CrashLytics",
+    "Google Tag Manager",
+    "Google Analytics",
     "Google Firebase Analytics",
-    "Google Analytics"
+    "AppsFlyer"
+  ],
+  "network_connections": [
+    {
+      "package": "com.docusign.ink",
+      "ptr_domain": "ec2-107-22-170-137.compute-1.amazonaws.com",
+      "ip_address": "107.22.170.137",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.docusign.ink",
+      "ptr_domain": "ec2-107-22-186-145.compute-1.amazonaws.com",
+      "ip_address": "107.22.186.145",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.docusign.ink",
+      "ptr_domain": "ec2-50-17-250-132.compute-1.amazonaws.com",
+      "ip_address": "50.17.250.132",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.docusign.ink",
+      "ptr_domain": "ec2-54-171-129-94.eu-west-1.compute.amazonaws.com",
+      "ip_address": "54.171.129.94",
+      "loc_city": "Dublin",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.248800",
+      "loc_lat": "53.333800"
+    }
   ]
 }

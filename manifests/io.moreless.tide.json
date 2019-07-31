@@ -1,7 +1,7 @@
 {
   "appName": "Tide",
   "packageName": "io.moreless.tide",
-  "category": "HEALTH_AND_FITNESS",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -33,8 +33,20 @@
   ],
   "version": "2.8.0.6",
   "trackers": [
+    "Google Firebase Analytics",
     "Google CrashLytics",
-    "Umeng Analytics",
-    "Google Firebase Analytics"
+    "Umeng Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "io.moreless.tide",
+      "ptr_domain": "N/A",
+      "ip_address": "140.205.230.45",
+      "loc_city": "N/A",
+      "loc_country": "China",
+      "loc_continent": "Asia",
+      "loc_long": "120.161900",
+      "loc_lat": "30.294000"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "appName": "Haystack TV",
   "packageName": "com.haystack.android",
-  "category": "NEWS_AND_MAGAZINES",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_NETWORK_STATE",
@@ -17,12 +17,34 @@
   ],
   "version": "3.81",
   "trackers": [
-    "Facebook Analytics",
-    "Facebook Login",
+    "Google CrashLytics",
     "Facebook Places",
-    "Flurry",
     "Facebook Share",
+    "Flurry",
+    "Facebook Login",
     "Google Firebase Analytics",
-    "Google CrashLytics"
+    "Facebook Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.haystack.android",
+      "ptr_domain": "edge-star-shv-01-ort2.facebook.com",
+      "ip_address": "157.240.2.20",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.haystack.android",
+      "ptr_domain": "edge-star-shv-01-amt2.facebook.com",
+      "ip_address": "31.13.64.16",
+      "loc_city": "N/A",
+      "loc_country": "Ireland",
+      "loc_continent": "Europe",
+      "loc_long": "-6.243900",
+      "loc_lat": "53.347200"
+    }
   ]
 }

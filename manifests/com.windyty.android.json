@@ -1,7 +1,7 @@
 {
   "appName": "Windy",
   "packageName": "com.windyty.android",
-  "category": "WEATHER",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
@@ -15,7 +15,29 @@
   ],
   "version": "18.0207",
   "trackers": [
-    "Google Firebase Analytics",
-    "Google Analytics"
+    "Google Analytics",
+    "Google Firebase Analytics"
+  ],
+  "network_connections": [
+    {
+      "package": "com.windyty.android",
+      "ptr_domain": "b1.windyty.com",
+      "ip_address": "139.162.210.148",
+      "loc_city": "London",
+      "loc_country": "United Kingdom",
+      "loc_continent": "Europe",
+      "loc_long": "-0.093100",
+      "loc_lat": "51.514200"
+    },
+    {
+      "package": "com.windyty.android",
+      "ptr_domain": "server-54-230-62-33.mad50.r.cloudfront.net",
+      "ip_address": "54.230.62.33",
+      "loc_city": "Seattle",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-122.303200",
+      "loc_lat": "47.540000"
+    }
   ]
 }

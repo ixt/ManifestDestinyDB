@@ -1,7 +1,7 @@
 {
   "appName": "ALSA",
   "packageName": "com.mo2o.alsa",
-  "category": "TRAVEL_AND_LOCAL",
+  "category": "",
   "icon": "",
   "permissions": [
     "android.permission.ACCESS_FINE_LOCATION",
@@ -21,12 +21,44 @@
   ],
   "version": "6.3.0",
   "trackers": [
-    "Google Analytics",
-    "Google Firebase Analytics",
-    "Facebook Login",
-    "Facebook Places",
     "Google CrashLytics",
+    "Facebook Places",
     "Facebook Analytics",
+    "Facebook Login",
+    "Google Firebase Analytics",
+    "Google Analytics",
     "Facebook Share"
+  ],
+  "network_connections": [
+    {
+      "package": "com.mo2o.alsa",
+      "ptr_domain": "edge-star-shv-01-cdg2.facebook.com",
+      "ip_address": "179.60.192.3",
+      "loc_city": "N/A",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-97.822000",
+      "loc_lat": "37.751000"
+    },
+    {
+      "package": "com.mo2o.alsa",
+      "ptr_domain": "ec2-54-235-190-60.compute-1.amazonaws.com",
+      "ip_address": "54.235.190.60",
+      "loc_city": "Ashburn",
+      "loc_country": "United States",
+      "loc_continent": "North America",
+      "loc_long": "-77.472800",
+      "loc_lat": "39.048100"
+    },
+    {
+      "package": "com.mo2o.alsa",
+      "ptr_domain": "N/A",
+      "ip_address": "91.126.136.176",
+      "loc_city": "Madrid",
+      "loc_country": "Spain",
+      "loc_continent": "Europe",
+      "loc_long": "-3.701600",
+      "loc_lat": "40.414300"
+    }
   ]
 }
