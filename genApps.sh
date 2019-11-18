@@ -126,21 +126,7 @@ cat <<EOF >> output/apps/$package.md
 
 EOF
 
-if [[ "${no_permissions}" -ne "1" ]]; then
-printf "## Permissions \n" >> output/apps/$package.md
-for permission in ${permissions[*]}; do
-    printf "{{< permission \"$permission\" >}}\n" >> output/apps/$package.md
-done
-fi
-
-if [[ "${no_trackers}" -ne "1" ]]; then
-printf "## Trackers \n" >> output/apps/$package.md
-for tracker in ${trackers[*]}; do
-    printf "{{< tracker \"$tracker\" >}}\n" >> output/apps/$package.md
-done 
-fi
-
-if [[ "${no_connections}" -ne "1" ]]; then
+if [[ "${#connections[@]}" -ne "0" ]]; then
 printf "## Map of past connections \n" >> output/apps/$package.md
 printf "{{< map \n" >> output/apps/$package.md
 for connection in ${connections[*]}; do

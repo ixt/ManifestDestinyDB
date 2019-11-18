@@ -64,10 +64,9 @@ iconext="${iconname##*.}"
 unzip -p $1 $iconpath > $package.$iconext
 fi
 category=$(curl -s "https://play.google.com/store/apps/details?id=$package" \
-    | grep 'itemprop="genre"' \
-    | egrep -o "https://play\.google\.com/store/apps/category/[A-Z_]*" \
-    | sed -e "s/.*\///g")
-
+    | grep "itemprop=\"genre\"" \
+    | grep -o "href=\"[/?a-ZA-Z_]*\"" \
+    | cut -d'"' -f2 | cut -d/ -f5 )
 if [[ ! -s "$package.png" ]]; then
     echo "second attempt $package" >&2
     iconpath=$(unzip -l $1 \
